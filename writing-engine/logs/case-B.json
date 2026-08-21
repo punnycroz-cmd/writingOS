@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-08-21T02:20:59.215Z",
+  "caseId": "B",
+  "sceneId": "ch3-scene3",
+  "revisionId": 1,
+  "originalPassage": "Maya touched the ceramic tile where the grout had crumbled — the same spot she'd traced with her thumb the morning of Papa's last dialysis. The kitchen smelled of cardamom and, beneath it, the metallic tang she'd learned meant trouble. She counted the pill bottles on the counter: three, not four.",
+  "diagnostic": "character_specificity",
+  "detection": {
+    "classification": "CHARACTER_SPECIFIC",
+    "evidence": [
+      "Counting the pill bottles (3, not 4) directly ties to Maya's compulsive counting habit and her current knowledge that there should be four",
+      "Noticing the smell of cardamom connects to her memory of Papa's pharmacy",
+      "Noticing the metallic tang beneath the cardamom shows her trained sensitivity to smells",
+      "Tracing the ceramic tile with her thumb shows her attention to specific details and spatial memory",
+      "The mention of Papa's last dialysis connects to her role as caregiver and memories of his illness"
+    ],
+    "absentDetails": [
+      "Maya would likely count the tiles or grout lines as part of her compulsive counting habit",
+      "She might notice the exact dosage on the pill bottles that are present",
+      "Her thoughts about the missing pill bottle might include calculations about how many doses remain"
+    ],
+    "narrativelyPurposeful": true,
+    "canonConflicts": [],
+    "reasoning": "The passage demonstrates high character specificity through Maya's compulsive counting of pill bottles, her attention to specific details like the ceramic tile, her recognition of cardamom scent (connecting to her father's pharmacy), and her ability to detect the metallic tang beneath it (showing her trained sensitivity to smells). These details are all causally tied to her established character state, including her perceptual habits, memories, and current knowledge."
+  },
+  "severity": "NONE",
+  "decision": "ACCEPT_UNCHANGED",
+  "intervention": null,
+  "validation": null,
+  "accepted": true,
+  "finalText": "Maya touched the ceramic tile where the grout had crumbled — the same spot she'd traced with her thumb the morning of Papa's last dialysis. The kitchen smelled of cardamom and, beneath it, the metallic tang she'd learned meant trouble. She counted the pill bottles on the counter: three, not four.",
+  "remainingDeferred": [],
+  "stateDiscovered": []
+}

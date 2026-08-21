@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-08-21T02:21:04.283Z",
+  "caseId": "C",
+  "sceneId": "ch4-scene1",
+  "revisionId": 1,
+  "originalPassage": "The morning moved the way mornings do. Light came through the window. There was a cup, and there was coffee in it, and there was the drinking of the coffee. She was a person doing the things a person does. The individual had not yet assembled itself; the day was only a shape.",
+  "diagnostic": "character_specificity",
+  "detection": {
+    "classification": "INTENTIONALLY_GENERIC",
+    "evidence": [
+      "The flat, detached description aligns with Maya's depersonalization under grief load (soft canon)",
+      "The phrase 'The individual had not yet assembled itself' suggests dissociation",
+      "The avoidance of emotional adjectives matches Maya's voice"
+    ],
+    "absentDetails": [
+      "No counting of objects (habitual for Maya)",
+      "No mention of specific clinical smells she would notice",
+      "No reference to dosages or medical labels"
+    ],
+    "narrativelyPurposeful": true,
+    "canonConflicts": [],
+    "reasoning": "This passage is intentionally generic to depict Maya's depersonalization state under grief load, which is established soft canon. The flat, detached narration with no specific details about what Maya would typically notice (counting objects, smells, labels) serves to show her dissociative state rather than being a failure of character specificity. The sparse, observational voice matches Maya's established voice, but the content is deliberately emptied of her perceptual habits to show her emotional state."
+  },
+  "severity": "NONE",
+  "decision": "ACCEPT_UNCHANGED",
+  "intervention": null,
+  "validation": null,
+  "accepted": true,
+  "finalText": "The morning moved the way mornings do. Light came through the window. There was a cup, and there was coffee in it, and there was the drinking of the coffee. She was a person doing the things a person does. The individual had not yet assembled itself; the day was only a shape.",
+  "remainingDeferred": [],
+  "stateDiscovered": []
+}

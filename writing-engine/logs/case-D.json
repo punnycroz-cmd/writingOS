@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-08-21T02:21:10.104Z",
+  "caseId": "D",
+  "sceneId": "ch5-scene2",
+  "revisionId": 1,
+  "originalPassage": "Maya glanced at the quarterly numbers Marcus had left on her desk. The figures looked fine, she supposed. She didn't really understand the financial side. She trusted Marcus and moved on to the next thing.",
+  "diagnostic": "character_specificity",
+  "detection": {
+    "classification": "CHARACTER_SPECIFIC",
+    "evidence": [
+      "Maya's acknowledgment of not understanding financial details aligns with her established financial illiteracy",
+      "Her automatic trust of Marcus shows her established pattern of relying on others for tasks outside her expertise",
+      "The sparse, observational voice matches her established narrative style"
+    ],
+    "absentDetails": [
+      "Maya would likely have noticed specific numbers or patterns in the financial report due to her perceptual habit of counting objects compulsively",
+      "She would have registered the smell of the paper or office due to her noticing smells first",
+      "Her emotional response to seeing the numbers (even if just internally) would likely involve some connection to her current stress about the clinic's struggles"
+    ],
+    "narrativelyPurposeful": true,
+    "canonConflicts": [],
+    "reasoning": "The passage shows Maya's established traits of financial illiteracy and trust in Marcus, along with her observational voice. While it could be more specific with her perceptual habits, it still reflects her character through her admission of not understanding finances and her automatic trust in Marcus. This aligns with her emotional state of controlled exhaustion and her tendency to avoid confronting difficult issues."
+  },
+  "severity": "NONE",
+  "decision": "ACCEPT_UNCHANGED",
+  "intervention": null,
+  "validation": null,
+  "accepted": true,
+  "finalText": "Maya glanced at the quarterly numbers Marcus had left on her desk. The figures looked fine, she supposed. She didn't really understand the financial side. She trusted Marcus and moved on to the next thing.",
+  "remainingDeferred": [],
+  "stateDiscovered": []
+}

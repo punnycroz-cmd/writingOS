@@ -1,0 +1,34 @@
+{
+  "timestamp": "2026-08-21T02:21:22.626Z",
+  "caseId": "F",
+  "sceneId": "ch6-scene4",
+  "revisionId": 1,
+  "originalPassage": "On her way out, Maya noticed the gardener had left a trowel on the bench. Odd, but she was late. She set down her keys beside it and didn't pick either of them up.",
+  "diagnostic": "character_specificity",
+  "detection": {
+    "classification": "CHARACTER_SPECIFIC",
+    "evidence": [
+      "Maya notices the trowel but doesn't interpret its significance (consistent with her focus on immediate tasks and avoidance of deeper meanings)",
+      "She sets keys beside the trowel without picking up either (ritualistic behavior that could relate to her counting habit or need for order)",
+      "The 'odd' observation shows she notices small details but doesn't dwell on them (consistent with her perceptual habits)"
+    ],
+    "absentDetails": [
+      "No counting of the trowel or other objects (would expect this given her compulsive counting habit)",
+      "No mention of smell (she typically notices smells first)",
+      "No automatic reading of any potential label on the trowel (she automatically reads dosages on labels)"
+    ],
+    "narrativelyPurposeful": true,
+    "canonConflicts": [],
+    "reasoning": "The passage demonstrates Maya's controlled, observational nature in noticing the trowel but not investigating further, consistent with her emotional state of holding grief at arm's length and focusing on immediate tasks. Her action of setting keys beside it without picking them up suggests a moment of ritualistic behavior that could tie to her need for order or control. While it doesn't fully leverage all her perceptual habits, it stays true to her voice of sparse observation and avoidance of emotional engagement."
+  },
+  "severity": "NONE",
+  "decision": "ACCEPT_UNCHANGED",
+  "intervention": null,
+  "validation": null,
+  "accepted": true,
+  "finalText": "On her way out, Maya noticed the gardener had left a trowel on the bench. Odd, but she was late. She set down her keys beside it and didn't pick either of them up.",
+  "remainingDeferred": [
+    "DC-1"
+  ],
+  "stateDiscovered": []
+}

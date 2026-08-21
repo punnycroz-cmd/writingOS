@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-08-21T02:21:15.033Z",
+  "caseId": "E",
+  "sceneId": "ch2-scene1",
+  "revisionId": 1,
+  "originalPassage": "Arlo walked into the unfamiliar room. He looked around at the furniture, noting the deep crimson of the curtains and the way the afternoon light fell across the rug. It was a pleasant space, he thought.",
+  "diagnostic": "character_specificity",
+  "detection": {
+    "classification": "CANON_VIOLATION",
+    "evidence": [],
+    "absentDetails": [
+      "How the room's acoustics might sound to Arlo",
+      "The texture of the furniture he would touch",
+      "The specific sounds that would help him map the space"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [
+      "Arlo is described as looking around and noting visual details (color of curtains, light falling on rug), which contradicts the hard canon that he is totally blind"
+    ],
+    "reasoning": "The passage directly contradicts established canon by having a blind character observe visual details. This is a clear violation of the character's established physical reality. A character-specific passage would instead focus on how Arlo perceives the space through sound, touch, or other non-visual means consistent with his perceptual habits as a blind sound engineer."
+  },
+  "severity": "CRITICAL",
+  "decision": "REJECT_AND_FLAG",
+  "intervention": null,
+  "validation": null,
+  "accepted": false,
+  "finalText": "Arlo walked into the unfamiliar room. He looked around at the furniture, noting the deep crimson of the curtains and the way the afternoon light fell across the rug. It was a pleasant space, he thought.",
+  "remainingDeferred": [],
+  "stateDiscovered": []
+}
