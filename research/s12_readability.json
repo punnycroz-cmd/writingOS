@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S1551741112000770",
+    "name": "Assessing readability formula differences with written",
+    "snippet": "by LW Wang · 2013 · Cited by 566 — The Flesch - Kincaid formula was most commonly used (57.42%). Readability formulas demonstrated variability up to 5 reading grade levels on the same text. ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.uxmatters.com/mt/archives/2019/07/readability-formulas-7-reasons-to-avoid-them-and-what-to-do-instead.php",
+    "name": "Readability Formulas: 7 Reasons to Avoid Them and What",
+    "snippet": "Jul 29, 2019 — SMOG Index—Counts the percentage of words with three or more syllables . Gunning Fog Index—Counts average sentence length and the percentage of ... Read more",
+    "host_name": "www.uxmatters.com",
+    "rank": 1,
+    "date": "Jul 29, 2019",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10444605",
+    "name": "The readability of parent information leaflets in paediatric studies",
+    "snippet": "by E Nash · 2023 · Cited by 34 — Readability formulas can objectively evaluate written health information by calculating the number of formal years of schooling a reader ... Read more",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.ahrq.gov/talkingquality/resources/writing/tip6.html",
+    "name": "Tip 6. Use Caution With Readability Formulas for Quality",
+    "snippet": "The formulas do not measure comprehension or reading ease. Readability formulas completely ignore most factors that contribute to ease of reading and ... Read more",
+    "host_name": "www.ahrq.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://readable.com/blog/how-to-choose-the-right-readability-formula",
+    "name": "How to choose the right readability formula",
+    "snippet": "Apr 4, 2017 — The SMOG readability score is generated based on the 10 consecutive sentences near the beginning of the text, the 10 in the middle and the 10 ... Read more",
+    "host_name": "readable.com",
+    "rank": 4,
+    "date": "Apr 4, 2017",
+    "favicon": ""
+  },
+  {
+    "url": "https://help.siteimprove.com/support/solutions/articles/80000448325-readability-tests",
+    "name": "Flesch Kincaid Grade Level readability test",
+    "snippet": "Jun 4, 2026 — Gunning Fog is a readability test just for English texts . A score can only be calculated using this test if the content of the page is over 100 ...",
+    "host_name": "help.siteimprove.com",
+    "rank": 5,
+    "date": "Jun 4, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.communicatingwithfinesse.com/post/use-caution-when-using-readability-formulas-like-flesch-reading-ease",
+    "name": "Use Caution When Using Readability Formulas like Flesch",
+    "snippet": "Nov 8, 2023 — Readability formulas completely ignore most factors that contribute to ease of reading and comprehension. A grade-level score tells you nothing ... Read more",
+    "host_name": "www.communicatingwithfinesse.com",
+    "rank": 6,
+    "date": "Nov 8, 2023",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.primescholars.com/articles/the-accuracy-of-readability-formulas-in-health-content-a-systematic-review-126427.html",
+    "name": "The Accuracy of Readability Formulas in Health Content",
+    "snippet": "The accuracy of FKGL was evaluated in three studies; SMOG and Gunning Fog ... criticisms , and limitations of using readability formulas to assess health content. Read more",
+    "host_name": "www.primescholars.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hsph.harvard.edu/research/health-communication/resources/smog",
+    "name": "SMOG Readability Formula: Your Tool for Clearer Health",
+    "snippet": "Compared to other readability formulas , the SMOG is quick and simple. It doesn't require counting every word or every syllable in a document. It is an easy ... Read more",
+    "host_name": "hsph.harvard.edu",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  }
+]

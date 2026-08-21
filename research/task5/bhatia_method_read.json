@@ -1,0 +1,38 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "",
+    "httpStatus": 200,
+    "httpStatusText": "OK",
+    "metadata": {
+      "Author": "",
+      "CreationDate": "D:20010201101949",
+      "Creator": "PDF Design XT version 1.5.5",
+      "EncryptFilterName": null,
+      "IsAcroFormPresent": false,
+      "IsCollectionPresent": false,
+      "IsLinearized": true,
+      "IsSignaturesPresent": false,
+      "IsXFAPresent": false,
+      "Keywords": "",
+      "Language": null,
+      "ModDate": "D:20010201102002+01'00'",
+      "PDFFormatVersion": "1.2",
+      "Producer": "Acrobat Distiller 4.0.5  for Macintosh",
+      "Subject": "",
+      "Title": ""
+    },
+    "title": "59053",
+    "url": "https://tidsskrift.dk/her/article/download/25383/22306/59053",
+    "usage": {
+      "tokens": 0
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 0
+    }
+  },
+  "status": 200
+}

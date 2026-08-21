@@ -1,0 +1,39 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "",
+    "httpStatus": 200,
+    "httpStatusText": "",
+    "metadata": {
+      "Author": "",
+      "CreationDate": "D:20010206085542",
+      "Creator": "PDF Design XT version 1.7",
+      "EncryptFilterName": null,
+      "IsAcroFormPresent": false,
+      "IsCollectionPresent": false,
+      "IsLinearized": true,
+      "IsSignaturesPresent": false,
+      "IsXFAPresent": false,
+      "Keywords": "",
+      "Language": null,
+      "ModDate": "D:20010206085552+01'00'",
+      "PDFFormatVersion": "1.2",
+      "Producer": "Acrobat Distiller 4.0.5  for Macintosh",
+      "Subject": "",
+      "Title": ""
+    },
+    "publishedTime": "Mon, 10 Nov 2025 12:11:10 GMT",
+    "title": "H19_20.pdf",
+    "url": "https://pure.au.dk/ws/files/9981/H19_20.pdf",
+    "usage": {
+      "tokens": 0
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 0
+    }
+  },
+  "status": 200
+}

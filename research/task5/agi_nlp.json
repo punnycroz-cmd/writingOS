@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.mdpi.com/2504-4990/5/3/59",
+    "name": "Automatic Genre Identification for Robust Enrichment of Massive Text",
+    "snippet": "Automatic genre identification is a text classification task that enriches texts with genre labels, such as promotional and legal, providing meaningful insights",
+    "host_name": "www.mdpi.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://encyclopedia.pub/entry/50603",
+    "name": "Automatic Genre Identification for Massive Text Collections",
+    "snippet": "Automatic genre identification is a text classification task, as a method of providing insights into the content of large text collections.",
+    "host_name": "encyclopedia.pub",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10579-023-09695-8",
+    "name": "Automatic genre identification: a survey - Springer Nature",
+    "snippet": "Nov 16, 2023 · Automatic genre identification (AGI) is a text classification task focused on genres, i.e., text categories defined by the author's purpose, ...",
+    "host_name": "link.springer.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://research.google/pubs/automatic-genre-specific-text-classification",
+    "name": "Automatic Genre-specific Text Classification - Google Research",
+    "snippet": "In this chapter, we share our hands-on experience with one specific text mining task — text classification [Sebastiani, 2002]. Information occurs in various ...",
+    "host_name": "research.google",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/375695714_Automatic_genre_identification_a_survey",
+    "name": "(PDF) Automatic genre identification: a survey - ResearchGate",
+    "snippet": "Nov 16, 2023 · Automatic genre identification (AGI) is a text classification task focused on genres, i.e., text categories defined by the author's purpose, ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/42922535/genres-classification-of-documents",
+    "name": "Genres classification of documents - Stack Overflow",
+    "snippet": "Mar 21, 2017 · NLP Collective machine-learning nlp classification. For classifying a paragraph under a category, first try to extract the unique words of the ...",
+    "host_name": "stackoverflow.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.tandfonline.com/doi/full/10.1080/09296174.2026.2612931",
+    "name": "Burrows' Delta as a Convergent Validator: Stylometric",
+    "snippet": "by G Mikros · 2026 · Cited by 2 — Burrows' Delta-based distances between MT outputs and human translations can indicate stylistic proximity at the function-word and MFW signature level.",
+    "host_name": "www.tandfonline.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.humanitiesdataanalysis.org/stylometry/notebook.html",
+    "name": "Stylometry and the Voice of Hildegard",
+    "snippet": "Burrows's Delta is a technique for authorship attribution , which was introduced by Burrows [2002]. considered one of the founding fathers of present-day  ...",
+    "host_name": "www.humanitiesdataanalysis.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dh-abstracts.library.virginia.edu/works/2693",
+    "name": "Choosing Words for Stylometric Authorship Attribution",
+    "snippet": "To answer our research question, the metric we used for a set of words' distinguishing power was the difference in Burrows ' Deltas for the two authors with the ... Read more",
+    "host_name": "dh-abstracts.library.virginia.edu",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2407.10301v1",
+    "name": "Does Burrows' Delta really confirm that Rowling and",
+    "snippet": "Jul 14, 2024 — Overall, it can be stated that the stylo dataset proposed for authorship attribution is very peculiar and does not meet the minimum requirements ... Read more",
+    "host_name": "arxiv.org",
+    "rank": 3,
+    "date": "Jul 14, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://academic.oup.com/dsh/article/32/suppl_2/ii4/3865676",
+    "name": "Understanding and explaining Delta measures for authorship",
+    "snippet": "by S Evert · 2017 · Cited by 291 — Delta , as defined by Burrows , is a distance measure. It describes the distance between one text and a group of texts. all documents can now be ...",
+    "host_name": "academic.oup.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://book-of-gehn.github.io/articles/2020/11/12/TLDR-Stylometrics.html",
+    "name": "TL;DR Stylometrics",
+    "snippet": "Nov 12, 2020 — Burrows' Delta models a set of documents as a matrix . Each document is modeled as a algebraic vector where each position represent a word and ... Read more",
+    "host_name": "book-of-gehn.github.io",
+    "rank": 5,
+    "date": "Nov 12, 2020",
+    "favicon": ""
+  },
+  {
+    "url": "https://rpubs.com/Shevek/deltas",
+    "name": "Argamon's Quadratic Delta or: How I just attained an",
+    "snippet": "Dec 10, 2020 — Burrows's Delta , The word stylometry is often used as a synonym for authorship attribution",
+    "host_name": "rpubs.com",
+    "rank": 6,
+    "date": "Dec 10, 2020",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=R47s2n8BeNQ",
+    "name": "An overview of Burrows' Delta for authorship attribution",
+    "snippet": "Authorship attribution is the task of determining the author of a given text based on the most frequent word usage . Burrows' Delta has emerged ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.academia.edu/21241069/Towards_a_better_understanding_of_Burrowss_Delta_in_literary_authorship_attribution",
+    "name": "Towards a better understanding of Burrows's Delta in",
+    "snippet": "Burrows's Delta is the most established measure for stylometric difference in literary authorship attribution . Several improvements on the original Delta ...",
+    "host_name": "www.academia.edu",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  }
+]

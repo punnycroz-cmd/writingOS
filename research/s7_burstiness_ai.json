@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.pangram.com/blog/why-perplexity-and-burstiness-fail-to-detect-ai",
+    "name": "Why Perplexity and Burstiness Fail to Detect AI - Pangram",
+    "snippet": "Mar 4, 2025 · Perplexity and burstiness sound scientific, but they can't reliably detect AI writing at a low false positive rate — here's what they measure ...",
+    "host_name": "www.pangram.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://effortlessacademic.com/how-reliable-are-ai-detectors",
+    "name": "How Reliable Are AI Detectors For Academic Text?",
+    "snippet": "AI detection can work reliably, but it depends on which tool you use. Some AI detectors are more reliable than others, and when compared systematically, they do ... How does AI detection work? · Is AI detection reliable? · Can you avoid AI detection?",
+    "host_name": "effortlessacademic.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quillbot.com/blog/ai-writing-tools/burstiness-and-perplexity",
+    "name": "Burstiness & Perplexity | Definition & Examples - QuillBot",
+    "snippet": "Aug 28, 2025 · Burstiness and perplexity are two measures used to evaluate large language models (LLMs) and detect AI-written text.",
+    "host_name": "quillbot.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://researchguides.gonzaga.edu/GenerativeAIforFaculty/AIDetectors",
+    "name": "A Guide to AI for Gonzaga Faculty: AI Detectors",
+    "snippet": "May 18, 2026 · In general, AI creates text with lower perplexity and burstiness than humans do. AI generators will therefore rate text with low perplexity and ...",
+    "host_name": "researchguides.gonzaga.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/ArtificialInteligence/comments/14bhhb7/how_to_write_content_using_chatgpt_that_outsmarts",
+    "name": "How to Write Content Using ChatGPT that Outsmarts AI Detection",
+    "snippet": "Jun 17, 2023 · [ When it comes to writing content, two factors are crucial, “perplexity” and “burstiness.” Perplexity measures the complexity of text.",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.quora.com/Why-do-short-texts-often-pass-AI-detection-while-long-articles-fail",
+    "name": "Why do short texts often pass AI detection while long articles fail?",
+    "snippet": "Feb 2, 2026 · AI detectors do not read for tone, style, or creativity; they analyze pure statistics. burstiness measures the variation in sentence length and ...",
+    "host_name": "www.quora.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://theconversation.com/we-pitted-chatgpt-against-tools-for-detecting-ai-written-text-and-the-results-are-troubling-199774",
+    "name": "We pitted ChatGPT against tools for detecting AI-written text, and the",
+    "snippet": "Feb 19, 2023 · OpenAI admits it accurately identifies only 26% of AI-generated text (true positive) while incorrectly labelling human prose as AI-generated 9% ...",
+    "host_name": "theconversation.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tryleap.ai/learn/perplexity-vs-burstiness",
+    "name": "Perplexity vs Burstiness: Why AI Detectors Flag Text - Leap AI",
+    "snippet": "Apr 16, 2026 · Perplexity vs burstiness explained: why AI detectors flag predictable text, how sentence variation changes scores, and how to check your own ...",
+    "host_name": "www.tryleap.ai",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/the-generator/the-dummy-guide-to-perplexity-and-burstiness-in-ai-generated-content-1b4cb31e5a81",
+    "name": "The Dummy Guide to 'Perplexity' and 'Burstiness' in AI-generated",
+    "snippet": "Feb 17, 2023 · Perplexity and burstiness are measures of AI natural language processing. To create engaging content, include some unpredictability and vary ...",
+    "host_name": "medium.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/pulse/abcs-ai-detectors-tradinos",
+    "name": "The ABCs of AI Detectors - LinkedIn",
+    "snippet": "Jun 23, 2023 · Burstiness assesses the variation in sentence structure and length within a text. AI-generated text often exhibits less burstiness compared to ...",
+    "host_name": "www.linkedin.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

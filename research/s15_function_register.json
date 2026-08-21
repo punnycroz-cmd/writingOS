@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://academic.oup.com/dsh/article/39/2/765/7634746",
+    "name": "discriminatory power of function words in text type classification",
+    "snippet": "by K Venglařová · 2024 · Cited by 3 — Our work aims to evaluate the strength of the association between function words and several text types: novels, poems, academic articles, ... Read more",
+    "host_name": "academic.oup.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.konvens-1.10.pdf",
+    "name": "Function Words as Stable Features for German Opinion",
+    "snippet": "by A Schmidt-Colberg · 2025 — We thus hypothesize that using function words as classification features we can achieve stable clas- sification distinguishing neutral news articles from. Read more 11 pages",
+    "host_name": "aclanthology.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/354873029_Preliminary_Studies_on_Register_Function_of_Chinese_Function_Words",
+    "name": "(PDF) Preliminary Studies on Register Function of Chinese",
+    "snippet": "Jul 14, 2026 — This paper explores the effectiveness of Chinese function words in register studies based on text mining and attempts to determine their ... Read more",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "Jul 14, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/Text-Genre-Detection-Using-Common-Word-Frequencies-Stamatatos-Fakotakis/bc9edab1799a43f97bbeda92ec13681c486d6c67",
+    "name": "Text Genre Detection Using Common Word Frequencies",
+    "snippet": "This paper examines automated genre classification of text documents and its role in enabling the effective management of digital documents by digital libraries",
+    "host_name": "www.semanticscholar.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.academia.edu/81853180/The_Development_of_a_Functional_Function_Word_List_from_Form_and_Meaning",
+    "name": "(PDF) The Development of a Functional Function Word List",
+    "snippet": "function words are stable relative to content words . Function words are less topic-influenced but more genre-influenced.",
+    "host_name": "www.academia.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/e80fbfaf-736c-4f32-bd98-ed99ef330316/download",
+    "name": "Genres, Registers, Text Types, Domain, and Styles",
+    "snippet": "by DYW Lee · 2001 · Cited by 991 — ABSTRACT. In this paper, an attempt is first made to clarify and tease apart the somewhat confusing terms genre , register , text type, domain, sublanguage, ... Read more",
+    "host_name": "scholarspace.manoa.hawaii.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.nature.com/articles/s41599-025-05089-z",
+    "name": "A type-theoretical approach to categorical interaction and",
+    "snippet": "by R Hou · 2025 — Through the modeling study of the classification of registers , we provide empirical evidence for a type-theoretical definition of grammatical ... Read more",
+    "host_name": "www.nature.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/W17-4910.pdf",
+    "name": "Corpus and Features for German Genre and Register",
+    "snippet": "by T Haider · 2017 · Cited by 6 — The feature sets are used for super- vised text genre classification , patterns such as function words , surface forms, character / part-of-speech n-grams, etc., ... 11 pages",
+    "host_name": "aclanthology.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://link.springer.com/article/10.1007/s10579-023-09695-8",
+    "name": "Automatic genre identification: a survey - Springer Nature",
+    "snippet": "by T Kuzman · 2025 · Cited by 30 — In this paper, we present a detailed overview of different approaches to each of the steps of the AGI task, from the definition of the genre ... Read more",
+    "host_name": "link.springer.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://serokell.io/blog/design-patterns-for-long-term-memory-in-llm-powered-architectures",
+    "name": "Design Patterns for Long-Term Memory in LLM-Powered",
+    "snippet": "Dec 9, 2025",
+    "host_name": "serokell.io",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2310.08560",
+    "name": "MemGPT: Towards LLMs as Operating Systems",
+    "snippet": "by C Packer · 2023 · Cited by 1442 — MemGPT can create conversational agents that remember, reflect, and evolve dynamically through long - term interactions with their users.",
+    "host_name": "arxiv.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/agi/comments/17cojcp/memgpt_towards_llms_as_operating_systems_uc",
+    "name": "MemGPT: Towards LLMs as Operating Systems",
+    "snippet": "MemGPT (Memory-GPT), a system that intelligently manages different memory tiers in order to effectively provide extended context within the LLM ...",
+    "host_name": "www.reddit.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://informationmatters.org/2025/10/memgpt-engineering-semantic-memory-through-adaptive-retention-and-context-summarization",
+    "name": "MemGPT: Engineering Semantic Memory through Adaptive",
+    "snippet": "Oct 16, 2025 — MemGPT, or MemoryGPT , is an AI system that gives Large Language Models (LLMs) the ability to manage their own memory by mimicking the ...",
+    "host_name": "informationmatters.org",
+    "rank": 3,
+    "date": "Oct 16, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/charles-packer_introducing-memgpt-a-method-for-extending-activity-7119710815817011200-3CFP",
+    "name": "Charles Packer's Post",
+    "snippet": "MemGPT lets you scale LLMs like GPT-4 to tasks requiring large context sizes and long - term memory . It efficiently uses limited memory",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.alphaxiv.org/abs/2310.08560",
+    "name": "MemGPT: Towards LLMs as Operating Systems",
+    "snippet": "MemGPT enables Large Language Models (LLMs ) to overcome their limited context windows by implementing an operating system-inspired hierarchical memory ...",
+    "host_name": "www.alphaxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@parklize/how-memory-is-implemented-in-llm-based-agents-f08e7b6662ff",
+    "name": "How Memory is Implemented in LLM-based Agents?",
+    "snippet": "MemGPT takes an OS-inspired approach , using a combination of a rolling FIFO queue for working memory and external storage for long-term memory, ... Read more",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://evermind.ai/blogs/memgpt-alternative",
+    "name": "Best MemGPT Alternatives for AI Agent Memory in 2026",
+    "snippet": "Apr 13, 2026 — By proposing an \" LLM OS\" architecture —where an agent actively manages its own memory by paging information between a main context window and ... Read more",
+    "host_name": "evermind.ai",
+    "rank": 7,
+    "date": "Apr 13, 2026",
+    "favicon": ""
+  }
+]

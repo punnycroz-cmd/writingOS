@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://arxiv.org/html/2505.24803v2",
+    "name": "Guiding Generative Storytelling with Knowledge Graphs",
+    "snippet": "Jun 2, 2025 — By structuring information into interconnected entities and relationships, knowledge graphs can systematically track story elements , mitigating ... Read more",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "Jun 2, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://senzing.com/knowledge-graph",
+    "name": "Improved Knowledge Graphs with Entity Resolution",
+    "snippet": "When knowledge graphs are entity resolved, the resulting entity resolved knowledge graphs are more accurate and useful for both humans and machines. These ... Read more",
+    "host_name": "senzing.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2079-9292/13/18/3688",
+    "name": "Processing the Narrative: Innovative Graph Models and",
+    "snippet": "by G Vargas-Solar · 2024 · Cited by 4 — This paper proposes a critical study of state -of-the-art contributions exploring the complexities and emerging trends in representing, querying, and analysing ...",
+    "host_name": "www.mdpi.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.implicit.cloud/article/knowledge-graph-entity-graph",
+    "name": "Knowledge Graphs and Entity Graphs: When You Need",
+    "snippet": "Knowledge graphs combine databases, graphs , and knowledge bases into a single, new representation of entities and their relationships to each other.",
+    "host_name": "www.implicit.cloud",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/LLMDevs/comments/1hpiovr/can_narrative_data_stories_be_stored_as_knowledge",
+    "name": "Can narrative data (stories) be stored as knowledge graphs?",
+    "snippet": "The following is a spec for a process I use that is more of a synthetic knowledge graph , an abstraction of it that I have found works the same. Read more",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://discoveredlabs.com/blog/entity-recognition-knowledge-graphs-how-to-structure-your-brand-for-ai-understanding",
+    "name": "Entity Recognition & Knowledge Graphs: How to Structure",
+    "snippet": "Jan 28, 2026 — Knowledge graphs organize entities and their relationships in a way that makes them easy to query, reason about, and analyze.",
+    "host_name": "discoveredlabs.com",
+    "rank": 5,
+    "date": "Jan 28, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10123011",
+    "name": "A discovery system for narrative query graphs - PMC - NIH",
+    "snippet": "by H Kroll · 2023 · Cited by 28 — Existing thesauri and distinguishing relations between certain entities were essential for realizing access via narrative query graphs . The ... Read more",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://neo4j.com/blog/knowledge-graph/entity-resolved-knowledge-graphs",
+    "name": "Entity resolved knowledge graphs: A tutorial",
+    "snippet": "Apr 22, 2024 — Learn how to use Neo4j and Senzing to build entity resolved knowledge graphs that remove duplicate data and improve analytics accuracy.",
+    "host_name": "neo4j.com",
+    "rank": 7,
+    "date": "Apr 22, 2024",
+    "favicon": ""
+  }
+]

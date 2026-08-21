@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://aclanthology.org/2025.findings-acl.289.pdf",
+    "name": "[PDF] Context-Aware Hierarchical Merging for Long Document Summarization",
+    "snippet": "Jul 27, 2025 · Hierarchical Merging is a technique commonly used to summarize very long texts (>100K to- kens) by breaking down the input into smaller sections ...",
+    "host_name": "aclanthology.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/LangChain/comments/1hxeqev/how_to_summarize_large_documents",
+    "name": "How to summarize large documents : r/LangChain - Reddit",
+    "snippet": "Jan 9, 2025 · Adopt a multi-level hierarchical summarization approach. This involves breaking the process into distinct stages and using multiple passes to ...",
+    "host_name": "www.reddit.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11065887",
+    "name": "A study of extractive summarization of long documents incorporating local",
+    "snippet": "May 2, 2024 · The sentence-level hierarchical structure information includes the linear position of the paragraph to which the sentence belongs and the linear ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2502.00977",
+    "name": "Context-Aware Hierarchical Merging for Long Document Summarization",
+    "snippet": "Feb 3, 2025 · Hierarchical Merging is a technique commonly used to summarize very long texts (>100K tokens) by breaking down the input into smaller sections, ...",
+    "host_name": "arxiv.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pieces.app/blog/hierarchical-summarization",
+    "name": "Building Long-Term memories using hierarchical summarization",
+    "snippet": "May 5, 2025 · Learn how hierarchical summarization builds efficient Long-Term memories by capturing, summarizing, and organizing data for faster context ...",
+    "host_name": "pieces.app",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3545176",
+    "name": "An Empirical Survey on Long Document Summarization: Datasets",
+    "snippet": "In this survey, we provide a comprehensive overview of the research on long document summarization and a systematic evaluation across the three principal ...",
+    "host_name": "dl.acm.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciopen.com/article/10.23919/JSC.2024.0010",
+    "name": "Segmented Summarization and Refinement: A Pipeline for Long",
+    "snippet": "Jun 30, 2024 · This paper presents a novel three-stage pipeline for effective long document summarization. The proposed approach combines unsupervised and ...",
+    "host_name": "www.sciopen.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://joscex.shmpublisher.com/index.php/journal/article/download/5/24",
+    "name": "[PDF] Efficient hierarchical summarization of long legal documents using a",
+    "snippet": "This research addresses the challenges of summarizing long and complex legal documents, which often exceed the input length limitations of transformer-.",
+    "host_name": "joscex.shmpublisher.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/huankoh/long-doc-summarization",
+    "name": "huankoh/long-doc-summarization: Long Document  - GitHub",
+    "snippet": "A collection of papers and resources across three principal components of long document summarization: Datasets, Models and Metrics. Updates.",
+    "host_name": "github.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/hierarchical-document-summarization",
+    "name": "Hierarchical Document Summarization - Emergent Mind",
+    "snippet": "Apr 13, 2026 · Hierarchical document summarization is a method that models internal and cross-document structure to produce coherent summaries for long or ...",
+    "host_name": "www.emergentmind.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

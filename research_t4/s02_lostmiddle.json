@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/abs/2307.03172",
+    "name": "Lost in the Middle: How Language Models Use Long Contexts - arXiv",
+    "snippet": "Jul 6, 2023 · Lost in the Middle: How Language Models Use Long Contexts, by Nelson F. Liu. We analyze the performance of language models on two tasks … 18 ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/2024.tacl-1.9",
+    "name": "Lost in the Middle: How Language Models Use Long Contexts",
+    "snippet": "Abstract. While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context.",
+    "host_name": "aclanthology.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.03172",
+    "name": "[PDF] arXiv:2307.03172v3 [cs.CL] 20 Nov 2023",
+    "snippet": "Nov 20, 2023 · Lost in the Middle: How Language Models Use Long Contexts Nelson F. Liu1∗. We analyze the performance of language models … how language models ...",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/why-language-models-are-lost-in-the-middle-629b20d86152",
+    "name": "Why Language Models Are “Lost in the Middle” - Towards AI",
+    "snippet": "Nov 10, 2025 · Liu, N. Y., Hopkins, K., Woss, A., & Dal, E. (2023). Lost in the middle: How language models use long contexts. arXiv preprint arXiv:2307.03172.",
+    "host_name": "pub.towardsai.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/abs/2311.09198",
+    "name": "[2311.09198] Never Lost in the Middle: Mastering Long-Context",
+    "snippet": "Nov 15, 2023 · The \"lost in the middle\" problem challenges most LLMs, referring to the dramatic decline in accuracy when correct information is located in the ...",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2311.09198v2",
+    "name": "Never Lost in the Middle: Mastering Long-Context Question  - arXiv",
+    "snippet": "Aug 13, 2024 · LLMs fail to produce correct answers if related documents are located in the middle of the context, called \"lost in the middle\" Liu et al. . It ...",
+    "host_name": "arxiv.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/nelson-liu/lost-in-the-middle",
+    "name": "Lost in the Middle: How Language Models Use Long Contexts",
+    "snippet": "This repository contains accompanying material for Lost in the Middle: How Language Models Use Long Contexts. {liu-etal:2023:arxiv, author. Liu and Kevin Lin",
+    "host_name": "github.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2403.04797v1",
+    "name": "Found in the Middle: How Language Models Use Long Contexts",
+    "snippet": "Mar 5, 2024 · Liu et al. (2023) demonstrated a substantial degradation in LLMs' performance when crucial information is positioned amidst a lengthy context, ...",
+    "host_name": "arxiv.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pristren.com/blog/lost-in-middle-attention-paper",
+    "name": "Lost in the Middle: Why LLMs Struggle With Long Contexts - Pristren",
+    "snippet": "Apr 18, 2026 · Liu et al. 2023 revealed a U-shaped performance curve in LLMs: best recall at context edges, severe degradation in the middle.",
+    "host_name": "pristren.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/@carolzhu/lost-in-the-middle-how-language-models-use-long-contexts-2891830f8000",
+    "name": "Practical AI/ML Paper reading： “Lost in the Middle”: How Language",
+    "snippet": "Apr 30, 2024 · While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context.",
+    "host_name": "medium.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

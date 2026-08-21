@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4490052",
+    "name": "Psychometric Evaluation of Lexical Diversity Indices - PMC - NIH",
+    "snippet": "by G Fergadiotis · 2015 · Cited by 161 — The scores for measure of textual lexical diversity and moving - average type – token ratio were stronger indicators of the LD of the language samples.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://conductscience.com/speech-therapy/metrics/mattr?srsltid=AfmBOoqu9eloyKnxxlVuZrDGrDfN93dKuuHMcFCfeT-yYe1HZWAaJTVd",
+    "name": "Moving-Average Type-Token Ratio (MATTR)",
+    "snippet": "MATTR has become the lexical-diversity metric of choice in modern automated LSA tools and in most corpus-linguistic research. Formula. MATTR = mean of (TTR_i) ... Read more",
+    "host_name": "conductscience.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://perso.uclouvain.be/yves.bestgen/images/RMAL24.pdf",
+    "name": "Estimating Lexical Diversity Using the Moving Average",
+    "snippet": "by Y Bestgen · Cited by 13 — Several recent studies have strongly recommended the use of the moving average type - token ratio . ( MATTR ) to estimate the lexical diversity (LD) of a text ... Read more 11 pages",
+    "host_name": "perso.uclouvain.be",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4928392",
+    "name": "Estimating Lexical Diversity Using the Moving Average",
+    "snippet": "by Y Bestgen · Cited by 14 — Several recent studies have strongly recommended the use of the moving average type-token ratio (MATTR ) to estimate the lexical diversity (LD) ... Read more",
+    "host_name": "papers.ssrn.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://quanteda.io/reference/textstat_lexdiv.html",
+    "name": "Calculate lexical diversity — textstat_lexdiv",
+    "snippet": "\" MATTR \" : The Moving - Average Type - Token Ratio (Covington & McFall, 2010) calculates TTRs for a moving window of tokens from the first to the last token ... Read more",
+    "host_name": "quanteda.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/220469242_Cutting_the_Gordian_Knot_The_Moving-Average_Type-Token_Ratio_MATTR",
+    "name": "The Moving-Average Type–Token Ratio (MATTR)",
+    "snippet": "Jul 16, 2026 — Type – token ratio (TTR), or vocabulary size divided by text length (V/N), is a time-honoured but unsatisfactory measure of lexical diversity . Read more",
+    "host_name": "www.researchgate.net",
+    "rank": 5,
+    "date": "Jul 16, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://metricgate.com/docs/type-token-ratio-lexical-diversity",
+    "name": "Type-Token Ratio Lexical Diversity Calculator",
+    "snippet": "Jun 2, 2026 — The type - token ratio (TTR) summarizes how rich a text's vocabulary is as the share of unique word types among all tokens . MATTR Moving - Average ...",
+    "host_name": "metricgate.com",
+    "rank": 6,
+    "date": "Jun 2, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.04626",
+    "name": "Measuring Lexical Diversity in Texts: The Twofold Length",
+    "snippet": "by Y Bestgen · 2023 · Cited by 43 — Moving - Average Type - Token Ratio ( MATTR ). This index is obtained by moving a window of n tokens along the tokens of the text, starting with the first one and ... Read more",
+    "host_name": "arxiv.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.scribd.com/document/456320334/covington2010-mattr-pdf",
+    "name": "Moving-Average Type-Token Ratio (MATTR) | PDF",
+    "snippet": "May 14, 2010 — TTR is commonly used to measure lexical diversity but is problematic because it is affected by text length. MATTR addresses this by computing ... Read more",
+    "host_name": "www.scribd.com",
+    "rank": 8,
+    "date": "May 14, 2010",
+    "favicon": ""
+  }
+]

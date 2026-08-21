@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3813439",
+    "name": "Measuring Lexical Diversity in Narrative Discourse of People",
+    "snippet": "by G Fergadiotis · 2013 · Cited by 203 — The Measure of Textual Lexical Diversity ( MTLD ; McCarthy , 2005 ) employs a sequential analysis of a sample to estimate an LD score.",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0346251X12000887",
+    "name": "Effects of text length on lexical diversity measures",
+    "snippet": "by R Koizumi · 2012 · Cited by 199 — McCarthy ( 2005 ) developed the measure of textual lexical diversity ( MTLD ), another software-based assessment measure , which is computed using the Gramulator",
+    "host_name": "www.sciencedirect.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://metricgate.com/docs/mtld-lexical-diversity",
+    "name": "MTLD Textual Lexical Diversity Calculator",
+    "snippet": "Jun 2, 2026 — MTLD is the standard length -robust measure of lexical diversity , making vocabulary richness comparable across documents of any length . Read more",
+    "host_name": "metricgate.com",
+    "rank": 2,
+    "date": "Jun 2, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=1008&context=sphr_fac",
+    "name": "Psychometric Evaluation of Lexical Diversity Indices",
+    "snippet": "by G Fergadiotis · 2015 · Cited by 161 — Another tool that has been proposed recently for estimating LD is the measure of textual lexical diversity ( MTLD ; McCarthy , 2005 ). MTLD reflects the average ...",
+    "host_name": "pdxscholar.library.pdx.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2307.04626",
+    "name": "Measuring Lexical Diversity in Texts: The Twofold Length",
+    "snippet": "by Y Bestgen · 2023 · Cited by 43 — MTLD is equal to the mean length of sequential token strings in a text that maintains a TTR at a certain level, the parameter of the procedure, which is usually ... Read more",
+    "host_name": "arxiv.org",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://centaur.reading.ac.uk/54410/3/Backtobasics_accepted.pdf",
+    "name": "Back to basics: how measures of lexical diversity can help",
+    "snippet": "by J Treffers-Daller · 2016 · Cited by 202 — The measure of textual diversity ( MTLD ) was developed by McCarthy ( 2005 ) This measure is calculated as the mean length of sequential word strings … text length ... 46 pages",
+    "host_name": "centaur.reading.ac.uk",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.proquest.com/docview/305349212",
+    "name": "An assessment of the range and usefulness of lexical",
+    "snippet": "An assessment of the range and usefulness of lexical diversity measures and the potential of the measure of textual , lexical diversity ( MTLD ). McCarthy , Philip ... Read more",
+    "host_name": "www.proquest.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20479170",
+    "name": "MTLD, vocd-D, and HD-D: a validation study of  - PubMed",
+    "snippet": "by PM McCarthy · 2010 · Cited by 1642 — The main purpose of this study was to examine the validity of the approach to lexical diversity assessment known as the measure of textual lexical diversity ...",
+    "host_name": "pubmed.ncbi.nlm.nih.gov",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lexicalrichness.readthedocs.io/en/stable/example.html",
+    "name": "Notebook Example - LexicalRichness Documentation",
+    "snippet": "MTLD : Measure of Lexical Diversity . Computed as the mean length of sequential words in a text that maintains a minimum threshold TTR score. Iterates over ... Read more",
+    "host_name": "lexicalrichness.readthedocs.io",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://mbrenndoerfer.com/writing/long-form-generation-outline-hierarchical-coherence-evaluation",
+    "name": "Long-Form Generation: Outline, Hierarchy, and Coherence",
+    "snippet": "Mar 28, 2026 · Covers long-form text generation with outline-based planning, hierarchical decomposition, entity tracking. 393 written chapters",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/2025.tsar-1.2.pdf",
+    "name": "[PDF] Document-level Simplification and Illustration Generation",
+    "snippet": "Nov 4, 2025 · Through semantic optimization and cross-modal feedback mechanisms, our method enhances the coherence between text and images and improves.",
+    "host_name": "aclanthology.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2501.03857v1",
+    "name": "Progressive Document-level Text Simplification via Large Language",
+    "snippet": "Jan 7, 2025 · Long text generation poses challenges for current language models in maintaining coherence and context as the text becomes longer [21] .",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://openreview.net/forum?id=U7WZ7lZoyl",
+    "name": "Document-Level Knowledge Graph to Text Generation | OpenReview",
+    "snippet": "May 26, 2026 · We introduce LAGRANGE d o c and WikiDocKG, two document-level KG-to-text benchmarks designed to evaluate grounded long-form generation.",
+    "host_name": "openreview.net",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00388/102842/Evaluating-Document-Coherence-Modeling",
+    "name": "Evaluating Document Coherence Modeling - MIT Press Direct",
+    "snippet": "Jul 8, 2021 · To address this gap, we examine the capacity of pretrained language models to capture document coherence, focused around two research questions: ...",
+    "host_name": "direct.mit.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/Long-Text-Generation-by-Modeling-Sentence-Level-and-Guan-Mao/798c61b2b985e918a74b9aa154e6bc3f01040763",
+    "name": "Long Text Generation by Modeling Sentence-Level and Discourse",
+    "snippet": "May 19, 2021 · A long text generation model, which can represent the prefix sentences at sentence level and discourse level in the decoding process, ...",
+    "host_name": "www.semanticscholar.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3545176",
+    "name": "An Empirical Survey on Long Document Summarization: Datasets",
+    "snippet": "In this survey, we provide a comprehensive overview of the research on long document summarization and a requiring careful identification of key narratives,",
+    "host_name": "dl.acm.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/org/science/article/pii/S1526149226001906",
+    "name": "From Documents to Decisions: Enterprise-Grade LLM Systems for",
+    "snippet": "This paper systematically reviews key technological developments relevant to enterprise requirements, including document perception, retrieval-augmented ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "http://aclrollingreview.org/areas",
+    "name": "Area Keywords at ARR - ACL Rolling Review",
+    "snippet": "Choosing the right track may be tricky for the authors, and to aid them, in this page we provide the keywords associated with ARR tracks.",
+    "host_name": "aclrollingreview.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/2023.tsar-1.9.pdf",
+    "name": "[PDF] Document-level Text Simplification with Coherence Evaluation",
+    "snippet": "Sep 7, 2023 · We present a coherence-aware evaluation of document-level Text Simplification (TS), an ap- proach that has not been considered in TS so far.",
+    "host_name": "aclanthology.org",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

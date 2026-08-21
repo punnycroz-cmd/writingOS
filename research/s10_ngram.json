@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9299308",
+    "name": "Detection of changes in literary writing style using N-grams as  - PMC - NIH",
+    "snippet": "Jul 20, 2022 · This work focuses on the use of a style marker known as n-gram of different types. An n-gram is a continuous (or even non continuous) sequence ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://nsuworks.nova.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1187&context=gscis_etd",
+    "name": "[PDF] Authorship Attribution with Function Word N-Grams - NSUWorks",
+    "snippet": "A general concept of n-gram based attribution is that authors have a writing style that will be demonstrated by recurring sequences of units (e.g., bytes, ...",
+    "host_name": "nsuworks.nova.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://datascience.codata.org/articles/10.5334/dsj-2024-031",
+    "name": "The Optimization of n-Gram Feature Extraction Based on Term",
+    "snippet": "The n-Gram models language by collecting 'n' components, usually words or characters, from a text and detecting how words relate and if major items or sentences",
+    "host_name": "datascience.codata.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://mbrenndoerfer.com/writing/n-grams-bigrams-trigrams-text-representation-nlp",
+    "name": "N-grams: Capturing Word Order in Text - Michael Brenndoerfer",
+    "snippet": "Mar 19, 2025 · An n-gram is a contiguous sequence of n n items drawn from a text, where items can be words, characters, syllables, or any other tokens.",
+    "host_name": "mbrenndoerfer.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/abs/pii/S0346251X20307971",
+    "name": "Effects of n-grams on the rated L2 writing quality of expository essays",
+    "snippet": "This study examined effects of n-gram measures (i.e., range, frequency, and association strength) on the rated L2 writing quality. A corpus of 1643 ...",
+    "host_name": "www.sciencedirect.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ciir-publications.cs.umass.edu/getpdf.php?id=939",
+    "name": "[PDF] Efficient Indexing of Repeated n-Grams",
+    "snippet": "ABSTRACT. The identification of repeated n-gram phrases in text has many practical applications, including authorship attribution, text reuse.",
+    "host_name": "ciir-publications.cs.umass.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.tidytextmining.com/ngrams",
+    "name": "4 Relationships between words: n-grams and correlations",
+    "snippet": "Tokenizing by n-gram is a useful way to explore pairs of adjacent words. However, we may also be interested in words that tend to co-occur within particular ...",
+    "host_name": "www.tidytextmining.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/69785043/how-to-get-the-documents-with-n-gram-repetitions-in-their-summaries",
+    "name": "How to get the documents with n-gram repetitions in their summaries",
+    "snippet": "Oct 31, 2021 · There are summaries that contain common ngrams. I need to get all the articles whose summaries contain these common ngrams. How to get the ...",
+    "host_name": "stackoverflow.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.contentharmony.com/tools/n-grams",
+    "name": "N-Gram Viewer & Analysis Tool",
+    "snippet": "The analysis works by first splitting the text into sentences. Then, for each sentence, it breaks down the content into words and generates the n-grams. The ...",
+    "host_name": "www.contentharmony.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.seobythesea.com/2017/09/site-quality-scores",
+    "name": "Using Ngram Phrase Models to Generate Site Quality Scores",
+    "snippet": "Sep 21, 2017 · A Google patent uses ngrams to build phrase models to compare against new sites to generate site quality scores to influence search ...",
+    "host_name": "www.seobythesea.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

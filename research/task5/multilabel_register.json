@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://medium.com/analytics-vidhya/multi-label-text-classification-using-transformers-bert-93460838e62b",
+    "name": "Multi-label Text Classification using Transformers(BERT)",
+    "snippet": "In this article, we have built a Multi-label Text Classification Model using pre-trained BERT . We also wanted to get a sense of how PyTorch ... Read more",
+    "host_name": "medium.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/dtolk/multilabel-BERT",
+    "name": "dtolk/multilabel-BERT: Multi-label text classification using",
+    "snippet": "In this project I use pretrained BERT from Hugging Face to classify scientific papers into different categories based on their title and abstract. Read more",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3727353.3727396",
+    "name": "Deep Learning Multi-label Classification of News Text",
+    "snippet": "May 27, 2025 — The BERT model is a multi -layer bidirectional Transformer structure designed for semantic understanding. In this study, the BERT model is ... Read more",
+    "host_name": "dl.acm.org",
+    "rank": 2,
+    "date": "May 27, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.kaggle.com/code/debarshichanda/bert-multi-label-text-classification",
+    "name": "BERT Multi-Label Text Classification",
+    "snippet": "Explore and run AI code with Kaggle Notebooks. BERT Multi-Label Text Classification Copy & Edit … version 21.1.2 is available. Text Class ID List of classes",
+    "host_name": "www.kaggle.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://towardsdatascience.com/multi-label-multi-class-text-classification-with-bert-transformer-and-keras-c6355eccb63a",
+    "name": "Multi-Label, Multi-Class Text Classification with BERT",
+    "snippet": "Aug 25, 2020 — In this article, I'll show how to do a multi-label, multi-class text classification task using Huggingface Transformers library and Tensorflow ... Read more",
+    "host_name": "towardsdatascience.com",
+    "rank": 4,
+    "date": "Aug 25, 2020",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/65285054/how-to-add-a-multiclass-multilabel-layer-on-top-of-pretrained-bert-model",
+    "name": "How to add a multiclass multilabel layer on top of",
+    "snippet": "I am trying to do a multitask multiclass sentence classification task using the pretrained BERT model from the huggingface transformers library . I have ...",
+    "host_name": "stackoverflow.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.researchgate.net/publication/263050998_A_Computational_Model_of_Narrative_Generation_for_Surprise_Arousal",
+    "name": "A Computational Model of Narrative Generation for Surprise Arousal",
+    "snippet": "Jul 11, 2026 · In our computational model, flashback provides a backstory to explain what causes a surprising outcome, while foreshadowing gives hints about ...",
+    "host_name": "www.researchgate.net",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.academia.edu/2726997/A_use_of_flashback_and_foreshadowing_for_surprise_arousal_in_narrative_using_a_plan_based_approach",
+    "name": "A use of flashback and foreshadowing for surprise arousal in narrative",
+    "snippet": "This study develops a computational method for generating flashback and foreshadowing to evoke reader surprise.",
+    "host_name": "www.academia.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2601.07033",
+    "name": "[PDF] Codified Foreshadowing-Payoff Text Generation - arXiv",
+    "snippet": "Jan 11, 2026 · Foreshadowing and payoff are ubiquitous nar- rative devices through which authors introduce commitments early in a story and resolve them.",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://faculty.cc.gatech.edu/~riedl/pubs/oneill-thesis.pdf",
+    "name": "[PDF] A COMPUTATIONAL MODEL OF SUSPENSE FOR THE",
+    "snippet": "In general, each system attempts to incorporate dramatic arc in the interaction or the story generation process. The MEXICA story generation system [60] models ...",
+    "host_name": "faculty.cc.gatech.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cs.uky.edu/~sgware/reading/papers/kybartas2016survey.pdf",
+    "name": "[PDF] A Survey on Story Generation Techniques for Authoring",
+    "snippet": "In this paper, we surveyed a broad range of techniques and systems aimed at the computational authoring of stories.",
+    "host_name": "cs.uky.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://repository.lib.ncsu.edu/items/58c009f6-7b09-4e74-80dc-4c618a0f0a47",
+    "name": "A Computational Model of Narrative Generation for Suspense",
+    "snippet": "May 18, 2007 · The goal of this research is to develop a system that produces a narrative designed specifically to evoke a targeted degree of suspense,",
+    "host_name": "repository.lib.ncsu.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://jair.org/index.php/jair/article/view/10669",
+    "name": "Narrative Planning: Balancing Plot and Character",
+    "snippet": "Sep 29, 2010 · One of the central challenges in computational narrative reasoning is narrative generation, the automated creation of meaningful event sequences ...",
+    "host_name": "jair.org",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/Toward-a-Computational-Framework-of-Suspense-and-O'Neill-Riedl/2495fca59b51afca68a3f9f30cb9efd75e8b8a11",
+    "name": "Toward a Computational Framework of Suspense and Dramatic Arc",
+    "snippet": "Dramatis reads a story, identifies potential failures in the plans and goals of the protagonist, and computes a suspense rating at various points in the story,",
+    "host_name": "www.semanticscholar.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cdn.aaai.org/AAAI/2006/AAAI06-331.pdf",
+    "name": "[PDF] A Computational Model of Narrative Generation for Suspense",
+    "snippet": "My approach attempts to manipulate the level of suspense experienced by a story's reader by elaborating on the story structure — making decisions regarding what.",
+    "host_name": "cdn.aaai.org",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com/Picrew/awesome-llm-story-generation",
+    "name": "Picrew/awesome-llm-story-generation - GitHub",
+    "snippet": "A curated list of LLM papers and open-source projects for story, novel, and script generation. - Picrew/awesome-llm-story-generation.",
+    "host_name": "github.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

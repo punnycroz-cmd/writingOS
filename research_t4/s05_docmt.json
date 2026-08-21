@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://arxiv.org/html/2304.02210v2",
+    "name": "Document-Level Machine Translation with Large Language Models - arXiv",
+    "snippet": "Taking document-level machine translation (MT) as a testbed, this paper provides an in-depth evaluation of LLMs' ability on discourse modeling.",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/2023.acl-long.435.pdf",
+    "name": "[PDF] Discourse-Centric Evaluation of Document-level Machine",
+    "snippet": "Jul 9, 2023 · The main discourse challenges faced by MT include entity consistency, entity recognition, anaphoric information loss, and coreference.",
+    "host_name": "aclanthology.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hal.science/hal-03687190v2/document",
+    "name": "[PDF] Document level contexts for neural machine translation - HAL",
+    "snippet": "Aug 14, 2022 · We will dis- cuss anaphora, deixes, ellipses, discourse connectives, lexical consistency and word sense disambiguation. 1.2 Anaphora Resolution.",
+    "host_name": "hal.science",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://homepages.inf.ed.ac.uk/rsennric/stuttgart2020.pdf",
+    "name": "[PDF] Document-level Machine Translation: Recent Progress and The Crux of",
+    "snippet": "anaphora are well-known discourse phenomenon; human evaluation: mark sentence-level translations as good or bad if two consecutive translations are good, ...",
+    "host_name": "homepages.inf.ed.ac.uk",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://lena-voita.github.io/posts/acl19_context.html",
+    "name": "When a Good Translation is Wrong in Context - Lena Voita",
+    "snippet": "Jul 26, 2019 · This is a post for the ACL 2019 paper When a Good Translation is Wrong in Context: Context-Aware Machine Translation Improves on Deixis, Ellipsis, and Lexical ...",
+    "host_name": "lena-voita.github.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dl.acm.org/doi/10.1145/3485469",
+    "name": "Enhancing Lexical Translation Consistency for Document-Level",
+    "snippet": "Dec 13, 2021 · We explicitly model the lexical translation consistency for NMT. Repeated words and other words are treated differently, and two types of global ...",
+    "host_name": "dl.acm.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://doras.dcu.ie/29345/1/19213962_final_thesis_upload.pdf",
+    "name": "[PDF] A Critical Examination of Document-Level Machine",
+    "snippet": "Jan 4, 2024 · Most existing automatic evaluation metrics are primarily sentence- based and may not fully capture the quality of document-level translations.",
+    "host_name": "doras.dcu.ie",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.semanticscholar.org/paper/A-Survey-on-Document-level-Neural-Machine-Maruf-Saleh/ee8848f3f6a08e80ff08a1093f78b3f7a3d84f37",
+    "name": "A Survey on Document-level Neural Machine Translation",
+    "snippet": "The aim of this survey article is to highlight the major works that have been undertaken in the space of document-level machine translation after the neural ...",
+    "host_name": "www.semanticscholar.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/301446196_Document-Level_Machine_Translation_Evaluation_with_Gist_Consistency_and_Text_Cohesion",
+    "name": "Document-Level Machine Translation Evaluation with Gist Consistency",
+    "snippet": "May 22, 2026 · The experimental results show the proposed metrics can obtain better correlation with human judgments than traditional metrics on evaluating ...",
+    "host_name": "www.researchgate.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ufal.mff.cuni.cz/eamt2017/slides/Tuesday/Research_presentations/EvaMartinez.pdf",
+    "name": "[PDF] Using Word Embeddings to Enforce Document-Level Lexical",
+    "snippet": "May 30, 2017 · SMT: recent work at Document Level: Usually focused on a specific phenomenon: pronominal anaphora, topic cohesion/coherence,.",
+    "host_name": "ufal.mff.cuni.cz",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

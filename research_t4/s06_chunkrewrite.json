@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.linkedin.com/posts/mitulmakadia_we-often-work-with-large-documents-and-datasets-activity-7384468257237442561-17iB",
+    "name": "Mitul Makadia's Post - LinkedIn",
+    "snippet": "Oct 15, 2025 · Semantic chunking focuses on meaning, using embeddings or similarity measures to detect topic shifts. This method produces semantically coherent ...",
+    "host_name": "www.linkedin.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=8OJC21T2SL4",
+    "name": "The 5 Levels Of Text Splitting For Retrieval - YouTube",
+    "snippet": "Jan 8, 2024 · ... Split 16:04 - Level 2: Recursive Character Split 20:59 - Level 3 ... The BEST Way to Chunk Text for RAG. Adam Lucek•54K views · 8:29 · Go to ...",
+    "host_name": "www.youtube.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2603.11650v1",
+    "name": "QChunker: Learning Question-Aware Text Chunking for Domain RAG via",
+    "snippet": "Mar 12, 2026 · QChunker models the text chunking as a composite task of text segmentation and knowledge completion to ensure the logical coherence and ...",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.pinecone.io/learn/chunking-strategies",
+    "name": "Chunking Strategies for LLM Applications - Pinecone",
+    "snippet": "Jun 28, 2025 · In the context of building LLM-related applications, chunking is the process of breaking down large pieces of text into smaller segments.",
+    "host_name": "www.pinecone.io",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://tao-hpu.medium.com/the-evolution-of-rag-text-chunking-why-precision-still-matters-c3e35ef79c50",
+    "name": "The Evolution of RAG Text Chunking: Why Precision Still Matters - Tao An",
+    "snippet": "Oct 27, 2025 · A single chunk covers an entire explanation of a concept rather than splitting it into separate pieces that lose coherence when retrieved ...",
+    "host_name": "tao-hpu.medium.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://towardsdatascience.com/how-to-chunk-text-data-a-comparative-analysis-3858c4a0997a",
+    "name": "How to Chunk Text Data - A Comparative Analysis",
+    "snippet": "Jul 20, 2023 · The 'Text chunking' process in Natural Language Processing (NLP) involves the conversion of unstructured text data into meaningful units.",
+    "host_name": "towardsdatascience.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.towardsai.net/revisiting-chunking-in-the-rag-pipeline-9aab8b1fdbe7",
+    "name": "Revisiting Chunking in the RAG Pipeline - Towards AI",
+    "snippet": "Sep 4, 2024 · Chunking involves dividing a long text or document into smaller, logically coherent segments or “chunks.” Chunking can break the natural flow ...",
+    "host_name": "pub.towardsai.net",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=Lk6D1huUK0s",
+    "name": "Why Your RAG Gives Wrong Answers (And 4 Chunking Strategies to Fix It)",
+    "snippet": "Jul 26, 2025 · Your RAG system keeps giving wrong answers, and it might be your chunking strategy. Using naive text splitting destroys context and breaks ...",
+    "host_name": "www.youtube.com",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/398226198_Chunking_Strategies_for_Multimodal_AI_Systems",
+    "name": "Chunking Strategies for Multimodal AI Systems - ResearchGate",
+    "snippet": "This survey provides a comprehensive taxonomy and technical analysis of chunking strategies tailored for each modality: text, images, audio, video, and cross- ...",
+    "host_name": "www.researchgate.net",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.instagram.com/reel/DSKrQ0nAGix",
+    "name": "5 popular chunking strategies, visually explained: 1️⃣ Fixed  - Instagram",
+    "snippet": "Dec 12, 2025 · Segments text into logical units like sentences or paragraphs. Combines segments with high similarity until context shifts preserving meaning ...",
+    "host_name": "www.instagram.com",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://arxiv.org/html/2405.10129v1",
+    "name": "StyloAI: Distinguishing AI-Generated Content with",
+    "snippet": "May 16, 2024 — StyloAI , a data-driven model that uses 31 stylometric features to identify AI-generated texts by applying a Random Forest classifier on two ...",
+    "host_name": "arxiv.org",
+    "rank": 0,
+    "date": "May 16, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/stylometric-and-multidimensional-register-analyses",
+    "name": "Stylometric and Multidimensional Register Analyses",
+    "snippet": "Aug 25, 2025 — Stylometric and multidimensional register analyses involve the quantitative evaluation of writing style using linguistic features that capture ... Read more",
+    "host_name": "www.emergentmind.com",
+    "rank": 1,
+    "date": "Aug 25, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://academic.oup.com/dsh/advance-article/doi/10.1093/llc/fqag064/8714041",
+    "name": "Stylometric detection of AI-generated texts - Oxford Academic",
+    "snippet": "by R Chen · 2026 — detection on short texts is not impossible, but requires shifting from decision-tree methods to margin-based classifiers.",
+    "host_name": "academic.oup.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.academia.edu/Documents/in/Stylometric_Features",
+    "name": "Stylometric Features Research Papers",
+    "snippet": "Stylometric features refer to the quantitative characteristics of written texts that can be analyzed to identify authorship, stylistic patterns, and linguistic ...",
+    "host_name": "www.academia.edu",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/398588165_Stylometric_Approaches_for_AI-Text_Identification",
+    "name": "(PDF) Stylometric Approaches for AI-Text Identification",
+    "snippet": "Dec 11, 2025 — This study investigates the efficacy of stylometry, the quantitative analysis of linguistic style, as a forensic tool for AI- text ...",
+    "host_name": "www.researchgate.net",
+    "rank": 4,
+    "date": "Dec 11, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2026.1921847/full",
+    "name": "A Stylometric Machine Learning Framework for Authorship",
+    "snippet": "by A Arulanandam — In this research, a machine learning-based stylometric approach to authorship prediction for adaptations of short stories written by students ... Read more",
+    "host_name": "www.frontiersin.org",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

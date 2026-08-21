@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://direct.mit.edu/coli/article/38/2/335/2143/Cross-Genre-and-Cross-Domain-Detection-of-Semantic",
+    "name": "Cross-Genre and Cross-Domain Detection of Semantic Uncertainty",
+    "snippet": "We apply domain adaptation techniques to fully exploit out-of-domain data and minimize annotation costs to adapt to a new domain, and we report successful ...",
+    "host_name": "direct.mit.edu",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/www.mt-archive.info/BUCC-2012-Petrenz.pdf",
+    "name": "[PDF] Robust cross-lingual genre classification through comparable corpora",
+    "snippet": "Cross-lingual genre classification can be regarded a special case of a domain adaptation problem, where feature selection techniques have been applied suc ...",
+    "host_name": "aclanthology.org",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2311.16083v1",
+    "name": "BERT Goes Off-Topic: Investigating the Domain Transfer Challenge",
+    "snippet": "For example, a genre classifier trained on political topics often fails when tested on documents about sport or medicine. In this work, we quantify this ...",
+    "host_name": "arxiv.org",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/6115/5971",
+    "name": "[PDF] Dual Adversarial Co-Learning for Multi-Domain Text Classification",
+    "snippet": "The recent work (Zhao et al. 2018) extends adversarial training to multiple-source scenarios for domain adaptation, which uses a domain classifier as the ad-.",
+    "host_name": "ojs.aaai.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.reddit.com/r/learnmachinelearning/comments/lfgu54/domain_adaptation_in_text_classification",
+    "name": "Domain Adaptation in text classification : r/learnmachinelearning",
+    "snippet": "Feb 8, 2021 · I am trying to understand what domain adaptation is in NLP and how to apply it to my text classification task. I have two related domains: a ...",
+    "host_name": "www.reddit.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7256385",
+    "name": "Cross-Domain Authorship Attribution Using Pre-trained Language",
+    "snippet": "In this paper, we modify a successful authorship verification approach based on a multi-headed neural network language model and combine it with pre-trained ...",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

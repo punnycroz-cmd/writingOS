@@ -1,0 +1,36 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "",
+    "httpStatus": 200,
+    "httpStatusText": "",
+    "metadata": {
+      "CreationDate": "D:20101027065746-04'00'",
+      "Creator": "ACOMP.exe   WinVer 2.0  Nov 24 2008",
+      "EncryptFilterName": null,
+      "IsAcroFormPresent": true,
+      "IsCollectionPresent": false,
+      "IsLinearized": false,
+      "IsSignaturesPresent": true,
+      "IsXFAPresent": false,
+      "Language": null,
+      "ModDate": "D:20260103150853-05'00'",
+      "PDFFormatVersion": "1.5",
+      "Producer": "Acrobat Distiller 5.0.5 (Windows)",
+      "Title": "PUBL274.PS"
+    },
+    "publishedTime": "Sat, 03 Jan 2026 20:09:21 GMT",
+    "title": "PUBL274.PS",
+    "url": "https://www.govinfo.gov/link/plaw/111/public/274",
+    "usage": {
+      "tokens": 0
+    }
+  },
+  "meta": {
+    "usage": {
+      "tokens": 0
+    }
+  },
+  "status": 200
+}

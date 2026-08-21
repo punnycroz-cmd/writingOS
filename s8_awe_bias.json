@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.ets.org/erater/criterion.html",
+    "name": "Use of e-rater Engine in Criterion Writing Service",
+    "snippet": "The Criterion service uses the e - rater engine. Writers will receive a score based on scoring criteria for that topic, as well as detailed feedback on ...",
+    "host_name": "www.ets.org",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2666557326000121",
+    "name": "Variability, bias, and the potential of LLM-based scoring",
+    "snippet": "by HN Wu · 2026 · Cited by 1 — This study investigates whether a GPT-based Automated Essay Scoring (AES) system can complement human raters in second-language (L2) writing assessment .",
+    "host_name": "www.sciencedirect.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/publication/285641086_The_e-raterR_automated_essay_scoring_system",
+    "name": "The e-rater® automated essay scoring system | Request PDF",
+    "snippet": "In the Criterion Online Writing Evaluation service a web-based writing tool that helps students plan, write, and revise their essays e - rater is used to foster ... Read more",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://files.eric.ed.gov/fulltext/EJ1110978.pdf",
+    "name": "AUTOMATED ESSAY SCORING WITH ERATER V.2.0",
+    "snippet": "by Y Attali · 2005 · Cited by 7 — Criterion is a Web-based service developed by ETS to evaluate a student's writing skill and provide instantaneous score reporting and diagnostic feedback. Read more 25 pages",
+    "host_name": "files.eric.ed.gov",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://scholarspace.manoa.hawaii.edu/bitstreams/5fbfc389-0090-4f20-8807-e372974b5bf5/download",
+    "name": "REVIEW OF CRITERION",
+    "snippet": "by H Lim · 2012 · Cited by 28 — E-rater is an automated essay-scoring system that Criterion uses to evaluate submitted essays. The system is based on natural language processing to extract ... Read more",
+    "host_name": "scholarspace.manoa.hawaii.edu",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.govinfo.gov/content/pkg/ERIC-ED464950/pdf/ERIC-ED464950.pdf",
+    "name": "Evaluating Writing Ability through Automated Essay Scoring.",
+    "snippet": "Recently, E - rater has been incorporated with. CriterionSM, which is an online, web-based, essay evaluation project of ETS Technologies , a for-prof it ... Read more",
+    "host_name": "www.govinfo.gov",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://cograder.com/content/automated-essay-scoring",
+    "name": "What Is Automated Essay Scoring? (How It Works + 5 Best",
+    "snippet": "May 26, 2026 — Criterion E-rater is excellent for large-scale, standardized scoring of constrained writing prompts. But it's less practical for everyday ...",
+    "host_name": "cograder.com",
+    "rank": 6,
+    "date": "May 26, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7924549",
+    "name": "Automated language essay scoring systems: a literature review",
+    "snippet": "by MA Hussein · 2019 · Cited by 274 — Criterion is a web-based scoring and feedback system based on ETS text analysis tools: E-rater ® and Critique. As a text analysis tool, Critique ... Read more",
+    "host_name": "pmc.ncbi.nlm.nih.gov",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://journals.sagepub.com/doi/10.1177/07356331221127300",
+    "name": "The Effectiveness of Automated Writing Evaluation on",
+    "snippet": "Automated writing evaluation (AWE) has been frequently used to provide feedback on student writing. Many empirical studies have examined the effectiveness ... Read more",
+    "host_name": "journals.sagepub.com",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  }
+]

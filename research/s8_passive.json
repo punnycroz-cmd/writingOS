@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://myscp.onlinelibrary.wiley.com/doi/10.1002/jcpy.1377",
+    "name": "PassivePy: A tool to automatically identify passive voice in big",
+    "snippet": "Jul 12, 2023 — We introduce an automated tool to identify passive voice from large-scale text data, PassivePy, a Python package (readymade website: https:// ... Read more",
+    "host_name": "myscp.onlinelibrary.wiley.com",
+    "rank": 0,
+    "date": "Jul 12, 2023",
+    "favicon": ""
+  },
+  {
+    "url": "https://my.tesol.org/news/11527010",
+    "name": "Dependency Parsing in Computational Linguistics",
+    "snippet": "May 29, 2026 — Dependency parsing serves as a later stage of the NLP pipeline and relies on accurate tokenization, lemmatization, and sentence boundary ... Read more",
+    "host_name": "my.tesol.org",
+    "rank": 1,
+    "date": "May 29, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.researchgate.net/figure/The-result-of-dependency-analysis-of-the-sentence-in-the-passive-voice-at-the-word_fig6_333423252",
+    "name": "The result of dependency analysis of the sentence in the",
+    "snippet": "Abstract: Stanford CoreNLP is the Natural Language Processing ( NLP ) pipeline that allow analysing text at paragraph, sentence and word levels. Read more",
+    "host_name": "www.researchgate.net",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.projectpro.io/article/dependency-parsing-in-nlp/1158",
+    "name": "The Role of Dependency Parsing in NLP Projects",
+    "snippet": "May 5, 2026 — Dependency parsing helps detect sentiment targeted at specific aspects of a product or service.",
+    "host_name": "www.projectpro.io",
+    "rank": 3,
+    "date": "May 5, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.sciencedirect.com/science/article/pii/S2949761225000124",
+    "name": "A Systematic Review of Natural Language Processing",
+    "snippet": "by R Shankar · 2025 · Cited by 34 — This systematic review aimed to synthesize the current state of research on NLP techniques for early detection of cognitive decline.",
+    "host_name": "www.sciencedirect.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://linguistics.stackexchange.com/questions/30890/what-are-uses-of-dependency-parsing-in-nlp-computational-linguistics",
+    "name": "What are uses of Dependency Parsing in NLP /",
+    "snippet": "Mar 15, 2019 — Dependency Parsing seems to be present in most of the NLP toolkits out there. What is not clear and what I have trouble finding in Google is what are ...",
+    "host_name": "linguistics.stackexchange.com",
+    "rank": 5,
+    "date": "Mar 15, 2019",
+    "favicon": ""
+  },
+  {
+    "url": "https://medium.com/natural-language-processing-nlp/dependency-parsers-in-natural-language-processing-nlp-784654926ccf",
+    "name": "Dependency parsers in Natural Language Processing (NLP)",
+    "snippet": "Dependency parsers are tools that allow us to analyze sentences, with particular focus on their grammatical structure. Read more",
+    "host_name": "medium.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://aclanthology.org/D19-1162.pdf",
+    "name": "Dependency Parsing for Spoken Dialog Systems",
+    "snippet": "by S Davidson · 2019 · Cited by 14 — Dependency parsing of conversational input can play an important role in language un- derstanding for dialog systems by identify-. Read more 7 pages",
+    "host_name": "aclanthology.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  }
+]

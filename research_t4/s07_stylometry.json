@@ -1,0 +1,92 @@
+[
+  {
+    "url": "https://www.ijraset.com/research-paper/deep-learning-for-stylometry-and-authorship-attribution",
+    "name": "Deep Learning for Stylometry and Authorship Attribution: a Review of",
+    "snippet": "Sep 5, 2024 · This paper provides a comprehensive review of the literature on the application of deep learning to stylometry and authorship attribution.",
+    "host_name": "www.ijraset.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dash.harvard.edu/bitstreams/134f7996-6b3b-4d93-a9cc-f45669ab351c/download",
+    "name": "[PDF] Stylometric Features for Multiple Authorship Attribution",
+    "snippet": "In computational linguistics, authorship attribution is the task of predicting the author of a document of unknown authorship.",
+    "host_name": "dash.harvard.edu",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.mdpi.com/2078-2489/15/3/131",
+    "name": "Authorship Attribution Methods, Challenges, and Future Research",
+    "snippet": "Stylometric analysis of data, a prevalent approach to attributing authors to documents of unknown authorship, comprises analysis tasks, writing-style features",
+    "host_name": "www.mdpi.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2311.07564v4",
+    "name": "Can Authorship Attribution Models Distinguish Speakers in Speech",
+    "snippet": "This work focuses on the following research questions. First, despite the difference in modality, do textual authorship models transfer to speech transcripts?",
+    "host_name": "arxiv.org",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.linkedin.com/posts/semantic-seo-bd_what-is-stylometry-stylometry-is-a-computational-activity-7426148707001122816-asqo",
+    "name": "Stylometry: Authorship Analysis for Human vs Machine-Generated",
+    "snippet": "Feb 7, 2026 · Stylometry is a computational linguistics methodology that applies statistical text analysis to determine authorship identity and to ...",
+    "host_name": "www.linkedin.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dh-abstracts.library.virginia.edu/works/11934",
+    "name": "understanding word embeddings for authorship attribution",
+    "snippet": "text embeddings of randomized novels work similarly to embeddings that preserve original word order and learn context-aware semantic representations.",
+    "host_name": "dh-abstracts.library.virginia.edu",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.emergentmind.com/topics/authorship-attribution-models",
+    "name": "Authorship Attribution Models - Emergent Mind",
+    "snippet": "Dec 14, 2025 · Authorship attribution models are computational frameworks that discern text authors by analyzing stylistic signals such as n-grams, lexical ...",
+    "host_name": "www.emergentmind.com",
+    "rank": 6,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://anthology.ach.org/volumes/vol0003/linguistic-tools-in-musical-stylometry/10.63744@Av1c2rVmcj0N.pdf",
+    "name": "[PDF] Linguistic Tools in Musical Stylometry",
+    "snippet": "In this paper, we investigate the applicability of linguistic stylometry methods to authorship attribution in music.",
+    "host_name": "anthology.ach.org",
+    "rank": 7,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://hammer.purdue.edu/articles/thesis/Capturing_Style_Through_Large_Language_Models_-_An_Authorship_Perspective/27947904",
+    "name": "Capturing Style Through Large Language Models - An Authorship",
+    "snippet": "Dec 10, 2024 · This research investigates the use of Large Language Model (LLM) embeddings to capture the unique stylistic features of authors in ...",
+    "host_name": "hammer.purdue.edu",
+    "rank": 8,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dokumen.pub/machine-learning-methods-for-stylometry-authorship-attribution-and-author-profiling-1st-ed-9783030533595-9783030533601.html",
+    "name": "Machine Learning Methods for Stylometry: Authorship Attribution",
+    "snippet": "The attribution model compares the style representation of the disputed text with those of the candidates (or other categories such as male or female, teenager ...",
+    "host_name": "dokumen.pub",
+    "rank": 9,
+    "date": "",
+    "favicon": ""
+  }
+]
