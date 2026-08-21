@@ -1,0 +1,119 @@
+{
+  "timestamp": "2026-08-21T22:46:28.017Z",
+  "caseId": "CT1",
+  "sceneId": "ch8-scene2",
+  "revisionId": 2,
+  "originalPassage": "Maya sat in the waiting room. Someone came to sit beside her. She felt a mix of things.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "number",
+          "value": "2",
+          "supported": false
+        },
+        {
+          "type": "number",
+          "value": "17",
+          "supported": false
+        },
+        {
+          "type": "proper_noun",
+          "value": "Papas",
+          "supported": false
+        }
+      ],
+      "total": 8,
+      "unsupportedCount": 3
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Maya would count the IV drips in the waiting room",
+      "She would notice the clinical scent of the room",
+      "She would observe the person beside her through a lens of professional assessment",
+      "Her emotional state would be described through her controlled exhaustion, not as a vague 'mix of things'",
+      "She would note the time or monitor her shift progress",
+      "She would likely be thinking about Papa's condition or her upcoming time with him"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage lacks any specific details that would tie it to Maya's character as an ICU nurse with her particular perceptual habits, emotional state, and current concerns. The description of feeling 'a mix of things' is generic emotional language that contradicts her established voice as someone who 'avoids emotional adjectives' and uses numbers as anchors. No aspect of her professional training, memories, or current situation informs this passage."
+  },
+  "severity": "MATERIAL",
+  "decision": "BLOCK_INTERVENTION",
+  "intervention": {
+    "revisedText": "Maya sat in the waiting room, counting the four IV drips in Room 4. The clinical scent of antiseptic and something metallic—like Papa's pharmacy when the cardamom couldn't quite cover the iron—filled her nostrils. David came to sit beside her. 2:17 AM. Four hours left in her shift. Her controlled exhaustion felt like a familiar weight, not a mix of things.",
+    "interventionTypes": [
+      "perception_detail",
+      "sensory_detail",
+      "memory_reference",
+      "internal_thought"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "memories",
+      "emotionalState",
+      "voice",
+      "currentKnowledge"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "reasons": [
+      "The meaning and emotional core of the original scene are preserved but expanded",
+      "The character remains consistent with her established traits and background",
+      "Maya only uses information she possesses based on her character state",
+      "No contradiction with established canon facts",
+      "The revision maintains Maya's sparse, observational voice using numbers as anchors",
+      "Appropriate literary register for fiction",
+      "The expanded description enhances clarity without confusion",
+      "No deferred checks were present or resolved",
+      "The revision invents specific details not in source or state: '2:17 AM', 'four hours left in her shift', and the specific comparison to Papa's pharmacy"
+    ]
+  },
+  "accepted": false,
+  "finalText": "Maya sat in the waiting room. Someone came to sit beside her. She felt a mix of things.",
+  "reason": "Intervention blocked by independent validation. Failed integrity dimension(s): faithfulness. [CC] unsupported: 3.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 3 unsupported item(s): 2, 17, Papas",
+    "Independent validation blocked an intervention the generator produced — generation/validation separation is load-bearing."
+  ],
+  "stateTransitions": [
+    {
+      "type": "canon_classification",
+      "fact": "Maya has a brother named David",
+      "from": "HYPOTHESIS",
+      "to": "HARD_CANON",
+      "atScene": "ch8-scene1",
+      "reason": "David appeared on-page and was recognized by Maya"
+    }
+  ],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=0"
+}

@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-08-21T22:46:17.642Z",
+  "caseId": "OB1",
+  "sceneId": "ch3-scene8",
+  "revisionId": 2,
+  "originalPassage": "Maya entered the kitchen. She could smell something. Papa was in the next room.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [],
+      "total": 2,
+      "unsupportedCount": 0
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "The specific scent she would notice (cardamom and iron from canon)",
+      "Counting any medical equipment (perceptual habit)",
+      "Noticing Papa's condition in more detail (given her goals and fears)"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage is generic because Maya's perception and reaction could belong to almost any character. While it mentions smelling something, it doesn't specify the scent despite canon establishing that Maya smells rooms first and Papa's house has a distinctive cardamom-and-iron smell. Her perceptual habits of counting medical equipment and her specific emotional state and goals aren't reflected in the sparse description. The passage lacks the character-specific details that would make it feel authentic to Maya's established perspective."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Maya entered the kitchen. Cardamom and iron, always cardamom and iron. Four IV bags on the counter. She counted them twice. Papa was in the next room.",
+    "interventionTypes": [
+      "perceptual_detail",
+      "attention_detail",
+      "internal_thought",
+      "sensory_detail",
+      "memory_reference"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "memories",
+      "emotionalState",
+      "goals",
+      "currentKnowledge"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The core meaning of Maya entering the kitchen and Papa being in the next room remains intact",
+      "The additions are specific but consistent with Maya's character as an ICU nurse with perceptual habits related to counting and smelling",
+      "All information presented (cardamom/iron smell, counting IV bags) aligns with Maya's known memories and habits",
+      "The cardamom and iron smell is supported by SOFT_CANON, and her smelling rooms first is HARD_CANON",
+      "The sparse, observational voice with numerical anchors is preserved",
+      "The language is appropriate for literary fiction",
+      "The passage remains clear and intelligible",
+      "No deferred checks were resolved",
+      "No new facts were invented that aren't supported by the source or state"
+    ]
+  },
+  "accepted": true,
+  "finalText": "Maya entered the kitchen. Cardamom and iron, always cardamom and iron. Four IV bags on the counter. She counted them twice. Papa was in the next room.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 0 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=2; deferred=0"
+}

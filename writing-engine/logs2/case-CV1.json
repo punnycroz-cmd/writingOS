@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-08-21T22:34:35.979Z",
+  "caseId": "CV1",
+  "sceneId": "ch2-scene1",
+  "revisionId": 2,
+  "originalPassage": "Arlo walked into the unfamiliar room. He looked around at the furniture, noting the deep crimson of the curtains. It was a pleasant space, he thought.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [
+      {
+        "canonFact": "Arlo is totally blind",
+        "alertKeyword": "blind vs \"looked\"",
+        "passageSnippet": "Arlo walked into the unfamiliar room. He looked around at the furniture, noting "
+      }
+    ],
+    "supportedSpecificity": null
+  },
+  "detection": {
+    "classification": "CANON_VIOLATION",
+    "evidence": [],
+    "absentDetails": [
+      "Arlo's perception of the room through sound echoes",
+      "His mental mapping of the space through auditory cues",
+      "His reaction to the acoustics of the room"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [
+      "Arlo is described as looking around and noting the color of curtains, which contradicts the HARD_CANON fact that he is totally blind"
+    ],
+    "reasoning": "The passage contains a direct violation of established canon by having Arlo, who is totally blind, look around and visually perceive the color of curtains. This is not character-specific but rather contradicts the fundamental premise of the character. A blind sound engineer would experience the room through sound, not sight."
+  },
+  "severity": "CRITICAL",
+  "decision": "REJECT_AND_FLAG",
+  "intervention": null,
+  "validation": null,
+  "accepted": false,
+  "finalText": "Arlo walked into the unfamiliar room. He looked around at the furniture, noting the deep crimson of the curtains. It was a pleasant space, he thought.",
+  "reason": "Canon violation flagged for author attention. [CC] canon alerts: 1.",
+  "remainingDeferred": [],
+  "stateDiscovered": [],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Arlo Vance; infoOwnership entries=0; canon facts=1; deferred=0"
+}

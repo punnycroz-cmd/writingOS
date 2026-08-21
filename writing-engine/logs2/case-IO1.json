@@ -1,0 +1,95 @@
+{
+  "timestamp": "2026-08-21T22:42:55.609Z",
+  "caseId": "IO1",
+  "sceneId": "ch5-scene2",
+  "revisionId": 2,
+  "originalPassage": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "number",
+          "value": "three",
+          "supported": false
+        }
+      ],
+      "total": 2,
+      "unsupportedCount": 1
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Maya would have counted the IV drips in the room",
+      "She would have smelled the office for any unusual scents",
+      "She would have automatically read any dosage labels or paperwork in sight",
+      "Her observation would likely include some numerical anchor",
+      "Her voice would be more sparse and observational"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage describes Maya noticing Marcus seems 'off' but attributing it to tiredness, which lacks the specific perceptual habits and observational style established in her character state. Maya's voice is described as sparse and observational, using numbers as anchors, but this passage contains neither. She would likely have noticed specific details related to her nursing background or memories, not just a vague sense that Marcus was 'off' without concrete observations."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Marcus came into the office. She counted the IV drips — three. The room smelled wrong, sterile without the usual antiseptic tang. Maya noticed the prescription label on his desk, dosage crossed out twice. He seemed off. Tired, she figured, and went back to her charts.",
+    "interventionTypes": [
+      "perception_detail",
+      "sensory_detail",
+      "attention_detail"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "emotionalState",
+      "voice"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The meaning of Marcus seeming off and Maya's reaction remains intact",
+      "The added details align with Maya's perceptual habits and professional background as an ICU nurse",
+      "Maya only observes physical details, not knowing about the embezzlement",
+      "No contradiction with established canon facts",
+      "The sparse, observational voice with numerical anchors is preserved",
+      "Appropriate for literary fiction with its clinical details",
+      "The passage remains clear and coherent",
+      "No deferred checks were present or resolved",
+      "The specific detail 'three' IV drips is supported by Maya's perceptual habit of counting IV drips"
+    ]
+  },
+  "accepted": true,
+  "finalText": "Marcus came into the office. She counted the IV drips — three. The room smelled wrong, sterile without the usual antiseptic tang. Maya noticed the prescription label on his desk, dosage crossed out twice. He seemed off. Tired, she figured, and went back to her charts.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 1 unsupported item(s): three"
+  ],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=2; deferred=0"
+}

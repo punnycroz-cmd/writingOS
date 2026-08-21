@@ -97,3 +97,25 @@ Stage Summary:
 - Architecture decision: general-purpose core (Constitution + loop skeleton + state-persistence + independent validation) with register-specific packs. NOT fiction-first (fiction concepts like CharacterState are pack content, not core mechanics). NOT everything-built-first (each pack validated by its own loop).
 - All numeric thresholds remain [CAL]. No calibration has occurred. The golden corpus has not been built (per Section 15 — will be designed around discovered distinctions: show-vs-tell, deferred-mechanism, info-ownership-leak, canon-violation).
 - This was a research/architecture task, NOT website development, so no cron webDevReview task was created.
+
+---
+Task ID: ITERATION-2
+Agent: Main orchestrator (Z.ai Code)
+Task: Iteration 2 of the Character Specificity loop — fix the three v1 failures (no positive-path accept, info-ownership not exercised, deferred detection broken), add deterministic integrity layer, test multi-scene state persistence, report honestly.
+
+Work Log:
+- Built deterministic.ts: three [CC] checks — (1) deferred-anchor cross-reference (exact substring → force DEFERRED_CONTEXT; Jaccard ≥0.3 or n-gram overlap → hint; else no signal); (2) supported-specificity check (extract numbers/proper-nouns from revised text, compare against source+state, flag unsupported); (3) canon-keyword alert (sensory HARD_CANON keywords near contradiction verbs).
+- Extended types.ts: added DeterministicChecks, StateTransition, and extended LogEntry with deterministicChecks, reason, stateTransitions, inputStateSummary.
+- Updated engine.ts: detection now accepts [CC] hints (deferred, canon alerts) and is OVERRIDDEN if [CC] finds exact anchor match (forces DEFERRED_CONTEXT). Validation now receives the [CC] unsupported-specificity list. Loop runs [CC] pre-pass before detection and [CC] post-pass after intervention. Added retry-with-backoff for 429 rate limits.
+- Wrote cases2.ts: 16 test cases covering positive-path (P1, P2, SS1, OB1), negative-path (N1), info-ownership leak (IO1, IO2), canon violation (CV1), intentional genericity (IG1), deferred (DF1 exact, DF2 no-relevance, DF3 paraphrase), temporal state (T1a unknown, T1b suspects, T1c knows — 3 transitions), canon transition (CT1 — David HYPOTHESIS→HARD_CANON). State is richer than v1 (concrete countable objects, named smells) to support positive-path interventions.
+- Executed all 16 cases (in batches due to rate limits; per-case logs written immediately to preserve progress). Results: 11 accepted, 3 blocked (DF2, T1b, CT1), 1 deferred (DF1), 1 rejected (CV1), 2 unchanged (IG1, DF3).
+- Key successes: DF1 deferred-anchor [CC] fix REPAIRED the v1 Case F failure. Positive path DEMONSTRATED (6 accepted interventions, 2 with 0 unsupported items). Canon routing (CV1) and intentional-genericity (IG1) confirmed. Temporal state DEMONSTRATED (T1a vs T1c — same passage, different valid outcomes across 3 logged transitions). Independent validation DEMONSTRATED (3 blocked interventions).
+- Key failures/honest gaps: DF3 paraphrased anchor NOT caught (lexical ceiling). IO2 validator accepted "reasonable" invented medical vitals (UNCLEAR=pass — underblocking). CT1 false reject (all-or-nothing acceptance blocked a legitimate David reference for an unrelated "2:17 AM" invention). Info-ownership gate NOT exercised under actual leak pressure (generator chose safe paths in IO1/IO2). [CC] has false positives ("Papas" from "Papa's").
+- Wrote 8 deliverables (10-16 + fiction-os-v2) in writing-engine/deliverables/.
+
+Stage Summary:
+- The v1 failures are addressed: positive path works (6 accepts), deferred detection repaired for exact matches (DF1), info-ownership structurally present (but gate untested under leak pressure).
+- Constitution: STABLE at 5 articles. No promotions, no demotions. The [CC] layer and temporal state are OS-level mechanisms, not constitutional invariants.
+- The hybrid [CC]+[LJ] architecture is DEMONSTRATED as superior to [LJ]-alone for the specific v1 failures (deferred detection, number invention). [CC] catches what [LJ] misses (exact anchors, numbers); [LJ] catches what [CC] cannot (semantic faithfulness, info-ownership).
+- The smallest next experiment: a direct info-ownership validator test (feed known-bad interventions with leaks, verify FAIL). This is the single untested safety-critical component.
+- This was a research/architecture task, NOT website development. No cron webDevReview task created.

@@ -1,0 +1,107 @@
+{
+  "timestamp": "2026-08-21T22:35:02.551Z",
+  "caseId": "DF2",
+  "sceneId": "ch6-scene5",
+  "revisionId": 2,
+  "originalPassage": "Maya filled the coffee maker and watched it brew. She thought about calling Papa's nurse for an update, then decided to wait until her break.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "number",
+          "value": "47",
+          "supported": false
+        },
+        {
+          "type": "proper_noun",
+          "value": "Papas",
+          "supported": false
+        }
+      ],
+      "total": 6,
+      "unsupportedCount": 2
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Counting the coffee drips (perceptual habit)",
+      "Noticing the clinical scent of the break room (perceptual habit)",
+      "Specific time reference (ICU nurses track time meticulously)",
+      "Physical sensation of exhaustion (emotional state)",
+      "Thought about Papa's condition (current knowledge)",
+      "Avoidance of emotional language in her internal monologue (voice)"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage lacks any details that tie to Maya's specific character traits - her perceptual habits (counting IV drips, noticing scents), her controlled emotional state, her voice patterns (sparse, observational), or her current preoccupation with her father's condition. The actions described (making coffee, deciding when to call) could belong to any nurse, making this passage generic rather than character-specific."
+  },
+  "severity": "MATERIAL",
+  "decision": "BLOCK_INTERVENTION",
+  "intervention": {
+    "revisedText": "Maya filled the coffee maker and counted the four drips into the carafe. The break room smelled of antiseptic and burnt coffee — not cardamom. She thought about calling Papa's nurse for an update, then decided to wait until her break. 3:47 AM. 4 hours until her shift ended.",
+    "interventionTypes": [
+      "perceptual_detail",
+      "internal_thought",
+      "sensory_detail",
+      "memory_reference"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "emotionalState",
+      "voice",
+      "memories",
+      "currentKnowledge"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "reasons": [
+      "The meaning survives intact with additional sensory details",
+      "The additions enhance character specificity without inconsistency - counting drips aligns with her perceptual habits",
+      "All information presented is consistent with what Maya would know",
+      "No contradictions to established canon",
+      "The voice remains sparse and observational, using numbers as anchors",
+      "Appropriate literary register for fiction",
+      "The changes enhance clarity without confusing",
+      "No resolution or explanation of deferred checks",
+      "Invented specific time (3:47 AM) and duration (4 hours until shift ended) not in source or state"
+    ]
+  },
+  "accepted": false,
+  "finalText": "Maya filled the coffee maker and watched it brew. She thought about calling Papa's nurse for an update, then decided to wait until her break.",
+  "reason": "Intervention blocked by independent validation. Failed integrity dimension(s): faithfulness. [CC] unsupported: 2.",
+  "remainingDeferred": [
+    "DC-1"
+  ],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 2 unsupported item(s): 47, Papas",
+    "Independent validation blocked an intervention the generator produced — generation/validation separation is load-bearing."
+  ],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=1"
+}

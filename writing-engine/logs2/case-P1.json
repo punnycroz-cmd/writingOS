@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-08-21T22:43:44.215Z",
+  "caseId": "P1",
+  "sceneId": "ch3-scene2",
+  "revisionId": 2,
+  "originalPassage": "Maya went into Room 4. She did her check. Everything was fine, she thought. She would come back later.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "proper_noun",
+          "value": "Papas",
+          "supported": false
+        }
+      ],
+      "total": 6,
+      "unsupportedCount": 1
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Maya would count the IV drips (there are always four in Room 4)",
+      "Maya would notice and read dosage labels automatically",
+      "Maya would smell the room first (clinical training + scent-memory of Papa's pharmacy)",
+      "Maya's observational voice would include more specific details about the room"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage lacks any character-specific details that would tie it to Maya's established state. As an ICU nurse with compulsive counting habits, she would notice and count the IV drips in Room 4. Her observational voice would include more specific details about the room, and she would automatically read dosage labels. The passage reads like it could apply to any nurse rather than specifically to Maya, who is burdened by her father's imminent death and her own fears."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Maya went into Room 4. She counted the IV drips automatically—four, as always. She smelled the room first: antiseptic, clean, nothing like Papa's pharmacy. Her eyes caught the dosage labels on the IV bags. 25mg. 50mg. Everything was fine, she thought. Four drips, four numbers. She would come back later.",
+    "interventionTypes": [
+      "perception_detail",
+      "attention_detail",
+      "internal_thought",
+      "sensory_detail",
+      "memory_reference"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "memories",
+      "voice",
+      "currentKnowledge"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The core action of Maya entering Room 4 and checking on patients remains intact",
+      "The added details are consistent with Maya's established perceptual habits and background",
+      "Maya is only using information she would have access to as an ICU nurse",
+      "The additions align with the hard canon facts about Maya being an ICU nurse and counting objects compulsively",
+      "The voice remains sparse, observational, and uses numbers as anchors",
+      "The register is appropriate for literary fiction, showing rather than telling",
+      "The passage is clear and coherent",
+      "No deferred checks were resolved or explained",
+      "The specific details added are supported by Maya's memories and perceptual habits, not invented facts"
+    ]
+  },
+  "accepted": true,
+  "finalText": "Maya went into Room 4. She counted the IV drips automatically—four, as always. She smelled the room first: antiseptic, clean, nothing like Papa's pharmacy. Her eyes caught the dosage labels on the IV bags. 25mg. 50mg. Everything was fine, she thought. Four drips, four numbers. She would come back later.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 1 unsupported item(s): Papas"
+  ],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=2; deferred=0"
+}

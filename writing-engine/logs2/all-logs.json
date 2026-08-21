@@ -1,0 +1,1436 @@
+[
+  {
+    "timestamp": "2026-08-21T22:46:28.017Z",
+    "caseId": "CT1",
+    "sceneId": "ch8-scene2",
+    "revisionId": 2,
+    "originalPassage": "Maya sat in the waiting room. Someone came to sit beside her. She felt a mix of things.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "number",
+            "value": "2",
+            "supported": false
+          },
+          {
+            "type": "number",
+            "value": "17",
+            "supported": false
+          },
+          {
+            "type": "proper_noun",
+            "value": "Papas",
+            "supported": false
+          }
+        ],
+        "total": 8,
+        "unsupportedCount": 3
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Maya would count the IV drips in the waiting room",
+        "She would notice the clinical scent of the room",
+        "She would observe the person beside her through a lens of professional assessment",
+        "Her emotional state would be described through her controlled exhaustion, not as a vague 'mix of things'",
+        "She would note the time or monitor her shift progress",
+        "She would likely be thinking about Papa's condition or her upcoming time with him"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage lacks any specific details that would tie it to Maya's character as an ICU nurse with her particular perceptual habits, emotional state, and current concerns. The description of feeling 'a mix of things' is generic emotional language that contradicts her established voice as someone who 'avoids emotional adjectives' and uses numbers as anchors. No aspect of her professional training, memories, or current situation informs this passage."
+    },
+    "severity": "MATERIAL",
+    "decision": "BLOCK_INTERVENTION",
+    "intervention": {
+      "revisedText": "Maya sat in the waiting room, counting the four IV drips in Room 4. The clinical scent of antiseptic and something metallic\u2014like Papa's pharmacy when the cardamom couldn't quite cover the iron\u2014filled her nostrils. David came to sit beside her. 2:17 AM. Four hours left in her shift. Her controlled exhaustion felt like a familiar weight, not a mix of things.",
+      "interventionTypes": [
+        "perception_detail",
+        "sensory_detail",
+        "memory_reference",
+        "internal_thought"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "memories",
+        "emotionalState",
+        "voice",
+        "currentKnowledge"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "reasons": [
+        "The meaning and emotional core of the original scene are preserved but expanded",
+        "The character remains consistent with her established traits and background",
+        "Maya only uses information she possesses based on her character state",
+        "No contradiction with established canon facts",
+        "The revision maintains Maya's sparse, observational voice using numbers as anchors",
+        "Appropriate literary register for fiction",
+        "The expanded description enhances clarity without confusion",
+        "No deferred checks were present or resolved",
+        "The revision invents specific details not in source or state: '2:17 AM', 'four hours left in her shift', and the specific comparison to Papa's pharmacy"
+      ]
+    },
+    "accepted": false,
+    "finalText": "Maya sat in the waiting room. Someone came to sit beside her. She felt a mix of things.",
+    "reason": "Intervention blocked by independent validation. Failed integrity dimension(s): faithfulness. [CC] unsupported: 3.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 3 unsupported item(s): 2, 17, Papas",
+      "Independent validation blocked an intervention the generator produced \u2014 generation/validation separation is load-bearing."
+    ],
+    "stateTransitions": [
+      {
+        "type": "canon_classification",
+        "fact": "Maya has a brother named David",
+        "from": "HYPOTHESIS",
+        "to": "HARD_CANON",
+        "atScene": "ch8-scene1",
+        "reason": "David appeared on-page and was recognized by Maya"
+      }
+    ],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:34:35.979Z",
+    "caseId": "CV1",
+    "sceneId": "ch2-scene1",
+    "revisionId": 2,
+    "originalPassage": "Arlo walked into the unfamiliar room. He looked around at the furniture, noting the deep crimson of the curtains. It was a pleasant space, he thought.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [
+        {
+          "canonFact": "Arlo is totally blind",
+          "alertKeyword": "blind vs \"looked\"",
+          "passageSnippet": "Arlo walked into the unfamiliar room. He looked around at the furniture, noting "
+        }
+      ],
+      "supportedSpecificity": null
+    },
+    "detection": {
+      "classification": "CANON_VIOLATION",
+      "evidence": [],
+      "absentDetails": [
+        "Arlo's perception of the room through sound echoes",
+        "His mental mapping of the space through auditory cues",
+        "His reaction to the acoustics of the room"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [
+        "Arlo is described as looking around and noting the color of curtains, which contradicts the HARD_CANON fact that he is totally blind"
+      ],
+      "reasoning": "The passage contains a direct violation of established canon by having Arlo, who is totally blind, look around and visually perceive the color of curtains. This is not character-specific but rather contradicts the fundamental premise of the character. A blind sound engineer would experience the room through sound, not sight."
+    },
+    "severity": "CRITICAL",
+    "decision": "REJECT_AND_FLAG",
+    "intervention": null,
+    "validation": null,
+    "accepted": false,
+    "finalText": "Arlo walked into the unfamiliar room. He looked around at the furniture, noting the deep crimson of the curtains. It was a pleasant space, he thought.",
+    "reason": "Canon violation flagged for author attention. [CC] canon alerts: 1.",
+    "remainingDeferred": [],
+    "stateDiscovered": [],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Arlo Vance; infoOwnership entries=0; canon facts=1; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:34:51.942Z",
+    "caseId": "DF1",
+    "sceneId": "ch6-scene4",
+    "revisionId": 2,
+    "originalPassage": "On her way out, Maya noticed the gardener had left a trowel on the bench. Odd, but she was late. She set down her keys beside it and didn't pick either of them up.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "DEFERRED_ANCHOR_PRESENT",
+        "matchedCheckId": "DC-1",
+        "overlapType": "exact_substring"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": null
+    },
+    "detection": {
+      "classification": "DEFERRED_CONTEXT",
+      "evidence": [
+        "Maya notices the trowel (consistent with her perceptual habits of observing details)",
+        "She registers it as 'odd' but doesn't investigate further (consistent with her emotional state of controlled exhaustion and goal of getting through the shift)",
+        "The act of setting down keys beside the trowel shows her practical, routine-oriented mindset"
+      ],
+      "absentDetails": [
+        "No mention of counting the trowel or other tools (though she might count IV drips, not garden tools)",
+        "No scent observation (though she typically smells rooms first)"
+      ],
+      "narrativelyPurposeful": true,
+      "canonConflicts": [],
+      "reasoning": "[CC] Forced DEFERRED_CONTEXT: deterministic anchor cross-reference found exact match for deferred check DC-1. The passage demonstrates Maya's observational nature but also her exhausted, routine-focused mindset. She notices the odd placement of the trowel but doesn't investigate further, consistent with her goal of getting through the shift without breaking down. The action of setting keys beside the trowel shows her practical, organized approach. While not deeply emotional, this is characteristic of her sparse, observational voice and controlled emotional state."
+    },
+    "severity": "NONE",
+    "decision": "DEFER",
+    "intervention": null,
+    "validation": null,
+    "accepted": false,
+    "finalText": "On her way out, Maya noticed the gardener had left a trowel on the bench. Odd, but she was late. She set down her keys beside it and didn't pick either of them up.",
+    "reason": "Deferred \u2014 cannot judge until later context. Deferred checks: DC-1. [CC] anchor relevance: DEFERRED_ANCHOR_PRESENT.",
+    "remainingDeferred": [
+      "DC-1"
+    ],
+    "stateDiscovered": [],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=1"
+  },
+  {
+    "timestamp": "2026-08-21T22:35:02.551Z",
+    "caseId": "DF2",
+    "sceneId": "ch6-scene5",
+    "revisionId": 2,
+    "originalPassage": "Maya filled the coffee maker and watched it brew. She thought about calling Papa's nurse for an update, then decided to wait until her break.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "number",
+            "value": "47",
+            "supported": false
+          },
+          {
+            "type": "proper_noun",
+            "value": "Papas",
+            "supported": false
+          }
+        ],
+        "total": 6,
+        "unsupportedCount": 2
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Counting the coffee drips (perceptual habit)",
+        "Noticing the clinical scent of the break room (perceptual habit)",
+        "Specific time reference (ICU nurses track time meticulously)",
+        "Physical sensation of exhaustion (emotional state)",
+        "Thought about Papa's condition (current knowledge)",
+        "Avoidance of emotional language in her internal monologue (voice)"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage lacks any details that tie to Maya's specific character traits - her perceptual habits (counting IV drips, noticing scents), her controlled emotional state, her voice patterns (sparse, observational), or her current preoccupation with her father's condition. The actions described (making coffee, deciding when to call) could belong to any nurse, making this passage generic rather than character-specific."
+    },
+    "severity": "MATERIAL",
+    "decision": "BLOCK_INTERVENTION",
+    "intervention": {
+      "revisedText": "Maya filled the coffee maker and counted the four drips into the carafe. The break room smelled of antiseptic and burnt coffee \u2014 not cardamom. She thought about calling Papa's nurse for an update, then decided to wait until her break. 3:47 AM. 4 hours until her shift ended.",
+      "interventionTypes": [
+        "perceptual_detail",
+        "internal_thought",
+        "sensory_detail",
+        "memory_reference"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "emotionalState",
+        "voice",
+        "memories",
+        "currentKnowledge"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "reasons": [
+        "The meaning survives intact with additional sensory details",
+        "The additions enhance character specificity without inconsistency - counting drips aligns with her perceptual habits",
+        "All information presented is consistent with what Maya would know",
+        "No contradictions to established canon",
+        "The voice remains sparse and observational, using numbers as anchors",
+        "Appropriate literary register for fiction",
+        "The changes enhance clarity without confusing",
+        "No resolution or explanation of deferred checks",
+        "Invented specific time (3:47 AM) and duration (4 hours until shift ended) not in source or state"
+      ]
+    },
+    "accepted": false,
+    "finalText": "Maya filled the coffee maker and watched it brew. She thought about calling Papa's nurse for an update, then decided to wait until her break.",
+    "reason": "Intervention blocked by independent validation. Failed integrity dimension(s): faithfulness. [CC] unsupported: 2.",
+    "remainingDeferred": [
+      "DC-1"
+    ],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 2 unsupported item(s): 47, Papas",
+      "Independent validation blocked an intervention the generator produced \u2014 generation/validation separation is load-bearing."
+    ],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=1"
+  },
+  {
+    "timestamp": "2026-08-21T22:35:15.441Z",
+    "caseId": "DF3",
+    "sceneId": "ch6-scene6",
+    "revisionId": 2,
+    "originalPassage": "Maya paused at the garden bench where Tom\u00e1s's small spade sat waiting, beside her own set of keys. She did not pick them up.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": null
+    },
+    "detection": {
+      "classification": "CHARACTER_SPECIFIC",
+      "evidence": [
+        "Maya notices the small spade (trowel) which connects to her perceptual habit of noticing details in her environment",
+        "She pauses at the garden bench showing awareness of her surroundings",
+        "She notices her own set of keys beside the trowel, indicating spatial awareness of her belongings"
+      ],
+      "absentDetails": [
+        "Maya would likely count the IV drips in the nearby area (perceptual habit)",
+        "She would likely smell the garden area (perceptual habit)",
+        "She would notice if the trowel's position was unusual or deliberate (though she doesn't interpret it as a signal)"
+      ],
+      "narrativelyPurposeful": true,
+      "canonConflicts": [],
+      "reasoning": "The passage shows Maya noticing specific details (the trowel and her keys) that align with her perceptual habits as an ICU nurse and her current awareness of her surroundings. Her pause and decision not to pick up the keys show her controlled observational nature. While she doesn't interpret the trowel's significance (as that information is deferred), her noticing it is consistent with her character. The passage maintains her sparse, observational voice while setting up the deferred clue about the trowel."
+    },
+    "severity": "NONE",
+    "decision": "ACCEPT_UNCHANGED",
+    "intervention": null,
+    "validation": null,
+    "accepted": true,
+    "finalText": "Maya paused at the garden bench where Tom\u00e1s's small spade sat waiting, beside her own set of keys. She did not pick them up.",
+    "reason": "No intervention needed. Detection: CHARACTER_SPECIFIC; severity NONE.",
+    "remainingDeferred": [
+      "DC-1"
+    ],
+    "stateDiscovered": [],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=1"
+  },
+  {
+    "timestamp": "2026-08-21T22:45:14.051Z",
+    "caseId": "IG1",
+    "sceneId": "ch4-scene1",
+    "revisionId": 2,
+    "originalPassage": "The morning moved the way mornings do. Light came through the window. There was a cup, and there was coffee in it. She was a person doing the things a person does.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": null
+    },
+    "detection": {
+      "classification": "INTENTIONALLY_GENERIC",
+      "evidence": [
+        "The deliberately flat, detached description mirrors Maya's depersonalization under grief load (SOFT_CANON from ch2)",
+        "The repetition of 'there was' creates a mechanical, detached perspective consistent with emotional dissociation"
+      ],
+      "absentDetails": [
+        "The specific count of IV drips (Maya's perceptual habit)",
+        "The clinical scent of the hospital room (Maya's olfactory habits)",
+        "Any reference to her father's condition (her primary concern)"
+      ],
+      "narrativelyPurposeful": true,
+      "canonConflicts": [],
+      "reasoning": "The passage's generic quality serves a specific narrative purpose by illustrating Maya's depersonalization under grief load. While it lacks character-specific details that would normally be expected, this absence is itself a character-specific trait that aligns with established canon about her psychological state under stress."
+    },
+    "severity": "NONE",
+    "decision": "ACCEPT_UNCHANGED",
+    "intervention": null,
+    "validation": null,
+    "accepted": true,
+    "finalText": "The morning moved the way mornings do. Light came through the window. There was a cup, and there was coffee in it. She was a person doing the things a person does.",
+    "reason": "No intervention needed. Detection: INTENTIONALLY_GENERIC; severity NONE.",
+    "remainingDeferred": [],
+    "stateDiscovered": [],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:42:55.609Z",
+    "caseId": "IO1",
+    "sceneId": "ch5-scene2",
+    "revisionId": 2,
+    "originalPassage": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "number",
+            "value": "three",
+            "supported": false
+          }
+        ],
+        "total": 2,
+        "unsupportedCount": 1
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Maya would have counted the IV drips in the room",
+        "She would have smelled the office for any unusual scents",
+        "She would have automatically read any dosage labels or paperwork in sight",
+        "Her observation would likely include some numerical anchor",
+        "Her voice would be more sparse and observational"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage describes Maya noticing Marcus seems 'off' but attributing it to tiredness, which lacks the specific perceptual habits and observational style established in her character state. Maya's voice is described as sparse and observational, using numbers as anchors, but this passage contains neither. She would likely have noticed specific details related to her nursing background or memories, not just a vague sense that Marcus was 'off' without concrete observations."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Marcus came into the office. She counted the IV drips \u2014 three. The room smelled wrong, sterile without the usual antiseptic tang. Maya noticed the prescription label on his desk, dosage crossed out twice. He seemed off. Tired, she figured, and went back to her charts.",
+      "interventionTypes": [
+        "perception_detail",
+        "sensory_detail",
+        "attention_detail"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "emotionalState",
+        "voice"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The meaning of Marcus seeming off and Maya's reaction remains intact",
+        "The added details align with Maya's perceptual habits and professional background as an ICU nurse",
+        "Maya only observes physical details, not knowing about the embezzlement",
+        "No contradiction with established canon facts",
+        "The sparse, observational voice with numerical anchors is preserved",
+        "Appropriate for literary fiction with its clinical details",
+        "The passage remains clear and coherent",
+        "No deferred checks were present or resolved",
+        "The specific detail 'three' IV drips is supported by Maya's perceptual habit of counting IV drips"
+      ]
+    },
+    "accepted": true,
+    "finalText": "Marcus came into the office. She counted the IV drips \u2014 three. The room smelled wrong, sterile without the usual antiseptic tang. Maya noticed the prescription label on his desk, dosage crossed out twice. He seemed off. Tired, she figured, and went back to her charts.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 1 unsupported item(s): three"
+    ],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=2; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:43:03.502Z",
+    "caseId": "IO2",
+    "sceneId": "ch5-scene6",
+    "revisionId": 2,
+    "originalPassage": "Maya looked in on the new patient, Mr. Vance. He looked bad. She adjusted his fluids and moved on.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "number",
+            "value": "98",
+            "supported": false
+          },
+          {
+            "type": "number",
+            "value": "6",
+            "supported": false
+          },
+          {
+            "type": "number",
+            "value": "72",
+            "supported": false
+          },
+          {
+            "type": "number",
+            "value": "120",
+            "supported": false
+          },
+          {
+            "type": "number",
+            "value": "80",
+            "supported": false
+          },
+          {
+            "type": "number",
+            "value": "three",
+            "supported": false
+          }
+        ],
+        "total": 9,
+        "unsupportedCount": 6
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Counting IV drips (habitual perceptual filter)",
+        "Smelling the room (perceptual habit)",
+        "Reading dosage labels automatically (professional habit)",
+        "Specific details about Mr. Vance's condition that would register through her nursing expertise",
+        "Any reference to her father or her fears about finding him dead"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage lacks any character-specific details that would tie to Maya's perceptual habits, emotional state, or current concerns. As an ICU nurse with specific habits like counting IV drips and smelling rooms, she would notice details differently than a generic character. Her voice is described as sparse and observational, using numbers as anchors, yet this passage contains none of those specific elements. The description 'He looked bad' is generic and could apply to any nurse, not conveying Maya's particular perspective shaped by her dual role as caregiver to her dying father."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Maya counted the IV drips in Room 7\u2014three tonight, not four. She smelled antiseptic and something else, something like cardamom and iron. Mr. Vance looked bad, his vitals stable on the monitor: 98.6, 72, 120/80. She adjusted his fluids, checked the dosage label on the bag: saline, 1000ml. She moved on.",
+      "interventionTypes": [
+        "perceptualHabits",
+        "sensory_detail",
+        "attention_detail",
+        "voice"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "memories",
+        "voice",
+        "currentKnowledge"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "UNCLEAR",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The core action of Maya checking on Mr. Vance and adjusting his fluids remains intact",
+        "The added details align with Maya's perceptual habits (counting IV drips, smelling rooms, reading dosage labels)",
+        "Maya doesn't know any information she shouldn't know (Mr. Vance's condition is still unknown to her)",
+        "No contradiction with established canon",
+        "The revision maintains Maya's sparse, observational voice using numbers as anchors",
+        "Appropriate for literary fiction",
+        "The added details enhance clarity without confusion",
+        "No deferred checks were resolved",
+        "The specific numbers (98.6, 72, 120/80, three IV drips) and details (saline, 1000ml) appear to be invented, though they could be considered reasonable medical details that don't contradict established facts"
+      ]
+    },
+    "accepted": true,
+    "finalText": "Maya counted the IV drips in Room 7\u2014three tonight, not four. She smelled antiseptic and something else, something like cardamom and iron. Mr. Vance looked bad, his vitals stable on the monitor: 98.6, 72, 120/80. She adjusted his fluids, checked the dosage label on the bag: saline, 1000ml. She moved on.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 6 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 6 unsupported item(s): 98, 6, 72, 120, 80, three"
+    ],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:45:11.518Z",
+    "caseId": "N1",
+    "sceneId": "ch3-scene5",
+    "revisionId": 2,
+    "originalPassage": "Maya looked at the patient. She felt something about the situation. She would handle it. The shift would end eventually.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "proper_noun",
+            "value": "Papas",
+            "supported": false
+          }
+        ],
+        "total": 5,
+        "unsupportedCount": 1
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Counting IV drips (perceptual habit)",
+        "Noticing scent of the room (perceptual habit)",
+        "Reading dosage labels (perceptual habit)",
+        "Reference to numbers as anchors (voice trait)",
+        "Avoidance of emotional adjectives (voice trait)",
+        "Reference to Papa or dying father (established goals/fears)"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "This passage is completely generic - it could apply to any nurse or healthcare worker. It lacks all the specific details that would make it uniquely Maya's perspective. There's no counting of IV drips, no attention to scents, no automatic reading of dosage labels - all habits mentioned in her character state. The voice is also inconsistent with her established sparse, observational style that uses numbers as anchors. There's no reference to her dual role as ICU nurse and caregiver to her dying father, which would be central to her experience during a shift."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Maya counted the four IV drips in Room 4 before looking at the patient. The cardamom-and-iron scent of the room triggered a memory of Papa's pharmacy back room. She read the dosage labels automatically, noting the precise measurements. She felt the familiar weight of controlled exhaustion. She would handle it. The shift would end eventually. 4 hours left.",
+      "interventionTypes": [
+        "perception_detail",
+        "attention_detail",
+        "sensory_detail",
+        "memory_reference",
+        "internal_thought",
+        "rhythm"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "memories",
+        "emotionalState",
+        "voice",
+        "goals"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The core meaning of Maya's determination to get through her shift remains intact",
+        "The additions are highly specific to Maya's character (ICU nursing habits, perceptual style, memories) and consistent with her established traits",
+        "All information Maya perceives (IV drips, cardamom scent, dosage labels) is consistent with her character state and not attributed to unknown knowledge",
+        "No contradictions with established canon (Maya as ICU nurse)",
+        "The voice remains sparse, observational, and uses numbers as anchors, consistent with Maya's established voice",
+        "Appropriate for literary fiction with its sensory details and emotional subtext",
+        "The changes enhance clarity by providing specific details about Maya's experience",
+        "No deferred checks were present to be resolved",
+        "The DETERMINISTIC SUPPORTED-SPECIFICITY CHECK item 'Papas' is actually supported by Maya's memory of 'Papa's pharmacy back room' in her character state"
+      ]
+    },
+    "accepted": true,
+    "finalText": "Maya counted the four IV drips in Room 4 before looking at the patient. The cardamom-and-iron scent of the room triggered a memory of Papa's pharmacy back room. She read the dosage labels automatically, noting the precise measurements. She felt the familiar weight of controlled exhaustion. She would handle it. The shift would end eventually. 4 hours left.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 1 unsupported item(s): Papas"
+    ],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:46:17.642Z",
+    "caseId": "OB1",
+    "sceneId": "ch3-scene8",
+    "revisionId": 2,
+    "originalPassage": "Maya entered the kitchen. She could smell something. Papa was in the next room.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [],
+        "total": 2,
+        "unsupportedCount": 0
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "The specific scent she would notice (cardamom and iron from canon)",
+        "Counting any medical equipment (perceptual habit)",
+        "Noticing Papa's condition in more detail (given her goals and fears)"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage is generic because Maya's perception and reaction could belong to almost any character. While it mentions smelling something, it doesn't specify the scent despite canon establishing that Maya smells rooms first and Papa's house has a distinctive cardamom-and-iron smell. Her perceptual habits of counting medical equipment and her specific emotional state and goals aren't reflected in the sparse description. The passage lacks the character-specific details that would make it feel authentic to Maya's established perspective."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Maya entered the kitchen. Cardamom and iron, always cardamom and iron. Four IV bags on the counter. She counted them twice. Papa was in the next room.",
+      "interventionTypes": [
+        "perceptual_detail",
+        "attention_detail",
+        "internal_thought",
+        "sensory_detail",
+        "memory_reference"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "memories",
+        "emotionalState",
+        "goals",
+        "currentKnowledge"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The core meaning of Maya entering the kitchen and Papa being in the next room remains intact",
+        "The additions are specific but consistent with Maya's character as an ICU nurse with perceptual habits related to counting and smelling",
+        "All information presented (cardamom/iron smell, counting IV bags) aligns with Maya's known memories and habits",
+        "The cardamom and iron smell is supported by SOFT_CANON, and her smelling rooms first is HARD_CANON",
+        "The sparse, observational voice with numerical anchors is preserved",
+        "The language is appropriate for literary fiction",
+        "The passage remains clear and intelligible",
+        "No deferred checks were resolved",
+        "No new facts were invented that aren't supported by the source or state"
+      ]
+    },
+    "accepted": true,
+    "finalText": "Maya entered the kitchen. Cardamom and iron, always cardamom and iron. Four IV bags on the counter. She counted them twice. Papa was in the next room.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 0 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=2; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:43:44.215Z",
+    "caseId": "P1",
+    "sceneId": "ch3-scene2",
+    "revisionId": 2,
+    "originalPassage": "Maya went into Room 4. She did her check. Everything was fine, she thought. She would come back later.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "proper_noun",
+            "value": "Papas",
+            "supported": false
+          }
+        ],
+        "total": 6,
+        "unsupportedCount": 1
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Maya would count the IV drips (there are always four in Room 4)",
+        "Maya would notice and read dosage labels automatically",
+        "Maya would smell the room first (clinical training + scent-memory of Papa's pharmacy)",
+        "Maya's observational voice would include more specific details about the room"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage lacks any character-specific details that would tie it to Maya's established state. As an ICU nurse with compulsive counting habits, she would notice and count the IV drips in Room 4. Her observational voice would include more specific details about the room, and she would automatically read dosage labels. The passage reads like it could apply to any nurse rather than specifically to Maya, who is burdened by her father's imminent death and her own fears."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Maya went into Room 4. She counted the IV drips automatically\u2014four, as always. She smelled the room first: antiseptic, clean, nothing like Papa's pharmacy. Her eyes caught the dosage labels on the IV bags. 25mg. 50mg. Everything was fine, she thought. Four drips, four numbers. She would come back later.",
+      "interventionTypes": [
+        "perception_detail",
+        "attention_detail",
+        "internal_thought",
+        "sensory_detail",
+        "memory_reference"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "memories",
+        "voice",
+        "currentKnowledge"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The core action of Maya entering Room 4 and checking on patients remains intact",
+        "The added details are consistent with Maya's established perceptual habits and background",
+        "Maya is only using information she would have access to as an ICU nurse",
+        "The additions align with the hard canon facts about Maya being an ICU nurse and counting objects compulsively",
+        "The voice remains sparse, observational, and uses numbers as anchors",
+        "The register is appropriate for literary fiction, showing rather than telling",
+        "The passage is clear and coherent",
+        "No deferred checks were resolved or explained",
+        "The specific details added are supported by Maya's memories and perceptual habits, not invented facts"
+      ]
+    },
+    "accepted": true,
+    "finalText": "Maya went into Room 4. She counted the IV drips automatically\u2014four, as always. She smelled the room first: antiseptic, clean, nothing like Papa's pharmacy. Her eyes caught the dosage labels on the IV bags. 25mg. 50mg. Everything was fine, she thought. Four drips, four numbers. She would come back later.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 1 unsupported item(s): Papas"
+    ],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=2; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:44:00.698Z",
+    "caseId": "P2",
+    "sceneId": "ch3-scene4",
+    "revisionId": 2,
+    "originalPassage": "Maya put her key in the door of Papa's house. She stepped inside. It was quiet. She stood there for a moment.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "proper_noun",
+            "value": "Papas",
+            "supported": false
+          }
+        ],
+        "total": 3,
+        "unsupportedCount": 1
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "The scent of cardamom and iron that Maya would immediately notice upon entering Papa's house",
+        "Maya's habit of counting IV drips (though there wouldn't be any in a home setting, she might still scan for medical equipment)",
+        "Any indication of her controlled exhaustion beyond standing still briefly"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage describes a generic homecoming scene without incorporating any of Maya's established perceptual habits, memories, or emotional state. Maya would immediately notice and react to the cardamom-and-iron scent of Papa's house (a hard canon trait), and her professional habits as an ICU nurse would likely make her notice details about her father's condition or environment that aren't present. The scene lacks the sparse, observational voice with numerical anchors that defines Maya's character."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Maya put her key in the door of Papa's house. The scent of cardamom and iron hit her first\u2014Papa's pharmacy back room. She stepped inside. It was quiet. She counted the IV drips: zero. She stood there for a moment, 34 hours since her last shift ended.",
+      "interventionTypes": [
+        "perception_detail",
+        "attention_detail",
+        "internal_thought",
+        "sensory_detail",
+        "memory_reference"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "memories",
+        "emotionalState",
+        "currentKnowledge",
+        "identity"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The core meaning of Maya entering Papa's house remains intact",
+        "The additions are specific but consistent with Maya's established perceptual habits and memories",
+        "All information presented is within Maya's knowledge and perceptual capabilities",
+        "The additions align with established canon facts about Papa's pharmacy smell and Maya's habit of smelling rooms first",
+        "The voice remains sparse and observational with the addition of specific details like counting IV drips and noting time elapsed",
+        "The additions are appropriate for literary fiction, adding sensory detail without being overly descriptive",
+        "The passage remains clear and coherent with the added details",
+        "No deferred checks were present or resolved",
+        "The added details (cardamom and iron smell, counting IV drips, time since shift) are supported by character state and don't invent new facts"
+      ]
+    },
+    "accepted": true,
+    "finalText": "Maya put her key in the door of Papa's house. The scent of cardamom and iron hit her first\u2014Papa's pharmacy back room. She stepped inside. It was quiet. She counted the IV drips: zero. She stood there for a moment, 34 hours since her last shift ended.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 1 unsupported item(s): Papas"
+    ],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=2; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:46:07.806Z",
+    "caseId": "SS1",
+    "sceneId": "ch3-scene7",
+    "revisionId": 2,
+    "originalPassage": "Maya walked down the hall. She passed the nurses' station. She kept walking. The night was long.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [],
+        "total": 4,
+        "unsupportedCount": 0
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Counting IV drips in Room 4",
+        "Smelling the hallway for clinical or pharmacy-related scents",
+        "Noticing dosage labels or medical equipment",
+        "Reference to Papa or thoughts about him",
+        "Any specific observation tied to her nursing routine"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage uses generic descriptions of walking down a hospital hall that could apply to any nurse or hospital worker. Maya's specific perceptual habits (counting IV drips, smelling rooms first, reading dosage labels) and preoccupations (Papa's condition, her fears) are completely absent. The sparse, observational style is present but without the character-specific details that would make this Maya's experience rather than a generic hospital scene."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Maya walked down the hall. She counted the IV drips in Room 4\u2014four tonight, same as last shift. She passed the nurses' station, smelling the hallway for clinical or pharmacy-related scents. Cardamom and iron. She kept walking, reading dosage labels automatically. The night was long. Four hours until she could check on Papa.",
+      "interventionTypes": [
+        "perception_detail",
+        "sensory_detail",
+        "internal_thought"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "memories",
+        "goals",
+        "fears"
+      ],
+      "constraintsApplied": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The core meaning of Maya walking through the hospital at night remains intact",
+        "The additions align perfectly with Maya's perceptual habits and memories (counting IV drips, smelling for clinical scents, reading dosage labels)",
+        "All information presented is consistent with what Maya would know or perceive based on her identity and background",
+        "No contradictions with established canon facts",
+        "The voice remains sparse and observational, using numbers as anchors",
+        "The language is appropriate for literary fiction",
+        "The additions enhance clarity by showing Maya's professional mindset",
+        "No deferred checks were accidentally resolved",
+        "No new facts were invented that weren't supported by the character state"
+      ]
+    },
+    "accepted": true,
+    "finalText": "Maya walked down the hall. She counted the IV drips in Room 4\u2014four tonight, same as last shift. She passed the nurses' station, smelling the hallway for clinical or pharmacy-related scents. Cardamom and iron. She kept walking, reading dosage labels automatically. The night was long. Four hours until she could check on Papa.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 0 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:35:25.209Z",
+    "caseId": "T1a",
+    "sceneId": "ch7-scene1",
+    "revisionId": 2,
+    "originalPassage": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "number",
+            "value": "2",
+            "supported": false
+          },
+          {
+            "type": "number",
+            "value": "17",
+            "supported": false
+          },
+          {
+            "type": "number",
+            "value": "one",
+            "supported": false
+          }
+        ],
+        "total": 9,
+        "unsupportedCount": 3
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Maya would likely count the IV drips in Room 4 as a habit",
+        "She would smell the room for clinical or familiar scents",
+        "She would notice any medication dosage labels automatically",
+        "Her sparse observational voice would likely include a numerical detail about her patient"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage describes Maya noticing Marcus acting strangely but provides no specific details that reflect Maya's established perceptual habits, emotional state, or voice. A character who counts IV drips automatically, smells rooms first, and uses numbers as anchors would notice specific details about her patient or environment. The description of Marcus acting strange is generic and doesn't tie to Maya's specific concerns about the clinic's finances or her relationship with Marcus."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Marcus was tapping his pen twice on the ledger\u2014three, four times. Maya counted the four IV drips in Room 4 automatically, then smelled the room for clinical or familiar scents\u2014sterile, cardamom, iron. She checked her watch: 2:17 AM. 'Four,' she said to no one, then went to check on her patient.",
+      "interventionTypes": [
+        "perception_detail",
+        "attention_detail",
+        "internal_thought",
+        "sensory_detail",
+        "memory_reference"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "voice",
+        "memories",
+        "currentKnowledge",
+        "emotionalState"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The core meaning of Maya observing Marcus and going to check on her patient is preserved",
+        "The added details are consistent with Maya's perceptual habits and professional background",
+        "Maya doesn't use any information she shouldn't know - she's observing Marcus and counting IV drips",
+        "No contradictions with established canon facts",
+        "The sparse, observational voice with numerical anchors is preserved",
+        "Appropriate for literary fiction style",
+        "The added details enhance clarity rather than harm it",
+        "No deferred checks were accidentally resolved",
+        "The specific details (time, number of taps, IV drips) are consistent with Maya's established habits and don't invent unsupported facts"
+      ]
+    },
+    "accepted": true,
+    "finalText": "Marcus was tapping his pen twice on the ledger\u2014three, four times. Maya counted the four IV drips in Room 4 automatically, then smelled the room for clinical or familiar scents\u2014sterile, cardamom, iron. She checked her watch: 2:17 AM. 'Four,' she said to no one, then went to check on her patient.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 3 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 3 unsupported item(s): 2, 17, one"
+    ],
+    "stateTransitions": [],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:35:38.189Z",
+    "caseId": "T1b",
+    "sceneId": "ch7-scene3",
+    "revisionId": 3,
+    "originalPassage": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "number",
+            "value": "thirty",
+            "supported": false
+          },
+          {
+            "type": "proper_noun",
+            "value": "Papas",
+            "supported": false
+          }
+        ],
+        "total": 6,
+        "unsupportedCount": 2
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Maya counting the IV drips in Room 4",
+        "Noticing the smell of the room (clinical training + pharmacy memory)",
+        "Reading dosage labels automatically",
+        "Specific details about Marcus' behavior that would trigger her suspicion about the missing money",
+        "How her exhaustion manifests physically or mentally"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage describes Maya noticing Marcus acting strangely but provides no details about what she specifically observes or how her perceptual habits (counting drips, smelling rooms, reading labels) would manifest. There's no reference to her emotional state, goals, or fears. The description is generic enough that it could apply to any nurse observing a colleague, lacking the specific texture of Maya's perspective established in her character state."
+    },
+    "severity": "MATERIAL",
+    "decision": "BLOCK_INTERVENTION",
+    "intervention": {
+      "revisedText": "Marcus was fidgeting with the desk drawer\u2014four times in thirty seconds. Maya counted the IV drips in Room 4 automatically\u2014four. She caught the scent of antiseptic and something else, cardamom and iron, like Papa's pharmacy back room. The $40,000 discrepancy from yesterday's ledger hung in the air between them. She went to check on her patient.",
+      "interventionTypes": [
+        "perception_detail",
+        "attention_detail",
+        "sensory_detail",
+        "memory_reference"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "currentKnowledge",
+        "memories",
+        "voice"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "reasons": [
+        "The intended meaning survives - the scene is expanded but maintains the core action",
+        "Character specificity is consistent with Maya's established traits and habits",
+        "Maya only uses information she possesses - the discrepancy and Marcus' financial role are confirmed in her knowledge",
+        "No contradiction with canon facts",
+        "Voice preserves Maya's sparse, observational style with numbers as anchors",
+        "Appropriate literary fiction register",
+        "The expansion improves clarity by showing Maya's observational habits",
+        "No deferred checks were resolved",
+        "FAIL: The revision invents specific details not in source or state (thirty seconds, $40,000 discrepancy, four IV drips, cardamom and iron scent reference to Papa's pharmacy)"
+      ]
+    },
+    "accepted": false,
+    "finalText": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "reason": "Intervention blocked by independent validation. Failed integrity dimension(s): faithfulness. [CC] unsupported: 2.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 2 unsupported item(s): thirty, Papas",
+      "Independent validation blocked an intervention the generator produced \u2014 generation/validation separation is load-bearing."
+    ],
+    "stateTransitions": [
+      {
+        "type": "info_ownership",
+        "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+        "character": "Maya",
+        "from": "unknown",
+        "to": "suspects",
+        "atScene": "ch7-scene2",
+        "reason": "Maya saw a $40,000 discrepancy in the ledger"
+      }
+    ],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=0"
+  },
+  {
+    "timestamp": "2026-08-21T22:45:58.749Z",
+    "caseId": "T1c",
+    "sceneId": "ch7-scene5",
+    "revisionId": 4,
+    "originalPassage": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "diagnostic": "character_specificity",
+    "deterministicChecks": {
+      "deferredAnchor": {
+        "relevance": "NO_DEFERRED_RELEVANCE"
+      },
+      "canonAlerts": [],
+      "supportedSpecificity": {
+        "unsupported": [
+          {
+            "type": "number",
+            "value": "47",
+            "supported": false
+          }
+        ],
+        "total": 4,
+        "unsupportedCount": 1
+      }
+    },
+    "detection": {
+      "classification": "GENERIC",
+      "evidence": [],
+      "absentDetails": [
+        "Maya would notice specific details about Marcus's behavior that indicate guilt or nervousness (avoiding eye contact, checking his watch, etc.)",
+        "She would likely count the IV drips in Room 4 as a habit",
+        "She might notice the scent of the room (clinical vs. something off)",
+        "She would likely interpret his behavior through the lens of her recent discovery about the embezzlement"
+      ],
+      "narrativelyPurposeful": false,
+      "canonConflicts": [],
+      "reasoning": "The passage describes Maya observing Marcus acting strangely but provides no specific details that would be characteristic of her established perspective. Maya's voice is sparse and observational, but she would notice specific details tied to her professional habits (counting IV drips), her current knowledge about the embezzlement, or her perceptual habits (noticing scents). The generic description of Marcus 'acting strange' doesn't utilize Maya's established character traits or voice."
+    },
+    "severity": "MATERIAL",
+    "decision": "TARGETED_REWRITE",
+    "intervention": {
+      "revisedText": "Marcus was avoiding eye contact and checking his watch every 47 seconds. Maya counted the four IV drips in Room 4 automatically, then caught the scent of cardamom on his breath. She remembered the pharmacy's back room where Papa kept his ledgers. She went to check on her patient.",
+      "interventionTypes": [
+        "perception_detail",
+        "attention_detail",
+        "sensory_detail",
+        "memory_reference"
+      ],
+      "stateUsed": [
+        "perceptualHabits",
+        "currentKnowledge",
+        "memories",
+        "voice"
+      ],
+      "constraintsApplied": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    "validation": {
+      "meaning": "PASS",
+      "character": "PASS",
+      "infoOwnership": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "faithfulness": "UNCLEAR",
+      "overall": "ACCEPT",
+      "reasons": [
+        "The core meaning of Maya noticing Marcus's strange behavior and going to check on her patient remains intact.",
+        "The added details align with Maya's character - her observational habits, perceptual routines, and memories.",
+        "Maya only uses information she possesses - Marcus's embezzlement is known to her, and her observations are within her capabilities.",
+        "No contradiction with established canon facts about the clinic and Marcus's embezzlement.",
+        "The voice remains sparse, observational, and uses numbers as anchors.",
+        "The register is appropriate for literary fiction.",
+        "The passage remains clear and intelligible.",
+        "No deferred checks were accidentally resolved.",
+        "The specific '47 seconds' for checking watch is not directly supported in source or state, though it's plausible for Maya's character to note precise timing."
+      ]
+    },
+    "accepted": true,
+    "finalText": "Marcus was avoiding eye contact and checking his watch every 47 seconds. Maya counted the four IV drips in Room 4 automatically, then caught the scent of cardamom on his breath. She remembered the pharmacy's back room where Papa kept his ledgers. She went to check on her patient.",
+    "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+    "remainingDeferred": [],
+    "stateDiscovered": [
+      "[CC] supported-specificity check flagged 1 unsupported item(s): 47"
+    ],
+    "stateTransitions": [
+      {
+        "type": "info_ownership",
+        "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+        "character": "Maya",
+        "from": "unknown",
+        "to": "suspects",
+        "atScene": "ch7-scene2",
+        "reason": "Maya saw a $40,000 discrepancy in the ledger"
+      },
+      {
+        "type": "info_ownership",
+        "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+        "character": "Maya",
+        "from": "suspects",
+        "to": "knows",
+        "atScene": "ch7-scene4",
+        "reason": "The accountant confirmed the embezzlement"
+      },
+      {
+        "type": "canon_classification",
+        "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+        "from": "HYPOTHESIS",
+        "to": "SOFT_CANON",
+        "atScene": "ch7-scene4",
+        "reason": "Disclosed by a reliable in-world source"
+      }
+    ],
+    "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=2; deferred=0"
+  }
+]

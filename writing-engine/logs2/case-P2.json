@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-08-21T22:44:00.698Z",
+  "caseId": "P2",
+  "sceneId": "ch3-scene4",
+  "revisionId": 2,
+  "originalPassage": "Maya put her key in the door of Papa's house. She stepped inside. It was quiet. She stood there for a moment.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "proper_noun",
+          "value": "Papas",
+          "supported": false
+        }
+      ],
+      "total": 3,
+      "unsupportedCount": 1
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "The scent of cardamom and iron that Maya would immediately notice upon entering Papa's house",
+      "Maya's habit of counting IV drips (though there wouldn't be any in a home setting, she might still scan for medical equipment)",
+      "Any indication of her controlled exhaustion beyond standing still briefly"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage describes a generic homecoming scene without incorporating any of Maya's established perceptual habits, memories, or emotional state. Maya would immediately notice and react to the cardamom-and-iron scent of Papa's house (a hard canon trait), and her professional habits as an ICU nurse would likely make her notice details about her father's condition or environment that aren't present. The scene lacks the sparse, observational voice with numerical anchors that defines Maya's character."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Maya put her key in the door of Papa's house. The scent of cardamom and iron hit her first—Papa's pharmacy back room. She stepped inside. It was quiet. She counted the IV drips: zero. She stood there for a moment, 34 hours since her last shift ended.",
+    "interventionTypes": [
+      "perception_detail",
+      "attention_detail",
+      "internal_thought",
+      "sensory_detail",
+      "memory_reference"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "memories",
+      "emotionalState",
+      "currentKnowledge",
+      "identity"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The core meaning of Maya entering Papa's house remains intact",
+      "The additions are specific but consistent with Maya's established perceptual habits and memories",
+      "All information presented is within Maya's knowledge and perceptual capabilities",
+      "The additions align with established canon facts about Papa's pharmacy smell and Maya's habit of smelling rooms first",
+      "The voice remains sparse and observational with the addition of specific details like counting IV drips and noting time elapsed",
+      "The additions are appropriate for literary fiction, adding sensory detail without being overly descriptive",
+      "The passage remains clear and coherent with the added details",
+      "No deferred checks were present or resolved",
+      "The added details (cardamom and iron smell, counting IV drips, time since shift) are supported by character state and don't invent new facts"
+    ]
+  },
+  "accepted": true,
+  "finalText": "Maya put her key in the door of Papa's house. The scent of cardamom and iron hit her first—Papa's pharmacy back room. She stepped inside. It was quiet. She counted the IV drips: zero. She stood there for a moment, 34 hours since her last shift ended.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 1 unsupported item(s): Papas"
+  ],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=2; deferred=0"
+}

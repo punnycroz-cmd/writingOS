@@ -1,0 +1,123 @@
+{
+  "timestamp": "2026-08-21T22:45:58.749Z",
+  "caseId": "T1c",
+  "sceneId": "ch7-scene5",
+  "revisionId": 4,
+  "originalPassage": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "number",
+          "value": "47",
+          "supported": false
+        }
+      ],
+      "total": 4,
+      "unsupportedCount": 1
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Maya would notice specific details about Marcus's behavior that indicate guilt or nervousness (avoiding eye contact, checking his watch, etc.)",
+      "She would likely count the IV drips in Room 4 as a habit",
+      "She might notice the scent of the room (clinical vs. something off)",
+      "She would likely interpret his behavior through the lens of her recent discovery about the embezzlement"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage describes Maya observing Marcus acting strangely but provides no specific details that would be characteristic of her established perspective. Maya's voice is sparse and observational, but she would notice specific details tied to her professional habits (counting IV drips), her current knowledge about the embezzlement, or her perceptual habits (noticing scents). The generic description of Marcus 'acting strange' doesn't utilize Maya's established character traits or voice."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Marcus was avoiding eye contact and checking his watch every 47 seconds. Maya counted the four IV drips in Room 4 automatically, then caught the scent of cardamom on his breath. She remembered the pharmacy's back room where Papa kept his ledgers. She went to check on her patient.",
+    "interventionTypes": [
+      "perception_detail",
+      "attention_detail",
+      "sensory_detail",
+      "memory_reference"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "currentKnowledge",
+      "memories",
+      "voice"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "UNCLEAR",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The core meaning of Maya noticing Marcus's strange behavior and going to check on her patient remains intact.",
+      "The added details align with Maya's character - her observational habits, perceptual routines, and memories.",
+      "Maya only uses information she possesses - Marcus's embezzlement is known to her, and her observations are within her capabilities.",
+      "No contradiction with established canon facts about the clinic and Marcus's embezzlement.",
+      "The voice remains sparse, observational, and uses numbers as anchors.",
+      "The register is appropriate for literary fiction.",
+      "The passage remains clear and intelligible.",
+      "No deferred checks were accidentally resolved.",
+      "The specific '47 seconds' for checking watch is not directly supported in source or state, though it's plausible for Maya's character to note precise timing."
+    ]
+  },
+  "accepted": true,
+  "finalText": "Marcus was avoiding eye contact and checking his watch every 47 seconds. Maya counted the four IV drips in Room 4 automatically, then caught the scent of cardamom on his breath. She remembered the pharmacy's back room where Papa kept his ledgers. She went to check on her patient.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 1 unsupported item(s): 47"
+  ],
+  "stateTransitions": [
+    {
+      "type": "info_ownership",
+      "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+      "character": "Maya",
+      "from": "unknown",
+      "to": "suspects",
+      "atScene": "ch7-scene2",
+      "reason": "Maya saw a $40,000 discrepancy in the ledger"
+    },
+    {
+      "type": "info_ownership",
+      "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+      "character": "Maya",
+      "from": "suspects",
+      "to": "knows",
+      "atScene": "ch7-scene4",
+      "reason": "The accountant confirmed the embezzlement"
+    },
+    {
+      "type": "canon_classification",
+      "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+      "from": "HYPOTHESIS",
+      "to": "SOFT_CANON",
+      "atScene": "ch7-scene4",
+      "reason": "Disclosed by a reliable in-world source"
+    }
+  ],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=2; deferred=0"
+}

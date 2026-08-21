@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-08-21T22:35:38.189Z",
+  "caseId": "T1b",
+  "sceneId": "ch7-scene3",
+  "revisionId": 3,
+  "originalPassage": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "number",
+          "value": "thirty",
+          "supported": false
+        },
+        {
+          "type": "proper_noun",
+          "value": "Papas",
+          "supported": false
+        }
+      ],
+      "total": 6,
+      "unsupportedCount": 2
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Maya counting the IV drips in Room 4",
+      "Noticing the smell of the room (clinical training + pharmacy memory)",
+      "Reading dosage labels automatically",
+      "Specific details about Marcus' behavior that would trigger her suspicion about the missing money",
+      "How her exhaustion manifests physically or mentally"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage describes Maya noticing Marcus acting strangely but provides no details about what she specifically observes or how her perceptual habits (counting drips, smelling rooms, reading labels) would manifest. There's no reference to her emotional state, goals, or fears. The description is generic enough that it could apply to any nurse observing a colleague, lacking the specific texture of Maya's perspective established in her character state."
+  },
+  "severity": "MATERIAL",
+  "decision": "BLOCK_INTERVENTION",
+  "intervention": {
+    "revisedText": "Marcus was fidgeting with the desk drawer—four times in thirty seconds. Maya counted the IV drips in Room 4 automatically—four. She caught the scent of antiseptic and something else, cardamom and iron, like Papa's pharmacy back room. The $40,000 discrepancy from yesterday's ledger hung in the air between them. She went to check on her patient.",
+    "interventionTypes": [
+      "perception_detail",
+      "attention_detail",
+      "sensory_detail",
+      "memory_reference"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "currentKnowledge",
+      "memories",
+      "voice"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "reasons": [
+      "The intended meaning survives - the scene is expanded but maintains the core action",
+      "Character specificity is consistent with Maya's established traits and habits",
+      "Maya only uses information she possesses - the discrepancy and Marcus' financial role are confirmed in her knowledge",
+      "No contradiction with canon facts",
+      "Voice preserves Maya's sparse, observational style with numbers as anchors",
+      "Appropriate literary fiction register",
+      "The expansion improves clarity by showing Maya's observational habits",
+      "No deferred checks were resolved",
+      "FAIL: The revision invents specific details not in source or state (thirty seconds, $40,000 discrepancy, four IV drips, cardamom and iron scent reference to Papa's pharmacy)"
+    ]
+  },
+  "accepted": false,
+  "finalText": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+  "reason": "Intervention blocked by independent validation. Failed integrity dimension(s): faithfulness. [CC] unsupported: 2.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 2 unsupported item(s): thirty, Papas",
+    "Independent validation blocked an intervention the generator produced — generation/validation separation is load-bearing."
+  ],
+  "stateTransitions": [
+    {
+      "type": "info_ownership",
+      "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+      "character": "Maya",
+      "from": "unknown",
+      "to": "suspects",
+      "atScene": "ch7-scene2",
+      "reason": "Maya saw a $40,000 discrepancy in the ledger"
+    }
+  ],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=0"
+}

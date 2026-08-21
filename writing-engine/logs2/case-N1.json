@@ -1,0 +1,101 @@
+{
+  "timestamp": "2026-08-21T22:45:11.518Z",
+  "caseId": "N1",
+  "sceneId": "ch3-scene5",
+  "revisionId": 2,
+  "originalPassage": "Maya looked at the patient. She felt something about the situation. She would handle it. The shift would end eventually.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "proper_noun",
+          "value": "Papas",
+          "supported": false
+        }
+      ],
+      "total": 5,
+      "unsupportedCount": 1
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Counting IV drips (perceptual habit)",
+      "Noticing scent of the room (perceptual habit)",
+      "Reading dosage labels (perceptual habit)",
+      "Reference to numbers as anchors (voice trait)",
+      "Avoidance of emotional adjectives (voice trait)",
+      "Reference to Papa or dying father (established goals/fears)"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "This passage is completely generic - it could apply to any nurse or healthcare worker. It lacks all the specific details that would make it uniquely Maya's perspective. There's no counting of IV drips, no attention to scents, no automatic reading of dosage labels - all habits mentioned in her character state. The voice is also inconsistent with her established sparse, observational style that uses numbers as anchors. There's no reference to her dual role as ICU nurse and caregiver to her dying father, which would be central to her experience during a shift."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Maya counted the four IV drips in Room 4 before looking at the patient. The cardamom-and-iron scent of the room triggered a memory of Papa's pharmacy back room. She read the dosage labels automatically, noting the precise measurements. She felt the familiar weight of controlled exhaustion. She would handle it. The shift would end eventually. 4 hours left.",
+    "interventionTypes": [
+      "perception_detail",
+      "attention_detail",
+      "sensory_detail",
+      "memory_reference",
+      "internal_thought",
+      "rhythm"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "memories",
+      "emotionalState",
+      "voice",
+      "goals"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The core meaning of Maya's determination to get through her shift remains intact",
+      "The additions are highly specific to Maya's character (ICU nursing habits, perceptual style, memories) and consistent with her established traits",
+      "All information Maya perceives (IV drips, cardamom scent, dosage labels) is consistent with her character state and not attributed to unknown knowledge",
+      "No contradictions with established canon (Maya as ICU nurse)",
+      "The voice remains sparse, observational, and uses numbers as anchors, consistent with Maya's established voice",
+      "Appropriate for literary fiction with its sensory details and emotional subtext",
+      "The changes enhance clarity by providing specific details about Maya's experience",
+      "No deferred checks were present to be resolved",
+      "The DETERMINISTIC SUPPORTED-SPECIFICITY CHECK item 'Papas' is actually supported by Maya's memory of 'Papa's pharmacy back room' in her character state"
+    ]
+  },
+  "accepted": true,
+  "finalText": "Maya counted the four IV drips in Room 4 before looking at the patient. The cardamom-and-iron scent of the room triggered a memory of Papa's pharmacy back room. She read the dosage labels automatically, noting the precise measurements. She felt the familiar weight of controlled exhaustion. She would handle it. The shift would end eventually. 4 hours left.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 1 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 1 unsupported item(s): Papas"
+  ],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=0"
+}

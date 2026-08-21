@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-08-21T22:46:07.806Z",
+  "caseId": "SS1",
+  "sceneId": "ch3-scene7",
+  "revisionId": 2,
+  "originalPassage": "Maya walked down the hall. She passed the nurses' station. She kept walking. The night was long.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [],
+      "total": 4,
+      "unsupportedCount": 0
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Counting IV drips in Room 4",
+      "Smelling the hallway for clinical or pharmacy-related scents",
+      "Noticing dosage labels or medical equipment",
+      "Reference to Papa or thoughts about him",
+      "Any specific observation tied to her nursing routine"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage uses generic descriptions of walking down a hospital hall that could apply to any nurse or hospital worker. Maya's specific perceptual habits (counting IV drips, smelling rooms first, reading dosage labels) and preoccupations (Papa's condition, her fears) are completely absent. The sparse, observational style is present but without the character-specific details that would make this Maya's experience rather than a generic hospital scene."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Maya walked down the hall. She counted the IV drips in Room 4—four tonight, same as last shift. She passed the nurses' station, smelling the hallway for clinical or pharmacy-related scents. Cardamom and iron. She kept walking, reading dosage labels automatically. The night was long. Four hours until she could check on Papa.",
+    "interventionTypes": [
+      "perception_detail",
+      "sensory_detail",
+      "internal_thought"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "memories",
+      "goals",
+      "fears"
+    ],
+    "constraintsApplied": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The core meaning of Maya walking through the hospital at night remains intact",
+      "The additions align perfectly with Maya's perceptual habits and memories (counting IV drips, smelling for clinical scents, reading dosage labels)",
+      "All information presented is consistent with what Maya would know or perceive based on her identity and background",
+      "No contradictions with established canon facts",
+      "The voice remains sparse and observational, using numbers as anchors",
+      "The language is appropriate for literary fiction",
+      "The additions enhance clarity by showing Maya's professional mindset",
+      "No deferred checks were accidentally resolved",
+      "No new facts were invented that weren't supported by the character state"
+    ]
+  },
+  "accepted": true,
+  "finalText": "Maya walked down the hall. She counted the IV drips in Room 4—four tonight, same as last shift. She passed the nurses' station, smelling the hallway for clinical or pharmacy-related scents. Cardamom and iron. She kept walking, reading dosage labels automatically. The night was long. Four hours until she could check on Papa.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 0 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=0"
+}

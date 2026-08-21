@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-08-21T22:35:15.441Z",
+  "caseId": "DF3",
+  "sceneId": "ch6-scene6",
+  "revisionId": 2,
+  "originalPassage": "Maya paused at the garden bench where Tomás's small spade sat waiting, beside her own set of keys. She did not pick them up.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": null
+  },
+  "detection": {
+    "classification": "CHARACTER_SPECIFIC",
+    "evidence": [
+      "Maya notices the small spade (trowel) which connects to her perceptual habit of noticing details in her environment",
+      "She pauses at the garden bench showing awareness of her surroundings",
+      "She notices her own set of keys beside the trowel, indicating spatial awareness of her belongings"
+    ],
+    "absentDetails": [
+      "Maya would likely count the IV drips in the nearby area (perceptual habit)",
+      "She would likely smell the garden area (perceptual habit)",
+      "She would notice if the trowel's position was unusual or deliberate (though she doesn't interpret it as a signal)"
+    ],
+    "narrativelyPurposeful": true,
+    "canonConflicts": [],
+    "reasoning": "The passage shows Maya noticing specific details (the trowel and her keys) that align with her perceptual habits as an ICU nurse and her current awareness of her surroundings. Her pause and decision not to pick up the keys show her controlled observational nature. While she doesn't interpret the trowel's significance (as that information is deferred), her noticing it is consistent with her character. The passage maintains her sparse, observational voice while setting up the deferred clue about the trowel."
+  },
+  "severity": "NONE",
+  "decision": "ACCEPT_UNCHANGED",
+  "intervention": null,
+  "validation": null,
+  "accepted": true,
+  "finalText": "Maya paused at the garden bench where Tomás's small spade sat waiting, beside her own set of keys. She did not pick them up.",
+  "reason": "No intervention needed. Detection: CHARACTER_SPECIFIC; severity NONE.",
+  "remainingDeferred": [
+    "DC-1"
+  ],
+  "stateDiscovered": [],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=1"
+}

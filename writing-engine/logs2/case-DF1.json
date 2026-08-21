@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-08-21T22:34:51.942Z",
+  "caseId": "DF1",
+  "sceneId": "ch6-scene4",
+  "revisionId": 2,
+  "originalPassage": "On her way out, Maya noticed the gardener had left a trowel on the bench. Odd, but she was late. She set down her keys beside it and didn't pick either of them up.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "DEFERRED_ANCHOR_PRESENT",
+      "matchedCheckId": "DC-1",
+      "overlapType": "exact_substring"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": null
+  },
+  "detection": {
+    "classification": "DEFERRED_CONTEXT",
+    "evidence": [
+      "Maya notices the trowel (consistent with her perceptual habits of observing details)",
+      "She registers it as 'odd' but doesn't investigate further (consistent with her emotional state of controlled exhaustion and goal of getting through the shift)",
+      "The act of setting down keys beside the trowel shows her practical, routine-oriented mindset"
+    ],
+    "absentDetails": [
+      "No mention of counting the trowel or other tools (though she might count IV drips, not garden tools)",
+      "No scent observation (though she typically smells rooms first)"
+    ],
+    "narrativelyPurposeful": true,
+    "canonConflicts": [],
+    "reasoning": "[CC] Forced DEFERRED_CONTEXT: deterministic anchor cross-reference found exact match for deferred check DC-1. The passage demonstrates Maya's observational nature but also her exhausted, routine-focused mindset. She notices the odd placement of the trowel but doesn't investigate further, consistent with her goal of getting through the shift without breaking down. The action of setting keys beside the trowel shows her practical, organized approach. While not deeply emotional, this is characteristic of her sparse, observational voice and controlled emotional state."
+  },
+  "severity": "NONE",
+  "decision": "DEFER",
+  "intervention": null,
+  "validation": null,
+  "accepted": false,
+  "finalText": "On her way out, Maya noticed the gardener had left a trowel on the bench. Odd, but she was late. She set down her keys beside it and didn't pick either of them up.",
+  "reason": "Deferred — cannot judge until later context. Deferred checks: DC-1. [CC] anchor relevance: DEFERRED_ANCHOR_PRESENT.",
+  "remainingDeferred": [
+    "DC-1"
+  ],
+  "stateDiscovered": [],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=1"
+}

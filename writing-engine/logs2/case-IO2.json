@@ -1,0 +1,122 @@
+{
+  "timestamp": "2026-08-21T22:43:03.502Z",
+  "caseId": "IO2",
+  "sceneId": "ch5-scene6",
+  "revisionId": 2,
+  "originalPassage": "Maya looked in on the new patient, Mr. Vance. He looked bad. She adjusted his fluids and moved on.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "number",
+          "value": "98",
+          "supported": false
+        },
+        {
+          "type": "number",
+          "value": "6",
+          "supported": false
+        },
+        {
+          "type": "number",
+          "value": "72",
+          "supported": false
+        },
+        {
+          "type": "number",
+          "value": "120",
+          "supported": false
+        },
+        {
+          "type": "number",
+          "value": "80",
+          "supported": false
+        },
+        {
+          "type": "number",
+          "value": "three",
+          "supported": false
+        }
+      ],
+      "total": 9,
+      "unsupportedCount": 6
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Counting IV drips (habitual perceptual filter)",
+      "Smelling the room (perceptual habit)",
+      "Reading dosage labels automatically (professional habit)",
+      "Specific details about Mr. Vance's condition that would register through her nursing expertise",
+      "Any reference to her father or her fears about finding him dead"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage lacks any character-specific details that would tie to Maya's perceptual habits, emotional state, or current concerns. As an ICU nurse with specific habits like counting IV drips and smelling rooms, she would notice details differently than a generic character. Her voice is described as sparse and observational, using numbers as anchors, yet this passage contains none of those specific elements. The description 'He looked bad' is generic and could apply to any nurse, not conveying Maya's particular perspective shaped by her dual role as caregiver to her dying father."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Maya counted the IV drips in Room 7—three tonight, not four. She smelled antiseptic and something else, something like cardamom and iron. Mr. Vance looked bad, his vitals stable on the monitor: 98.6, 72, 120/80. She adjusted his fluids, checked the dosage label on the bag: saline, 1000ml. She moved on.",
+    "interventionTypes": [
+      "perceptualHabits",
+      "sensory_detail",
+      "attention_detail",
+      "voice"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "memories",
+      "voice",
+      "currentKnowledge"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "UNCLEAR",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The core action of Maya checking on Mr. Vance and adjusting his fluids remains intact",
+      "The added details align with Maya's perceptual habits (counting IV drips, smelling rooms, reading dosage labels)",
+      "Maya doesn't know any information she shouldn't know (Mr. Vance's condition is still unknown to her)",
+      "No contradiction with established canon",
+      "The revision maintains Maya's sparse, observational voice using numbers as anchors",
+      "Appropriate for literary fiction",
+      "The added details enhance clarity without confusion",
+      "No deferred checks were resolved",
+      "The specific numbers (98.6, 72, 120/80, three IV drips) and details (saline, 1000ml) appear to be invented, though they could be considered reasonable medical details that don't contradict established facts"
+    ]
+  },
+  "accepted": true,
+  "finalText": "Maya counted the IV drips in Room 7—three tonight, not four. She smelled antiseptic and something else, something like cardamom and iron. Mr. Vance looked bad, his vitals stable on the monitor: 98.6, 72, 120/80. She adjusted his fluids, checked the dosage label on the bag: saline, 1000ml. She moved on.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 6 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 6 unsupported item(s): 98, 6, 72, 120, 80, three"
+  ],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=0"
+}

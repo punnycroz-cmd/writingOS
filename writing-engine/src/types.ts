@@ -130,7 +130,38 @@ export interface ValidationResult {
   reasons: string[];
 }
 
-// ---- LOG ENTRY (the auditable record) ----
+// ---- DETERMINISTIC CHECK RESULTS (Iteration 2 [CC] layer) ----
+export interface DeterministicChecks {
+  deferredAnchor: {          // pre-detection
+    relevance: string;
+    matchedCheckId?: string;
+    overlapType?: string;
+    jaccardScore?: number;
+  };
+  canonAlerts: {              // pre-detection recall booster
+    canonFact: string;
+    alertKeyword: string;
+    passageSnippet: string;
+  }[];
+  supportedSpecificity: {    // post-intervention, pre-validation
+    unsupported: { type: string; value: string }[];
+    total: number;
+    unsupportedCount: number;
+  } | null;
+}
+
+// ---- STATE TRANSITIONS (for multi-scene temporal tests) ----
+export interface StateTransition {
+  type: 'info_ownership' | 'canon_classification';
+  fact: string;
+  character?: string;
+  from: string;
+  to: string;
+  atScene: string;
+  reason: string;
+}
+
+// ---- LOG ENTRY (the auditable record — extended for Iteration 2) ----
 export interface LogEntry {
   timestamp: string;
   caseId: string;
@@ -138,6 +169,7 @@ export interface LogEntry {
   revisionId: number;
   originalPassage: string;
   diagnostic: string;          // 'character_specificity'
+  deterministicChecks: DeterministicChecks;  // [CC] layer results
   detection: DetectionResult;
   severity: Severity;
   decision: Decision;
@@ -145,6 +177,9 @@ export interface LogEntry {
   validation: ValidationResult | null;
   accepted: boolean;
   finalText: string;
+  reason: string;              // why accepted/rejected (human-readable summary)
   remainingDeferred: string[];
-  stateDiscovered: string[];   // fields the loop found it needed
+  stateDiscovered: string[];
+  stateTransitions: StateTransition[];  // transitions applied before this scene
+  inputStateSummary: string;   // brief summary of state at this scene
 }

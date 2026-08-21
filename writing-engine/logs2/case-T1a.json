@@ -1,0 +1,108 @@
+{
+  "timestamp": "2026-08-21T22:35:25.209Z",
+  "caseId": "T1a",
+  "sceneId": "ch7-scene1",
+  "revisionId": 2,
+  "originalPassage": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": {
+      "unsupported": [
+        {
+          "type": "number",
+          "value": "2",
+          "supported": false
+        },
+        {
+          "type": "number",
+          "value": "17",
+          "supported": false
+        },
+        {
+          "type": "number",
+          "value": "one",
+          "supported": false
+        }
+      ],
+      "total": 9,
+      "unsupportedCount": 3
+    }
+  },
+  "detection": {
+    "classification": "GENERIC",
+    "evidence": [],
+    "absentDetails": [
+      "Maya would likely count the IV drips in Room 4 as a habit",
+      "She would smell the room for clinical or familiar scents",
+      "She would notice any medication dosage labels automatically",
+      "Her sparse observational voice would likely include a numerical detail about her patient"
+    ],
+    "narrativelyPurposeful": false,
+    "canonConflicts": [],
+    "reasoning": "The passage describes Maya noticing Marcus acting strangely but provides no specific details that reflect Maya's established perceptual habits, emotional state, or voice. A character who counts IV drips automatically, smells rooms first, and uses numbers as anchors would notice specific details about her patient or environment. The description of Marcus acting strange is generic and doesn't tie to Maya's specific concerns about the clinic's finances or her relationship with Marcus."
+  },
+  "severity": "MATERIAL",
+  "decision": "TARGETED_REWRITE",
+  "intervention": {
+    "revisedText": "Marcus was tapping his pen twice on the ledger—three, four times. Maya counted the four IV drips in Room 4 automatically, then smelled the room for clinical or familiar scents—sterile, cardamom, iron. She checked her watch: 2:17 AM. 'Four,' she said to no one, then went to check on her patient.",
+    "interventionTypes": [
+      "perception_detail",
+      "attention_detail",
+      "internal_thought",
+      "sensory_detail",
+      "memory_reference"
+    ],
+    "stateUsed": [
+      "perceptualHabits",
+      "voice",
+      "memories",
+      "currentKnowledge",
+      "emotionalState"
+    ],
+    "constraintsApplied": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ]
+  },
+  "validation": {
+    "meaning": "PASS",
+    "character": "PASS",
+    "infoOwnership": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "reasons": [
+      "The core meaning of Maya observing Marcus and going to check on her patient is preserved",
+      "The added details are consistent with Maya's perceptual habits and professional background",
+      "Maya doesn't use any information she shouldn't know - she's observing Marcus and counting IV drips",
+      "No contradictions with established canon facts",
+      "The sparse, observational voice with numerical anchors is preserved",
+      "Appropriate for literary fiction style",
+      "The added details enhance clarity rather than harm it",
+      "No deferred checks were accidentally resolved",
+      "The specific details (time, number of taps, IV drips) are consistent with Maya's established habits and don't invent unsupported facts"
+    ]
+  },
+  "accepted": true,
+  "finalText": "Marcus was tapping his pen twice on the ledger—three, four times. Maya counted the four IV drips in Room 4 automatically, then smelled the room for clinical or familiar scents—sterile, cardamom, iron. She checked her watch: 2:17 AM. 'Four,' she said to no one, then went to check on her patient.",
+  "reason": "Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: 3 unsupported item(s) found.",
+  "remainingDeferred": [],
+  "stateDiscovered": [
+    "[CC] supported-specificity check flagged 3 unsupported item(s): 2, 17, one"
+  ],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=1; canon facts=1; deferred=0"
+}

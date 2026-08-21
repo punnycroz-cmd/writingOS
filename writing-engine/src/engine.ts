@@ -1,24 +1,47 @@
-// engine.ts — The Character Specificity decision loop, executable.
-// Principle → Diagnostic → Detection → State Lookup → Severity → Decision → Intervention → Validation → Logging
+// engine.ts — The Character Specificity decision loop, Iteration 2.
+// [CC] pre-pass → [LJ] Detection → State Lookup → Severity → Decision → [LJ] Intervention → [CC] supported-specificity → [LJ] Validation → Logging
 // Every LLM call is a separate, independently-prompted stage (no self-validation).
+// Deterministic checks gate and inform LLM stages but do not replace semantic judgment
+// (except where the signal is conclusive, e.g. exact deferred-anchor match).
 
 import ZAI from 'z-ai-web-dev-sdk';
 import type {
   DocumentState, DetectionResult, Severity, Decision,
   InterventionCandidate, ValidationResult, LogEntry, InterventionType,
+  DeterministicChecks, StateTransition,
 } from './types.js';
+import {
+  checkDeferredAnchor, checkSupportedSpecificity, canonKeywordAlert,
+  type DeferredAnchorResult,
+} from './deterministic.js';
 
-// ---------- LLM helper ----------
+// ---------- LLM helper (with retry + rate-limit backoff) ----------
 async function llm(system: string, user: string): Promise<string> {
   const zai = await ZAI.create();
-  const completion = await zai.chat.completions.create({
-    messages: [
-      { role: 'system', content: system },
-      { role: 'user', content: user },
-    ],
-    thinking: { type: 'disabled' },
-  });
-  return completion.choices[0]?.message?.content ?? '';
+  const maxRetries = 4;
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    try {
+      const completion = await zai.chat.completions.create({
+        messages: [
+          { role: 'system', content: system },
+          { role: 'user', content: user },
+        ],
+        thinking: { type: 'disabled' },
+      });
+      return completion.choices[0]?.message?.content ?? '';
+    } catch (e: any) {
+      const msg = String(e?.message || e);
+      const is429 = msg.includes('429') || msg.includes('Too many requests');
+      if (is429 && attempt < maxRetries) {
+        const wait = 15000 * Math.pow(2, attempt); // 15s, 30s, 60s, 120s
+        console.error(`  [rate-limit] 429 on attempt ${attempt + 1}; waiting ${wait / 1000}s...`);
+        await new Promise(r => setTimeout(r, wait));
+        continue;
+      }
+      throw e;
+    }
+  }
+  throw new Error('unreachable');
 }
 
 // Robust JSON extraction (models sometimes wrap in ```json or add prose)
@@ -51,7 +74,19 @@ A passage is DEFERRED_CONTEXT if its meaning depends on an unresolved future pay
 
 You MUST ground every judgment in the provided character state, canon, and information ownership. Do not invent character traits. Return ONLY valid JSON.`;
 
-export async function detect(passage: string, state: DocumentState): Promise<DetectionResult> {
+export async function detect(
+  passage: string,
+  state: DocumentState,
+  deferredHint?: DeferredAnchorResult,
+  canonAlerts?: { canonFact: string; alertKeyword: string; passageSnippet: string }[],
+): Promise<DetectionResult> {
+  let hintBlock = '';
+  if (deferredHint && deferredHint.relevance !== 'NO_DEFERRED_RELEVANCE') {
+    hintBlock += `\nDETERMINISTIC PRE-PASS SIGNAL: A deferred-check anchor was detected in or near this passage (${deferredHint.relevance}, overlap: ${deferredHint.overlapType ?? 'n/a'}, matched: "${deferredHint.matchedAnchor ?? ''}"). You MUST classify this passage as DEFERRED_CONTEXT if the anchor is genuinely present.\n`;
+  }
+  if (canonAlerts && canonAlerts.length > 0) {
+    hintBlock += `\nCANON KEYWORD ALERT: Potential HARD_CANON conflict detected — ${canonAlerts.map(a => a.alertKeyword + ' ("' + a.canonFact + '")').join('; ')}. Investigate carefully.\n`;
+  }
   const user = `CHARACTER STATE:
 ${JSON.stringify(state.character, null, 2)}
 
@@ -63,7 +98,7 @@ ${JSON.stringify(state.canon, null, 2)}
 
 DEFERRED CHECKS (unresolved long-range setups):
 ${JSON.stringify(state.deferredChecks, null, 2)}
-
+${hintBlock}
 PASSAGE TO EVALUATE:
 """
 ${passage}
@@ -79,7 +114,14 @@ Evaluate this passage's character specificity. Return JSON exactly:
   "reasoning": "one paragraph"
 }`;
   const raw = await llm(DETECT_SYSTEM, user);
-  return extractJSON(raw) as DetectionResult;
+  const result = extractJSON(raw) as DetectionResult;
+  // Deterministic override: if the pre-pass found an EXACT anchor match, force DEFERRED_CONTEXT
+  // regardless of what the LLM said. (POSSIBLY_RELATED is only a hint, not an override.)
+  if (deferredHint && deferredHint.relevance === 'DEFERRED_ANCHOR_PRESENT' && result.classification !== 'CANON_VIOLATION') {
+    result.classification = 'DEFERRED_CONTEXT';
+    result.reasoning = `[CC] Forced DEFERRED_CONTEXT: deterministic anchor cross-reference found exact match for deferred check ${deferredHint.matchedCheckId}. ` + result.reasoning;
+  }
+  return result;
 }
 
 // ============================================================
@@ -190,6 +232,8 @@ Return JSON:
 // and checks nine dimensions independently.
 const VALIDATE_SYSTEM = `You are an independent validator for a fiction revision. You did NOT generate the revision. Your job is to check whether it is safe to accept.
 
+You may receive a DETERMINISTIC SUPPORTED-SPECIFICITY CHECK result listing items in the revised text not found in source or state. Treat these as strong signals of potential hallucination, but verify each: some may be supported by an aspect of state the string-match missed (e.g., a memory describing the same item in different words). Make your own judgment, but do not ignore the signal.
+
 Check each dimension. A single FAIL on an integrity dimension (infoOwnership, canon, faithfulness, deferred) means the revision MUST be rejected, regardless of other passes.
 
 Return ONLY valid JSON.`;
@@ -198,7 +242,14 @@ export async function validate(
   original: string,
   revised: string,
   state: DocumentState,
+  ccUnsupported?: { type: string; value: string }[],
 ): Promise<ValidationResult> {
+  let ccBlock = '';
+  if (ccUnsupported && ccUnsupported.length > 0) {
+    ccBlock = `\nDETERMINISTIC SUPPORTED-SPECIFICITY CHECK found ${ccUnsupported.length} item(s) in the revised text NOT present in source or state: ${ccUnsupported.map(i => i.value).join(', ')}. Treat these as candidate hallucinations and verify whether they are genuinely invented or supported by an aspect of state you can identify.\n`;
+  } else if (ccUnsupported && ccUnsupported.length === 0) {
+    ccBlock = `\nDETERMINISTIC SUPPORTED-SPECIFICITY CHECK: no unsupported numbers/proper-nouns detected. This is favorable but not conclusive — continue to check faithfulness semantically.\n`;
+  }
   const user = `ORIGINAL:
 """
 ${original}
@@ -220,7 +271,7 @@ ${JSON.stringify(state.canon, null, 2)}
 
 DEFERRED CHECKS:
 ${JSON.stringify(state.deferredChecks, null, 2)}
-
+${ccBlock}
 Validate the revised passage on each dimension:
 - meaning: Did the intended meaning survive?
 - character: Is it more specific without becoming inconsistent with the character?
@@ -254,17 +305,24 @@ Return JSON:
 }
 
 // ============================================================
-// STAGE 6 — THE LOOP (orchestrates all stages, produces LogEntry)
+// STAGE — THE LOOP (Iteration 2: [CC] pre-pass + [LJ] stages + [CC] post-pass)
 // ============================================================
 export async function runLoop(
   caseId: string,
   passage: string,
   state: DocumentState,
+  priorTransitions: StateTransition[] = [],
 ): Promise<LogEntry> {
   const stateDiscovered: string[] = [];
+  let reason = '';
 
-  // 1. Detection
-  const detection = await detect(passage, state);
+  // 0. [CC] PRE-PASS: deferred-anchor cross-reference + canon keyword alert
+  const deferredAnchor = checkDeferredAnchor(passage, state.deferredChecks);
+  const canonAlerts = canonKeywordAlert(passage, state);
+  let supportedSpecificity: DeterministicChecks['supportedSpecificity'] = null;
+
+  // 1. [LJ] Detection (informed by [CC] hints; overridden if exact anchor found)
+  const detection = await detect(passage, state, deferredAnchor, canonAlerts);
 
   // 2. Severity (rule-based)
   const severity = assignSeverity(detection);
@@ -272,32 +330,50 @@ export async function runLoop(
   // 3. Decision
   let decision = decide(severity, detection);
 
-  // 4. Intervention (if permitted)
+  // 4. [LJ] Intervention (if permitted)
   let intervention: InterventionCandidate | null = null;
   if (decision === 'OPTIONAL_POLISH' || decision === 'TARGETED_REWRITE') {
     intervention = await intervene(passage, detection, state, decision);
   }
 
-  // 5. Validation (independent, only if intervention generated)
+  // 4a. [CC] POST-PASS: supported-specificity check on the intervention
+  if (intervention) {
+    const ss = checkSupportedSpecificity(intervention.revisedText, passage, state);
+    supportedSpecificity = { unsupported: ss.unsupported, total: ss.total, unsupportedCount: ss.unsupportedCount };
+    if (ss.unsupportedCount > 0) {
+      stateDiscovered.push(`[CC] supported-specificity check flagged ${ss.unsupportedCount} unsupported item(s): ${ss.unsupported.map(i => i.value).join(', ')}`);
+    }
+  }
+
+  // 5. [LJ] Independent Validation (informed by [CC] supported-specificity)
   let validation: ValidationResult | null = null;
   let accepted = false;
   let finalText = passage;
   let effectiveDecision = decision;
 
   if (intervention) {
-    validation = await validate(passage, intervention.revisedText, state);
+    validation = await validate(passage, intervention.revisedText, state, supportedSpecificity?.unsupported);
     if (validation.overall === 'ACCEPT') {
       accepted = true;
       finalText = intervention.revisedText;
+      reason = `Intervention accepted: validation passed all 9 dimensions. [CC] supported-specificity: ${supportedSpecificity?.unsupportedCount ?? 0} unsupported item(s) found.`;
     } else {
-      // Intervention blocked — fall back to original, record the block
       accepted = false;
       finalText = passage;
       effectiveDecision = 'BLOCK_INTERVENTION';
-      stateDiscovered.push('Validation can override an accepted generation — independent validation is load-bearing, not decorative.');
+      const failedDims = ['infoOwnership','canon','faithfulness','deferred'].filter(d => (validation as any)[d] === 'FAIL');
+      reason = `Intervention blocked by independent validation. Failed integrity dimension(s): ${failedDims.join(', ') || 'none (non-integrity fail)'}. [CC] unsupported: ${supportedSpecificity?.unsupportedCount ?? 0}.`;
+      stateDiscovered.push('Independent validation blocked an intervention the generator produced — generation/validation separation is load-bearing.');
     }
-  } else if (decision === 'ACCEPT_UNCHANGED' || decision === 'DEFER' || decision === 'REJECT_AND_FLAG') {
-    accepted = decision === 'ACCEPT_UNCHANGED';
+  } else if (decision === 'ACCEPT_UNCHANGED') {
+    accepted = true;
+    reason = `No intervention needed. Detection: ${detection.classification}; severity ${severity}.`;
+  } else if (decision === 'DEFER') {
+    accepted = false;
+    reason = `Deferred — cannot judge until later context. Deferred checks: ${state.deferredChecks.filter(d => d.status === 'DEFERRED').map(d => d.id).join(', ') || 'none'}. [CC] anchor relevance: ${deferredAnchor.relevance}.`;
+  } else if (decision === 'REJECT_AND_FLAG') {
+    accepted = false;
+    reason = `Canon violation flagged for author attention. [CC] canon alerts: ${canonAlerts.length}.`;
   }
 
   // 6. Log
@@ -308,6 +384,16 @@ export async function runLoop(
     revisionId: state.revisionId,
     originalPassage: passage,
     diagnostic: 'character_specificity',
+    deterministicChecks: {
+      deferredAnchor: {
+        relevance: deferredAnchor.relevance,
+        matchedCheckId: deferredAnchor.matchedCheckId,
+        overlapType: deferredAnchor.overlapType,
+        jaccardScore: deferredAnchor.jaccardScore,
+      },
+      canonAlerts,
+      supportedSpecificity,
+    },
     detection,
     severity,
     decision: effectiveDecision,
@@ -315,8 +401,11 @@ export async function runLoop(
     validation,
     accepted,
     finalText,
+    reason,
     remainingDeferred: state.deferredChecks.filter(d => d.status === 'DEFERRED').map(d => d.id),
     stateDiscovered,
+    stateTransitions: priorTransitions,
+    inputStateSummary: `char=${state.character.identity.split('—')[0].trim()}; infoOwnership entries=${state.informationOwnership.entries.length}; canon facts=${state.canon.facts.length}; deferred=${state.deferredChecks.length}`,
   };
   return log;
 }

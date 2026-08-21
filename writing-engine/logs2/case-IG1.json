@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-08-21T22:45:14.051Z",
+  "caseId": "IG1",
+  "sceneId": "ch4-scene1",
+  "revisionId": 2,
+  "originalPassage": "The morning moved the way mornings do. Light came through the window. There was a cup, and there was coffee in it. She was a person doing the things a person does.",
+  "diagnostic": "character_specificity",
+  "deterministicChecks": {
+    "deferredAnchor": {
+      "relevance": "NO_DEFERRED_RELEVANCE"
+    },
+    "canonAlerts": [],
+    "supportedSpecificity": null
+  },
+  "detection": {
+    "classification": "INTENTIONALLY_GENERIC",
+    "evidence": [
+      "The deliberately flat, detached description mirrors Maya's depersonalization under grief load (SOFT_CANON from ch2)",
+      "The repetition of 'there was' creates a mechanical, detached perspective consistent with emotional dissociation"
+    ],
+    "absentDetails": [
+      "The specific count of IV drips (Maya's perceptual habit)",
+      "The clinical scent of the hospital room (Maya's olfactory habits)",
+      "Any reference to her father's condition (her primary concern)"
+    ],
+    "narrativelyPurposeful": true,
+    "canonConflicts": [],
+    "reasoning": "The passage's generic quality serves a specific narrative purpose by illustrating Maya's depersonalization under grief load. While it lacks character-specific details that would normally be expected, this absence is itself a character-specific trait that aligns with established canon about her psychological state under stress."
+  },
+  "severity": "NONE",
+  "decision": "ACCEPT_UNCHANGED",
+  "intervention": null,
+  "validation": null,
+  "accepted": true,
+  "finalText": "The morning moved the way mornings do. Light came through the window. There was a cup, and there was coffee in it. She was a person doing the things a person does.",
+  "reason": "No intervention needed. Detection: INTENTIONALLY_GENERIC; severity NONE.",
+  "remainingDeferred": [],
+  "stateDiscovered": [],
+  "stateTransitions": [],
+  "inputStateSummary": "char=Maya Okafor; infoOwnership entries=0; canon facts=1; deferred=0"
+}
