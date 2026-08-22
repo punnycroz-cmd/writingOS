@@ -1,0 +1,94 @@
+{
+  "caseId": "A4",
+  "group": "A",
+  "label": "T11-UNKNOWN-C: state=UNKNOWN, \"suspected finances\"",
+  "original": "Marcus was at the desk.",
+  "revised": "Maya suspected something was wrong with the finances.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "matrix42",
+    "revisionId": 42
+  },
+  "policy": "LICENSED_FICTION",
+  "expected": "REJECT",
+  "reasoning": "state=UNKNOWN, suspicion of specific domain without evidence → REJECT",
+  "scenarioTested": "Scenario 2 (no state support)",
+  "cc": {
+    "category": "ADVISORY",
+    "severity": "ADVISORY",
+    "signals": [],
+    "hardStructuralBlocks": [],
+    "claimPatternBlocks": []
+  },
+  "claims": [
+    {
+      "level": "SUSPICION",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching IO entry"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "meaning: No claim about specific facts detected, only general suspicion",
+      "character: No characterization information provided to check",
+      "infoOwnership: No specific claim about facts that Maya doesn't know",
+      "canon: Doesn't contradict hard canon about Maya co-owning clinic with Marcus",
+      "voice: No voice information provided to check",
+      "register: No register information provided to check",
+      "intelligibility: Statement is clear and understandable",
+      "deferred: No deferred checks to resolve",
+      "faithfulness: No unsupported specific numbers/dates/names/measurements"
+    ]
+  },
+  "arbitration": {
+    "overrideApplied": false,
+    "overrideReason": "ADVISORY — [LJ] decides (ACCEPT)",
+    "effectiveCCSeverity": "ADVISORY",
+    "finalDecision": "ACCEPT",
+    "arbitrationPath": "ADVISORY → LJ decides"
+  },
+  "final": "ACCEPT",
+  "correct": false,
+  "validatorMode": "LLM",
+  "executionError": null
+}

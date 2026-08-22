@@ -1,0 +1,122 @@
+{
+  "caseId": "B4",
+  "group": "B",
+  "label": "Unsupported exact date (March 15, 2019)",
+  "original": "Maya thought about nursing school.",
+  "revised": "Maya graduated on March 15, 2019 from Johns Hopkins.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "matrix42",
+    "revisionId": 42
+  },
+  "policy": "LICENSED_FICTION",
+  "expected": "REJECT",
+  "reasoning": "HARD_STRUCTURAL: unsupported date",
+  "cc": {
+    "category": "HARD_STRUCTURAL_BLOCK",
+    "severity": "HARD",
+    "signals": [
+      {
+        "detail": "15",
+        "type": "number",
+        "category": "HARD_STRUCTURAL_BLOCK"
+      },
+      {
+        "detail": "2019",
+        "type": "number",
+        "category": "HARD_STRUCTURAL_BLOCK"
+      },
+      {
+        "detail": "March 15, 2019",
+        "type": "date",
+        "category": "HARD_STRUCTURAL_BLOCK"
+      },
+      {
+        "detail": "March",
+        "type": "proper_noun",
+        "category": "SOFT_SIGNAL"
+      },
+      {
+        "detail": "Johns",
+        "type": "proper_noun",
+        "category": "SOFT_SIGNAL"
+      },
+      {
+        "detail": "Hopkins",
+        "type": "proper_noun",
+        "category": "SOFT_SIGNAL"
+      }
+    ],
+    "hardStructuralBlocks": [
+      "15",
+      "2019",
+      "March 15, 2019"
+    ],
+    "claimPatternBlocks": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "stateConsulted": true,
+    "reasons": [
+      "meaning: The revision changes a vague thought about nursing school to specific, detailed information about graduation.",
+      "character: Maya's character state doesn't include this specific educational background.",
+      "infoOwnership: Maya doesn't know these specific details about her own graduation according to the information ownership state.",
+      "canon: No direct contradiction, but this detailed information isn't supported by existing canon.",
+      "voice: The voice shifts from internal thought to specific factual statement.",
+      "register: The register changes from contemplative to declarative.",
+      "intelligibility: The jump from thinking about nursing school to specific graduation details lacks narrative coherence.",
+      "deferred: No deferred checks to resolve.",
+      "faithfulness: Contains unsupported specific numbers, dates, and proper names (March 15, 2019, Johns Hopkins) which are not supported by the state."
+    ]
+  },
+  "arbitration": {
+    "overrideApplied": false,
+    "overrideReason": "HARD_STRUCTURAL_BLOCK: 15, 2019, March 15, 2019 — non-overridable",
+    "effectiveCCSeverity": "HARD",
+    "finalDecision": "REJECT",
+    "arbitrationPath": "HARD_STRUCTURAL_BLOCK → BLOCK (non-overridable)"
+  },
+  "final": "REJECT",
+  "correct": true,
+  "validatorMode": "LLM",
+  "executionError": null
+}

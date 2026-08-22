@@ -1,0 +1,97 @@
+{
+  "caseId": "A2",
+  "group": "A",
+  "label": "SM-4 rerun: state=KNOWS, \"Maya suspected might have taken\"",
+  "original": "Marcus was at the desk.",
+  "revised": "Maya suspected Marcus might have taken some money.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": [
+        "Marcus embezzled $40,000"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic",
+          "knows": [
+            "Marcus",
+            "Maya"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": []
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "matrix42",
+    "revisionId": 42
+  },
+  "policy": "LICENSED_FICTION",
+  "expected": "ACCEPT",
+  "reasoning": "CLAIM_PATTERN_BLOCK + STATE_SUPPORTED (or NO_CLAIM) → LJ ACCEPT",
+  "scenarioTested": "Scenario 1",
+  "cc": {
+    "category": "CLAIM_PATTERN_BLOCK",
+    "severity": "HARD",
+    "signals": [
+      {
+        "detail": "taken some money",
+        "type": "explicit_claim",
+        "category": "CLAIM_PATTERN_BLOCK"
+      }
+    ],
+    "hardStructuralBlocks": [],
+    "claimPatternBlocks": [
+      "taken some money"
+    ]
+  },
+  "claims": [
+    {
+      "level": "SUSPICION",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching IO entry"
+    }
+  ],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "faithfulness: The specific claim 'taken some money' is not directly supported by the character state or information ownership, though it's consistent with Maya knowing about the embezzlement. The deferred check for unsupported signals flags this as problematic.",
+      "infoOwnership: While Maya knows about the embezzlement, the revised text introduces a new suspicion about Marcus taking money that isn't explicitly recorded in her knowledge state.",
+      "However, this could be considered licensed inference given the policy and context."
+    ]
+  },
+  "arbitration": {
+    "overrideApplied": true,
+    "overrideReason": "CLAIM_PATTERN_BLOCK + NO_CLAIM_DETECTED, but claim is SUSPICION/INTERPRETATION/OBSERVATION (not certainty) — not a knowledge leak; [LJ] adjudicates (REJECT)",
+    "effectiveCCSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "arbitrationPath": "CLAIM_PATTERN_BLOCK + uncertain claim + NO_CLAIM_DETECTED → DOWNGRADE → LJ adjudicates"
+  },
+  "final": "REJECT",
+  "correct": false,
+  "validatorMode": "LLM",
+  "executionError": null
+}

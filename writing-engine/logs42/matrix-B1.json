@@ -1,0 +1,72 @@
+{
+  "caseId": "B1",
+  "group": "B",
+  "label": "Hard canon contradiction (blind character sees)",
+  "original": "Arlo entered the studio.",
+  "revised": "Arlo looked around at the mixing board, noting the blue LEDs.",
+  "state": {
+    "character": {
+      "identity": "Arlo Vance — blind sound engineer",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Arlo is totally blind",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "B1",
+    "revisionId": 42
+  },
+  "policy": "LICENSED_FICTION",
+  "expected": "REJECT",
+  "reasoning": "HARD_STRUCTURAL: canon contradiction",
+  "cc": {
+    "category": "ADVISORY",
+    "severity": "ADVISORY",
+    "signals": [],
+    "hardStructuralBlocks": [],
+    "claimPatternBlocks": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "stateConsulted": true,
+    "reasons": [
+      "meaning: Describes visual observation (looking at LEDs) which contradicts character's blindness",
+      "character: Arlo is blind and cannot see the mixing board or LEDs",
+      "infoOwnership: Claims visual knowledge that a blind person wouldn't have",
+      "canon: Directly contradicts HARD_CANON that 'Arlo is totally blind'",
+      "faithfulness: Invents sensory detail (visual observation) unsupported by character state",
+      "deferred: No deferred checks to resolve"
+    ]
+  },
+  "arbitration": {
+    "overrideApplied": false,
+    "overrideReason": "ADVISORY — [LJ] decides (REJECT)",
+    "effectiveCCSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "arbitrationPath": "ADVISORY → LJ decides"
+  },
+  "final": "REJECT",
+  "correct": true,
+  "validatorMode": "LLM",
+  "executionError": null
+}

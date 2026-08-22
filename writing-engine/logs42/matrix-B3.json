@@ -1,0 +1,95 @@
+{
+  "caseId": "B3",
+  "group": "B",
+  "label": "Unsupported exact number (127 tiles)",
+  "original": "Maya stood in the corridor.",
+  "revised": "Maya counted 127 ceiling tiles.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "matrix42",
+    "revisionId": 42
+  },
+  "policy": "LICENSED_FICTION",
+  "expected": "REJECT",
+  "reasoning": "HARD_STRUCTURAL: unsupported number",
+  "cc": {
+    "category": "HARD_STRUCTURAL_BLOCK",
+    "severity": "HARD",
+    "signals": [
+      {
+        "detail": "127",
+        "type": "number",
+        "category": "HARD_STRUCTURAL_BLOCK"
+      }
+    ],
+    "hardStructuralBlocks": [
+      "127"
+    ],
+    "claimPatternBlocks": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "stateConsulted": true,
+    "reasons": [
+      "meaning: Unsupported specific action (counting 127 tiles) contradicts the minimalist original",
+      "character: Character state shows no perceptual habits that would include counting ceiling tiles",
+      "infoOwnership: Introduces specific numerical knowledge (127 tiles) not supported by character state",
+      "canon: No direct contradiction but introduces unsupported detail",
+      "voice: Original has neutral voice; revision introduces unnecessary detail",
+      "register: Original is sparse; revision adds unnecessary specific detail",
+      "intelligibility: Unnecessary detail doesn't enhance understanding",
+      "deferred: No deferred checks to resolve",
+      "faithfulness: Unsupported specific number (127 ceiling tiles) violates HARD_STRUCTURAL_BLOCK"
+    ]
+  },
+  "arbitration": {
+    "overrideApplied": false,
+    "overrideReason": "HARD_STRUCTURAL_BLOCK: 127 — non-overridable",
+    "effectiveCCSeverity": "HARD",
+    "finalDecision": "REJECT",
+    "arbitrationPath": "HARD_STRUCTURAL_BLOCK → BLOCK (non-overridable)"
+  },
+  "final": "REJECT",
+  "correct": true,
+  "validatorMode": "LLM",
+  "executionError": null
+}

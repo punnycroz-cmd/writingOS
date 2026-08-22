@@ -1,0 +1,101 @@
+{
+  "caseId": "B2",
+  "group": "B",
+  "label": "Explicit unknown knowledge (state=UNKNOWN, \"knew X\")",
+  "original": "Marcus was at the desk.",
+  "revised": "Maya knew Marcus had embezzled $40,000 from the clinic.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "matrix42",
+    "revisionId": 42
+  },
+  "policy": "LICENSED_FICTION",
+  "expected": "REJECT",
+  "reasoning": "CLAIM_PATTERN + STATE_CONTRADICTION → BLOCK",
+  "scenarioTested": "Scenario 2",
+  "cc": {
+    "category": "CLAIM_PATTERN_BLOCK",
+    "severity": "HARD",
+    "signals": [
+      {
+        "detail": "knew Marcus had embezzled $40",
+        "type": "explicit_claim",
+        "category": "CLAIM_PATTERN_BLOCK"
+      },
+      {
+        "detail": "had embezzled $40",
+        "type": "explicit_claim",
+        "category": "CLAIM_PATTERN_BLOCK"
+      }
+    ],
+    "hardStructuralBlocks": [],
+    "claimPatternBlocks": [
+      "knew Marcus had embezzled $40",
+      "had embezzled $40"
+    ]
+  },
+  "claims": [
+    {
+      "level": "KNOWLEDGE",
+      "resolution": "STATE_CONTRADICTION",
+      "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic\" — KNOWLEDGE is a leak"
+    }
+  ],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "infoOwnership: Maya does not know that Marcus embezzled $40,000 from the clinic (marked as UNKNOWN for her), but the revision states she 'knew' this fact, creating a STATE_CONTRADICTION",
+      "faithfulness: The specific amount '$40,000' is an unsupported number without proper source"
+    ]
+  },
+  "arbitration": {
+    "overrideApplied": false,
+    "overrideReason": "CLAIM_PATTERN_BLOCK + STATE_CONTRADICTION: knew Marcus had embezzled $40 — claim confirmed as violation",
+    "effectiveCCSeverity": "HARD",
+    "finalDecision": "REJECT",
+    "arbitrationPath": "CLAIM_PATTERN_BLOCK + STATE_CONTRADICTION → BLOCK"
+  },
+  "final": "REJECT",
+  "correct": true,
+  "validatorMode": "LLM",
+  "executionError": null
+}
