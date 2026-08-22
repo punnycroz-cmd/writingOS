@@ -346,3 +346,31 @@ Stage Summary:
 - R6: GC-0031 IMPROVEMENT, GC-0033 KNOWN_DEFECT, GC-0036 IMPROVEMENT. R6 is a TAG, not a forced classification.
 - Full forensic snapshot preserved in forensic/phase2b-5/ — another agent can reconstruct what happened without sandbox access.
 - Golden Corpus v1 is FROZEN. STOP per task #38. No Nonfiction Mode, no SourceFactLedger, no Style/Voice, no R6 solution, no new benchmark, no model training.
+
+---
+Task ID: PHASE-2B-5R
+Agent: Main orchestrator (Z.ai Code)
+Task: Phase 2B.5R — Final verification hardening. Harden checks #18 and #20 from simple existence/presence checks to real content validation. Add test coverage for failure cases. Regenerate all artifacts. Push to remote.
+
+Work Log:
+- Checked out research/phase2b-golden-corpus-v1-reconciled (remote had v4 reconciler with 20 checks, GC-0038R1 PASS/PASS, provenance model from Phase 2B.5).
+- Created src/corpus/freeze-document-parser.ts: robust markdown metric parser with REQUIRED_METRICS list (16 metrics). Parses `| metricName | value |` table rows, handles digits in metric names (r6Cases), detects duplicates and malformed values. Exports parseFreezeMetrics(), compareMetrics(), validateFreezeDoc().
+- Created src/corpus/forensic-validator.ts: pure validation functions for check #20. Exports validateManifestFields(), validateManifestSecurityFlags(), validateManifestInventoryAgreement(), validatePreservedFilesExist(), validateExcludedFilesPolicy(), validateForensicInventory(). Includes SELF_EXCLUDED_FILES (MANIFEST.json, file-inventory.json) and HASH_EXCLUDED_FILES (reconciler output files) to break circular dependency.
+- Updated src/corpus/reconcile-v1.ts to v5: imports freeze-document-parser and forensic-validator. Check #18 now parses freeze doc metrics and compares ALL 16 required metrics against summary.json. Check #20 now validates manifest fields, inventory structure, preserved file existence, SHA256 hash verification, EXCLUDED_FILES.md policy, and manifest/inventory count agreement.
+- Created forensic/phase2b-5/scripts/generate-freeze-doc.ts: generates GOLDEN_CORPUS_V1_FREEZE.md from summary.json, ensuring metrics always match. Includes machine-parseable "Canonical Metrics (machine-verified)" section with `| metricName | value |` rows.
+- Created forensic/phase2b-5/scripts/build-inventory-v2.ts: rebuilds file-inventory.json with SHA256 hashes, excluding self-referential files.
+- Updated docs/corpus/GOLDEN_CORPUS_V1.md and GOLDEN_CORPUS_V1_FREEZE.md with Phase 2B.5R content.
+- Created tests/corpus/freeze-document-parser.test.ts: 15 tests covering parser happy path + failure Cases A (finalCorrect mismatch), B (falseAcceptance mismatch), C (missing faithfulnessCorrect).
+- Created tests/corpus/forensic-validator.test.ts: 12 tests covering validator happy path + failure Cases A (file count mismatch), B (preserved file missing), C (secretsFound=true), D (hash mismatch), E (missing exclusion policy).
+- Updated tests/corpus/freeze-integrity.test.ts: added integration tests for check #18 (freeze doc metrics match summary) and check #20 (manifest, inventory, excluded files validated). Now 28 tests.
+- Key design decision: HASH_EXCLUDED_FILES breaks the circular dependency between reconciler output files and inventory hash verification. Reconciler output files (canonical-case-ledger.json, reconciliation-report.json, consistency-check.json, summary.json, test-results) ARE preserved in the inventory but their hashes are NOT verified (because they change on each reconciler run).
+- All 20 consistency checks PASS. All 67 tests PASS (0 fail, 632 expect() calls). Lint clean. 0 secrets found.
+- Committed as 7992f85 and pushed to origin/research/phase2b-golden-corpus-v1-reconciled.
+
+Stage Summary:
+- Check #18 HARDENED: parses freeze document metrics via freeze-document-parser.ts, compares ALL 16 required metrics against summary.json. No more "contains 59" check. Detail: "all required metrics match summary".
+- Check #20 HARDENED: validates MANIFEST.json fields, file-inventory.json structure, preserved file existence, SHA256 hash verification, EXCLUDED_FILES.md policy, manifest/inventory count agreement. No more simple existence check. Detail: "manifest, inventory, counts, paths, hashes, exclusions validated | hashes: N match, 0 mismatch, 0 not recomputable".
+- 67/67 tests pass (15 parser + 12 validator + 28 freeze-integrity + 12 classifier).
+- Remote verified: origin/research/phase2b-golden-corpus-v1-reconciled at 7992f85, contains v5 reconciler (20 checks), all new source/test files, GC-0038R1 PASS/PASS, fresh forensic inventory.
+- main unchanged at 00b1b93 (no Phase 2B.5R commits on origin/main).
+- Golden Corpus v1 is FROZEN + PUSHED. STOP per task #33.
