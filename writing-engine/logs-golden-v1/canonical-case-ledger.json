@@ -3642,8 +3642,8 @@
     "inventionPolicy": "LICENSED_FICTION",
     "expectedTriage": "HANDOFF_TO_LLM",
     "expectedSemantic": {
-      "infoOwnership": "FAIL",
-      "faithfulness": "FAIL"
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS"
     },
     "expectedFinalDecision": "ACCEPT",
     "observedFinalDecision": "REJECT",
@@ -3662,7 +3662,7 @@
     "notes": "Corrected: KNOWS-state observation is consistent with existing knowledge. Expected=ACCEPT is correct. Previous R6/UNRESOLVED tags were incorrectly applied by corpus builder.",
     "status": "CURRENT",
     "supersedes": "GC-0038",
-    "caseId": "GC-0038",
+    "caseId": "GC-0038R1",
     "historicalObserved": "REJECT",
     "historicalCorrect": false,
     "currentTriage": "HANDOFF_TO_LLM",
@@ -3675,22 +3675,22 @@
       "meaning": "PASS",
       "stateConsulted": true,
       "validatorMode": "LLM",
-      "latencyMs": 9804,
+      "latencyMs": 0,
       "error": null
     },
     "currentFinalDecision": "ACCEPT",
     "currentFinalCorrect": true,
-    "ioCorrect": false,
-    "faithCorrect": false,
     "isR6": false,
     "isUnresolved": false,
     "triageScorable": true,
     "semanticScorable": true,
     "finalScorable": true,
     "historicalComparison": "IMPROVEMENT",
-    "evaluatedAt": "2026-08-22T14:15:52.526Z",
+    "evaluatedAt": "2026-08-22T12:00:00.000Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-D3-KNOWS.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "ioCorrect": false,
+    "faithCorrect": false
   }
 ]
