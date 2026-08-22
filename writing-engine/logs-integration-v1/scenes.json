@@ -1,0 +1,91 @@
+[
+  {
+    "sceneId": "S1",
+    "label": "UNKNOWN — Maya does not know",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    }
+  },
+  {
+    "sceneId": "S2",
+    "label": "OBSERVATION — Maya sees evidence but does not know yet",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    }
+  },
+  {
+    "sceneId": "S3",
+    "label": "SUSPECTS — Maya suspects but does not know",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    }
+  },
+  {
+    "sceneId": "S4",
+    "label": "STILL SUSPECTS — bad candidate triggers repair",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    }
+  },
+  {
+    "sceneId": "S5",
+    "label": "KNOWS — Maya now knows (with amount in state)",
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    }
+  },
+  {
+    "sceneId": "S6",
+    "label": "REGRESSION A — unsupported number \"127\"",
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    }
+  },
+  {
+    "sceneId": "S6b",
+    "label": "REGRESSION B — indirect IO leak (R6)",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    }
+  }
+]

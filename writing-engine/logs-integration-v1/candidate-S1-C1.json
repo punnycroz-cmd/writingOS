@@ -1,0 +1,51 @@
+{
+  "sceneId": "S1",
+  "sceneLabel": "UNKNOWN — Maya does not know",
+  "candidateId": "S1-C1",
+  "candidateText": "Maya wondered if something was wrong.",
+  "expected": "ACCEPT",
+  "reasoning": "vague uncertainty — licensed under UNKNOWN",
+  "isRepair": false,
+  "beforeState": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload.",
+    "signalsCount": 2,
+    "hardViolations": [],
+    "softSignals": [
+      "Ambient sensory texture without factual proposition leak."
+    ]
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Candidate expresses vague uncertainty with 'wondered if something was wrong', which is licensed and does not leak the unknown fact about Marcus.",
+      "No specific claim is made that Maya knows or suspects Marcus took money.",
+      "Consistent with Maya's wary emotional state and fear that Marcus may be hiding something.",
+      "No canon contradiction, unsupported number/date/name, or deferred check resolution."
+    ],
+    "latencyMs": 6513,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true,
+  "repair": null
+}

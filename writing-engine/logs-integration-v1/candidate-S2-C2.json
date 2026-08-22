@@ -1,0 +1,44 @@
+{
+  "sceneId": "S2",
+  "sceneLabel": "OBSERVATION — Maya sees evidence but does not know yet",
+  "candidateId": "S2-C2",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "expected": "REJECT",
+  "reasoning": "epistemic overreach — UNKNOWN + knowledge",
+  "isRepair": false,
+  "beforeState": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_BLOCK",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus took money from the clinic\" is UNKNOWN to character \"maya\".",
+    "signalsCount": 3,
+    "hardViolations": [],
+    "softSignals": []
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Hard block: Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus took money from the clinic\" is UNKNOWN to character \"maya\"."
+    ],
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "DETERMINISTIC_BLOCK",
+  "correct": true,
+  "repair": null
+}

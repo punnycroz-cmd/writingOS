@@ -1,0 +1,43 @@
+{
+  "sceneId": "S5",
+  "sceneLabel": "KNOWS — Maya now knows (with amount in state)",
+  "candidateId": "S5-C2",
+  "candidateText": "Maya knew Marcus had stolen $40,000.",
+  "expected": "ACCEPT",
+  "reasoning": "state-supported number (Rule E)",
+  "isRepair": false,
+  "beforeState": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_ACCEPT",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Structurally established state support verified. Weak CC heuristic signals safely overridden.",
+    "signalsCount": 5,
+    "hardViolations": [],
+    "softSignals": []
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Fast path: DETERMINISTIC_ACCEPT"
+    ],
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "DETERMINISTIC_ACCEPT",
+  "correct": true,
+  "repair": null
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "sceneId": "S4",
+    "candidateId": "S4-C1",
+    "originalCandidate": "Maya knew what Marcus had done.",
+    "validationDecision": "REJECT",
+    "violations": [],
+    "repairedCandidate": "Maya suspected what Marcus might have done.",
+    "repairTriageAction": "HANDOFF_TO_LLM",
+    "revalidationDecision": "ACCEPT",
+    "revalidationIo": "PASS",
+    "revalidationFaith": "PASS",
+    "revalidationMode": "LLM"
+  }
+]

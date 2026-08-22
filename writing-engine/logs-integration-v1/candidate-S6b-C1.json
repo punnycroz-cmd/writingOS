@@ -1,0 +1,53 @@
+{
+  "sceneId": "S6b",
+  "sceneLabel": "REGRESSION B — indirect IO leak (R6)",
+  "candidateId": "S6b-C1",
+  "candidateText": "Maya saw Marcus hide the ledger under his coat.",
+  "expected": "REJECT",
+  "reasoning": "indirect IO leak — semantic gap (R6)",
+  "isRepair": false,
+  "beforeState": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload.",
+    "signalsCount": 2,
+    "hardViolations": [],
+    "softSignals": [
+      "Ambient sensory texture without factual proposition leak."
+    ]
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Meaning is internally coherent.",
+      "Character-compatible: Maya is observant and wary; seeing Marcus conceal something fits her perceptual habits.",
+      "No prohibited knowledge leak: the sentence reports an observation, not knowledge or certainty that Marcus took money.",
+      "No canon contradiction.",
+      "No deferred check resolved.",
+      "Under LICENSED_FICTION, this is narratively licensed observational texture without unsupported specific numbers, dates, or named facts."
+    ],
+    "latencyMs": 21484,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": false,
+  "repair": null
+}
