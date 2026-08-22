@@ -1,0 +1,40 @@
+{
+  "caseId": "GC-0022",
+  "sourceExperiment": "iteration-4-3b-regression",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "expectedTriage": "?",
+  "expectedSemantic": {
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS"
+  },
+  "expectedFinalDecision": "ACCEPT",
+  "historicalObserved": "ACCEPT",
+  "historicalCorrect": true,
+  "currentTriage": "HANDOFF_TO_LLM",
+  "currentTriageCorrect": null,
+  "currentSemantic": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "validatorMode": "LLM",
+    "latencyMs": 11895,
+    "error": null
+  },
+  "currentFinalDecision": "REJECT",
+  "currentFinalCorrect": false,
+  "ioCorrect": false,
+  "faithCorrect": true,
+  "isR6": false,
+  "isUnresolved": false,
+  "groundTruthType": "PROJECT_POLICY",
+  "triageScorable": false,
+  "semanticScorable": true,
+  "finalScorable": true,
+  "historicalComparison": "REGRESSION",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "evaluatedAt": "2026-08-22T14:11:36.795Z"
+}

@@ -1,0 +1,30 @@
+{
+  "caseId": "GC-0023",
+  "sourceExperiment": "iteration-4-3b-regression",
+  "candidateText": "Maya counted 127 ceiling tiles.",
+  "expectedTriage": "?",
+  "expectedSemantic": {
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS"
+  },
+  "expectedFinalDecision": "REJECT",
+  "historicalObserved": "ACCEPT",
+  "historicalCorrect": false,
+  "currentTriage": "DETERMINISTIC_BLOCK",
+  "currentTriageCorrect": null,
+  "currentSemantic": null,
+  "currentFinalDecision": "REJECT",
+  "currentFinalCorrect": true,
+  "ioCorrect": null,
+  "faithCorrect": null,
+  "isR6": false,
+  "isUnresolved": false,
+  "groundTruthType": "PROJECT_POLICY",
+  "triageScorable": false,
+  "semanticScorable": true,
+  "finalScorable": true,
+  "historicalComparison": "IMPROVEMENT",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "evaluatedAt": "2026-08-22T14:07:59.923Z"
+}

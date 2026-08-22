@@ -1,0 +1,40 @@
+{
+  "caseId": "GC-0026",
+  "sourceExperiment": "iteration-4-3b-regression",
+  "candidateText": "Maya noticed Marcus was tapping his pen and avoiding eye contact.",
+  "expectedTriage": "?",
+  "expectedSemantic": {
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS"
+  },
+  "expectedFinalDecision": "ACCEPT",
+  "historicalObserved": "ACCEPT",
+  "historicalCorrect": true,
+  "currentTriage": "HANDOFF_TO_LLM",
+  "currentTriageCorrect": null,
+  "currentSemantic": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "validatorMode": "LLM",
+    "latencyMs": 4103,
+    "error": null
+  },
+  "currentFinalDecision": "ACCEPT",
+  "currentFinalCorrect": true,
+  "ioCorrect": true,
+  "faithCorrect": true,
+  "isR6": false,
+  "isUnresolved": false,
+  "groundTruthType": "PROJECT_POLICY",
+  "triageScorable": false,
+  "semanticScorable": true,
+  "finalScorable": true,
+  "historicalComparison": "STABLE_SUCCESS",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "evaluatedAt": "2026-08-22T14:12:20.212Z"
+}

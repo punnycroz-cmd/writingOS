@@ -1,0 +1,30 @@
+{
+  "caseId": "GC-0027",
+  "sourceExperiment": "iteration-4-3b-regression",
+  "candidateText": "Maya knew Marcus had taken the money and arrived at exactly 4:17 AM.",
+  "expectedTriage": "?",
+  "expectedSemantic": {
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL"
+  },
+  "expectedFinalDecision": "REJECT",
+  "historicalObserved": "REJECT",
+  "historicalCorrect": true,
+  "currentTriage": "DETERMINISTIC_BLOCK",
+  "currentTriageCorrect": null,
+  "currentSemantic": null,
+  "currentFinalDecision": "REJECT",
+  "currentFinalCorrect": true,
+  "ioCorrect": null,
+  "faithCorrect": null,
+  "isR6": false,
+  "isUnresolved": false,
+  "groundTruthType": "PROJECT_POLICY",
+  "triageScorable": false,
+  "semanticScorable": true,
+  "finalScorable": true,
+  "historicalComparison": "STABLE_SUCCESS",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "evaluatedAt": "2026-08-22T14:07:59.924Z"
+}
