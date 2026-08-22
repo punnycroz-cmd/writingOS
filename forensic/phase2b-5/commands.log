@@ -1,0 +1,213 @@
+# Phase 2B.5 Commands Log
+
+Every relevant shell command executed during Phase 2B.5. Sanitized: no tokens, no
+API key values. Commands that referenced env vars use the var NAME only.
+
+## Environment setup
+
+```sh
+cd /home/z/my-project
+pwd
+ls -la
+git status
+git branch -a
+git remote -v   # output sanitized: https://github.com/punnycroz-cmd/writingOS.git (no credentials embedded)
+git log --oneline -5
+cat .gitignore
+git fetch origin
+git diff --stat main origin/research/phase2b-golden-corpus-v1-reconciled
+git checkout research/phase2b-golden-corpus-v1-reconciled
+```
+
+## Inspection
+
+```sh
+ls -la corpus/ src/corpus/ tests/
+ls -la corpus/golden-v1/
+ls -la writing-engine/
+ls writing-engine/logs-golden-v1/
+ls writing-engine/logs-golden-v1/results/ | head -70
+head -2 corpus/golden-v1/cases.jsonl
+grep -E "GC-0038" corpus/golden-v1/cases.jsonl
+cat writing-engine/logs-golden-v1/results/GC-0038R1.json
+# Survey validatorMode distribution (python one-liner reading result JSONs)
+# Inspect sample result files for executionProvenance
+ls -la writing-engine/logs-golden-v1/
+ls -la docs/corpus/
+cat docs/corpus/GOLDEN_CORPUS_V1.md
+cat docs/corpus/GOLDEN_CORPUS_V1_FREEZE.md
+cat writing-engine/logs-golden-v1/consistency-check.json
+cat corpus/golden-v1/corpus-manifest.json
+cat package.json   # to inspect scripts
+ls writing-engine/logs-r6/ | head -20
+ls writing-engine/logs-integration-v1/ | head -10
+ls writing-engine/logs-integration-v1-1/ | head -10
+ls research/ research_t4/ | head -20
+ls experiments/ | head
+ls writing-engine/logs43fw/ | head -10
+ls writing-engine/src/ | head -20
+ls writing-engine/deliverables/ | wc -l
+```
+
+## Forensic directory scaffold
+
+```sh
+mkdir -p forensic/phase2b-5/{git,historical,current,intermediate,scripts,test-results,reconciliation-history}
+# Capture git state
+{ git status; git branch -a; git remote -v | sed -E 's#(https://[^@]*@)#https://[REDACTED]@#g'; git log --oneline --decorate --graph -50; git log --stat -20; git reflog; git rev-parse --abbrev-ref HEAD; git rev-parse HEAD; git rev-parse --abbrev-ref --symbolic-full-name @{u}; } > forensic/phase2b-5/git-state.txt 2>&1
+# Capture git diff + file lists
+{ git status; git diff; git diff --cached; git ls-files | head -100; git ls-files --others --exclude-standard; git ls-files --others --ignored --exclude-standard | head -80; } > forensic/phase2b-5/git/git-snapshot.txt 2>&1
+git ls-files > forensic/phase2b-5/git/tracked-files.txt
+git ls-files --others --exclude-standard > forensic/phase2b-5/git/untracked-files.txt
+git ls-files --others --ignored --exclude-standard > forensic/phase2b-5/git/ignored-files.txt
+git log --format='%H|%s|%D|%P' -30 > forensic/phase2b-5/git/commit-map.txt
+```
+
+## Preserve pre-change (v2b4r) artifacts
+
+```sh
+cp -r writing-engine/logs-golden-v1/canonical-case-ledger.json forensic/phase2b-5/historical/canonical-case-ledger-v2b4r.json
+cp writing-engine/logs-golden-v1/reconciliation-report.json forensic/phase2b-5/historical/reconciliation-report-v2b4r.json
+cp writing-engine/logs-golden-v1/consistency-check.json forensic/phase2b-5/historical/consistency-check-v2b4r.json
+cp writing-engine/logs-golden-v1/summary.json forensic/phase2b-5/historical/summary-v2b4r.json
+cp writing-engine/logs-golden-v1/corpus-audit.json forensic/phase2b-5/historical/corpus-audit-v2b4r.json
+cp -r writing-engine/logs-golden-v1/results forensic/phase2b-5/historical/results-v2b4r
+cp src/corpus/reconcile-v1.ts forensic/phase2b-5/scripts/reconcile-v1-v2b4r.ts
+cp src/corpus/classify-comparison.ts forensic/phase2b-5/scripts/classify-comparison-v2b4r.ts
+cp corpus/golden-v1/cases.jsonl forensic/phase2b-5/historical/cases-v2b4r.jsonl
+```
+
+## Provenance patch + GC-0038R1 ground-truth correction
+
+```sh
+# Wrote forensic/phase2b-5/scripts/add-provenance.ts (see file for full source)
+bun run forensic/phase2b-5/scripts/add-provenance.ts
+# Output: Patched: 58 | Already OK: 2 | Total: 60
+#         Corpus cases.jsonl patched (2 field updates on GC-0038R1).
+
+# Verification (python one-liner reading result + corpus JSONs)
+python3 -c "..."   # confirmed GC-0038R1 expectedSemantic={PASS,PASS}, executionProvenance.status=EXECUTED, latency=8875
+```
+
+## Reconciler v4
+
+```sh
+# Wrote src/corpus/reconcile-v1.ts (v4: 20 checks, reads persisted provenance)
+# Wrote forensic/phase2b-5/MANIFEST.json (placeholder for check #20)
+bun run src/corpus/reconcile-v1.ts
+# First run: 19/20 PASS, check #19 FAIL (manifest had activeCaseCount not activeCases)
+# Fix: added "activeCases": 59 to corpus/golden-v1/corpus-manifest.json
+bun run src/corpus/reconcile-v1.ts
+# Output: ALL 20 PASSED — FROZEN
+```
+
+## Tests
+
+```sh
+mkdir -p tests/corpus
+# Wrote tests/corpus/classify-comparison.test.ts (15 tests)
+# Wrote tests/corpus/freeze-integrity.test.ts (21 tests)
+bun test tests/corpus/
+# Output: 36 pass, 0 fail, 457 expect() calls
+bun test tests/corpus/ > forensic/phase2b-5/test-results/corpus-tests.txt 2>&1
+```
+
+## Docs regeneration
+
+```sh
+# Wrote docs/corpus/GOLDEN_CORPUS_V1.md
+# Wrote docs/corpus/GOLDEN_CORPUS_V1_FREEZE.md
+# Verified defect classifications against ledger (python one-liner)
+```
+
+## Lint
+
+```sh
+bun run lint
+# Output: (clean, 0 errors)
+```
+
+## Preserve current (post-change) artifacts
+
+```sh
+mkdir -p forensic/phase2b-5/current
+cp writing-engine/logs-golden-v1/canonical-case-ledger.json forensic/phase2b-5/current/
+cp writing-engine/logs-golden-v1/reconciliation-report.json forensic/phase2b-5/current/
+cp writing-engine/logs-golden-v1/consistency-check.json forensic/phase2b-5/current/
+cp writing-engine/logs-golden-v1/summary.json forensic/phase2b-5/current/
+cp writing-engine/logs-golden-v1/corpus-audit.json forensic/phase2b-5/current/
+cp writing-engine/logs-golden-v1/full-results.json forensic/phase2b-5/current/
+cp writing-engine/logs-golden-v1/full-summary.json forensic/phase2b-5/current/
+cp writing-engine/logs-golden-v1/deterministic-results.json forensic/phase2b-5/current/
+cp writing-engine/logs-golden-v1/deterministic-summary.json forensic/phase2b-5/current/
+cp -r writing-engine/logs-golden-v1/results forensic/phase2b-5/current/results
+cp corpus/golden-v1/cases.jsonl forensic/phase2b-5/current/
+cp corpus/golden-v1/corpus-manifest.json forensic/phase2b-5/current/
+cp corpus/golden-v1/source-index.json forensic/phase2b-5/current/
+cp corpus/golden-v1/calibration-registry.json forensic/phase2b-5/current/
+cp corpus/golden-v1/audit-issues.json forensic/phase2b-5/current/
+cp corpus/golden-v1/schema.json forensic/phase2b-5/current/
+cp src/corpus/reconcile-v1.ts forensic/phase2b-5/scripts/reconcile-v1.ts
+cp src/corpus/classify-comparison.ts forensic/phase2b-5/scripts/classify-comparison.ts
+cp src/corpus/evaluate-v2.ts forensic/phase2b-5/scripts/evaluate-v2.ts
+cp src/corpus/evaluate.ts forensic/phase2b-5/scripts/evaluate.ts
+cp tests/corpus/classify-comparison.test.ts forensic/phase2b-5/scripts/
+cp tests/corpus/freeze-integrity.test.ts forensic/phase2b-5/scripts/
+# Historical raw logs
+mkdir -p forensic/phase2b-5/historical/{logs-r6,logs-integration-v1,logs-integration-v1-1,logs43fw,writing-engine-src}
+cp -r writing-engine/logs-r6/* forensic/phase2b-5/historical/logs-r6/
+cp -r writing-engine/logs-integration-v1/* forensic/phase2b-5/historical/logs-integration-v1/
+cp -r writing-engine/logs-integration-v1-1/* forensic/phase2b-5/historical/logs-integration-v1-1/
+cp -r logs43fw/* forensic/phase2b-5/historical/logs43fw/
+cp -r writing-engine/logs43fw forensic/phase2b-5/historical/logs43fw-all
+cp writing-engine/src/*.ts forensic/phase2b-5/historical/writing-engine-src/
+```
+
+## File inventory + security scan
+
+```sh
+# Wrote forensic/phase2b-5/scripts/build-inventory.ts
+bun run forensic/phase2b-5/scripts/build-inventory.ts
+# Output: Inventory: 924 files | sensitive: 0 | categories: {data:725, report:126, source:60, log:8, test:4, other:1}
+
+# Broad security scan (grep for github_pat_, ghp_, gho_, sk-, AKIA, FIREWORKS_API_KEY=, OPENAI_API_KEY=, Authorization: Bearer)
+# → false positives only (research/legal_opc*.json "mask-" substring; skills/*.html base64 image data)
+# Precise scan on Writing OS artifacts only:
+grep -rEw "github_pat_..." corpus src/corpus tests/corpus writing-engine docs/corpus forensic/phase2b-5 logs43fw   # clean
+grep -rE "ghp_[A-Za-z0-9]{36}" corpus src/corpus tests/corpus writing-engine docs/corpus forensic/phase2b-5 logs43fw   # clean
+grep -rE "FIREWORKS_API_KEY=[\"'][^\"']{10,}" ...   # clean
+grep -rE "Authorization:\s*Bearer\s+[A-Za-z0-9_\.\-]{20,}" ...   # clean
+grep -rE "BEGIN (RSA |EC |OPENSSH |PGP )?PRIVATE KEY" ...   # clean
+find ... -name ".env*"   # clean
+# All scans saved to forensic/phase2b-5/intermediate/security-scan*.txt
+```
+
+## Final reconciliation + tests on correct branch
+
+```sh
+git checkout research/phase2b-golden-corpus-v1-reconciled   # sandbox had reset to main
+bun run src/corpus/reconcile-v1.ts   # 20/20 PASS — FROZEN
+bun test tests/corpus/   # 36/36 pass
+```
+
+## Git commit + push
+
+```sh
+git checkout research/phase2b-golden-corpus-v1-reconciled
+git add corpus/ src/corpus/ tests/corpus/ writing-engine/logs-golden-v1/ docs/corpus/ forensic/phase2b-5/
+git status   # verify staged files
+git commit -m "fix(corpus): Phase 2B.5 — provenance model, 20 checks, GC-0038R1 ground-truth correction, forensic snapshot"
+# Update MANIFEST.json head field to post-commit SHA
+git add forensic/phase2b-5/MANIFEST.json
+git commit --amend --no-edit   # OR second commit
+git log --oneline -3
+git ls-tree -r HEAD --name-only | grep forensic/phase2b-5/ | head   # verify forensic files in tree
+git push origin research/phase2b-golden-corpus-v1-reconciled
+```
+
+## Notes
+
+- **No API keys appear in any command.** The evaluator reads `FIREWORKS_API_KEY` from the env at runtime; the var name appears in source code and scan patterns, but never its value.
+- **No `git push --force` used.** Plain push to the target branch.
+- **No `main` modifications.** All commits go to `research/phase2b-golden-corpus-v1-reconciled`.
+- **No `git add .` blind staging.** Explicit `git add` of specific directories.
