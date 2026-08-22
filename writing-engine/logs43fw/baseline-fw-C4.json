@@ -1,0 +1,59 @@
+{
+  "caseId": "C4",
+  "group": "C",
+  "label": "KNOWS + knew ($40k, state has amount)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had stolen $40,000.",
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: The candidate replaces the original situational statement 'Marcus was at the desk' with a different proposition about Maya’s knowledge of theft, failing to preserve the original meaning.",
+      "character: Maya is the named POV/character and the statement is compatible with her documented current knowledge.",
+      "infoOwnership: The state explicitly lists Maya among those who know that Marcus embezzled $40,000, so 'Maya knew' is authorized.",
+      "canon: No hard or soft canon fact is contradicted; the clinic co-ownership canon is not violated.",
+      "voice: No specific voice constraints are provided, and the sentence is not inconsistent with the minimal character data.",
+      "register: The sentence is a clear declarative narrative statement appropriate to the context.",
+      "intelligibility: The sentence is grammatical and understandable.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The specific amount and knowledge claim are supported by the document state, even though the sentence does not preserve the original text’s meaning."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_AMOUNT",
+  "reasoning": "state explicitly contains $40,000 — number is state-supported",
+  "latencyMs": 25544,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

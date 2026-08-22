@@ -1,0 +1,60 @@
+{
+  "caseId": "A4",
+  "group": "A",
+  "label": "UNKNOWN + knew ($40k)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had stolen $40,000.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "FAIL",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: The candidate no longer preserves the original meaning that Marcus was at the desk; it introduces an unrelated claim about Maya’s knowledge of theft.",
+      "character: The candidate attributes knowledge to Maya that is absent from her currentKnowledge and contradicts the structured state.",
+      "infoOwnership: The state explicitly lists Maya as unknown to the fact that Marcus took money from the clinic, but the candidate asserts that Maya knew it.",
+      "canon: The candidate does not contradict the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No specific voice violation is apparent from the available state.",
+      "register: The sentence uses a plain narrative register compatible with the original.",
+      "intelligibility: The candidate sentence is grammatically clear and understandable.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The candidate introduces an unsupported specific amount, $40,000, and a knowledge claim not licensed by the original text or state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_AMOUNT",
+  "reasoning": "explicit epistemic overreach — certainty about unknown fact",
+  "latencyMs": 29336,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "smoke"
+}
