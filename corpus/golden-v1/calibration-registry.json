@@ -1,0 +1,119 @@
+[
+  {
+    "id": "CAL-001",
+    "parameter": "MTLD factor",
+    "scope": "FICTION",
+    "currentValue": "0.720",
+    "status": "CALIBRATION_REQUIRED",
+    "evidence": [
+      "iteration-4 research"
+    ],
+    "affectedDecisions": [
+      "lexical diversity"
+    ],
+    "corpusCases": [],
+    "notes": "Convention from McCarthy 2005"
+  },
+  {
+    "id": "CAL-002",
+    "parameter": "Severity model",
+    "scope": "GLOBAL",
+    "currentValue": "qualitative",
+    "status": "CALIBRATION_REQUIRED",
+    "evidence": [
+      "all iterations"
+    ],
+    "affectedDecisions": [
+      "intervention level"
+    ],
+    "corpusCases": [],
+    "notes": "No numeric thresholds"
+  },
+  {
+    "id": "CAL-003",
+    "parameter": "UNCLEAR\u2192REJECT policy",
+    "scope": "GLOBAL",
+    "currentValue": "conservative REJECT",
+    "status": "DEMONSTRATED",
+    "evidence": [
+      "4.3B 23/23, v1, v1.1"
+    ],
+    "affectedDecisions": [
+      "final decision"
+    ],
+    "corpusCases": [
+      "GC-0001",
+      "GC-0002",
+      "GC-0003",
+      "GC-0004",
+      "GC-0005",
+      "GC-0006",
+      "GC-0007",
+      "GC-0008",
+      "GC-0009",
+      "GC-0010",
+      "GC-0011",
+      "GC-0012",
+      "GC-0013",
+      "GC-0014",
+      "GC-0015",
+      "GC-0016",
+      "GC-0017",
+      "GC-0018",
+      "GC-0019",
+      "GC-0020",
+      "GC-0021",
+      "GC-0022",
+      "GC-0023"
+    ],
+    "notes": "Demonstrated"
+  },
+  {
+    "id": "CAL-004",
+    "parameter": "R6 observation-framed detection",
+    "scope": "FICTION",
+    "currentValue": "not detected",
+    "status": "UNRESOLVED",
+    "evidence": [
+      "R6 experiment"
+    ],
+    "affectedDecisions": [
+      "IO for observations"
+    ],
+    "corpusCases": [
+      "GC-0031",
+      "GC-0033",
+      "GC-0036",
+      "GC-0038"
+    ],
+    "notes": "Calibration backfired"
+  },
+  {
+    "id": "CAL-005",
+    "parameter": "Paraphrase equivalence",
+    "scope": "GLOBAL",
+    "currentValue": "not implemented",
+    "status": "UNRESOLVED",
+    "evidence": [
+      "4.1 P-1/P-2"
+    ],
+    "affectedDecisions": [
+      "faithfulness"
+    ],
+    "corpusCases": [],
+    "notes": "No semantic-equivalence check"
+  },
+  {
+    "id": "CAL-006",
+    "parameter": "LLM-as-judge threshold",
+    "scope": "GLOBAL",
+    "currentValue": "not calibrated",
+    "status": "CALIBRATION_REQUIRED",
+    "evidence": [],
+    "affectedDecisions": [
+      "automated scoring"
+    ],
+    "corpusCases": [],
+    "notes": "No human-validated set"
+  }
+]

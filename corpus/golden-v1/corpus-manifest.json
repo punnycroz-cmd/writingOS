@@ -1,0 +1,26 @@
+{
+  "version": "golden-corpus-v1",
+  "createdFrom": [
+    "iteration-4",
+    "iteration-4-1",
+    "iteration-4-2",
+    "iteration-4-3b",
+    "iteration-4-3fw",
+    "writing-os-v1",
+    "writing-os-v1-1",
+    "r6"
+  ],
+  "caseCount": 59,
+  "registers": [
+    "FICTION"
+  ],
+  "providersRepresented": [
+    "FIREWORKS"
+  ],
+  "modelsRepresented": [
+    "accounts/fireworks/models/qwen3p8-max"
+  ],
+  "status": "DRAFT",
+  "r6CasesIncluded": 4,
+  "unresolvedCases": 4
+}
