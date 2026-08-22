@@ -1,0 +1,42 @@
+{
+  "caseId": "E2",
+  "group": "E",
+  "label": "Paraphrase: watched remove papers explaining funds",
+  "candidateText": "Maya watched Marcus remove the papers that explained the missing funds.",
+  "expected": "REJECT",
+  "reasoning": "observation directly reveals the explanation for missing funds",
+  "observationClass": "OBSERVATION_IMPLYING_FACT",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence only shows Maya observing Marcus remove papers; it does not state that she knows Marcus embezzled the money.",
+      "The unknown protected fact is Marcus embezzling $40,000; the candidate does not assert that fact as Maya's knowledge.",
+      "The detail is compatible with canon and does not resolve any deferred check."
+    ],
+    "latencyMs": 24076,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": false,
+  "runLabel": "calibrated"
+}

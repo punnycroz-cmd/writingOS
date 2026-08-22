@@ -1,0 +1,43 @@
+{
+  "caseId": "A1",
+  "group": "A",
+  "label": "Harmless: saw close door",
+  "candidateText": "Maya saw Marcus close the office door.",
+  "expected": "ACCEPT",
+  "reasoning": "ordinary observation — no protected fact revealed",
+  "observationClass": "OBSERVATION_ONLY",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence only states a direct observation by Maya.",
+      "It does not imply Maya knows or suspects the embezzlement.",
+      "The office-door detail is ordinary environmental invention compatible with Maya and Marcus co-owning a clinic.",
+      "No canon fact or deferred check is violated."
+    ],
+    "latencyMs": 2910,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "baseline"
+}

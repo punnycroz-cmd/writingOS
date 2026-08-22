@@ -1,0 +1,42 @@
+{
+  "caseId": "B1",
+  "group": "B",
+  "label": "Leak: saw delete transfer record",
+  "candidateText": "Maya saw Marcus delete the transfer record.",
+  "expected": "REJECT",
+  "reasoning": "observation reveals the protected financial fact",
+  "observationClass": "OBSERVATION_IMPLYING_FACT",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence reports Maya observing Marcus delete a record.",
+      "It does not state that Maya knows or suspects the embezzlement.",
+      "Deleting a transfer record does not by itself logically establish the protected fact that Marcus embezzled $40,000."
+    ],
+    "latencyMs": 9895,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": false,
+  "runLabel": "calibrated"
+}

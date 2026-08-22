@@ -1,0 +1,661 @@
+[
+  {
+    "caseId": "A1",
+    "group": "A",
+    "label": "Harmless: saw close door",
+    "candidateText": "Maya saw Marcus close the office door.",
+    "expected": "ACCEPT",
+    "reasoning": "ordinary observation — no protected fact revealed",
+    "observationClass": "OBSERVATION_ONLY",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence only states a direct observation by Maya.",
+        "It does not imply Maya knows or suspects the embezzlement.",
+        "The office-door detail is ordinary environmental invention compatible with Maya and Marcus co-owning a clinic.",
+        "No canon fact or deferred check is violated."
+      ],
+      "latencyMs": 2910,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "A2",
+    "group": "A",
+    "label": "Harmless: watched put folder on desk",
+    "candidateText": "Maya watched Marcus put the folder on the desk.",
+    "expected": "ACCEPT",
+    "reasoning": "ordinary observation — no protected fact",
+    "observationClass": "OBSERVATION_ONLY",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence presents only observable action.",
+        "It does not assert or imply Maya knows the embezzlement fact.",
+        "The folder and desk are ordinary scene texture permitted under LICENSED_FICTION."
+      ],
+      "latencyMs": 5117,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "A3",
+    "group": "A",
+    "label": "Harmless: noticed leave clinic",
+    "candidateText": "Maya noticed Marcus leave the clinic.",
+    "expected": "ACCEPT",
+    "reasoning": "ordinary observation",
+    "observationClass": "OBSERVATION_ONLY",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence states only an ordinary observation.",
+        "It does not reveal or imply the unknown embezzlement fact.",
+        "It is consistent with the canon that Maya co-owns a clinic with Marcus."
+      ],
+      "latencyMs": 3091,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "B1",
+    "group": "B",
+    "label": "Leak: saw delete transfer record",
+    "candidateText": "Maya saw Marcus delete the transfer record.",
+    "expected": "REJECT",
+    "reasoning": "observation reveals the protected financial fact",
+    "observationClass": "OBSERVATION_IMPLYING_FACT",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence states a direct observation, not knowledge or suspicion that Marcus embezzled.",
+        "Maya remains unauthorized only for the embezzlement fact; observing a deletion does not assert that secret.",
+        "No canon, deferred check, or specific unsupported numeric/date/name claim is violated."
+      ],
+      "latencyMs": 31743,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": false,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "B2",
+    "group": "B",
+    "label": "Leak: watched move cash envelope",
+    "candidateText": "Maya watched Marcus move the missing cash envelope into his coat.",
+    "expected": "REJECT",
+    "reasoning": "observation reveals embezzlement",
+    "observationClass": "OBSERVATION_IMPLYING_FACT",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Maya is state-unknown to Marcus's embezzlement/missing clinic cash.",
+        "Calling the object 'the missing cash envelope' gives Maya perceptual recognition of a hidden fact.",
+        "A safer version would describe only an envelope or suspicious movement without identifying it as missing cash."
+      ],
+      "latencyMs": 25252,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "B3",
+    "group": "B",
+    "label": "Leak: saw conceal account statement",
+    "candidateText": "Maya saw Marcus conceal the account statement.",
+    "expected": "REJECT",
+    "reasoning": "observation reveals financial wrongdoing",
+    "observationClass": "OBSERVATION_IMPLYING_FACT",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence reports Maya observing Marcus conceal an account statement, not knowing or asserting the embezzlement fact.",
+        "Observation is licensed under LICENSED_FICTION and does not contradict canon or resolve deferred checks."
+      ],
+      "latencyMs": 10204,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": false,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "B4",
+    "group": "B",
+    "label": "Leak: saw hide ledger (original R6)",
+    "candidateText": "Maya saw Marcus hide the ledger under his coat.",
+    "expected": "REJECT",
+    "reasoning": "R6 original — observation indirectly reveals protected fact",
+    "observationClass": "OBSERVATION_IMPLYING_FACT",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence reports Maya observing Marcus hide an object; it does not assert that she knows or suspects the embezzlement.",
+        "Under LICENSED_FICTION, this is an ordinary observed detail and does not contradict canon or resolve a deferred check."
+      ],
+      "latencyMs": 19548,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": false,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "C1",
+    "group": "C",
+    "label": "No-link: saw hide blue folder",
+    "candidateText": "Maya saw Marcus hide the blue folder.",
+    "expected": "ACCEPT",
+    "reasoning": "blue folder has no connection to protected fact",
+    "observationClass": "OBSERVATION_ONLY",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence states only an observed action, not knowledge of the embezzlement.",
+        "No canon contradiction or deferred check is triggered.",
+        "Under LICENSED_FICTION, ordinary observed detail is permitted."
+      ],
+      "latencyMs": 5616,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "C2",
+    "group": "C",
+    "label": "No-link: watched put ledger in cabinet (innocent context)",
+    "candidateText": "Maya watched Marcus put the ledger in the cabinet.",
+    "expected": "ACCEPT",
+    "reasoning": "ledger is a normal admin object in this state — no protected fact",
+    "observationClass": "OBSERVATION_ONLY",
+    "state": {
+      "knows": [],
+      "suspects": [],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Candidate states only a directly observed action.",
+        "The ledger and cabinet are consistent with soft canon and current knowledge.",
+        "No unauthorized knowledge claim or deferred reveal is made."
+      ],
+      "latencyMs": 3709,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "D1-UNKNOWN",
+    "group": "D",
+    "label": "Cross-state: UNKNOWN + saw hide account records",
+    "candidateText": "Maya saw Marcus hide the account records.",
+    "expected": "REJECT",
+    "reasoning": "UNKNOWN — observation reveals protected fact",
+    "observationClass": "OBSERVATION_IMPLYING_FACT",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence reports Maya directly observing Marcus hide records.",
+        "It does not assert that Maya knows or is certain Marcus embezzled.",
+        "Under LICENSED_FICTION, this is permissible observed action.",
+        "No canon fact is contradicted and no deferred check is resolved."
+      ],
+      "latencyMs": 21993,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": false,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "D2-SUSPECTS",
+    "group": "D",
+    "label": "Cross-state: SUSPECTS + saw hide account records",
+    "candidateText": "Maya saw Marcus hide the account records.",
+    "expected": "ACCEPT",
+    "reasoning": "SUSPECTS — observation is consistent with existing suspicion (evidence observed)",
+    "observationClass": "OBSERVATION_IMPLYING_FACT",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence states an observed action, not certainty about the tracked embezzlement fact.",
+        "It is compatible with Maya’s current knowledge that she saw a discrepancy and her state as suspecting embezzlement.",
+        "Under LICENSED_FICTION, this is an allowable observed scene detail and does not contradict canon."
+      ],
+      "latencyMs": 12677,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "D3-KNOWS",
+    "group": "D",
+    "label": "Cross-state: KNOWS + saw hide account records",
+    "candidateText": "Maya saw Marcus hide the account records.",
+    "expected": "ACCEPT",
+    "reasoning": "KNOWS — observation is consistent with existing knowledge",
+    "observationClass": "OBSERVATION_IMPLYING_FACT",
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Candidate asserts Maya directly saw Marcus hide account records, a specific plot fact not authorized by the structured state.",
+        "State only authorizes Maya's knowledge that Marcus embezzled $40,000, not certainty about witnessing concealment of records."
+      ],
+      "latencyMs": 27156,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "correct": false,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "E1",
+    "group": "E",
+    "label": "Paraphrase: reason became visible",
+    "candidateText": "The reason Marcus handled the records that way suddenly became visible to Maya.",
+    "expected": "REJECT",
+    "reasoning": "paraphrased indirect leak — implies Maya now understands the protected fact",
+    "observationClass": "CAUSAL_INFERENCE",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The line grants Maya a sudden realization about Marcus's hidden reason for handling records, which is an epistemic upgrade not authorized by the state.",
+        "Maya is explicitly marked UNKNOWN regarding Marcus's embezzlement, and the candidate risks revealing or resolving that concealed fact indirectly."
+      ],
+      "latencyMs": 31332,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "E2",
+    "group": "E",
+    "label": "Paraphrase: watched remove papers explaining funds",
+    "candidateText": "Maya watched Marcus remove the papers that explained the missing funds.",
+    "expected": "REJECT",
+    "reasoning": "observation directly reveals the explanation for missing funds",
+    "observationClass": "OBSERVATION_IMPLYING_FACT",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The clause 'that explained the missing funds' presents the missing-funds information as known or interpreted by Maya.",
+        "State marks the embezzlement/missing-funds fact as unknown to Maya, and the sentence is not hedged as suspicion or observation of unknown papers."
+      ],
+      "latencyMs": 27848,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "E3",
+    "group": "E",
+    "label": "Paraphrase: pattern gave direct access",
+    "candidateText": "The pattern in Marcus's actions gave Maya direct access to what had happened.",
+    "expected": "REJECT",
+    "reasoning": "implies Maya now knows the protected fact through observation",
+    "observationClass": "CAUSAL_INFERENCE",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence grants Maya direct access to what happened, implying knowledge of a fact that state marks as unknown to her."
+      ],
+      "latencyMs": 3488,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "correct": true,
+    "runLabel": "baseline"
+  },
+  {
+    "caseId": "F1",
+    "group": "F",
+    "label": "Innocent-vocab: saw tuck clinic ledger into drawer",
+    "candidateText": "Maya saw Marcus tuck the clinic ledger into the drawer.",
+    "expected": "ACCEPT",
+    "reasoning": "ledger is a normal admin object — no protected financial fact in this state",
+    "observationClass": "OBSERVATION_ONLY",
+    "state": {
+      "knows": [],
+      "suspects": [],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence is a simple observed action compatible with Maya's POV.",
+        "The ledger's existence is supported by soft canon and current knowledge.",
+        "A drawer is not necessarily contradictory to a cabinet and is licensed as ordinary scene texture.",
+        "No deferred checks, canon violations, or unauthorized certainty about unknown facts are present."
+      ],
+      "latencyMs": 10307,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "correct": true,
+    "runLabel": "baseline"
+  }
+]

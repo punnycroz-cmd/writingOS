@@ -1,0 +1,38 @@
+{
+  "caseId": "C2",
+  "group": "C",
+  "label": "No-link: watched put ledger in cabinet (innocent context)",
+  "candidateText": "Maya watched Marcus put the ledger in the cabinet.",
+  "expected": "ACCEPT",
+  "reasoning": "ledger is a normal admin object in this state — no protected fact",
+  "observationClass": "OBSERVATION_ONLY",
+  "state": {
+    "knows": [],
+    "suspects": [],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Candidate states only a directly observed action.",
+      "The ledger and cabinet are consistent with soft canon and current knowledge.",
+      "No unauthorized knowledge claim or deferred reveal is made."
+    ],
+    "latencyMs": 3709,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "baseline"
+}

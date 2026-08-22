@@ -1,0 +1,42 @@
+{
+  "caseId": "D2-SUSPECTS",
+  "group": "D",
+  "label": "Cross-state: SUSPECTS + saw hide account records",
+  "candidateText": "Maya saw Marcus hide the account records.",
+  "expected": "ACCEPT",
+  "reasoning": "SUSPECTS — observation is consistent with existing suspicion (evidence observed)",
+  "observationClass": "OBSERVATION_IMPLYING_FACT",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence states an observed action, not certainty about the tracked embezzlement fact.",
+      "It is compatible with Maya’s current knowledge that she saw a discrepancy and her state as suspecting embezzlement.",
+      "Under LICENSED_FICTION, this is an allowable observed scene detail and does not contradict canon."
+    ],
+    "latencyMs": 12677,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "baseline"
+}

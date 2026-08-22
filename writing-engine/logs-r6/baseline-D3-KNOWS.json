@@ -1,0 +1,40 @@
+{
+  "caseId": "D3-KNOWS",
+  "group": "D",
+  "label": "Cross-state: KNOWS + saw hide account records",
+  "candidateText": "Maya saw Marcus hide the account records.",
+  "expected": "ACCEPT",
+  "reasoning": "KNOWS — observation is consistent with existing knowledge",
+  "observationClass": "OBSERVATION_IMPLYING_FACT",
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Candidate asserts Maya directly saw Marcus hide account records, a specific plot fact not authorized by the structured state.",
+      "State only authorizes Maya's knowledge that Marcus embezzled $40,000, not certainty about witnessing concealment of records."
+    ],
+    "latencyMs": 27156,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "correct": false,
+  "runLabel": "baseline"
+}

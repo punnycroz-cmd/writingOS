@@ -1,0 +1,23 @@
+{
+  "experiment": "r6-observation-boundary",
+  "baseline": {
+    "correct": 11,
+    "total": 16,
+    "leak_detection": 5,
+    "leak_total": 10,
+    "harmless_acceptance": 6,
+    "harmless_total": 6,
+    "false_acceptance": 5,
+    "false_rejection": 0
+  },
+  "calibrated": {
+    "correct": 11,
+    "total": 16,
+    "leak_detection": 3,
+    "leak_total": 10,
+    "harmless_acceptance": 6,
+    "harmless_total": 6,
+    "false_acceptance": 7,
+    "false_rejection": 0
+  }
+}

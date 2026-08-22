@@ -1,0 +1,41 @@
+{
+  "caseId": "B4",
+  "group": "B",
+  "label": "Leak: saw hide ledger (original R6)",
+  "candidateText": "Maya saw Marcus hide the ledger under his coat.",
+  "expected": "REJECT",
+  "reasoning": "R6 original — observation indirectly reveals protected fact",
+  "observationClass": "OBSERVATION_IMPLYING_FACT",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence reports Maya observing Marcus hide an object; it does not assert that she knows or suspects the embezzlement.",
+      "Under LICENSED_FICTION, this is an ordinary observed detail and does not contradict canon or resolve a deferred check."
+    ],
+    "latencyMs": 19548,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": false,
+  "runLabel": "baseline"
+}

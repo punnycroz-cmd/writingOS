@@ -1,0 +1,42 @@
+{
+  "caseId": "A2",
+  "group": "A",
+  "label": "Harmless: watched put folder on desk",
+  "candidateText": "Maya watched Marcus put the folder on the desk.",
+  "expected": "ACCEPT",
+  "reasoning": "ordinary observation — no protected fact",
+  "observationClass": "OBSERVATION_ONLY",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence presents only observable action.",
+      "It does not assert or imply Maya knows the embezzlement fact.",
+      "The folder and desk are ordinary scene texture permitted under LICENSED_FICTION."
+    ],
+    "latencyMs": 5117,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "baseline"
+}

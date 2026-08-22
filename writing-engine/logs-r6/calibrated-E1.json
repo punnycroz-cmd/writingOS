@@ -1,0 +1,42 @@
+{
+  "caseId": "E1",
+  "group": "E",
+  "label": "Paraphrase: reason became visible",
+  "candidateText": "The reason Marcus handled the records that way suddenly became visible to Maya.",
+  "expected": "REJECT",
+  "reasoning": "paraphrased indirect leak — implies Maya now understands the protected fact",
+  "observationClass": "CAUSAL_INFERENCE",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence asserts that Maya suddenly sees/knows the reason Marcus handled records that way.",
+      "The structured state marks Maya as UNKNOWN for the protected fact about Marcus’s embezzlement.",
+      "No state-supported observation or event authorizes Maya gaining that knowledge here."
+    ],
+    "latencyMs": 6218,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "correct": true,
+  "runLabel": "calibrated"
+}

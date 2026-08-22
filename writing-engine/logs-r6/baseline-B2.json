@@ -1,0 +1,42 @@
+{
+  "caseId": "B2",
+  "group": "B",
+  "label": "Leak: watched move cash envelope",
+  "candidateText": "Maya watched Marcus move the missing cash envelope into his coat.",
+  "expected": "REJECT",
+  "reasoning": "observation reveals embezzlement",
+  "observationClass": "OBSERVATION_IMPLYING_FACT",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Maya is state-unknown to Marcus's embezzlement/missing clinic cash.",
+      "Calling the object 'the missing cash envelope' gives Maya perceptual recognition of a hidden fact.",
+      "A safer version would describe only an envelope or suspicious movement without identifying it as missing cash."
+    ],
+    "latencyMs": 25252,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "correct": true,
+  "runLabel": "baseline"
+}
