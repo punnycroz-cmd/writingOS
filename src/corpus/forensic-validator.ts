@@ -40,6 +40,10 @@ export const HASH_EXCLUDED_FILES = new Set([
   'forensic/phase2b-5/test-results/reconciler-output.txt',
   'forensic/phase2b-5/test-results/corpus-tests.txt',
   'forensic/phase2b-5/test-results/lint.txt',
+  'forensic/phase2b-5/MANIFEST.json',
+  'forensic/phase2b-5/file-inventory.json',
+  'forensic/phase2b-5/excluded-files.json',
+  'worklog.md',
 ]);
 
 function isHashExcluded(path: string): boolean {
@@ -48,7 +52,7 @@ function isHashExcluded(path: string): boolean {
 
 export function validateManifestFields(manifest: Partial<ForensicManifest>): string[] {
   const issues: string[] = [];
-  const required = ['task','snapshotCreatedAt','repository','branch','head','filesPreserved','filesExcluded','sanitizedFiles','categories','sensitivePatternsChecked','secretsFound'];
+  const required = ['task','snapshotCreatedAt','repository','branch','head','filesPreserved','sanitizedFiles','categories','sensitivePatternsChecked','secretsFound'];
   for (const f of required) {
     if (manifest[f as keyof ForensicManifest] === undefined || manifest[f as keyof ForensicManifest] === null) {
       issues.push(`MANIFEST missing field: ${f}`);

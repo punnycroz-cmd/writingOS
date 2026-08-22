@@ -1,16 +1,19 @@
 {
-  "task": "PHASE-2B-5R",
-  "snapshotCreatedAt": "2026-08-22T23:50:00.000Z",
+  "task": "PHASE-2B-5F",
+  "snapshotCreatedAt": "2026-08-23T00:25:00.000Z",
   "repository": "punnycroz-cmd/writingOS",
   "branch": "research/phase2b-golden-corpus-v1-reconciled",
-  "head": "pending",
-  "filesPreserved": 952,
-  "filesExcluded": 0,
+  "head": "pending-post-commit",
+  "headSemantics": "Updated in follow-up commit.",
+  "filesPreserved": 954,
+  "filesExcluded": null,
+  "filesExcludedNote": "Track exclusion CLASSES. See excluded-files.json.",
+  "excludedPolicyClasses": 16,
   "sanitizedFiles": 0,
   "categories": {
     "other": 1,
-    "report": 132,
-    "data": 732,
+    "report": 133,
+    "data": 733,
     "source": 68,
     "log": 13,
     "test": 6
@@ -19,6 +22,11 @@
   "secretsFound": false,
   "scanNotes": "No actual secrets found.",
   "excludedByPolicy": [
+    ".env",
+    ".env.*",
+    "credentials/",
+    "*.pem",
+    "*.key",
     "node_modules/",
     ".git/",
     ".next/",
@@ -28,11 +36,23 @@
     "upload/",
     "download/",
     "skills/",
-    ".env"
+    "GitHub PATs",
+    "API keys"
   ],
   "selfExcludedFiles": [
     "forensic/phase2b-5/MANIFEST.json",
     "forensic/phase2b-5/file-inventory.json"
   ],
-  "selfExclusionNote": "Excluded from own inventory."
+  "hashExcludedFiles": [
+    "writing-engine/logs-golden-v1/canonical-case-ledger.json",
+    "writing-engine/logs-golden-v1/reconciliation-report.json",
+    "writing-engine/logs-golden-v1/consistency-check.json",
+    "writing-engine/logs-golden-v1/summary.json",
+    "forensic/phase2b-5/test-results/reconciler-output.txt",
+    "forensic/phase2b-5/test-results/corpus-tests.txt",
+    "forensic/phase2b-5/test-results/lint.txt",
+    "forensic/phase2b-5/excluded-files.json",
+    "worklog.md"
+  ],
+  "selfExclusionNote": "See HASH_POLICY.md."
 }

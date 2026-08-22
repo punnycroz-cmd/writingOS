@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-08-22T23:55:00.000Z",
+  "description": "Inventory of excluded file classes/policies. These are NOT preserved in the forensic snapshot because they are either sensitive (credentials), regenerable (build caches), or out-of-scope (sandbox infrastructure).",
+  "excludedClasses": [
+    {
+      "path": ".env",
+      "reason": "Environment file may contain live API keys, DB URLs, tokens",
+      "policy": "gitignored",
+      "type": "CLASS",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": ".env.*",
+      "reason": "Same as .env — environment-specific secrets",
+      "policy": "gitignored",
+      "type": "CLASS",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "credentials/",
+      "reason": "Credential directory",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "*.pem",
+      "reason": "Private key / certificate files",
+      "policy": "gitignored",
+      "type": "CLASS",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "*.key",
+      "reason": "Private key files",
+      "policy": "gitignored",
+      "type": "CLASS",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "node_modules/",
+      "reason": "Dependency tree — regenerable from package.json + bun.lock",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": ".git/",
+      "reason": "Git internal state — not a project artifact",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": ".next/",
+      "reason": "Next.js build cache — regenerable",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": ".zscripts/",
+      "reason": "Sandbox-private orchestration scripts",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": ".z-ai-config/",
+      "reason": "Sandbox-private configuration",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "tool-results/",
+      "reason": "Transient tool output from agent session — not relevant to corpus",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "upload/",
+      "reason": "Sandbox transfer staging",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "download/",
+      "reason": "Sandbox transfer staging",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "skills/",
+      "reason": "Sandbox skill definitions — not Writing OS artifacts",
+      "policy": "gitignored",
+      "type": "DIRECTORY",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "GitHub PATs (github_pat_, ghp_, gho_)",
+      "reason": "Git push credentials — never committed",
+      "policy": "never committed",
+      "type": "CLASS",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    },
+    {
+      "path": "API keys (FIREWORKS_API_KEY, OPENAI_API_KEY, etc.)",
+      "reason": "Live secrets — read from env at runtime; value NEVER committed",
+      "policy": "never committed",
+      "type": "CLASS",
+      "sanitized": false,
+      "preservedSafeCopy": false
+    }
+  ],
+  "selfReferentialExcluded": [
+    {
+      "path": "forensic/phase2b-5/MANIFEST.json",
+      "reason": "Excluded from its own inventory to avoid self-referential hash problem",
+      "policy": "self-excluded from hash verification",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    },
+    {
+      "path": "forensic/phase2b-5/file-inventory.json",
+      "reason": "Same as MANIFEST.json — changing the inventory changes its own hash",
+      "policy": "self-excluded from hash verification",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    }
+  ],
+  "hashExcluded": [
+    {
+      "path": "writing-engine/logs-golden-v1/canonical-case-ledger.json",
+      "reason": "Regenerated on each reconciler run — hash would always mismatch",
+      "policy": "hash-excluded (existence verified, content protected by git commit)",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    },
+    {
+      "path": "writing-engine/logs-golden-v1/reconciliation-report.json",
+      "reason": "Regenerated on each reconciler run",
+      "policy": "hash-excluded",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    },
+    {
+      "path": "writing-engine/logs-golden-v1/consistency-check.json",
+      "reason": "Regenerated on each reconciler run",
+      "policy": "hash-excluded",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    },
+    {
+      "path": "writing-engine/logs-golden-v1/summary.json",
+      "reason": "Regenerated on each reconciler run",
+      "policy": "hash-excluded",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    },
+    {
+      "path": "forensic/phase2b-5/test-results/reconciler-output.txt",
+      "reason": "Regenerated on each reconciler run",
+      "policy": "hash-excluded",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    },
+    {
+      "path": "forensic/phase2b-5/test-results/corpus-tests.txt",
+      "reason": "Regenerated on each test run",
+      "policy": "hash-excluded",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    },
+    {
+      "path": "forensic/phase2b-5/test-results/lint.txt",
+      "reason": "Regenerated on each lint run",
+      "policy": "hash-excluded",
+      "type": "FILE",
+      "sanitized": false,
+      "preservedSafeCopy": true
+    }
+  ],
+  "summary": {
+    "excludedPolicyClasses": 16,
+    "selfReferentialExcludedCount": 2,
+    "hashExcludedCount": 7,
+    "actualSecretsFound": 0,
+    "filesSanitized": 0
+  }
+}
