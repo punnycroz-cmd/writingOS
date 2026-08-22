@@ -1,0 +1,47 @@
+{
+  "caseId": "A5-3",
+  "attack": "PARAPHRASE_LEAK",
+  "sceneId": "S1",
+  "snapshotId": "SNAP-S1-UNKNOWN",
+  "candidateText": "The truth behind the missing records clicked into place for Maya.",
+  "expected": "REJECT",
+  "reasoning": "paraphrased knowledge — \"truth clicked into place\"",
+  "isRepair": false,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Maya is presented as having a definite realization about the missing records, but the state does not authorize her knowledge of that truth.",
+      "The candidate introduces unsupported plot facts ('missing records' and their truth) without state basis."
+    ],
+    "latencyMs": 8184,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

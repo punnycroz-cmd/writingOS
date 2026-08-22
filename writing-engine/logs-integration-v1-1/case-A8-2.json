@@ -1,0 +1,44 @@
+{
+  "caseId": "A8-2",
+  "attack": "SNAPSHOT_ISOLATION",
+  "sceneId": "S1",
+  "snapshotId": "SNAP-S1-UNKNOWN",
+  "candidateText": "Maya knew Marcus had stolen $40,000.",
+  "expected": "REJECT",
+  "reasoning": "UNKNOWN + knew $40k → leak (using S1 snapshot, not S3)",
+  "isRepair": false,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_BLOCK",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Hard block: Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+    ],
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "DETERMINISTIC_BLOCK",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

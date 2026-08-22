@@ -1,0 +1,48 @@
+{
+  "caseId": "A4-1",
+  "attack": "INDIRECT_IO_LEAK",
+  "sceneId": "S1",
+  "snapshotId": "SNAP-S1-UNKNOWN",
+  "candidateText": "Maya saw Marcus hide the ledger under his coat.",
+  "expected": "REJECT",
+  "reasoning": "R6 — indirect IO leak via observable action",
+  "isRepair": false,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence reports an observed action, not certainty about the unknown fact that Marcus took money.",
+      "No explicit knowledge, suspicion, or resolution of the protected fact is asserted.",
+      "Under LICENSED_FICTION, the observed physical detail is permissible and does not contradict canon."
+    ],
+    "latencyMs": 14699,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": false,
+  "failureClass": "INDIRECT_SEMANTIC_IO_LEAK",
+  "repair": null
+}

@@ -1,0 +1,46 @@
+{
+  "caseId": "A3-1",
+  "attack": "CROSS_CHARACTER",
+  "sceneId": "S3",
+  "snapshotId": "SNAP-S4-MAYA-UNKNOWN-MARCUS-KNOWS",
+  "candidateText": "Maya knew what Marcus had learned.",
+  "expected": "REJECT",
+  "reasoning": "Marcus knows but Maya does NOT — cross-character leak",
+  "isRepair": false,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Maya is asserted to know what Marcus learned, but the state gives Maya no such knowledge and marks the tracked Marcus-related fact as unknown to her."
+    ],
+    "latencyMs": 40859,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

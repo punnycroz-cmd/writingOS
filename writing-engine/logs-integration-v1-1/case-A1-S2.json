@@ -1,0 +1,44 @@
+{
+  "caseId": "A1-S2",
+  "attack": "TEMPORAL_REGRESSION",
+  "sceneId": "S2",
+  "snapshotId": "SNAP-S2-SUSPECTS",
+  "candidateText": "Maya knew Marcus had stolen the money.",
+  "expected": "REJECT",
+  "reasoning": "SUSPECTS + knew → overreach",
+  "isRepair": false,
+  "isTemporal": true,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_BLOCK",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Epistemic / Information ownership violation: Epistemic Overreach: State authorizes SUSP"
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Hard block: Arbitration: Epistemic / Information ownership violation: Epistemic Overreach: State authorizes SUSPECTS for \"Marcus took money from the clinic\", but candidate asserts KNOWLEDGE."
+    ],
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "DETERMINISTIC_BLOCK",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

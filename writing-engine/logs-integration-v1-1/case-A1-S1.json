@@ -1,0 +1,44 @@
+{
+  "caseId": "A1-S1",
+  "attack": "TEMPORAL_REGRESSION",
+  "sceneId": "S1",
+  "snapshotId": "SNAP-S1-UNKNOWN",
+  "candidateText": "Maya knew Marcus had stolen the money.",
+  "expected": "REJECT",
+  "reasoning": "UNKNOWN + knew → leak",
+  "isRepair": false,
+  "isTemporal": true,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_BLOCK",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus t"
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Hard block: Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus took money from the clinic\" is UNKNOWN to character \"maya\"."
+    ],
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "DETERMINISTIC_BLOCK",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

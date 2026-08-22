@@ -1,0 +1,248 @@
+{
+  "SNAP-S1-UNKNOWN": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse, 34, co-owns a clinic with Marcus",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus took money from the clinic",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "",
+    "revisionId": 1
+  },
+  "SNAP-S2-SUSPECTS": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse, 34, co-owns a clinic with Marcus",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": [
+        "She saw a discrepancy"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus took money from the clinic",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [
+            "Maya"
+          ],
+          "misunderstands": [],
+          "unknown": []
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "",
+    "revisionId": 1
+  },
+  "SNAP-S3-KNOWS": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse, 34, co-owns a clinic with Marcus",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": [
+        "Marcus took money from the clinic"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus took money from the clinic",
+          "knows": [
+            "Marcus",
+            "Maya"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": []
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "",
+    "revisionId": 1
+  },
+  "SNAP-S3-KNOWS-AMOUNT": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse, 34, co-owns a clinic with Marcus",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": [
+        "Marcus embezzled $40,000 from the clinic"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic",
+          "knows": [
+            "Marcus",
+            "Maya"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": []
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "",
+    "revisionId": 1
+  },
+  "SNAP-S4-MAYA-UNKNOWN-MARCUS-KNOWS": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse, 34, co-owns a clinic with Marcus",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus took money from the clinic",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "",
+    "revisionId": 1
+  },
+  "SNAP-CONFLICT": {
+    "character": {
+      "identity": "Maya Okafor — ICU nurse, 34, co-owns a clinic with Marcus",
+      "goals": [],
+      "fears": [],
+      "beliefs": [],
+      "memories": [],
+      "emotionalState": "",
+      "perceptualHabits": [],
+      "voice": "",
+      "currentKnowledge": [
+        "Marcus embezzled $40,000 from the clinic"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus took money from the clinic",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "",
+    "revisionId": 1
+  }
+}
