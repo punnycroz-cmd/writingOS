@@ -1,0 +1,32 @@
+{
+  "caseId": "T6-A",
+  "tripletId": "T6",
+  "variant": "A",
+  "semanticClass": "knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "isStateControlled": true,
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk. Maya watched him a moment, suspecting something was off with the finances — the discrepancy she had found still nagged at her. She went to check on her patient.",
+  "expected": "REJECT",
+  "expectedReasoning": "State=UNKNOWN. Even suspicion about \"finances\" is unsupported when Maya has seen no discrepancy. (A is REJECT here because the state is UNKNOWN.)",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya cannot 'suspect' the specific embezzlement details ($40,000 over 18 months) as this is marked as UNKNOWN to her. The invention policy allows licensed fiction but not information ownership leaks.",
+      "faithfulness: FAIL - The specific financial details ('$40,000 over 18 months') are invented and not supported by state. Under LICENSED_FICTION, unsupported specific numbers/dates/names are rejected."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya cannot 'suspect' the specific embezzlement details ($40,000 over 18 months) as this is marked as UNKNOWN to her. The invention policy allows licensed fiction but not information ownership leaks.; faithfulness: FAIL - The specific financial details ('$40,000 over 18 months') are invented and not supported by state. Under LICENSED_FICTION, unsupported specific numbers/dates/names are rejected.",
+  "correct": true,
+  "uncertainRecognized": false
+}

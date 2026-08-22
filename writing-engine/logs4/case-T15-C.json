@@ -1,0 +1,38 @@
+{
+  "caseId": "T15-C",
+  "tripletId": "T15",
+  "variant": "C",
+  "semanticClass": "unsupported_specific",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "The patient was stable.",
+  "revised": "The patient was stable. The monitor showed numbers within normal range.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Vague reference (\"within normal range\") — no specific invented numbers. Licensed. (Adjusted to ACCEPT — vague is safe.)",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition of 'The monitor showed numbers within normal range' is consistent with the original statement that the patient was stable.",
+      "character: This addition aligns with Maya's perceptual habits of counting IV drips and using numbers as anchors.",
+      "infoOwnership: Maya, as an ICU nurse, would have knowledge of patient monitoring equipment and normal ranges, so this doesn't constitute an information ownership leak.",
+      "canon: No contradiction with established canon.",
+      "voice: The addition maintains Maya's sparse, observational style and her tendency to use numbers as anchors.",
+      "register: The language remains appropriate for a medical professional's observation.",
+      "intelligibility: The addition is clear and easily understood in context.",
+      "deferred: No deferred checks are being resolved.",
+      "faithfulness: Under LICENSED_FICTION, sensory description and ordinary observed details are allowed. The monitor observation is a reasonable addition that respects Maya's character and profession."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

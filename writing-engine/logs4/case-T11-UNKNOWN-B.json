@@ -1,0 +1,31 @@
+{
+  "caseId": "T11-UNKNOWN-B",
+  "tripletId": "T11-UNKNOWN",
+  "variant": "B",
+  "semanticClass": "knowledge_state_controlled",
+  "inventionPolicy": "LICENSED_FICTION",
+  "isStateControlled": true,
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Maya watched him, then went to check on her patient. Something about him bothered her.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Vague unease — no knowledge claimed. Licensed.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya is stated to have a feeling about Marcus that bothers her, but the information ownership explicitly states that the fact about Marcus embezzling money is UNKNOWN to Maya. This represents an information ownership leak as Maya cannot know this fact yet."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya is stated to have a feeling about Marcus that bothers her, but the information ownership explicitly states that the fact about Marcus embezzling money is UNKNOWN to Maya. This represents an information ownership leak as Maya cannot know this fact yet.",
+  "correct": false,
+  "uncertainRecognized": false
+}

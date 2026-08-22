@@ -1,0 +1,31 @@
+{
+  "caseId": "T8-A",
+  "tripletId": "T8",
+  "variant": "A",
+  "semanticClass": "quantification",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya counted the IV drips in Room 4.",
+  "revised": "Maya counted the IV drips in Room 4 — four, as always.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "State-supported (perceptualHabits: \"Counts the IV drips\" + currentKnowledge: \"Room 4 is her usual assignment\" + \"four IV drips\" in habit). The number four is supported.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya cannot know that there are 'four' IV drips in Room 4 as this fact is marked as UNKNOWN in her information ownership state. The revision asserts certainty about a specific number without justification.",
+      "faithfulness: FAIL - The addition of 'four, as always' introduces an unsupported specific number that is not in the character state or canon. Under LICENSED_FICTION, while sensory description is allowed, specific numbers not supported by state are rejected."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya cannot know that there are 'four' IV drips in Room 4 as this fact is marked as UNKNOWN in her information ownership state. The revision asserts certainty about a specific number without justification.; faithfulness: FAIL - The addition of 'four, as always' introduces an unsupported specific number that is not in the character state or canon. Under LICENSED_FICTION, while sensory description is allowed, specific numbers not supported by state are rejected.",
+  "correct": false,
+  "uncertainRecognized": false
+}

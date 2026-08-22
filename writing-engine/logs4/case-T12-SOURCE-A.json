@@ -1,0 +1,33 @@
+{
+  "caseId": "T12-SOURCE-A",
+  "tripletId": "T12-SOURCE",
+  "variant": "A",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "SOURCE_CONSTRAINED",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+  "expected": "REJECT",
+  "expectedReasoning": "Policy=SOURCE_CONSTRAINED: only source-supported info. \"Smelled of rain\" is not in source or state. Rejected.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - The revision adds a sensory detail (smell of rain) that is not supported by the character's current knowledge or state. Maya's perceptual habits include smelling rooms first, but this specific smell is not mentioned in her knowledge.",
+      "canon: FAIL - The revision contradicts the established canon that Papa's house smells of cardamom and iron. The corridor smell is not mentioned in canon.",
+      "faithfulness: FAIL - Under SOURCE_CONSTRAINED policy, no invention is allowed. The addition of 'The corridor smelled faintly of rain' is invented sensory detail not present in the original text or supported by the character state or canon."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - The revision adds a sensory detail (smell of rain) that is not supported by the character's current knowledge or state. Maya's perceptual habits include smelling rooms first, but this specific smell is not mentioned in her knowledge.; canon: FAIL - The revision contradicts the established canon that Papa's house smells of cardamom and iron. The corridor smell is not mentioned in canon.",
+  "correct": true,
+  "uncertainRecognized": false
+}

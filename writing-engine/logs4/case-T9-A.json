@@ -1,0 +1,38 @@
+{
+  "caseId": "T9-A",
+  "tripletId": "T9",
+  "variant": "A",
+  "semanticClass": "identity",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "A man Maya had never seen walked into the clinic.",
+  "revised": "A man Maya had never seen walked into the clinic. He was tall, with gray hair and a guarded expression. She did not recognize him.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Observable physical description + explicit non-recognition. Licensed observation.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revised sentence maintains the original meaning while adding descriptive detail.",
+      "character: The additions align with Maya's observational habits and voice.",
+      "infoOwnership: Maya doesn't claim knowledge of who the man is or why he's there, which is consistent with her current knowledge.",
+      "canon: No contradictions with established canon.",
+      "voice: The sparse, observational style with specific details (tall, gray hair, guarded expression) matches Maya's voice.",
+      "register: The language remains appropriate for the narrative.",
+      "intelligibility: The additions are clear and don't confuse the narrative.",
+      "deferred: No deferred checks are present or violated.",
+      "faithfulness: The added details are sensory observations (licensed under LICENSED_FICTION) and don't include unsupported specific numbers/dates/names/measurements."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

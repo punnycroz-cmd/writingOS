@@ -1,0 +1,30 @@
+{
+  "caseId": "T3-C",
+  "tripletId": "T3",
+  "variant": "C",
+  "semanticClass": "emotional_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "original": "Tomás stood in the garden, his hands shaking.",
+  "revised": "Tomás stood in the garden, his hands shaking. Maya wondered if something was wrong.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Wondering is explicitly uncertain — licensed inference. (Adjusted from UNCLEAR because \"wondered if\" is clearly safe.)",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya wonders if something is wrong, but Tomás's shaking hands are not explicitly connected to anything Maya knows about. The fact that Marcus embezzled money is marked as UNKNOWN to Maya, so her wondering if something is wrong could be interpreted as knowing about the embezzlement, which would be an information ownership leak."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya wonders if something is wrong, but Tomás's shaking hands are not explicitly connected to anything Maya knows about. The fact that Marcus embezzled money is marked as UNKNOWN to Maya, so her wondering if something is wrong could be interpreted as knowing about the embezzlement, which would be an information ownership leak.",
+  "correct": false,
+  "uncertainRecognized": false
+}

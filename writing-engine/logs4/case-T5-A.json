@@ -1,0 +1,38 @@
+{
+  "caseId": "T5-A",
+  "tripletId": "T5",
+  "variant": "A",
+  "semanticClass": "memory",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya thought about her childhood.",
+  "revised": "Maya thought about her childhood — Papa teaching her to count by pill bottles, the amber vials lining the wall of his pharmacy.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "State-supported memory (explicitly in memories: \"Papa teaching her to count by pill bottles\").",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revision successfully adds specific sensory detail to Maya's childhood memory without altering the core meaning.",
+      "character: The detail aligns with Maya's established memories (Papa teaching her to count by pill bottles) and perceptual habits (counts IV drips, reads dosage labels).",
+      "infoOwnership: Maya has this memory listed in her character state, so there's no information ownership leak.",
+      "canon: The detail about Papa's pharmacy is consistent with the soft canon fact about Papa's house smelling of cardamom and iron.",
+      "voice: The sparse, observational style with numbers as anchors is maintained.",
+      "register: The register is appropriate for internal thought.",
+      "intelligibility: The added detail is clear and enhances understanding of Maya's background.",
+      "deferred: No deferred checks are present or violated.",
+      "faithfulness: The specific details (pill bottles, amber vials) are licensed invention under LICENSED_FICTION as they are sensory observations that respect POV, character knowledge, and canon."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

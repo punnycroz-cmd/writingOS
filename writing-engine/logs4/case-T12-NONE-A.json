@@ -1,0 +1,32 @@
+{
+  "caseId": "T12-NONE-A",
+  "tripletId": "T12-NONE",
+  "variant": "A",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "NONE",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+  "expected": "REJECT",
+  "expectedReasoning": "Policy=NONE: no invention allowed. \"Smelled of rain\" is invented sensory detail. Must be rejected.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - The character has no knowledge about the corridor smell in currentKnowledge",
+      "faithfulness: FAIL - The smell of rain in the corridor is not in the source passage or explicit state, violating SOURCE_CONSTRAINED policy"
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - The character has no knowledge about the corridor smell in currentKnowledge; faithfulness: FAIL - The smell of rain in the corridor is not in the source passage or explicit state, violating SOURCE_CONSTRAINED policy",
+  "correct": true,
+  "uncertainRecognized": false
+}

@@ -1,0 +1,38 @@
+{
+  "caseId": "T10-A",
+  "tripletId": "T10",
+  "variant": "A",
+  "semanticClass": "temporal_knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya checked the clock.",
+  "revised": "Maya checked the clock. Her shift was almost over.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Vague temporal reference (no specific time). Licensed.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition 'Her shift was almost over' is a reasonable inference from checking the clock and fits with Maya's goal of getting through her shift.",
+      "character: This addition aligns with Maya being a nurse and her goal of getting through her shift.",
+      "infoOwnership: Maya would reasonably know the time and status of her own shift.",
+      "canon: No canon violations are introduced.",
+      "voice: The addition fits with Maya's sparse, observational style.",
+      "register: The language is appropriate for the narrative context.",
+      "intelligibility: The sentence is clear and understandable.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The addition is a licensed narrative invention (sensory observation/ordinary detail) that respects POV and character knowledge."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

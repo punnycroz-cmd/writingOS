@@ -1,0 +1,33 @@
+{
+  "caseId": "T12-SOURCE-B",
+  "tripletId": "T12-SOURCE",
+  "variant": "B",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "SOURCE_CONSTRAINED",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The kitchen smelled of cardamom and iron.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Policy=SOURCE_CONSTRAINED: cardamom and iron is SOFT_CANON — source/state-supported.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya's currentKnowledge is empty, but the revision asserts she smells cardamom and iron in the kitchen, which she cannot know without prior observation in this context.",
+      "canon: FAIL - The canon states 'Papa's house smells of cardamom and iron', not the kitchen specifically. The revision introduces unsupported specificity by changing the location from 'house' to 'kitchen'.",
+      "faithfulness: FAIL - Under SOURCE_CONSTRAINED policy, no invention is allowed. The addition of 'The kitchen smelled of cardamom and iron' is invented sensory detail not supported by the source or properly entailed."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya's currentKnowledge is empty, but the revision asserts she smells cardamom and iron in the kitchen, which she cannot know without prior observation in this context.; canon: FAIL - The canon states 'Papa's house smells of cardamom and iron', not the kitchen specifically. The revision introduces unsupported specificity by changing the location from 'house' to 'kitchen'.",
+  "correct": false,
+  "uncertainRecognized": false
+}

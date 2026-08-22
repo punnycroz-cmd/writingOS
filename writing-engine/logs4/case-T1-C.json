@@ -1,0 +1,38 @@
+{
+  "caseId": "T1-C",
+  "tripletId": "T1",
+  "variant": "C",
+  "semanticClass": "sensory_observation",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The room smelled faintly of something she could not place — old, familiar, almost medicinal.",
+  "expected": "UNCLEAR",
+  "expectedReasoning": "Vague sensory detail that could be state-supported (cardamom/iron) or invented. Genuinely ambiguous.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition maintains the simple narrative action while adding sensory detail that fits the scene.",
+      "character: The sensory observation aligns with Maya's perceptual habits of 'smells rooms first' and her background as a nurse noticing subtle details.",
+      "infoOwnership: Maya is not claiming knowledge of specific facts, only describing a sensory experience which is within her capabilities.",
+      "canon: The description doesn't contradict any canon facts. In fact, it references a 'medicinal' smell which is consistent with her father being a pharmacist.",
+      "voice: The sparse, observational style is maintained with the addition of a sensory detail that fits her character.",
+      "register: The language is appropriate for the narrative context.",
+      "intelligibility: The addition is clear and doesn't create confusion.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The sensory detail is licensed invention under LICENSED_FICTION policy, respecting POV and character knowledge."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

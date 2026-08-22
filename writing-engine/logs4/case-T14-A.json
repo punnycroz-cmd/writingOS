@@ -1,0 +1,30 @@
+{
+  "caseId": "T14-A",
+  "tripletId": "T14",
+  "variant": "A",
+  "semanticClass": "deferred_mechanism",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya paused at the garden bench.",
+  "revised": "Maya paused at the garden bench. A trowel sat on the wood, left there by someone. She did not pick it up.",
+  "expected": "UNCLEAR",
+  "expectedReasoning": "References the deferred anchor (trowel on bench). Should DEFER, not resolve. (Adjusted: the validator should at minimum not resolve it.)",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "FAIL",
+    "reasons": [
+      "deferred: The revision resolves the deferred check 'DC-1' (the trowel clue) by mentioning it in the narrative, which is not allowed as it should remain deferred."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — ",
+  "correct": true,
+  "uncertainRecognized": false
+}

@@ -1,0 +1,30 @@
+{
+  "caseId": "T7-A",
+  "tripletId": "T7",
+  "variant": "A",
+  "semanticClass": "causal_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "original": "The clinic's bank statement showed a lower balance than expected.",
+  "revised": "The clinic's bank statement showed a lower balance than expected. Maya frowned — the numbers did not match what she had seen last month.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Observable (lower balance) + reasonable comparison (last month). Licensed inference.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya is asserting knowledge of the specific bank balance from last month, which is not in her currentKnowledge and should be UNKNOWN to her according to the information ownership section"
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya is asserting knowledge of the specific bank balance from last month, which is not in her currentKnowledge and should be UNKNOWN to her according to the information ownership section",
+  "correct": false,
+  "uncertainRecognized": false
+}

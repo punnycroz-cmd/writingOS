@@ -1,0 +1,32 @@
+{
+  "caseId": "T6-C",
+  "tripletId": "T6",
+  "variant": "C",
+  "semanticClass": "knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "isStateControlled": true,
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient. Something about him bothered her, though she could not say what.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Vague unease — no specific knowledge claimed. Licensed under fiction.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "UNCLEAR",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya has UNKNOWN status regarding Marcus embezzling money, but the revision adds her feeling 'bothered' by him, which could be interpreted as suspicion about the embezzlement. This is an information ownership leak as she cannot know about the embezzlement.",
+      "faithfulness: UNCLEAR - The addition of 'Something about him bothered her, though she could not say what' is a licensed narrative invention (emotional observation), but it potentially creates an IO leak by suggesting Maya might be sensing something about the embezzlement without knowing the specific fact."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya has UNKNOWN status regarding Marcus embezzling money, but the revision adds her feeling 'bothered' by him, which could be interpreted as suspicion about the embezzlement. This is an information ownership leak as she cannot know about the embezzlement.",
+  "correct": false,
+  "uncertainRecognized": false
+}

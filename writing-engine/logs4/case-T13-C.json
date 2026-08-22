@@ -1,0 +1,32 @@
+{
+  "caseId": "T13-C",
+  "tripletId": "T13",
+  "variant": "C",
+  "semanticClass": "canon_contradiction",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Arlo entered the studio.",
+  "revised": "Arlo entered the studio. The air felt blue to him — a color he remembered from before.",
+  "expected": "UNCLEAR",
+  "expectedReasoning": "Synesthetic/metaphorical use of \"blue\" — could be licensed literary description or could imply visual memory. Genuinely ambiguous.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Arlo, who is blind, cannot know what color air 'feels blue' as he cannot perceive color",
+      "canon: FAIL - Contradicts HARD_CANON that Arlo is 'totally blind' by describing him perceiving color",
+      "faithfulness: FAIL - Invents sensory detail (air feeling blue) that contradicts character's known perceptual limitations"
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Arlo, who is blind, cannot know what color air 'feels blue' as he cannot perceive color; canon: FAIL - Contradicts HARD_CANON that Arlo is 'totally blind' by describing him perceiving color",
+  "correct": true,
+  "uncertainRecognized": false
+}

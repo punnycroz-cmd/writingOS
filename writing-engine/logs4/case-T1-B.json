@@ -1,0 +1,32 @@
+{
+  "caseId": "T1-B",
+  "tripletId": "T1",
+  "variant": "B",
+  "semanticClass": "sensory_observation",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The scent of burnt coffee and bleach filled the room — she could smell the embezzlement on him.",
+  "expected": "REJECT",
+  "expectedReasoning": "Invented smell (\"burnt coffee\") + IO leak (\"smell the embezzlement\" — cannot perceive embezzlement as a scent).",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya cannot know about Marcus embezzling as it's marked UNKNOWN for her. The revision asserts she can 'smell the embezzlement on him' which is a KNOWS-level assertion about an unknown fact.",
+      "canon: FAIL - There's no canon support for Marcus embezzling from the clinic, which contradicts the established state where this is an unknown fact.",
+      "faithfulness: FAIL - The specific assertion about embezzlement ($40,000 over 18 months) is not supported by state and is presented as fact, which violates the policy against unsupported factual assertions."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya cannot know about Marcus embezzling as it's marked UNKNOWN for her. The revision asserts she can 'smell the embezzlement on him' which is a KNOWS-level assertion about an unknown fact.; canon: FAIL - There's no canon support for Marcus embezzling from the clinic, which contradicts the established state where this is an unknown fact.",
+  "correct": true,
+  "uncertainRecognized": false
+}

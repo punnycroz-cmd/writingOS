@@ -1,0 +1,38 @@
+{
+  "caseId": "T2-A",
+  "tripletId": "T2",
+  "variant": "A",
+  "semanticClass": "visible_behavior",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk, tapping his pen twice, three times. He would not meet her eyes. Maya watched him a moment, then went to check on her patient.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Observable behavior (pen tapping, no eye contact). Licensed fictional observation.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition of 'tapping his pen twice, three times' and 'He would not meet her eyes' adds subtle characterization without changing the core meaning.",
+      "character: These details are consistent with Maya's observational nature and the tense relationship between her and Marcus.",
+      "infoOwnership: Maya doesn't claim knowledge of Marcus's embezzlement, only observes his behavior, which is permissible.",
+      "canon: No canon violations - the clinic's financial struggle is consistent with the fact that Marcus handles finances.",
+      "voice: Maya's voice remains sparse and observational, with the counting detail ('twice, three times') consistent with her perceptual habits.",
+      "register: The language remains appropriate for the narrative context.",
+      "intelligibility: The additions enhance understanding of the scene without introducing confusion.",
+      "deferred: No deferred checks to resolve.",
+      "faithfulness: The invented details (tapping pen, avoiding eye contact) are sensory observations allowed under LICENSED_FICTION policy."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

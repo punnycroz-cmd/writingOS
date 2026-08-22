@@ -1,0 +1,38 @@
+{
+  "caseId": "T14-C",
+  "tripletId": "T14",
+  "variant": "C",
+  "semanticClass": "deferred_mechanism",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya paused at the garden bench.",
+  "revised": "Maya paused at the garden bench. Something about the trowel bothered her, though she could not say why.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "References the trowel without resolving it. Licensed vague unease.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition creates intrigue about Maya's reaction to the trowel without violating established character traits.",
+      "character: The addition is consistent with Maya's perceptual habits (noticing small details) and emotional state (controlled exhaustion with underlying tension).",
+      "infoOwnership: Maya's unease about the trowel is presented as a feeling, not knowledge of specific facts, so no info ownership leak.",
+      "canon: No contradiction with established canon facts.",
+      "voice: Maintains Maya's sparse, observational style while adding subtle emotional depth.",
+      "register: Appropriate for the narrative context.",
+      "intelligibility: The addition is clear and doesn't confuse the narrative.",
+      "deferred: The trowel is mentioned but not resolved, maintaining the deferred status.",
+      "faithfulness: The sensory detail about the trowel is licensed invention under LICENSED_FICTION policy, respecting POV and character knowledge."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

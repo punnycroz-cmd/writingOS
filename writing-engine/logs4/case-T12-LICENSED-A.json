@@ -1,0 +1,39 @@
+{
+  "caseId": "T12-LICENSED-A",
+  "tripletId": "T12-LICENSED",
+  "variant": "A",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LICENSED_FICTION",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Policy=LICENSED_FICTION: sensory invention is licensed. \"Smelled of rain\" is ordinary fictional observation. ACCEPT (does not violate POV/canon/state).",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition of sensory detail about the corridor smelling faintly of rain is ordinary narrative invention that fits the scene.",
+      "character: The addition aligns with Maya's perceptual habits of 'smells rooms first', showing her characteristic attention to sensory details.",
+      "infoOwnership: No information ownership leak - the rain smell is an observation Maya could make.",
+      "canon: No canon violation - the rain smell doesn't contradict any established facts.",
+      "voice: The sparse, observational tone is maintained with the simple addition of sensory detail.",
+      "register: The register remains consistent with the original.",
+      "intelligibility: The addition is clear and doesn't confuse the narrative.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The sensory detail is licensed invention under LICENSED_FICTION policy and doesn't include unsupported specific numbers/dates/names/measurements."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

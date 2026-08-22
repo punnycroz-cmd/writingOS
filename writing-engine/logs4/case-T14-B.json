@@ -1,0 +1,44 @@
+{
+  "caseId": "T14-B",
+  "tripletId": "T14",
+  "variant": "B",
+  "semanticClass": "deferred_mechanism",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya paused at the garden bench.",
+  "revised": "Maya paused at the garden bench. The trowel was a signal from Tomás — he had left it to warn her about Marcus's embezzlement.",
+  "expected": "REJECT",
+  "expectedReasoning": "Resolves the deferred mechanism (explains the trowel) + IO leak (embezzlement).",
+  "ccResult": {
+    "severity": "SOFT_SIGNAL",
+    "unsupported": [
+      {
+        "detail": "Toms",
+        "type": "proper_noun",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "FAIL",
+    "reasons": [
+      "meaning: The revision introduces a completely new plot point about embezzlement and Tomás that has no foundation in the original text.",
+      "character: Maya's character state shows she knows Marcus handles finances and the clinic is struggling, but there's no indication she suspects embezzlement.",
+      "infoOwnership: The fact 'Marcus embezzled $40,000' is marked as UNKNOWN to Maya, but the revision presents it as something she knows from a trowel signal.",
+      "canon: There's no mention of Tomás in the canon, making his introduction an unsupported addition.",
+      "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revision adds complex interpretation about embezzlement that doesn't match this style.",
+      "register: The revision shifts from simple observation to complex conspiracy theory without narrative justification.",
+      "intelligibility: The connection between a trowel and embezzlement is completely unexplained and comes out of nowhere.",
+      "deferred: The revision attempts to resolve the deferred 'trowel clue' without proper narrative development.",
+      "faithfulness: The revision introduces specific information ($40,000 embezzlement over 18 months) that is not supported by source or state."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — ",
+  "correct": true,
+  "uncertainRecognized": false
+}

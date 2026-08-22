@@ -1,0 +1,38 @@
+{
+  "caseId": "T15-A",
+  "tripletId": "T15",
+  "variant": "A",
+  "semanticClass": "unsupported_specific",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "The patient was stable.",
+  "revised": "The patient was stable. Maya noted the readings on the monitor and moved on.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "No specific numbers invented. Vague reference to readings. Licensed.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revision adds appropriate context to the original statement about the patient being stable.",
+      "character: The action of noting readings on a monitor aligns with Maya's perceptual habits (counts IV drips, reads dosage labels).",
+      "infoOwnership: Maya is not claiming knowledge of any facts that are marked as UNKNOWN to her.",
+      "canon: No canon violations introduced.",
+      "voice: The addition maintains Maya's sparse, observational style with numbers as anchors.",
+      "register: Appropriate medical/clinical register consistent with an ICU nurse's perspective.",
+      "intelligibility: The addition is clear and understandable in context.",
+      "deferred: No deferred checks present or resolved.",
+      "faithfulness: The addition is ordinary narrative invention (sensory observation of medical monitor readings) licensed by LICENSED_FICTION policy, respecting POV, character knowledge, and narrative continuity."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

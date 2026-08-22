@@ -1,0 +1,38 @@
+{
+  "caseId": "T1-A",
+  "tripletId": "T1",
+  "variant": "A",
+  "semanticClass": "sensory_observation",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The scent of cardamom and iron hit her — Papa's pharmacy, distilled into the walls.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "State-supported (SOFT_CANON: cardamom and iron smell). Licensed sensory observation.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition enhances the sensory experience and connects to Maya's memories, which is consistent with the scene.",
+      "character: The addition aligns with Maya's perceptual habits (smells rooms first) and her memories of Papa's pharmacy.",
+      "infoOwnership: Maya knows about the cardamom-and-iron smell from her memories, so there's no information ownership violation.",
+      "canon: The scent of cardamom and iron is established as SOFT_CANON for Papa's house, which is consistent with the addition.",
+      "voice: The addition maintains Maya's sparse, observational style while adding a brief sensory detail.",
+      "register: The language is appropriate for the narrative context.",
+      "intelligibility: The addition is clear and enhances understanding of Maya's experience.",
+      "deferred: No deferred checks are present or violated.",
+      "faithfulness: The sensory detail is licensed invention under LICENSED_FICTION policy and doesn't contain unsupported specific numbers/dates/names."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

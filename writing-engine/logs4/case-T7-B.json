@@ -1,0 +1,40 @@
+{
+  "caseId": "T7-B",
+  "tripletId": "T7",
+  "variant": "B",
+  "semanticClass": "causal_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "original": "The clinic's bank statement showed a lower balance than expected.",
+  "revised": "The clinic's bank statement showed a lower balance than expected because Marcus had diverted forty thousand dollars to an offshore account.",
+  "expected": "REJECT",
+  "expectedReasoning": "IO leak (Maya cannot know the cause or the offshore account) + invented specific ($40,000, offshore). Causal assertion as fact.",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "had diverted forty thousand dollars to an offshore account",
+        "type": "explicit_claim",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "had diverted forty thousand dollars to an offshore account"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya does not know that Marcus diverted $40,000 to an offshore account, as indicated in INFORMATION OWNERSHIP where this fact is marked as UNKNOWN to her",
+      "canon: FAIL - The specific amount ($40,000) and method (offshore account) of embezzlement are not established in canon",
+      "faithfulness: FAIL - Under LIMITED_INFERENCE, specific numbers ($40,000) and details (offshore account) that are not in source or character knowledge are not permitted"
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: had diverted forty thousand dollars to an offshore account — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

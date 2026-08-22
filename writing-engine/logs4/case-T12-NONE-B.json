@@ -1,0 +1,39 @@
+{
+  "caseId": "T12-NONE-B",
+  "tripletId": "T12-NONE",
+  "variant": "B",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "NONE",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Policy=NONE: no invention — only the original.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The statement 'Maya entered the kitchen' is present in both the original and revised text.",
+      "character: No character-specific details are added or altered.",
+      "infoOwnership: No information ownership issues as no new information is introduced.",
+      "canon: No canon violations as no new information contradicts established canon.",
+      "voice: No voice changes as the statement remains neutral and observational.",
+      "register: No register issues as the language remains consistent.",
+      "intelligibility: The statement is clear and understandable.",
+      "deferred: No deferred checks to resolve.",
+      "faithfulness: The revised text is identical to the source, with no invented details."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

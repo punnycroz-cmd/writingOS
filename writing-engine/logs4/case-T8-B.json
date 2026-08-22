@@ -1,0 +1,53 @@
+{
+  "caseId": "T8-B",
+  "tripletId": "T8",
+  "variant": "B",
+  "semanticClass": "quantification",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya counted the IV drips in Room 4.",
+  "revised": "Maya counted the IV drips in Room 4 — one hundred and twenty-seven drips, each one a reminder of the forty thousand dollars Marcus had stolen.",
+  "expected": "REJECT",
+  "expectedReasoning": "Invented quantity (127) + IO leak (forty thousand dollars, state=UNKNOWN).",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "one hundred",
+        "type": "number",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "twenty",
+        "type": "number",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "seven",
+        "type": "number",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "one hundred",
+      "twenty",
+      "seven"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya asserts knowledge of the exact amount of money Marcus stole ($40,000) when this is marked as UNKNOWN for her",
+      "canon: FAIL - The revision introduces new information about embezzlement that isn't in the established canon",
+      "faithfulness: FAIL - The specific numbers 'one hundred and twenty-seven' drips are not supported in source or state",
+      "faithfulness: FAIL - The specific amount '$40,000' is not supported in source or state"
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: one hundred, twenty, seven — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

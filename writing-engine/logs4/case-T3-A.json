@@ -1,0 +1,38 @@
+{
+  "caseId": "T3-A",
+  "tripletId": "T3",
+  "variant": "A",
+  "semanticClass": "emotional_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "original": "Tomás stood in the garden, his hands shaking.",
+  "revised": "Tomás stood in the garden, his hands shaking. Maya noticed he seemed uneasy.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Observable (shaking hands) + reasonable inference (\"seemed uneasy\") under LIMITED_INFERENCE. No certainty claimed.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revision adds a plausible observation that Maya notices Tomás seems uneasy, which aligns with her perceptual habits and current situation.",
+      "character: The addition is consistent with Maya's character as a nurse who observes details, and her emotional state of controlled exhaustion.",
+      "infoOwnership: Maya only notices that Tomás 'seemed uneasy' which is an observation, not knowledge of an unknown fact. She doesn't claim to know why he's uneasy.",
+      "canon: The addition doesn't contradict any canon facts.",
+      "voice: The addition maintains Maya's sparse, observational style.",
+      "register: The register remains appropriate for the narrative.",
+      "intelligibility: The addition is clear and doesn't confuse the narrative.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The addition is a licensed inference under LIMITED_INFERENCE, using 'seemed' to indicate uncertainty rather than claiming certainty."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

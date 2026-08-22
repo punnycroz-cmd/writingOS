@@ -1,0 +1,32 @@
+{
+  "caseId": "T12-NONE-C",
+  "tripletId": "T12-NONE",
+  "variant": "C",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "NONE",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The kitchen was there.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Policy=NONE: tautological, no invention.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - The statement 'The kitchen was there' is presented as a known fact, but this information is not in Maya's currentKnowledge, which is empty.",
+      "faithfulness: FAIL - Under INVENTION POLICY: NONE, no invention is allowed. The addition 'The kitchen was there' is not supported by the source passage and constitutes invention."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - The statement 'The kitchen was there' is presented as a known fact, but this information is not in Maya's currentKnowledge, which is empty.; faithfulness: FAIL - Under INVENTION POLICY: NONE, no invention is allowed. The addition 'The kitchen was there' is not supported by the source passage and constitutes invention.",
+  "correct": false,
+  "uncertainRecognized": false
+}

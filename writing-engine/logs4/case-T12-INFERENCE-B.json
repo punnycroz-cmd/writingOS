@@ -1,0 +1,31 @@
+{
+  "caseId": "T12-INFERENCE-B",
+  "tripletId": "T12-INFERENCE",
+  "variant": "B",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled of rain — a storm must be coming.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Policy=LIMITED_INFERENCE: \"a storm must be coming\" is a plausible inference from the smell of rain. Licensed.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya cannot know with certainty that a storm is coming based on the smell of rain in the corridor. This is presented as factual knowledge ('must be coming') rather than inference or observation, which violates the policy against unjustified certainty under LIMITED_INFERENCE."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya cannot know with certainty that a storm is coming based on the smell of rain in the corridor. This is presented as factual knowledge ('must be coming') rather than inference or observation, which violates the policy against unjustified certainty under LIMITED_INFERENCE.",
+  "correct": false,
+  "uncertainRecognized": false
+}

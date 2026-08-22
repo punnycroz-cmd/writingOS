@@ -1,0 +1,38 @@
+{
+  "caseId": "T13-A",
+  "tripletId": "T13",
+  "variant": "A",
+  "semanticClass": "canon_contradiction",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Arlo entered the studio.",
+  "revised": "Arlo entered the studio. The floor hummed under his feet — a low, resonant vibration he had learned to read like a map.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Tactile/auditory observation. Consistent with blind canon. Licensed.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revision maintains the original meaning of Arlo entering the studio while adding sensory detail.",
+      "character: The sensory detail aligns with Arlo being a blind sound engineer who maps spaces by echo. His perception of the floor's vibration as a 'map' is consistent with his perceptual habits.",
+      "infoOwnership: There are no information ownership leaks. The detail about the floor humming is sensory observation, not knowledge of unknown facts.",
+      "canon: The revision doesn't contradict any canon facts. It aligns with Arlo being totally blind.",
+      "voice: The description is precise about sound, matching Arlo's established voice.",
+      "register: The register is appropriate for the narrative.",
+      "intelligibility: The text is clear and understandable.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The sensory detail is licensed under LICENSED_FICTION and respects the character's perceptual habits and blindness."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

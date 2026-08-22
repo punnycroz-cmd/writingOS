@@ -1,0 +1,50 @@
+{
+  "caseId": "T9-B",
+  "tripletId": "T9",
+  "variant": "B",
+  "semanticClass": "identity",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "A man Maya had never seen walked into the clinic.",
+  "revised": "A man Maya had never seen walked into the clinic — it was David Chen, Marcus's accomplice, the one who had helped launder the embezzled funds.",
+  "expected": "REJECT",
+  "expectedReasoning": "IO leak (Maya cannot know the identity, the accomplice role, or the laundering). Identity stated as fact.",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "embezzled funds",
+        "type": "explicit_claim",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "David",
+        "type": "proper_noun",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "Chen",
+        "type": "proper_noun",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "embezzled funds"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: Maya does not know that the man is David Chen or that he was Marcus's accomplice in embezzlement. These facts are marked as UNKNOWN for Maya.",
+      "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the revision adds complex backstory information that doesn't match her observational style.",
+      "faithfulness: The revision introduces specific names ('David Chen') and facts ('Marcus's accomplice', 'helped launder the embezzled funds') that are not supported by the source material or character state."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: embezzled funds — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

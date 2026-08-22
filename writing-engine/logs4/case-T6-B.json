@@ -1,0 +1,40 @@
+{
+  "caseId": "T6-B",
+  "tripletId": "T6",
+  "variant": "B",
+  "semanticClass": "knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "isStateControlled": true,
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk. Maya watched him a moment, knowing he had embezzled forty thousand dollars from the clinic. She went to check on her patient.",
+  "expected": "REJECT",
+  "expectedReasoning": "State=UNKNOWN. Certainty about the embezzlement is a leak.",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "had embezzled forty thousand dollars from the clinic",
+        "type": "explicit_claim",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "had embezzled forty thousand dollars from the clinic"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya does not know that Marcus embezzled $40,000 from the clinic (marked as UNKNOWN in information ownership). The revision asserts this as knowledge with 'knowing he had embezzled...', which is an information ownership leak.",
+      "faithfulness: FAIL - The specific amount '$40,000' is not supported by character state or canon. Under LICENSED_FICTION, specific numbers/dates/names not in state are rejected as unsupported factual assertions."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: had embezzled forty thousand dollars from the clinic — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

@@ -1,0 +1,50 @@
+{
+  "caseId": "T3-B",
+  "tripletId": "T3",
+  "variant": "B",
+  "semanticClass": "emotional_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "original": "Tomás stood in the garden, his hands shaking.",
+  "revised": "Tomás stood in the garden, his hands shaking. Maya knew he was terrified because he had helped Marcus hide the embezzled funds.",
+  "expected": "REJECT",
+  "expectedReasoning": "IO leak (Maya cannot know Tomás helped Marcus) + certainty (\"knew\") about an unobservable emotional cause.",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "knew he was terrified because he had helped Marcus hide the embezzled funds",
+        "type": "explicit_claim",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "embezzled funds",
+        "type": "explicit_claim",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "knew he was terrified because he had helped Marcus hide the embezzled funds",
+      "embezzled funds"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: Maya cannot know about the embezzlement or Tomás's involvement as it's marked as UNKNOWN for her",
+      "character: Maya's current knowledge doesn't include information about embezzlement or Tomás's actions",
+      "infoOwnership: Maya asserts KNOWS-level certainty about facts she cannot know (embezzlement and Tomás's involvement)",
+      "canon: The embezzlement fact isn't established in canon",
+      "voice: Maya's voice is described as sparse and observational, but the revision adds complex psychological reasoning",
+      "intelligibility: The connection between Tomás's shaking hands and the embezzlement isn't established in the source",
+      "faithfulness: Adds unsupported specific claim about embezzled funds not present in source"
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: knew he was terrified because he had helped Marcus hide the embezzled funds, embezzled funds — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

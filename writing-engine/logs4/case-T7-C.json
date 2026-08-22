@@ -1,0 +1,30 @@
+{
+  "caseId": "T7-C",
+  "tripletId": "T7",
+  "variant": "C",
+  "semanticClass": "causal_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "original": "The clinic's bank statement showed a lower balance than expected.",
+  "revised": "The clinic's bank statement showed a lower balance than expected. Maya wondered if someone had made an error — or something worse.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Wondering is explicitly uncertain. Licensed inference under LIMITED_INFERENCE. (Adjusted to ACCEPT — wondering is safe.)",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya is wondering about embezzlement ('something worse') but the INFORMATION OWNERSHIP shows this is UNKNOWN to her. She cannot suspect this without evidence in her current knowledge."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya is wondering about embezzlement ('something worse') but the INFORMATION OWNERSHIP shows this is UNKNOWN to her. She cannot suspect this without evidence in her current knowledge.",
+  "correct": false,
+  "uncertainRecognized": false
+}

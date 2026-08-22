@@ -1,0 +1,38 @@
+{
+  "caseId": "T4-A",
+  "tripletId": "T4",
+  "variant": "A",
+  "semanticClass": "motive_inference",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk. He seemed distracted, glancing at the door as if expecting someone. Maya watched him a moment, then went to check on her patient.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Observable behavior (glancing at door) + hedged inference (\"as if expecting someone\"). Licensed.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition of 'He seemed distracted, glancing at the door as if expecting someone' adds interpretive detail that maintains the scene's meaning and purpose.",
+      "character: This addition is consistent with Maya's observational nature as indicated by her perceptual habits and voice style.",
+      "infoOwnership: Maya is observing Marcus's behavior, not asserting knowledge of his internal state or motivations. The description is limited to observable actions that Maya could reasonably notice.",
+      "canon: The addition doesn't contradict any established canon facts.",
+      "voice: The addition maintains Maya's sparse, observational style without introducing inappropriate emotional or speculative language.",
+      "register: The language matches the professional medical setting without being overly technical or inappropriate.",
+      "intelligibility: The addition provides clear context about Marcus's behavior without confusing the narrative.",
+      "deferred: No deferred checks are present or affected by this addition.",
+      "faithfulness: The addition is sensory observation of Marcus's behavior (glancing at the door) and an interpretation of his state (seemed distracted) which is licensed under LICENSED_FICTION as ordinary narrative invention."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

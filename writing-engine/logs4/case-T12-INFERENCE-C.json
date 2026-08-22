@@ -1,0 +1,44 @@
+{
+  "caseId": "T12-INFERENCE-C",
+  "tripletId": "T12-INFERENCE",
+  "variant": "C",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled of rain, which meant Marcus would be in a bad mood and likely to confess.",
+  "expected": "REJECT",
+  "expectedReasoning": "Policy=LIMITED_INFERENCE does not authorize unsupported causal chains or future-event leaks.",
+  "ccResult": {
+    "severity": "SOFT_SIGNAL",
+    "unsupported": [
+      {
+        "detail": "Marcus",
+        "type": "proper_noun",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: Maya's thoughts about Marcus's mood and confession are not reasonably inferable from entering the kitchen",
+      "character: Maya's currentKnowledge is empty, yet she's making complex inferences about Marcus",
+      "infoOwnership: Maya cannot know about Marcus's mood or confession tendency as it's not in her knowledge",
+      "canon: The corridor smelling of rain contradicts the established SOFT_CANON that Papa's house smells of cardamom and iron",
+      "voice: Maya's voice is described as sparse and observational, but the revision adds complex psychological inferences",
+      "intelligibility: The connection between rain smell, Marcus's mood, and confession is not explained or supported",
+      "faithfulness: Marcus is a new character not found in source or state",
+      "deferred: No deferred checks to resolve"
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — ",
+  "correct": true,
+  "uncertainRecognized": false
+}

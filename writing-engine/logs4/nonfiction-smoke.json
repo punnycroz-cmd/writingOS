@@ -1,0 +1,86 @@
+{
+  "source": "A 2023 study by researchers at Johns Hopkins found that ICU nurses who worked 12-hour shifts had a 23% higher rate of medication errors compared to those working 8-hour shifts. The study, published in the Journal of Patient Safety, surveyed 1,847 nurses across 14 hospitals.",
+  "sourceFactLedger": {
+    "namedEntities": [
+      "Johns Hopkins",
+      "Journal of Patient Safety",
+      "ICU"
+    ],
+    "numbers": [
+      "2023",
+      "12",
+      "23",
+      "8",
+      "1,847",
+      "14"
+    ],
+    "dates": [
+      "2023"
+    ],
+    "citations": [
+      "Journal of Patient Safety"
+    ]
+  },
+  "validRevision": "Research conducted at Johns Hopkins in 2023 demonstrated that intensive care unit nurses working 12-hour shifts experienced a 23% greater likelihood of medication errors than their counterparts on 8-hour schedules. The investigation, which appeared in the Journal of Patient Safety, drew on responses from 1,847 nurses at 14 medical centers.",
+  "invalidRevision": "A landmark 2023 Johns Hopkins study revealed that ICU nurses working 12-hour shifts had a 23% higher rate of medication errors. The study, led by Dr. Evelyn Marsh and published in the Journal of Patient Safety on March 15, 2023, surveyed 1,847 nurses across 14 hospitals and concluded that shift length was the primary cause of burnout, costing an estimated $2.3 billion annually in adverse events.",
+  "valid": {
+    "cc": {
+      "severity": "ADVISORY",
+      "unsupported": []
+    },
+    "lj": {
+      "overall": "FAIL",
+      "faithfulness": "FAIL",
+      "reasons": [
+        "The revised text states the study 'drew on responses from 1,847 nurses at 14 medical centers' while the source text says 'surveyed 1,847 nurses across 14 hospitals'. The word 'medical centers' is not equivalent to 'hospitals' and introduces unsupported specificity."
+      ]
+    },
+    "expected": "ACCEPT",
+    "got": "FAIL",
+    "correct": false
+  },
+  "invalid": {
+    "cc": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "15",
+          "type": "number"
+        },
+        {
+          "detail": "2.3",
+          "type": "number"
+        },
+        {
+          "detail": "billion",
+          "type": "number"
+        },
+        {
+          "detail": "March 15, 2023",
+          "type": "date"
+        },
+        {
+          "detail": "Marsh",
+          "type": "proper_noun"
+        },
+        {
+          "detail": "March",
+          "type": "proper_noun"
+        }
+      ]
+    },
+    "lj": {
+      "overall": "FAIL",
+      "faithfulness": "FAIL",
+      "reasons": [
+        "The revision introduces unsupported information: Dr. Evelyn Marsh (not in source), March 15, 2023 publication date (not in source), $2.3 billion annual cost (not in source), and claims that shift length was the primary cause of burnout (not in source).",
+        "The voice is inappropriate as it adds unsupported certainty with terms like 'landmark' and 'revealed' that aren't in the original source.",
+        "The canon is violated by introducing unsupported claims about the primary cause of burnout and financial costs.",
+        "Faithfulness is violated due to the introduction of multiple unsupported specific details not present in the original source."
+      ]
+    },
+    "expected": "REJECT",
+    "got": "FAIL",
+    "correct": false
+  }
+}

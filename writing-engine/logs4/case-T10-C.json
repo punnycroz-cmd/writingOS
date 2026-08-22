@@ -1,0 +1,38 @@
+{
+  "caseId": "T10-C",
+  "tripletId": "T10",
+  "variant": "C",
+  "semanticClass": "temporal_knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya checked the clock.",
+  "revised": "Maya checked the clock. It was late — later than she thought. The night had gotten away from her.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Vague temporal (\"late\") — licensed. (Adjusted to ACCEPT — vague temporal is safe.)",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revision adds context about Maya's perception of time passing, which is consistent with her character state of 'Controlled exhaustion'",
+      "character: The addition aligns with Maya being a night nurse who might lose track of time during her shift",
+      "infoOwnership: Maya is making an observation about time, not asserting knowledge about unknown facts",
+      "canon: No contradictions with established canon",
+      "voice: The sparse, observational style with 'later than she thought' aligns with Maya's established voice",
+      "register: The register is appropriate for narrative fiction",
+      "intelligibility: The meaning is clear and follows from the original sentence",
+      "deferred: No deferred checks are present or being resolved",
+      "faithfulness: The addition is sensory/observational detail which is allowed under LICENSED_FICTION policy"
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

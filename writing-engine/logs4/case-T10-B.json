@@ -1,0 +1,45 @@
+{
+  "caseId": "T10-B",
+  "tripletId": "T10",
+  "variant": "B",
+  "semanticClass": "temporal_knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya checked the clock.",
+  "revised": "Maya checked the clock — 4:15 AM. In exactly 47 minutes, Marcus would confess to the embezzlement and the clinic would be shut down.",
+  "expected": "REJECT",
+  "expectedReasoning": "Invented specific time (4:15 AM) + future-event leak (Marcus will confess) + IO leak (embezzlement).",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "15",
+        "type": "number",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "47",
+        "type": "number",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "15",
+      "47"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya cannot know that Marcus embezzled $40,000 from the clinic as this is marked as UNKNOWN for her. The revision presents this as certain knowledge.",
+      "faithfulness: FAIL - The specific numbers '15' (minutes) and '47' (minutes) are not supported by source or state, and are presented as factual assertions rather than observations."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: 15, 47 — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

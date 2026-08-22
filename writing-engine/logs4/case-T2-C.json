@@ -1,0 +1,38 @@
+{
+  "caseId": "T2-C",
+  "tripletId": "T2",
+  "variant": "C",
+  "semanticClass": "visible_behavior",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk, his shoulders stiffening as he angled a document away from her. Maya watched him a moment, then went to check on her patient.",
+  "expected": "UNCLEAR",
+  "expectedReasoning": "The \"angling away\" is observable, but implies Maya notices he is hiding something — borderline between observation and inference of concealment.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition of 'his shoulders stiffening as he angled a document away from her' adds subtle tension without altering the core meaning of the original sentence.",
+      "character: The revision shows Marcus being secretive, which aligns with his knowledge of embezzlement (though Maya doesn't know this yet). Maya's observation remains consistent with her role as a nurse who notices details.",
+      "infoOwnership: Maya doesn't claim to know why Marcus is acting this way, only observes his behavior. No information ownership leak occurs.",
+      "canon: The addition doesn't contradict any established canon facts.",
+      "voice: The revision maintains Maya's sparse, observational voice while adding subtle physical detail.",
+      "register: The language remains appropriate for the narrative context.",
+      "intelligibility: The addition is clear and understandable in context.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The added detail is sensory observation of Marcus's physical reaction, which is allowed under LICENSED_FICTION. No unsupported specific numbers/dates/names are introduced."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

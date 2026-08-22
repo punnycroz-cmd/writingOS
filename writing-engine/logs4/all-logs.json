@@ -1,0 +1,2248 @@
+[
+  {
+    "caseId": "T1-A",
+    "tripletId": "T1",
+    "variant": "A",
+    "semanticClass": "sensory_observation",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The scent of cardamom and iron hit her \u2014 Papa's pharmacy, distilled into the walls.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "State-supported (SOFT_CANON: cardamom and iron smell). Licensed sensory observation.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition enhances the sensory experience and connects to Maya's memories, which is consistent with the scene.",
+        "character: The addition aligns with Maya's perceptual habits (smells rooms first) and her memories of Papa's pharmacy.",
+        "infoOwnership: Maya knows about the cardamom-and-iron smell from her memories, so there's no information ownership violation.",
+        "canon: The scent of cardamom and iron is established as SOFT_CANON for Papa's house, which is consistent with the addition.",
+        "voice: The addition maintains Maya's sparse, observational style while adding a brief sensory detail.",
+        "register: The language is appropriate for the narrative context.",
+        "intelligibility: The addition is clear and enhances understanding of Maya's experience.",
+        "deferred: No deferred checks are present or violated.",
+        "faithfulness: The sensory detail is licensed invention under LICENSED_FICTION policy and doesn't contain unsupported specific numbers/dates/names."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T1-B",
+    "tripletId": "T1",
+    "variant": "B",
+    "semanticClass": "sensory_observation",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The scent of burnt coffee and bleach filled the room \u2014 she could smell the embezzlement on him.",
+    "expected": "REJECT",
+    "expectedReasoning": "Invented smell (\"burnt coffee\") + IO leak (\"smell the embezzlement\" \u2014 cannot perceive embezzlement as a scent).",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya cannot know about Marcus embezzling as it's marked UNKNOWN for her. The revision asserts she can 'smell the embezzlement on him' which is a KNOWS-level assertion about an unknown fact.",
+        "canon: FAIL - There's no canon support for Marcus embezzling from the clinic, which contradicts the established state where this is an unknown fact.",
+        "faithfulness: FAIL - The specific assertion about embezzlement ($40,000 over 18 months) is not supported by state and is presented as fact, which violates the policy against unsupported factual assertions."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya cannot know about Marcus embezzling as it's marked UNKNOWN for her. The revision asserts she can 'smell the embezzlement on him' which is a KNOWS-level assertion about an unknown fact.; canon: FAIL - There's no canon support for Marcus embezzling from the clinic, which contradicts the established state where this is an unknown fact.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T1-C",
+    "tripletId": "T1",
+    "variant": "C",
+    "semanticClass": "sensory_observation",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The room smelled faintly of something she could not place \u2014 old, familiar, almost medicinal.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "Vague sensory detail that could be state-supported (cardamom/iron) or invented. Genuinely ambiguous.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition maintains the simple narrative action while adding sensory detail that fits the scene.",
+        "character: The sensory observation aligns with Maya's perceptual habits of 'smells rooms first' and her background as a nurse noticing subtle details.",
+        "infoOwnership: Maya is not claiming knowledge of specific facts, only describing a sensory experience which is within her capabilities.",
+        "canon: The description doesn't contradict any canon facts. In fact, it references a 'medicinal' smell which is consistent with her father being a pharmacist.",
+        "voice: The sparse, observational style is maintained with the addition of a sensory detail that fits her character.",
+        "register: The language is appropriate for the narrative context.",
+        "intelligibility: The addition is clear and doesn't create confusion.",
+        "deferred: No deferred checks are present or resolved.",
+        "faithfulness: The sensory detail is licensed invention under LICENSED_FICTION policy, respecting POV and character knowledge."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T10-A",
+    "tripletId": "T10",
+    "variant": "A",
+    "semanticClass": "temporal_knowledge",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya checked the clock.",
+    "revised": "Maya checked the clock. Her shift was almost over.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Vague temporal reference (no specific time). Licensed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition 'Her shift was almost over' is a reasonable inference from checking the clock and fits with Maya's goal of getting through her shift.",
+        "character: This addition aligns with Maya being a nurse and her goal of getting through her shift.",
+        "infoOwnership: Maya would reasonably know the time and status of her own shift.",
+        "canon: No canon violations are introduced.",
+        "voice: The addition fits with Maya's sparse, observational style.",
+        "register: The language is appropriate for the narrative context.",
+        "intelligibility: The sentence is clear and understandable.",
+        "deferred: No deferred checks are present or resolved.",
+        "faithfulness: The addition is a licensed narrative invention (sensory observation/ordinary detail) that respects POV and character knowledge."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T10-B",
+    "tripletId": "T10",
+    "variant": "B",
+    "semanticClass": "temporal_knowledge",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya checked the clock.",
+    "revised": "Maya checked the clock \u2014 4:15 AM. In exactly 47 minutes, Marcus would confess to the embezzlement and the clinic would be shut down.",
+    "expected": "REJECT",
+    "expectedReasoning": "Invented specific time (4:15 AM) + future-event leak (Marcus will confess) + IO leak (embezzlement).",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "15",
+          "type": "number",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "47",
+          "type": "number",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "15",
+        "47"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya cannot know that Marcus embezzled $40,000 from the clinic as this is marked as UNKNOWN for her. The revision presents this as certain knowledge.",
+        "faithfulness: FAIL - The specific numbers '15' (minutes) and '47' (minutes) are not supported by source or state, and are presented as factual assertions rather than observations."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: 15, 47 \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T10-C",
+    "tripletId": "T10",
+    "variant": "C",
+    "semanticClass": "temporal_knowledge",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya checked the clock.",
+    "revised": "Maya checked the clock. It was late \u2014 later than she thought. The night had gotten away from her.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Vague temporal (\"late\") \u2014 licensed. (Adjusted to ACCEPT \u2014 vague temporal is safe.)",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision adds context about Maya's perception of time passing, which is consistent with her character state of 'Controlled exhaustion'",
+        "character: The addition aligns with Maya being a night nurse who might lose track of time during her shift",
+        "infoOwnership: Maya is making an observation about time, not asserting knowledge about unknown facts",
+        "canon: No contradictions with established canon",
+        "voice: The sparse, observational style with 'later than she thought' aligns with Maya's established voice",
+        "register: The register is appropriate for narrative fiction",
+        "intelligibility: The meaning is clear and follows from the original sentence",
+        "deferred: No deferred checks are present or being resolved",
+        "faithfulness: The addition is sensory/observational detail which is allowed under LICENSED_FICTION policy"
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-KNOWS-A",
+    "tripletId": "T11-KNOWS",
+    "variant": "A",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya knew Marcus had embezzled forty thousand dollars from the clinic.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "State=KNOWS. Certainty is now supported. (The SC-3A case from Iteration 3.)",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - The revision presents Maya as having certain knowledge of the embezzlement fact, which is marked as known by both Maya and Marcus in the information ownership. However, the original text only shows Maya observing Marcus, not stating her knowledge of the embezzlement.",
+        "faithfulness: FAIL - The revision introduces a specific number ($40,000) that wasn't present in the original text. While the character state shows this as current knowledge, the original scene doesn't support this level of certainty being revealed in this moment."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - The revision presents Maya as having certain knowledge of the embezzlement fact, which is marked as known by both Maya and Marcus in the information ownership. However, the original text only shows Maya observing Marcus, not stating her knowledge of the embezzlement.; faithfulness: FAIL - The revision introduces a specific number ($40,000) that wasn't present in the original text. While the character state shows this as current knowledge, the original scene doesn't support this level of certainty being revealed in this moment.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-KNOWS-B",
+    "tripletId": "T11-KNOWS",
+    "variant": "B",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya suspected Marcus might have taken some money.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "State=KNOWS. Downgrading to suspicion is still safe (though odd).",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "taken some money",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "taken some money"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya's suspicion about Marcus taking money is presented as certainty, but the INFORMATION OWNERSHIP shows this is not marked as something Maya suspects. She knows the fact that Marcus embezzled $40,000, but the revision presents her as merely suspecting he might have taken money, which contradicts her knowledge state.",
+        "faithfulness: FAIL - The claim 'Marcus might have taken some money' is not supported by the character state or information ownership. While Marcus did embezzle money, the revision presents it as a suspicion rather than established fact, which contradicts Maya's current knowledge."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: taken some money \u2014 non-overridable.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-KNOWS-C",
+    "tripletId": "T11-KNOWS",
+    "variant": "C",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya watched him, the forty thousand dollars a weight between them now.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "State=KNOWS. Reference to the known fact is supported.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision successfully conveys the tension between Maya and Marcus regarding the embezzlement, maintaining the core meaning of the original scene while adding emotional depth.",
+        "character: Maya's emotional state is consistent with her character profile - she's experiencing controlled exhaustion with the added weight of knowing about the embezzlement.",
+        "infoOwnership: Maya knows about the $40,000 embezzlement according to the character state and information ownership, so this is a state-supported fact.",
+        "canon: The revision doesn't contradict any hard or soft canon facts.",
+        "voice: The revision maintains Maya's sparse, observational style using numbers as anchors ('forty thousand dollars').",
+        "register: The language is appropriate for the narrative context.",
+        "intelligibility: The meaning is clear - there's tension between Maya and Marcus regarding the embezzled money.",
+        "deferred: No deferred checks are present or violated.",
+        "faithfulness: The specific number '$40,000' is supported in the character state and information ownership, so it's not an unsupported assertion."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-SUSPECTS-A",
+    "tripletId": "T11-SUSPECTS",
+    "variant": "A",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya knew Marcus had embezzled forty thousand dollars from the clinic.",
+    "expected": "REJECT",
+    "expectedReasoning": "State=SUSPECTS. Certainty is still a leak \u2014 suspicion cannot be upgraded to knowledge.",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "knew Marcus had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "knew Marcus had embezzled forty thousand dollars from the clinic",
+        "had embezzled forty thousand dollars from the clinic"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya only SUSPECTS the embezzlement, but the revision states she KNEW it with certainty, which is an information ownership leak",
+        "faithfulness: FAIL - The revision presents specific information ($40,000 embezzlement) as certain knowledge when the character state only shows suspicion"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: knew Marcus had embezzled forty thousand dollars from the clinic, had embezzled forty thousand dollars from the clinic \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-SUSPECTS-B",
+    "tripletId": "T11-SUSPECTS",
+    "variant": "B",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya suspected something was wrong with the clinic's finances \u2014 the discrepancy she had found still nagged at her.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "State=SUSPECTS. Suspicion matches state.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "character: Maya's goals in character state are 'Get through the shift', but the revision shows her focusing on clinic finances instead of patient care.",
+        "infoOwnership: The revision states Maya 'suspected something was wrong with the clinic's finances' and mentions 'the discrepancy she had found', but information ownership shows Maya only suspects Marcus embezzlement, not the general finances. Also, the specific $40,000 discrepancy is marked as 'knows' only by Marcus, not 'suspects' by Maya."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 ",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-SUSPECTS-C",
+    "tripletId": "T11-SUSPECTS",
+    "variant": "C",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya watched him, wondering if the discrepancy she had seen meant something worse.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Wondering \u2014 explicitly uncertain. Matches SUSPECTS state.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision maintains the core action of Maya watching Marcus, adding internal thought that's consistent with her character state.",
+        "character: Maya's internal thought about the discrepancy aligns with her current knowledge and perceptual habits.",
+        "infoOwnership: Maya suspects the discrepancy (matches her suspect status), and the revision doesn't assert certainty about the embezzlement.",
+        "canon: No canon violations present.",
+        "voice: The revision maintains Maya's sparse, observational style with internal questioning.",
+        "register: Appropriate for medical drama narrative.",
+        "intelligibility: Clear and coherent in context.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The internal thought is licensed invention under LICENSED_FICTION, respecting Maya's knowledge state."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-UNKNOWN-A",
+    "tripletId": "T11-UNKNOWN",
+    "variant": "A",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya knew Marcus had embezzled forty thousand dollars from the clinic.",
+    "expected": "REJECT",
+    "expectedReasoning": "State=UNKNOWN. Certainty is a leak. (This is the \"B\" variant \u2014 testing that the validator rejects.)",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "knew Marcus had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "knew Marcus had embezzled forty thousand dollars from the clinic",
+        "had embezzled forty thousand dollars from the clinic"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya cannot know that Marcus embezzled $40,000 from the clinic as this fact is marked as UNKNOWN to her in the INFORMATION OWNERSHIP section.",
+        "faithfulness: FAIL - The specific amount '$40,000' is an unsupported factual assertion not present in the character state or canon.",
+        "voice: FAIL - Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the revision presents an unsubstantiated accusation in a direct knowledge claim that doesn't align with her observational style."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: knew Marcus had embezzled forty thousand dollars from the clinic, had embezzled forty thousand dollars from the clinic \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-UNKNOWN-B",
+    "tripletId": "T11-UNKNOWN",
+    "variant": "B",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya watched him, then went to check on her patient. Something about him bothered her.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Vague unease \u2014 no knowledge claimed. Licensed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya is stated to have a feeling about Marcus that bothers her, but the information ownership explicitly states that the fact about Marcus embezzling money is UNKNOWN to Maya. This represents an information ownership leak as Maya cannot know this fact yet."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya is stated to have a feeling about Marcus that bothers her, but the information ownership explicitly states that the fact about Marcus embezzling money is UNKNOWN to Maya. This represents an information ownership leak as Maya cannot know this fact yet.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T11-UNKNOWN-C",
+    "tripletId": "T11-UNKNOWN",
+    "variant": "C",
+    "semanticClass": "knowledge_state_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Maya suspected something was wrong with the clinic's finances.",
+    "expected": "REJECT",
+    "expectedReasoning": "State=UNKNOWN. Suspicion about finances is unsupported (no discrepancy seen).",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision introduces a new thought/feeling (suspecting financial problems) that wasn't in the original text.",
+        "character: Maya's character state shows she knows 'The clinic is struggling' but doesn't indicate she suspects anything specific about finances being wrong.",
+        "infoOwnership: Marcus's embezzlement is marked as UNKNOWN to Maya. The revision has her suspecting something is wrong with finances, which is too specific and close to the truth of the embezzlement.",
+        "canon: The revision adds information about clinic finances that isn't supported by canon.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors' but the revision doesn't reflect this style.",
+        "register: The revision uses a more formal tone than the original's simple narrative.",
+        "intelligibility: The connection between the original scene (watching Marcus at the desk) and the new thought about finances isn't established.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The revision invents specific financial concerns that aren't supported by the original text or character state."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 ",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-INFERENCE-A",
+    "tripletId": "T12-INFERENCE",
+    "variant": "A",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Policy=LIMITED_INFERENCE: sensory invention + plausible inference allowed. \"Smelled of rain\" is licensed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the original meaning while adding sensory detail.",
+        "character: The addition aligns with Maya's perceptual habits ('Smells rooms first').",
+        "infoOwnership: Maya can reasonably smell the corridor; no information ownership violation.",
+        "canon: No canon violation; the rain smell doesn't contradict established facts.",
+        "voice: The sparse observational style is maintained.",
+        "register: Appropriate narrative register continues.",
+        "intelligibility: Clear and comprehensible.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The rain smell is plausible sensory observation allowed under LIMITED_INFERENCE."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-INFERENCE-B",
+    "tripletId": "T12-INFERENCE",
+    "variant": "B",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The corridor smelled of rain \u2014 a storm must be coming.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Policy=LIMITED_INFERENCE: \"a storm must be coming\" is a plausible inference from the smell of rain. Licensed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya cannot know with certainty that a storm is coming based on the smell of rain in the corridor. This is presented as factual knowledge ('must be coming') rather than inference or observation, which violates the policy against unjustified certainty under LIMITED_INFERENCE."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya cannot know with certainty that a storm is coming based on the smell of rain in the corridor. This is presented as factual knowledge ('must be coming') rather than inference or observation, which violates the policy against unjustified certainty under LIMITED_INFERENCE.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-INFERENCE-C",
+    "tripletId": "T12-INFERENCE",
+    "variant": "C",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The corridor smelled of rain, which meant Marcus would be in a bad mood and likely to confess.",
+    "expected": "REJECT",
+    "expectedReasoning": "Policy=LIMITED_INFERENCE does not authorize unsupported causal chains or future-event leaks.",
+    "ccResult": {
+      "severity": "SOFT_SIGNAL",
+      "unsupported": [
+        {
+          "detail": "Marcus",
+          "type": "proper_noun",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: Maya's thoughts about Marcus's mood and confession are not reasonably inferable from entering the kitchen",
+        "character: Maya's currentKnowledge is empty, yet she's making complex inferences about Marcus",
+        "infoOwnership: Maya cannot know about Marcus's mood or confession tendency as it's not in her knowledge",
+        "canon: The corridor smelling of rain contradicts the established SOFT_CANON that Papa's house smells of cardamom and iron",
+        "voice: Maya's voice is described as sparse and observational, but the revision adds complex psychological inferences",
+        "intelligibility: The connection between rain smell, Marcus's mood, and confession is not explained or supported",
+        "faithfulness: Marcus is a new character not found in source or state",
+        "deferred: No deferred checks to resolve"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 ",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-LICENSED-A",
+    "tripletId": "T12-LICENSED",
+    "variant": "A",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Policy=LICENSED_FICTION: sensory invention is licensed. \"Smelled of rain\" is ordinary fictional observation. ACCEPT (does not violate POV/canon/state).",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition of sensory detail about the corridor smelling faintly of rain is ordinary narrative invention that fits the scene.",
+        "character: The addition aligns with Maya's perceptual habits of 'smells rooms first', showing her characteristic attention to sensory details.",
+        "infoOwnership: No information ownership leak - the rain smell is an observation Maya could make.",
+        "canon: No canon violation - the rain smell doesn't contradict any established facts.",
+        "voice: The sparse, observational tone is maintained with the simple addition of sensory detail.",
+        "register: The register remains consistent with the original.",
+        "intelligibility: The addition is clear and doesn't confuse the narrative.",
+        "deferred: No deferred checks are present or resolved.",
+        "faithfulness: The sensory detail is licensed invention under LICENSED_FICTION policy and doesn't include unsupported specific numbers/dates/names/measurements."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-LICENSED-B",
+    "tripletId": "T12-LICENSED",
+    "variant": "B",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The kitchen smelled of cardamom and iron.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Policy=LICENSED_FICTION: state-supported sensory. ACCEPT.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition of sensory detail about the kitchen's smell is consistent with Maya entering the kitchen.",
+        "character: The sensory detail aligns with Maya's perceptual habits of 'Smells rooms first' and her memory of 'The cardamom-and-iron smell of Papa's pharmacy'.",
+        "infoOwnership: Maya can reasonably perceive the smell of the kitchen, and this information is not marked as unknown.",
+        "canon: The smell of 'cardamom and iron' is consistent with the soft canon fact that 'Papa's house smells of cardamom and iron'.",
+        "voice: The sparse addition of sensory detail aligns with Maya's 'sparse, observational' voice.",
+        "register: The addition maintains a neutral narrative register.",
+        "intelligibility: The added detail is clear and contributes to the atmosphere without confusing the narrative.",
+        "deferred: No deferred checks are present or violated.",
+        "faithfulness: The sensory detail is licensed invention under LICENSED_FICTION and respects POV, character knowledge, and canon."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-LICENSED-C",
+    "tripletId": "T12-LICENSED",
+    "variant": "C",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The room smelled of the forty thousand dollars Marcus had stolen.",
+    "expected": "REJECT",
+    "expectedReasoning": "Policy=LICENSED_FICTION does NOT authorize IO leaks. \"Smell of $40k stolen\" is an IO violation regardless of policy.",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "forty thousand",
+          "type": "number",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "Marcus",
+          "type": "proper_noun",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "forty thousand"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya has no knowledge of 'forty thousand dollars' or 'Marcus' in her currentKnowledge state, making this an IO leak.",
+        "canon: FAIL - The kitchen smelling of stolen money contradicts the established SOFT_CANON that Papa's house smells of 'cardamom and iron'.",
+        "voice: FAIL - Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the specific number 'forty thousand' appears without Maya's characteristic observational context.",
+        "faithfulness: FAIL - The specific number 'forty thousand' is not supported in source or state, and the proper noun 'Marcus' is not found in source or state."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: forty thousand \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-NONE-A",
+    "tripletId": "T12-NONE",
+    "variant": "A",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "NONE",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+    "expected": "REJECT",
+    "expectedReasoning": "Policy=NONE: no invention allowed. \"Smelled of rain\" is invented sensory detail. Must be rejected.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - The character has no knowledge about the corridor smell in currentKnowledge",
+        "faithfulness: FAIL - The smell of rain in the corridor is not in the source passage or explicit state, violating SOURCE_CONSTRAINED policy"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - The character has no knowledge about the corridor smell in currentKnowledge; faithfulness: FAIL - The smell of rain in the corridor is not in the source passage or explicit state, violating SOURCE_CONSTRAINED policy",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-NONE-B",
+    "tripletId": "T12-NONE",
+    "variant": "B",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "NONE",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Policy=NONE: no invention \u2014 only the original.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The statement 'Maya entered the kitchen' is present in both the original and revised text.",
+        "character: No character-specific details are added or altered.",
+        "infoOwnership: No information ownership issues as no new information is introduced.",
+        "canon: No canon violations as no new information contradicts established canon.",
+        "voice: No voice changes as the statement remains neutral and observational.",
+        "register: No register issues as the language remains consistent.",
+        "intelligibility: The statement is clear and understandable.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The revised text is identical to the source, with no invented details."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-NONE-C",
+    "tripletId": "T12-NONE",
+    "variant": "C",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "NONE",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The kitchen was there.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Policy=NONE: tautological, no invention.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - The statement 'The kitchen was there' is presented as a known fact, but this information is not in Maya's currentKnowledge, which is empty.",
+        "faithfulness: FAIL - Under INVENTION POLICY: NONE, no invention is allowed. The addition 'The kitchen was there' is not supported by the source passage and constitutes invention."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - The statement 'The kitchen was there' is presented as a known fact, but this information is not in Maya's currentKnowledge, which is empty.; faithfulness: FAIL - Under INVENTION POLICY: NONE, no invention is allowed. The addition 'The kitchen was there' is not supported by the source passage and constitutes invention.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-SOURCE-A",
+    "tripletId": "T12-SOURCE",
+    "variant": "A",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "SOURCE_CONSTRAINED",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+    "expected": "REJECT",
+    "expectedReasoning": "Policy=SOURCE_CONSTRAINED: only source-supported info. \"Smelled of rain\" is not in source or state. Rejected.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - The revision adds a sensory detail (smell of rain) that is not supported by the character's current knowledge or state. Maya's perceptual habits include smelling rooms first, but this specific smell is not mentioned in her knowledge.",
+        "canon: FAIL - The revision contradicts the established canon that Papa's house smells of cardamom and iron. The corridor smell is not mentioned in canon.",
+        "faithfulness: FAIL - Under SOURCE_CONSTRAINED policy, no invention is allowed. The addition of 'The corridor smelled faintly of rain' is invented sensory detail not present in the original text or supported by the character state or canon."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - The revision adds a sensory detail (smell of rain) that is not supported by the character's current knowledge or state. Maya's perceptual habits include smelling rooms first, but this specific smell is not mentioned in her knowledge.; canon: FAIL - The revision contradicts the established canon that Papa's house smells of cardamom and iron. The corridor smell is not mentioned in canon.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-SOURCE-B",
+    "tripletId": "T12-SOURCE",
+    "variant": "B",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "SOURCE_CONSTRAINED",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The kitchen smelled of cardamom and iron.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Policy=SOURCE_CONSTRAINED: cardamom and iron is SOFT_CANON \u2014 source/state-supported.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya's currentKnowledge is empty, but the revision asserts she smells cardamom and iron in the kitchen, which she cannot know without prior observation in this context.",
+        "canon: FAIL - The canon states 'Papa's house smells of cardamom and iron', not the kitchen specifically. The revision introduces unsupported specificity by changing the location from 'house' to 'kitchen'.",
+        "faithfulness: FAIL - Under SOURCE_CONSTRAINED policy, no invention is allowed. The addition of 'The kitchen smelled of cardamom and iron' is invented sensory detail not supported by the source or properly entailed."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya's currentKnowledge is empty, but the revision asserts she smells cardamom and iron in the kitchen, which she cannot know without prior observation in this context.; canon: FAIL - The canon states 'Papa's house smells of cardamom and iron', not the kitchen specifically. The revision introduces unsupported specificity by changing the location from 'house' to 'kitchen'.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T12-SOURCE-C",
+    "tripletId": "T12-SOURCE",
+    "variant": "C",
+    "semanticClass": "policy_controlled",
+    "inventionPolicy": "SOURCE_CONSTRAINED",
+    "isPolicyControlled": true,
+    "original": "Maya entered the kitchen.",
+    "revised": "Maya entered the kitchen. The air was still.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "Policy=SOURCE_CONSTRAINED: \"air was still\" is vague \u2014 borderline. Not clearly source-supported.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - The revision adds sensory detail about the air being still, which is not supported by the character's current knowledge or the source material.",
+        "faithfulness: FAIL - Under SOURCE_CONSTRAINED policy, no invention is allowed, including sensory details like 'The air was still' which is not in the original text or supported by the character state."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - The revision adds sensory detail about the air being still, which is not supported by the character's current knowledge or the source material.; faithfulness: FAIL - Under SOURCE_CONSTRAINED policy, no invention is allowed, including sensory details like 'The air was still' which is not in the original text or supported by the character state.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T13-A",
+    "tripletId": "T13",
+    "variant": "A",
+    "semanticClass": "canon_contradiction",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Arlo entered the studio.",
+    "revised": "Arlo entered the studio. The floor hummed under his feet \u2014 a low, resonant vibration he had learned to read like a map.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Tactile/auditory observation. Consistent with blind canon. Licensed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision maintains the original meaning of Arlo entering the studio while adding sensory detail.",
+        "character: The sensory detail aligns with Arlo being a blind sound engineer who maps spaces by echo. His perception of the floor's vibration as a 'map' is consistent with his perceptual habits.",
+        "infoOwnership: There are no information ownership leaks. The detail about the floor humming is sensory observation, not knowledge of unknown facts.",
+        "canon: The revision doesn't contradict any canon facts. It aligns with Arlo being totally blind.",
+        "voice: The description is precise about sound, matching Arlo's established voice.",
+        "register: The register is appropriate for the narrative.",
+        "intelligibility: The text is clear and understandable.",
+        "deferred: There are no deferred checks to resolve.",
+        "faithfulness: The sensory detail is licensed under LICENSED_FICTION and respects the character's perceptual habits and blindness."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T13-B",
+    "tripletId": "T13",
+    "variant": "B",
+    "semanticClass": "canon_contradiction",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Arlo entered the studio.",
+    "revised": "Arlo entered the studio. He looked around at the mixing board, noting the blue glow of the LEDs and the red indicator lights.",
+    "expected": "REJECT",
+    "expectedReasoning": "Canon violation: blind character using visual perception (looked, noting glow/colors).",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "character: Arlo is blind, so he wouldn't 'look around' or 'note the blue glow of the LEDs and red indicator lights' as visual observations.",
+        "infoOwnership: The revision presents visual details as observations, but Arlo is blind and cannot see these details.",
+        "canon: Contradicts HARD_CANON that 'Arlo is totally blind'.",
+        "faithfulness: Adds specific visual details (blue glow, red indicator lights) that are not supported by state and contradict character abilities."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 ",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T13-C",
+    "tripletId": "T13",
+    "variant": "C",
+    "semanticClass": "canon_contradiction",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Arlo entered the studio.",
+    "revised": "Arlo entered the studio. The air felt blue to him \u2014 a color he remembered from before.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "Synesthetic/metaphorical use of \"blue\" \u2014 could be licensed literary description or could imply visual memory. Genuinely ambiguous.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Arlo, who is blind, cannot know what color air 'feels blue' as he cannot perceive color",
+        "canon: FAIL - Contradicts HARD_CANON that Arlo is 'totally blind' by describing him perceiving color",
+        "faithfulness: FAIL - Invents sensory detail (air feeling blue) that contradicts character's known perceptual limitations"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Arlo, who is blind, cannot know what color air 'feels blue' as he cannot perceive color; canon: FAIL - Contradicts HARD_CANON that Arlo is 'totally blind' by describing him perceiving color",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T14-A",
+    "tripletId": "T14",
+    "variant": "A",
+    "semanticClass": "deferred_mechanism",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya paused at the garden bench.",
+    "revised": "Maya paused at the garden bench. A trowel sat on the wood, left there by someone. She did not pick it up.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "References the deferred anchor (trowel on bench). Should DEFER, not resolve. (Adjusted: the validator should at minimum not resolve it.)",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "FAIL",
+      "reasons": [
+        "deferred: The revision resolves the deferred check 'DC-1' (the trowel clue) by mentioning it in the narrative, which is not allowed as it should remain deferred."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 ",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T14-B",
+    "tripletId": "T14",
+    "variant": "B",
+    "semanticClass": "deferred_mechanism",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya paused at the garden bench.",
+    "revised": "Maya paused at the garden bench. The trowel was a signal from Tom\u00e1s \u2014 he had left it to warn her about Marcus's embezzlement.",
+    "expected": "REJECT",
+    "expectedReasoning": "Resolves the deferred mechanism (explains the trowel) + IO leak (embezzlement).",
+    "ccResult": {
+      "severity": "SOFT_SIGNAL",
+      "unsupported": [
+        {
+          "detail": "Toms",
+          "type": "proper_noun",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "FAIL",
+      "reasons": [
+        "meaning: The revision introduces a completely new plot point about embezzlement and Tom\u00e1s that has no foundation in the original text.",
+        "character: Maya's character state shows she knows Marcus handles finances and the clinic is struggling, but there's no indication she suspects embezzlement.",
+        "infoOwnership: The fact 'Marcus embezzled $40,000' is marked as UNKNOWN to Maya, but the revision presents it as something she knows from a trowel signal.",
+        "canon: There's no mention of Tom\u00e1s in the canon, making his introduction an unsupported addition.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revision adds complex interpretation about embezzlement that doesn't match this style.",
+        "register: The revision shifts from simple observation to complex conspiracy theory without narrative justification.",
+        "intelligibility: The connection between a trowel and embezzlement is completely unexplained and comes out of nowhere.",
+        "deferred: The revision attempts to resolve the deferred 'trowel clue' without proper narrative development.",
+        "faithfulness: The revision introduces specific information ($40,000 embezzlement over 18 months) that is not supported by source or state."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 ",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T14-C",
+    "tripletId": "T14",
+    "variant": "C",
+    "semanticClass": "deferred_mechanism",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya paused at the garden bench.",
+    "revised": "Maya paused at the garden bench. Something about the trowel bothered her, though she could not say why.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "References the trowel without resolving it. Licensed vague unease.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition creates intrigue about Maya's reaction to the trowel without violating established character traits.",
+        "character: The addition is consistent with Maya's perceptual habits (noticing small details) and emotional state (controlled exhaustion with underlying tension).",
+        "infoOwnership: Maya's unease about the trowel is presented as a feeling, not knowledge of specific facts, so no info ownership leak.",
+        "canon: No contradiction with established canon facts.",
+        "voice: Maintains Maya's sparse, observational style while adding subtle emotional depth.",
+        "register: Appropriate for the narrative context.",
+        "intelligibility: The addition is clear and doesn't confuse the narrative.",
+        "deferred: The trowel is mentioned but not resolved, maintaining the deferred status.",
+        "faithfulness: The sensory detail about the trowel is licensed invention under LICENSED_FICTION policy, respecting POV and character knowledge."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T15-A",
+    "tripletId": "T15",
+    "variant": "A",
+    "semanticClass": "unsupported_specific",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "The patient was stable.",
+    "revised": "The patient was stable. Maya noted the readings on the monitor and moved on.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "No specific numbers invented. Vague reference to readings. Licensed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision adds appropriate context to the original statement about the patient being stable.",
+        "character: The action of noting readings on a monitor aligns with Maya's perceptual habits (counts IV drips, reads dosage labels).",
+        "infoOwnership: Maya is not claiming knowledge of any facts that are marked as UNKNOWN to her.",
+        "canon: No canon violations introduced.",
+        "voice: The addition maintains Maya's sparse, observational style with numbers as anchors.",
+        "register: Appropriate medical/clinical register consistent with an ICU nurse's perspective.",
+        "intelligibility: The addition is clear and understandable in context.",
+        "deferred: No deferred checks present or resolved.",
+        "faithfulness: The addition is ordinary narrative invention (sensory observation of medical monitor readings) licensed by LICENSED_FICTION policy, respecting POV, character knowledge, and narrative continuity."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T15-B",
+    "tripletId": "T15",
+    "variant": "B",
+    "semanticClass": "unsupported_specific",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "The patient was stable.",
+    "revised": "The patient was stable \u2014 vitals 98.6\u00b0F, heart rate 72, blood pressure 120/80, on 1000ml of normal saline.",
+    "expected": "REJECT",
+    "expectedReasoning": "Invented medical specifics (98.6, 72, 120/80, 1000ml). Not in source or state.",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "98.6",
+          "type": "number",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "72",
+          "type": "number",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "120",
+          "type": "number",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "80",
+          "type": "number",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "98.6",
+        "72",
+        "120",
+        "80"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - The character asserts specific vitals (98.6\u00b0F, heart rate 72, blood pressure 120/80) with certainty, but these facts are marked as UNKNOWN in the information ownership state. This is an information ownership leak.",
+        "faithfulness: FAIL - The revision includes specific numbers (98.6, 72, 120, 80) that are not supported by the source or character state. Under LICENSED_FICTION, specific numbers/dates/measurements must be supported or they are rejected."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: 98.6, 72, 120, 80 \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T15-C",
+    "tripletId": "T15",
+    "variant": "C",
+    "semanticClass": "unsupported_specific",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "The patient was stable.",
+    "revised": "The patient was stable. The monitor showed numbers within normal range.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Vague reference (\"within normal range\") \u2014 no specific invented numbers. Licensed. (Adjusted to ACCEPT \u2014 vague is safe.)",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition of 'The monitor showed numbers within normal range' is consistent with the original statement that the patient was stable.",
+        "character: This addition aligns with Maya's perceptual habits of counting IV drips and using numbers as anchors.",
+        "infoOwnership: Maya, as an ICU nurse, would have knowledge of patient monitoring equipment and normal ranges, so this doesn't constitute an information ownership leak.",
+        "canon: No contradiction with established canon.",
+        "voice: The addition maintains Maya's sparse, observational style and her tendency to use numbers as anchors.",
+        "register: The language remains appropriate for a medical professional's observation.",
+        "intelligibility: The addition is clear and easily understood in context.",
+        "deferred: No deferred checks are being resolved.",
+        "faithfulness: Under LICENSED_FICTION, sensory description and ordinary observed details are allowed. The monitor observation is a reasonable addition that respects Maya's character and profession."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T2-A",
+    "tripletId": "T2",
+    "variant": "A",
+    "semanticClass": "visible_behavior",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk, tapping his pen twice, three times. He would not meet her eyes. Maya watched him a moment, then went to check on her patient.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Observable behavior (pen tapping, no eye contact). Licensed fictional observation.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition of 'tapping his pen twice, three times' and 'He would not meet her eyes' adds subtle characterization without changing the core meaning.",
+        "character: These details are consistent with Maya's observational nature and the tense relationship between her and Marcus.",
+        "infoOwnership: Maya doesn't claim knowledge of Marcus's embezzlement, only observes his behavior, which is permissible.",
+        "canon: No canon violations - the clinic's financial struggle is consistent with the fact that Marcus handles finances.",
+        "voice: Maya's voice remains sparse and observational, with the counting detail ('twice, three times') consistent with her perceptual habits.",
+        "register: The language remains appropriate for the narrative context.",
+        "intelligibility: The additions enhance understanding of the scene without introducing confusion.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The invented details (tapping pen, avoiding eye contact) are sensory observations allowed under LICENSED_FICTION policy."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T2-B",
+    "tripletId": "T2",
+    "variant": "B",
+    "semanticClass": "visible_behavior",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk, hiding the ledger under his coat so Maya would not see the $40,000 discrepancy. Maya watched him a moment, then went to check on her patient.",
+    "expected": "REJECT",
+    "expectedReasoning": "IO leak (Maya cannot know about the $40,000 discrepancy) + invented hidden action presented as observed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - The revision states Marcus is hiding a '$40,000 discrepancy' which is presented as a known fact. However, this fact is marked as UNKNOWN for Maya, creating an information ownership leak. Maya cannot know about this specific embezzlement amount.",
+        "faithfulness: FAIL - The specific dollar amount '$40,000' is an unsupported factual assertion not present in the character state or canon. Under LICENSED_FICTION, while sensory description is allowed, specific numbers/dates/measurements that aren't in state are rejected."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - The revision states Marcus is hiding a '$40,000 discrepancy' which is presented as a known fact. However, this fact is marked as UNKNOWN for Maya, creating an information ownership leak. Maya cannot know about this specific embezzlement amount.; faithfulness: FAIL - The specific dollar amount '$40,000' is an unsupported factual assertion not present in the character state or canon. Under LICENSED_FICTION, while sensory description is allowed, specific numbers/dates/measurements that aren't in state are rejected.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T2-C",
+    "tripletId": "T2",
+    "variant": "C",
+    "semanticClass": "visible_behavior",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk, his shoulders stiffening as he angled a document away from her. Maya watched him a moment, then went to check on her patient.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "The \"angling away\" is observable, but implies Maya notices he is hiding something \u2014 borderline between observation and inference of concealment.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition of 'his shoulders stiffening as he angled a document away from her' adds subtle tension without altering the core meaning of the original sentence.",
+        "character: The revision shows Marcus being secretive, which aligns with his knowledge of embezzlement (though Maya doesn't know this yet). Maya's observation remains consistent with her role as a nurse who notices details.",
+        "infoOwnership: Maya doesn't claim to know why Marcus is acting this way, only observes his behavior. No information ownership leak occurs.",
+        "canon: The addition doesn't contradict any established canon facts.",
+        "voice: The revision maintains Maya's sparse, observational voice while adding subtle physical detail.",
+        "register: The language remains appropriate for the narrative context.",
+        "intelligibility: The addition is clear and understandable in context.",
+        "deferred: No deferred checks are present or resolved.",
+        "faithfulness: The added detail is sensory observation of Marcus's physical reaction, which is allowed under LICENSED_FICTION. No unsupported specific numbers/dates/names are introduced."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T3-A",
+    "tripletId": "T3",
+    "variant": "A",
+    "semanticClass": "emotional_inference",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "original": "Tom\u00e1s stood in the garden, his hands shaking.",
+    "revised": "Tom\u00e1s stood in the garden, his hands shaking. Maya noticed he seemed uneasy.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Observable (shaking hands) + reasonable inference (\"seemed uneasy\") under LIMITED_INFERENCE. No certainty claimed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision adds a plausible observation that Maya notices Tom\u00e1s seems uneasy, which aligns with her perceptual habits and current situation.",
+        "character: The addition is consistent with Maya's character as a nurse who observes details, and her emotional state of controlled exhaustion.",
+        "infoOwnership: Maya only notices that Tom\u00e1s 'seemed uneasy' which is an observation, not knowledge of an unknown fact. She doesn't claim to know why he's uneasy.",
+        "canon: The addition doesn't contradict any canon facts.",
+        "voice: The addition maintains Maya's sparse, observational style.",
+        "register: The register remains appropriate for the narrative.",
+        "intelligibility: The addition is clear and doesn't confuse the narrative.",
+        "deferred: No deferred checks are present or resolved.",
+        "faithfulness: The addition is a licensed inference under LIMITED_INFERENCE, using 'seemed' to indicate uncertainty rather than claiming certainty."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T3-B",
+    "tripletId": "T3",
+    "variant": "B",
+    "semanticClass": "emotional_inference",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "original": "Tom\u00e1s stood in the garden, his hands shaking.",
+    "revised": "Tom\u00e1s stood in the garden, his hands shaking. Maya knew he was terrified because he had helped Marcus hide the embezzled funds.",
+    "expected": "REJECT",
+    "expectedReasoning": "IO leak (Maya cannot know Tom\u00e1s helped Marcus) + certainty (\"knew\") about an unobservable emotional cause.",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "knew he was terrified because he had helped Marcus hide the embezzled funds",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "embezzled funds",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "knew he was terrified because he had helped Marcus hide the embezzled funds",
+        "embezzled funds"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: Maya cannot know about the embezzlement or Tom\u00e1s's involvement as it's marked as UNKNOWN for her",
+        "character: Maya's current knowledge doesn't include information about embezzlement or Tom\u00e1s's actions",
+        "infoOwnership: Maya asserts KNOWS-level certainty about facts she cannot know (embezzlement and Tom\u00e1s's involvement)",
+        "canon: The embezzlement fact isn't established in canon",
+        "voice: Maya's voice is described as sparse and observational, but the revision adds complex psychological reasoning",
+        "intelligibility: The connection between Tom\u00e1s's shaking hands and the embezzlement isn't established in the source",
+        "faithfulness: Adds unsupported specific claim about embezzled funds not present in source"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: knew he was terrified because he had helped Marcus hide the embezzled funds, embezzled funds \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T3-C",
+    "tripletId": "T3",
+    "variant": "C",
+    "semanticClass": "emotional_inference",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "original": "Tom\u00e1s stood in the garden, his hands shaking.",
+    "revised": "Tom\u00e1s stood in the garden, his hands shaking. Maya wondered if something was wrong.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Wondering is explicitly uncertain \u2014 licensed inference. (Adjusted from UNCLEAR because \"wondered if\" is clearly safe.)",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya wonders if something is wrong, but Tom\u00e1s's shaking hands are not explicitly connected to anything Maya knows about. The fact that Marcus embezzled money is marked as UNKNOWN to Maya, so her wondering if something is wrong could be interpreted as knowing about the embezzlement, which would be an information ownership leak."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya wonders if something is wrong, but Tom\u00e1s's shaking hands are not explicitly connected to anything Maya knows about. The fact that Marcus embezzled money is marked as UNKNOWN to Maya, so her wondering if something is wrong could be interpreted as knowing about the embezzlement, which would be an information ownership leak.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T4-A",
+    "tripletId": "T4",
+    "variant": "A",
+    "semanticClass": "motive_inference",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk. He seemed distracted, glancing at the door as if expecting someone. Maya watched him a moment, then went to check on her patient.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Observable behavior (glancing at door) + hedged inference (\"as if expecting someone\"). Licensed.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The addition of 'He seemed distracted, glancing at the door as if expecting someone' adds interpretive detail that maintains the scene's meaning and purpose.",
+        "character: This addition is consistent with Maya's observational nature as indicated by her perceptual habits and voice style.",
+        "infoOwnership: Maya is observing Marcus's behavior, not asserting knowledge of his internal state or motivations. The description is limited to observable actions that Maya could reasonably notice.",
+        "canon: The addition doesn't contradict any established canon facts.",
+        "voice: The addition maintains Maya's sparse, observational style without introducing inappropriate emotional or speculative language.",
+        "register: The language matches the professional medical setting without being overly technical or inappropriate.",
+        "intelligibility: The addition provides clear context about Marcus's behavior without confusing the narrative.",
+        "deferred: No deferred checks are present or affected by this addition.",
+        "faithfulness: The addition is sensory observation of Marcus's behavior (glancing at the door) and an interpretation of his state (seemed distracted) which is licensed under LICENSED_FICTION as ordinary narrative invention."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T4-B",
+    "tripletId": "T4",
+    "variant": "B",
+    "semanticClass": "motive_inference",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk. He was acting strangely because he wanted to cover his embezzlement before the audit. Maya watched him a moment, then went to check on her patient.",
+    "expected": "REJECT",
+    "expectedReasoning": "IO leak (Maya cannot know the embezzlement or the audit motive). Private motive stated as fact.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "character: Marcus's motivation (covering embezzlement) is not supported by his character state",
+        "infoOwnership: Maya cannot know Marcus's motive for acting strangely, as this fact is marked as UNKNOWN to her",
+        "faithfulness: Specific assertion about embezzlement ($40,000 over 18 months) is not supported by state and is presented as fact"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 ",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T4-C",
+    "tripletId": "T4",
+    "variant": "C",
+    "semanticClass": "motive_inference",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk. There was something behind his eyes \u2014 a calculation, maybe, or a fear she could not name. Maya watched him a moment, then went to check on her patient.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "Poetic/subjective description that could be observation or could imply Maya sees more than she should. Genuinely ambiguous.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya cannot know what's behind Marcus's eyes (calculation or fear) as this information is marked as UNKNOWN for her. This is an information ownership leak."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya cannot know what's behind Marcus's eyes (calculation or fear) as this information is marked as UNKNOWN for her. This is an information ownership leak.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T5-A",
+    "tripletId": "T5",
+    "variant": "A",
+    "semanticClass": "memory",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya thought about her childhood.",
+    "revised": "Maya thought about her childhood \u2014 Papa teaching her to count by pill bottles, the amber vials lining the wall of his pharmacy.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "State-supported memory (explicitly in memories: \"Papa teaching her to count by pill bottles\").",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision successfully adds specific sensory detail to Maya's childhood memory without altering the core meaning.",
+        "character: The detail aligns with Maya's established memories (Papa teaching her to count by pill bottles) and perceptual habits (counts IV drips, reads dosage labels).",
+        "infoOwnership: Maya has this memory listed in her character state, so there's no information ownership leak.",
+        "canon: The detail about Papa's pharmacy is consistent with the soft canon fact about Papa's house smelling of cardamom and iron.",
+        "voice: The sparse, observational style with numbers as anchors is maintained.",
+        "register: The register is appropriate for internal thought.",
+        "intelligibility: The added detail is clear and enhances understanding of Maya's background.",
+        "deferred: No deferred checks are present or violated.",
+        "faithfulness: The specific details (pill bottles, amber vials) are licensed invention under LICENSED_FICTION as they are sensory observations that respect POV, character knowledge, and canon."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T5-B",
+    "tripletId": "T5",
+    "variant": "B",
+    "semanticClass": "memory",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya thought about her childhood.",
+    "revised": "Maya thought about her childhood \u2014 the summer of 1998 when Papa first discovered Marcus was embezzling and said nothing about it.",
+    "expected": "REJECT",
+    "expectedReasoning": "Invented memory + IO leak (Maya cannot know Papa discovered embezzlement) + invented date (1998).",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "1998",
+          "type": "number",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "1998"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya asserts knowledge of Marcus embezzling, which is marked as UNKNOWN to her in information ownership",
+        "faithfulness: FAIL - Specific date '1998' is not supported in source or state and is rejected as an unsupported specific number"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: 1998 \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T5-C",
+    "tripletId": "T5",
+    "variant": "C",
+    "semanticClass": "memory",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya thought about her childhood.",
+    "revised": "Maya thought about her childhood \u2014 a summer she could barely remember, something involving Papa and the pharmacy that she had never quite understood.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "Vague memory reference \u2014 could be state-supported or could be setting up an invented subplot. Ambiguous.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision adds sensory detail and context to Maya's childhood memory without changing the core meaning.",
+        "character: The details align with Maya's character as someone who remembers Papa and the pharmacy, and her perceptual habit of noticing smells.",
+        "infoOwnership: Maya is recalling a memory, not asserting knowledge of new facts. The details are consistent with what she might remember.",
+        "canon: The details about Papa's pharmacy and its smell are consistent with SOFT_CANON.",
+        "voice: The sparse, observational style with sensory details matches Maya's established voice.",
+        "register: The language is appropriate for narrative fiction.",
+        "intelligibility: The revision is clear and adds meaningful context.",
+        "deferred: No deferred checks are present or violated.",
+        "faithfulness: The sensory details are licensed under LICENSED_FICTION and don't introduce unsupported specific numbers/dates/names."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T6-A",
+    "tripletId": "T6",
+    "variant": "A",
+    "semanticClass": "knowledge",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk. Maya watched him a moment, suspecting something was off with the finances \u2014 the discrepancy she had found still nagged at her. She went to check on her patient.",
+    "expected": "REJECT",
+    "expectedReasoning": "State=UNKNOWN. Even suspicion about \"finances\" is unsupported when Maya has seen no discrepancy. (A is REJECT here because the state is UNKNOWN.)",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya cannot 'suspect' the specific embezzlement details ($40,000 over 18 months) as this is marked as UNKNOWN to her. The invention policy allows licensed fiction but not information ownership leaks.",
+        "faithfulness: FAIL - The specific financial details ('$40,000 over 18 months') are invented and not supported by state. Under LICENSED_FICTION, unsupported specific numbers/dates/names are rejected."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya cannot 'suspect' the specific embezzlement details ($40,000 over 18 months) as this is marked as UNKNOWN to her. The invention policy allows licensed fiction but not information ownership leaks.; faithfulness: FAIL - The specific financial details ('$40,000 over 18 months') are invented and not supported by state. Under LICENSED_FICTION, unsupported specific numbers/dates/names are rejected.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T6-B",
+    "tripletId": "T6",
+    "variant": "B",
+    "semanticClass": "knowledge",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk. Maya watched him a moment, knowing he had embezzled forty thousand dollars from the clinic. She went to check on her patient.",
+    "expected": "REJECT",
+    "expectedReasoning": "State=UNKNOWN. Certainty about the embezzlement is a leak.",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "had embezzled forty thousand dollars from the clinic"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya does not know that Marcus embezzled $40,000 from the clinic (marked as UNKNOWN in information ownership). The revision asserts this as knowledge with 'knowing he had embezzled...', which is an information ownership leak.",
+        "faithfulness: FAIL - The specific amount '$40,000' is not supported by character state or canon. Under LICENSED_FICTION, specific numbers/dates/names not in state are rejected as unsupported factual assertions."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: had embezzled forty thousand dollars from the clinic \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T6-C",
+    "tripletId": "T6",
+    "variant": "C",
+    "semanticClass": "knowledge",
+    "inventionPolicy": "LICENSED_FICTION",
+    "isStateControlled": true,
+    "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient. Something about him bothered her, though she could not say what.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Vague unease \u2014 no specific knowledge claimed. Licensed under fiction.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "UNCLEAR",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya has UNKNOWN status regarding Marcus embezzling money, but the revision adds her feeling 'bothered' by him, which could be interpreted as suspicion about the embezzlement. This is an information ownership leak as she cannot know about the embezzlement.",
+        "faithfulness: UNCLEAR - The addition of 'Something about him bothered her, though she could not say what' is a licensed narrative invention (emotional observation), but it potentially creates an IO leak by suggesting Maya might be sensing something about the embezzlement without knowing the specific fact."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya has UNKNOWN status regarding Marcus embezzling money, but the revision adds her feeling 'bothered' by him, which could be interpreted as suspicion about the embezzlement. This is an information ownership leak as she cannot know about the embezzlement.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T7-A",
+    "tripletId": "T7",
+    "variant": "A",
+    "semanticClass": "causal_inference",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "original": "The clinic's bank statement showed a lower balance than expected.",
+    "revised": "The clinic's bank statement showed a lower balance than expected. Maya frowned \u2014 the numbers did not match what she had seen last month.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Observable (lower balance) + reasonable comparison (last month). Licensed inference.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya is asserting knowledge of the specific bank balance from last month, which is not in her currentKnowledge and should be UNKNOWN to her according to the information ownership section"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya is asserting knowledge of the specific bank balance from last month, which is not in her currentKnowledge and should be UNKNOWN to her according to the information ownership section",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T7-B",
+    "tripletId": "T7",
+    "variant": "B",
+    "semanticClass": "causal_inference",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "original": "The clinic's bank statement showed a lower balance than expected.",
+    "revised": "The clinic's bank statement showed a lower balance than expected because Marcus had diverted forty thousand dollars to an offshore account.",
+    "expected": "REJECT",
+    "expectedReasoning": "IO leak (Maya cannot know the cause or the offshore account) + invented specific ($40,000, offshore). Causal assertion as fact.",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "had diverted forty thousand dollars to an offshore account",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "had diverted forty thousand dollars to an offshore account"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya does not know that Marcus diverted $40,000 to an offshore account, as indicated in INFORMATION OWNERSHIP where this fact is marked as UNKNOWN to her",
+        "canon: FAIL - The specific amount ($40,000) and method (offshore account) of embezzlement are not established in canon",
+        "faithfulness: FAIL - Under LIMITED_INFERENCE, specific numbers ($40,000) and details (offshore account) that are not in source or character knowledge are not permitted"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: had diverted forty thousand dollars to an offshore account \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T7-C",
+    "tripletId": "T7",
+    "variant": "C",
+    "semanticClass": "causal_inference",
+    "inventionPolicy": "LIMITED_INFERENCE",
+    "original": "The clinic's bank statement showed a lower balance than expected.",
+    "revised": "The clinic's bank statement showed a lower balance than expected. Maya wondered if someone had made an error \u2014 or something worse.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Wondering is explicitly uncertain. Licensed inference under LIMITED_INFERENCE. (Adjusted to ACCEPT \u2014 wondering is safe.)",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya is wondering about embezzlement ('something worse') but the INFORMATION OWNERSHIP shows this is UNKNOWN to her. She cannot suspect this without evidence in her current knowledge."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya is wondering about embezzlement ('something worse') but the INFORMATION OWNERSHIP shows this is UNKNOWN to her. She cannot suspect this without evidence in her current knowledge.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T8-A",
+    "tripletId": "T8",
+    "variant": "A",
+    "semanticClass": "quantification",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya counted the IV drips in Room 4.",
+    "revised": "Maya counted the IV drips in Room 4 \u2014 four, as always.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "State-supported (perceptualHabits: \"Counts the IV drips\" + currentKnowledge: \"Room 4 is her usual assignment\" + \"four IV drips\" in habit). The number four is supported.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya cannot know that there are 'four' IV drips in Room 4 as this fact is marked as UNKNOWN in her information ownership state. The revision asserts certainty about a specific number without justification.",
+        "faithfulness: FAIL - The addition of 'four, as always' introduces an unsupported specific number that is not in the character state or canon. Under LICENSED_FICTION, while sensory description is allowed, specific numbers not supported by state are rejected."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya cannot know that there are 'four' IV drips in Room 4 as this fact is marked as UNKNOWN in her information ownership state. The revision asserts certainty about a specific number without justification.; faithfulness: FAIL - The addition of 'four, as always' introduces an unsupported specific number that is not in the character state or canon. Under LICENSED_FICTION, while sensory description is allowed, specific numbers not supported by state are rejected.",
+    "correct": false,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T8-B",
+    "tripletId": "T8",
+    "variant": "B",
+    "semanticClass": "quantification",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya counted the IV drips in Room 4.",
+    "revised": "Maya counted the IV drips in Room 4 \u2014 one hundred and twenty-seven drips, each one a reminder of the forty thousand dollars Marcus had stolen.",
+    "expected": "REJECT",
+    "expectedReasoning": "Invented quantity (127) + IO leak (forty thousand dollars, state=UNKNOWN).",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "one hundred",
+          "type": "number",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "twenty",
+          "type": "number",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "seven",
+          "type": "number",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "one hundred",
+        "twenty",
+        "seven"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "FAIL",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya asserts knowledge of the exact amount of money Marcus stole ($40,000) when this is marked as UNKNOWN for her",
+        "canon: FAIL - The revision introduces new information about embezzlement that isn't in the established canon",
+        "faithfulness: FAIL - The specific numbers 'one hundred and twenty-seven' drips are not supported in source or state",
+        "faithfulness: FAIL - The specific amount '$40,000' is not supported in source or state"
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: one hundred, twenty, seven \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T8-C",
+    "tripletId": "T8",
+    "variant": "C",
+    "semanticClass": "quantification",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "Maya counted the IV drips in Room 4.",
+    "revised": "Maya counted the IV drips in Room 4 \u2014 a few more than usual, she thought.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "Vague quantification (\"a few more\") \u2014 could be licensed observation or could imply a specific unsupported count. Ambiguous.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revision maintains the core action of Maya counting IV drips while adding her subjective interpretation.",
+        "character: The revision aligns with Maya's perceptual habits (counts IV drips) and her observational voice.",
+        "infoOwnership: Maya is making an observation about her environment, not claiming knowledge about unknown facts.",
+        "canon: No canon violations are present.",
+        "voice: The revision maintains Maya's sparse, observational voice and her use of numbers as anchors.",
+        "register: The register remains appropriate for a medical professional's internal thought.",
+        "intelligibility: The meaning is clear and easily understood.",
+        "deferred: No deferred checks are present or being resolved.",
+        "faithfulness: The addition 'a few more than usual, she thought' is licensed sensory/observational invention that respects Maya's character and POV."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T9-A",
+    "tripletId": "T9",
+    "variant": "A",
+    "semanticClass": "identity",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "A man Maya had never seen walked into the clinic.",
+    "revised": "A man Maya had never seen walked into the clinic. He was tall, with gray hair and a guarded expression. She did not recognize him.",
+    "expected": "ACCEPT",
+    "expectedReasoning": "Observable physical description + explicit non-recognition. Licensed observation.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "meaning: The revised sentence maintains the original meaning while adding descriptive detail.",
+        "character: The additions align with Maya's observational habits and voice.",
+        "infoOwnership: Maya doesn't claim knowledge of who the man is or why he's there, which is consistent with her current knowledge.",
+        "canon: No contradictions with established canon.",
+        "voice: The sparse, observational style with specific details (tall, gray hair, guarded expression) matches Maya's voice.",
+        "register: The language remains appropriate for the narrative.",
+        "intelligibility: The additions are clear and don't confuse the narrative.",
+        "deferred: No deferred checks are present or violated.",
+        "faithfulness: The added details are sensory observations (licensed under LICENSED_FICTION) and don't include unsupported specific numbers/dates/names/measurements."
+      ]
+    },
+    "final": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T9-B",
+    "tripletId": "T9",
+    "variant": "B",
+    "semanticClass": "identity",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "A man Maya had never seen walked into the clinic.",
+    "revised": "A man Maya had never seen walked into the clinic \u2014 it was David Chen, Marcus's accomplice, the one who had helped launder the embezzled funds.",
+    "expected": "REJECT",
+    "expectedReasoning": "IO leak (Maya cannot know the identity, the accomplice role, or the laundering). Identity stated as fact.",
+    "ccResult": {
+      "severity": "HARD_BLOCK",
+      "unsupported": [
+        {
+          "detail": "embezzled funds",
+          "type": "explicit_claim",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "David",
+          "type": "proper_noun",
+          "prov": "UNKNOWN"
+        },
+        {
+          "detail": "Chen",
+          "type": "proper_noun",
+          "prov": "UNKNOWN"
+        }
+      ],
+      "hardBlocks": [
+        "embezzled funds"
+      ]
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: Maya does not know that the man is David Chen or that he was Marcus's accomplice in embezzlement. These facts are marked as UNKNOWN for Maya.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the revision adds complex backstory information that doesn't match her observational style.",
+        "faithfulness: The revision introduces specific names ('David Chen') and facts ('Marcus's accomplice', 'helped launder the embezzled funds') that are not supported by the source material or character state."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[CC] HARD_BLOCK: embezzled funds \u2014 non-overridable.",
+    "correct": true,
+    "uncertainRecognized": false
+  },
+  {
+    "caseId": "T9-C",
+    "tripletId": "T9",
+    "variant": "C",
+    "semanticClass": "identity",
+    "inventionPolicy": "LICENSED_FICTION",
+    "original": "A man Maya had never seen walked into the clinic.",
+    "revised": "A man Maya had never seen walked into the clinic. There was something familiar about his gait, though she could not place it.",
+    "expected": "UNCLEAR",
+    "expectedReasoning": "Borderline \u2014 \"something familiar\" implies partial recognition without identifying. Could be licensed subjective impression or could be setting up an unsupported recognition. Ambiguous.",
+    "ccResult": {
+      "severity": "ADVISORY",
+      "unsupported": [],
+      "hardBlocks": []
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "reasons": [
+        "infoOwnership: FAIL - Maya suspects Marcus of embezzlement but doesn't know for certain. The revision introduces a familiarity with the man's gait that contradicts her stated belief that she's never seen him before, creating an information ownership leak."
+      ]
+    },
+    "final": "REJECT",
+    "finalReason": "[LJ] REJECT \u2014 infoOwnership: FAIL - Maya suspects Marcus of embezzlement but doesn't know for certain. The revision introduces a familiarity with the man's gait that contradicts her stated belief that she's never seen him before, creating an information ownership leak.",
+    "correct": true,
+    "uncertainRecognized": false
+  }
+]

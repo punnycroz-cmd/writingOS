@@ -1,0 +1,32 @@
+{
+  "caseId": "T12-SOURCE-C",
+  "tripletId": "T12-SOURCE",
+  "variant": "C",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "SOURCE_CONSTRAINED",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The air was still.",
+  "expected": "UNCLEAR",
+  "expectedReasoning": "Policy=SOURCE_CONSTRAINED: \"air was still\" is vague — borderline. Not clearly source-supported.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - The revision adds sensory detail about the air being still, which is not supported by the character's current knowledge or the source material.",
+      "faithfulness: FAIL - Under SOURCE_CONSTRAINED policy, no invention is allowed, including sensory details like 'The air was still' which is not in the original text or supported by the character state."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - The revision adds sensory detail about the air being still, which is not supported by the character's current knowledge or the source material.; faithfulness: FAIL - Under SOURCE_CONSTRAINED policy, no invention is allowed, including sensory details like 'The air was still' which is not in the original text or supported by the character state.",
+  "correct": true,
+  "uncertainRecognized": false
+}

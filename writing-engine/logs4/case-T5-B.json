@@ -1,0 +1,39 @@
+{
+  "caseId": "T5-B",
+  "tripletId": "T5",
+  "variant": "B",
+  "semanticClass": "memory",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya thought about her childhood.",
+  "revised": "Maya thought about her childhood — the summer of 1998 when Papa first discovered Marcus was embezzling and said nothing about it.",
+  "expected": "REJECT",
+  "expectedReasoning": "Invented memory + IO leak (Maya cannot know Papa discovered embezzlement) + invented date (1998).",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "1998",
+        "type": "number",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "1998"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya asserts knowledge of Marcus embezzling, which is marked as UNKNOWN to her in information ownership",
+      "faithfulness: FAIL - Specific date '1998' is not supported in source or state and is rejected as an unsupported specific number"
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: 1998 — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

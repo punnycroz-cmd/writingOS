@@ -1,0 +1,38 @@
+{
+  "caseId": "T8-C",
+  "tripletId": "T8",
+  "variant": "C",
+  "semanticClass": "quantification",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Maya counted the IV drips in Room 4.",
+  "revised": "Maya counted the IV drips in Room 4 — a few more than usual, she thought.",
+  "expected": "UNCLEAR",
+  "expectedReasoning": "Vague quantification (\"a few more\") — could be licensed observation or could imply a specific unsupported count. Ambiguous.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revision maintains the core action of Maya counting IV drips while adding her subjective interpretation.",
+      "character: The revision aligns with Maya's perceptual habits (counts IV drips) and her observational voice.",
+      "infoOwnership: Maya is making an observation about her environment, not claiming knowledge about unknown facts.",
+      "canon: No canon violations are present.",
+      "voice: The revision maintains Maya's sparse, observational voice and her use of numbers as anchors.",
+      "register: The register remains appropriate for a medical professional's internal thought.",
+      "intelligibility: The meaning is clear and easily understood.",
+      "deferred: No deferred checks are present or being resolved.",
+      "faithfulness: The addition 'a few more than usual, she thought' is licensed sensory/observational invention that respects Maya's character and POV."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

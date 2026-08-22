@@ -1,0 +1,47 @@
+{
+  "caseId": "T12-LICENSED-C",
+  "tripletId": "T12-LICENSED",
+  "variant": "C",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LICENSED_FICTION",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The room smelled of the forty thousand dollars Marcus had stolen.",
+  "expected": "REJECT",
+  "expectedReasoning": "Policy=LICENSED_FICTION does NOT authorize IO leaks. \"Smell of $40k stolen\" is an IO violation regardless of policy.",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "forty thousand",
+        "type": "number",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "Marcus",
+        "type": "proper_noun",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "forty thousand"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya has no knowledge of 'forty thousand dollars' or 'Marcus' in her currentKnowledge state, making this an IO leak.",
+      "canon: FAIL - The kitchen smelling of stolen money contradicts the established SOFT_CANON that Papa's house smells of 'cardamom and iron'.",
+      "voice: FAIL - Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the specific number 'forty thousand' appears without Maya's characteristic observational context.",
+      "faithfulness: FAIL - The specific number 'forty thousand' is not supported in source or state, and the proper noun 'Marcus' is not found in source or state."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: forty thousand — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

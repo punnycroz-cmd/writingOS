@@ -1,0 +1,39 @@
+{
+  "caseId": "T12-LICENSED-B",
+  "tripletId": "T12-LICENSED",
+  "variant": "B",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LICENSED_FICTION",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The kitchen smelled of cardamom and iron.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Policy=LICENSED_FICTION: state-supported sensory. ACCEPT.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The addition of sensory detail about the kitchen's smell is consistent with Maya entering the kitchen.",
+      "character: The sensory detail aligns with Maya's perceptual habits of 'Smells rooms first' and her memory of 'The cardamom-and-iron smell of Papa's pharmacy'.",
+      "infoOwnership: Maya can reasonably perceive the smell of the kitchen, and this information is not marked as unknown.",
+      "canon: The smell of 'cardamom and iron' is consistent with the soft canon fact that 'Papa's house smells of cardamom and iron'.",
+      "voice: The sparse addition of sensory detail aligns with Maya's 'sparse, observational' voice.",
+      "register: The addition maintains a neutral narrative register.",
+      "intelligibility: The added detail is clear and contributes to the atmosphere without confusing the narrative.",
+      "deferred: No deferred checks are present or violated.",
+      "faithfulness: The sensory detail is licensed invention under LICENSED_FICTION and respects POV, character knowledge, and canon."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

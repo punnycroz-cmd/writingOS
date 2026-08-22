@@ -1,0 +1,30 @@
+{
+  "caseId": "T9-C",
+  "tripletId": "T9",
+  "variant": "C",
+  "semanticClass": "identity",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "A man Maya had never seen walked into the clinic.",
+  "revised": "A man Maya had never seen walked into the clinic. There was something familiar about his gait, though she could not place it.",
+  "expected": "UNCLEAR",
+  "expectedReasoning": "Borderline — \"something familiar\" implies partial recognition without identifying. Could be licensed subjective impression or could be setting up an unsupported recognition. Ambiguous.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - Maya suspects Marcus of embezzlement but doesn't know for certain. The revision introduces a familiarity with the man's gait that contradicts her stated belief that she's never seen him before, creating an information ownership leak."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — infoOwnership: FAIL - Maya suspects Marcus of embezzlement but doesn't know for certain. The revision introduces a familiarity with the man's gait that contradicts her stated belief that she's never seen him before, creating an information ownership leak.",
+  "correct": true,
+  "uncertainRecognized": false
+}

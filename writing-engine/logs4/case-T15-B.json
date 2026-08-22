@@ -1,0 +1,57 @@
+{
+  "caseId": "T15-B",
+  "tripletId": "T15",
+  "variant": "B",
+  "semanticClass": "unsupported_specific",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "The patient was stable.",
+  "revised": "The patient was stable — vitals 98.6°F, heart rate 72, blood pressure 120/80, on 1000ml of normal saline.",
+  "expected": "REJECT",
+  "expectedReasoning": "Invented medical specifics (98.6, 72, 120/80, 1000ml). Not in source or state.",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "98.6",
+        "type": "number",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "72",
+        "type": "number",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "120",
+        "type": "number",
+        "prov": "UNKNOWN"
+      },
+      {
+        "detail": "80",
+        "type": "number",
+        "prov": "UNKNOWN"
+      }
+    ],
+    "hardBlocks": [
+      "98.6",
+      "72",
+      "120",
+      "80"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - The character asserts specific vitals (98.6°F, heart rate 72, blood pressure 120/80) with certainty, but these facts are marked as UNKNOWN in the information ownership state. This is an information ownership leak.",
+      "faithfulness: FAIL - The revision includes specific numbers (98.6, 72, 120, 80) that are not supported by the source or character state. Under LICENSED_FICTION, specific numbers/dates/measurements must be supported or they are rejected."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: 98.6, 72, 120, 80 — non-overridable.",
+  "correct": true,
+  "uncertainRecognized": false
+}

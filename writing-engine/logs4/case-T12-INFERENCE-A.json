@@ -1,0 +1,39 @@
+{
+  "caseId": "T12-INFERENCE-A",
+  "tripletId": "T12-INFERENCE",
+  "variant": "A",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "isPolicyControlled": true,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+  "expected": "ACCEPT",
+  "expectedReasoning": "Policy=LIMITED_INFERENCE: sensory invention + plausible inference allowed. \"Smelled of rain\" is licensed.",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revised passage maintains the original meaning while adding sensory detail.",
+      "character: The addition aligns with Maya's perceptual habits ('Smells rooms first').",
+      "infoOwnership: Maya can reasonably smell the corridor; no information ownership violation.",
+      "canon: No canon violation; the rain smell doesn't contradict established facts.",
+      "voice: The sparse observational style is maintained.",
+      "register: Appropriate narrative register continues.",
+      "intelligibility: Clear and comprehensible.",
+      "deferred: No deferred checks to resolve.",
+      "faithfulness: The rain smell is plausible sensory observation allowed under LIMITED_INFERENCE."
+    ]
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT, [CC] ADVISORY.",
+  "correct": true,
+  "uncertainRecognized": false
+}

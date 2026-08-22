@@ -1,0 +1,33 @@
+{
+  "caseId": "T13-B",
+  "tripletId": "T13",
+  "variant": "B",
+  "semanticClass": "canon_contradiction",
+  "inventionPolicy": "LICENSED_FICTION",
+  "original": "Arlo entered the studio.",
+  "revised": "Arlo entered the studio. He looked around at the mixing board, noting the blue glow of the LEDs and the red indicator lights.",
+  "expected": "REJECT",
+  "expectedReasoning": "Canon violation: blind character using visual perception (looked, noting glow/colors).",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": [],
+    "hardBlocks": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "character: Arlo is blind, so he wouldn't 'look around' or 'note the blue glow of the LEDs and red indicator lights' as visual observations.",
+      "infoOwnership: The revision presents visual details as observations, but Arlo is blind and cannot see these details.",
+      "canon: Contradicts HARD_CANON that 'Arlo is totally blind'.",
+      "faithfulness: Adds specific visual details (blue glow, red indicator lights) that are not supported by state and contradict character abilities."
+    ]
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT — ",
+  "correct": true,
+  "uncertainRecognized": false
+}
