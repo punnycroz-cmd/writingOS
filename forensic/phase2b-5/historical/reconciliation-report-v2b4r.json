@@ -1,0 +1,167 @@
+{
+  "metrics": {
+    "historicalCases": 60,
+    "activeCases": 59,
+    "supersededCases": 1,
+    "unresolvedCases": 3,
+    "r6Cases": 3,
+    "scorableTriage": 32,
+    "triageCorrect": 31,
+    "semanticGroundTruthAvailable": 38,
+    "semanticExecutionAvailable": 30,
+    "semanticScoringEligible": 30,
+    "ioOwnershipScorable": 30,
+    "ioOwnershipCorrect": 25,
+    "faithfulnessScorable": 30,
+    "faithfulnessCorrect": 28,
+    "scorableFinal": 59,
+    "finalCorrect": 54,
+    "falseAcceptance": 4,
+    "falseRejection": 1,
+    "executionErrors": 0,
+    "llmExecuted": 42,
+    "deterministicFastPathed": 17,
+    "detAccept": 4,
+    "detBlock": 13,
+    "stableSuccess": 50,
+    "regression": 2,
+    "improvement": 4,
+    "persistentDefect": 2,
+    "knownDefect": 1,
+    "changedUnscorable": 0,
+    "sourceExists": 59,
+    "sourceMissing": 0
+  },
+  "falseAcceptCases": [
+    {
+      "caseId": "GC-0024",
+      "isR6": false
+    },
+    {
+      "caseId": "GC-0025",
+      "isR6": false
+    },
+    {
+      "caseId": "GC-0033",
+      "isR6": true
+    },
+    {
+      "caseId": "GC-0054",
+      "isR6": false
+    }
+  ],
+  "falseRejectCases": [
+    {
+      "caseId": "GC-0022",
+      "isR6": false
+    }
+  ],
+  "r6Details": [
+    {
+      "caseId": "GC-0031",
+      "expected": "REJECT",
+      "historical": "ACCEPT",
+      "current": "REJECT",
+      "status": "IMPROVEMENT"
+    },
+    {
+      "caseId": "GC-0033",
+      "expected": "REJECT",
+      "historical": "ACCEPT",
+      "current": "ACCEPT",
+      "status": "KNOWN_DEFECT"
+    },
+    {
+      "caseId": "GC-0036",
+      "expected": "REJECT",
+      "historical": "ACCEPT",
+      "current": "REJECT",
+      "status": "IMPROVEMENT"
+    }
+  ],
+  "comparisonMismatches": [],
+  "checks": [
+    {
+      "name": "1_active_count",
+      "passed": true,
+      "detail": "59 == 59"
+    },
+    {
+      "name": "2_superseded_exclusion",
+      "passed": true,
+      "detail": "0 superseded in active"
+    },
+    {
+      "name": "3_no_duplicate_active_ids",
+      "passed": true,
+      "detail": "59 unique"
+    },
+    {
+      "name": "4_historical_classification_consistency",
+      "passed": true,
+      "detail": "0 mismatches"
+    },
+    {
+      "name": "5_final_metric_sum",
+      "passed": true,
+      "detail": "4+1+54==59"
+    },
+    {
+      "name": "6_active_results_complete",
+      "passed": true,
+      "detail": "59==59"
+    },
+    {
+      "name": "7_active_result_provenance",
+      "passed": true,
+      "detail": "all have provenance"
+    },
+    {
+      "name": "8_r6_consistency",
+      "passed": true,
+      "detail": "3"
+    },
+    {
+      "name": "9_source_paths",
+      "passed": true,
+      "detail": "59/59"
+    },
+    {
+      "name": "10_no_execution_errors",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "11_no_silent_inheritance",
+      "passed": true,
+      "detail": "0 inherited"
+    },
+    {
+      "name": "12_active_result_identity",
+      "passed": true,
+      "detail": "all match"
+    },
+    {
+      "name": "13_aggregate_classification_sum",
+      "passed": true,
+      "detail": "59==59"
+    },
+    {
+      "name": "14_ledger_summary_consistency",
+      "passed": true,
+      "detail": "matches"
+    },
+    {
+      "name": "15_classifier_usage_consistency",
+      "passed": true,
+      "detail": "imports classifyHistoricalComparison"
+    },
+    {
+      "name": "16_gc0038r1_provenance",
+      "passed": true,
+      "detail": "latency=8875"
+    }
+  ],
+  "allPassed": true,
+  "zeroLatencyLLM": []
+}

@@ -1,0 +1,47 @@
+{
+  "caseId": "A8-1",
+  "attack": "SNAPSHOT_ISOLATION",
+  "sceneId": "S3",
+  "snapshotId": "SNAP-S3-KNOWS",
+  "candidateText": "Maya wondered if something was wrong.",
+  "expected": "ACCEPT",
+  "reasoning": "KNOWS + wondered → downgrade, licensed",
+  "isRepair": false,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence expresses vague uncertainty ('wondered if something was wrong'), which is permitted under LICENSED_FICTION.",
+      "It does not assert unknown facts, resolve deferred checks, or contradict canon.",
+      "Maya's known fact about Marcus taking money does not conflict with her vaguely wondering whether something is wrong."
+    ],
+    "latencyMs": 2609,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

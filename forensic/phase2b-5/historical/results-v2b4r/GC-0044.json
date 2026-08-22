@@ -1,0 +1,40 @@
+{
+  "caseId": "GC-0044",
+  "sourceExperiment": "writing-os-v1",
+  "candidateText": "Maya noticed a discrepancy in the clinic records.",
+  "expectedTriage": "HANDOFF_TO_LLM",
+  "expectedSemantic": {
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS"
+  },
+  "expectedFinalDecision": "ACCEPT",
+  "historicalObserved": "ACCEPT",
+  "historicalCorrect": true,
+  "currentTriage": "HANDOFF_TO_LLM",
+  "currentTriageCorrect": true,
+  "currentSemantic": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "validatorMode": "LLM",
+    "latencyMs": 6949,
+    "error": null
+  },
+  "currentFinalDecision": "ACCEPT",
+  "currentFinalCorrect": true,
+  "ioCorrect": true,
+  "faithCorrect": true,
+  "isR6": false,
+  "isUnresolved": false,
+  "groundTruthType": "PROJECT_POLICY",
+  "triageScorable": true,
+  "semanticScorable": true,
+  "finalScorable": true,
+  "historicalComparison": "STABLE_SUCCESS",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "evaluatedAt": "2026-08-22T14:17:17.486Z"
+}

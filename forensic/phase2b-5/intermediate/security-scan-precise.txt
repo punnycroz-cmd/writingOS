@@ -1,0 +1,22 @@
+=== PRECISE SECURITY SCAN: Writing OS v1 artifacts only ===
+(word-boundary anchored; excludes node_modules/.git/.next/.zscripts/tool-results/skills/research)
+
+--- github_pat_ ---
+(none above = clean)
+
+--- ghp_ (36-char) ---
+(none above = clean)
+
+--- FIREWORKS_API_KEY= with value ---
+(none above = clean)
+
+--- Authorization: Bearer <token> ---
+(none above = clean)
+
+--- private key headers ---
+(none above = clean)
+
+--- .env files present? ---
+(none above = clean)
+
+=== SCAN COMPLETE ===

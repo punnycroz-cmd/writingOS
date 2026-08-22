@@ -1,0 +1,43 @@
+{
+  "sceneId": "S6",
+  "sceneLabel": "REGRESSION A — unsupported number \"127\"",
+  "candidateId": "S6-C1",
+  "candidateText": "There were 127 missing files.",
+  "expected": "REJECT",
+  "reasoning": "unsupported specific number — should be DETERMINISTIC_BLOCK",
+  "isRepair": false,
+  "beforeState": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_BLOCK",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence.",
+    "signalsCount": 3,
+    "hardViolations": [],
+    "softSignals": []
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Hard block: Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+    ],
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "DETERMINISTIC_BLOCK",
+  "correct": true,
+  "repair": null
+}

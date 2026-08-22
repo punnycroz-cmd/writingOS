@@ -1,0 +1,30 @@
+{
+  "caseId": "GC-0051",
+  "sourceExperiment": "writing-os-v1-1",
+  "candidateText": "Maya knew Marcus had stolen the money.",
+  "expectedTriage": "DETERMINISTIC_ACCEPT",
+  "expectedSemantic": {
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS"
+  },
+  "expectedFinalDecision": "ACCEPT",
+  "historicalObserved": "ACCEPT",
+  "historicalCorrect": true,
+  "currentTriage": "DETERMINISTIC_ACCEPT",
+  "currentTriageCorrect": true,
+  "currentSemantic": null,
+  "currentFinalDecision": "ACCEPT",
+  "currentFinalCorrect": true,
+  "ioCorrect": null,
+  "faithCorrect": null,
+  "isR6": false,
+  "isUnresolved": false,
+  "groundTruthType": "STRUCTURAL",
+  "triageScorable": true,
+  "semanticScorable": true,
+  "finalScorable": true,
+  "historicalComparison": "STABLE_SUCCESS",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "evaluatedAt": "2026-08-22T14:07:59.928Z"
+}

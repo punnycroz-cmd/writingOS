@@ -1,0 +1,67 @@
+{
+  "sceneId": "S4",
+  "sceneLabel": "STILL SUSPECTS — bad candidate triggers repair",
+  "candidateId": "S4-C1",
+  "candidateText": "Maya knew what Marcus had done.",
+  "expected": "REJECT",
+  "reasoning": "epistemic overreach — triggers repair",
+  "isRepair": true,
+  "beforeState": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload.",
+    "signalsCount": 3,
+    "hardViolations": [],
+    "softSignals": [
+      "Innocent lexical overlap on word \"Marcus\". No factual proposition leak established.",
+      "Ambient sensory texture without factual proposition leak."
+    ]
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "meaning: The sentence is internally coherent.",
+      "character: The document state authorizes Maya only to suspect Marcus, not to know what he did.",
+      "infoOwnership: State lists Maya as suspecting 'Marcus took money from the clinic'; 'knew' upgrades suspicion to knowledge.",
+      "canon: No contradiction with hard canon that Maya co-owns the clinic with Marcus.",
+      "voice: Sparse phrasing is compatible with Maya's voice.",
+      "register: Register is acceptable.",
+      "intelligibility: The sentence is clear.",
+      "deferred: No deferred checks are resolved.",
+      "faithfulness: The candidate asserts unauthorized certainty about Marcus's action beyond the supported epistemic state."
+    ],
+    "latencyMs": 11231,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true,
+  "repair": {
+    "originalCandidate": "Maya knew what Marcus had done.",
+    "validationDecision": "REJECT",
+    "violations": [],
+    "repairedCandidate": "Maya suspected what Marcus might have done.",
+    "repairTriageAction": "HANDOFF_TO_LLM",
+    "revalidationDecision": "ACCEPT",
+    "revalidationIo": "PASS",
+    "revalidationFaith": "PASS",
+    "revalidationMode": "LLM"
+  }
+}

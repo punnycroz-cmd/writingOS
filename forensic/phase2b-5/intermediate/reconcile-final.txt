@@ -1,0 +1,30 @@
+  "persistentDefect": 2,
+  "knownDefect": 1,
+  "changedUnscorable": 0,
+  "sourceExists": 59,
+  "sourceMissing": 0
+}
+
+=== 20 CONSISTENCY CHECKS ===
+  PASS 1_active_count: 59 == 59
+  PASS 2_superseded_exclusion: 0 superseded in active
+  PASS 3_no_duplicate_active_ids: 59 unique == 59
+  PASS 4_historical_classification_consistency: 0 mismatches
+  PASS 5_final_metric_sum: 4+1+54==59
+  PASS 6_active_results_complete: 59==59
+  PASS 7_active_result_provenance: 0 missing
+  PASS 8_r6_consistency: 3==3
+  PASS 9_source_paths: 59/59
+  PASS 10_no_execution_errors: 0
+  PASS 11_no_silent_inheritance: 0 inherited
+  PASS 12_active_result_identity: 0 mismatches
+  PASS 13_aggregate_classification_sum: 59==59
+  PASS 14_ledger_summary_consistency: active=59/59 scorableFinal=59/59 finalCorrect=54/54
+  PASS 15_classifier_usage_consistency: import present: true
+  PASS 16_gc0038r1_provenance: latency=8875, expectedIO=PASS
+  PASS 17_persisted_provenance_validity: 0 issues
+  PASS 18_freeze_doc_summary_consistency: freeze doc active=59 referenced: true
+  PASS 19_corpus_manifest_ledger_consistency: manifest.activeCases === 59
+  PASS 20_forensic_inventory_consistency: forensic MANIFEST.json present: true
+
+=== ALL 20 PASSED — FROZEN ===

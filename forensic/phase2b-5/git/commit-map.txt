@@ -1,0 +1,30 @@
+0ab1700acb70298e8756be5f7e22184bb1c5da4b|0578c852-6c15-49f2-af1c-9df3cfea145b|HEAD -> main, origin/research/phase2b-golden-corpus-v1-reconciled, research/phase2b-golden-corpus-v1-reconciled|e8a38e1d9906b86140ea8ff249219a77bb2a8c4d
+e8a38e1d9906b86140ea8ff249219a77bb2a8c4d|fix(corpus): canonical classifier + real GC-0038R1 execution + 16 checks ALL PASS||54d85d8e374b8855a04fec01fc1fc7fec20d9b76
+54d85d8e374b8855a04fec01fc1fc7fec20d9b76|fix(corpus): reconcile-v1 imports canonical classifier, 16 checks, no duplicate logic||ebaa7243084720a7fc42b5417137a84babffcef5
+ebaa7243084720a7fc42b5417137a84babffcef5|5d51c253-cc4b-46c4-b3b9-bcaa40e3ccc6||fb5c0985413efae48326e8e8100f7fa0ca4fd24b
+fb5c0985413efae48326e8e8100f7fa0ca4fd24b|feat(corpus): GC-0038R1 own execution + classify-comparison + canonical reconciliation||0bb236db3aa7302422e1f4bedaa9cd4f78c82747
+0bb236db3aa7302422e1f4bedaa9cd4f78c82747|feat(corpus): canonical reconciliation — all 8 consistency checks pass||c168eeb2ebba6bb6a23e71075b41250558e44efd
+c168eeb2ebba6bb6a23e71075b41250558e44efd|feat(corpus): freeze golden corpus v1 after reconciliation||0a843410f915a8c25e8684757b1596bfd9689029
+0a843410f915a8c25e8684757b1596bfd9689029|feat(corpus): complete golden corpus v1 baseline (59/59 cases, 0 errors)||878490b9a2be298f7a82824d5883cd371309ed3f
+878490b9a2be298f7a82824d5883cd371309ed3f|feat(corpus): golden corpus v1 evaluation runner + baseline reproduction||9347e0519508b6f75b4e14afeeae7863f3ba7d14
+9347e0519508b6f75b4e14afeeae7863f3ba7d14|docs: formalize mode/register architecture (Phase 2A.1)||3ed064e31d2bec593719e8a5edc49b684d84847f
+3ed064e31d2bec593719e8a5edc49b684d84847f|feat(corpus): golden corpus v1 + calibration registry||0664c8920919cca66ed1817852cb890ab73f5580
+0664c8920919cca66ed1817852cb890ab73f5580|docs: formalize Writing OS v1 canonical operational specification||dc4340fd1fdf06fb2504af26794a96f1fd59b686
+dc4340fd1fdf06fb2504af26794a96f1fd59b686|feat(r6): observation-framed indirect IO leak experiment||0af085bfe915fe013b38c6abf17142f6130f6419
+0af085bfe915fe013b38c6abf17142f6130f6419|feat(integration): writing OS v1.1 adversarial state integrity experiment||6317ff86e67977f8b90474dd841441c3f689e888
+6317ff86e67977f8b90474dd841441c3f689e888|feat(integration): writing OS v1 first end-to-end multi-scene experiment||e27969ee485fa9945403721c8b0e1c5d42a77201
+e27969ee485fa9945403721c8b0e1c5d42a77201|Merge branch 'original/semantic-validation-v4-2' into integration/writing-os-v1||c8a8640c0182692d04e16e6fb98a3b2469a303ca f5060a466d2902da7dcf8ef8cb78dc6127965669
+c8a8640c0182692d04e16e6fb98a3b2469a303ca|5d7f00ed-dd98-4c62-8047-d3e424cf406d||c47b59eb180dd346f3c9add7dc21aeddc21c8814
+f5060a466d2902da7dcf8ef8cb78dc6127965669|feat(semantic): iteration 4.3B clean epistemic benchmark + full calibrated run|origin/original/semantic-validation-v4-2, original/semantic-validation-v4-2|bb0872c4a35fcab7d13b454d82d42b2c5e3782bb
+c47b59eb180dd346f3c9add7dc21aeddc21c8814|feat(semantic): iteration 4.3B clean epistemic benchmark + full calibrated run||2aa9d438b7c802ac12ae87d8ec3462ca590f6c71
+bb0872c4a35fcab7d13b454d82d42b2c5e3782bb|1e05cace-9caa-46ef-85e1-a943a199cf13||4538bbd819d5d506f0a38a0f8576a12eec0efb23
+4538bbd819d5d506f0a38a0f8576a12eec0efb23|raw logs||c8d6027bd89276d5154b2e567022833cbc935fb5
+2aa9d438b7c802ac12ae87d8ec3462ca590f6c71|1e05cace-9caa-46ef-85e1-a943a199cf13||28205c46ff1bbbd430eff983afa083bb05c74382
+c8d6027bd89276d5154b2e567022833cbc935fb5|feat(semantic): add Fireworks provider replication of 4.3 epistemic benchmark||91c4acb06a65b740d09dc43dead3d093507b13f5
+91c4acb06a65b740d09dc43dead3d093507b13f5|chore(experiments): preserve iteration 4-4.2 historical artifacts||6c0784228dc3381a25cf5b905d0fe30d7c54087b
+6c0784228dc3381a25cf5b905d0fe30d7c54087b|docs(semantic): document validator, handoff contract, and limitations||6033e33d61b40d3fcbb85eab1f9558a2a9f3c0d2
+6033e33d61b40d3fcbb85eab1f9558a2a9f3c0d2|test(semantic): add focused semantic regression suite||3bb6d2e08dacccb0fd8d1cb9e08bfbe5f25887e1
+3bb6d2e08dacccb0fd8d1cb9e08bfbe5f25887e1|feat(semantic): add canonical semantic validation interface||d0a403ab1113d7461500bda7e42ba333904f0e5a
+d0a403ab1113d7461500bda7e42ba333904f0e5a|chore: remove secrets and machine-specific files from tracking||28205c46ff1bbbd430eff983afa083bb05c74382
+28205c46ff1bbbd430eff983afa083bb05c74382|a5d0dff5-679a-40c4-93a4-e4c51373fd81||edf518257872987a66bfae11b24f990d7bb79c2d
+edf518257872987a66bfae11b24f990d7bb79c2d|815f0078-fc1a-484c-9541-ea1bdb48e7f4||32d653a41f86704cddf9a3370bd360734d82a9d5

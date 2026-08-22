@@ -1,0 +1,60 @@
+{
+  "caseId": "A3",
+  "group": "A",
+  "label": "UNKNOWN + suspected ($40k specific)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus had stolen $40,000.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "FAIL",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The original only states that Marcus was at the desk; the candidate replaces that with a new claim about Maya suspecting theft.",
+      "character: The candidate assigns Maya a specific suspicion that is not supported by her empty currentKnowledge and is explicitly unsupported by the information state.",
+      "infoOwnership: The state marks Maya as UNKNOWN about Marcus taking money and lists no suspects; the candidate asserts Maya suspected that specific fact.",
+      "canon: No direct contradiction with the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No voice constraint is violated.",
+      "register: The sentence is stylistically coherent.",
+      "intelligibility: The sentence is clear.",
+      "deferred: No deferred checks are resolved.",
+      "faithfulness: The candidate introduces unsupported specific plot information, especially the exact amount of $40,000 and the theft suspicion."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SPECIFIC_AMOUNT",
+  "reasoning": "specific unsupported proposition with exact amount",
+  "latencyMs": 27005,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

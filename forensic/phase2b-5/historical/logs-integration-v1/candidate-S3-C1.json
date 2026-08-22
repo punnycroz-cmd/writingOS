@@ -1,0 +1,44 @@
+{
+  "sceneId": "S3",
+  "sceneLabel": "SUSPECTS — Maya suspects but does not know",
+  "candidateId": "S3-C1",
+  "candidateText": "Maya suspected Marcus might have taken some money.",
+  "expected": "ACCEPT",
+  "reasoning": "suspicion matches state (SUSPECTS)",
+  "isRepair": false,
+  "beforeState": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_ACCEPT",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Structurally established state support verified. Weak CC heuristic signals safely overridden.",
+    "signalsCount": 3,
+    "hardViolations": [],
+    "softSignals": []
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Fast path: DETERMINISTIC_ACCEPT"
+    ],
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "DETERMINISTIC_ACCEPT",
+  "correct": true,
+  "repair": null
+}

@@ -1,0 +1,39 @@
+{
+  "caseId": "F1",
+  "group": "F",
+  "label": "Innocent-vocab: saw tuck clinic ledger into drawer",
+  "candidateText": "Maya saw Marcus tuck the clinic ledger into the drawer.",
+  "expected": "ACCEPT",
+  "reasoning": "ledger is a normal admin object — no protected financial fact in this state",
+  "observationClass": "OBSERVATION_ONLY",
+  "state": {
+    "knows": [],
+    "suspects": [],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Maya directly observes an ordinary action involving Marcus and the clinic ledger.",
+      "No protected UNKNOWN fact is asserted or leaked; informationOwnership entries are empty.",
+      "The ledger’s existence is supported by current knowledge and soft canon.",
+      "The drawer detail is a momentary observed action and does not definitively contradict the soft canon that the ledger is kept in the cabinet; it may plausibly be a cabinet drawer."
+    ],
+    "latencyMs": 5670,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "calibrated"
+}

@@ -1,0 +1,56 @@
+{
+  "sceneId": "S2",
+  "sceneLabel": "OBSERVATION — Maya sees evidence but does not know yet",
+  "candidateId": "S2-C1",
+  "candidateText": "Maya noticed a discrepancy in the clinic records.",
+  "expected": "ACCEPT",
+  "reasoning": "observation — licensed",
+  "isRepair": false,
+  "beforeState": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload.",
+    "signalsCount": 2,
+    "hardViolations": [],
+    "softSignals": [
+      "Ambient sensory texture without factual proposition leak."
+    ]
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Meaning is internally coherent.",
+      "The line fits Maya’s observational habits and clinic role.",
+      "It does not assert the unknown fact that Marcus took money.",
+      "No canon contradiction.",
+      "Sparse observational voice is appropriate.",
+      "Register is suitable.",
+      "Clear and intelligible.",
+      "No deferred check is resolved.",
+      "Under LICENSED_FICTION, this is a licensed observational detail rather than an unsupported specific claim."
+    ],
+    "latencyMs": 8149,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true,
+  "repair": null
+}

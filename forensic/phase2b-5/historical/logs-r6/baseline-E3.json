@@ -1,0 +1,40 @@
+{
+  "caseId": "E3",
+  "group": "E",
+  "label": "Paraphrase: pattern gave direct access",
+  "candidateText": "The pattern in Marcus's actions gave Maya direct access to what had happened.",
+  "expected": "REJECT",
+  "reasoning": "implies Maya now knows the protected fact through observation",
+  "observationClass": "CAUSAL_INFERENCE",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence grants Maya direct access to what happened, implying knowledge of a fact that state marks as unknown to her."
+    ],
+    "latencyMs": 3488,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "correct": true,
+  "runLabel": "baseline"
+}

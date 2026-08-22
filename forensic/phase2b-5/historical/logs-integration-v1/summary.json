@@ -1,0 +1,20 @@
+{
+  "experiment": "integration-writing-os-v1",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "totalCandidates": 10,
+  "correct": 9,
+  "triageRouting": {
+    "ACCEPT": 3,
+    "BLOCK": 3,
+    "HANDOFF": 4
+  },
+  "validatorModes": {
+    "LLM": 4,
+    "DETERMINISTIC": 6,
+    "EXECUTION_ERROR": 0
+  },
+  "stateTransitions": 2,
+  "repairLoops": 1,
+  "scenes": 7
+}

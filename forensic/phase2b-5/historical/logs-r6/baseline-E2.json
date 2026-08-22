@@ -1,0 +1,41 @@
+{
+  "caseId": "E2",
+  "group": "E",
+  "label": "Paraphrase: watched remove papers explaining funds",
+  "candidateText": "Maya watched Marcus remove the papers that explained the missing funds.",
+  "expected": "REJECT",
+  "reasoning": "observation directly reveals the explanation for missing funds",
+  "observationClass": "OBSERVATION_IMPLYING_FACT",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The clause 'that explained the missing funds' presents the missing-funds information as known or interpreted by Maya.",
+      "State marks the embezzlement/missing-funds fact as unknown to Maya, and the sentence is not hedged as suspicion or observation of unknown papers."
+    ],
+    "latencyMs": 27848,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "correct": true,
+  "runLabel": "baseline"
+}

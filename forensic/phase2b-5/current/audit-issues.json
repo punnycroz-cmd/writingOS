@@ -1,0 +1,26 @@
+[
+  {
+    "caseId": "GC-0038",
+    "issue": "Incorrectly tagged as R6/UNRESOLVED. KNOWS-state observation (\"Maya saw Marcus hide the account records\" under KNOWS) should be ACCEPT, not REJECT. The R6 pattern applies to UNKNOWN-state observation-framed leaks, not KNOWS-state observations consistent with existing knowledge.",
+    "severity": "MEDIUM",
+    "evidence": [
+      "Source: r6-baseline D3-KNOWS",
+      "State: knows=[Marcus,Maya]",
+      "Expected final: ACCEPT",
+      "Historical observed: REJECT (wrong)",
+      "Current observed: ACCEPT (correct)"
+    ],
+    "resolution": "Superseded by GC-0038R1 with corrected tags. Original preserved as SUPERSEDED.",
+    "supersededBy": "GC-0038R1"
+  },
+  {
+    "caseId": "ALL",
+    "issue": "Source paths are relative to writing-engine/ directory. Need writing-engine/ prefix to resolve from project root.",
+    "severity": "LOW",
+    "evidence": [
+      "All 59 sourceFile paths lack writing-engine/ prefix"
+    ],
+    "resolution": "All 59 source files verified to exist with writing-engine/ prefix. Provenance is valid. Path format to be standardized in corpus v1.1.",
+    "supersededBy": null
+  }
+]

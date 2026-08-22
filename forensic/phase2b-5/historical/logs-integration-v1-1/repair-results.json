@@ -1,0 +1,26 @@
+[
+  {
+    "caseId": "A6-1",
+    "originalCandidate": "Maya knew Marcus had stolen the money.",
+    "validationDecision": "REJECT",
+    "violations": [],
+    "repairedCandidate": "Maya suspected Marcus had taken money from the clinic.",
+    "repairTriageAction": "DETERMINISTIC_ACCEPT",
+    "revalidationDecision": "ACCEPT",
+    "revalidationIo": "PASS",
+    "revalidationFaith": "PASS",
+    "revalidationMode": "DETERMINISTIC"
+  },
+  {
+    "caseId": "A7-1",
+    "originalCandidate": "Maya knew Marcus had stolen exactly $40,000.",
+    "validationDecision": "REJECT",
+    "violations": [],
+    "repairedCandidate": "Maya suspected Marcus had taken money from the clinic.",
+    "repairTriageAction": "DETERMINISTIC_ACCEPT",
+    "revalidationDecision": "ACCEPT",
+    "revalidationIo": "PASS",
+    "revalidationFaith": "PASS",
+    "revalidationMode": "DETERMINISTIC"
+  }
+]

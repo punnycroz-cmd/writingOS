@@ -1,0 +1,746 @@
+[
+  {
+    "caseId": "A1-S1",
+    "attack": "TEMPORAL_REGRESSION",
+    "sceneId": "S1",
+    "snapshotId": "SNAP-S1-UNKNOWN",
+    "candidateText": "Maya knew Marcus had stolen the money.",
+    "expected": "REJECT",
+    "reasoning": "UNKNOWN + knew → leak",
+    "isRepair": false,
+    "isTemporal": true,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus t"
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus took money from the clinic\" is UNKNOWN to character \"maya\"."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A1-S2",
+    "attack": "TEMPORAL_REGRESSION",
+    "sceneId": "S2",
+    "snapshotId": "SNAP-S2-SUSPECTS",
+    "candidateText": "Maya knew Marcus had stolen the money.",
+    "expected": "REJECT",
+    "reasoning": "SUSPECTS + knew → overreach",
+    "isRepair": false,
+    "isTemporal": true,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Epistemic / Information ownership violation: Epistemic Overreach: State authorizes SUSP"
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Epistemic / Information ownership violation: Epistemic Overreach: State authorizes SUSPECTS for \"Marcus took money from the clinic\", but candidate asserts KNOWLEDGE."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A1-S2b",
+    "attack": "TEMPORAL_REGRESSION",
+    "sceneId": "S2",
+    "snapshotId": "SNAP-S2-SUSPECTS",
+    "candidateText": "Maya suspected Marcus had taken some money.",
+    "expected": "ACCEPT",
+    "reasoning": "SUSPECTS + suspected → matches state",
+    "isRepair": false,
+    "isTemporal": true,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_ACCEPT",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Structurally established state support verified. Weak CC heuristic signals safely overr"
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Fast path"
+      ],
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "DETERMINISTIC_ACCEPT",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A1-S3",
+    "attack": "TEMPORAL_REGRESSION",
+    "sceneId": "S3",
+    "snapshotId": "SNAP-S3-KNOWS",
+    "candidateText": "Maya knew Marcus had stolen the money.",
+    "expected": "ACCEPT",
+    "reasoning": "KNOWS + knew → matches state",
+    "isRepair": false,
+    "isTemporal": true,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_ACCEPT",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Structurally established state support verified. Weak CC heuristic signals safely overr"
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Fast path"
+      ],
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "DETERMINISTIC_ACCEPT",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A3-1",
+    "attack": "CROSS_CHARACTER",
+    "sceneId": "S3",
+    "snapshotId": "SNAP-S4-MAYA-UNKNOWN-MARCUS-KNOWS",
+    "candidateText": "Maya knew what Marcus had learned.",
+    "expected": "REJECT",
+    "reasoning": "Marcus knows but Maya does NOT — cross-character leak",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Maya is asserted to know what Marcus learned, but the state gives Maya no such knowledge and marks the tracked Marcus-related fact as unknown to her."
+      ],
+      "latencyMs": 40859,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A3-2",
+    "attack": "CROSS_CHARACTER",
+    "sceneId": "S3",
+    "snapshotId": "SNAP-S4-MAYA-UNKNOWN-MARCUS-KNOWS",
+    "candidateText": "Marcus knew what he had learned.",
+    "expected": "ACCEPT",
+    "reasoning": "Marcus knows — correct owner",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence is vague and does not disclose the owned fact.",
+        "Marcus is authorized to know his own secret.",
+        "No canon, deferred check, or specific unsupported detail is violated."
+      ],
+      "latencyMs": 4757,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A4-1",
+    "attack": "INDIRECT_IO_LEAK",
+    "sceneId": "S1",
+    "snapshotId": "SNAP-S1-UNKNOWN",
+    "candidateText": "Maya saw Marcus hide the ledger under his coat.",
+    "expected": "REJECT",
+    "reasoning": "R6 — indirect IO leak via observable action",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence reports an observed action, not certainty about the unknown fact that Marcus took money.",
+        "No explicit knowledge, suspicion, or resolution of the protected fact is asserted.",
+        "Under LICENSED_FICTION, the observed physical detail is permissible and does not contradict canon."
+      ],
+      "latencyMs": 14699,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "correct": false,
+    "failureClass": "INDIRECT_SEMANTIC_IO_LEAK",
+    "repair": null
+  },
+  {
+    "caseId": "A5-1",
+    "attack": "PARAPHRASE_LEAK",
+    "sceneId": "S1",
+    "snapshotId": "SNAP-S1-UNKNOWN",
+    "candidateText": "The meaning of Marcus's silence was suddenly obvious to Maya.",
+    "expected": "REJECT",
+    "reasoning": "paraphrased knowledge — implied understanding",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "UNCLEAR",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Maya is presented as finding the meaning of Marcus's silence obvious, but the state marks the salient clinic-money fact as unknown to her and provides no evidence authorizing that certainty."
+      ],
+      "latencyMs": 17596,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A5-2",
+    "attack": "PARAPHRASE_LEAK",
+    "sceneId": "S1",
+    "snapshotId": "SNAP-S1-UNKNOWN",
+    "candidateText": "Maya understood exactly why Marcus had moved the money.",
+    "expected": "REJECT",
+    "reasoning": "paraphrased knowledge — \"understood why\"",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus t"
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus took money from the clinic\" is UNKNOWN to character \"maya\"."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A5-3",
+    "attack": "PARAPHRASE_LEAK",
+    "sceneId": "S1",
+    "snapshotId": "SNAP-S1-UNKNOWN",
+    "candidateText": "The truth behind the missing records clicked into place for Maya.",
+    "expected": "REJECT",
+    "reasoning": "paraphrased knowledge — \"truth clicked into place\"",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Maya is presented as having a definite realization about the missing records, but the state does not authorize her knowledge of that truth.",
+        "The candidate introduces unsupported plot facts ('missing records' and their truth) without state basis."
+      ],
+      "latencyMs": 8184,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A6-1",
+    "attack": "REPAIR_LEAK",
+    "sceneId": "S2",
+    "snapshotId": "SNAP-S2-SUSPECTS",
+    "candidateText": "Maya knew Marcus had stolen the money.",
+    "expected": "REJECT",
+    "reasoning": "SUSPECTS + knew → triggers repair; repair must not invent knowledge",
+    "isRepair": true,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Epistemic / Information ownership violation: Epistemic Overreach: State authorizes SUSP"
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Epistemic / Information ownership violation: Epistemic Overreach: State authorizes SUSPECTS for \"Marcus took money from the clinic\", but candidate asserts KNOWLEDGE."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": {
+      "originalCandidate": "Maya knew Marcus had stolen the money.",
+      "validationDecision": "REJECT",
+      "violations": [],
+      "repairedCandidate": "Maya suspected Marcus had taken money from the clinic.",
+      "repairTriageAction": "DETERMINISTIC_ACCEPT",
+      "revalidationDecision": "ACCEPT",
+      "revalidationIo": "PASS",
+      "revalidationFaith": "PASS",
+      "revalidationMode": "DETERMINISTIC"
+    }
+  },
+  {
+    "caseId": "A7-1",
+    "attack": "REPAIR_NUMERIC",
+    "sceneId": "S2",
+    "snapshotId": "SNAP-S2-SUSPECTS",
+    "candidateText": "Maya knew Marcus had stolen exactly $40,000.",
+    "expected": "REJECT",
+    "reasoning": "SUSPECTS + exact amount → triggers repair; repair must not invent $40k",
+    "isRepair": true,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": {
+      "originalCandidate": "Maya knew Marcus had stolen exactly $40,000.",
+      "validationDecision": "REJECT",
+      "violations": [],
+      "repairedCandidate": "Maya suspected Marcus had taken money from the clinic.",
+      "repairTriageAction": "DETERMINISTIC_ACCEPT",
+      "revalidationDecision": "ACCEPT",
+      "revalidationIo": "PASS",
+      "revalidationFaith": "PASS",
+      "revalidationMode": "DETERMINISTIC"
+    }
+  },
+  {
+    "caseId": "A8-1",
+    "attack": "SNAPSHOT_ISOLATION",
+    "sceneId": "S3",
+    "snapshotId": "SNAP-S3-KNOWS",
+    "candidateText": "Maya wondered if something was wrong.",
+    "expected": "ACCEPT",
+    "reasoning": "KNOWS + wondered → downgrade, licensed",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The sentence expresses vague uncertainty ('wondered if something was wrong'), which is permitted under LICENSED_FICTION.",
+        "It does not assert unknown facts, resolve deferred checks, or contradict canon.",
+        "Maya's known fact about Marcus taking money does not conflict with her vaguely wondering whether something is wrong."
+      ],
+      "latencyMs": 2609,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A8-2",
+    "attack": "SNAPSHOT_ISOLATION",
+    "sceneId": "S1",
+    "snapshotId": "SNAP-S1-UNKNOWN",
+    "candidateText": "Maya knew Marcus had stolen $40,000.",
+    "expected": "REJECT",
+    "reasoning": "UNKNOWN + knew $40k → leak (using S1 snapshot, not S3)",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A9-1",
+    "attack": "DEFERRED_KNOWLEDGE",
+    "sceneId": "S2",
+    "snapshotId": "SNAP-S1-UNKNOWN",
+    "candidateText": "Maya understood the significance of the trowel left on the bench.",
+    "expected": "REJECT",
+    "reasoning": "deferred clue — Maya cannot yet understand significance",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "The state does not authorize Maya to know the significance of the trowel.",
+        "'Understood' asserts certainty about an unknown/unestablished fact."
+      ],
+      "latencyMs": 10403,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  },
+  {
+    "caseId": "A10-1",
+    "attack": "CONFLICTING_STATE",
+    "sceneId": "SX",
+    "snapshotId": "SNAP-CONFLICT",
+    "candidateText": "Maya knew Marcus had stolen the money.",
+    "expected": "REJECT",
+    "reasoning": "conflicting state — IO says UNKNOWN, CharacterState says KNOWS; should not silently accept",
+    "isRepair": false,
+    "isTemporal": false,
+    "stateSnapshot": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus t"
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus took money from the clinic\" is UNKNOWN to character \"maya\"."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "failureClass": "NONE",
+    "repair": null
+  }
+]

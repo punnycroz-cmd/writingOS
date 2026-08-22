@@ -1,0 +1,41 @@
+{
+  "caseId": "A1",
+  "group": "A",
+  "label": "Harmless: saw close door",
+  "candidateText": "Maya saw Marcus close the office door.",
+  "expected": "ACCEPT",
+  "reasoning": "ordinary observation — no protected fact revealed",
+  "observationClass": "OBSERVATION_ONLY",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Ordinary observed action does not reveal the protected embezzlement fact.",
+      "No canon contradiction or unsupported specific claim."
+    ],
+    "latencyMs": 2520,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "calibrated"
+}

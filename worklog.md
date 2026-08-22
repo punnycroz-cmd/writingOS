@@ -315,3 +315,34 @@ Stage Summary:
 - GC-0038R1 has genuine execution provenance (non-zero latency, real timestamp).
 - All 16 consistency checks pass. Golden Corpus v1 is FROZEN.
 - STOP per task's stop condition.
+
+---
+Task ID: PHASE-2B-5
+Agent: Main orchestrator (Z.ai Code)
+Task: Phase 2B.5 — Final Golden Corpus v1 artifact synchronization + full forensic snapshot. Finalize GC v1 (provenance model, 20 checks, GC-0038R1 ground-truth correction, test suite) and preserve a complete safe forensic snapshot of all Phase 2B work so another agent can independently audit what happened.
+
+Work Log:
+- Checked out `research/phase2b-golden-corpus-v1-reconciled` (already existed on origin; same SHA as main). Sandbox intermittently reset branch to main; recovered via `git checkout` (changes carried since both branches shared HEAD).
+- Audited existing state: 57/60 result files MISSING executionProvenance; GC-0038R1 expectedSemantic still {FAIL,FAIL}; only 16 checks; no corpus tests; docs had stale metrics; no forensic snapshot.
+- Wrote `forensic/phase2b-5/scripts/add-provenance.ts`: adds explicit executionProvenance to all result files (EXECUTED for LLM/DETERMINISTIC, EXECUTION_ERROR for errors), validates per task #17 rules, corrects GC-0038R1 ground truth to {PASS,PASS} in both result file and cases.jsonl. Patched 58 files, 2 already OK.
+- Rewrote `src/corpus/reconcile-v1.ts` (v4): READS persisted executionProvenance (no longer derives), added validateProvenance(), expanded to 20 consistency checks (added #17 persisted_provenance_validity, #18 freeze_doc_summary_consistency, #19 corpus_manifest_ledger_consistency, #20 forensic_inventory_consistency). No hardcoded passed=true.
+- Added `"activeCases": 59` to `corpus/golden-v1/corpus-manifest.json` (kept activeCaseCount for compat).
+- Wrote `tests/corpus/classify-comparison.test.ts` (15 tests: all 6 HistoricalComparison outcomes + R6-specific + null/undefined handling + full-matrix reachability).
+- Wrote `tests/corpus/freeze-integrity.test.ts` (21 end-to-end tests loading actual corpus/results/ledger/summary/manifest/freeze-doc).
+- Ran `bun test tests/corpus/` → 36/36 pass, 457 expect() calls.
+- Ran `bun run lint` → clean.
+- Ran `bun run src/corpus/reconcile-v1.ts` → 20/20 checks PASS, FROZEN. Regenerated canonical-case-ledger, reconciliation-report, consistency-check, summary.
+- Rewrote `docs/corpus/GOLDEN_CORPUS_V1.md` (canonical metrics, provenance model, GC-0038R1 correction, 20 checks).
+- Rewrote `docs/corpus/GOLDEN_CORPUS_V1_FREEZE.md` (correct metrics 59/54, correct defect classifications — GC-0025 & GC-0054 are PERSISTENT_DEFECT not REGRESSION, 20-check summary).
+- Created complete `forensic/phase2b-5/` snapshot: MANIFEST.json, EXCLUDED_FILES.md, working-process.md, commands.log, timeline.md, git-state.txt, file-inventory.json (924 files, 0 sensitive), git/ (snapshot, tracked/untracked/ignored, commit-map), historical/ (v2b4r artifacts + logs-r6 + logs-integration-v1/v1-1 + logs43fw + writing-engine-src), current/ (post-change artifacts), intermediate/ (reconcile output + security scans), scripts/ (all source + v2b4r versions + add-provenance + build-inventory + tests), test-results/ (corpus-tests.txt), reconciliation-history/ (v3-v2b4r + v4-phase2b5 with code + outputs), final-audit-report.md.
+- Security scan: precise scan on Writing OS artifacts (corpus, src/corpus, tests/corpus, writing-engine, docs/corpus, forensic, logs43fw) found 0 actual secrets. Broad scan false positives: "sk-" substring in research/legal_opc*.json (filename hash "mask-cdf..."), "AKIA" in skills/*.html (base64 image data, gitignored). No sanitization needed.
+- This was a research/corpus task, NOT website development. No cron webDevReview task created.
+
+Stage Summary:
+- GC-0038R1 ground truth corrected to {infoOwnership: PASS, faithfulness: PASS} with documented policy reason (KNOWS-state observation is licensed narrative, not IO leak). GC-0038 remains SUPERSEDED unchanged.
+- All 60 result files have explicit persisted executionProvenance. Reconciler READS it (does not invent).
+- 20/20 consistency checks PASS. 36/36 tests PASS. Lint clean. 0 secrets.
+- Canonical metrics: activeCases=59, scorableFinal=59, finalCorrect=54 (92%), ioOwnership=26/30 (87%), faithfulness=29/30 (97%), falseAcceptance=4, falseRejection=1, executionErrors=0, llmExecuted=42, deterministicFastPathed=17. Historical: 50 STABLE_SUCCESS, 4 IMPROVEMENT, 2 REGRESSION, 2 PERSISTENT_DEFECT, 1 KNOWN_DEFECT.
+- R6: GC-0031 IMPROVEMENT, GC-0033 KNOWN_DEFECT, GC-0036 IMPROVEMENT. R6 is a TAG, not a forced classification.
+- Full forensic snapshot preserved in forensic/phase2b-5/ — another agent can reconstruct what happened without sandbox access.
+- Golden Corpus v1 is FROZEN. STOP per task #38. No Nonfiction Mode, no SourceFactLedger, no Style/Voice, no R6 solution, no new benchmark, no model training.

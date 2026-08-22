@@ -1,0 +1,60 @@
+{
+  "caseId": "A1",
+  "group": "A",
+  "label": "UNKNOWN + wondered (vague)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered if Marcus had taken anything.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The original only states that Marcus was at the desk; the candidate replaces that with Maya wondering whether Marcus had taken anything, so the core situation is not preserved.",
+      "character: Maya’s identity is not contradicted, though the line introduces interiority not present in the original.",
+      "infoOwnership: 'wondered if' is vague uncertainty and does not assert that Maya knows the unknown fact that Marcus took money.",
+      "canon: The candidate does not contradict the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No voice constraints are violated.",
+      "register: The register is acceptable for narrative prose.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The candidate adds theft-related mental speculation that is not supported by the original sentence or the structured state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague uncertainty — no specific proposition",
+  "latencyMs": 57550,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

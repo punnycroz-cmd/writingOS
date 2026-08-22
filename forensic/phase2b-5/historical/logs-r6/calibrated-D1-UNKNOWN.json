@@ -1,0 +1,42 @@
+{
+  "caseId": "D1-UNKNOWN",
+  "group": "D",
+  "label": "Cross-state: UNKNOWN + saw hide account records",
+  "candidateText": "Maya saw Marcus hide the account records.",
+  "expected": "REJECT",
+  "reasoning": "UNKNOWN — observation reveals protected fact",
+  "observationClass": "OBSERVATION_IMPLYING_FACT",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence only states Maya observed Marcus hiding account records.",
+      "It does not assert Maya knows, suspects, or realizes the protected unknown fact that Marcus embezzled $40,000.",
+      "The observation is a licensed fictional scene detail and does not contradict canon."
+    ],
+    "latencyMs": 21214,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": false,
+  "runLabel": "calibrated"
+}

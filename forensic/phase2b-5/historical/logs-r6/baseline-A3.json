@@ -1,0 +1,42 @@
+{
+  "caseId": "A3",
+  "group": "A",
+  "label": "Harmless: noticed leave clinic",
+  "candidateText": "Maya noticed Marcus leave the clinic.",
+  "expected": "ACCEPT",
+  "reasoning": "ordinary observation",
+  "observationClass": "OBSERVATION_ONLY",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence states only an ordinary observation.",
+      "It does not reveal or imply the unknown embezzlement fact.",
+      "It is consistent with the canon that Maya co-owns a clinic with Marcus."
+    ],
+    "latencyMs": 3091,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "baseline"
+}

@@ -1,0 +1,23 @@
+=== SECURITY SCAN: sensitive patterns in project files (excluding node_modules/.git/.next/.zscripts) ===
+
+--- Searching for github_pat_ ---
+
+--- Searching for ghp_ tokens ---
+
+--- Searching for gho_ tokens ---
+
+--- Searching for sk- openai keys ---
+./research/legal_opc_overview.json
+./research/legal_opc.json
+
+--- Searching for AKIA aws keys ---
+./skills/design/design-templates/blog-post/肌肤专题｜关于屏障的一次重读.html
+./skills/design/design-templates/digital-eguide/social-carousel.html
+
+--- Searching for FIREWORKS_API_KEY= assignments with values ---
+
+--- Searching for OPENAI_API_KEY= assignments with values ---
+
+--- Searching for Authorization: Bearer headers with values ---
+
+--- Done ---

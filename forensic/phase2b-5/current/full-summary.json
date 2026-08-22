@@ -1,0 +1,20 @@
+{
+  "totalCases": 8,
+  "scorableTriage": 8,
+  "triageCorrect": 8,
+  "scorableFinal": 5,
+  "finalCorrect": 5,
+  "r6Cases": 3,
+  "llmExecuted": 8,
+  "executionErrors": 0,
+  "historicalComparisons": {
+    "STABLE_SUCCESS": 5,
+    "REGRESSION": 0,
+    "IMPROVEMENT": 0,
+    "PERSISTENT_DEFECT": 0,
+    "CHANGED_UNSCORABLE": 3
+  },
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "mode": "full"
+}

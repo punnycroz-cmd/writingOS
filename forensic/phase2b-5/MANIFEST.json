@@ -1,0 +1,33 @@
+{
+  "task": "PHASE-2B-5",
+  "snapshotCreatedAt": "2026-08-22T22:55:00.000Z",
+  "repository": "punnycroz-cmd/writingOS",
+  "branch": "research/phase2b-golden-corpus-v1-reconciled",
+  "head": "6bc4f1ef674de5e7f541141bb7a3579ef9dfce98",
+  "filesPreserved": 924,
+  "filesExcluded": 0,
+  "sanitizedFiles": 0,
+  "categories": {
+    "other": 1,
+    "report": 126,
+    "data": 725,
+    "source": 60,
+    "log": 8,
+    "test": 4
+  },
+  "sensitivePatternsChecked": true,
+  "secretsFound": false,
+  "scanNotes": "Scanned for github_pat_, ghp_, gho_, sk- (OpenAI), AKIA (AWS), FIREWORKS_API_KEY=, OPENAI_API_KEY=, ANTHROPIC_API_KEY=, GOOGLE_API_KEY=, YOU_API_KEY=, Authorization: Bearer, BEGIN PRIVATE KEY, .env files. All matches in Writing OS artifacts were false positives (substring of filenames like mask-cdf..., base64 image data). No actual secrets found in any committed file.",
+  "excludedByPolicy": [
+    "node_modules/",
+    ".git/",
+    ".next/",
+    ".zscripts/",
+    ".z-ai-config/",
+    "tool-results/",
+    "upload/",
+    "download/",
+    "skills/ (gitignored sandbox infra)",
+    ".env (gitignored)"
+  ]
+}

@@ -1,0 +1,490 @@
+[
+  {
+    "sceneId": "S1",
+    "sceneLabel": "UNKNOWN — Maya does not know",
+    "candidateId": "S1-C1",
+    "candidateText": "Maya wondered if something was wrong.",
+    "expected": "ACCEPT",
+    "reasoning": "vague uncertainty — licensed under UNKNOWN",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload.",
+      "signalsCount": 2,
+      "hardViolations": [],
+      "softSignals": [
+        "Ambient sensory texture without factual proposition leak."
+      ]
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Candidate expresses vague uncertainty with 'wondered if something was wrong', which is licensed and does not leak the unknown fact about Marcus.",
+        "No specific claim is made that Maya knows or suspects Marcus took money.",
+        "Consistent with Maya's wary emotional state and fear that Marcus may be hiding something.",
+        "No canon contradiction, unsupported number/date/name, or deferred check resolution."
+      ],
+      "latencyMs": 6513,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "correct": true,
+    "repair": null
+  },
+  {
+    "sceneId": "S2",
+    "sceneLabel": "OBSERVATION — Maya sees evidence but does not know yet",
+    "candidateId": "S2-C1",
+    "candidateText": "Maya noticed a discrepancy in the clinic records.",
+    "expected": "ACCEPT",
+    "reasoning": "observation — licensed",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload.",
+      "signalsCount": 2,
+      "hardViolations": [],
+      "softSignals": [
+        "Ambient sensory texture without factual proposition leak."
+      ]
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Meaning is internally coherent.",
+        "The line fits Maya’s observational habits and clinic role.",
+        "It does not assert the unknown fact that Marcus took money.",
+        "No canon contradiction.",
+        "Sparse observational voice is appropriate.",
+        "Register is suitable.",
+        "Clear and intelligible.",
+        "No deferred check is resolved.",
+        "Under LICENSED_FICTION, this is a licensed observational detail rather than an unsupported specific claim."
+      ],
+      "latencyMs": 8149,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "correct": true,
+    "repair": null
+  },
+  {
+    "sceneId": "S2",
+    "sceneLabel": "OBSERVATION — Maya sees evidence but does not know yet",
+    "candidateId": "S2-C2",
+    "candidateText": "Maya knew Marcus had taken the money.",
+    "expected": "REJECT",
+    "reasoning": "epistemic overreach — UNKNOWN + knowledge",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus took money from the clinic\" is UNKNOWN to character \"maya\".",
+      "signalsCount": 3,
+      "hardViolations": [],
+      "softSignals": []
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Epistemic / Information ownership violation: Information Ownership Leak: Fact \"Marcus took money from the clinic\" is UNKNOWN to character \"maya\"."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "repair": null
+  },
+  {
+    "sceneId": "S3",
+    "sceneLabel": "SUSPECTS — Maya suspects but does not know",
+    "candidateId": "S3-C1",
+    "candidateText": "Maya suspected Marcus might have taken some money.",
+    "expected": "ACCEPT",
+    "reasoning": "suspicion matches state (SUSPECTS)",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_ACCEPT",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Structurally established state support verified. Weak CC heuristic signals safely overridden.",
+      "signalsCount": 3,
+      "hardViolations": [],
+      "softSignals": []
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Fast path: DETERMINISTIC_ACCEPT"
+      ],
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "DETERMINISTIC_ACCEPT",
+    "correct": true,
+    "repair": null
+  },
+  {
+    "sceneId": "S3",
+    "sceneLabel": "SUSPECTS — Maya suspects but does not know",
+    "candidateId": "S3-C2",
+    "candidateText": "Maya knew Marcus had stolen the money.",
+    "expected": "REJECT",
+    "reasoning": "epistemic overreach — SUSPECTS + knowledge",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Epistemic / Information ownership violation: Epistemic Overreach: State authorizes SUSPECTS for \"Marcus took money from the clinic\", but candidate asserts KNOWLEDGE.",
+      "signalsCount": 4,
+      "hardViolations": [],
+      "softSignals": []
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Epistemic / Information ownership violation: Epistemic Overreach: State authorizes SUSPECTS for \"Marcus took money from the clinic\", but candidate asserts KNOWLEDGE."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "repair": null
+  },
+  {
+    "sceneId": "S4",
+    "sceneLabel": "STILL SUSPECTS — bad candidate triggers repair",
+    "candidateId": "S4-C1",
+    "candidateText": "Maya knew what Marcus had done.",
+    "expected": "REJECT",
+    "reasoning": "epistemic overreach — triggers repair",
+    "isRepair": true,
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload.",
+      "signalsCount": 3,
+      "hardViolations": [],
+      "softSignals": [
+        "Innocent lexical overlap on word \"Marcus\". No factual proposition leak established.",
+        "Ambient sensory texture without factual proposition leak."
+      ]
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "meaning: The sentence is internally coherent.",
+        "character: The document state authorizes Maya only to suspect Marcus, not to know what he did.",
+        "infoOwnership: State lists Maya as suspecting 'Marcus took money from the clinic'; 'knew' upgrades suspicion to knowledge.",
+        "canon: No contradiction with hard canon that Maya co-owns the clinic with Marcus.",
+        "voice: Sparse phrasing is compatible with Maya's voice.",
+        "register: Register is acceptable.",
+        "intelligibility: The sentence is clear.",
+        "deferred: No deferred checks are resolved.",
+        "faithfulness: The candidate asserts unauthorized certainty about Marcus's action beyond the supported epistemic state."
+      ],
+      "latencyMs": 11231,
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "correct": true,
+    "repair": {
+      "originalCandidate": "Maya knew what Marcus had done.",
+      "validationDecision": "REJECT",
+      "violations": [],
+      "repairedCandidate": "Maya suspected what Marcus might have done.",
+      "repairTriageAction": "HANDOFF_TO_LLM",
+      "revalidationDecision": "ACCEPT",
+      "revalidationIo": "PASS",
+      "revalidationFaith": "PASS",
+      "revalidationMode": "LLM"
+    }
+  },
+  {
+    "sceneId": "S5",
+    "sceneLabel": "KNOWS — Maya now knows (with amount in state)",
+    "candidateId": "S5-C1",
+    "candidateText": "Maya knew Marcus had stolen the money.",
+    "expected": "ACCEPT",
+    "reasoning": "knowledge matches state (KNOWS)",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_ACCEPT",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Structurally established state support verified. Weak CC heuristic signals safely overridden.",
+      "signalsCount": 4,
+      "hardViolations": [],
+      "softSignals": []
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Fast path: DETERMINISTIC_ACCEPT"
+      ],
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "DETERMINISTIC_ACCEPT",
+    "correct": true,
+    "repair": null
+  },
+  {
+    "sceneId": "S5",
+    "sceneLabel": "KNOWS — Maya now knows (with amount in state)",
+    "candidateId": "S5-C2",
+    "candidateText": "Maya knew Marcus had stolen $40,000.",
+    "expected": "ACCEPT",
+    "reasoning": "state-supported number (Rule E)",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_ACCEPT",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Structurally established state support verified. Weak CC heuristic signals safely overridden.",
+      "signalsCount": 5,
+      "hardViolations": [],
+      "softSignals": []
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Fast path: DETERMINISTIC_ACCEPT"
+      ],
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "DETERMINISTIC_ACCEPT",
+    "correct": true,
+    "repair": null
+  },
+  {
+    "sceneId": "S6",
+    "sceneLabel": "REGRESSION A — unsupported number \"127\"",
+    "candidateId": "S6-C1",
+    "candidateText": "There were 127 missing files.",
+    "expected": "REJECT",
+    "reasoning": "unsupported specific number — should be DETERMINISTIC_BLOCK",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "deterministicTriage": {
+      "action": "DETERMINISTIC_BLOCK",
+      "proofStrength": "PROVABLE",
+      "reasoning": "Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence.",
+      "signalsCount": 3,
+      "hardViolations": [],
+      "softSignals": []
+    },
+    "semanticValidation": {
+      "provider": "DETERMINISTIC",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "DETERMINISTIC",
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": false,
+      "reasons": [
+        "Hard block: Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+      ],
+      "error": null
+    },
+    "finalDecision": "REJECT",
+    "finalReason": "DETERMINISTIC_BLOCK",
+    "correct": true,
+    "repair": null
+  },
+  {
+    "sceneId": "S6b",
+    "sceneLabel": "REGRESSION B — indirect IO leak (R6)",
+    "candidateId": "S6b-C1",
+    "candidateText": "Maya saw Marcus hide the ledger under his coat.",
+    "expected": "REJECT",
+    "reasoning": "indirect IO leak — semantic gap (R6)",
+    "isRepair": false,
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "deterministicTriage": {
+      "action": "HANDOFF_TO_LLM",
+      "proofStrength": "UNRESOLVED",
+      "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload.",
+      "signalsCount": 2,
+      "hardViolations": [],
+      "softSignals": [
+        "Ambient sensory texture without factual proposition leak."
+      ]
+    },
+    "semanticValidation": {
+      "provider": "FIREWORKS",
+      "model": "accounts/fireworks/models/qwen3p8-max",
+      "validatorMode": "LLM",
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true,
+      "reasons": [
+        "Meaning is internally coherent.",
+        "Character-compatible: Maya is observant and wary; seeing Marcus conceal something fits her perceptual habits.",
+        "No prohibited knowledge leak: the sentence reports an observation, not knowledge or certainty that Marcus took money.",
+        "No canon contradiction.",
+        "No deferred check resolved.",
+        "Under LICENSED_FICTION, this is narratively licensed observational texture without unsupported specific numbers, dates, or named facts."
+      ],
+      "latencyMs": 21484,
+      "error": null
+    },
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "correct": false,
+    "repair": null
+  }
+]

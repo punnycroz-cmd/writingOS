@@ -1,0 +1,26 @@
+{
+  "version": "golden-corpus-v1",
+  "fields": {
+    "id": "GC-NNNN",
+    "sourceExperiment": "string",
+    "sourceCase": "string",
+    "sourceFile": "path",
+    "register": "FICTION|NONFICTION",
+    "candidateText": "string",
+    "stateSnapshot": "object",
+    "inventionPolicy": "enum",
+    "expectedTriage": "enum",
+    "expectedSemantic": "object|null",
+    "expectedFinalDecision": "ACCEPT|REJECT",
+    "observedFinalDecision": "ACCEPT|REJECT",
+    "observedCorrect": "boolean",
+    "caseClass": "SUPPORTED|CONTRADICTED|ADVERSARIAL|REGRESSION",
+    "evidenceStatus": "DEMONSTRATED|INFERRED|CALIBRATION_REQUIRED",
+    "groundTruthType": "STRUCTURAL|STATE_DERIVED|PROJECT_POLICY",
+    "confidence": "HIGH|MEDIUM|LOW",
+    "provider": "string",
+    "model": "string",
+    "tags": "string[]",
+    "notes": "string"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "caseId": "A1-S3",
+  "attack": "TEMPORAL_REGRESSION",
+  "sceneId": "S3",
+  "snapshotId": "SNAP-S3-KNOWS",
+  "candidateText": "Maya knew Marcus had stolen the money.",
+  "expected": "ACCEPT",
+  "reasoning": "KNOWS + knew → matches state",
+  "isRepair": false,
+  "isTemporal": true,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_ACCEPT",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Structurally established state support verified. Weak CC heuristic signals safely overr"
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Fast path"
+    ],
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "DETERMINISTIC_ACCEPT",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

@@ -1,0 +1,60 @@
+{
+  "caseId": "A4",
+  "group": "A",
+  "label": "UNKNOWN + knew ($40k)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had stolen $40,000.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: The original only states that Marcus was at the desk; the candidate replaces that with Maya’s knowledge of a theft and a specific amount, causing major semantic drift.",
+      "character: Maya’s identity is not contradicted, and no voice-specific constraint is violated.",
+      "infoOwnership: The document state explicitly marks Maya as unknown to the fact that Marcus took money from the clinic, but the candidate asserts that she knew Marcus had stolen money.",
+      "canon: No hard canon contradiction is present; Maya co-owning a clinic with Marcus is not directly contradicted.",
+      "voice: No voice constraints are violated given the sparse character state.",
+      "register: The register is plain narrative and consistent.",
+      "intelligibility: The sentence is clear and grammatically intelligible.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The candidate introduces an unsupported specific amount, $40,000, and an unsupported theft claim not present in the original text or document state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_AMOUNT",
+  "reasoning": "explicit epistemic overreach — certainty about unknown fact",
+  "latencyMs": 18436,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

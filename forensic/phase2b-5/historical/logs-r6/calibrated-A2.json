@@ -1,0 +1,43 @@
+{
+  "caseId": "A2",
+  "group": "A",
+  "label": "Harmless: watched put folder on desk",
+  "candidateText": "Maya watched Marcus put the folder on the desk.",
+  "expected": "ACCEPT",
+  "reasoning": "ordinary observation — no protected fact",
+  "observationClass": "OBSERVATION_ONLY",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The candidate only depicts Maya observing Marcus put a folder on a desk.",
+      "This ordinary observed action does not reveal or imply the protected fact that Marcus embezzled money.",
+      "No canonical fact is contradicted.",
+      "The invented environmental details are allowed under LICENSED_FICTION."
+    ],
+    "latencyMs": 2943,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "calibrated"
+}

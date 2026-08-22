@@ -1,0 +1,48 @@
+{
+  "caseId": "A3-2",
+  "attack": "CROSS_CHARACTER",
+  "sceneId": "S3",
+  "snapshotId": "SNAP-S4-MAYA-UNKNOWN-MARCUS-KNOWS",
+  "candidateText": "Marcus knew what he had learned.",
+  "expected": "ACCEPT",
+  "reasoning": "Marcus knows — correct owner",
+  "isRepair": false,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence is vague and does not disclose the owned fact.",
+      "Marcus is authorized to know his own secret.",
+      "No canon, deferred check, or specific unsupported detail is violated."
+    ],
+    "latencyMs": 4757,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

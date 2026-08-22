@@ -1,0 +1,37 @@
+{
+  "caseId": "C2",
+  "group": "C",
+  "label": "KNOWS + suspected (some money)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "EXECUTION_ERROR",
+  "executionStatus": "EXECUTION_ERROR",
+  "candidateText": "Maya suspected Marcus might have taken some money.",
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "EXECUTION_ERROR"
+  },
+  "stateConsulted": false,
+  "finalDecision": "REJECT",
+  "finalReason": "EXECUTION_ERROR",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SOME",
+  "reasoning": "downgrade to suspicion — safe when state=KNOWS",
+  "latencyMs": 63100,
+  "retryCount": 0,
+  "error": "JSON parse: Could not parse JSON from LLM output: {\n  \"meaning\": \"FAIL\",\n  \"character\": \"UNCLEAR\",\n  \"infoOwnership\": \"PASS",
+  "runLabel": "baseline-fw"
+}

@@ -1,0 +1,59 @@
+{
+  "caseId": "C3",
+  "group": "C",
+  "label": "KNOWS + knew (the money)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: The candidate replaces the original observation of Marcus being at the desk with a different claim about Maya knowing Marcus took money, so it does not preserve the original meaning.",
+      "character: Maya is consistent with the documented character identity and current knowledge.",
+      "infoOwnership: The state explicitly lists Maya among those who know Marcus took money from the clinic, so 'Maya knew' is authorized.",
+      "canon: The claim does not contradict the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No voice constraint is violated.",
+      "register: The register is acceptable and intelligible.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are resolved or violated.",
+      "faithfulness: The added fact is supported by the document state and contains no unsupported specific numbers, dates, or names."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "knowledge matches state",
+  "latencyMs": 18242,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

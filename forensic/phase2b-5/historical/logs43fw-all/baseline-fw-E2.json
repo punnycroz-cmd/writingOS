@@ -1,0 +1,60 @@
+{
+  "caseId": "E2",
+  "group": "E",
+  "label": "UNKNOWN + domain suspicion (accounting)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected the accounting records had been altered.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate replaces the original event, 'Marcus was at the desk,' with an unrelated claim about Maya suspecting altered accounting records.",
+      "character: Maya is a valid character in the state, and the sentence is not internally inconsistent with her identity.",
+      "infoOwnership: Maya is marked as unknown to the related financial wrongdoing fact, and the state provides no evidence or authorization for her specific suspicion that accounting records were altered.",
+      "canon: The sentence does not contradict the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No voice constraint is violated by the neutral sentence.",
+      "register: The register is acceptable and coherent.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The candidate introduces a new specific plot claim not supported by the original text or the document state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "DOMAIN_SUSPICION",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "specific suspicion of a specific fact — unsupported",
+  "latencyMs": 21189,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

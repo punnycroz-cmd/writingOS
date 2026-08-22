@@ -1,0 +1,5 @@
+forensic/phase2b-5/git-state.txt
+forensic/phase2b-5/git/git-snapshot.txt
+forensic/phase2b-5/git/tracked-files.txt
+forensic/phase2b-5/git/untracked-files.txt
+tool-results/read_1787436097781_7443224f7ee5.txt

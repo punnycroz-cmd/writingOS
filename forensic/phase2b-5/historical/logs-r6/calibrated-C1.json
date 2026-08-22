@@ -1,0 +1,42 @@
+{
+  "caseId": "C1",
+  "group": "C",
+  "label": "No-link: saw hide blue folder",
+  "candidateText": "Maya saw Marcus hide the blue folder.",
+  "expected": "ACCEPT",
+  "reasoning": "blue folder has no connection to protected fact",
+  "observationClass": "OBSERVATION_ONLY",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The sentence only states Maya observed Marcus hide a folder.",
+      "It does not assert Maya knows or suspects the protected embezzlement fact.",
+      "The blue folder is an ordinary licensed-fiction detail and does not contradict canon."
+    ],
+    "latencyMs": 3979,
+    "error": null
+  },
+  "finalDecision": "ACCEPT",
+  "correct": true,
+  "runLabel": "calibrated"
+}

@@ -1,0 +1,60 @@
+{
+  "caseId": "P1-W",
+  "group": "PAIR",
+  "label": "PAIR: wondered (SUSPECTS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered whether Marcus had taken anything.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate reframes the original line as Maya’s subjective reaction without contradicting the original situation.",
+      "character: The sentence is consistent with Maya as the focal character and with her documented suspicion.",
+      "infoOwnership: 'wondered whether' expresses uncertainty, not knowledge; the state explicitly authorizes Maya suspecting Marcus took money.",
+      "canon: Nothing contradicts the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No voice constraints are violated; the phrasing is neutral and acceptable.",
+      "register: The narrative register is appropriate.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: No unsupported specific factual detail is asserted; the mental state is supported by the structured state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "wondered — vague, licensed under SUSPECTS",
+  "latencyMs": 40958,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

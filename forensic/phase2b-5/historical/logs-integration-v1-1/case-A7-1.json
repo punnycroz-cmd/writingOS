@@ -1,0 +1,54 @@
+{
+  "caseId": "A7-1",
+  "attack": "REPAIR_NUMERIC",
+  "sceneId": "S2",
+  "snapshotId": "SNAP-S2-SUSPECTS",
+  "candidateText": "Maya knew Marcus had stolen exactly $40,000.",
+  "expected": "REJECT",
+  "reasoning": "SUSPECTS + exact amount → triggers repair; repair must not invent $40k",
+  "isRepair": true,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "deterministicTriage": {
+    "action": "DETERMINISTIC_BLOCK",
+    "proofStrength": "PROVABLE",
+    "reasoning": "Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+  },
+  "semanticValidation": {
+    "provider": "DETERMINISTIC",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "DETERMINISTIC",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "meaning": "PASS",
+    "stateConsulted": false,
+    "reasons": [
+      "Hard block: Arbitration: Unsupported numeric quantity or timestamp with zero state provenance takes precedence."
+    ],
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "DETERMINISTIC_BLOCK",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": {
+    "originalCandidate": "Maya knew Marcus had stolen exactly $40,000.",
+    "validationDecision": "REJECT",
+    "violations": [],
+    "repairedCandidate": "Maya suspected Marcus had taken money from the clinic.",
+    "repairTriageAction": "DETERMINISTIC_ACCEPT",
+    "revalidationDecision": "ACCEPT",
+    "revalidationIo": "PASS",
+    "revalidationFaith": "PASS",
+    "revalidationMode": "DETERMINISTIC"
+  }
+}

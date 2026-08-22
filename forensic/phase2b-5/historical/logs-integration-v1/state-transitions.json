@@ -1,0 +1,57 @@
+[
+  {
+    "sceneId": "S2",
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "transition": {
+      "type": "info_ownership",
+      "fact": "Marcus took money from the clinic",
+      "from": "unknown",
+      "to": "suspects",
+      "reason": "Maya observed a $40,000 discrepancy in the ledger"
+    },
+    "afterState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    }
+  },
+  {
+    "sceneId": "S5",
+    "beforeState": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "transition": {
+      "type": "info_ownership",
+      "fact": "Marcus embezzled $40,000 from the clinic",
+      "from": "suspects",
+      "to": "knows",
+      "reason": "Maya received direct confirmation from the accountant"
+    },
+    "afterState": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    }
+  }
+]

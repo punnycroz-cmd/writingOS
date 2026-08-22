@@ -1,0 +1,60 @@
+{
+  "caseId": "D1",
+  "group": "D",
+  "label": "UNKNOWN + vague affect (uneasy)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Something about Marcus made Maya uneasy.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "reasons": [
+      "meaning: The candidate replaces the original concrete observation that Marcus was at the desk with a new subjective emotional reaction, losing the original event.",
+      "character: Maya and Marcus are used consistently enough with the available character data.",
+      "infoOwnership: The sentence does not assert Maya knows or suspects the unknown fact that Marcus took money; it remains vague.",
+      "canon: No stated canon fact is contradicted.",
+      "voice: No voice constraints are provided and none are violated.",
+      "register: The register is acceptable for close third-person interior narration.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are resolved.",
+      "faithfulness: The candidate introduces a definitive internal emotional state, Maya being uneasy about Marcus, without support in the original sentence or structured state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "VAGUE_AFFECT",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague affect — no specific proposition",
+  "latencyMs": 25409,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

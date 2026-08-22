@@ -1,0 +1,40 @@
+{
+  "caseId": "GC-0040",
+  "sourceExperiment": "r6-baseline",
+  "candidateText": "Maya watched Marcus remove the papers that explained the missing funds.",
+  "expectedTriage": "HANDOFF_TO_LLM",
+  "expectedSemantic": {
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS"
+  },
+  "expectedFinalDecision": "REJECT",
+  "historicalObserved": "REJECT",
+  "historicalCorrect": true,
+  "currentTriage": "HANDOFF_TO_LLM",
+  "currentTriageCorrect": true,
+  "currentSemantic": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "validatorMode": "LLM",
+    "latencyMs": 40747,
+    "error": null
+  },
+  "currentFinalDecision": "REJECT",
+  "currentFinalCorrect": true,
+  "ioCorrect": true,
+  "faithCorrect": true,
+  "isR6": false,
+  "isUnresolved": false,
+  "groundTruthType": "PROJECT_POLICY",
+  "triageScorable": true,
+  "semanticScorable": true,
+  "finalScorable": true,
+  "historicalComparison": "STABLE_SUCCESS",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "evaluatedAt": "2026-08-22T14:16:54.647Z"
+}

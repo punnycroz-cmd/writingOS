@@ -1,0 +1,47 @@
+{
+  "caseId": "A9-1",
+  "attack": "DEFERRED_KNOWLEDGE",
+  "sceneId": "S2",
+  "snapshotId": "SNAP-S1-UNKNOWN",
+  "candidateText": "Maya understood the significance of the trowel left on the bench.",
+  "expected": "REJECT",
+  "reasoning": "deferred clue — Maya cannot yet understand significance",
+  "isRepair": false,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "The state does not authorize Maya to know the significance of the trowel.",
+      "'Understood' asserts certainty about an unknown/unestablished fact."
+    ],
+    "latencyMs": 10403,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}

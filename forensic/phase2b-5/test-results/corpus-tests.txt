@@ -1,0 +1,47 @@
+bun test v1.3.14 (0d9b296a)
+
+tests/corpus/freeze-integrity.test.ts:
+(pass) freeze integrity > active count is 59 [0.04ms]
+(pass) freeze integrity > superseded count is 1 (GC-0038) [0.02ms]
+(pass) freeze integrity > no duplicate active IDs [0.07ms]
+(pass) freeze integrity > every active case has a result file [0.05ms]
+(pass) freeze integrity > every result has executionProvenance with a valid status [0.13ms]
+(pass) freeze integrity > no silent inheritance (no INHERITED provenance) [0.05ms]
+(pass) freeze integrity > result caseId matches corpus id [0.04ms]
+(pass) freeze integrity > GC-0038R1 has its own EXECUTED provenance with non-zero latency [0.04ms]
+(pass) freeze integrity > GC-0038R1 ground truth is PASS/PASS (Phase 2B.5 correction) [0.07ms]
+(pass) freeze integrity > GC-0038R1 has no R6 or UNRESOLVED tags [0.04ms]
+(pass) freeze integrity > GC-0038 remains SUPERSEDED with supersededBy=GC-0038R1 [0.03ms]
+(pass) freeze integrity > R6 tag count is 3 (GC-0031, GC-0033, GC-0036) [0.08ms]
+(pass) freeze integrity > R6 classifications use canonical algorithm (R6 is a tag, not a forced category) [0.16ms]
+(pass) freeze integrity > summary metrics match ledger-derived counts [0.32ms]
+(pass) freeze integrity > historical comparison distribution sums to active count [0.02ms]
+(pass) freeze integrity > consistency check reports all passed [0.05ms]
+(pass) freeze integrity > manifest activeCases matches ledger [0.06ms]
+(pass) freeze integrity > freeze document references 59 active cases and is not blocked [0.03ms]
+(pass) freeze integrity > reconciler imports the canonical classifier (no duplicate logic) [0.13ms]
+(pass) freeze integrity > every LLM-executed result has non-zero latency [0.05ms]
+(pass) freeze integrity > no execution errors in any result [0.04ms]
+
+tests/corpus/classify-comparison.test.ts:
+(pass) classifyHistoricalComparison > STABLE_SUCCESS when both historical and current are correct [0.06ms]
+(pass) classifyHistoricalComparison > STABLE_SUCCESS is stable across different expected/observed values [0.01ms]
+(pass) classifyHistoricalComparison > REGRESSION when historical was correct but current is wrong [0.01ms]
+(pass) classifyHistoricalComparison > IMPROVEMENT when historical was wrong but current is correct
+(pass) classifyHistoricalComparison > PERSISTENT_DEFECT when both wrong and NOT unresolved [0.01ms]
+(pass) classifyHistoricalComparison > KNOWN_DEFECT when both wrong AND unresolved [0.01ms]
+(pass) classifyHistoricalComparison > CHANGED_UNSCORABLE when finalScorable is false [0.01ms]
+(pass) classifyHistoricalComparison > R6 tag does NOT force KNOWN_DEFECT when current is correct (IMPROVEMENT) [0.01ms]
+(pass) classifyHistoricalComparison > R6 tag with both wrong AND unresolved -> KNOWN_DEFECT (GC-0033)
+(pass) classifyHistoricalComparison > R6 tag with both wrong but resolved -> PERSISTENT_DEFECT [0.01ms]
+(pass) classifyHistoricalComparison > R6 tag does not affect STABLE_SUCCESS
+(pass) classifyHistoricalComparison > R6 tag does not affect REGRESSION
+(pass) classifyHistoricalComparison > null currentFinalCorrect is treated as not correct
+(pass) classifyHistoricalComparison > undefined historicalCorrect is treated as not correct [0.01ms]
+(pass) classifyHistoricalComparison > full matrix: all 6 outcomes reachable [0.06ms]
+
+ 36 pass
+ 0 fail
+ 457 expect() calls
+Ran 36 tests across 2 files. [72.00ms]
+EXIT: 0

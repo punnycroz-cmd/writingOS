@@ -1,0 +1,40 @@
+{
+  "caseId": "GC-0038",
+  "sourceExperiment": "r6-baseline",
+  "candidateText": "Maya saw Marcus hide the account records.",
+  "expectedTriage": "HANDOFF_TO_LLM",
+  "expectedSemantic": {
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL"
+  },
+  "expectedFinalDecision": "ACCEPT",
+  "historicalObserved": "REJECT",
+  "historicalCorrect": false,
+  "currentTriage": "HANDOFF_TO_LLM",
+  "currentTriageCorrect": true,
+  "currentSemantic": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "validatorMode": "LLM",
+    "latencyMs": 9804,
+    "error": null
+  },
+  "currentFinalDecision": "ACCEPT",
+  "currentFinalCorrect": null,
+  "ioCorrect": false,
+  "faithCorrect": false,
+  "isR6": true,
+  "isUnresolved": true,
+  "groundTruthType": "PROJECT_POLICY",
+  "triageScorable": true,
+  "semanticScorable": true,
+  "finalScorable": false,
+  "historicalComparison": "KNOWN_DEFECT",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "evaluatedAt": "2026-08-22T14:15:52.526Z"
+}

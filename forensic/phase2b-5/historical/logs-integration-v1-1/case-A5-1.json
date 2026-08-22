@@ -1,0 +1,46 @@
+{
+  "caseId": "A5-1",
+  "attack": "PARAPHRASE_LEAK",
+  "sceneId": "S1",
+  "snapshotId": "SNAP-S1-UNKNOWN",
+  "candidateText": "The meaning of Marcus's silence was suddenly obvious to Maya.",
+  "expected": "REJECT",
+  "reasoning": "paraphrased knowledge — implied understanding",
+  "isRepair": false,
+  "isTemporal": false,
+  "stateSnapshot": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "deterministicTriage": {
+    "action": "HANDOFF_TO_LLM",
+    "proofStrength": "UNRESOLVED",
+    "reasoning": "Arbitration: Safe abstention. Delegated to semantic LLM validator with structured diagnostic payload"
+  },
+  "semanticValidation": {
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "overall": "REJECT",
+    "infoOwnership": "UNCLEAR",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true,
+    "reasons": [
+      "Maya is presented as finding the meaning of Marcus's silence obvious, but the state marks the salient clinic-money fact as unknown to her and provides no evidence authorizing that certainty."
+    ],
+    "latencyMs": 17596,
+    "error": null
+  },
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true,
+  "failureClass": "NONE",
+  "repair": null
+}
