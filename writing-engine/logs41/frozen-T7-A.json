@@ -1,0 +1,39 @@
+{
+  "caseId": "T7-A",
+  "tripletId": "T7",
+  "variant": "A",
+  "semanticClass": "causal_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "The clinic's bank statement showed a lower balance than expected.",
+  "revised": "The clinic's bank statement showed a lower balance than expected. Maya frowned — the numbers did not match what she had seen last month.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition maintains the original observation about the bank statement",
+      "Maya noticing a discrepancy in numbers is consistent with her perceptual habits of counting and attention to detail",
+      "The statement about numbers not matching last month is a vague observation, not a specific claim about unauthorized knowledge",
+      "No contradiction with Maya's current knowledge or canon facts",
+      "The voice remains sparse and observational, consistent with Maya's established voice",
+      "No epistemic claims detected that would require higher certainty than warranted by the state"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

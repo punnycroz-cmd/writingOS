@@ -1,0 +1,36 @@
+{
+  "caseId": "T1-B",
+  "tripletId": "T1",
+  "variant": "B",
+  "semanticClass": "sensory_observation",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The scent of burnt coffee and bleach filled the room — she could smell the embezzlement on him.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: Maya doesn't know about the embezzlement - she can only smell burnt coffee and bleach",
+      "voice: The addition of 'she could smell the embezzlement on him' is inconsistent with Maya's sparse, observational voice that uses numbers as anchors",
+      "faithfulness: The specific claim about smelling embezzlement is not supported by canon or state"
+    ],
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true
+}

@@ -1,0 +1,49 @@
+{
+  "caseId": "T9-B",
+  "tripletId": "T9",
+  "variant": "B",
+  "semanticClass": "identity",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "A man Maya had never seen walked into the clinic.",
+  "revised": "A man Maya had never seen walked into the clinic — it was David Chen, Marcus's accomplice, the one who had helped launder the embezzled funds.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "embezzled funds",
+        "type": "explicit_claim"
+      },
+      {
+        "detail": "David",
+        "type": "proper_noun"
+      },
+      {
+        "detail": "Chen",
+        "type": "proper_noun"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: Maya does not know that the man is David Chen or that he is Marcus's accomplice in embezzlement",
+      "canon: Introduction of David Chen as Marcus's accomplice contradicts established canon",
+      "faithfulness: Introduction of specific proper nouns (David, Chen) and details about embezzlement not supported by source or state"
+    ],
+    "epistemicLevelAssessed": "MIXED",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: embezzled funds",
+  "correct": true
+}

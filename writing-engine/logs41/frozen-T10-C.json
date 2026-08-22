@@ -1,0 +1,40 @@
+{
+  "caseId": "T10-C",
+  "tripletId": "T10",
+  "variant": "C",
+  "semanticClass": "temporal_knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya checked the clock.",
+  "revised": "Maya checked the clock. It was late — later than she thought. The night had gotten away from her.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds sensory observation and environmental detail consistent with LICENSED_FICTION policy",
+      "No epistemic claims are made that contradict Maya's knowledge state",
+      "The added details align with Maya's perceptual habits (observational, noticing time)",
+      "No facts are introduced that contradict canon",
+      "The voice remains sparse and observational as established",
+      "No deferred checks are resolved",
+      "The added details are observational and don't assert unauthorized knowledge"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

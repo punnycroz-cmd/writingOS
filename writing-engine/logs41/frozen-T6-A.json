@@ -1,0 +1,48 @@
+{
+  "caseId": "T6-A",
+  "tripletId": "T6",
+  "variant": "A",
+  "semanticClass": "knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk. Maya watched him a moment, suspecting something was off with the finances — the discrepancy she had found still nagged at her. She went to check on her patient.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [
+    {
+      "level": "OBSERVATION",
+      "prop": "him a moment",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "UNCLEAR",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: UNCLEAR due to ambiguous epistemic level - 'suspecting something was off' is vague uncertainty (licensed under LICENSED_FICTION), not a specific unauthorized fact",
+      "character: Maya's perceptual habits include noticing discrepancies",
+      "canon: No contradiction with established canon",
+      "voice: Maintains sparse, observational style with numbers as anchors",
+      "register: Consistent with medical setting",
+      "intelligibility: Clear narrative flow",
+      "deferred: No deferred checks to resolve",
+      "faithfulness: Sensory observation and interpretation allowed under LICENSED_FICTION"
+    ],
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "Conservative: UNCLEAR on integrity (faith=PASS, io=UNCLEAR)",
+  "correct": true
+}

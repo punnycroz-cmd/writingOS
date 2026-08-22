@@ -1,0 +1,40 @@
+{
+  "caseId": "T13-A",
+  "tripletId": "T13",
+  "variant": "A",
+  "semanticClass": "canon_contradiction",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Arlo entered the studio.",
+  "revised": "Arlo entered the studio. The floor hummed under his feet — a low, resonant vibration he had learned to read like a map.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition describes sensory experience consistent with a blind sound engineer",
+      "The detail about reading vibrations like a map aligns with character's perceptual habits",
+      "No epistemic claims that contradict state",
+      "No canon violations",
+      "Voice remains precise about sound",
+      "No deferred checks violated",
+      "Licensed fiction policy allows sensory invention"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

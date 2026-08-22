@@ -1,0 +1,36 @@
+{
+  "caseId": "T13-B",
+  "tripletId": "T13",
+  "variant": "B",
+  "semanticClass": "canon_contradiction",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Arlo entered the studio.",
+  "revised": "Arlo entered the studio. He looked around at the mixing board, noting the blue glow of the LEDs and the red indicator lights.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "Arlo is blind according to HARD_CANON, so he cannot visually observe the mixing board, LEDs, or indicator lights",
+      "The revision contradicts established character state by attributing visual perception to a blind character",
+      "The revision violates canon by contradicting the HARD_CANON fact that Arlo is totally blind"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true
+}

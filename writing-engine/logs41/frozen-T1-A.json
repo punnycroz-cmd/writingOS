@@ -1,0 +1,38 @@
+{
+  "caseId": "T1-A",
+  "tripletId": "T1",
+  "variant": "A",
+  "semanticClass": "sensory_observation",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The scent of cardamom and iron hit her — Papa's pharmacy, distilled into the walls.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition of sensory detail about the scent of cardamom and iron is consistent with Maya's perceptual habits (smells rooms first) and her memory of Papa's pharmacy smell",
+      "The detail aligns with soft canon that Papa's house smells of cardamom and iron",
+      "The invention is ordinary sensory detail appropriate for LICENSED_FICTION policy",
+      "No epistemic claims are made that contradict Maya's knowledge state",
+      "The voice remains sparse and observational, consistent with Maya's established voice"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

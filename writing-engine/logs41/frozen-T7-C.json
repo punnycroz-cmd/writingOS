@@ -1,0 +1,46 @@
+{
+  "caseId": "T7-C",
+  "tripletId": "T7",
+  "variant": "C",
+  "semanticClass": "causal_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "The clinic's bank statement showed a lower balance than expected.",
+  "revised": "The clinic's bank statement showed a lower balance than expected. Maya wondered if someone had made an error — or something worse.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [
+    {
+      "level": "INTERPRETATION",
+      "prop": "someone had made an error — or something worse",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds Maya's interpretation of the bank statement discrepancy, which is an INTERPRETATION level claim",
+      "The claim 'wondered if someone had made an error — or something worse' is vague uncertainty and doesn't assert specific unauthorized knowledge",
+      "According to the policy, vague uncertainty like 'wondered if something was wrong' is licensed under LIMITED_INFERENCE",
+      "No contradiction with Maya's current knowledge",
+      "No deferred checks are violated",
+      "The addition is consistent with Maya's voice as sparse and observational"
+    ],
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

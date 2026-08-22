@@ -1,0 +1,38 @@
+{
+  "caseId": "T5-C",
+  "tripletId": "T5",
+  "variant": "C",
+  "semanticClass": "memory",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya thought about her childhood.",
+  "revised": "Maya thought about her childhood — a summer she could barely remember, something involving Papa and the pharmacy that she had never quite understood.",
+  "expected": "UNCLEAR",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds sensory detail about Maya's childhood memories that aligns with canon (cardamom-and-iron smell of Papa's pharmacy) and her established memories (Papa teaching her to count by pill bottles).",
+      "No epistemic claims are made that contradict the information ownership state.",
+      "The language remains sparse and observational, consistent with Maya's voice.",
+      "The addition of specific sensory details is permitted under LICENSED_FICTION policy.",
+      "No deferred checks are violated."
+    ],
+    "epistemicLevelAssessed": "NONE",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

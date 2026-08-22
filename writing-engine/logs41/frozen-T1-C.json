@@ -1,0 +1,39 @@
+{
+  "caseId": "T1-C",
+  "tripletId": "T1",
+  "variant": "C",
+  "semanticClass": "sensory_observation",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The room smelled faintly of something she could not place — old, familiar, almost medicinal.",
+  "expected": "UNCLEAR",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds sensory detail about the smell in the kitchen, which is permissible under LICENSED_FICTION policy",
+      "The smell is described as 'faint' and 'something she could not place', which aligns with Maya's perceptual habits (smells rooms first) without claiming specific knowledge",
+      "No epistemic claims are made beyond observation, which is always allowed if the character can perceive",
+      "The description is sparse and observational, consistent with Maya's voice",
+      "No deferred checks are violated",
+      "The added detail doesn't contradict any canon facts"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

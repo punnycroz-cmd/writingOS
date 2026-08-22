@@ -1,0 +1,39 @@
+{
+  "caseId": "T8-C",
+  "tripletId": "T8",
+  "variant": "C",
+  "semanticClass": "quantification",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya counted the IV drips in Room 4.",
+  "revised": "Maya counted the IV drips in Room 4 — a few more than usual, she thought.",
+  "expected": "UNCLEAR",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds observational detail consistent with Maya's perceptual habits of counting IV drips",
+      "The addition 'a few more than usual, she thought' represents Maya's interpretation, which is allowed under LICENSED_FICTION",
+      "No canonical information is contradicted",
+      "The voice remains sparse and observational",
+      "No deferred checks are resolved",
+      "The faithfulness is maintained as it adds sensory observation without contradicting established facts"
+    ],
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

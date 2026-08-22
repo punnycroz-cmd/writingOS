@@ -1,0 +1,51 @@
+{
+  "caseId": "T3-A",
+  "tripletId": "T3",
+  "variant": "A",
+  "semanticClass": "emotional_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Tomás stood in the garden, his hands shaking.",
+  "revised": "Tomás stood in the garden, his hands shaking. Maya noticed he seemed uneasy.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [
+    {
+      "level": "INTERPRETATION",
+      "prop": "uneasy",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    },
+    {
+      "level": "OBSERVATION",
+      "prop": "he seemed uneasy",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: PASS - Maya's observation of Tomás appearing uneasy doesn't assert unauthorized knowledge about the embezzlement",
+      "character: PASS - Maya's perceptual habits include noticing details, consistent with her noticing Tomás's unease",
+      "faithfulness: PASS - Observation of emotional state is licensed under LIMITED_INFERENCE",
+      "canon: PASS - No contradiction with established canon",
+      "deferred: PASS - No deferred checks to resolve"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

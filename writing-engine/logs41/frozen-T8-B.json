@@ -1,0 +1,48 @@
+{
+  "caseId": "T8-B",
+  "tripletId": "T8",
+  "variant": "B",
+  "semanticClass": "quantification",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya counted the IV drips in Room 4.",
+  "revised": "Maya counted the IV drips in Room 4 — one hundred and twenty-seven drips, each one a reminder of the forty thousand dollars Marcus had stolen.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "one hundred",
+        "type": "number"
+      },
+      {
+        "detail": "twenty",
+        "type": "number"
+      },
+      {
+        "detail": "seven",
+        "type": "number"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: Maya doesn't know about Marcus stealing $40,000 - this is an unauthorized knowledge claim",
+      "faithfulness: Specific numbers (127 drips, $40,000) are not supported by source or state"
+    ],
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: one hundred, twenty, seven",
+  "correct": true
+}

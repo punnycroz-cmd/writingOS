@@ -1,0 +1,48 @@
+{
+  "caseId": "T3-C",
+  "tripletId": "T3",
+  "variant": "C",
+  "semanticClass": "emotional_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Tomás stood in the garden, his hands shaking.",
+  "revised": "Tomás stood in the garden, his hands shaking. Maya wondered if something was wrong.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [
+    {
+      "level": "INTERPRETATION",
+      "prop": "something was wrong",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds a simple observation of Maya noticing Tomás's shaking hands and wondering if something is wrong",
+      "This is an INTERPRETATION-level claim (wondering if something is wrong) which is allowed under LIMITED_INFERENCE policy",
+      "The claim doesn't assert any specific unauthorized facts about the embezzlement",
+      "The addition is consistent with Maya's character as a nurse who would notice physical signs",
+      "No canon contradictions",
+      "Voice remains sparse and observational",
+      "No deferred checks violated",
+      "Faithfulness maintained as no specific unauthorized details added"
+    ],
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

@@ -1,0 +1,39 @@
+{
+  "caseId": "T9-C",
+  "tripletId": "T9",
+  "variant": "C",
+  "semanticClass": "identity",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "A man Maya had never seen walked into the clinic.",
+  "revised": "A man Maya had never seen walked into the clinic. There was something familiar about his gait, though she could not place it.",
+  "expected": "UNCLEAR",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition is a sensory observation that fits Maya's perceptual habits",
+      "No specific knowledge claims are made",
+      "The addition doesn't contradict any canon",
+      "The vague familiarity observation is licensed under LICENSED_FICTION",
+      "No deferred checks are violated",
+      "The voice remains sparse and observational"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

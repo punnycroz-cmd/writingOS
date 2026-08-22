@@ -1,0 +1,39 @@
+{
+  "caseId": "T8-A",
+  "tripletId": "T8",
+  "variant": "A",
+  "semanticClass": "quantification",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya counted the IV drips in Room 4.",
+  "revised": "Maya counted the IV drips in Room 4 — four, as always.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds specific numerical detail ('four') to an existing observation, which is allowed under LICENSED_FICTION",
+      "This is an observation-level claim (OBSERVATION) that doesn't assert knowledge about unknown facts",
+      "The character's perceptual habits include 'Counts IV drips', making this observation consistent with her established character",
+      "No canon contradictions",
+      "Voice remains sparse and observational with numerical anchors",
+      "No deferred checks violated"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

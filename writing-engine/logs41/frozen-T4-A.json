@@ -1,0 +1,46 @@
+{
+  "caseId": "T4-A",
+  "tripletId": "T4",
+  "variant": "A",
+  "semanticClass": "motive_inference",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk. He seemed distracted, glancing at the door as if expecting someone. Maya watched him a moment, then went to check on her patient.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [
+    {
+      "level": "OBSERVATION",
+      "prop": "him a moment",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "Epistemic level is OBSERVATION (Marcus seemed distracted, glancing at the door) which is allowed under LICENSED_FICTION",
+      "The added details are sensory observations that don't contradict Maya's perceptual habits",
+      "No assertion of knowledge about the embezzlement",
+      "No contradiction with canon",
+      "Voice remains sparse and observational",
+      "No deferred checks violated"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

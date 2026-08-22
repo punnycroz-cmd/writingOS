@@ -1,0 +1,47 @@
+{
+  "caseId": "T11-SUSPECTS-C",
+  "tripletId": "T11-SUSPECTS",
+  "variant": "C",
+  "semanticClass": "knowledge_state_controlled",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Maya watched him, wondering if the discrepancy she had seen meant something worse.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [
+    {
+      "level": "OBSERVATION",
+      "prop": "him",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "OBSERVATION level is appropriate for 'watched him'",
+      "INTERPRETATION level is appropriate for 'wondering if the discrepancy...meant something worse'",
+      "Maya is stated to suspect the discrepancy (infoOwnership: SUSPECTS)",
+      "No contradiction with canon facts",
+      "Voice is sparse and observational, consistent with Maya's profile",
+      "No deferred checks were violated",
+      "No specific unauthorized numbers/dates/names/measurements were asserted"
+    ],
+    "epistemicLevelAssessed": "MIXED",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

@@ -1,0 +1,41 @@
+{
+  "caseId": "T5-A",
+  "tripletId": "T5",
+  "variant": "A",
+  "semanticClass": "memory",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya thought about her childhood.",
+  "revised": "Maya thought about her childhood — Papa teaching her to count by pill bottles, the amber vials lining the wall of his pharmacy.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds sensory detail about Maya's memory of her childhood with Papa",
+      "The details about pill bottles and the pharmacy are consistent with Maya's memories listed in character state",
+      "The cardamom-and-iron smell matches SOFT_CANON",
+      "The voice remains sparse and observational using numbers as anchors",
+      "No epistemic claims about unknown information are made",
+      "No canon contradictions",
+      "No deferred checks violated",
+      "Licensed invention policy allows this sensory detail"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

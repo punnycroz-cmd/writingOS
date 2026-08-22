@@ -1,0 +1,40 @@
+{
+  "caseId": "T5-B",
+  "tripletId": "T5",
+  "variant": "B",
+  "semanticClass": "memory",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya thought about her childhood.",
+  "revised": "Maya thought about her childhood — the summer of 1998 when Papa first discovered Marcus was embezzling and said nothing about it.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "1998",
+        "type": "number"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: Maya has UNKNOWN knowledge of Marcus embezzling, but the revision presents it as a known memory",
+      "faithfulness: Specific year '1998' is not found in source or state and fails faithfulness check"
+    ],
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: 1998",
+  "correct": true
+}

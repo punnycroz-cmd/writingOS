@@ -1,0 +1,42 @@
+{
+  "caseId": "T10-A",
+  "tripletId": "T10",
+  "variant": "A",
+  "semanticClass": "temporal_knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya checked the clock.",
+  "revised": "Maya checked the clock. Her shift was almost over.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition of 'Her shift was almost over' is a reasonable observation that fits Maya's character as a nurse",
+      "No epistemic claims were made that would contradict the character's knowledge state",
+      "The addition is consistent with Maya's goal of 'Get through the shift'",
+      "No canon was contradicted",
+      "The addition maintains Maya's sparse, observational voice",
+      "The register is appropriate for the narrative",
+      "The text remains intelligible",
+      "No deferred checks were affected",
+      "The addition is faithful to the licensed fiction policy as it's a simple observation about time"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

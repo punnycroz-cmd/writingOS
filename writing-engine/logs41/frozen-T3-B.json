@@ -1,0 +1,52 @@
+{
+  "caseId": "T3-B",
+  "tripletId": "T3",
+  "variant": "B",
+  "semanticClass": "emotional_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Tomás stood in the garden, his hands shaking.",
+  "revised": "Tomás stood in the garden, his hands shaking. Maya knew he was terrified because he had helped Marcus hide the embezzled funds.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "knew he was terrified because he had helped Marcus hide the embezzled funds",
+        "type": "explicit_claim"
+      },
+      {
+        "detail": "embezzled funds",
+        "type": "explicit_claim"
+      }
+    ]
+  },
+  "claims": [
+    {
+      "level": "KNOWLEDGE",
+      "prop": "he was terrified because he had helped Marcus hide the embezzled funds",
+      "resolution": "STATE_CONTRADICTION",
+      "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\" — KNOWLEDGE is a leak"
+    }
+  ],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: Maya cannot know that Tomás was terrified because he helped Marcus hide embezzled funds - this contradicts the INFORMATION OWNERSHIP which states Maya does NOT know about the embezzlement",
+      "canon: The claim about embezzled funds is not present in the CANON facts",
+      "faithfulness: The addition of specific knowledge about embezzlement and Tomás's fear violates faithfulness under LIMITED_INFERENCE policy"
+    ],
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: knew he was terrified because he had helped Marcus hide the embezzled funds, embezzled funds",
+  "correct": true
+}

@@ -1,0 +1,39 @@
+{
+  "caseId": "T9-A",
+  "tripletId": "T9",
+  "variant": "A",
+  "semanticClass": "identity",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "A man Maya had never seen walked into the clinic.",
+  "revised": "A man Maya had never seen walked into the clinic. He was tall, with gray hair and a guarded expression. She did not recognize him.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds sensory details (tall, gray hair, guarded expression) that are consistent with Maya's perceptual habits",
+      "The statement 'She did not recognize him' is an observation that aligns with the opening 'A man Maya had never seen'",
+      "No epistemic claims about unknown facts were made",
+      "The added details don't contradict any canon information",
+      "The voice remains sparse and observational",
+      "No deferred checks were violated"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

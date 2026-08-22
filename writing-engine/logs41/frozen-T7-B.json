@@ -1,0 +1,40 @@
+{
+  "caseId": "T7-B",
+  "tripletId": "T7",
+  "variant": "B",
+  "semanticClass": "causal_inference",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "The clinic's bank statement showed a lower balance than expected.",
+  "revised": "The clinic's bank statement showed a lower balance than expected because Marcus had diverted forty thousand dollars to an offshore account.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "had diverted forty thousand dollars to an offshore account",
+        "type": "explicit_claim"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: Maya does not know about the $40,000 diversion to offshore account (marked as UNKNOWN)",
+      "faithfulness: Adding specific financial details ($40,000, offshore account) not present in source or authorized by state"
+    ],
+    "epistemicLevelAssessed": "MIXED",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: had diverted forty thousand dollars to an offshore account",
+  "correct": true
+}

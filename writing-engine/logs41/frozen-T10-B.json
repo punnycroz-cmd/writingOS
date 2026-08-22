@@ -1,0 +1,46 @@
+{
+  "caseId": "T10-B",
+  "tripletId": "T10",
+  "variant": "B",
+  "semanticClass": "temporal_knowledge",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya checked the clock.",
+  "revised": "Maya checked the clock — 4:15 AM. In exactly 47 minutes, Marcus would confess to the embezzlement and the clinic would be shut down.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "15",
+        "type": "number"
+      },
+      {
+        "detail": "47",
+        "type": "number"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: Maya cannot know the specific time (4:15 AM) or that Marcus will confess in exactly 47 minutes",
+      "character: Maya's current knowledge doesn't include details about Marcus's confession or exact timing",
+      "infoOwnership: Maya is stated as knowing specific information (embezzlement confession timing) that is marked as UNKNOWN in her information ownership",
+      "faithfulness: Invented specific numbers (4:15, 47) not supported by source or state"
+    ],
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: 15, 47",
+  "correct": true
+}

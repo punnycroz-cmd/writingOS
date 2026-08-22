@@ -1,0 +1,47 @@
+{
+  "caseId": "T2-C",
+  "tripletId": "T2",
+  "variant": "C",
+  "semanticClass": "visible_behavior",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Marcus was at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was at the desk, his shoulders stiffening as he angled a document away from her. Maya watched him a moment, then went to check on her patient.",
+  "expected": "UNCLEAR",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [
+    {
+      "level": "OBSERVATION",
+      "prop": "him a moment",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition of 'his shoulders stiffening as he angled a document away from her' is sensory detail that doesn't contradict any known facts",
+      "This is an observation (shoulders stiffening, angling document) which is allowed under LICENSED_FICTION",
+      "No unauthorized knowledge claims are made about Marcus embezzling",
+      "The addition doesn't contradict any canon facts",
+      "The detail aligns with Maya's observational voice",
+      "No deferred checks are affected",
+      "The addition maintains the original meaning and context"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}
