@@ -1,0 +1,175 @@
+{
+  "metrics": {
+    "historicalCases": 60,
+    "activeCases": 59,
+    "supersededCases": 1,
+    "unresolvedCases": 3,
+    "r6Cases": 3,
+    "scorableTriage": 32,
+    "triageCorrect": 31,
+    "semanticGroundTruthAvailable": 38,
+    "semanticExecutionAvailable": 30,
+    "semanticScoringEligible": 30,
+    "ioOwnershipScorable": 30,
+    "ioOwnershipCorrect": 25,
+    "faithfulnessScorable": 30,
+    "faithfulnessCorrect": 28,
+    "scorableFinal": 56,
+    "finalCorrect": 52,
+    "falseAcceptance": 3,
+    "falseRejection": 1,
+    "executionErrors": 0,
+    "llmExecuted": 42,
+    "deterministicFastPathed": 17,
+    "detAccept": 4,
+    "detBlock": 13,
+    "stableSuccess": 50,
+    "regression": 2,
+    "improvement": 2,
+    "persistentDefect": 2,
+    "knownDefect": 3,
+    "changedUnscorable": 0,
+    "sourceExists": 59,
+    "sourceMissing": 0
+  },
+  "falseAcceptCases": [
+    {
+      "caseId": "GC-0024",
+      "expected": "REJECT",
+      "current": "ACCEPT",
+      "isR6": false,
+      "io": "PASS",
+      "faith": "PASS",
+      "historicalCorrect": true,
+      "groundTruthType": "PROJECT_POLICY"
+    },
+    {
+      "caseId": "GC-0025",
+      "expected": "REJECT",
+      "current": "ACCEPT",
+      "isR6": false,
+      "io": "PASS",
+      "faith": "PASS",
+      "historicalCorrect": false,
+      "groundTruthType": "PROJECT_POLICY"
+    },
+    {
+      "caseId": "GC-0054",
+      "expected": "REJECT",
+      "current": "ACCEPT",
+      "isR6": false,
+      "io": "PASS",
+      "faith": "PASS",
+      "historicalCorrect": false,
+      "groundTruthType": "PROJECT_POLICY"
+    }
+  ],
+  "falseRejectCases": [
+    {
+      "caseId": "GC-0022",
+      "expected": "ACCEPT",
+      "current": "REJECT",
+      "isR6": false,
+      "io": "FAIL",
+      "faith": "PASS",
+      "historicalCorrect": true,
+      "groundTruthType": "PROJECT_POLICY"
+    }
+  ],
+  "r6Details": [
+    {
+      "caseId": "GC-0031",
+      "state": {
+        "knows": [
+          "Marcus"
+        ],
+        "suspects": [],
+        "unknown": [
+          "Maya"
+        ]
+      },
+      "expected": "REJECT",
+      "historical": "ACCEPT",
+      "current": "REJECT",
+      "status": "KNOWN_DEFECT",
+      "io": "FAIL"
+    },
+    {
+      "caseId": "GC-0033",
+      "state": {
+        "knows": [
+          "Marcus"
+        ],
+        "suspects": [],
+        "unknown": [
+          "Maya"
+        ]
+      },
+      "expected": "REJECT",
+      "historical": "ACCEPT",
+      "current": "ACCEPT",
+      "status": "KNOWN_DEFECT",
+      "io": "PASS"
+    },
+    {
+      "caseId": "GC-0036",
+      "state": {
+        "knows": [
+          "Marcus"
+        ],
+        "suspects": [],
+        "unknown": [
+          "Maya"
+        ]
+      },
+      "expected": "REJECT",
+      "historical": "ACCEPT",
+      "current": "REJECT",
+      "status": "KNOWN_DEFECT",
+      "io": "FAIL"
+    }
+  ],
+  "checks": [
+    {
+      "name": "active_count",
+      "passed": true,
+      "detail": "59 == 60 - 1"
+    },
+    {
+      "name": "hc_sum",
+      "passed": true,
+      "detail": "59 == 59"
+    },
+    {
+      "name": "no_superseded_in_active",
+      "passed": true,
+      "detail": "0 superseded in active"
+    },
+    {
+      "name": "r6_count",
+      "passed": true,
+      "detail": "3"
+    },
+    {
+      "name": "final_sum",
+      "passed": true,
+      "detail": "3+1+52 == 56"
+    },
+    {
+      "name": "all_have_results",
+      "passed": true,
+      "detail": "59 == 59"
+    },
+    {
+      "name": "source_paths",
+      "passed": true,
+      "detail": "59 exist, 0 missing"
+    },
+    {
+      "name": "no_exec_errors",
+      "passed": true,
+      "detail": "0"
+    }
+  ],
+  "allPassed": true
+}

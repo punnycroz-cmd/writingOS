@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "metricChecks": [
+    {
+      "name": "active_count",
+      "passed": true,
+      "detail": "59 == 60 - 1"
+    },
+    {
+      "name": "hc_sum",
+      "passed": true,
+      "detail": "59 == 59"
+    },
+    {
+      "name": "no_superseded_in_active",
+      "passed": true,
+      "detail": "0 superseded in active"
+    },
+    {
+      "name": "r6_count",
+      "passed": true,
+      "detail": "3"
+    },
+    {
+      "name": "final_sum",
+      "passed": true,
+      "detail": "3+1+52 == 56"
+    },
+    {
+      "name": "all_have_results",
+      "passed": true,
+      "detail": "59 == 59"
+    },
+    {
+      "name": "source_paths",
+      "passed": true,
+      "detail": "59 exist, 0 missing"
+    },
+    {
+      "name": "no_exec_errors",
+      "passed": true,
+      "detail": "0"
+    }
+  ]
+}

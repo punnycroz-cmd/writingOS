@@ -1,61 +1,33 @@
 {
-  "totalCases": 59,
-  "completedCases": 59,
-  "executionErrors": 0,
-  "llmExecuted": 42,
-  "deterministicFastPathed": 0,
-  "scorable": {
-    "triage": 32,
-    "semantic": 30,
-    "final": 55
-  },
-  "correct": {
-    "triage": 31,
-    "final": 51,
-    "ioCorrect": 25,
-    "faithCorrect": 28
-  },
+  "historicalCases": 60,
+  "activeCases": 59,
+  "supersededCases": 1,
+  "unresolvedCases": 3,
+  "r6Cases": 3,
+  "scorableTriage": 32,
+  "triageCorrect": 31,
+  "semanticGroundTruthAvailable": 38,
+  "semanticExecutionAvailable": 30,
+  "semanticScoringEligible": 30,
+  "ioOwnershipScorable": 30,
+  "ioOwnershipCorrect": 25,
+  "faithfulnessScorable": 30,
+  "faithfulnessCorrect": 28,
+  "scorableFinal": 56,
+  "finalCorrect": 52,
   "falseAcceptance": 3,
   "falseRejection": 1,
-  "historicalComparisons": {
-    "STABLE_SUCCESS": 50,
-    "KNOWN_DEFECT": 4,
-    "IMPROVEMENT": 1,
-    "REGRESSION": 2,
-    "PERSISTENT_DEFECT": 2
-  },
-  "r6Cases": 4,
-  "r6Details": [
-    {
-      "caseId": "GC-0031",
-      "expected": "REJECT",
-      "historical": "ACCEPT",
-      "current": "REJECT",
-      "status": "KNOWN_DEFECT"
-    },
-    {
-      "caseId": "GC-0036",
-      "expected": "REJECT",
-      "historical": "ACCEPT",
-      "current": "REJECT",
-      "status": "KNOWN_DEFECT"
-    },
-    {
-      "caseId": "GC-0033",
-      "expected": "REJECT",
-      "historical": "ACCEPT",
-      "current": "ACCEPT",
-      "status": "KNOWN_DEFECT"
-    },
-    {
-      "caseId": "GC-0038",
-      "expected": "ACCEPT",
-      "historical": "REJECT",
-      "current": "ACCEPT",
-      "status": "KNOWN_DEFECT"
-    }
-  ],
-  "averageLatencyMs": 16683,
-  "provider": "FIREWORKS",
-  "model": "accounts/fireworks/models/qwen3p8-max"
+  "executionErrors": 0,
+  "llmExecuted": 42,
+  "deterministicFastPathed": 17,
+  "detAccept": 4,
+  "detBlock": 13,
+  "stableSuccess": 50,
+  "regression": 2,
+  "improvement": 2,
+  "persistentDefect": 2,
+  "knownDefect": 3,
+  "changedUnscorable": 0,
+  "sourceExists": 59,
+  "sourceMissing": 0
 }
