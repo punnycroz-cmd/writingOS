@@ -91,7 +91,7 @@
     {
       "name": "18_freeze_doc_summary_consistency",
       "passed": true,
-      "detail": "freeze doc active=59 referenced: true"
+      "detail": "all required metrics match summary"
     },
     {
       "name": "19_corpus_manifest_ledger_consistency",
@@ -101,7 +101,7 @@
     {
       "name": "20_forensic_inventory_consistency",
       "passed": true,
-      "detail": "forensic MANIFEST.json present: true"
+      "detail": "manifest, inventory, counts, paths, hashes, exclusions validated\nhashes: 945 match, 0 mismatch, 0 not recomputable"
     }
   ],
   "comparisonMismatches": [],

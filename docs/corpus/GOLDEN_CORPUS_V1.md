@@ -5,7 +5,7 @@
 **Version:** golden-corpus-v1  
 **Registers:** FICTION  
 **Provider:** FIREWORKS (qwen3p8-max)  
-**Frozen At:** 2026-08-22 (Phase 2B.5)
+**Frozen At:** 2026-08-22 (Phase 2B.5R)
 
 ## Purpose
 
@@ -24,15 +24,6 @@ Permanent, versioned validation corpus for Writing OS v1. Provides:
 | r6-baseline | 15 |
 | writing-os-v1 | 5 |
 | writing-os-v1-1 | 12 |
-
-## Case Classes
-
-| Class | Count |
-|---|---|
-| SUPPORTED | 23 |
-| CONTRADICTED | 18 |
-| ADVERSARIAL | 12 |
-| REGRESSION | 6 |
 
 ## Canonical Metrics (from `canonical-case-ledger.json`)
 
@@ -109,6 +100,12 @@ Every persisted result file contains an explicit `executionProvenance` field:
 
 The reconciler READS this persisted field. It does NOT invent provenance at reconciliation time.
 
-## Consistency Checks
+## Consistency Checks (Phase 2B.5R)
 
-20 consistency checks run on every reconciliation. All must pass for FROZEN status. See `consistency-check.json` for the full list.
+20 consistency checks run on every reconciliation. All must pass for FROZEN status.
+Checks #18 and #20 were hardened in Phase 2B.5R to perform real content validation:
+
+- **Check #18:** Parses the freeze document's canonical metrics section and compares ALL 16 required metrics against `summary.json`. Uses `src/corpus/freeze-document-parser.ts`.
+- **Check #20:** Validates `MANIFEST.json` fields, `file-inventory.json` structure, preserved file existence, SHA256 hash verification, and `EXCLUDED_FILES.md` policy. Uses `src/corpus/forensic-validator.ts`.
+
+See `consistency-check.json` for the full list.

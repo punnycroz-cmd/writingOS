@@ -1,23 +1,23 @@
 {
-  "task": "PHASE-2B-5",
-  "snapshotCreatedAt": "2026-08-22T22:57:00.000Z",
+  "task": "PHASE-2B-5R",
+  "snapshotCreatedAt": "2026-08-22T23:50:00.000Z",
   "repository": "punnycroz-cmd/writingOS",
   "branch": "research/phase2b-golden-corpus-v1-reconciled",
-  "head": "a0abcdc6dc91c987ff00104d638f0f206c416287",
-  "filesPreserved": 924,
+  "head": "pending",
+  "filesPreserved": 952,
   "filesExcluded": 0,
   "sanitizedFiles": 0,
   "categories": {
     "other": 1,
-    "report": 126,
-    "data": 725,
-    "source": 60,
-    "log": 8,
-    "test": 4
+    "report": 132,
+    "data": 732,
+    "source": 68,
+    "log": 13,
+    "test": 6
   },
   "sensitivePatternsChecked": true,
   "secretsFound": false,
-  "scanNotes": "Scanned for github_pat_, ghp_, gho_, sk- (OpenAI), AKIA (AWS), FIREWORKS_API_KEY=, OPENAI_API_KEY=, ANTHROPIC_API_KEY=, GOOGLE_API_KEY=, YOU_API_KEY=, Authorization: Bearer, BEGIN PRIVATE KEY, .env files. All matches in Writing OS artifacts were false positives (substring of filenames like mask-cdf..., base64 image data). No actual secrets found in any committed file.",
+  "scanNotes": "No actual secrets found.",
   "excludedByPolicy": [
     "node_modules/",
     ".git/",
@@ -27,8 +27,12 @@
     "tool-results/",
     "upload/",
     "download/",
-    "skills/ (gitignored sandbox infra)",
-    ".env (gitignored)"
+    "skills/",
+    ".env"
   ],
-  "headNote": "Tip of research/phase2b-golden-corpus-v1-reconciled after Phase 2B.5 commits. May include trivial doc follow-ups after the main Phase 2B.5 commit 66ba9d1."
+  "selfExcludedFiles": [
+    "forensic/phase2b-5/MANIFEST.json",
+    "forensic/phase2b-5/file-inventory.json"
+  ],
+  "selfExclusionNote": "Excluded from own inventory."
 }
