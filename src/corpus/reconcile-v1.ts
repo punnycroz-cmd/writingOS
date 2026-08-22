@@ -51,7 +51,7 @@ function main() {
     const src = resolveSourcePath(gc.sourceFile);
     const isR6 = gc.tags?.includes('R6') ?? false;
     const isUnresolved = gc.tags?.includes('UNRESOLVED') ?? false;
-    const finalScorable = !!gc.expectedFinalDecision && !isUnresolved;
+    const finalScorable = !!gc.expectedFinalDecision; // R6/UNRESOLVED cases with expected decisions ARE scorable
     const triageScorable = gc.expectedTriage && gc.expectedTriage !== '?' && ['DETERMINISTIC_ACCEPT', 'DETERMINISTIC_BLOCK', 'HANDOFF_TO_LLM'].includes(gc.expectedTriage);
     const semanticScorable = gc.expectedSemantic !== null && gc.expectedSemantic !== undefined;
     const cs = er.currentSemantic;

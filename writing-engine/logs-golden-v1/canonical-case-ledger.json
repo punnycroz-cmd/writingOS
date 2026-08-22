@@ -62,7 +62,11 @@
     "evaluatedAt": "2026-08-22T14:08:39.493Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-A1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0002",
@@ -127,7 +131,11 @@
     "evaluatedAt": "2026-08-22T14:09:02.359Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-A2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0003",
@@ -182,7 +190,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.918Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-A3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0004",
@@ -237,7 +249,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.918Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-A4.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0005",
@@ -302,7 +318,11 @@
     "evaluatedAt": "2026-08-22T14:09:07.464Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-B1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0006",
@@ -367,7 +387,11 @@
     "evaluatedAt": "2026-08-22T14:09:17.523Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-B2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0007",
@@ -422,7 +446,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.919Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-B3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0008",
@@ -477,7 +505,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.920Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-B4.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0009",
@@ -541,7 +573,11 @@
     "evaluatedAt": "2026-08-22T14:09:32.917Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-C1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0010",
@@ -605,7 +641,11 @@
     "evaluatedAt": "2026-08-22T14:09:51.268Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-C2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0011",
@@ -659,7 +699,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.920Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-C3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0012",
@@ -713,7 +757,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.921Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-C4.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0013",
@@ -778,7 +826,11 @@
     "evaluatedAt": "2026-08-22T14:09:58.452Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-D1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0014",
@@ -843,7 +895,11 @@
     "evaluatedAt": "2026-08-22T14:10:04.699Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-D2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0015",
@@ -908,7 +964,11 @@
     "evaluatedAt": "2026-08-22T14:10:14.865Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-D3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0016",
@@ -963,7 +1023,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.921Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-E1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0017",
@@ -1028,7 +1092,11 @@
     "evaluatedAt": "2026-08-22T14:10:31.656Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-E2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0018",
@@ -1083,7 +1151,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.922Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-E3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0019",
@@ -1138,7 +1210,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.922Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-P1-S.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0020",
@@ -1203,7 +1279,11 @@
     "evaluatedAt": "2026-08-22T14:10:44.779Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-P1-W.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0021",
@@ -1267,7 +1347,11 @@
     "evaluatedAt": "2026-08-22T14:11:08.697Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/iteration43b-calibrated-fw-P2-W.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0022",
@@ -1325,7 +1409,11 @@
     "evaluatedAt": "2026-08-22T14:11:36.795Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/regression-R1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0023",
@@ -1373,7 +1461,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.923Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/regression-R4.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0024",
@@ -1431,7 +1523,11 @@
     "evaluatedAt": "2026-08-22T14:12:00.327Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/regression-R5.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0025",
@@ -1489,7 +1585,11 @@
     "evaluatedAt": "2026-08-22T14:12:15.107Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/regression-R6.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0026",
@@ -1547,7 +1647,11 @@
     "evaluatedAt": "2026-08-22T14:12:20.212Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/regression-R7.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0027",
@@ -1595,7 +1699,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.924Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs43b/regression-R8.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0028",
@@ -1663,7 +1771,11 @@
     "evaluatedAt": "2026-08-22T14:12:27.802Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-A1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0029",
@@ -1731,7 +1843,11 @@
     "evaluatedAt": "2026-08-22T14:12:32.104Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-A2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0030",
@@ -1799,7 +1915,11 @@
     "evaluatedAt": "2026-08-22T14:12:42.011Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-A3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0031",
@@ -1858,16 +1978,20 @@
       "error": null
     },
     "currentFinalDecision": "REJECT",
-    "currentFinalCorrect": null,
+    "currentFinalCorrect": true,
     "ioCorrect": false,
     "faithCorrect": true,
     "isR6": true,
     "isUnresolved": true,
     "triageScorable": true,
     "semanticScorable": true,
-    "finalScorable": false,
-    "historicalComparison": "KNOWN_DEFECT",
+    "finalScorable": true,
+    "historicalComparison": "IMPROVEMENT",
     "evaluatedAt": "2026-08-22T14:13:36.255Z",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    },
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-B1.json",
     "sourceStatus": "SOURCE_EXISTS"
@@ -1938,7 +2062,11 @@
     "evaluatedAt": "2026-08-22T14:14:14.887Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-B2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0033",
@@ -1997,19 +2125,23 @@
       "error": null
     },
     "currentFinalDecision": "ACCEPT",
-    "currentFinalCorrect": null,
+    "currentFinalCorrect": false,
     "ioCorrect": true,
     "faithCorrect": true,
     "isR6": true,
     "isUnresolved": true,
     "triageScorable": true,
     "semanticScorable": true,
-    "finalScorable": false,
+    "finalScorable": true,
     "historicalComparison": "KNOWN_DEFECT",
     "evaluatedAt": "2026-08-22T14:14:37.632Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-B3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0034",
@@ -2077,7 +2209,11 @@
     "evaluatedAt": "2026-08-22T14:14:37.334Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-C1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0035",
@@ -2140,7 +2276,11 @@
     "evaluatedAt": "2026-08-22T14:14:44.858Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-C2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0036",
@@ -2199,16 +2339,20 @@
       "error": null
     },
     "currentFinalDecision": "REJECT",
-    "currentFinalCorrect": null,
+    "currentFinalCorrect": true,
     "ioCorrect": false,
     "faithCorrect": true,
     "isR6": true,
     "isUnresolved": true,
     "triageScorable": true,
     "semanticScorable": true,
-    "finalScorable": false,
-    "historicalComparison": "KNOWN_DEFECT",
+    "finalScorable": true,
+    "historicalComparison": "IMPROVEMENT",
     "evaluatedAt": "2026-08-22T14:15:38.684Z",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    },
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-D1-UNKNOWN.json",
     "sourceStatus": "SOURCE_EXISTS"
@@ -2279,7 +2423,11 @@
     "evaluatedAt": "2026-08-22T14:15:41.720Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-D2-SUSPECTS.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0039",
@@ -2347,7 +2495,11 @@
     "evaluatedAt": "2026-08-22T14:16:22.953Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-E1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0040",
@@ -2415,7 +2567,11 @@
     "evaluatedAt": "2026-08-22T14:16:54.647Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-E2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0041",
@@ -2483,7 +2639,11 @@
     "evaluatedAt": "2026-08-22T14:16:53.988Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-E3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0042",
@@ -2546,7 +2706,11 @@
     "evaluatedAt": "2026-08-22T14:17:04.583Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-F1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0043",
@@ -2613,7 +2777,11 @@
     "evaluatedAt": "2026-08-22T14:17:09.535Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1/candidate-S1-C1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0044",
@@ -2680,7 +2848,11 @@
     "evaluatedAt": "2026-08-22T14:17:17.486Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1/candidate-S2-C1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0045",
@@ -2737,7 +2909,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.927Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1/candidate-S2-C2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0046",
@@ -2804,7 +2980,11 @@
     "evaluatedAt": "2026-08-22T14:17:27.374Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1/candidate-S4-C1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0047",
@@ -2860,7 +3040,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.927Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1/candidate-S6-C1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0048",
@@ -2917,7 +3101,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.927Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A1-S1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0049",
@@ -2974,7 +3162,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.928Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A1-S2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0050",
@@ -3041,7 +3233,11 @@
     "evaluatedAt": "2026-08-22T14:17:31.332Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A1-S2b.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0051",
@@ -3097,7 +3293,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.928Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A1-S3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0052",
@@ -3164,7 +3364,11 @@
     "evaluatedAt": "2026-08-22T14:17:44.413Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A3-1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0053",
@@ -3231,7 +3435,11 @@
     "evaluatedAt": "2026-08-22T14:18:05.757Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A3-2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0054",
@@ -3298,7 +3506,11 @@
     "evaluatedAt": "2026-08-22T14:18:44.798Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A4-1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0055",
@@ -3365,7 +3577,11 @@
     "evaluatedAt": "2026-08-22T14:19:15.325Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A5-1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0056",
@@ -3422,7 +3638,11 @@
     "evaluatedAt": "2026-08-22T14:07:59.928Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A5-2.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0057",
@@ -3489,7 +3709,11 @@
     "evaluatedAt": "2026-08-22T14:19:14.112Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A5-3.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0058",
@@ -3555,7 +3779,11 @@
     "evaluatedAt": "2026-08-22T14:19:22.473Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A8-1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0059",
@@ -3622,7 +3850,11 @@
     "evaluatedAt": "2026-08-22T14:19:35.437Z",
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-integration-v1-1/case-A9-1.json",
-    "sourceStatus": "SOURCE_EXISTS"
+    "sourceStatus": "SOURCE_EXISTS",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    }
   },
   {
     "id": "GC-0038R1",
@@ -3642,8 +3874,8 @@
     "inventionPolicy": "LICENSED_FICTION",
     "expectedTriage": "HANDOFF_TO_LLM",
     "expectedSemantic": {
-      "infoOwnership": "PASS",
-      "faithfulness": "PASS"
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL"
     },
     "expectedFinalDecision": "ACCEPT",
     "observedFinalDecision": "REJECT",
@@ -3675,7 +3907,7 @@
       "meaning": "PASS",
       "stateConsulted": true,
       "validatorMode": "LLM",
-      "latencyMs": 0,
+      "latencyMs": 8875,
       "error": null
     },
     "currentFinalDecision": "ACCEPT",
@@ -3686,7 +3918,11 @@
     "semanticScorable": true,
     "finalScorable": true,
     "historicalComparison": "IMPROVEMENT",
-    "evaluatedAt": "2026-08-22T12:00:00.000Z",
+    "evaluatedAt": "2026-08-22T21:30:56.962Z",
+    "executionProvenance": {
+      "status": "EXECUTED",
+      "sourceCaseId": null
+    },
     "active": true,
     "canonicalSourcePath": "writing-engine/logs-r6/baseline-D3-KNOWS.json",
     "sourceStatus": "SOURCE_EXISTS",

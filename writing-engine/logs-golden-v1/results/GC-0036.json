@@ -33,8 +33,12 @@
   "triageScorable": true,
   "semanticScorable": true,
   "finalScorable": false,
-  "historicalComparison": "KNOWN_DEFECT",
+  "historicalComparison": "IMPROVEMENT",
   "provider": "FIREWORKS",
   "model": "accounts/fireworks/models/qwen3p8-max",
-  "evaluatedAt": "2026-08-22T14:15:38.684Z"
+  "evaluatedAt": "2026-08-22T14:15:38.684Z",
+  "executionProvenance": {
+    "status": "EXECUTED",
+    "sourceCaseId": null
+  }
 }
