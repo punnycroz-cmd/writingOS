@@ -1,0 +1,60 @@
+{
+  "caseId": "B2",
+  "group": "B",
+  "label": "SUSPECTS + suspected (some money)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus might have taken some money.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate replaces the original scene statement 'Marcus was at the desk' with a different proposition about Maya's suspicion, losing the original meaning.",
+      "character: Maya is used consistently with the document state, and her suspicion is authorized.",
+      "infoOwnership: The state explicitly lists Maya as suspecting that Marcus took money, so 'Maya suspected Marcus might have taken some money' is epistemically supported.",
+      "canon: No canon fact is contradicted; Maya co-owning a clinic with Marcus is compatible with the candidate.",
+      "voice: No specific voice constraints are violated.",
+      "register: The sentence is plain and appropriate.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are triggered or resolved.",
+      "faithfulness: The added suspicion is supported by the structured state and does not introduce unsupported specific facts."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SOME",
+  "reasoning": "suspicion matches state (suspects he took money)",
+  "latencyMs": 18194,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "smoke"
+}

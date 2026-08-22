@@ -1,0 +1,60 @@
+{
+  "caseId": "B1",
+  "group": "B",
+  "label": "SUSPECTS + wondered (vague)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered if Marcus had taken anything.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate no longer preserves the original proposition that Marcus was at the desk; it replaces that observation with Maya’s internal suspicion.",
+      "character: Maya is used consistently with the provided character identity and does not contradict any listed character state.",
+      "infoOwnership: The candidate expresses wondering/suspicion rather than knowledge, and the state lists Maya as suspecting that Marcus took money from the clinic.",
+      "canon: No hard or soft canon fact is contradicted by Maya wondering whether Marcus had taken anything.",
+      "voice: No distinctive voice constraints are provided, and the sentence is not inconsistent with the sparse character profile.",
+      "register: The register is plain narrative and appropriate.",
+      "intelligibility: The sentence is clear and grammatically intelligible.",
+      "deferred: No deferred checks are triggered or resolved.",
+      "faithfulness: The suspicion is sufficiently vague and state-supported; it does not assert a specific unsupported fact as known."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague uncertainty — licensed",
+  "latencyMs": 18215,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

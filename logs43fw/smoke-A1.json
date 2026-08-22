@@ -1,0 +1,60 @@
+{
+  "caseId": "A1",
+  "group": "A",
+  "label": "UNKNOWN + wondered (vague)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered if Marcus had taken anything.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate drops the original proposition that Marcus was at the desk and replaces it with a new interior thought from Maya.",
+      "character: No direct contradiction to Maya’s identity or canon role is present.",
+      "infoOwnership: Maya is marked UNKNOWN for the fact that Marcus took money from the clinic and has no registered suspicion. The candidate gives her a suspicious thought that Marcus had taken anything, which edges toward the protected hidden fact without state support.",
+      "canon: Nothing contradicts the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No voice constraints are violated.",
+      "register: The register is consistent with simple narrative prose.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The candidate introduces an unsupported mental state and suspicion not grounded in the original text or the document state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague uncertainty — no specific proposition",
+  "latencyMs": 155665,
+  "retryCount": 2,
+  "error": null,
+  "runLabel": "smoke"
+}

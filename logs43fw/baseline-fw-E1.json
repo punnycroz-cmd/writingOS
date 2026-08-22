@@ -1,0 +1,60 @@
+{
+  "caseId": "E1",
+  "group": "E",
+  "label": "UNKNOWN + domain suspicion (finances)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected something was wrong with the clinic finances.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate replaces the original proposition 'Marcus was at the desk' with a different proposition about Maya suspecting financial trouble, so the core meaning is not preserved.",
+      "character: Maya is a canonically established co-owner of the clinic, so concern about clinic finances is not intrinsically out of character.",
+      "infoOwnership: The candidate uses vague suspicion ('something was wrong') and does not assert knowledge or certainty that Marcus took money; it does not directly leak the owned fact.",
+      "canon: The clinic-finances topic is compatible with the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No voice constraints are violated; the sentence is neutral.",
+      "register: The register is consistent with ordinary narrative prose.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The candidate adds an unsupported internal-state claim and drops the original scene content, making it unfaithful to the source text."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "DOMAIN_SUSPICION",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "specific domain suspicion without evidence — closer to leak than vague unease",
+  "latencyMs": 41316,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

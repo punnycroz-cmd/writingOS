@@ -52,3 +52,25 @@ prompt
 server.log
 # Skills directory
 /skills/
+# Machine-specific / sandbox files
+.zscripts/
+.z-ai-config
+.env
+.env.*
+*.pem
+credentials/
+*.key
+
+# Skills (local only)
+/skills/
+
+# Historical experiment logs (large, preserved selectively)
+writing-engine/logs/
+writing-engine/logs2/
+writing-engine/logs3/
+writing-engine/logs4/
+writing-engine/logs41/
+writing-engine/logs42/
+
+# Citation check artifacts
+citation-checks/
