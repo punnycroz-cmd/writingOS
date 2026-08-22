@@ -1,0 +1,60 @@
+{
+  "caseId": "D2",
+  "group": "D",
+  "label": "UNKNOWN + vague sense (something wrong)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "The conversation left Maya with a vague sense that something was wrong.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "reasons": [
+      "meaning: The candidate does not preserve the original proposition that Marcus was at the desk; it replaces it with an unrelated statement about Maya’s reaction to a conversation.",
+      "character: Maya’s vague unease is compatible with her identity and does not assert out-of-character knowledge.",
+      "infoOwnership: The candidate only gives Maya a vague sense that something is wrong, not knowledge or suspicion of the specific unknown fact that Marcus took money from the clinic.",
+      "canon: Nothing contradicts the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No character voice constraints are violated.",
+      "register: The register is coherent and appropriate.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are resolved or violated.",
+      "faithfulness: The candidate introduces an unsupported event, “the conversation,” and omits the original observable detail about Marcus being at the desk."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "VAGUE_AFFECT",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague atmospheric sense — not a specific claim",
+  "latencyMs": 7759,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

@@ -1,0 +1,60 @@
+{
+  "caseId": "B2",
+  "group": "B",
+  "label": "SUSPECTS + suspected (some money)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus might have taken some money.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate is coherent and introduces a state-supported interior beat rather than contradicting the original scene state.",
+      "character: Maya’s suspicion is consistent with the documented character state and authorized mental state.",
+      "infoOwnership: The document explicitly lists Maya as suspecting that Marcus took money; the candidate uses 'suspected' and 'might', matching SUSPICION rather than knowledge.",
+      "canon: Nothing contradicts the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No voice constraints are violated; the sentence is neutral narrative.",
+      "register: The register is appropriate plain prose.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The claim is not a specific unsupported fact; it is a state-supported suspicion."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SOME",
+  "reasoning": "suspicion matches state (suspects he took money)",
+  "latencyMs": 30027,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

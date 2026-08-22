@@ -1,0 +1,60 @@
+{
+  "caseId": "P1-S",
+  "group": "PAIR",
+  "label": "PAIR: suspected (SUSPECTS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus had taken the money.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate replaces the original proposition that Marcus was at the desk with a different proposition about Maya suspecting Marcus took the money, losing the source sentence’s core content.",
+      "character: Maya’s suspicion is consistent with the document state and does not contradict her provided identity.",
+      "infoOwnership: The state explicitly lists Maya as suspecting that Marcus took money, and the candidate uses the appropriately tentative verb 'suspected'.",
+      "canon: Nothing contradicts the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No specific voice constraints are violated.",
+      "register: The sentence uses a neutral narrative register appropriate to the context.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The added suspicion is supported by the informationOwnership state and introduces no unsupported specific numbers, dates, or names."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "suspected — matches SUSPECTS state",
+  "latencyMs": 38353,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

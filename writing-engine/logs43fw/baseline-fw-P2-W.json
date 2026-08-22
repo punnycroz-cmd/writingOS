@@ -1,0 +1,37 @@
+{
+  "caseId": "P2-W",
+  "group": "PAIR",
+  "label": "PAIR: wondered (KNOWS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "EXECUTION_ERROR",
+  "executionStatus": "EXECUTION_ERROR",
+  "candidateText": "Maya wondered whether Marcus had taken anything.",
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "EXECUTION_ERROR"
+  },
+  "stateConsulted": false,
+  "finalDecision": "REJECT",
+  "finalReason": "EXECUTION_ERROR",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "wondered — downgrade, licensed under KNOWS",
+  "latencyMs": 65590,
+  "retryCount": 0,
+  "error": "JSON parse: Could not parse JSON from LLM output: {\n  \"meaning\": \"FAIL\",\n  \"character\": \"FAIL\",\n  \"infoOwnership\": \"FAIL\",\n  \"canon\": \"PASS\",\n  \"voice\": \"PASS\",\n  \"register\": \"PASS\",\n  \"intelligibility\": \"PASS\",\n  \"deferred\": \"PASS\",\n  \"faithfulness\"",
+  "runLabel": "baseline-fw"
+}

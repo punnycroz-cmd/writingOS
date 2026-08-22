@@ -1,0 +1,59 @@
+{
+  "caseId": "P2-K",
+  "group": "PAIR",
+  "label": "PAIR: knew (KNOWS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: The candidate replaces the original proposition 'Marcus was at the desk' with a different interior claim about Maya knowing Marcus took the money, so it does not preserve the source scene content.",
+      "character: Maya is authorized by the state to have this knowledge, and the sentence does not contradict her characterized knowledge.",
+      "infoOwnership: The state explicitly lists Maya among the knowers of 'Marcus took money from the clinic', so 'Maya knew' is epistemically authorized.",
+      "canon: No hard or soft canon is contradicted; the clinic co-ownership canon is compatible with the candidate.",
+      "voice: No specific voice constraints are violated.",
+      "register: The register is consistent with simple narrative prose.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The added factual claim is supported by the document state, even though it changes the scene focus."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "knew — matches KNOWS state",
+  "latencyMs": 23453,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

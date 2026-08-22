@@ -1,0 +1,60 @@
+{
+  "caseId": "A2",
+  "group": "A",
+  "label": "UNKNOWN + suspected (some money)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus might have taken some money.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "FAIL",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate replaces the original observable situation, Marcus being at the desk, with a new mental-state claim about Maya.",
+      "character: The candidate attributes a specific suspicion to Maya that is not supported by her empty currentKnowledge, beliefs, or memories.",
+      "infoOwnership: The structured state marks Maya as unknown to the fact that Marcus took money and lists no suspects; the candidate nevertheless gives Maya suspicion of that specific fact.",
+      "canon: The candidate does not contradict the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No specific voice constraints are violated.",
+      "register: The register remains acceptable for plain narrative prose.",
+      "intelligibility: The sentence is clear and grammatically intelligible.",
+      "deferred: No deferred checks are resolved.",
+      "faithfulness: The candidate introduces an unsupported mental-state assertion and does not remain faithful to the original text."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SOME",
+  "reasoning": "specific suspicion of a fact the character does not know — unsupported",
+  "latencyMs": 19428,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

@@ -1,0 +1,60 @@
+{
+  "caseId": "E3",
+  "group": "E",
+  "label": "UNKNOWN + domain suspicion (transfer)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus was involved in the transfer.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate replaces the original observation that Marcus was at the desk with a new interior claim about Maya suspecting Marcus, which is not semantically equivalent.",
+      "character: The candidate is not inconsistent with Maya’s stated identity, but it introduces unsupported interiority handled under infoOwnership/faithfulness.",
+      "infoOwnership: Maya is listed as UNKNOWN for the relevant fact and has no recorded suspicion. The candidate introduces Maya’s suspicion of a specific Marcus-related wrongdoing without state support.",
+      "canon: The candidate does not contradict the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No specific voice is provided in the state, and the candidate’s plain style does not violate voice constraints.",
+      "register: The register is consistent with simple narrative prose.",
+      "intelligibility: The sentence is clear and grammatical.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The candidate invents a specific plot claim — Maya suspecting Marcus was involved in the transfer — that is not supported by the original text or the document state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "DOMAIN_SUSPICION",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "specific suspicion naming a person and an action — unsupported",
+  "latencyMs": 13885,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

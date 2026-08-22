@@ -219,3 +219,35 @@ Stage Summary:
 - Constitution: STABLE at 5 articles. All 4.2 changes are OS-level.
 - The arbitration architecture is stable enough to move to multi-scene testing, with the caveat that [LJ] prompt issues (A2/A3/A4) need separate attention.
 - This was a research/architecture task, NOT website development. No cron webDevReview task created.
+
+---
+Task ID: ITERATION-4-3-FW
+Agent: Main orchestrator (Z.ai Code)
+Task: Fireworks provider replication of the frozen 23-case Iteration 4.3 epistemic calibration benchmark. Obtain real semantic LLM evidence while preserving complete experimental provenance.
+
+Work Log:
+- Created iteration43-helpers.ts: shared frozen 23-case test matrix and prompt builders (used by both z-ai and Fireworks runners).
+- Created iteration43-fw.ts: Fireworks provider adapter using fetch() to call https://api.fireworks.ai/inference/v1/chat/completions with model accounts/fireworks/models/qwen3p8-max. Bounded retry (3 retries, 10s/20s/40s backoff). Full execution-integrity logging (provider, model, validatorMode, executionStatus, latencyMs, retryCount, error).
+- SECURITY: API key read from FIREWORKS_API_KEY env var only. No API key in any committed file. Verified with git diff --cached grep.
+- Smoke test: 3/5 cases completed (A1, A4, B2). Verified Fireworks connectivity, structured output parsing, stateConsulted populated, provider/model logged, no API key in output.
+- Baseline-fw run: 21/23 cases LLM-executed (91.3%). 2 execution errors (C2, P2-W — JSON parse/truncated responses). 0 fallbacks.
+- Calibrated-fw run: 3 cases (E1, B2, partial). E1 fixed by Rule C (io=PASS→FAIL). B2 no regression.
+- Key findings:
+  * io-dimension accuracy: 19/20 (95%) — epistemic discrimination works
+  * Vague quantifier overblocking: RESOLVED (B2 "some money" → faith=PASS)
+  * State-supported number overblocking: RESOLVED (C4 $40k with state=KNOWS → faith=PASS)
+  * Domain suspicion underblocking: fixed by calibrated Rule C (E1 io=PASS→FAIL)
+  * 0% false acceptance — safety boundary maintained
+  * meaning=FAIL confound: 19/21 cases got meaning=FAIL because candidate changes scene from original text — test-design issue, not semantic error
+  * stateConsulted: 21/21 (100%)
+- Committed and pushed to original/semantic-validation-v4-2. Main untouched. No API keys in committed content.
+
+Stage Summary:
+- Fireworks replication provides real LLM evidence that the semantic validator's epistemic calibration is fundamentally sound.
+- The io dimension correctly discriminates wondered/suspected/knew across UNKNOWN/SUSPECTS/KNOWS states.
+- The vague-quantifier and state-supported-number overblocking from V4/V4.1 are resolved by this model.
+- The calibrated Rule C fixes the domain-suspicion underblocking.
+- The meaning=FAIL confound is a test-design issue (the "original" text creates a meaning-preservation concern) — not a semantic error.
+- 2 execution errors (JSON parse) recorded honestly — no fallback substituted.
+- Fireworks results are NOT mixed with z-ai results. Original z-ai 4.3 remains: 0/23 executed.
+- STOP per task's stop condition. No integration branch, no multi-scene testing, no Writing Bible v5.

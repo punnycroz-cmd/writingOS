@@ -1,0 +1,60 @@
+{
+  "caseId": "P1-K",
+  "group": "PAIR",
+  "label": "PAIR: knew (SUSPECTS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: The candidate replaces the simple scene statement 'Marcus was at the desk' with a new claim about Maya knowing Marcus took money, changing the core meaning.",
+      "character: The sentence is broadly consistent with Maya being involved in the clinic, but the epistemic mismatch is handled under infoOwnership.",
+      "infoOwnership: The state explicitly says Maya only suspects that Marcus took money from the clinic, while the candidate asserts she knew it.",
+      "canon: No hard or soft canon fact is contradicted by mentioning Maya, Marcus, or the money.",
+      "voice: No character voice constraints are violated.",
+      "register: The sentence is grammatically and stylistically coherent.",
+      "intelligibility: The sentence is clear and understandable.",
+      "deferred: No deferred checks are triggered or resolved.",
+      "faithfulness: The candidate introduces a definite knowledge claim about a theft that is not established in the original text and is not authorized by the state as known by Maya."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "knew — overreach under SUSPECTS",
+  "latencyMs": 20467,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

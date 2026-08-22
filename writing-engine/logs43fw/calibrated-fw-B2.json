@@ -1,0 +1,60 @@
+{
+  "caseId": "B2",
+  "group": "B",
+  "label": "SUSPECTS + suspected (some money)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus might have taken some money.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate is coherent and does not contradict the original observation that Marcus was at the desk.",
+      "character: The sentence centers on Maya and attributes a mental state consistent with the structured state.",
+      "infoOwnership: Maya is explicitly listed as suspecting that Marcus took money from the clinic, and the candidate uses suspicion rather than knowledge.",
+      "canon: Nothing contradicts the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No character voice is specified, and the sentence is neutrally written without violating any known voice constraints.",
+      "register: The register is simple narrative prose and appropriate for the context.",
+      "intelligibility: The sentence is clear and grammatically intelligible.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The phrase 'some money' is a vague quantifier and is supported by the state-backed fact that Maya suspects Marcus took money."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SOME",
+  "reasoning": "suspicion matches state (suspects he took money)",
+  "latencyMs": 47555,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "calibrated-fw"
+}

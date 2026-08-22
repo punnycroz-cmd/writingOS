@@ -1,0 +1,59 @@
+{
+  "caseId": "C1",
+  "group": "C",
+  "label": "KNOWS + wondered (vague)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered if Marcus had taken anything.",
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "UNCLEAR",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The original states a concrete scene fact: Marcus was at the desk. The candidate replaces that with Maya’s internal thought and omits the desk presence, so it does not preserve the original meaning.",
+      "character: Maya is used consistently with her identity, and no explicit character trait is contradicted.",
+      "infoOwnership: Maya knows Marcus took money from the clinic, but the candidate has her wondering if he had taken anything. This is ambiguous: it could conflict with her known knowledge if read as uncertainty about the theft itself, or it could refer to additional items, but the state does not clearly authorize that specific wondering.",
+      "canon: Nothing contradicts the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No distinct voice is specified in the state, and the sentence is not inconsistent with a neutral narrative voice.",
+      "register: The register is simple narrative prose and is appropriate.",
+      "intelligibility: The sentence is grammatically clear and understandable.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The candidate introduces a new plot-relevant internal suspicion not present in the original and not merely sensory or environmental texture, while omitting the original observable fact."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague uncertainty — licensed (downgrade from KNOWS)",
+  "latencyMs": 25977,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}
