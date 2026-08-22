@@ -119,3 +119,25 @@ Stage Summary:
 - The hybrid [CC]+[LJ] architecture is DEMONSTRATED as superior to [LJ]-alone for the specific v1 failures (deferred detection, number invention). [CC] catches what [LJ] misses (exact anchors, numbers); [LJ] catches what [CC] cannot (semantic faithfulness, info-ownership).
 - The smallest next experiment: a direct info-ownership validator test (feed known-bad interventions with leaks, verify FAIL). This is the single untested safety-critical component.
 - This was a research/architecture task, NOT website development. No cron webDevReview task created.
+
+---
+Task ID: ITERATION-3
+Agent: Main orchestrator (Z.ai Code)
+Task: Iteration 3 — adversarial validation of information-ownership and faithfulness. Validator-only tests (no generator) with manually-constructed bad interventions to determine whether the validation layer has a real safety boundary.
+
+Work Log:
+- Built adversarial.ts: (1) provenance classifier (SOURCE_TEXT/CHARACTER_STATE/CANON/UNKNOWN for each specific detail); (2) HARD/SOFT/ADVISORY severity classification for [CC] findings; (3) adversarial validator with refined prompt (plausibility is NOT evidence; observation is licensed invention; distinguish observation/inference/knowledge); (4) two final-decision policies (v2 LJ-only, v3 CC-hard-nonoverridable).
+- Built adversarial-cases.ts: 40 manually-constructed cases — 14 IO leak forms (IO-A through IO-J + 4 subtle framings), 10 faithfulness cases (unsupported numbers/dates/times/measurements/quantities/named entities/objects/locations/plausible details), 6 state-constraint cases (UNKNOWN/SUSPECTS/KNOWS × 3 revision forms), 2 POV observation-vs-inference cases, 5 ambiguous cases, 3 [CC]/[LJ] conflict cases.
+- Executed all 40 cases (in batches due to rate limits; per-case logs written immediately). Refined the validator prompt mid-experiment when the initial over-strict prompt produced 5 false positives on legitimate interventions (SC-1C, SC-2B, AMB-1–3); the refined prompt (licensing sensory observation) fixed 4 of 5 but introduced 1 new false negative (CONF-3 semantic invention).
+- Results: 31 true positives, 4 true negatives, 1 false negative (CONF-3), 4 false positives (SC-3A, AMB-1, AMB-2, AMB-3). 87% accuracy under both v2 and v3 policies.
+
+Stage Summary:
+- The Iteration 2 gap (info-ownership untested under leak pressure) is CLOSED: 14/14 leak forms caught, including all 4 subtle framings. Information-ownership is now DEMONSTRATED.
+- The Iteration 2 failure (CONF-2 / IO2: plausible medical vitals accepted as "reasonable") is RESOLVED: the refined prompt + [CC] HARD_BLOCK policy now reject it.
+- The [CC]/[LJ] conflict has an evidence-based policy: HARD_BLOCK (numbers, dates, measurements, explicit claims) is non-overridable; SOFT_SIGNAL (proper nouns) and ADVISORY defer to [LJ]; UNCLEAR on faithfulness/infoOwnership → REJECT (conservative).
+- One residual false negative: CONF-3 (semantic invention disguised as observation — "burnt coffee" smell). The [CC] cannot detect it (no numbers); [LJ] treats it as licensed observation. The faithfulness gate is NOT fully solved.
+- Four false positives on ambiguous inference and spelled-out numbers: [LJ] calibration issues, not policy failures.
+- Constitution: STABLE at 5 articles. No promotions, no demotions. Info-ownership now DEMONSTRATED but remains under Article III, not promoted to standalone.
+- The validation layer has a REAL SAFETY BOUNDARY for the tested scope (fiction Character Specificity): deterministic HARD_BLOCK for unsupported numbers/claims + conservative [LJ] for semantic judgment + UNCLEAR=REJECT on integrity dimensions. One known gap (semantic invention) requires targeted future work.
+- Wrote 6 deliverables (17-22) in writing-engine/deliverables/.
+- This was a research/architecture task, NOT website development. No cron webDevReview task created.

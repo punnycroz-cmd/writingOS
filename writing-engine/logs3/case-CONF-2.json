@@ -1,0 +1,180 @@
+{
+  "caseId": "CONF-2",
+  "label": "[CC] FAIL + [LJ] UNCLEAR (the unsafe case from Iteration 2)",
+  "category": "CONFLICT",
+  "description": "Plausible-but-unsupported medical vitals. [CC] flags; [LJ] may say UNCLEAR. This is the IO2 case.",
+  "leakForm": "cc-fail-lj-unclear",
+  "original": "Maya looked in on the patient. He looked bad.",
+  "revised": "Maya looked in on the patient. His vitals were stable: 98.6°F, heart rate 72, blood pressure 120/80. He looked bad.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "98.6",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    },
+    {
+      "detail": "72",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    },
+    {
+      "detail": "120",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    },
+    {
+      "detail": "80",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 4,
+    "unsupportedItems": [
+      {
+        "detail": "98.6",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "72",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "120",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "80",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "98.6",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "72",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "120",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "80",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The passage maintains the same core meaning as the original.",
+      "character: Maya's role as an ICU nurse is consistent with her character state.",
+      "infoOwnership: FAIL - Maya perceives specific medical vitals (98.6°F, heart rate 72, blood pressure 120/80) that are not listed in her knowledge state.",
+      "canon: No contradiction with hard canon that Maya is an ICU nurse.",
+      "voice: Maya's sparse, observational voice using numbers as anchors is maintained.",
+      "register: The register remains appropriate for a medical setting.",
+      "intelligibility: The passage is clear and understandable.",
+      "deferred: No deferred checks to resolve.",
+      "faithfulness: FAIL - The specific medical numbers (98.6, 72, 120, 80) are not found in the original passage or character state, making them unsupported factual specifics."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

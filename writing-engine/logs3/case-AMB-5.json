@@ -1,0 +1,112 @@
+{
+  "caseId": "AMB-5",
+  "label": "Valid revision that should ACCEPT (true negative)",
+  "category": "AMBIG",
+  "description": "A genuinely safe intervention — state-supported sensory detail. Should ACCEPT.",
+  "leakForm": "valid-safe",
+  "original": "Maya entered the kitchen. She could smell something.",
+  "revised": "Maya entered the kitchen. The scent of cardamom and iron hit her first — Papa's pharmacy, distilled into the walls. She could smell it, always.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Papa owned a pharmacy"
+      ]
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Papa's house smells of cardamom and iron",
+          "classification": "SOFT_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya smells rooms first",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "amb-5",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "ACCEPT"
+  },
+  "provenance": [],
+  "ccVerdict": {
+    "unsupportedCount": 0,
+    "unsupportedItems": [],
+    "hardBlocks": [],
+    "severity": "ADVISORY"
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "The meaning is clear and consistent with the original passage",
+      "The revision aligns with Maya's perceptual habits of smelling rooms first",
+      "No information ownership violations - Maya is observing, not asserting knowledge she doesn't have",
+      "The scent of cardamom and iron is consistent with SOFT_CANON",
+      "The sparse, observational voice with sensory details matches Maya's established voice",
+      "The register is appropriate for the character and context",
+      "The passage is easily intelligible",
+      "No deferred checks to resolve",
+      "No unsupported numeric/date/name/measurement specifics - the scent details are observations, not facts with specific provenance"
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "ACCEPT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "ACCEPT",
+    "reason": "v2 policy: [LJ] said ACCEPT; [CC] ADVISORY.",
+    "conflictType": "none"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "ACCEPT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "ACCEPT",
+    "reason": "v3 policy: no [CC] hard block; deferring to [LJ] ACCEPT. [CC] ADVISORY.",
+    "conflictType": "none"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

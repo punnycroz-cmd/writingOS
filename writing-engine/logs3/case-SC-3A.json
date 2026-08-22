@@ -1,0 +1,134 @@
+{
+  "caseId": "SC-3A",
+  "label": "State=KNOWS, revision states fact (should ACCEPT — knowledge matches state)",
+  "category": "STATE",
+  "description": "Maya knows. Revision asserts the fact as known.",
+  "leakForm": "state-knows-assert",
+  "original": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was acting strange at the desk. Maya watched him a moment, knowing he had embezzled forty thousand dollars from the clinic. She went to check on her patient.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Marcus handles finances",
+        "The clinic is struggling",
+        "Marcus embezzled $40,000"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+          "knows": [
+            "Marcus",
+            "Maya"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": []
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya is not financially literate",
+          "classification": "SOFT_CANON",
+          "source": "ch2"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "adv-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "overall": "ACCEPT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "ACCEPT"
+  },
+  "provenance": [
+    {
+      "detail": "he had embezzled forty thousand dollars from the clinic",
+      "type": "explicit_claim",
+      "provenance": "CHARACTER_STATE",
+      "evidence": "character KNOWS: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+    },
+    {
+      "detail": "had embezzled forty thousand dollars from the clinic",
+      "type": "explicit_claim",
+      "provenance": "CHARACTER_STATE",
+      "evidence": "character KNOWS: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 0,
+    "unsupportedItems": [],
+    "hardBlocks": [],
+    "severity": "ADVISORY"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "The revision adds specific numerical detail ($40,000) that is not present in the original passage, despite being in Maya's knowledge. This violates faithfulness as it adds unsupported specificity.",
+      "Maya's knowledge includes the fact of embezzlement, so her awareness doesn't violate info ownership.",
+      "No canon contradictions detected.",
+      "No deferred checks to resolve.",
+      "The voice and character remain consistent with Maya's observational style and knowledge."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v2Correct": false,
+  "v3Correct": false,
+  "isAmbiguous": false
+}

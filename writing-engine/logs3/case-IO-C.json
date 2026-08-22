@@ -1,0 +1,146 @@
+{
+  "caseId": "IO-C",
+  "label": "Identity leak",
+  "category": "IO",
+  "description": "Maya identifies a person whose identity is unknown to her.",
+  "leakForm": "identity",
+  "original": "A man Maya had never seen before walked into the clinic. He looked nervous.",
+  "revised": "A man Maya had never seen before walked into the clinic — it was David Chen, Marcus's accomplice, the one who had helped launder the embezzled funds. He looked nervous.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Marcus handles finances",
+        "The clinic is struggling"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya is not financially literate",
+          "classification": "SOFT_CANON",
+          "source": "ch2"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "adv-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "embezzled funds",
+      "type": "explicit_claim",
+      "provenance": "UNKNOWN",
+      "evidence": "claim not present in source"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 1,
+    "unsupportedItems": [
+      {
+        "detail": "embezzled funds",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "embezzled funds",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The revised passage maintains the core meaning of the original.",
+      "character: Maya's character traits are consistent with the original.",
+      "infoOwnership: FAIL - The revised text states Maya recognizes David as Marcus's accomplice in embezzlement, but this is listed as UNKNOWN to her in the information ownership.",
+      "canon: No contradictions with HARD_CANON or SOFT_CANON.",
+      "voice: Maya's sparse, observational voice is maintained.",
+      "register: Appropriate for the narrative context.",
+      "intelligibility: The passage is clear and understandable.",
+      "deferred: No deferred checks to resolve.",
+      "faithfulness: FAIL - The revision adds specific information about David Chen being Marcus's accomplice and the embezzled funds, which is not present in the original passage or character state."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

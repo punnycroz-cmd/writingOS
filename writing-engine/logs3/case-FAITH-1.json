@@ -1,0 +1,126 @@
+{
+  "caseId": "FAITH-1",
+  "label": "Unsupported number (obvious)",
+  "category": "FAITH",
+  "description": "Invented specific count \"127 tiles\" — obviously unsupported.",
+  "leakForm": "number",
+  "original": "Maya stood in the hospital corridor. It was quiet.",
+  "revised": "Maya stood in the hospital corridor. She counted 127 ceiling tiles between her and the nurses' station. It was quiet.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "127",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 1,
+    "unsupportedItems": [
+      {
+        "detail": "127",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "127",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The revision maintains the original meaning of Maya standing in a quiet hospital corridor.",
+      "character: The revision aligns with Maya being a nurse who uses numbers as anchors.",
+      "infoOwnership: The character state shows Maya has no current knowledge about the number of ceiling tiles, yet the revision states she counted them as a fact.",
+      "canon: The revision doesn't contradict any canon facts.",
+      "voice: The revision maintains Maya's sparse, observational voice with numbers as anchors.",
+      "register: The register remains appropriate for the narrative.",
+      "intelligibility: The revision is clear and easy to understand.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The specific number '127' is not present in the original passage or character state and appears to be an unsupported invention."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

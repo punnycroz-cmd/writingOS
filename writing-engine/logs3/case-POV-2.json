@@ -1,0 +1,127 @@
+{
+  "caseId": "POV-2",
+  "label": "Muddy shoes→river inference",
+  "category": "POV",
+  "description": "Character sees muddy shoes; revision infers \"walked through the river\" without basis.",
+  "leakForm": "evidence-to-cause",
+  "original": "The man's shoes were muddy. Maya let him in.",
+  "revised": "The man's shoes were muddy — he had clearly walked through the river behind the clinic, the same route the trespasser had taken last week. Maya let him in.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "UNCLEAR",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "SOFT_SIGNAL",
+    "finalDecision": "REJECT",
+    "isAmbiguous": true
+  },
+  "provenance": [
+    {
+      "detail": "had taken last week",
+      "type": "explicit_claim",
+      "provenance": "UNKNOWN",
+      "evidence": "claim not present in source"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 1,
+    "unsupportedItems": [
+      {
+        "detail": "had taken last week",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "had taken last week",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The revision maintains the core meaning of the original passage.",
+      "character: Maya's character traits (observational, controlled) align with noticing muddy shoes.",
+      "infoOwnership: FAIL - Maya has no knowledge of a 'trespasser' or 'river behind the clinic' in her currentKnowledge.",
+      "canon: No contradiction with established canon.",
+      "voice: Maintains sparse, observational style with the mud observation.",
+      "register: Appropriate for narrative fiction.",
+      "intelligibility: Clear and easy to understand.",
+      "deferred: No deferred checks to resolve.",
+      "faithfulness: FAIL - Adds specific details about a river and trespasser not present in original or character knowledge."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": true
+}

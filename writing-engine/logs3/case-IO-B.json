@@ -1,0 +1,146 @@
+{
+  "caseId": "IO-B",
+  "label": "Causal knowledge leak",
+  "category": "IO",
+  "description": "Maya identifies the cause of Marcus's behavior (the fact she cannot know).",
+  "leakForm": "causal",
+  "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+  "revised": "Marcus came into the office. He seemed off. Maya understood why — the weight of having embezzled forty thousand dollars was finally wearing on him.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Marcus handles finances",
+        "The clinic is struggling"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya is not financially literate",
+          "classification": "SOFT_CANON",
+          "source": "ch2"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "adv-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "embezzled forty thousand dollars was finally wearing on him",
+      "type": "explicit_claim",
+      "provenance": "UNKNOWN",
+      "evidence": "claim not present in source"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 1,
+    "unsupportedItems": [
+      {
+        "detail": "embezzled forty thousand dollars was finally wearing on him",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "embezzled forty thousand dollars was finally wearing on him",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "FAIL",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "FAIL",
+    "reasons": [
+      "meaning: The revised passage maintains the basic meaning of Marcus seeming off and Maya's reaction.",
+      "character: Maya's character is inconsistent with her sparse, observational voice and current knowledge. She would not make such a specific inference about embezzlement.",
+      "infoOwnership: Maya does not know that Marcus embezzled $40,000 - this is listed as UNKNOWN to her. The revised text claims she understands why he's off due to this embezzlement.",
+      "canon: The revision doesn't contradict any hard or soft canon facts.",
+      "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revision adds an elaborate psychological explanation that doesn't match her established voice.",
+      "register: The register is appropriate for the context.",
+      "intelligibility: The passage is clear and easy to understand.",
+      "deferred: There are no deferred checks to evaluate.",
+      "faithfulness: The revision adds specific information about '$40,000' and 'embezzled' that is not present in the original passage or character state."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

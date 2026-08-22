@@ -1,0 +1,180 @@
+{
+  "caseId": "FAITH-4",
+  "label": "Unsupported medical value (plausible)",
+  "category": "FAITH",
+  "description": "Invented vitals \"98.6°F, 120/80\" — plausible but unsupported.",
+  "leakForm": "medical-plausible",
+  "original": "Maya looked in on the patient. He looked stable.",
+  "revised": "Maya looked in on the patient. His vitals were stable: 98.6°F, heart rate 72, blood pressure 120/80. She noted the readings on the chart.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "98.6",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    },
+    {
+      "detail": "72",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    },
+    {
+      "detail": "120",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    },
+    {
+      "detail": "80",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 4,
+    "unsupportedItems": [
+      {
+        "detail": "98.6",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "72",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "120",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "80",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "98.6",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "72",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "120",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "80",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The core meaning of checking on a stable patient remains consistent.",
+      "character: Maya's role as a nurse is maintained.",
+      "infoOwnership: Maya knows specific vitals (98.6°F, heart rate 72, BP 120/80) that are not in her knowledge state and not presented as observations she's making.",
+      "canon: No contradiction with canon facts.",
+      "voice: The sparse, observational style using numbers as anchors is maintained.",
+      "register: Appropriate medical register for an ICU nurse.",
+      "intelligibility: Clear and easy to understand.",
+      "deferred: No deferred checks were present to be violated.",
+      "faithfulness: Specific vitals (98.6, 72, 120/80) were added without support in the original passage or character state."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

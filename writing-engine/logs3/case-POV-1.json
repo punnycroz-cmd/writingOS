@@ -1,0 +1,106 @@
+{
+  "caseId": "POV-1",
+  "label": "Observation→emotion (inference without basis)",
+  "category": "POV",
+  "description": "Character sees shaking; revision says \"terrified\" (unobservable emotion).",
+  "leakForm": "observation-to-emotion",
+  "original": "The patient was shaking. Maya noted it on the chart.",
+  "revised": "The patient was terrified. Maya could see the fear consuming him — she knew he was terrified because his hands would not stop shaking.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "UNCLEAR",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "isAmbiguous": true
+  },
+  "provenance": [],
+  "ccVerdict": {
+    "unsupportedCount": 0,
+    "unsupportedItems": [],
+    "hardBlocks": [],
+    "severity": "ADVISORY"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "FAIL",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The revised passage maintains the core meaning that the patient was exhibiting physical signs of distress.",
+      "character: The revision is consistent with Maya's observational nature as a nurse.",
+      "infoOwnership: FAIL - Maya is inferring the patient's emotional state (terror) from physical signs, but her character state shows 'currentKnowledge' is empty, indicating she doesn't know this for certain.",
+      "canon: No contradiction with established canon.",
+      "voice: FAIL - The revision uses more descriptive language ('fear consuming him') that doesn't match Maya's 'sparse, observational' voice.",
+      "register: The register remains appropriate for a medical setting.",
+      "intelligibility: The passage is clear and easy to understand.",
+      "deferred: No deferred checks were present to be resolved.",
+      "faithfulness: FAIL - The specific emotional attribution 'terrified' is not present in the original passage and is not supported by character state."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": true
+}

@@ -1,0 +1,159 @@
+{
+  "caseId": "IO-H",
+  "label": "Partial knowledge upgraded to full",
+  "category": "IO",
+  "description": "Maya knows part (there's a discrepancy) but revision asserts the full fact.",
+  "leakForm": "partial-to-full",
+  "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+  "revised": "Marcus came into the office. He seemed off. Maya knew exactly why — he had embezzled forty thousand dollars from the clinic over eighteen months, and the weight of it was finally breaking him.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Marcus handles finances",
+        "The clinic is struggling",
+        "She saw a $40,000 discrepancy"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [
+            "Maya"
+          ],
+          "misunderstands": [],
+          "unknown": []
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya is not financially literate",
+          "classification": "SOFT_CANON",
+          "source": "ch2"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "adv-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "he had embezzled forty thousand dollars from the clinic over eighteen months",
+      "type": "explicit_claim",
+      "provenance": "UNKNOWN",
+      "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" — certainty claim is unsupported"
+    },
+    {
+      "detail": "had embezzled forty thousand dollars from the clinic over eighteen months",
+      "type": "explicit_claim",
+      "provenance": "UNKNOWN",
+      "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" — certainty claim is unsupported"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 2,
+    "unsupportedItems": [
+      {
+        "detail": "he had embezzled forty thousand dollars from the clinic over eighteen months",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" — certainty claim is unsupported"
+      },
+      {
+        "detail": "had embezzled forty thousand dollars from the clinic over eighteen months",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" — certainty claim is unsupported"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "he had embezzled forty thousand dollars from the clinic over eighteen months",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" — certainty claim is unsupported"
+      },
+      {
+        "detail": "had embezzled forty thousand dollars from the clinic over eighteen months",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" — certainty claim is unsupported"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "FAIL",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "infoOwnership: Maya is stated to 'know exactly why' Marcus seems off, but according to information ownership, she only SUSPECTS he embezzled money, not that she KNOWS this fact.",
+      "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revised passage adds elaborate psychological explanation that doesn't match her established voice.",
+      "faithfulness: The revision adds specific details about the embezzlement amount ($40,000) and timeframe (18 months) that are not present in the original passage or character state."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

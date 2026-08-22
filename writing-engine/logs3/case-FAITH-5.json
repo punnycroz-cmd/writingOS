@@ -1,0 +1,126 @@
+{
+  "caseId": "FAITH-5",
+  "label": "Unsupported measurement",
+  "category": "FAITH",
+  "description": "Invented measurement \"1000ml saline bag\".",
+  "leakForm": "measurement",
+  "original": "Maya adjusted the IV. The patient would be fine.",
+  "revised": "Maya adjusted the IV — a 1000ml bag of normal saline, dripping at 125ml per hour through an 18-gauge catheter.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "18",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 1,
+    "unsupportedItems": [
+      {
+        "detail": "18",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "18",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The revised passage maintains the basic meaning of Maya adjusting an IV.",
+      "character: The revision aligns with Maya being a professional nurse who would notice technical details about medical equipment.",
+      "infoOwnership: Maya's current knowledge is empty, but the revision shows her knowing specific details about the IV (1000ml bag, 125ml per hour, 18-gauge catheter) that aren't listed as known to her.",
+      "canon: The revision doesn't contradict any canon facts.",
+      "voice: The revision maintains Maya's sparse, observational style with numbers as anchors.",
+      "register: The medical terminology is appropriate for an ICU nurse's perspective.",
+      "intelligibility: The passage is clear and understandable.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The revision adds specific numbers (1000ml, 125ml, 18-gauge) that weren't in the original passage and aren't in Maya's knowledge state, making them unsupported specifics."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

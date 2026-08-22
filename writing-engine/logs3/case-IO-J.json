@@ -1,0 +1,182 @@
+{
+  "caseId": "IO-J",
+  "label": "Knowledge contamination (other character knows)",
+  "category": "IO",
+  "description": "Another character knows, but POV (Maya) does not. Revision gives Maya the knowledge.",
+  "leakForm": "contamination",
+  "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+  "revised": "Marcus came into the office. He seemed off. Maya, like the accountant, now knew that Marcus had embezzled forty thousand dollars — the same figure Dr. Reyes had confirmed to her last week.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Marcus handles finances",
+        "The clinic is struggling"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya is not financially literate",
+          "classification": "SOFT_CANON",
+          "source": "ch2"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "adv-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "knew that Marcus had embezzled forty thousand dollars — the same figure Dr",
+      "type": "explicit_claim",
+      "provenance": "UNKNOWN",
+      "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+    },
+    {
+      "detail": "Marcus had embezzled forty thousand dollars — the same figure Dr",
+      "type": "explicit_claim",
+      "provenance": "UNKNOWN",
+      "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+    },
+    {
+      "detail": "had embezzled forty thousand dollars — the same figure Dr",
+      "type": "explicit_claim",
+      "provenance": "UNKNOWN",
+      "evidence": "claim not present in source"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 3,
+    "unsupportedItems": [
+      {
+        "detail": "knew that Marcus had embezzled forty thousand dollars — the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      },
+      {
+        "detail": "Marcus had embezzled forty thousand dollars — the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      },
+      {
+        "detail": "had embezzled forty thousand dollars — the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "knew that Marcus had embezzled forty thousand dollars — the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      },
+      {
+        "detail": "Marcus had embezzled forty thousand dollars — the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      },
+      {
+        "detail": "had embezzled forty thousand dollars — the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "FAIL",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "FAIL",
+    "reasons": [
+      "meaning: The basic meaning of Marcus acting off and Maya's reaction is preserved.",
+      "character: Maya is characterized as knowing something she doesn't know, contradicting her established profile as not financially literate.",
+      "infoOwnership: Maya is stated to know about Marcus embezzling $40,000, which is explicitly listed as UNKNOWN to her in information ownership.",
+      "canon: No contradiction with hard or soft canon facts.",
+      "voice: Maya's voice is described as sparse and observational, but the revision adds complex financial knowledge inconsistent with her profile.",
+      "register: The register remains appropriate for the narrative.",
+      "intelligibility: The passage is still clear and understandable.",
+      "deferred: No deferred checks were present to be violated.",
+      "faithfulness: The revision adds specific details ($40,000 figure, embezzlement) not present in the original passage."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

@@ -1,0 +1,126 @@
+{
+  "caseId": "AMB-1",
+  "label": "Reasonable inference from evidence",
+  "category": "AMBIG",
+  "description": "Character could reasonably infer the fact from observable evidence. Genuinely ambiguous.",
+  "leakForm": "reasonable-inference",
+  "original": "Marcus was counting and recounting the cash drawer. His hands were shaking.",
+  "revised": "Marcus was counting and recounting the cash drawer. His hands were shaking. Maya could tell something was wrong with the money — the numbers weren't adding up for him either.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Marcus handles finances",
+        "The clinic is struggling"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya is not financially literate",
+          "classification": "SOFT_CANON",
+          "source": "ch2"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "adv-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "UNCLEAR",
+    "faithfulness": "UNCLEAR",
+    "overall": "ACCEPT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "ACCEPT",
+    "isAmbiguous": true
+  },
+  "provenance": [],
+  "ccVerdict": {
+    "unsupportedCount": 0,
+    "unsupportedItems": [],
+    "hardBlocks": [],
+    "severity": "ADVISORY"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The revision maintains the core meaning of Marcus counting money with shaking hands while adding Maya's observation.",
+      "character: Maya's observation aligns with her perceptual habits of noticing details.",
+      "infoOwnership: Maya perceives that something is wrong with the money and that the numbers aren't adding up, which requires knowledge that the money is specifically missing. This fact is listed as UNKNOWN to Maya in information ownership.",
+      "canon: The revision doesn't contradict any hard or soft canon facts.",
+      "voice: Maya's observational style is maintained in the revision.",
+      "register: The register remains appropriate for the narrative context.",
+      "intelligibility: The passage is clear and easy to understand.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: No unsupported numeric/date/name/measurement specifics were added."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v2Correct": false,
+  "v3Correct": false,
+  "isAmbiguous": true
+}

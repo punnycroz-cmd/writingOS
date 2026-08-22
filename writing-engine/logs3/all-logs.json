@@ -1,0 +1,5570 @@
+[
+  {
+    "caseId": "AMB-1",
+    "label": "Reasonable inference from evidence",
+    "category": "AMBIG",
+    "description": "Character could reasonably infer the fact from observable evidence. Genuinely ambiguous.",
+    "leakForm": "reasonable-inference",
+    "original": "Marcus was counting and recounting the cash drawer. His hands were shaking.",
+    "revised": "Marcus was counting and recounting the cash drawer. His hands were shaking. Maya could tell something was wrong with the money \u2014 the numbers weren't adding up for him either.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "UNCLEAR",
+      "faithfulness": "UNCLEAR",
+      "overall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "isAmbiguous": true
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revision maintains the core meaning of Marcus counting money with shaking hands while adding Maya's observation.",
+        "character: Maya's observation aligns with her perceptual habits of noticing details.",
+        "infoOwnership: Maya perceives that something is wrong with the money and that the numbers aren't adding up, which requires knowledge that the money is specifically missing. This fact is listed as UNKNOWN to Maya in information ownership.",
+        "canon: The revision doesn't contradict any hard or soft canon facts.",
+        "voice: Maya's observational style is maintained in the revision.",
+        "register: The register remains appropriate for the narrative context.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: There are no deferred checks to resolve.",
+        "faithfulness: No unsupported numeric/date/name/measurement specifics were added."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": false,
+    "v3Correct": false,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "AMB-2",
+    "label": "Strongly implied but not explicit",
+    "category": "AMBIG",
+    "description": "The fact is strongly implied by context but not stated. Ambiguous.",
+    "leakForm": "strongly-implied",
+    "original": "The auditor's letter sat on Marcus's desk, unopened. Marcus stared at it.",
+    "revised": "The auditor's letter sat on Marcus's desk, unopened. Marcus stared at it, and Maya understood the fear in his eyes \u2014 whatever the letter contained, it was about the money.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "UNCLEAR",
+      "faithfulness": "UNCLEAR",
+      "overall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "isAmbiguous": true
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "The meaning is clear and consistent with the original passage.",
+        "The character's emotional state and perceptual habits align with Maya's established profile.",
+        "Maya understands the fear in Marcus's eyes is allowed, but inferring the letter is about money violates info ownership since this fact is UNKNOWN to her.",
+        "No contradictions with established canon.",
+        "Maya's voice remains sparse and observational.",
+        "The register is appropriate for the narrative context.",
+        "The passage is easily understandable.",
+        "No deferred checks were present or violated.",
+        "No unsupported numeric/date/name/measurement specifics were added.",
+        "REJECT because of infoOwnership violation - Maya infers the letter is about money, which is UNKNOWN to her."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": false,
+    "v3Correct": false,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "AMB-3",
+    "label": "External narration vs character-limited",
+    "category": "AMBIG",
+    "description": "The \"knowledge\" may be narrator voice, not character POV. Ambiguous.",
+    "leakForm": "narrator-vs-pov",
+    "original": "Marcus came into the office. He seemed off.",
+    "revised": "Marcus came into the office, carrying the weight of his unspoken crime. He seemed off.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "UNCLEAR",
+      "faithfulness": "UNCLEAR",
+      "overall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "isAmbiguous": true
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revision maintains the original meaning of Marcus seeming off while adding descriptive detail.",
+        "character: The revision doesn't contradict Maya's established character traits.",
+        "infoOwnership: FAIL - Maya doesn't know about Marcus's embezzlement, but the revision suggests she's aware of his 'unspoken crime', which contradicts her UNKNOWN status regarding this fact.",
+        "canon: The revision doesn't contradict any hard or soft canon facts.",
+        "voice: The revision maintains Maya's sparse, observational style.",
+        "register: The register remains appropriate for the narrative context.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: No unsupported numeric/date/name/measurement specifics added."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": false,
+    "v3Correct": false,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "AMB-4",
+    "label": "Partial evidence, soft inference",
+    "category": "AMBIG",
+    "description": "Character has partial evidence; revision makes a soft inference. Ambiguous.",
+    "leakForm": "partial-evidence-soft-inference",
+    "original": "Maya saw Marcus slip a deposit slip into his briefcase instead of the filing cabinet.",
+    "revised": "Maya saw Marcus slip a deposit slip into his briefcase instead of the filing cabinet. She frowned \u2014 that wasn't standard procedure, and the amount seemed large.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "UNCLEAR",
+      "faithfulness": "UNCLEAR",
+      "overall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "isAmbiguous": true
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revision maintains the original meaning while adding observational detail.",
+        "character: Maya's reaction aligns with her role as a nurse noticing irregularities.",
+        "infoOwnership: Maya observes the action and forms an opinion about procedure, which doesn't require knowledge of the embezzlement.",
+        "canon: No contradiction with Maya co-owning the clinic or her lack of financial literacy.",
+        "voice: The sparse observational style with attention to detail is maintained.",
+        "register: The language remains appropriate for the context.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks were present to be resolved.",
+        "faithfulness: No unsupported numeric/date/name/measurement specifics were added."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v2 policy: [LJ] said ACCEPT; [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] ACCEPT. [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "AMB-5",
+    "label": "Valid revision that should ACCEPT (true negative)",
+    "category": "AMBIG",
+    "description": "A genuinely safe intervention \u2014 state-supported sensory detail. Should ACCEPT.",
+    "leakForm": "valid-safe",
+    "original": "Maya entered the kitchen. She could smell something.",
+    "revised": "Maya entered the kitchen. The scent of cardamom and iron hit her first \u2014 Papa's pharmacy, distilled into the walls. She could smell it, always.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Papa owned a pharmacy"
+        ]
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Papa's house smells of cardamom and iron",
+            "classification": "SOFT_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya smells rooms first",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "amb-5",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "The meaning is clear and consistent with the original passage",
+        "The revision aligns with Maya's perceptual habits of smelling rooms first",
+        "No information ownership violations - Maya is observing, not asserting knowledge she doesn't have",
+        "The scent of cardamom and iron is consistent with SOFT_CANON",
+        "The sparse, observational voice with sensory details matches Maya's established voice",
+        "The register is appropriate for the character and context",
+        "The passage is easily intelligible",
+        "No deferred checks to resolve",
+        "No unsupported numeric/date/name/measurement specifics - the scent details are observations, not facts with specific provenance"
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v2 policy: [LJ] said ACCEPT; [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] ACCEPT. [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "CONF-1",
+    "label": "[CC] FAIL + [LJ] FAIL (both reject)",
+    "category": "CONFLICT",
+    "description": "Obvious invented number + obvious leak. Both should reject.",
+    "leakForm": "both-fail",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off \u2014 Maya knew he had embezzled exactly $42,317.50 from the clinic on March 14, 2019.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "42",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "317.50",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "14",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "2019",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "he had embezzled exactly $42",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      },
+      {
+        "detail": "had embezzled exactly $42",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 6,
+      "unsupportedItems": [
+        {
+          "detail": "42",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "317.50",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "14",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "2019",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "he had embezzled exactly $42",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        },
+        {
+          "detail": "had embezzled exactly $42",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "42",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "317.50",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "14",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "2019",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "he had embezzled exactly $42",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        },
+        {
+          "detail": "had embezzled exactly $42",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the basic interaction between Maya and Marcus.",
+        "character: Maya's character as a nurse with controlled exhaustion is not contradicted.",
+        "infoOwnership: Maya is stated to KNOW the exact amount and date of embezzlement, which is listed as UNKNOWN to her in the information ownership.",
+        "canon: The revision doesn't contradict any hard or soft canon facts.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors', but knowing the exact embezzled amount ($42,317.50) is too specific for her voice.",
+        "register: The register is appropriate for the office setting.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The revision adds unsupported numeric specifics ($42,317.50) and a specific date (March 14, 2019) that are not in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "CONF-2",
+    "label": "[CC] FAIL + [LJ] UNCLEAR (the unsafe case from Iteration 2)",
+    "category": "CONFLICT",
+    "description": "Plausible-but-unsupported medical vitals. [CC] flags; [LJ] may say UNCLEAR. This is the IO2 case.",
+    "leakForm": "cc-fail-lj-unclear",
+    "original": "Maya looked in on the patient. He looked bad.",
+    "revised": "Maya looked in on the patient. His vitals were stable: 98.6\u00b0F, heart rate 72, blood pressure 120/80. He looked bad.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "98.6",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "72",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "120",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "80",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 4,
+      "unsupportedItems": [
+        {
+          "detail": "98.6",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "72",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "120",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "80",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "98.6",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "72",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "120",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "80",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The passage maintains the same core meaning as the original.",
+        "character: Maya's role as an ICU nurse is consistent with her character state.",
+        "infoOwnership: FAIL - Maya perceives specific medical vitals (98.6\u00b0F, heart rate 72, blood pressure 120/80) that are not listed in her knowledge state.",
+        "canon: No contradiction with hard canon that Maya is an ICU nurse.",
+        "voice: Maya's sparse, observational voice using numbers as anchors is maintained.",
+        "register: The register remains appropriate for a medical setting.",
+        "intelligibility: The passage is clear and understandable.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: FAIL - The specific medical numbers (98.6, 72, 120, 80) are not found in the original passage or character state, making them unsupported factual specifics."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "CONF-3",
+    "label": "[CC] PASS + [LJ] FAIL (semantic invention only)",
+    "category": "CONFLICT",
+    "description": "A semantic invention (\"burnt coffee\" comparison) with no numbers. [CC] may pass; [LJ] should fail.",
+    "leakForm": "cc-pass-lj-fail",
+    "original": "Maya filled the coffee maker.",
+    "revised": "Maya filled the coffee maker. The break room smelled of antiseptic and burnt coffee \u2014 not cardamom, never cardamom here.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "Original meaning preserved with added observation",
+        "Character details consistent with Maya being a nurse noticing environmental details",
+        "No information ownership violations - Maya is observing sensory details",
+        "No canon contradictions",
+        "Voice remains sparse and observational",
+        "Register appropriate for narrative",
+        "Intelligible with clear sensory details",
+        "No deferred checks violated",
+        "Added sensory details (smells) are licensed invention, not unsupported specificity"
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v2 policy: [LJ] said ACCEPT; [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] ACCEPT. [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v2Correct": false,
+    "v3Correct": false,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "FAITH-1",
+    "label": "Unsupported number (obvious)",
+    "category": "FAITH",
+    "description": "Invented specific count \"127 tiles\" \u2014 obviously unsupported.",
+    "leakForm": "number",
+    "original": "Maya stood in the hospital corridor. It was quiet.",
+    "revised": "Maya stood in the hospital corridor. She counted 127 ceiling tiles between her and the nurses' station. It was quiet.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "127",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "127",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "127",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revision maintains the original meaning of Maya standing in a quiet hospital corridor.",
+        "character: The revision aligns with Maya being a nurse who uses numbers as anchors.",
+        "infoOwnership: The character state shows Maya has no current knowledge about the number of ceiling tiles, yet the revision states she counted them as a fact.",
+        "canon: The revision doesn't contradict any canon facts.",
+        "voice: The revision maintains Maya's sparse, observational voice with numbers as anchors.",
+        "register: The register remains appropriate for the narrative.",
+        "intelligibility: The revision is clear and easy to understand.",
+        "deferred: There are no deferred checks to resolve.",
+        "faithfulness: The specific number '127' is not present in the original passage or character state and appears to be an unsupported invention."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "FAITH-10",
+    "label": "Plausible-but-invented detail (subtle)",
+    "category": "FAITH",
+    "description": "A completely plausible but invented detail \u2014 the hard case.",
+    "leakForm": "plausible-invented",
+    "original": "Maya walked past the chapel. The door was closed.",
+    "revised": "Maya walked past the chapel. The door was closed, and through it she could smell the residual incense from the morning mass \u2014 sandalwood and myrrh, the same blend they had used at Papa's parish growing up.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "SOFT_SIGNAL",
+      "finalDecision": "REJECT",
+      "isAmbiguous": true
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The revised passage maintains the original meaning of Maya walking past the chapel with a closed door.",
+        "character: The character state shows Maya's currentKnowledge is empty, but the revision implies she knows specific details about incense used at her Papa's parish.",
+        "infoOwnership: The revision shows Maya knowing specific details about incense (sandalwood and myrrh blend) from her Papa's parish, which is not listed in her knowledge state.",
+        "canon: No contradiction with hard canon or soft canon.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the revision adds detailed sensory description that doesn't match this sparse style.",
+        "register: The register remains appropriate for the context.",
+        "intelligibility: The passage is clear and understandable.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The revision adds specific details about incense blends that are not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "FAITH-2",
+    "label": "Unsupported date",
+    "category": "FAITH",
+    "description": "Invented date \"March 14, 2019\" \u2014 not in source or state.",
+    "leakForm": "date",
+    "original": "Maya thought about her last day of nursing school.",
+    "revised": "Maya thought about her last day of nursing school \u2014 March 14, 2019, the day she graduated cum laude from Johns Hopkins.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "14",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "2019",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 2,
+      "unsupportedItems": [
+        {
+          "detail": "14",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "2019",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "14",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "2019",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The revised passage maintains the core meaning of Maya thinking about her last day of nursing school.",
+        "character: Maya's character state shows no knowledge of her graduation date, university, or honors, which are specific details added in the revision.",
+        "infoOwnership: The revision adds specific information (graduation date, university, honors) that is not listed in Maya's current knowledge or information ownership, making this a FAIL.",
+        "canon: The added details don't contradict any established canon facts.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revision adds elaborate details not consistent with this voice style.",
+        "register: The register remains appropriate for the narrative context.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: There are no deferred checks to resolve.",
+        "faithfulness: The revision adds specific numbers (March 14, 2019), a university name (Johns Hopkins), and academic honors (cum laude) that are not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "FAITH-3",
+    "label": "Unsupported time",
+    "category": "FAITH",
+    "description": "Invented time \"4:15 AM\" \u2014 plausible but unsupported.",
+    "leakForm": "time",
+    "original": "Maya checked the clock. Her shift was almost over.",
+    "revised": "Maya checked the clock \u2014 4:15 AM. Her shift was almost over, with exactly 47 minutes remaining.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "4",
+        "type": "number",
+        "provenance": "CHARACTER_STATE",
+        "evidence": "found in character state"
+      },
+      {
+        "detail": "15",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "47",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 2,
+      "unsupportedItems": [
+        {
+          "detail": "15",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "47",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "15",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "47",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the original meaning of Maya checking the clock and her shift ending soon.",
+        "character: Maya's character is consistent with her being a nurse who would check the time during her shift.",
+        "infoOwnership: FAIL - Maya knows the exact time (4:15 AM) and exact minutes remaining (47), but these are not in her current knowledge state.",
+        "canon: The revised passage doesn't contradict any canon facts.",
+        "voice: The sparse, observational voice with numbers as anchors is maintained.",
+        "register: The register remains appropriate for a professional setting.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks were present or resolved.",
+        "faithfulness: FAIL - Specific numbers (4:15 AM and 47 minutes) were added that are not in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "FAITH-4",
+    "label": "Unsupported medical value (plausible)",
+    "category": "FAITH",
+    "description": "Invented vitals \"98.6\u00b0F, 120/80\" \u2014 plausible but unsupported.",
+    "leakForm": "medical-plausible",
+    "original": "Maya looked in on the patient. He looked stable.",
+    "revised": "Maya looked in on the patient. His vitals were stable: 98.6\u00b0F, heart rate 72, blood pressure 120/80. She noted the readings on the chart.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "98.6",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "72",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "120",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "80",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 4,
+      "unsupportedItems": [
+        {
+          "detail": "98.6",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "72",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "120",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "80",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "98.6",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "72",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "120",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "80",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The core meaning of checking on a stable patient remains consistent.",
+        "character: Maya's role as a nurse is maintained.",
+        "infoOwnership: Maya knows specific vitals (98.6\u00b0F, heart rate 72, BP 120/80) that are not in her knowledge state and not presented as observations she's making.",
+        "canon: No contradiction with canon facts.",
+        "voice: The sparse, observational style using numbers as anchors is maintained.",
+        "register: Appropriate medical register for an ICU nurse.",
+        "intelligibility: Clear and easy to understand.",
+        "deferred: No deferred checks were present to be violated.",
+        "faithfulness: Specific vitals (98.6, 72, 120/80) were added without support in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "FAITH-5",
+    "label": "Unsupported measurement",
+    "category": "FAITH",
+    "description": "Invented measurement \"1000ml saline bag\".",
+    "leakForm": "measurement",
+    "original": "Maya adjusted the IV. The patient would be fine.",
+    "revised": "Maya adjusted the IV \u2014 a 1000ml bag of normal saline, dripping at 125ml per hour through an 18-gauge catheter.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "18",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "18",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "18",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the basic meaning of Maya adjusting an IV.",
+        "character: The revision aligns with Maya being a professional nurse who would notice technical details about medical equipment.",
+        "infoOwnership: Maya's current knowledge is empty, but the revision shows her knowing specific details about the IV (1000ml bag, 125ml per hour, 18-gauge catheter) that aren't listed as known to her.",
+        "canon: The revision doesn't contradict any canon facts.",
+        "voice: The revision maintains Maya's sparse, observational style with numbers as anchors.",
+        "register: The medical terminology is appropriate for an ICU nurse's perspective.",
+        "intelligibility: The passage is clear and understandable.",
+        "deferred: There are no deferred checks to resolve.",
+        "faithfulness: The revision adds specific numbers (1000ml, 125ml, 18-gauge) that weren't in the original passage and aren't in Maya's knowledge state, making them unsupported specifics."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "FAITH-6",
+    "label": "Unsupported quantity",
+    "category": "FAITH",
+    "description": "Invented quantity \"fourteen pill bottles\".",
+    "leakForm": "quantity",
+    "original": "Maya glanced at the medication shelf.",
+    "revised": "Maya glanced at the medication shelf \u2014 fourteen pill bottles, each labeled in her father's careful hand, arranged by dosage ascending.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the original action of Maya glancing at the medication shelf.",
+        "character: The revision aligns with Maya being an ICU nurse who notices details like dosage labels.",
+        "infoOwnership: FAIL - Maya's current knowledge is empty, but the revision shows her knowing specific details about the pill bottles (fourteen bottles, arranged by dosage ascending) which should be UNKNOWN.",
+        "canon: No contradiction with established canon.",
+        "voice: The sparse, observational style with numbers as anchors is maintained.",
+        "register: Appropriate for the narrative context.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks to contradict.",
+        "faithfulness: FAIL - Specific details like 'fourteen pill bottles' and 'arranged by dosage ascending' are not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "FAITH-7",
+    "label": "Unsupported named entity",
+    "category": "FAITH",
+    "description": "Invented person name \"Dr. Evelyn Marsh\".",
+    "leakForm": "named-entity",
+    "original": "Maya handed off to the next shift.",
+    "revised": "Maya handed off to Dr. Evelyn Marsh, the night attending who had trained her at Mass General back in 2017.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "SOFT_SIGNAL",
+      "finalDecision": "REJECT",
+      "isAmbiguous": true
+    },
+    "provenance": [
+      {
+        "detail": "2017",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "2017",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "2017",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the core meaning of the original while adding specific details.",
+        "character: The addition of details about Dr. Marsh and the training at Mass General doesn't contradict Maya's established character traits.",
+        "infoOwnership: FAIL - Maya's current knowledge is listed as empty, yet the revised text implies knowledge of Dr. Marsh's name, role, and training history.",
+        "canon: The revised passage doesn't contradict any established canon facts.",
+        "voice: The sparse, observational style with specific details aligns with Maya's established voice.",
+        "register: The formal medical terminology is appropriate for a professional setting.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: There are no deferred checks to resolve.",
+        "faithfulness: FAIL - The specific name 'Dr. Evelyn Marsh', the title 'night attending', the location 'Mass General', and the date '2017' are all new information not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "FAITH-8",
+    "label": "Unsupported object",
+    "category": "FAITH",
+    "description": "Invented specific object \"a ceramic mug from Oaxaca\".",
+    "leakForm": "object",
+    "original": "Maya picked up her mug and drank.",
+    "revised": "Maya picked up her ceramic mug from Oaxaca \u2014 the one Papa had brought back from his trip in 1998 \u2014 and drank.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "SOFT_SIGNAL",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "1998",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "1998",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "1998",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the core action of Maya picking up and drinking from a mug.",
+        "character: Maya's identity as an ICU nurse is consistent with her observational voice.",
+        "infoOwnership: FAIL - Maya has no knowledge of the mug's origin or Papa's trip in 1998, as it's not listed in her currentKnowledge.",
+        "canon: No contradiction to hard canon or soft canon.",
+        "voice: Maintains Maya's sparse, observational style with the specific detail about the mug.",
+        "register: Appropriate for the narrative context.",
+        "intelligibility: Clear and easy to understand.",
+        "deferred: No deferred checks were present to conflict with.",
+        "faithfulness: FAIL - The specific year '1998' and the detail about Papa bringing the mug back from Oaxaca are not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "FAITH-9",
+    "label": "Unsupported location",
+    "category": "FAITH",
+    "description": "Invented specific location \"St. Catherine's in Baltimore\".",
+    "leakForm": "location",
+    "original": "Maya thought about where she had trained.",
+    "revised": "Maya thought about St. Catherine's Hospital in Baltimore, where she had done her residency on the oncology ward under Dr. Marsh.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "SOFT_SIGNAL",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The revision maintains the core meaning of Maya thinking about her training location.",
+        "character: Maya's character state shows no knowledge of St. Catherine's Hospital, Dr. Marsh, or her oncology residency.",
+        "infoOwnership: The revised text states specific details about Maya's training that are not in her knowledge state and have no information ownership entries.",
+        "canon: No contradiction with hard canon that Maya is an ICU nurse.",
+        "voice: Maintains sparse, observational style with specific details.",
+        "register: Appropriate for narrative fiction.",
+        "intelligibility: Clear and easy to understand.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: Introduces specific location (St. Catherine's Hospital), city (Baltimore), medical specialty (oncology), and person (Dr. Marsh) not present in original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-A",
+    "label": "Direct secret leak",
+    "category": "IO",
+    "description": "Maya explicitly states the embezzlement fact marked UNKNOWN to her.",
+    "leakForm": "direct",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off \u2014 guilty, she supposed, about embezzling forty thousand dollars from the clinic. Maya figured she had always known he had taken the money.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "he had taken the money",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      },
+      {
+        "detail": "had taken the money",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 2,
+      "unsupportedItems": [
+        {
+          "detail": "he had taken the money",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        },
+        {
+          "detail": "had taken the money",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "he had taken the money",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        },
+        {
+          "detail": "had taken the money",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The revised passage maintains the basic meaning of Marcus acting strangely and Maya's interpretation.",
+        "character: Maya's character is inconsistent with her established voice and perceptual habits. She suddenly makes complex financial inferences without evidence.",
+        "infoOwnership: Maya now knows about the embezzlement, which is listed as UNKNOWN in her information ownership. She also has certainty about Marcus's guilt without justification.",
+        "canon: No direct contradiction with established canon.",
+        "voice: Maya's established sparse, observational voice using numbers as anchors is replaced with a more complex, speculative voice that contradicts her sparse style.",
+        "register: The register remains consistent with the original passage.",
+        "intelligibility: The passage remains clear and intelligible.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The revision adds specific information about $40,000 embezzlement over 18 months that is not present in the source passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-B",
+    "label": "Causal knowledge leak",
+    "category": "IO",
+    "description": "Maya identifies the cause of Marcus's behavior (the fact she cannot know).",
+    "leakForm": "causal",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. Maya understood why \u2014 the weight of having embezzled forty thousand dollars was finally wearing on him.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "embezzled forty thousand dollars was finally wearing on him",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "embezzled forty thousand dollars was finally wearing on him",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "embezzled forty thousand dollars was finally wearing on him",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The revised passage maintains the basic meaning of Marcus seeming off and Maya's reaction.",
+        "character: Maya's character is inconsistent with her sparse, observational voice and current knowledge. She would not make such a specific inference about embezzlement.",
+        "infoOwnership: Maya does not know that Marcus embezzled $40,000 - this is listed as UNKNOWN to her. The revised text claims she understands why he's off due to this embezzlement.",
+        "canon: The revision doesn't contradict any hard or soft canon facts.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revision adds an elaborate psychological explanation that doesn't match her established voice.",
+        "register: The register is appropriate for the context.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: There are no deferred checks to evaluate.",
+        "faithfulness: The revision adds specific information about '$40,000' and 'embezzled' that is not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-C",
+    "label": "Identity leak",
+    "category": "IO",
+    "description": "Maya identifies a person whose identity is unknown to her.",
+    "leakForm": "identity",
+    "original": "A man Maya had never seen before walked into the clinic. He looked nervous.",
+    "revised": "A man Maya had never seen before walked into the clinic \u2014 it was David Chen, Marcus's accomplice, the one who had helped launder the embezzled funds. He looked nervous.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "embezzled funds",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "embezzled funds",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "embezzled funds",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the core meaning of the original.",
+        "character: Maya's character traits are consistent with the original.",
+        "infoOwnership: FAIL - The revised text states Maya recognizes David as Marcus's accomplice in embezzlement, but this is listed as UNKNOWN to her in the information ownership.",
+        "canon: No contradictions with HARD_CANON or SOFT_CANON.",
+        "voice: Maya's sparse, observational voice is maintained.",
+        "register: Appropriate for the narrative context.",
+        "intelligibility: The passage is clear and understandable.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: FAIL - The revision adds specific information about David Chen being Marcus's accomplice and the embezzled funds, which is not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-D",
+    "label": "Motive leak",
+    "category": "IO",
+    "description": "Maya states Marcus's private motive (which she cannot know).",
+    "leakForm": "motive",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. Maya could tell he was acting strangely because he wanted to cover his tracks before the audit \u2014 he was afraid of being caught.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the original meaning of Marcus acting strangely.",
+        "character: Maya's actions and reactions remain consistent with her character.",
+        "infoOwnership: Maya suddenly knows Marcus is embezzling money to cover tracks before an audit, which is listed as UNKNOWN to her.",
+        "canon: No contradictions with hard or soft canon facts.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the revision adds complex psychological reasoning not characteristic of her voice.",
+        "register: The register remains appropriate for the context.",
+        "intelligibility: The passage is clear and understandable.",
+        "deferred: No deferred checks were present or resolved.",
+        "faithfulness: The revision adds specific details about embezzlement ($40,000), audit, and Marcus's fear that are not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-E",
+    "label": "Future-event leak",
+    "category": "IO",
+    "description": "Maya references a future event that has not happened.",
+    "leakForm": "future",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. Maya knew that next Tuesday, when the auditor arrived, Marcus would confess everything and the clinic would be shut down.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "knew that next Tuesday",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "knew that next Tuesday",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "knew that next Tuesday",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The core meaning of Marcus being off and Maya noticing remains intact.",
+        "character: Maya's professional observation of Marcus is consistent with her character.",
+        "infoOwnership: Maya now 'knows' about Marcus's confession and the clinic's shutdown, which is listed as UNKNOWN to her in information ownership.",
+        "canon: No contradiction with hard or soft canon facts about Maya and Marcus.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revision adds speculative future knowledge that doesn't match this style.",
+        "register: The register remains professional and appropriate for the setting.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks were present to be violated.",
+        "faithfulness: The revision adds specific details about 'next Tuesday' and the auditor that aren't present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-F",
+    "label": "Inference disguised as observation",
+    "category": "IO",
+    "description": "Maya describes an unobservable conclusion as if directly perceived.",
+    "leakForm": "inference-as-observation",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. Maya could see the guilt radiating off him \u2014 she watched his shame settle over the desk like a fog, the forty thousand dollars he had stolen visible in the hunch of his shoulders.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "FAIL",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The revision changes Maya's interpretation from 'tired' to 'guilty' with specific financial details not present in original",
+        "character: Maya's character is inconsistent with her established emotional state of 'controlled exhaustion' and perceptual habits focused on medical details",
+        "infoOwnership: Maya now knows Marcus embezzled $40,000, which is explicitly listed as UNKNOWN to her",
+        "canon: No contradiction with hard/soft canon facts",
+        "voice: Maya's established voice is 'sparse, observational, uses numbers as anchors' but revision uses flowery language that doesn't match",
+        "register: Maintains appropriate professional register",
+        "intelligibility: Clear and coherent",
+        "deferred: No deferred checks to resolve",
+        "faithfulness: Adds specific financial details ($40,000) not present in original passage or character state"
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-G",
+    "label": "Plausible-but-unknown fact",
+    "category": "IO",
+    "description": "The leaked fact is extremely plausible but absent from Maya's knowledge.",
+    "leakForm": "plausible-unknown",
+    "original": "Maya looked at the clinic's bank statement. The numbers didn't quite add up.",
+    "revised": "Maya looked at the clinic's bank statement. The numbers didn't quite add up \u2014 exactly $40,000 was missing, transferred in fourteen installments of $2,857 each to an account in the Caymans.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "40",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "000",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "2",
+        "type": "number",
+        "provenance": "CANON",
+        "evidence": "found in canon state"
+      },
+      {
+        "detail": "857",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 3,
+      "unsupportedItems": [
+        {
+          "detail": "40",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "000",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "857",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "40",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "000",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        },
+        {
+          "detail": "857",
+          "type": "number",
+          "provenance": "UNKNOWN",
+          "evidence": "not found in source or state"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The core meaning of Maya noticing financial discrepancies is preserved.",
+        "character: Maya's role as a nurse and her financial struggles align with her character.",
+        "infoOwnership: Maya cannot know the specific amount ($40,000), the number of installments (14), or the destination account (Caymans) as these are listed as UNKNOWN to her.",
+        "canon: No contradiction with hard or soft canon.",
+        "voice: The sparse, observational style with numerical anchors is maintained.",
+        "register: The formal register appropriate for financial matters is consistent.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks were present or resolved.",
+        "faithfulness: The specific amount ($40,000), number of installments (14), and transfer details are not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-H",
+    "label": "Partial knowledge upgraded to full",
+    "category": "IO",
+    "description": "Maya knows part (there's a discrepancy) but revision asserts the full fact.",
+    "leakForm": "partial-to-full",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. Maya knew exactly why \u2014 he had embezzled forty thousand dollars from the clinic over eighteen months, and the weight of it was finally breaking him.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling",
+          "She saw a $40,000 discrepancy"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [
+              "Maya"
+            ],
+            "misunderstands": [],
+            "unknown": []
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "he had embezzled forty thousand dollars from the clinic over eighteen months",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+      },
+      {
+        "detail": "had embezzled forty thousand dollars from the clinic over eighteen months",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 2,
+      "unsupportedItems": [
+        {
+          "detail": "he had embezzled forty thousand dollars from the clinic over eighteen months",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+        },
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic over eighteen months",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "he had embezzled forty thousand dollars from the clinic over eighteen months",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+        },
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic over eighteen months",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "infoOwnership: Maya is stated to 'know exactly why' Marcus seems off, but according to information ownership, she only SUSPECTS he embezzled money, not that she KNOWS this fact.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revised passage adds elaborate psychological explanation that doesn't match her established voice.",
+        "faithfulness: The revision adds specific details about the embezzlement amount ($40,000) and timeframe (18 months) that are not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-I",
+    "label": "Suspicion upgraded to certainty",
+    "category": "IO",
+    "description": "State = SUSPECTS, but revision asserts certainty.",
+    "leakForm": "suspicion-to-certainty",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. Maya knew with absolute certainty that he had stolen the forty thousand dollars \u2014 there was no doubt left in her mind.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling",
+          "She saw a $40,000 discrepancy"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [
+              "Maya"
+            ],
+            "misunderstands": [],
+            "unknown": []
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The basic meaning of the scene is preserved - Marcus seems off and Maya notices.",
+        "character: Maya's character is inconsistent with her established voice as 'sparse, observational' and her current emotional state of 'controlled exhaustion'. The sudden certainty about Marcus stealing money is out of character.",
+        "infoOwnership: Maya's state shows she SUSPECTS Marcus embezzled money, but does not KNOW with absolute certainty. The revision incorrectly states she knows for sure.",
+        "canon: The revision doesn't contradict any canon facts.",
+        "voice: Maya's established voice is 'sparse, observational, uses numbers as anchors', but the revision uses flowery language about 'absolute certainty' and 'no doubt left in her mind'.",
+        "register: The register is appropriate for the scene.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks to contradict.",
+        "faithfulness: The revision adds specific details not present in the original passage or character state, such as the certainty of the theft and the exact amount ($40,000) that Maya knows."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-J",
+    "label": "Knowledge contamination (other character knows)",
+    "category": "IO",
+    "description": "Another character knows, but POV (Maya) does not. Revision gives Maya the knowledge.",
+    "leakForm": "contamination",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. Maya, like the accountant, now knew that Marcus had embezzled forty thousand dollars \u2014 the same figure Dr. Reyes had confirmed to her last week.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "knew that Marcus had embezzled forty thousand dollars \u2014 the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      },
+      {
+        "detail": "Marcus had embezzled forty thousand dollars \u2014 the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      },
+      {
+        "detail": "had embezzled forty thousand dollars \u2014 the same figure Dr",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 3,
+      "unsupportedItems": [
+        {
+          "detail": "knew that Marcus had embezzled forty thousand dollars \u2014 the same figure Dr",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+        },
+        {
+          "detail": "Marcus had embezzled forty thousand dollars \u2014 the same figure Dr",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+        },
+        {
+          "detail": "had embezzled forty thousand dollars \u2014 the same figure Dr",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "knew that Marcus had embezzled forty thousand dollars \u2014 the same figure Dr",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+        },
+        {
+          "detail": "Marcus had embezzled forty thousand dollars \u2014 the same figure Dr",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+        },
+        {
+          "detail": "had embezzled forty thousand dollars \u2014 the same figure Dr",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The basic meaning of Marcus acting off and Maya's reaction is preserved.",
+        "character: Maya is characterized as knowing something she doesn't know, contradicting her established profile as not financially literate.",
+        "infoOwnership: Maya is stated to know about Marcus embezzling $40,000, which is explicitly listed as UNKNOWN to her in information ownership.",
+        "canon: No contradiction with hard or soft canon facts.",
+        "voice: Maya's voice is described as sparse and observational, but the revision adds complex financial knowledge inconsistent with her profile.",
+        "register: The register remains appropriate for the narrative.",
+        "intelligibility: The passage is still clear and understandable.",
+        "deferred: No deferred checks were present to be violated.",
+        "faithfulness: The revision adds specific details ($40,000 figure, embezzlement) not present in the original passage."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-S1",
+    "label": "Subtle: \"made sense\" framing",
+    "category": "IO",
+    "description": "Subtle leak via \"the embezzlement finally made sense\" \u2014 implies Maya knows.",
+    "leakForm": "subtle-made-sense",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. The embezzlement, Maya realized, finally made sense \u2014 the pieces she had been pretending not to see.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "The revised text maintains the same basic meaning as the original.",
+        "Maya's character traits and emotional state are consistent with the description.",
+        "The revised text shows Maya having knowledge of the embezzlement, which is listed as UNKNOWN to her in the information ownership.",
+        "The revised text doesn't contradict any canon facts.",
+        "The sparse, observational voice with numerical anchors is maintained.",
+        "The register is consistent with the original passage.",
+        "The revised text is intelligible and clear.",
+        "There are no deferred checks to fail.",
+        "The revised text introduces specific information about embezzlement ($40,000 over 18 months) that is not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-S2",
+    "label": "Subtle: \"understood why\" framing",
+    "category": "IO",
+    "description": "Subtle leak via \"she understood why Marcus had moved the money.\"",
+    "leakForm": "subtle-understood-why",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. She understood why Marcus had moved the money \u2014 the pressure must have been unbearable.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "Marcus had moved the money \u2014 the pressure must have been unbearable",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      },
+      {
+        "detail": "had moved the money \u2014 the pressure must have been unbearable",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 2,
+      "unsupportedItems": [
+        {
+          "detail": "Marcus had moved the money \u2014 the pressure must have been unbearable",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        },
+        {
+          "detail": "had moved the money \u2014 the pressure must have been unbearable",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "Marcus had moved the money \u2014 the pressure must have been unbearable",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        },
+        {
+          "detail": "had moved the money \u2014 the pressure must have been unbearable",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "FAIL",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The revision changes Maya's perception from thinking Marcus is 'just tired' to understanding his motivations for embezzlement, fundamentally altering the original meaning.",
+        "character: Maya would not understand Marcus's motivations for moving money as she is not financially literate (SOFT_CANON).",
+        "infoOwnership: Maya has UNKNOWN knowledge of Marcus embezzling money, so she cannot understand his motivations.",
+        "canon: No contradiction with established canon.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revision adds psychological interpretation that doesn't match this style.",
+        "register: Appropriate register maintained.",
+        "intelligibility: The passage is clear and understandable.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: The revision introduces specific knowledge about Marcus moving money that is not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-S3",
+    "label": "Subtle: \"guilt was obvious\" framing",
+    "category": "IO",
+    "description": "Subtle leak via \"Marcus's guilt was obvious\" \u2014 asserts knowledge without \"knew\".",
+    "leakForm": "subtle-guilt-obvious",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. His guilt over the stolen clinic funds was obvious to Maya, written in every gesture.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "reasons": [
+        "meaning: The revised passage maintains the core meaning of the original.",
+        "character: Maya's character is inconsistent with her described voice as 'sparse, observational, uses numbers as anchors'. The revised passage shows her making complex emotional inferences about Marcus.",
+        "infoOwnership: Maya is stated to have UNKNOWN knowledge about Marcus embezzling funds, but the revised passage shows her recognizing his 'guilt over the stolen clinic funds', which is specific knowledge she shouldn't possess.",
+        "canon: The revision doesn't contradict any established canon facts.",
+        "voice: Maya's voice is described as sparse and observational, but the revised passage adds interpretive language ('guilt was obvious', 'written in every gesture') that doesn't match her established voice.",
+        "register: The register is appropriate for the narrative context.",
+        "intelligibility: The passage is clear and understandable.",
+        "deferred: No deferred checks were present, so this passes.",
+        "faithfulness: The revision adds specific information about 'stolen clinic funds' that wasn't present in the original passage or Maya's knowledge state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "IO-S4",
+    "label": "Subtle: \"could tell\" framing",
+    "category": "IO",
+    "description": "Subtle leak via \"she could tell the money had been diverted by Marcus.\"",
+    "leakForm": "subtle-could-tell",
+    "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+    "revised": "Marcus came into the office. He seemed off. She could tell the money had been diverted by Marcus \u2014 the evidence was all there in his posture.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "diverted by Marcus \u2014 the evidence was all there in his posture",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "diverted by Marcus \u2014 the evidence was all there in his posture",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "diverted by Marcus \u2014 the evidence was all there in his posture",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The core meaning of Marcus seeming off and Maya's reaction remains intact.",
+        "character: Maya's character as a nurse noticing details is consistent.",
+        "infoOwnership: Maya has UNKNOWN knowledge about Marcus embezzling money, but the revision shows her knowing with certainty that 'the money had been diverted by Marcus'.",
+        "canon: No contradiction with hard or soft canon.",
+        "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the revision adds a confident inference about embezzlement that doesn't match this voice.",
+        "register: The register remains appropriate for a medical setting.",
+        "intelligibility: The passage remains clear and easy to understand.",
+        "deferred: No deferred checks were present to be violated.",
+        "faithfulness: The revision adds specific information about money being 'diverted by Marcus' that is not present in the original passage or character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "POV-1",
+    "label": "Observation\u2192emotion (inference without basis)",
+    "category": "POV",
+    "description": "Character sees shaking; revision says \"terrified\" (unobservable emotion).",
+    "leakForm": "observation-to-emotion",
+    "original": "The patient was shaking. Maya noted it on the chart.",
+    "revised": "The patient was terrified. Maya could see the fear consuming him \u2014 she knew he was terrified because his hands would not stop shaking.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "UNCLEAR",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "isAmbiguous": true
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "FAIL",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the core meaning that the patient was exhibiting physical signs of distress.",
+        "character: The revision is consistent with Maya's observational nature as a nurse.",
+        "infoOwnership: FAIL - Maya is inferring the patient's emotional state (terror) from physical signs, but her character state shows 'currentKnowledge' is empty, indicating she doesn't know this for certain.",
+        "canon: No contradiction with established canon.",
+        "voice: FAIL - The revision uses more descriptive language ('fear consuming him') that doesn't match Maya's 'sparse, observational' voice.",
+        "register: The register remains appropriate for a medical setting.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks were present to be resolved.",
+        "faithfulness: FAIL - The specific emotional attribution 'terrified' is not present in the original passage and is not supported by character state."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "POV-2",
+    "label": "Muddy shoes\u2192river inference",
+    "category": "POV",
+    "description": "Character sees muddy shoes; revision infers \"walked through the river\" without basis.",
+    "leakForm": "evidence-to-cause",
+    "original": "The man's shoes were muddy. Maya let him in.",
+    "revised": "The man's shoes were muddy \u2014 he had clearly walked through the river behind the clinic, the same route the trespasser had taken last week. Maya let him in.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": []
+      },
+      "informationOwnership": {
+        "entries": []
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya is an ICU nurse",
+            "classification": "HARD_CANON",
+            "source": "bible"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "faith-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "UNCLEAR",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "SOFT_SIGNAL",
+      "finalDecision": "REJECT",
+      "isAmbiguous": true
+    },
+    "provenance": [
+      {
+        "detail": "had taken last week",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "claim not present in source"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 1,
+      "unsupportedItems": [
+        {
+          "detail": "had taken last week",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "had taken last week",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "claim not present in source"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revision maintains the core meaning of the original passage.",
+        "character: Maya's character traits (observational, controlled) align with noticing muddy shoes.",
+        "infoOwnership: FAIL - Maya has no knowledge of a 'trespasser' or 'river behind the clinic' in her currentKnowledge.",
+        "canon: No contradiction with established canon.",
+        "voice: Maintains sparse, observational style with the mud observation.",
+        "register: Appropriate for narrative fiction.",
+        "intelligibility: Clear and easy to understand.",
+        "deferred: No deferred checks to resolve.",
+        "faithfulness: FAIL - Adds specific details about a river and trespasser not present in original or character knowledge."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "SC-1A",
+    "label": "State=UNKNOWN, revision states fact (should REJECT)",
+    "category": "STATE",
+    "description": "Maya does not know. Revision asserts the fact as known.",
+    "leakForm": "state-unknown-assert",
+    "original": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was acting strange at the desk. Maya watched him a moment, knowing he had embezzled forty thousand dollars from the clinic. She went to check on her patient.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "he had embezzled forty thousand dollars from the clinic",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      },
+      {
+        "detail": "had embezzled forty thousand dollars from the clinic",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 2,
+      "unsupportedItems": [
+        {
+          "detail": "he had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+        },
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "he had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+        },
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character does NOT KNOW: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "meaning: The revised passage maintains the original meaning of Marcus acting strangely and Maya observing him.",
+        "character: Maya's character remains consistent with her role as a nurse and her emotional state.",
+        "infoOwnership: Maya now knows about Marcus embezzling $40,000, which is explicitly listed as UNKNOWN to her in the information ownership.",
+        "canon: No contradictions with HARD_CANON or SOFT_CANON.",
+        "voice: Maya's sparse, observational voice is maintained.",
+        "register: The register remains appropriate for the narrative.",
+        "intelligibility: The passage is clear and easy to understand.",
+        "deferred: No deferred checks were present to be violated.",
+        "faithfulness: The specific amount '$40,000' is not present in the original passage or character state and is not a licensed fictional invention."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "SC-1B",
+    "label": "State=UNKNOWN, revision expresses suspicion (should REJECT \u2014 suspicion without basis)",
+    "category": "STATE",
+    "description": "Maya does not know and has not seen a discrepancy. Revision has her suspecting the finances.",
+    "leakForm": "state-unknown-suspect",
+    "original": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was acting strange at the desk. Maya watched him a moment, suspecting something was wrong with the finances \u2014 the discrepancy she had seen still nagged at her. She went to check on her patient.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "UNCLEAR",
+      "overall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "isAmbiguous": true
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "The revised passage adds a specific financial concern about a discrepancy that Maya is suspecting, which is not in her knowledge state.",
+        "The specific financial discrepancy mentioned is not supported by the original text or character state.",
+        "Maya is canonically not financially literate, making her specific suspicion about a financial discrepancy questionable.",
+        "The revision adds specific knowledge about finances that is not present in the original passage."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": true
+  },
+  {
+    "caseId": "SC-1C",
+    "label": "State=UNKNOWN, revision observable-only (should ACCEPT)",
+    "category": "STATE",
+    "description": "Maya does not know. Revision uses only observable evidence (pen tapping, no eye contact).",
+    "leakForm": "state-unknown-observe",
+    "original": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was acting strange at the desk \u2014 his pen tapped twice, three times, and he would not meet her eyes. Maya watched him a moment, then went to check on her patient.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": [
+              "Maya"
+            ]
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "Original meaning preserved with added observational detail",
+        "Character behavior consistent with Maya's observational nature",
+        "Maya only observes Marcus's behavior, doesn't claim knowledge of his actions",
+        "No contradiction with established canon facts",
+        "Maya's sparse, observational voice with numeric anchors is maintained",
+        "Appropriate register for medical setting",
+        "Clear and intelligible narrative",
+        "No deferred checks to resolve",
+        "Added sensory details (pen tapping, avoiding eye contact) are licensed observations, not unsupported specifics"
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v2 policy: [LJ] said ACCEPT; [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] ACCEPT. [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "SC-2A",
+    "label": "State=SUSPECTS, revision states fact (should REJECT \u2014 suspicion upgraded to certainty)",
+    "category": "STATE",
+    "description": "Maya suspects (saw discrepancy). Revision asserts the fact as known.",
+    "leakForm": "state-suspects-assert",
+    "original": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was acting strange at the desk. Maya watched him a moment, knowing he had embezzled forty thousand dollars from the clinic. She went to check on her patient.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling",
+          "She saw a $40,000 discrepancy"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [
+              "Maya"
+            ],
+            "misunderstands": [],
+            "unknown": []
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "overall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT"
+    },
+    "provenance": [
+      {
+        "detail": "he had embezzled forty thousand dollars from the clinic",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+      },
+      {
+        "detail": "had embezzled forty thousand dollars from the clinic",
+        "type": "explicit_claim",
+        "provenance": "UNKNOWN",
+        "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 2,
+      "unsupportedItems": [
+        {
+          "detail": "he had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+        },
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+        }
+      ],
+      "hardBlocks": [
+        {
+          "detail": "he had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+        },
+        {
+          "detail": "had embezzled forty thousand dollars from the clinic",
+          "type": "explicit_claim",
+          "provenance": "UNKNOWN",
+          "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic over 18 months\" \u2014 certainty claim is unsupported"
+        }
+      ],
+      "severity": "HARD_BLOCK"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "The meaning is clear and consistent with the original passage.",
+        "The character's actions and dialogue remain consistent with Maya's established profile.",
+        "Maya only SUSPECTS that Marcus embezzled money, but the revised text states she KNOWS this fact.",
+        "The revision doesn't contradict any established canon.",
+        "The revision maintains Maya's sparse, observational voice.",
+        "The register is appropriate for the context.",
+        "The passage remains intelligible.",
+        "There are no deferred checks to resolve.",
+        "The specific claim that Marcus embezzled 'forty thousand dollars' is not present in the original passage or character state, and while similar to a suspected discrepancy, the exact amount and embezzlement framing are new unsupported details."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+      "conflictType": "both_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "HARD_BLOCK",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+      "conflictType": "both_fail"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "SC-2B",
+    "label": "State=SUSPECTS, revision expresses suspicion (should ACCEPT \u2014 suspicion matches state)",
+    "category": "STATE",
+    "description": "Maya suspects. Revision has her suspecting the finances, grounded in the discrepancy she saw.",
+    "leakForm": "state-suspects-suspect",
+    "original": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was acting strange at the desk. Maya watched him a moment, suspecting something was wrong with the finances \u2014 the discrepancy she had seen still nagged at her. She went to check on her patient.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling",
+          "She saw a $40,000 discrepancy"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus"
+            ],
+            "suspects": [
+              "Maya"
+            ],
+            "misunderstands": [],
+            "unknown": []
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT"
+    },
+    "provenance": [],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "Original meaning preserved with additional clarification",
+        "Maya's character remains consistent with her professional observation habits",
+        "Maya suspects the finances issue, which aligns with her knowledge and information ownership",
+        "Doesn't contradict any canon facts",
+        "Maintains Maya's sparse, observational voice with numbers as anchors",
+        "Appropriate register for medical setting",
+        "Clear and easy to understand",
+        "No deferred checks to resolve",
+        "No unsupported numeric/date/name/measurement specifics added"
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v2 policy: [LJ] said ACCEPT; [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] ACCEPT. [CC] ADVISORY.",
+      "conflictType": "none"
+    },
+    "v2Correct": true,
+    "v3Correct": true,
+    "isAmbiguous": false
+  },
+  {
+    "caseId": "SC-3A",
+    "label": "State=KNOWS, revision states fact (should ACCEPT \u2014 knowledge matches state)",
+    "category": "STATE",
+    "description": "Maya knows. Revision asserts the fact as known.",
+    "leakForm": "state-knows-assert",
+    "original": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+    "revised": "Marcus was acting strange at the desk. Maya watched him a moment, knowing he had embezzled forty thousand dollars from the clinic. She went to check on her patient.",
+    "state": {
+      "character": {
+        "identity": "Maya Okafor \u2014 ICU night nurse, 34",
+        "goals": [
+          "Get through the shift"
+        ],
+        "fears": [
+          "Addiction relapse"
+        ],
+        "beliefs": [
+          "Papa is dying"
+        ],
+        "memories": [
+          "Papa teaching her to count by pill bottles"
+        ],
+        "emotionalState": "Controlled exhaustion",
+        "perceptualHabits": [
+          "Counts IV drips",
+          "Smells rooms first",
+          "Reads dosage labels"
+        ],
+        "voice": "Sparse, observational, uses numbers as anchors",
+        "currentKnowledge": [
+          "Marcus handles finances",
+          "The clinic is struggling",
+          "Marcus embezzled $40,000"
+        ]
+      },
+      "informationOwnership": {
+        "entries": [
+          {
+            "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+            "knows": [
+              "Marcus",
+              "Maya"
+            ],
+            "suspects": [],
+            "misunderstands": [],
+            "unknown": []
+          }
+        ]
+      },
+      "canon": {
+        "facts": [
+          {
+            "content": "Maya co-owns a clinic with Marcus",
+            "classification": "HARD_CANON",
+            "source": "ch1"
+          },
+          {
+            "content": "Maya is not financially literate",
+            "classification": "SOFT_CANON",
+            "source": "ch2"
+          }
+        ]
+      },
+      "deferredChecks": [],
+      "sceneId": "adv-scene",
+      "revisionId": 3
+    },
+    "expected": {
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "overall": "ACCEPT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "ACCEPT"
+    },
+    "provenance": [
+      {
+        "detail": "he had embezzled forty thousand dollars from the clinic",
+        "type": "explicit_claim",
+        "provenance": "CHARACTER_STATE",
+        "evidence": "character KNOWS: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      },
+      {
+        "detail": "had embezzled forty thousand dollars from the clinic",
+        "type": "explicit_claim",
+        "provenance": "CHARACTER_STATE",
+        "evidence": "character KNOWS: \"Marcus embezzled $40,000 from the clinic over 18 months\""
+      }
+    ],
+    "ccVerdict": {
+      "unsupportedCount": 0,
+      "unsupportedItems": [],
+      "hardBlocks": [],
+      "severity": "ADVISORY"
+    },
+    "lj": {
+      "overall": "REJECT",
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "reasons": [
+        "The revision adds specific numerical detail ($40,000) that is not present in the original passage, despite being in Maya's knowledge. This violates faithfulness as it adds unsupported specificity.",
+        "Maya's knowledge includes the fact of embezzlement, so her awareness doesn't violate info ownership.",
+        "No canon contradictions detected.",
+        "No deferred checks to resolve.",
+        "The voice and character remain consistent with Maya's observational style and knowledge."
+      ]
+    },
+    "v2Policy": {
+      "policy": "v2_lj_only",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v3Policy": {
+      "policy": "v3_cc_hard_nonoverridable",
+      "ljOverall": "REJECT",
+      "ccSeverity": "ADVISORY",
+      "finalDecision": "REJECT",
+      "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+      "conflictType": "cc_pass_lj_fail"
+    },
+    "v2Correct": false,
+    "v3Correct": false,
+    "isAmbiguous": false
+  }
+]

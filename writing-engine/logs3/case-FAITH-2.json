@@ -1,0 +1,144 @@
+{
+  "caseId": "FAITH-2",
+  "label": "Unsupported date",
+  "category": "FAITH",
+  "description": "Invented date \"March 14, 2019\" — not in source or state.",
+  "leakForm": "date",
+  "original": "Maya thought about her last day of nursing school.",
+  "revised": "Maya thought about her last day of nursing school — March 14, 2019, the day she graduated cum laude from Johns Hopkins.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [
+    {
+      "detail": "14",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    },
+    {
+      "detail": "2019",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 2,
+    "unsupportedItems": [
+      {
+        "detail": "14",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "2019",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "14",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      },
+      {
+        "detail": "2019",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "FAIL",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "FAIL",
+    "reasons": [
+      "meaning: The revised passage maintains the core meaning of Maya thinking about her last day of nursing school.",
+      "character: Maya's character state shows no knowledge of her graduation date, university, or honors, which are specific details added in the revision.",
+      "infoOwnership: The revision adds specific information (graduation date, university, honors) that is not listed in Maya's current knowledge or information ownership, making this a FAIL.",
+      "canon: The added details don't contradict any established canon facts.",
+      "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors,' but the revision adds elaborate details not consistent with this voice style.",
+      "register: The register remains appropriate for the narrative context.",
+      "intelligibility: The passage is clear and easy to understand.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The revision adds specific numbers (March 14, 2019), a university name (Johns Hopkins), and academic honors (cum laude) that are not present in the original passage or character state."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

@@ -1,0 +1,121 @@
+{
+  "caseId": "SC-1B",
+  "label": "State=UNKNOWN, revision expresses suspicion (should REJECT — suspicion without basis)",
+  "category": "STATE",
+  "description": "Maya does not know and has not seen a discrepancy. Revision has her suspecting the finances.",
+  "leakForm": "state-unknown-suspect",
+  "original": "Marcus was acting strange at the desk. Maya watched him a moment, then went to check on her patient.",
+  "revised": "Marcus was acting strange at the desk. Maya watched him a moment, suspecting something was wrong with the finances — the discrepancy she had seen still nagged at her. She went to check on her patient.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Marcus handles finances",
+        "The clinic is struggling"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya is not financially literate",
+          "classification": "SOFT_CANON",
+          "source": "ch2"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "adv-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "FAIL",
+    "faithfulness": "UNCLEAR",
+    "overall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "isAmbiguous": true
+  },
+  "provenance": [],
+  "ccVerdict": {
+    "unsupportedCount": 0,
+    "unsupportedItems": [],
+    "hardBlocks": [],
+    "severity": "ADVISORY"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "The revised passage adds a specific financial concern about a discrepancy that Maya is suspecting, which is not in her knowledge state.",
+      "The specific financial discrepancy mentioned is not supported by the original text or character state.",
+      "Maya is canonically not financially literate, making her specific suspicion about a financial discrepancy questionable.",
+      "The revision adds specific knowledge about finances that is not present in the original passage."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": true
+}

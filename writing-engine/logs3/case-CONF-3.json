@@ -1,0 +1,105 @@
+{
+  "caseId": "CONF-3",
+  "label": "[CC] PASS + [LJ] FAIL (semantic invention only)",
+  "category": "CONFLICT",
+  "description": "A semantic invention (\"burnt coffee\" comparison) with no numbers. [CC] may pass; [LJ] should fail.",
+  "leakForm": "cc-pass-lj-fail",
+  "original": "Maya filled the coffee maker.",
+  "revised": "Maya filled the coffee maker. The break room smelled of antiseptic and burnt coffee — not cardamom, never cardamom here.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [],
+  "ccVerdict": {
+    "unsupportedCount": 0,
+    "unsupportedItems": [],
+    "hardBlocks": [],
+    "severity": "ADVISORY"
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "Original meaning preserved with added observation",
+      "Character details consistent with Maya being a nurse noticing environmental details",
+      "No information ownership violations - Maya is observing sensory details",
+      "No canon contradictions",
+      "Voice remains sparse and observational",
+      "Register appropriate for narrative",
+      "Intelligible with clear sensory details",
+      "No deferred checks violated",
+      "Added sensory details (smells) are licensed invention, not unsupported specificity"
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "ACCEPT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "ACCEPT",
+    "reason": "v2 policy: [LJ] said ACCEPT; [CC] ADVISORY.",
+    "conflictType": "none"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "ACCEPT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "ACCEPT",
+    "reason": "v3 policy: no [CC] hard block; deferring to [LJ] ACCEPT. [CC] ADVISORY.",
+    "conflictType": "none"
+  },
+  "v2Correct": false,
+  "v3Correct": false,
+  "isAmbiguous": false
+}

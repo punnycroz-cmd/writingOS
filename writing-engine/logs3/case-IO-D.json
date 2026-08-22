@@ -1,0 +1,125 @@
+{
+  "caseId": "IO-D",
+  "label": "Motive leak",
+  "category": "IO",
+  "description": "Maya states Marcus's private motive (which she cannot know).",
+  "leakForm": "motive",
+  "original": "Marcus came into the office. He seemed off. Maya figured he was just tired and went back to her charts.",
+  "revised": "Marcus came into the office. He seemed off. Maya could tell he was acting strangely because he wanted to cover his tracks before the audit — he was afraid of being caught.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": [
+        "Marcus handles finances",
+        "The clinic is struggling"
+      ]
+    },
+    "informationOwnership": {
+      "entries": [
+        {
+          "fact": "Marcus embezzled $40,000 from the clinic over 18 months",
+          "knows": [
+            "Marcus"
+          ],
+          "suspects": [],
+          "misunderstands": [],
+          "unknown": [
+            "Maya"
+          ]
+        }
+      ]
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya co-owns a clinic with Marcus",
+          "classification": "HARD_CANON",
+          "source": "ch1"
+        },
+        {
+          "content": "Maya is not financially literate",
+          "classification": "SOFT_CANON",
+          "source": "ch2"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "adv-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT"
+  },
+  "provenance": [],
+  "ccVerdict": {
+    "unsupportedCount": 0,
+    "unsupportedItems": [],
+    "hardBlocks": [],
+    "severity": "ADVISORY"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "FAIL",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The revised passage maintains the original meaning of Marcus acting strangely.",
+      "character: Maya's actions and reactions remain consistent with her character.",
+      "infoOwnership: Maya suddenly knows Marcus is embezzling money to cover tracks before an audit, which is listed as UNKNOWN to her.",
+      "canon: No contradictions with hard or soft canon facts.",
+      "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors', but the revision adds complex psychological reasoning not characteristic of her voice.",
+      "register: The register remains appropriate for the context.",
+      "intelligibility: The passage is clear and understandable.",
+      "deferred: No deferred checks were present or resolved.",
+      "faithfulness: The revision adds specific details about embezzlement ($40,000), audit, and Marcus's fear that are not present in the original passage or character state."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "ADVISORY",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: no [CC] hard block; deferring to [LJ] REJECT. [CC] ADVISORY.",
+    "conflictType": "cc_pass_lj_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": false
+}

@@ -1,0 +1,127 @@
+{
+  "caseId": "FAITH-7",
+  "label": "Unsupported named entity",
+  "category": "FAITH",
+  "description": "Invented person name \"Dr. Evelyn Marsh\".",
+  "leakForm": "named-entity",
+  "original": "Maya handed off to the next shift.",
+  "revised": "Maya handed off to Dr. Evelyn Marsh, the night attending who had trained her at Mass General back in 2017.",
+  "state": {
+    "character": {
+      "identity": "Maya Okafor — ICU night nurse, 34",
+      "goals": [
+        "Get through the shift"
+      ],
+      "fears": [
+        "Addiction relapse"
+      ],
+      "beliefs": [
+        "Papa is dying"
+      ],
+      "memories": [
+        "Papa teaching her to count by pill bottles"
+      ],
+      "emotionalState": "Controlled exhaustion",
+      "perceptualHabits": [
+        "Counts IV drips",
+        "Smells rooms first",
+        "Reads dosage labels"
+      ],
+      "voice": "Sparse, observational, uses numbers as anchors",
+      "currentKnowledge": []
+    },
+    "informationOwnership": {
+      "entries": []
+    },
+    "canon": {
+      "facts": [
+        {
+          "content": "Maya is an ICU nurse",
+          "classification": "HARD_CANON",
+          "source": "bible"
+        }
+      ]
+    },
+    "deferredChecks": [],
+    "sceneId": "faith-scene",
+    "revisionId": 3
+  },
+  "expected": {
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "overall": "REJECT",
+    "ccSeverity": "SOFT_SIGNAL",
+    "finalDecision": "REJECT",
+    "isAmbiguous": true
+  },
+  "provenance": [
+    {
+      "detail": "2017",
+      "type": "number",
+      "provenance": "UNKNOWN",
+      "evidence": "not found in source or state"
+    }
+  ],
+  "ccVerdict": {
+    "unsupportedCount": 1,
+    "unsupportedItems": [
+      {
+        "detail": "2017",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "hardBlocks": [
+      {
+        "detail": "2017",
+        "type": "number",
+        "provenance": "UNKNOWN",
+        "evidence": "not found in source or state"
+      }
+    ],
+    "severity": "HARD_BLOCK"
+  },
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "reasons": [
+      "meaning: The revised passage maintains the core meaning of the original while adding specific details.",
+      "character: The addition of details about Dr. Marsh and the training at Mass General doesn't contradict Maya's established character traits.",
+      "infoOwnership: FAIL - Maya's current knowledge is listed as empty, yet the revised text implies knowledge of Dr. Marsh's name, role, and training history.",
+      "canon: The revised passage doesn't contradict any established canon facts.",
+      "voice: The sparse, observational style with specific details aligns with Maya's established voice.",
+      "register: The formal medical terminology is appropriate for a professional setting.",
+      "intelligibility: The passage is clear and easy to understand.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: FAIL - The specific name 'Dr. Evelyn Marsh', the title 'night attending', the location 'Mass General', and the date '2017' are all new information not present in the original passage or character state."
+    ]
+  },
+  "v2Policy": {
+    "policy": "v2_lj_only",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v2 policy: [LJ] said REJECT; [CC] HARD_BLOCK.",
+    "conflictType": "both_fail"
+  },
+  "v3Policy": {
+    "policy": "v3_cc_hard_nonoverridable",
+    "ljOverall": "REJECT",
+    "ccSeverity": "HARD_BLOCK",
+    "finalDecision": "REJECT",
+    "reason": "v3 policy: REJECTED ([CC] HARD_BLOCK + [LJ] REJECT agree).",
+    "conflictType": "both_fail"
+  },
+  "v2Correct": true,
+  "v3Correct": true,
+  "isAmbiguous": true
+}
