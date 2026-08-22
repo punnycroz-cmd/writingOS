@@ -1,0 +1,61 @@
+{
+  "caseId": "E1",
+  "group": "E",
+  "label": "UNKNOWN + domain suspicion (finances)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected something was wrong with the clinic finances.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: set to PASS per epistemic authorization test instructions",
+      "character: Maya’s identity and clinic co-ownership context are coherent",
+      "infoOwnership: Maya is UNKNOWN about the financial wrongdoing and has no evidence; 'suspected something was wrong with the clinic finances' is a specific domain-level suspicion, not vague uncertainty",
+      "canon: clinic co-ownership is HARD_CANON and not contradicted",
+      "voice: neutral and acceptable",
+      "register: appropriate",
+      "intelligibility: clear",
+      "deferred: no deferred checks resolved",
+      "faithfulness: no unsupported specific number, date, or name asserted"
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "DOMAIN_SUSPICION",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "specific domain suspicion without evidence — closer to leak than vague unease",
+  "latencyMs": 29719,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

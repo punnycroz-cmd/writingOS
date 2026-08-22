@@ -1,0 +1,21 @@
+{
+  "caseId": "R5",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "candidateText": "Arlo looked at the blue LEDs on the mixing board.",
+  "expected": "REJECT",
+  "correct": true,
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "FAIL",
+    "meaning": "PASS",
+    "stateConsulted": true
+  },
+  "finalDecision": "REJECT",
+  "latencyMs": 10214,
+  "error": null,
+  "runLabel": "iteration43b-regression-fw"
+}

@@ -1,0 +1,61 @@
+{
+  "caseId": "E2",
+  "group": "E",
+  "label": "UNKNOWN + domain suspicion (accounting)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected the accounting records had been altered.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: no original provided; treat meaning as PASS",
+      "character: identity is not contradicted",
+      "infoOwnership: Maya is state UNKNOWN and has no evidence; 'suspected the accounting records had been altered' is a specific domain-level suspicion, not vague uncertainty",
+      "canon: no contradiction to clinic co-ownership",
+      "voice: no voice constraints violated",
+      "register: plain narrative register is acceptable",
+      "intelligibility: sentence is clear",
+      "deferred: no deferred checks resolved",
+      "faithfulness: no exact number/date/name asserted; failure is epistemic authorization"
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "DOMAIN_SUSPICION",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "specific suspicion of a specific fact — unsupported",
+  "latencyMs": 23409,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

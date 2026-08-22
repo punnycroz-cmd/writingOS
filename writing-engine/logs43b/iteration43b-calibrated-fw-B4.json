@@ -1,0 +1,58 @@
+{
+  "caseId": "B4",
+  "group": "B",
+  "label": "SUSPECTS + knew ($40k exact)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had stolen exactly $40,000.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "FAIL",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "character: state authorizes Maya only as suspecting Marcus took money, not knowing it.",
+      "infoOwnership: candidate upgrades Maya's SUSPICION to KNOWLEDGE, violating Rule 4.",
+      "faithfulness: 'exactly $40,000' is a specific unsupported number not present in state.",
+      "canon: no direct contradiction with HARD_CANON.",
+      "voice/register/intelligibility: no issues detected.",
+      "deferred: no deferred checks resolved."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_AMOUNT",
+  "reasoning": "certainty + exact specificity exceeds SUSPECTS state",
+  "latencyMs": 6448,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

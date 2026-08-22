@@ -1,0 +1,61 @@
+{
+  "caseId": "A4",
+  "group": "A",
+  "label": "UNKNOWN + knew ($40k)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had stolen $40,000.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "FAIL",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: set to PASS by epistemic-test instruction.",
+      "character: asserts Maya has knowledge not present in her currentKnowledge.",
+      "infoOwnership: state marks 'Marcus took money from the clinic' as unknown to Maya; candidate says she knew it.",
+      "canon: no contradiction with Maya co-owning the clinic with Marcus.",
+      "voice: no voice constraints violated.",
+      "register: appropriate plain declarative register.",
+      "intelligibility: sentence is clear.",
+      "deferred: no deferred checks resolved.",
+      "faithfulness: unsupported specific amount '$40,000' and specific theft assertion."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_AMOUNT",
+  "reasoning": "explicit epistemic overreach — certainty about unknown fact",
+  "latencyMs": 6787,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

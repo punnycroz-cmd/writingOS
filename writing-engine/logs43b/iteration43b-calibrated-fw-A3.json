@@ -1,0 +1,60 @@
+{
+  "caseId": "A3",
+  "group": "A",
+  "label": "UNKNOWN + suspected ($40k specific)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus had stolen $40,000.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "FAIL",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "character: Maya is structured as not knowing or suspecting the theft, so assigning her suspicion conflicts with state.",
+      "infoOwnership: Maya is UNKNOWN for 'Marcus took money from the clinic'; 'suspected Marcus had stolen' is a specific unauthorized suspicion, not vague uncertainty.",
+      "canon: No contradiction with the hard canon that Maya co-owns the clinic with Marcus.",
+      "voice: Minimal text does not violate voice.",
+      "register: Plain declarative register is acceptable.",
+      "intelligibility: Sentence is clear.",
+      "deferred: No deferred checks resolved.",
+      "faithfulness: The specific amount '$40,000' is unsupported by the document state."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SPECIFIC_AMOUNT",
+  "reasoning": "specific unsupported proposition with exact amount",
+  "latencyMs": 4614,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

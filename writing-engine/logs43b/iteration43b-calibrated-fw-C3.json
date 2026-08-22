@@ -1,0 +1,60 @@
+{
+  "caseId": "C3",
+  "group": "C",
+  "label": "KNOWS + knew (the money)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: set PASS per instruction; no internal contradiction.",
+      "character: consistent with Maya’s current knowledge.",
+      "infoOwnership: state explicitly lists Maya as knowing Marcus took money from the clinic.",
+      "canon: does not contradict the hard canon that Maya co-owns the clinic with Marcus.",
+      "voice: neutral line does not conflict with any specified voice constraints.",
+      "register: simple declarative register is acceptable.",
+      "intelligibility: clear and grammatical.",
+      "deferred: no deferred checks are triggered or resolved.",
+      "faithfulness: no unsupported exact amount or extra specific detail is asserted."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "knowledge matches state",
+  "latencyMs": 4408,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

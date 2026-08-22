@@ -1,0 +1,61 @@
+{
+  "caseId": "B2",
+  "group": "B",
+  "label": "SUSPECTS + suspected (some money)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus might have taken some money.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: set to PASS per instruction; no internal contradiction.",
+      "character: minimal statement consistent with Maya as subject.",
+      "infoOwnership: state explicitly lists Maya as suspecting that Marcus took money.",
+      "canon: no contradiction with Maya and Marcus co-owning a clinic.",
+      "voice: no voice constraints violated.",
+      "register: simple, appropriate declarative sentence.",
+      "intelligibility: clear and grammatical.",
+      "deferred: no deferred checks present.",
+      "faithfulness: 'some money' is a vague quantifier and does not assert unsupported specifics."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "SUSPECTED",
+  "propositionSpecificity": "SOME",
+  "reasoning": "suspicion matches state (suspects he took money)",
+  "latencyMs": 3758,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

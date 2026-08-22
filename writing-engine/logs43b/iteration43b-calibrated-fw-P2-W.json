@@ -1,0 +1,58 @@
+{
+  "caseId": "P2-W",
+  "group": "PAIR",
+  "label": "PAIR: wondered (KNOWS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered whether Marcus had taken anything.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning set to PASS per epistemic authorization framing",
+      "character state consulted; Maya knows Marcus took money, and the sentence only expresses vague wondering rather than asserting an unauthorized fact",
+      "infoOwnership passes because 'wondered whether' is vague uncertainty and does not claim specific unknown information",
+      "no canon contradiction",
+      "voice, register, and intelligibility are acceptable",
+      "no deferred checks triggered",
+      "no unsupported specific numbers, dates, or names"
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "wondered — downgrade, licensed under KNOWS",
+  "latencyMs": 27900,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

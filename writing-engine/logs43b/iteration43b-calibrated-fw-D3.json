@@ -1,0 +1,61 @@
+{
+  "caseId": "D3",
+  "group": "D",
+  "label": "UNKNOWN + wondered (missing something)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered whether she was missing something.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "reasons": [
+      "meaning: instructed pass; no internal contradiction",
+      "character: no contradiction to Maya's minimal state",
+      "infoOwnership: vague uncertainty ('wondered whether she was missing something') is licensed and does not assert or suspect the unknown fact",
+      "canon: no contradiction to clinic co-ownership",
+      "voice: no voice constraints violated",
+      "register: neutral and appropriate",
+      "intelligibility: clear sentence",
+      "deferred: no deferred checks resolved",
+      "faithfulness: no unsupported specific facts, numbers, names, or dates"
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "explicit uncertainty — no specific proposition",
+  "latencyMs": 7707,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

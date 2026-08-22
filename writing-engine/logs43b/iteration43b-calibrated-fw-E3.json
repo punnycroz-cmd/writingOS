@@ -1,0 +1,61 @@
+{
+  "caseId": "E3",
+  "group": "E",
+  "label": "UNKNOWN + domain suspicion (transfer)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya suspected Marcus was involved in the transfer.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: candidate is internally coherent and meaning is set to PASS for this epistemic test",
+      "character: no direct character voice or identity contradiction is present",
+      "infoOwnership: Maya is listed as UNKNOWN for 'Marcus took money from the clinic' and has no authorized suspicion; 'Maya suspected Marcus was involved in the transfer' is a specific unauthorized suspicion",
+      "canon: no contradiction with the hard canon that Maya co-owns a clinic with Marcus",
+      "voice: no voice constraints are violated",
+      "register: register is acceptable",
+      "intelligibility: sentence is clear",
+      "deferred: no deferred checks are resolved",
+      "faithfulness: no unsupported exact number/date/name is asserted; the failure is epistemic authorization, not faithfulness specifics"
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "DOMAIN_SUSPICION",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "specific suspicion naming a person and an action — unsupported",
+  "latencyMs": 14602,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}
