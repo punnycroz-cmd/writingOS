@@ -1,0 +1,60 @@
+{
+  "caseId": "B3",
+  "group": "B",
+  "label": "SUSPECTS + knew (overreach)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: The candidate does not preserve the original proposition that Marcus was at the desk; it replaces it with a new assertion about Maya knowing Marcus took money.",
+      "character: The candidate does not directly contradict Maya’s identity or established character facts.",
+      "infoOwnership: The structured state explicitly says Maya suspects Marcus took the money, while the candidate asserts that Maya knew it. This upgrades SUSPECTS to KNOWLEDGE and is not authorized.",
+      "canon: The candidate does not contradict the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No established voice is violated by the sentence.",
+      "register: The register is acceptable as plain narrative prose.",
+      "intelligibility: The sentence is grammatically clear and understandable.",
+      "deferred: There are no deferred checks to resolve.",
+      "faithfulness: The candidate asserts a specific mental-state claim and plot fact not supported by the original sentence, and the document state supports only Maya’s suspicion, not her knowledge."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "SUSPECTS must not become KNOWS — epistemic overreach",
+  "latencyMs": 16144,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

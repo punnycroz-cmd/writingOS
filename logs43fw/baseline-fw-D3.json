@@ -1,0 +1,60 @@
+{
+  "caseId": "D3",
+  "group": "D",
+  "label": "UNKNOWN + wondered (missing something)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered whether she was missing something.",
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "FAIL",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: The candidate replaces the original observable event, “Marcus was at the desk,” with an unrelated interior thought from Maya, so it does not preserve the source meaning.",
+      "character: The candidate is broadly consistent with Maya as a character and does not assert unsupported specific character traits.",
+      "infoOwnership: “Maya wondered whether she was missing something” is vague uncertainty and does not claim knowledge or suspicion of the protected fact that Marcus took money from the clinic.",
+      "canon: Nothing contradicts the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: No specific voice constraints are provided, and the sentence is neutral enough to pass.",
+      "register: The register is simple narrative introspection and is compatible with the source.",
+      "intelligibility: The sentence is grammatical and understandable.",
+      "deferred: No deferred checks are present or resolved.",
+      "faithfulness: The added thought is vague and does not introduce unsupported specific facts, numbers, dates, or names."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "ACCEPT",
+  "correct": false,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "explicit uncertainty — no specific proposition",
+  "latencyMs": 21206,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "baseline-fw"
+}

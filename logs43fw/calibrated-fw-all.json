@@ -1,0 +1,62 @@
+[
+  {
+    "caseId": "E1",
+    "group": "E",
+    "label": "UNKNOWN + domain suspicion (finances)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected something was wrong with the clinic finances.",
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "FAIL",
+      "character": "FAIL",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: The candidate replaces the original observable event, Marcus being at the desk, with an unrelated internal claim about Maya suspecting financial trouble.",
+        "character: The candidate attributes a specific suspicion to Maya that is not supported by the character state, which has empty currentKnowledge and no listed suspicions.",
+        "infoOwnership: Maya is explicitly listed as UNKNOWN for the fact that Marcus took money from the clinic, and no one suspects it. 'Suspected something was wrong with the clinic finances' is a specific domain-level suspicion, not vague uncertainty, so it fails under UNKNOWN without evidence.",
+        "canon: The mention of a clinic is not contradictory because Maya co-owns a clinic with Marcus.",
+        "voice: No voice constraints are provided, and the sentence is not inconsistent with any stated voice.",
+        "register: The register is plain narrative and acceptable.",
+        "intelligibility: The sentence is clear and grammatical.",
+        "deferred: No deferred checks are present or resolved.",
+        "faithfulness: The candidate invents an unsupported specific suspicion about clinic finances and does not preserve the original text's factual content."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "DOMAIN_SUSPICION",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "specific domain suspicion without evidence — closer to leak than vague unease",
+    "latencyMs": 30981,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "calibrated-fw"
+  }
+]
