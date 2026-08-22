@@ -251,3 +251,37 @@ Stage Summary:
 - 2 execution errors (JSON parse) recorded honestly — no fallback substituted.
 - Fireworks results are NOT mixed with z-ai results. Original z-ai 4.3 remains: 0/23 executed.
 - STOP per task's stop condition. No integration branch, no multi-scene testing, no Writing Bible v5.
+
+---
+Task ID: PHASE-2B-4-FREEZE-INTEGRITY
+Agent: Main orchestrator (Z.ai Code)
+Task: Final golden corpus freeze integrity + per-case result provenance.
+
+Work Log:
+- Created src/corpus/classify-comparison.ts: canonical historical comparison algorithm. R6 is a TAG, not automatic classification. Algorithm: STABLE_SUCCESS (both correct), REGRESSION (hist correct, current wrong), IMPROVEMENT (hist wrong, current correct), PERSISTENT_DEFECT (both wrong, not unresolved), KNOWN_DEFECT (both wrong AND unresolved), CHANGED_UNSCORABLE (not scorable).
+- Executed GC-0038R1 as its own LLM evaluation (not inherited from GC-0038): ACCEPT (correct), io=PASS, faith=PASS, stateConsulted=true. Result persisted to results/GC-0038R1.json with own execution provenance.
+- R6 reclassification using canonical algorithm:
+  * GC-0031: historical wrong + current correct → IMPROVEMENT (was KNOWN_DEFECT)
+  * GC-0033: historical wrong + current wrong → PERSISTENT_DEFECT (was KNOWN_DEFECT)
+  * GC-0036: historical wrong + current correct → IMPROVEMENT (was KNOWN_DEFECT)
+  * GC-0038R1: historical wrong + current correct → IMPROVEMENT (own execution, not R6)
+- Reconciled all persisted historicalComparison labels with derived labels. Mismatches found and corrected algorithmically.
+- 60 result files on remote (59 original + GC-0038R1 own execution).
+- All 8 consistency checks pass.
+- Pushed to integration/writing-os-v1. Commit SHA: 60781cf.
+
+Canonical metrics (from per-case ledger, all checks passed):
+- activeCases: 59 | superseded: 1 | R6: 3
+- scorableTriage: 32 | correct: 31 (97%)
+- scorableFinal: 56 | correct: 52 (93%)
+- ioOwnership: 25/30 (83%) | faithfulness: 28/30 (93%)
+- falseAcceptance: 3 | falseRejection: 1
+- executionErrors: 0 | llmExecuted: 42 | detFastPath: 17
+- Historical: 50 STABLE_SUCCESS, 2 REGRESSION, 2 IMPROVEMENT, 2 PERSISTENT_DEFECT, 3 KNOWN_DEFECT
+
+Stage Summary:
+- GC-0038R1 has its own execution result (not inherited).
+- R6 is a tag, not an automatic classification. 2 R6 cases improved, 1 persists.
+- All historical comparison labels are derived from the canonical algorithm.
+- All 8 consistency checks pass. Golden Corpus v1 is FROZEN.
+- STOP per task's stop condition.
