@@ -1,9 +1,9 @@
 {
   "task": "PHASE-2B-5",
-  "snapshotCreatedAt": "2026-08-22T22:56:00.000Z",
+  "snapshotCreatedAt": "2026-08-22T22:57:00.000Z",
   "repository": "punnycroz-cmd/writingOS",
   "branch": "research/phase2b-golden-corpus-v1-reconciled",
-  "head": "66ba9d114ce000f0fdc7dca39dea3b89b69173d1",
+  "head": "a0abcdc6dc91c987ff00104d638f0f206c416287",
   "filesPreserved": 924,
   "filesExcluded": 0,
   "sanitizedFiles": 0,
@@ -29,5 +29,6 @@
     "download/",
     "skills/ (gitignored sandbox infra)",
     ".env (gitignored)"
-  ]
+  ],
+  "headNote": "Tip of research/phase2b-golden-corpus-v1-reconciled after Phase 2B.5 commits. May include trivial doc follow-ups after the main Phase 2B.5 commit 66ba9d1."
 }
