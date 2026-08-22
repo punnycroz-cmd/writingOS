@@ -1,0 +1,22 @@
+{
+  "caseId": "P-2",
+  "source": "The report identified three hospitals.",
+  "revised": "The report identified three clinics.",
+  "expected": "ACCEPT",
+  "reasoning": "paraphrase — close enough in context",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "faithfulness": "FAIL",
+    "reasons": [
+      "Changed 'hospitals' to 'clinics' without source support (faithfulness)",
+      "Information ownership not explicitly tracked but represents unsupported specificity (infoOwnership)"
+    ]
+  },
+  "final": "REJECT",
+  "correct": false,
+  "validatorMode": "LLM"
+}

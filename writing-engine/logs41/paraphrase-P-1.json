@@ -1,0 +1,21 @@
+{
+  "caseId": "P-1",
+  "source": "The report identified three hospitals.",
+  "revised": "The report identified three medical centers.",
+  "expected": "ACCEPT",
+  "reasoning": "paraphrase — semantically equivalent",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "faithfulness": "FAIL",
+    "reasons": [
+      "faithfulness: 'medical centers' is an unsupported specific detail not in the original text under SOURCE_CONSTRAINED policy"
+    ]
+  },
+  "final": "REJECT",
+  "correct": false,
+  "validatorMode": "LLM"
+}

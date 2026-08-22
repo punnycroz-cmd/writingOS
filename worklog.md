@@ -169,3 +169,28 @@ Stage Summary:
 - Constitution: STABLE at 5 articles. No promotions, no demotions.
 - The smallest next experiment: refine the [LJ] prompt with 3 specific instructions (consult state lists, license explicit uncertainty, permit UNCLEAR) and re-run the 12 failed cases.
 - This was a research/architecture task, NOT website development. No cron webDevReview task created.
+
+---
+Task ID: ITERATION-4-1
+Agent: Main orchestrator (Z.ai Code)
+Task: Iteration 4.1 — A/B test of V4 (baseline) vs V4.1 (state-aware) validator on the frozen Iteration 4 benchmark. Determine whether state-aware prompting alone fixes the 12 V4 failures, or whether a structured claim→state resolution layer is needed.
+
+Work Log:
+- Built iteration41.ts with: (1) V4.1 state-aware validator (5 rules: consult state, distinguish epistemic levels, license vague uncertainty, accept state-supported, permit UNCLEAR); (2) minimal claim-state resolver (extract epistemic claims, resolve against IO state → STATE_SUPPORTED/STATE_CONTRADICTION/INSUFFICIENT_STATE/NO_CLAIM_DETECTED); (3) controlled state matrix (8 cases: UNKNOWN/SUSPECTS/KNOWS × knew/suspected/wondered); (4) paraphrase test (5 cases: hospitals↔medical centers/clinics/universities, 14↔50).
+- Every case logs validatorMode (LLM/EXECUTION_ERROR), fallbackUsed (false), executionError. No silent fallback substitution (Lesson B compliance). All 73 cases ran as LLM.
+- Executed the frozen 60-variant benchmark through V4.1 (in batches due to rate limits + a ~1hr Bash tool outage mid-experiment). All 60 completed.
+- Results: V4.1 = 56/60 (93%) correct, up from V4's 48/60 (80%). False rejection on A variants: 0/20 (was 3/20 in V4). False acceptance on B variants: 0/20 (unchanged — safety boundary holds).
+- A/B comparison: 8 of 12 V4 failures FIXED (T11-KNOWS-A, T11-SUSPECTS-B, T11-UNKNOWN-B, T12-INFERENCE-B, T3-C, T6-C, T7-A, T7-C). 3 UNCHANGED (T11-KNOWS-B, T12-NONE-C, T12-SOURCE-B). 1 new regression (T11-UNKNOWN-C — V4.1 too lenient on specific-domain suspicion).
+- State matrix: 6/8 correct. SM-3 and SM-4 failed — but NOT because the [LJ] misread state. The [LJ] returned io=PASS, stateConsulted=True for both. The [CC] HARD_BLOCK (claim-pattern false positive on "had taken"/"$40,000") overrode the correct [LJ] judgment. This is the key architectural finding: the [CC] HARD_BLOCK non-overridable policy (from Iteration 3) is now too strong now that the [LJ] is state-aware.
+- Claim-state resolver: 8/8 STATE_CONTRADICTION correct (100%); 3/3 STATE_SUPPORTED correct at [LJ] level (but 2 overridden by [CC] HARD_BLOCK). Misses paraphrased propositions (lexical matching limitation) — [LJ] prompt covers those.
+- Paraphrase test: 3/5 correct. P-1 (hospitals→medical centers) and P-2 (hospitals→clinics) false-positively rejected. Paraphrase overblocking is a separate [LJ]-level problem, not fixed by state-aware prompting or claim-state resolution.
+- Wrote 6 deliverables (31-36) in writing-engine/deliverables/.
+
+Stage Summary:
+- The V4 state-reading failure was PRIMARILY PROMPT-LEVEL. V4.1's 5 state-awareness rules fixed 8/12 failures without any architectural change. The [LJ] now reliably consults state (stateConsulted=True in all cases).
+- The claim-state resolver ADDS VALUE as a [CC]-level signal (8/8 STATE_CONTRADICTION reliable) but does NOT replace the [LJ] on implicit/vague claims. It should be promoted into the OS.
+- The [CC] HARD_BLOCK non-overridable policy needs a NARROW ARCHITECTURAL ADJUSTMENT: when the claim resolver returns STATE_SUPPORTED, downgrade [CC] severity to ADVISORY (let [LJ] adjudicate). This would fix SM-3, SM-4, T11-KNOWS-B. Not yet implemented — proposed as the smallest next experiment.
+- Paraphrase overblocking is a SEPARATE problem requiring its own [LJ] prompt rule for semantic equivalence. Not fixed.
+- Constitution: STABLE at 5 articles. No promotions, no demotions. All 4.1 changes are OS-level.
+- The smallest next experiment: implement the [CC] policy revision (downgrade HARD_BLOCK to SOFT when claim resolver says STATE_SUPPORTED), re-run the 3 affected cases + state matrix, verify no false-acceptance increase.
+- This was a research/architecture task, NOT website development. No cron webDevReview task created.

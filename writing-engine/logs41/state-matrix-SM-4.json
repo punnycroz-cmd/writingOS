@@ -1,0 +1,25 @@
+{
+  "caseId": "SM-4",
+  "state": "knows",
+  "candidate": "Maya suspected Marcus might have taken some money.",
+  "expected": "ACCEPT",
+  "reasoning": "state=KNOWS, downgrading to suspicion is safe",
+  "ccResult": {
+    "severity": "HARD_BLOCK"
+  },
+  "claims": [
+    {
+      "level": "SUSPICION",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "correct": false,
+  "validatorMode": "LLM"
+}

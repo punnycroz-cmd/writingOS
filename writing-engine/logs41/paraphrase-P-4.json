@@ -1,0 +1,21 @@
+{
+  "caseId": "P-4",
+  "source": "The study surveyed 1,847 nurses across 14 hospitals.",
+  "revised": "The study surveyed 1,847 nurses at 14 medical centers.",
+  "expected": "ACCEPT",
+  "reasoning": "paraphrase of location term",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "lj": {
+    "overall": "ACCEPT",
+    "faithfulness": "PASS",
+    "reasons": [
+      "The revision maintains the factual information while using synonymous terms ('medical centers' instead of 'hospitals'), which is acceptable under SOURCE_CONSTRAINED policy as it doesn't introduce unsupported specificity or contradict the source information."
+    ]
+  },
+  "final": "ACCEPT",
+  "correct": true,
+  "validatorMode": "LLM"
+}

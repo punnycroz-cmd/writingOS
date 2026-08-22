@@ -1,0 +1,25 @@
+{
+  "caseId": "SM-3",
+  "state": "knows",
+  "candidate": "Maya knew Marcus had embezzled $40,000 from the clinic.",
+  "expected": "ACCEPT",
+  "reasoning": "state=KNOWS, certainty → supported",
+  "ccResult": {
+    "severity": "HARD_BLOCK"
+  },
+  "claims": [
+    {
+      "level": "KNOWLEDGE",
+      "resolution": "STATE_SUPPORTED",
+      "evidence": "character KNOWS: \"Marcus embezzled $40,000 from the clinic\" — KNOWLEDGE is supported"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "correct": false,
+  "validatorMode": "LLM"
+}

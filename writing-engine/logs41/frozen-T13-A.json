@@ -23,13 +23,12 @@
     "canon": "PASS",
     "deferred": "PASS",
     "reasons": [
-      "The addition describes sensory experience consistent with a blind sound engineer",
-      "The detail about reading vibrations like a map aligns with character's perceptual habits",
+      "The added description is sensory detail compatible with a blind sound engineer's perceptual habits",
+      "The floor humming is an observation that fits with the character's ability to map spaces by echo",
       "No epistemic claims that contradict state",
-      "No canon violations",
-      "Voice remains precise about sound",
-      "No deferred checks violated",
-      "Licensed fiction policy allows sensory invention"
+      "No contradiction with hard canon (Arlo is blind)",
+      "Voice remains consistent with being 'precise about sound'",
+      "Licensed invention policy allows this environmental detail"
     ],
     "epistemicLevelAssessed": "OBSERVATION",
     "stateConsulted": true

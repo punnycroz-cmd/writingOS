@@ -1,0 +1,51 @@
+{
+  "caseId": "T15-B",
+  "tripletId": "T15",
+  "variant": "B",
+  "semanticClass": "unsupported_specific",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "The patient was stable.",
+  "revised": "The patient was stable — vitals 98.6°F, heart rate 72, blood pressure 120/80, on 1000ml of normal saline.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "98.6",
+        "type": "number"
+      },
+      {
+        "detail": "72",
+        "type": "number"
+      },
+      {
+        "detail": "120",
+        "type": "number"
+      },
+      {
+        "detail": "80",
+        "type": "number"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "faithfulness: FAIL - Contains specific numbers (98.6, 72, 120/80) not found in source or state"
+    ],
+    "epistemicLevelAssessed": "NONE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: 98.6, 72, 120, 80",
+  "correct": true
+}

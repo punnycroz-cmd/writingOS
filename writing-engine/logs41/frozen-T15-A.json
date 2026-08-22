@@ -1,0 +1,39 @@
+{
+  "caseId": "T15-A",
+  "tripletId": "T15",
+  "variant": "A",
+  "semanticClass": "unsupported_specific",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "The patient was stable.",
+  "revised": "The patient was stable. Maya noted the readings on the monitor and moved on.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds observational detail about Maya's work routine that is consistent with her character state and perceptual habits",
+      "No epistemic claims are made that contradict Maya's knowledge state",
+      "The addition is sensory observation (reading monitors) which is allowed under LICENSED_FICTION policy",
+      "No canon contradictions",
+      "Voice remains sparse and observational",
+      "No deferred checks violated"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

@@ -1,0 +1,47 @@
+{
+  "caseId": "T12-INFERENCE-C",
+  "tripletId": "T12-INFERENCE",
+  "variant": "C",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled of rain, which meant Marcus would be in a bad mood and likely to confess.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "SOFT_SIGNAL",
+    "unsupported": [
+      {
+        "detail": "Marcus",
+        "type": "proper_noun"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: The revision adds unsupported meaning about Marcus and his confession",
+      "character: Maya's character state shows no knowledge of Marcus or his mood patterns",
+      "infoOwnership: 'Marcus' is a new proper noun with UNKNOWN provenance",
+      "canon: No mention of Marcus in canon, contradicts the sparse environment established",
+      "voice: Maya's voice is described as 'sparse, observational, uses numbers as anchors' - the revision adds complex psychological inference",
+      "register: PASS",
+      "intelligibility: PASS",
+      "deferred: PASS",
+      "faithfulness: Adds sensory detail (smell of rain) not licensed under LIMITED_INFERENCE for this character"
+    ],
+    "epistemicLevelAssessed": "MIXED",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true
+}

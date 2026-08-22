@@ -1,0 +1,35 @@
+{
+  "caseId": "T13-C",
+  "tripletId": "T13",
+  "variant": "C",
+  "semanticClass": "canon_contradiction",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Arlo entered the studio.",
+  "revised": "Arlo entered the studio. The air felt blue to him — a color he remembered from before.",
+  "expected": "UNCLEAR",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "Canon: Contradicts HARD_CANON that Arlo is totally blind by describing him perceiving color",
+      "Faithfulness: Adds sensory detail (color perception) incompatible with character's established blindness"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true
+}

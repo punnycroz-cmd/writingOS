@@ -1,0 +1,39 @@
+{
+  "caseId": "T12-INFERENCE-B",
+  "tripletId": "T12-INFERENCE",
+  "variant": "B",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled of rain — a storm must be coming.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds observational detail about the smell of rain, which aligns with Maya's perceptual habits of smelling rooms first.",
+      "The inference 'a storm must be coming' is licensed under LIMITED_INFERENCE policy as it's a reasonable interpretation of the rainy smell.",
+      "No contradiction with canon - the smell of rain is different from Papa's pharmacy smell.",
+      "The voice remains sparse and observational, consistent with Maya's established voice.",
+      "No epistemic claims that exceed authorized knowledge levels.",
+      "No deferred checks are violated."
+    ],
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

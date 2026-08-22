@@ -1,0 +1,22 @@
+{
+  "caseId": "P-3",
+  "source": "The report identified three hospitals.",
+  "revised": "The report identified three universities.",
+  "expected": "REJECT",
+  "reasoning": "non-equivalent — different institutions",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "lj": {
+    "overall": "REJECT",
+    "faithfulness": "FAIL",
+    "reasons": [
+      "The revision changes 'hospitals' to 'universities', which contradicts the source material under SOURCE_CONSTRAINED policy",
+      "This constitutes an unsupported specific change that violates faithfulness to the source"
+    ]
+  },
+  "final": "REJECT",
+  "correct": true,
+  "validatorMode": "LLM"
+}

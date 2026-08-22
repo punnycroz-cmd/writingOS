@@ -1,0 +1,51 @@
+{
+  "caseId": "T12-LICENSED-C",
+  "tripletId": "T12-LICENSED",
+  "variant": "C",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The room smelled of the forty thousand dollars Marcus had stolen.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      {
+        "detail": "forty thousand",
+        "type": "number"
+      },
+      {
+        "detail": "Marcus",
+        "type": "proper_noun"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "FAIL",
+    "deferred": "PASS",
+    "reasons": [
+      "meaning: Added specific financial information ($40,000) not supported by state",
+      "character: Maya's perceptual habits include counting and smelling rooms, but this specific financial knowledge isn't established",
+      "infoOwnership: Information about Marcus and the $40,000 is marked as UNKNOWN",
+      "canon: Contricts established scent profile (cardamom and iron) with new scent profile (money)",
+      "voice: Maya's voice is described as sparse and observational, using numbers as anchors, but this addition introduces specific unsupported financial detail",
+      "register: PASS",
+      "intelligibility: PASS",
+      "deferred: PASS",
+      "faithfulness: FAIL for adding specific numbers and names not in source or state"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[CC] HARD_BLOCK: forty thousand",
+  "correct": true
+}

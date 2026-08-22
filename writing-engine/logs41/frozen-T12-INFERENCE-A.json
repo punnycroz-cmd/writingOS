@@ -1,0 +1,39 @@
+{
+  "caseId": "T12-INFERENCE-A",
+  "tripletId": "T12-INFERENCE",
+  "variant": "A",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LIMITED_INFERENCE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition of 'The corridor smelled faintly of rain' is a sensory observation that aligns with Maya's perceptual habits (smells rooms first)",
+      "No epistemic claims are made - it's a direct observation",
+      "The addition doesn't contradict any canon facts",
+      "The sparse observational style matches Maya's voice",
+      "No deferred checks are affected",
+      "The addition is within licensed fiction for limited inference"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

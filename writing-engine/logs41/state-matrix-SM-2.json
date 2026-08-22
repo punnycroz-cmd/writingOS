@@ -1,0 +1,25 @@
+{
+  "caseId": "SM-2",
+  "state": "suspects",
+  "candidate": "Maya knew Marcus had embezzled $40,000 from the clinic.",
+  "expected": "REJECT",
+  "reasoning": "state=SUSPECTS, certainty → suspicion upgraded (still leak)",
+  "ccResult": {
+    "severity": "HARD_BLOCK"
+  },
+  "claims": [
+    {
+      "level": "KNOWLEDGE",
+      "resolution": "STATE_CONTRADICTION",
+      "evidence": "character only SUSPECTS: \"Marcus embezzled $40,000 from the clinic\" — KNOWLEDGE is unsupported (suspicion upgraded)"
+    }
+  ],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "correct": true,
+  "validatorMode": "LLM"
+}

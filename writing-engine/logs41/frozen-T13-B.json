@@ -23,9 +23,10 @@
     "canon": "FAIL",
     "deferred": "PASS",
     "reasons": [
-      "Arlo is blind according to HARD_CANON, so he cannot visually observe the mixing board, LEDs, or indicator lights",
-      "The revision contradicts established character state by attributing visual perception to a blind character",
-      "The revision violates canon by contradicting the HARD_CANON fact that Arlo is totally blind"
+      "The revision contradicts HARD_CANON that Arlo is totally blind",
+      "A blind character cannot observe visual details like 'blue glow of the LEDs' and 'red indicator lights'",
+      "This creates a character contradiction by attributing visual perception to a blind character",
+      "The faithfulness dimension fails due to invention of sensory details not supported by canon or state"
     ],
     "epistemicLevelAssessed": "OBSERVATION",
     "stateConsulted": true

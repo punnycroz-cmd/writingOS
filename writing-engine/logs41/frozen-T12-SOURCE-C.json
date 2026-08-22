@@ -1,0 +1,34 @@
+{
+  "caseId": "T12-SOURCE-C",
+  "tripletId": "T12-SOURCE",
+  "variant": "C",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "SOURCE_CONSTRAINED",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The air was still.",
+  "expected": "UNCLEAR",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "faithfulness: Under SOURCE_CONSTRAINED policy, adding sensory details ('The air was still') without explicit source support violates the policy against invented sensory detail not in source/state."
+    ],
+    "epistemicLevelAssessed": "NONE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true
+}

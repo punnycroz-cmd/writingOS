@@ -1,0 +1,38 @@
+{
+  "caseId": "T12-LICENSED-B",
+  "tripletId": "T12-LICENSED",
+  "variant": "B",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The kitchen smelled of cardamom and iron.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition of sensory detail about the kitchen's smell is consistent with Maya's perceptual habits of 'smells rooms first'",
+      "The specific smells of 'cardamom and iron' match the SOFT_CANON fact about Papa's pharmacy",
+      "This is a sensory observation (OBSERVATION level), which is licensed under LICENSED_FICTION policy",
+      "No epistemic claims are being made beyond direct sensory observation",
+      "The detail is consistent with Maya's character background as someone familiar with Papa's pharmacy"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

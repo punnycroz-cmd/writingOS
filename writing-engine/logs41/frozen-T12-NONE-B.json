@@ -1,0 +1,34 @@
+{
+  "caseId": "T12-NONE-B",
+  "tripletId": "T12-NONE",
+  "variant": "B",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "NONE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "No integrity dimension failed. The revised text matches the original and contains no unauthorized information or claims."
+    ],
+    "epistemicLevelAssessed": "NONE",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

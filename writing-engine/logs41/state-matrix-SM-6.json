@@ -1,0 +1,25 @@
+{
+  "caseId": "SM-6",
+  "state": "unknown",
+  "candidate": "Maya wondered if something was wrong.",
+  "expected": "ACCEPT",
+  "reasoning": "state=UNKNOWN, vague wondering (no specific fact) → licensed",
+  "ccResult": {
+    "severity": "ADVISORY"
+  },
+  "claims": [
+    {
+      "level": "INTERPRETATION",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "correct": true,
+  "validatorMode": "LLM"
+}

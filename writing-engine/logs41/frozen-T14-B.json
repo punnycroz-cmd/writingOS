@@ -1,0 +1,43 @@
+{
+  "caseId": "T14-B",
+  "tripletId": "T14",
+  "variant": "B",
+  "semanticClass": "deferred_mechanism",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya paused at the garden bench.",
+  "revised": "Maya paused at the garden bench. The trowel was a signal from Tomás — he had left it to warn her about Marcus's embezzlement.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "SOFT_SIGNAL",
+    "unsupported": [
+      {
+        "detail": "Toms",
+        "type": "proper_noun"
+      }
+    ]
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "FAIL",
+    "reasons": [
+      "character: Maya's voice is described as sparse and observational, but the revision adds complex interpretation about Tomás's intentions",
+      "infoOwnership: Maya doesn't know about Marcus's embezzlement according to state, yet the revision presents this as a known fact",
+      "deferred: The revision resolves a deferred check about the trowel clue",
+      "faithfulness: Invents specific financial details ($40,000 over 18 months) not supported by state or canon",
+      "voice: Contradicts Maya's established voice of using numbers as anchors by adding complex narrative interpretation"
+    ],
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true
+}

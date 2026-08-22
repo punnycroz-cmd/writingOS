@@ -1,0 +1,25 @@
+{
+  "caseId": "SM-7",
+  "state": "suspects",
+  "candidate": "Maya suspected something was wrong with the finances.",
+  "expected": "ACCEPT",
+  "reasoning": "state=SUSPECTS, suspicion matches state",
+  "ccResult": {
+    "severity": "ADVISORY"
+  },
+  "claims": [
+    {
+      "level": "SUSPICION",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "correct": true,
+  "validatorMode": "LLM"
+}

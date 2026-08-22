@@ -1,0 +1,40 @@
+{
+  "caseId": "T14-C",
+  "tripletId": "T14",
+  "variant": "C",
+  "semanticClass": "deferred_mechanism",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya paused at the garden bench.",
+  "revised": "Maya paused at the garden bench. Something about the trowel bothered her, though she could not say why.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds a sensory observation (something about the trowel bothered her) which is allowed under LICENSED_FICTION",
+      "The vague unease ('something bothered her') doesn't assert specific unauthorized facts",
+      "No epistemic claims detected that would require knowledge of the embezzlement",
+      "No contradiction with canon",
+      "Consistent with Maya's perceptual habits (noticing details)",
+      "No resolution of deferred checks",
+      "No unsupported specific numbers/dates/names/measurements"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

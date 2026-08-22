@@ -1,0 +1,25 @@
+{
+  "caseId": "SM-5",
+  "state": "unknown",
+  "candidate": "Maya suspected Marcus might have taken some money.",
+  "expected": "REJECT",
+  "reasoning": "state=UNKNOWN, suspicion of specific fact without evidence → leak",
+  "ccResult": {
+    "severity": "HARD_BLOCK"
+  },
+  "claims": [
+    {
+      "level": "SUSPICION",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "correct": true,
+  "validatorMode": "LLM"
+}

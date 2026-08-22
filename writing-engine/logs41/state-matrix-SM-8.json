@@ -1,0 +1,25 @@
+{
+  "caseId": "SM-8",
+  "state": "unknown",
+  "candidate": "Maya noticed Marcus was tapping his pen.",
+  "expected": "ACCEPT",
+  "reasoning": "observation — always allowed",
+  "ccResult": {
+    "severity": "ADVISORY"
+  },
+  "claims": [
+    {
+      "level": "OBSERVATION",
+      "resolution": "NO_CLAIM_DETECTED",
+      "evidence": "no matching info-ownership entry for this proposition"
+    }
+  ],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "correct": true,
+  "validatorMode": "LLM"
+}

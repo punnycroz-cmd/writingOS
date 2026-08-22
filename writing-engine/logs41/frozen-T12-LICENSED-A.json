@@ -1,0 +1,39 @@
+{
+  "caseId": "T12-LICENSED-A",
+  "tripletId": "T12-LICENSED",
+  "variant": "A",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "Added sensory detail (smell of rain) is consistent with LICENSED_FICTION policy",
+      "Maya's perceptual habits include 'smells rooms first', making this observation appropriate",
+      "No epistemic claims detected - simple sensory observation",
+      "No contradiction with canon",
+      "Voice remains sparse and observational",
+      "No deferred checks to resolve"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

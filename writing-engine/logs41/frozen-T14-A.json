@@ -1,0 +1,39 @@
+{
+  "caseId": "T14-A",
+  "tripletId": "T14",
+  "variant": "A",
+  "semanticClass": "deferred_mechanism",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya paused at the garden bench.",
+  "revised": "Maya paused at the garden bench. A trowel sat on the wood, left there by someone. She did not pick it up.",
+  "expected": "UNCLEAR",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The revision adds sensory detail (a trowel on the bench) which is allowed under LICENSED_FICTION",
+      "No epistemic claims about unknown facts were made",
+      "The addition doesn't contradict any canon information",
+      "The sparse, observational voice is maintained",
+      "The deferred check for the trowel clue is properly set up",
+      "No specific unauthorized numbers/dates/names/measurements were added"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

@@ -1,0 +1,35 @@
+{
+  "caseId": "T12-NONE-A",
+  "tripletId": "T12-NONE",
+  "variant": "A",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "NONE",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "infoOwnership: FAIL - The character has no prior knowledge or mention of a corridor smelling of rain in the state or canon",
+      "faithfulness: FAIL - Invention of sensory detail (rain smell) not supported by source or state under NONE policy"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true
+}

@@ -1,0 +1,34 @@
+{
+  "caseId": "T12-SOURCE-A",
+  "tripletId": "T12-SOURCE",
+  "variant": "A",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "SOURCE_CONSTRAINED",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The corridor smelled faintly of rain.",
+  "expected": "REJECT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "faithfulness: Adding sensory detail about the corridor smelling of rain is not supported by source or state under SOURCE_CONSTRAINED policy"
+    ],
+    "epistemicLevelAssessed": "NONE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": true
+}

@@ -1,0 +1,39 @@
+{
+  "caseId": "T15-C",
+  "tripletId": "T15",
+  "variant": "C",
+  "semanticClass": "unsupported_specific",
+  "inventionPolicy": "LICENSED_FICTION",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "The patient was stable.",
+  "revised": "The patient was stable. The monitor showed numbers within normal range.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "The addition of monitor readings is consistent with Maya's perceptual habits of counting and observing numbers",
+      "No epistemic claims about unauthorized facts are made",
+      "The detail is observational and within licensed fiction scope",
+      "No canon violations",
+      "Voice remains sparse and observational",
+      "No deferred checks to resolve"
+    ],
+    "epistemicLevelAssessed": "OBSERVATION",
+    "stateConsulted": true
+  },
+  "final": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "correct": true
+}

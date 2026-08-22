@@ -1,0 +1,24 @@
+{
+  "caseId": "P-5",
+  "source": "The study surveyed 1,847 nurses across 14 hospitals.",
+  "revised": "The study surveyed 1,847 nurses across 50 hospitals.",
+  "expected": "REJECT",
+  "reasoning": "different number (14→50) — not paraphrase",
+  "ccResult": {
+    "severity": "HARD_BLOCK",
+    "unsupported": [
+      "50"
+    ]
+  },
+  "lj": {
+    "overall": "REJECT",
+    "faithfulness": "FAIL",
+    "reasons": [
+      "infoOwnership: FAIL because '50' is an unsupported specific number not found in source or state",
+      "faithfulness: FAIL because the revision introduces an unsupported specific number (50) that contradicts the source (14)"
+    ]
+  },
+  "final": "REJECT",
+  "correct": true,
+  "validatorMode": "LLM"
+}

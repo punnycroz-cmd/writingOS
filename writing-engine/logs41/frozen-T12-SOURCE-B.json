@@ -1,0 +1,34 @@
+{
+  "caseId": "T12-SOURCE-B",
+  "tripletId": "T12-SOURCE",
+  "variant": "B",
+  "semanticClass": "policy_controlled",
+  "inventionPolicy": "SOURCE_CONSTRAINED",
+  "validatorVersion": "V4.1",
+  "validatorMode": "LLM",
+  "fallbackUsed": false,
+  "executionError": null,
+  "original": "Maya entered the kitchen.",
+  "revised": "Maya entered the kitchen. The kitchen smelled of cardamom and iron.",
+  "expected": "ACCEPT",
+  "ccResult": {
+    "severity": "ADVISORY",
+    "unsupported": []
+  },
+  "claims": [],
+  "lj": {
+    "overall": "REJECT",
+    "infoOwnership": "UNCLEAR",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "reasons": [
+      "faithfulness: Adding specific sensory details (cardamom and iron smell) not supported by source under SOURCE_CONSTRAINED policy"
+    ],
+    "epistemicLevelAssessed": "NONE",
+    "stateConsulted": true
+  },
+  "final": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "correct": false
+}
