@@ -10,7 +10,7 @@
     "writing-os-v1-1",
     "r6"
   ],
-  "caseCount": 59,
+  "caseCount": 60,
   "registers": [
     "FICTION"
   ],
@@ -20,7 +20,11 @@
   "modelsRepresented": [
     "accounts/fireworks/models/qwen3p8-max"
   ],
-  "status": "DRAFT",
-  "r6CasesIncluded": 4,
-  "unresolvedCases": 4
+  "status": "FROZEN",
+  "r6CasesIncluded": 3,
+  "unresolvedCases": 3,
+  "supersededCount": 1,
+  "auditIssues": 2,
+  "frozenAt": "2026-08-22",
+  "activeCaseCount": 59
 }
