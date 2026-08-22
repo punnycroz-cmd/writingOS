@@ -285,3 +285,33 @@ Stage Summary:
 - All historical comparison labels are derived from the canonical algorithm.
 - All 8 consistency checks pass. Golden Corpus v1 is FROZEN.
 - STOP per task's stop condition.
+
+---
+Task ID: PHASE-2B-4R-FREEZE-INTEGRITY-REPAIR
+Agent: Main orchestrator (Z.ai Code)
+Task: Repair freeze-integrity errors: duplicate classifier logic, GC-0038R1 zero-latency placeholder, incomplete consistency checks.
+
+Work Log:
+- FIX 1: reconcile-v1.ts NOW imports classifyHistoricalComparison from classify-comparison.ts. Zero duplicate classification logic. The old `if (isR6 || isUnresolved) return 'KNOWN_DEFECT'` is removed. R6 is a TAG, not automatic classification.
+- FIX 2: GC-0038R1 re-executed with real Fireworks API call. latencyMs=8875 (non-zero). executionProvenance.status=EXECUTED. evaluatedAt=real timestamp (2026-08-22T21:30:56.962Z). Replaced the zero-latency placeholder.
+- FIX 3: 16 consistency checks (was 8). Added: historical_classification_consistency, active_result_provenance, no_silent_inheritance, active_result_identity, aggregate_classification_sum, ledger_summary_consistency, classifier_usage_consistency, gc0038r1_provenance.
+- FIX 4: R6/UNRESOLVED cases with expected decisions ARE scorable. finalScorable = !!expectedFinalDecision (not blocked by isUnresolved). This allows R6 cases to be classified as IMPROVEMENT/PERSISTENT_DEFECT instead of CHANGED_UNSCORABLE.
+- FIX 5: Persisted result files updated with canonical classifications. GC-0031: KNOWN_DEFECT→IMPROVEMENT. GC-0036: KNOWN_DEFECT→IMPROVEMENT. GC-0033 remains KNOWN_DEFECT (both wrong, isUnresolved=true).
+- Added executionProvenance to all result files.
+- All 16 consistency checks PASS.
+- Pushed to integration/writing-os-v1. Commit SHA: 287dad2.
+
+Final canonical metrics (ALL 16 CHECKS PASS — FROZEN):
+- activeCases: 59 | R6: 3 | scorableFinal: 59
+- finalCorrect: 54/59 (92%)
+- falseAcceptance: 4 (GC-0024, GC-0025, GC-0033, GC-0054)
+- falseRejection: 1 (GC-0022)
+- R6: GC-0031 IMPROVEMENT, GC-0033 KNOWN_DEFECT, GC-0036 IMPROVEMENT
+- GC-0038R1: ACCEPT, latency=8875ms, EXECUTED (own provenance)
+- Historical: 50 STABLE_SUCCESS, 2 REGRESSION, 4 IMPROVEMENT, 2 PERSISTENT_DEFECT, 1 KNOWN_DEFECT
+
+Stage Summary:
+- The canonical classifier is the SINGLE source of truth. No duplicate logic.
+- GC-0038R1 has genuine execution provenance (non-zero latency, real timestamp).
+- All 16 consistency checks pass. Golden Corpus v1 is FROZEN.
+- STOP per task's stop condition.
