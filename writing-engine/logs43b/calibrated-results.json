@@ -1,0 +1,1385 @@
+[
+  {
+    "caseId": "A1",
+    "group": "A",
+    "label": "UNKNOWN + wondered (vague)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya wondered if Marcus had taken anything.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: set to PASS per instruction; no internal contradiction",
+        "character: brief interior thought consistent with Maya as viewpoint character",
+        "infoOwnership: 'wondered if' expresses explicit uncertainty and does not assert the unknown fact that Marcus took money",
+        "canon: no contradiction with Maya and Marcus co-owning a clinic",
+        "voice: simple interior line acceptable under LICENSED_FICTION",
+        "register: neutral narrative register",
+        "intelligibility: clear and grammatical",
+        "deferred: no deferred checks resolved",
+        "faithfulness: no unsupported specific facts, numbers, dates, or names asserted"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "WONDERED",
+    "propositionSpecificity": "VAGUE",
+    "reasoning": "vague uncertainty \u2014 no specific proposition",
+    "latencyMs": 19797,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "A2",
+    "group": "A",
+    "label": "UNKNOWN + suspected (some money)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected Marcus might have taken some money.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: set to PASS per epistemic authorization test instruction",
+        "character: no direct contradiction to provided character model",
+        "infoOwnership: Maya is listed as UNKNOWN for the fact and has no authorized suspicion; the candidate assigns Maya a specific suspicion that Marcus took money",
+        "canon: does not contradict the hard canon that Maya co-owns a clinic with Marcus",
+        "voice: acceptable given minimal state",
+        "register: acceptable plain narrative register",
+        "intelligibility: clear and grammatical",
+        "deferred: no deferred checks triggered",
+        "faithfulness: 'some money' is a vague quantifier and no unsupported exact number is asserted"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "SUSPECTED",
+    "propositionSpecificity": "SOME",
+    "reasoning": "specific suspicion of a fact the character does not know \u2014 unsupported",
+    "latencyMs": 10973,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "A3",
+    "group": "A",
+    "label": "UNKNOWN + suspected ($40k specific)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected Marcus had stolen $40,000.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "character: Maya is structured as not knowing or suspecting the theft, so assigning her suspicion conflicts with state.",
+        "infoOwnership: Maya is UNKNOWN for 'Marcus took money from the clinic'; 'suspected Marcus had stolen' is a specific unauthorized suspicion, not vague uncertainty.",
+        "canon: No contradiction with the hard canon that Maya co-owns the clinic with Marcus.",
+        "voice: Minimal text does not violate voice.",
+        "register: Plain declarative register is acceptable.",
+        "intelligibility: Sentence is clear.",
+        "deferred: No deferred checks resolved.",
+        "faithfulness: The specific amount '$40,000' is unsupported by the document state."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "SUSPECTED",
+    "propositionSpecificity": "SPECIFIC_AMOUNT",
+    "reasoning": "specific unsupported proposition with exact amount",
+    "latencyMs": 4614,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "A4",
+    "group": "A",
+    "label": "UNKNOWN + knew ($40k)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya knew Marcus had stolen $40,000.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "KNOWLEDGE",
+      "reasons": [
+        "meaning: set to PASS by epistemic-test instruction.",
+        "character: asserts Maya has knowledge not present in her currentKnowledge.",
+        "infoOwnership: state marks 'Marcus took money from the clinic' as unknown to Maya; candidate says she knew it.",
+        "canon: no contradiction with Maya co-owning the clinic with Marcus.",
+        "voice: no voice constraints violated.",
+        "register: appropriate plain declarative register.",
+        "intelligibility: sentence is clear.",
+        "deferred: no deferred checks resolved.",
+        "faithfulness: unsupported specific amount '$40,000' and specific theft assertion."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "KNEW",
+    "propositionSpecificity": "SPECIFIC_AMOUNT",
+    "reasoning": "explicit epistemic overreach \u2014 certainty about unknown fact",
+    "latencyMs": 6787,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "B1",
+    "group": "B",
+    "label": "SUSPECTS + wondered (vague)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya wondered if Marcus had taken anything.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: set to PASS per epistemic authorization test framing.",
+        "character: Maya\u2019s wondering is consistent with her listed suspicion.",
+        "infoOwnership: Maya is authorized to suspect Marcus took money; 'wondered if Marcus had taken anything' is vague uncertainty and does not exceed her epistemic state.",
+        "canon: no contradiction with hard canon that Maya co-owns a clinic with Marcus.",
+        "voice: no voice violation apparent.",
+        "register: simple, appropriate register.",
+        "intelligibility: clear sentence.",
+        "deferred: no deferred checks resolved.",
+        "faithfulness: no unsupported specific facts, numbers, dates, or names; 'anything' is vague."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "WONDERED",
+    "propositionSpecificity": "VAGUE",
+    "reasoning": "vague uncertainty \u2014 licensed",
+    "latencyMs": 9627,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "B2",
+    "group": "B",
+    "label": "SUSPECTS + suspected (some money)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected Marcus might have taken some money.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: set to PASS per instruction; no internal contradiction.",
+        "character: minimal statement consistent with Maya as subject.",
+        "infoOwnership: state explicitly lists Maya as suspecting that Marcus took money.",
+        "canon: no contradiction with Maya and Marcus co-owning a clinic.",
+        "voice: no voice constraints violated.",
+        "register: simple, appropriate declarative sentence.",
+        "intelligibility: clear and grammatical.",
+        "deferred: no deferred checks present.",
+        "faithfulness: 'some money' is a vague quantifier and does not assert unsupported specifics."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "SUSPECTED",
+    "propositionSpecificity": "SOME",
+    "reasoning": "suspicion matches state (suspects he took money)",
+    "latencyMs": 3758,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "B3",
+    "group": "B",
+    "label": "SUSPECTS + knew (overreach)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya knew Marcus had taken the money.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "KNOWLEDGE",
+      "reasons": [
+        "meaning: set to PASS per instruction; no internal contradiction.",
+        "character: uses the named character consistently.",
+        "infoOwnership: state says Maya suspects Marcus took the money, but candidate asserts Maya knew it; SUSPECTS does not authorize KNOWLEDGE.",
+        "canon: no contradiction with clinic co-ownership.",
+        "voice: no voice constraints violated.",
+        "register: simple declarative register is acceptable.",
+        "intelligibility: clear and grammatical.",
+        "deferred: no deferred checks resolved.",
+        "faithfulness: no unsupported number/date/name; the failure is epistemic authorization, not factual invention."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "KNEW",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "SUSPECTS must not become KNOWS \u2014 epistemic overreach",
+    "latencyMs": 7811,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "B4",
+    "group": "B",
+    "label": "SUSPECTS + knew ($40k exact)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya knew Marcus had stolen exactly $40,000.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "FAIL",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "KNOWLEDGE",
+      "reasons": [
+        "character: state authorizes Maya only as suspecting Marcus took money, not knowing it.",
+        "infoOwnership: candidate upgrades Maya's SUSPICION to KNOWLEDGE, violating Rule 4.",
+        "faithfulness: 'exactly $40,000' is a specific unsupported number not present in state.",
+        "canon: no direct contradiction with HARD_CANON.",
+        "voice/register/intelligibility: no issues detected.",
+        "deferred: no deferred checks resolved."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "KNEW",
+    "propositionSpecificity": "SPECIFIC_AMOUNT",
+    "reasoning": "certainty + exact specificity exceeds SUSPECTS state",
+    "latencyMs": 6448,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "C1",
+    "group": "C",
+    "label": "KNOWS + wondered (vague)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya wondered if Marcus had taken anything.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: set to PASS by instruction; sentence is internally coherent.",
+        "character: brief interior uncertainty is acceptable narrative texture and does not assert unauthorized knowledge.",
+        "infoOwnership: 'wondered if' is vague uncertainty, not a claim or leak of a specific unknown fact.",
+        "canon: no contradiction with Maya and Marcus co-owning a clinic.",
+        "voice: neutral interior narration; no voice violation evident.",
+        "register: appropriate plain narrative register.",
+        "intelligibility: clear and grammatical.",
+        "deferred: no deferred checks triggered or resolved.",
+        "faithfulness: no unsupported specific facts, numbers, dates, or names asserted."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "WONDERED",
+    "propositionSpecificity": "VAGUE",
+    "reasoning": "vague uncertainty \u2014 licensed (downgrade from KNOWS)",
+    "latencyMs": 18481,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "C2",
+    "group": "C",
+    "label": "KNOWS + suspected (some money)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected Marcus might have taken some money.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "Meaning is internally coherent and test instructs PASS.",
+        "Maya is authorized regarding Marcus taking money; suspicion about that fact is state-supported.",
+        "'Some money' is a vague quantifier, not an unsupported specific amount.",
+        "No canon contradiction; no deferred checks resolved.",
+        "No voice, register, or intelligibility issues detected."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "SUSPECTED",
+    "propositionSpecificity": "SOME",
+    "reasoning": "downgrade to suspicion \u2014 safe when state=KNOWS",
+    "latencyMs": 6044,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "C3",
+    "group": "C",
+    "label": "KNOWS + knew (the money)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya knew Marcus had taken the money.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "KNOWLEDGE",
+      "reasons": [
+        "meaning: set PASS per instruction; no internal contradiction.",
+        "character: consistent with Maya\u2019s current knowledge.",
+        "infoOwnership: state explicitly lists Maya as knowing Marcus took money from the clinic.",
+        "canon: does not contradict the hard canon that Maya co-owns the clinic with Marcus.",
+        "voice: neutral line does not conflict with any specified voice constraints.",
+        "register: simple declarative register is acceptable.",
+        "intelligibility: clear and grammatical.",
+        "deferred: no deferred checks are triggered or resolved.",
+        "faithfulness: no unsupported exact amount or extra specific detail is asserted."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "KNEW",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "knowledge matches state",
+    "latencyMs": 4408,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "C4",
+    "group": "C",
+    "label": "KNOWS + knew ($40k, state has amount)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya knew Marcus had stolen $40,000.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "KNOWLEDGE",
+      "reasons": [
+        "meaning: set to PASS per epistemic authorization framing.",
+        "character: Maya is the named character and the sentence is consistent with her documented knowledge.",
+        "infoOwnership: state explicitly lists Maya as knowing that Marcus embezzled $40,000.",
+        "canon: no contradiction with Maya and Marcus co-owning a clinic.",
+        "voice: minimal sentence does not conflict with available character voice data.",
+        "register: plain declarative narrative register is acceptable.",
+        "intelligibility: clear and grammatical.",
+        "deferred: no deferred checks present.",
+        "faithfulness: $40,000 and Marcus's theft/embezzlement are state-supported; 'stolen' is a reasonable generalization of 'embezzled'."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "KNEW",
+    "propositionSpecificity": "SPECIFIC_AMOUNT",
+    "reasoning": "state explicitly contains $40,000 \u2014 number is state-supported",
+    "latencyMs": 5227,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "D1",
+    "group": "D",
+    "label": "UNKNOWN + vague affect (uneasy)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Something about Marcus made Maya uneasy.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "INTERPRETATION",
+      "reasons": [
+        "meaning set to PASS per instruction; text is internally coherent",
+        "Maya's unease is a licensed internal/interpretive observation and does not contradict provided character state",
+        "the sentence expresses vague unease without claiming or suspecting the unknown fact that Marcus took money",
+        "no contradiction with HARD_CANON that Maya co-owns a clinic with Marcus",
+        "voice is unspecified, and the neutral narrative tone is acceptable",
+        "register is consistent with ordinary narrative prose",
+        "the sentence is clear and intelligible",
+        "no deferred checks are implicated or resolved",
+        "no unsupported specific facts, numbers, dates, or invented details beyond licensed vague emotional texture"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "VAGUE_AFFECT",
+    "propositionSpecificity": "VAGUE",
+    "reasoning": "vague affect \u2014 no specific proposition",
+    "latencyMs": 5861,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "D2",
+    "group": "D",
+    "label": "UNKNOWN + vague sense (something wrong)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "The conversation left Maya with a vague sense that something was wrong.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "INTERPRETATION",
+      "reasons": [
+        "Meaning is PASS by instruction and the sentence is internally coherent.",
+        "Character use is consistent with Maya as the experiencing subject.",
+        "Information ownership passes because 'a vague sense that something was wrong' is non-specific uncertainty, not unauthorized knowledge or specific suspicion of Marcus's theft.",
+        "No canon fact is contradicted.",
+        "Voice and register are neutral and acceptable.",
+        "The sentence is intelligible.",
+        "No deferred checks are triggered or resolved.",
+        "Faithfulness passes because no specific unsupported fact, number, date, or name is asserted."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "VAGUE_AFFECT",
+    "propositionSpecificity": "VAGUE",
+    "reasoning": "vague atmospheric sense \u2014 not a specific claim",
+    "latencyMs": 7736,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "D3",
+    "group": "D",
+    "label": "UNKNOWN + wondered (missing something)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya wondered whether she was missing something.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "INTERPRETATION",
+      "reasons": [
+        "meaning: instructed pass; no internal contradiction",
+        "character: no contradiction to Maya's minimal state",
+        "infoOwnership: vague uncertainty ('wondered whether she was missing something') is licensed and does not assert or suspect the unknown fact",
+        "canon: no contradiction to clinic co-ownership",
+        "voice: no voice constraints violated",
+        "register: neutral and appropriate",
+        "intelligibility: clear sentence",
+        "deferred: no deferred checks resolved",
+        "faithfulness: no unsupported specific facts, numbers, names, or dates"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "WONDERED",
+    "propositionSpecificity": "VAGUE",
+    "reasoning": "explicit uncertainty \u2014 no specific proposition",
+    "latencyMs": 7707,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "E1",
+    "group": "E",
+    "label": "UNKNOWN + domain suspicion (finances)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected something was wrong with the clinic finances.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: set to PASS per epistemic authorization test instructions",
+        "character: Maya\u2019s identity and clinic co-ownership context are coherent",
+        "infoOwnership: Maya is UNKNOWN about the financial wrongdoing and has no evidence; 'suspected something was wrong with the clinic finances' is a specific domain-level suspicion, not vague uncertainty",
+        "canon: clinic co-ownership is HARD_CANON and not contradicted",
+        "voice: neutral and acceptable",
+        "register: appropriate",
+        "intelligibility: clear",
+        "deferred: no deferred checks resolved",
+        "faithfulness: no unsupported specific number, date, or name asserted"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "DOMAIN_SUSPICION",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "specific domain suspicion without evidence \u2014 closer to leak than vague unease",
+    "latencyMs": 29719,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "E2",
+    "group": "E",
+    "label": "UNKNOWN + domain suspicion (accounting)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected the accounting records had been altered.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: no original provided; treat meaning as PASS",
+        "character: identity is not contradicted",
+        "infoOwnership: Maya is state UNKNOWN and has no evidence; 'suspected the accounting records had been altered' is a specific domain-level suspicion, not vague uncertainty",
+        "canon: no contradiction to clinic co-ownership",
+        "voice: no voice constraints violated",
+        "register: plain narrative register is acceptable",
+        "intelligibility: sentence is clear",
+        "deferred: no deferred checks resolved",
+        "faithfulness: no exact number/date/name asserted; failure is epistemic authorization"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "DOMAIN_SUSPICION",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "specific suspicion of a specific fact \u2014 unsupported",
+    "latencyMs": 23409,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "E3",
+    "group": "E",
+    "label": "UNKNOWN + domain suspicion (transfer)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected Marcus was involved in the transfer.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [],
+      "unknown": [
+        "Maya"
+      ]
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: candidate is internally coherent and meaning is set to PASS for this epistemic test",
+        "character: no direct character voice or identity contradiction is present",
+        "infoOwnership: Maya is listed as UNKNOWN for 'Marcus took money from the clinic' and has no authorized suspicion; 'Maya suspected Marcus was involved in the transfer' is a specific unauthorized suspicion",
+        "canon: no contradiction with the hard canon that Maya co-owns a clinic with Marcus",
+        "voice: no voice constraints are violated",
+        "register: register is acceptable",
+        "intelligibility: sentence is clear",
+        "deferred: no deferred checks are resolved",
+        "faithfulness: no unsupported exact number/date/name is asserted; the failure is epistemic authorization, not faithfulness specifics"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "DOMAIN_SUSPICION",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "specific suspicion naming a person and an action \u2014 unsupported",
+    "latencyMs": 14602,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "P1-K",
+    "group": "PAIR",
+    "label": "PAIR: knew (SUSPECTS state)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya knew Marcus had taken the money.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "KNOWLEDGE",
+      "reasons": [
+        "meaning: set to PASS per epistemic authorization test instructions.",
+        "character: Maya\u2019s identity is not contradicted.",
+        "infoOwnership: state authorizes Maya only as SUSPECTS, but candidate asserts she KNEW Marcus had taken the money.",
+        "canon: no canon contradiction.",
+        "voice: no voice violation evident.",
+        "register: no register violation evident.",
+        "intelligibility: sentence is clear.",
+        "deferred: no deferred check resolved.",
+        "faithfulness: no unsupported specific number/date/name; failure is epistemic ownership, not factual invention."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "REJECT",
+    "finalReason": "[LJ] REJECT",
+    "expected": "REJECT",
+    "correct": true,
+    "epistemicLevel": "KNEW",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "knew \u2014 overreach under SUSPECTS",
+    "latencyMs": 12980,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "P1-S",
+    "group": "PAIR",
+    "label": "PAIR: suspected (SUSPECTS state)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya suspected Marcus had taken the money.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: no original provided; set to PASS per instruction",
+        "character: statement is consistent with Maya as viewpoint character",
+        "infoOwnership: state explicitly lists Maya as suspecting that Marcus took money from the clinic",
+        "canon: no contradiction with established canon",
+        "voice: no voice constraints violated",
+        "register: neutral narrative register is appropriate",
+        "intelligibility: sentence is clear",
+        "deferred: no deferred checks present",
+        "faithfulness: no unsupported specific numbers, dates, or names"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "SUSPECTED",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "suspected \u2014 matches SUSPECTS state",
+    "latencyMs": 4646,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "P1-W",
+    "group": "PAIR",
+    "label": "PAIR: wondered (SUSPECTS state)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya wondered whether Marcus had taken anything.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus"
+      ],
+      "suspects": [
+        "Maya"
+      ],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning: set to PASS per instruction; no internal contradiction.",
+        "character: consistent with Maya as a possible observer/suspector; no out-of-character detail.",
+        "infoOwnership: Maya is listed as suspecting that Marcus took money from the clinic, so wondering whether Marcus had taken anything is authorized and less specific than the state-supported suspicion.",
+        "canon: no contradiction with the hard canon that Maya co-owns a clinic with Marcus.",
+        "voice: neutral phrasing; no conflicting voice constraints present.",
+        "register: appropriately simple and narratively neutral.",
+        "intelligibility: clear and grammatical.",
+        "deferred: no deferred checks present or resolved.",
+        "faithfulness: no unsupported specific facts, amounts, or details; 'anything' is vague."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "WONDERED",
+    "propositionSpecificity": "VAGUE",
+    "reasoning": "wondered \u2014 vague, licensed under SUSPECTS",
+    "latencyMs": 5554,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "P2-K",
+    "group": "PAIR",
+    "label": "PAIR: knew (KNOWS state)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya knew Marcus had taken the money.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "KNOWLEDGE",
+      "reasons": [
+        "Meaning is set to PASS per epistemic authorization framing.",
+        "Character line is consistent with Maya's documented current knowledge.",
+        "Information ownership explicitly lists Maya as knowing Marcus took money from the clinic, so 'knew' is authorized.",
+        "No canon contradiction; clinic co-ownership remains intact.",
+        "No deferred checks are triggered or resolved.",
+        "No unsupported specific amounts, dates, names, or invented facts beyond state-supported knowledge."
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "KNEW",
+    "propositionSpecificity": "SPECIFIC_FACT",
+    "reasoning": "knew \u2014 matches KNOWS state",
+    "latencyMs": 12870,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  },
+  {
+    "caseId": "P2-W",
+    "group": "PAIR",
+    "label": "PAIR: wondered (KNOWS state)",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "executionStatus": "SUCCESS",
+    "candidateText": "Maya wondered whether Marcus had taken anything.",
+    "originalText": null,
+    "state": {
+      "knows": [
+        "Marcus",
+        "Maya"
+      ],
+      "suspects": [],
+      "unknown": []
+    },
+    "policy": "LICENSED_FICTION",
+    "triageResult": {
+      "action": "HANDOFF_TO_LLM"
+    },
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "deferred": "PASS",
+      "meaning": "PASS",
+      "character": "PASS",
+      "voice": "PASS",
+      "register": "PASS",
+      "intelligibility": "PASS",
+      "stateConsulted": true,
+      "epistemicLevelAssessed": "SUSPICION",
+      "reasons": [
+        "meaning set to PASS per epistemic authorization framing",
+        "character state consulted; Maya knows Marcus took money, and the sentence only expresses vague wondering rather than asserting an unauthorized fact",
+        "infoOwnership passes because 'wondered whether' is vague uncertainty and does not claim specific unknown information",
+        "no canon contradiction",
+        "voice, register, and intelligibility are acceptable",
+        "no deferred checks triggered",
+        "no unsupported specific numbers, dates, or names"
+      ]
+    },
+    "stateConsulted": true,
+    "finalDecision": "ACCEPT",
+    "finalReason": "[LJ] ACCEPT",
+    "expected": "ACCEPT",
+    "correct": true,
+    "epistemicLevel": "WONDERED",
+    "propositionSpecificity": "VAGUE",
+    "reasoning": "wondered \u2014 downgrade, licensed under KNOWS",
+    "latencyMs": 27900,
+    "retryCount": 0,
+    "error": null,
+    "runLabel": "iteration43b-calibrated-fw"
+  }
+]

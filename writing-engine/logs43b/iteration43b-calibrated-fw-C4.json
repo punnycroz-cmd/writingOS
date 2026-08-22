@@ -1,0 +1,60 @@
+{
+  "caseId": "C4",
+  "group": "C",
+  "label": "KNOWS + knew ($40k, state has amount)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had stolen $40,000.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: set to PASS per epistemic authorization framing.",
+      "character: Maya is the named character and the sentence is consistent with her documented knowledge.",
+      "infoOwnership: state explicitly lists Maya as knowing that Marcus embezzled $40,000.",
+      "canon: no contradiction with Maya and Marcus co-owning a clinic.",
+      "voice: minimal sentence does not conflict with available character voice data.",
+      "register: plain declarative narrative register is acceptable.",
+      "intelligibility: clear and grammatical.",
+      "deferred: no deferred checks present.",
+      "faithfulness: $40,000 and Marcus's theft/embezzlement are state-supported; 'stolen' is a reasonable generalization of 'embezzled'."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_AMOUNT",
+  "reasoning": "state explicitly contains $40,000 — number is state-supported",
+  "latencyMs": 5227,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

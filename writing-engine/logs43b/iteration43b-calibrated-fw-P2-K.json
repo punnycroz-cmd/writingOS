@@ -1,0 +1,57 @@
+{
+  "caseId": "P2-K",
+  "group": "PAIR",
+  "label": "PAIR: knew (KNOWS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus",
+      "Maya"
+    ],
+    "suspects": [],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "Meaning is set to PASS per epistemic authorization framing.",
+      "Character line is consistent with Maya's documented current knowledge.",
+      "Information ownership explicitly lists Maya as knowing Marcus took money from the clinic, so 'knew' is authorized.",
+      "No canon contradiction; clinic co-ownership remains intact.",
+      "No deferred checks are triggered or resolved.",
+      "No unsupported specific amounts, dates, names, or invented facts beyond state-supported knowledge."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "knew — matches KNOWS state",
+  "latencyMs": 12870,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

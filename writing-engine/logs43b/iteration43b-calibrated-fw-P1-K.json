@@ -1,0 +1,61 @@
+{
+  "caseId": "P1-K",
+  "group": "PAIR",
+  "label": "PAIR: knew (SUSPECTS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: set to PASS per epistemic authorization test instructions.",
+      "character: Maya’s identity is not contradicted.",
+      "infoOwnership: state authorizes Maya only as SUSPECTS, but candidate asserts she KNEW Marcus had taken the money.",
+      "canon: no canon contradiction.",
+      "voice: no voice violation evident.",
+      "register: no register violation evident.",
+      "intelligibility: sentence is clear.",
+      "deferred: no deferred check resolved.",
+      "faithfulness: no unsupported specific number/date/name; failure is epistemic ownership, not factual invention."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "knew — overreach under SUSPECTS",
+  "latencyMs": 12980,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

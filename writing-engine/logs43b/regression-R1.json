@@ -1,0 +1,21 @@
+{
+  "caseId": "R1",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "expected": "ACCEPT",
+  "correct": true,
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true
+  },
+  "finalDecision": "ACCEPT",
+  "latencyMs": 3872,
+  "error": null,
+  "runLabel": "iteration43b-regression-fw"
+}

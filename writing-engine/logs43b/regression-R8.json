@@ -1,0 +1,21 @@
+{
+  "caseId": "R8",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "candidateText": "Maya knew Marcus had taken the money and arrived at exactly 4:17 AM.",
+  "expected": "REJECT",
+  "correct": true,
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "PASS",
+    "faithfulness": "FAIL",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true
+  },
+  "finalDecision": "REJECT",
+  "latencyMs": 7599,
+  "error": null,
+  "runLabel": "iteration43b-regression-fw"
+}

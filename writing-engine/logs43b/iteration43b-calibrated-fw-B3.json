@@ -1,0 +1,61 @@
+{
+  "caseId": "B3",
+  "group": "B",
+  "label": "SUSPECTS + knew (overreach)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya knew Marcus had taken the money.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "REJECT",
+    "infoOwnership": "FAIL",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "KNOWLEDGE",
+    "reasons": [
+      "meaning: set to PASS per instruction; no internal contradiction.",
+      "character: uses the named character consistently.",
+      "infoOwnership: state says Maya suspects Marcus took the money, but candidate asserts Maya knew it; SUSPECTS does not authorize KNOWLEDGE.",
+      "canon: no contradiction with clinic co-ownership.",
+      "voice: no voice constraints violated.",
+      "register: simple declarative register is acceptable.",
+      "intelligibility: clear and grammatical.",
+      "deferred: no deferred checks resolved.",
+      "faithfulness: no unsupported number/date/name; the failure is epistemic authorization, not factual invention."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "REJECT",
+  "finalReason": "[LJ] REJECT",
+  "expected": "REJECT",
+  "correct": true,
+  "epistemicLevel": "KNEW",
+  "propositionSpecificity": "SPECIFIC_FACT",
+  "reasoning": "SUSPECTS must not become KNOWS — epistemic overreach",
+  "latencyMs": 7811,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

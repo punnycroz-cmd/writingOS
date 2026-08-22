@@ -1,0 +1,61 @@
+{
+  "caseId": "P1-W",
+  "group": "PAIR",
+  "label": "PAIR: wondered (SUSPECTS state)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered whether Marcus had taken anything.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [
+      "Maya"
+    ],
+    "unknown": []
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: set to PASS per instruction; no internal contradiction.",
+      "character: consistent with Maya as a possible observer/suspector; no out-of-character detail.",
+      "infoOwnership: Maya is listed as suspecting that Marcus took money from the clinic, so wondering whether Marcus had taken anything is authorized and less specific than the state-supported suspicion.",
+      "canon: no contradiction with the hard canon that Maya co-owns a clinic with Marcus.",
+      "voice: neutral phrasing; no conflicting voice constraints present.",
+      "register: appropriately simple and narratively neutral.",
+      "intelligibility: clear and grammatical.",
+      "deferred: no deferred checks present or resolved.",
+      "faithfulness: no unsupported specific facts, amounts, or details; 'anything' is vague."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "wondered — vague, licensed under SUSPECTS",
+  "latencyMs": 5554,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

@@ -1,0 +1,61 @@
+{
+  "caseId": "D1",
+  "group": "D",
+  "label": "UNKNOWN + vague affect (uneasy)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Something about Marcus made Maya uneasy.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "reasons": [
+      "meaning set to PASS per instruction; text is internally coherent",
+      "Maya's unease is a licensed internal/interpretive observation and does not contradict provided character state",
+      "the sentence expresses vague unease without claiming or suspecting the unknown fact that Marcus took money",
+      "no contradiction with HARD_CANON that Maya co-owns a clinic with Marcus",
+      "voice is unspecified, and the neutral narrative tone is acceptable",
+      "register is consistent with ordinary narrative prose",
+      "the sentence is clear and intelligible",
+      "no deferred checks are implicated or resolved",
+      "no unsupported specific facts, numbers, dates, or invented details beyond licensed vague emotional texture"
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "VAGUE_AFFECT",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague affect — no specific proposition",
+  "latencyMs": 5861,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

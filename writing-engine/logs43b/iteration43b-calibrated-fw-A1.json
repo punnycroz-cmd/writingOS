@@ -1,0 +1,61 @@
+{
+  "caseId": "A1",
+  "group": "A",
+  "label": "UNKNOWN + wondered (vague)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "Maya wondered if Marcus had taken anything.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "SUSPICION",
+    "reasons": [
+      "meaning: set to PASS per instruction; no internal contradiction",
+      "character: brief interior thought consistent with Maya as viewpoint character",
+      "infoOwnership: 'wondered if' expresses explicit uncertainty and does not assert the unknown fact that Marcus took money",
+      "canon: no contradiction with Maya and Marcus co-owning a clinic",
+      "voice: simple interior line acceptable under LICENSED_FICTION",
+      "register: neutral narrative register",
+      "intelligibility: clear and grammatical",
+      "deferred: no deferred checks resolved",
+      "faithfulness: no unsupported specific facts, numbers, dates, or names asserted"
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "WONDERED",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague uncertainty — no specific proposition",
+  "latencyMs": 19797,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

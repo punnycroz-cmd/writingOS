@@ -1,0 +1,60 @@
+{
+  "caseId": "D2",
+  "group": "D",
+  "label": "UNKNOWN + vague sense (something wrong)",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "executionStatus": "SUCCESS",
+  "candidateText": "The conversation left Maya with a vague sense that something was wrong.",
+  "originalText": null,
+  "state": {
+    "knows": [
+      "Marcus"
+    ],
+    "suspects": [],
+    "unknown": [
+      "Maya"
+    ]
+  },
+  "policy": "LICENSED_FICTION",
+  "triageResult": {
+    "action": "HANDOFF_TO_LLM"
+  },
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "deferred": "PASS",
+    "meaning": "PASS",
+    "character": "PASS",
+    "voice": "PASS",
+    "register": "PASS",
+    "intelligibility": "PASS",
+    "stateConsulted": true,
+    "epistemicLevelAssessed": "INTERPRETATION",
+    "reasons": [
+      "Meaning is PASS by instruction and the sentence is internally coherent.",
+      "Character use is consistent with Maya as the experiencing subject.",
+      "Information ownership passes because 'a vague sense that something was wrong' is non-specific uncertainty, not unauthorized knowledge or specific suspicion of Marcus's theft.",
+      "No canon fact is contradicted.",
+      "Voice and register are neutral and acceptable.",
+      "The sentence is intelligible.",
+      "No deferred checks are triggered or resolved.",
+      "Faithfulness passes because no specific unsupported fact, number, date, or name is asserted."
+    ]
+  },
+  "stateConsulted": true,
+  "finalDecision": "ACCEPT",
+  "finalReason": "[LJ] ACCEPT",
+  "expected": "ACCEPT",
+  "correct": true,
+  "epistemicLevel": "VAGUE_AFFECT",
+  "propositionSpecificity": "VAGUE",
+  "reasoning": "vague atmospheric sense — not a specific claim",
+  "latencyMs": 7736,
+  "retryCount": 0,
+  "error": null,
+  "runLabel": "iteration43b-calibrated-fw"
+}

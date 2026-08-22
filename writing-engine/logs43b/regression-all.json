@@ -1,0 +1,170 @@
+[
+  {
+    "caseId": "R1",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "candidateText": "Maya knew Marcus had taken the money.",
+    "expected": "ACCEPT",
+    "correct": true,
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true
+    },
+    "finalDecision": "ACCEPT",
+    "latencyMs": 3872,
+    "error": null,
+    "runLabel": "iteration43b-regression-fw"
+  },
+  {
+    "caseId": "R2",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "candidateText": "Maya knew Marcus had taken the money.",
+    "expected": "REJECT",
+    "correct": true,
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true
+    },
+    "finalDecision": "REJECT",
+    "latencyMs": 11280,
+    "error": null,
+    "runLabel": "iteration43b-regression-fw"
+  },
+  {
+    "caseId": "R3",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "candidateText": "Maya knew Marcus had taken the money.",
+    "expected": "REJECT",
+    "correct": true,
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "FAIL",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true
+    },
+    "finalDecision": "REJECT",
+    "latencyMs": 11924,
+    "error": null,
+    "runLabel": "iteration43b-regression-fw"
+  },
+  {
+    "caseId": "R4",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "candidateText": "Maya counted 127 ceiling tiles.",
+    "expected": "REJECT",
+    "correct": false,
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true
+    },
+    "finalDecision": "ACCEPT",
+    "latencyMs": 8579,
+    "error": null,
+    "runLabel": "iteration43b-regression-fw"
+  },
+  {
+    "caseId": "R5",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "candidateText": "Arlo looked at the blue LEDs on the mixing board.",
+    "expected": "REJECT",
+    "correct": true,
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "FAIL",
+      "meaning": "PASS",
+      "stateConsulted": true
+    },
+    "finalDecision": "REJECT",
+    "latencyMs": 10214,
+    "error": null,
+    "runLabel": "iteration43b-regression-fw"
+  },
+  {
+    "caseId": "R6",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "candidateText": "Maya saw Marcus hide the ledger under his coat.",
+    "expected": "REJECT",
+    "correct": false,
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true
+    },
+    "finalDecision": "ACCEPT",
+    "latencyMs": 23789,
+    "error": null,
+    "runLabel": "iteration43b-regression-fw"
+  },
+  {
+    "caseId": "R7",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "candidateText": "Maya noticed Marcus was tapping his pen and avoiding eye contact.",
+    "expected": "ACCEPT",
+    "correct": true,
+    "semanticResult": {
+      "overall": "ACCEPT",
+      "infoOwnership": "PASS",
+      "faithfulness": "PASS",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true
+    },
+    "finalDecision": "ACCEPT",
+    "latencyMs": 10894,
+    "error": null,
+    "runLabel": "iteration43b-regression-fw"
+  },
+  {
+    "caseId": "R8",
+    "provider": "FIREWORKS",
+    "model": "accounts/fireworks/models/qwen3p8-max",
+    "validatorMode": "LLM",
+    "candidateText": "Maya knew Marcus had taken the money and arrived at exactly 4:17 AM.",
+    "expected": "REJECT",
+    "correct": true,
+    "semanticResult": {
+      "overall": "REJECT",
+      "infoOwnership": "PASS",
+      "faithfulness": "FAIL",
+      "canon": "PASS",
+      "meaning": "PASS",
+      "stateConsulted": true
+    },
+    "finalDecision": "REJECT",
+    "latencyMs": 7599,
+    "error": null,
+    "runLabel": "iteration43b-regression-fw"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "caseId": "R6",
+  "provider": "FIREWORKS",
+  "model": "accounts/fireworks/models/qwen3p8-max",
+  "validatorMode": "LLM",
+  "candidateText": "Maya saw Marcus hide the ledger under his coat.",
+  "expected": "REJECT",
+  "correct": false,
+  "semanticResult": {
+    "overall": "ACCEPT",
+    "infoOwnership": "PASS",
+    "faithfulness": "PASS",
+    "canon": "PASS",
+    "meaning": "PASS",
+    "stateConsulted": true
+  },
+  "finalDecision": "ACCEPT",
+  "latencyMs": 23789,
+  "error": null,
+  "runLabel": "iteration43b-regression-fw"
+}
