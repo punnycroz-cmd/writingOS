@@ -1,9 +1,9 @@
 {
   "task": "PHASE-2B-5",
-  "snapshotCreatedAt": "2026-08-22T22:55:00.000Z",
+  "snapshotCreatedAt": "2026-08-22T22:56:00.000Z",
   "repository": "punnycroz-cmd/writingOS",
   "branch": "research/phase2b-golden-corpus-v1-reconciled",
-  "head": "6bc4f1ef674de5e7f541141bb7a3579ef9dfce98",
+  "head": "66ba9d114ce000f0fdc7dca39dea3b89b69173d1",
   "filesPreserved": 924,
   "filesExcluded": 0,
   "sanitizedFiles": 0,
