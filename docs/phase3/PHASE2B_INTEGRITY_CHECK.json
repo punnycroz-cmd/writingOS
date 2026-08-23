@@ -1,0 +1,12 @@
+{
+  "baseSha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+  "baseBranch": "research/phase2b-golden-corpus-v1-reconciled",
+  "comparisonResult": "PASS",
+  "unexpectedModifications": [],
+  "verifiedArtifacts": {
+    "corpus": {"cases": 60, "active": 59, "superseded": 1},
+    "summary": {"activeCases": 59, "finalCorrect": 54, "scorableFinal": 59, "llmExecuted": 42},
+    "consistency": {"checks": 20, "allPassed": true},
+    "gc0038r1": {"expectedSemantic": {"infoOwnership": "PASS", "faithfulness": "PASS"}, "expectedFinalDecision": "ACCEPT", "status": "CURRENT"}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-08-23T01:30:00.000Z",
+  "scannedFiles": ["source-index.json", "claim-inventory.jsonl", "PACK-MANIFEST.json"],
+  "duplicates": [
+    {
+      "id": "duplicate-1",
+      "pathA": "nonfiction/source-pack/",
+      "pathB": "research/nonfiction-source-pack-v1.1/source-pack/",
+      "canonicalPath": "nonfiction/source-pack/",
+      "action": "DELETED",
+      "status": "RESOLVED"
+    }
+  ],
+  "nonDuplicateMatches": [
+    {"path": "corpus/golden-v1/source-index.json", "reason": "Fiction Golden Corpus source index (Phase 2B)"},
+    {"path": "forensic/phase2b-5/current/source-index.json", "reason": "Forensic snapshot of Fiction source index (Phase 2B)"}
+  ],
+  "finalState": "Exactly one canonical Nonfiction source-pack directory: nonfiction/source-pack/"
+}

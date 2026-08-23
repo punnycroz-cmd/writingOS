@@ -1,0 +1,17 @@
+{
+  "generatedAt": "2026-08-23T01:30:00.000Z",
+  "phase2bSha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+  "nonfictionSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
+  "phase3Sha": "bc7a97262674d9ffd45f76f1e024fa14a0fe347f",
+  "mainSha": "d011acd6c8880f6ac0ccb5daeb4417b5180e33d2",
+  "branches": {
+    "phase2b": {"exists": true, "sha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095"},
+    "nonfiction": {"exists": true, "sha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2"},
+    "phase3": {"exists": true, "sha": "bc7a97262674d9ffd45f76f1e024fa14a0fe347f"}
+  },
+  "knownIssues": [
+    {"id": "duplicate-source-pack", "status": "FIXED", "description": "research/nonfiction-source-pack-v1.1/source-pack/ was a duplicate; removed"},
+    {"id": "claim-status-wording", "status": "FIXED", "description": "Documentation said 'all UNKNOWN' but claims have discovery-layer statuses (SNIPPET_VERIFIED, WIDELY_CITED)"},
+    {"id": "import-inventory", "status": "FIXED", "description": "Rebuilt to reference only nonfiction/source-pack/"}
+  ]
+}

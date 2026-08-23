@@ -1,7 +1,7 @@
 {
   "sourceBranch": "research/nonfiction-source-pack-v1.1",
   "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
-  "importedAt": "2026-08-23T01:00:00.000Z",
+  "importedAt": "2026-08-23T01:30:00.000Z",
   "importMethod": "git checkout + file copy",
   "destination": "nonfiction/source-pack/",
   "sourcePackVersion": "1.1.0",

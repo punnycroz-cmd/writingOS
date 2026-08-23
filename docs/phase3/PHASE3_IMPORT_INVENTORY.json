@@ -1,11 +1,14 @@
 {
-  "generatedAt": "2026-08-23T01:00:00.000Z",
+  "generatedAt": "2026-08-23T01:30:00.000Z",
   "sourceBranch": "research/nonfiction-source-pack-v1.1",
   "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
   "destinationBranch": "research/phase3-nonfiction-foundation-v1",
+  "canonicalDestination": "nonfiction/source-pack/",
   "fileCount": 30,
   "files": [
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/PACK-MANIFEST.json",
       "destinationPath": "nonfiction/source-pack/PACK-MANIFEST.json",
       "sourceBlobSha": "7447b8169a7a0396aada8e1bf2ae4971afbd50e7",
@@ -13,6 +16,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/README.md",
       "destinationPath": "nonfiction/source-pack/README.md",
       "sourceBlobSha": "92b399fda22ce8509b8c30ef447d79bdd997b0a5",
@@ -20,6 +25,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/claim-inventory.jsonl",
       "destinationPath": "nonfiction/source-pack/claim-inventory.jsonl",
       "sourceBlobSha": "c34bed1e2d466124e39f72bfe75a9fbb39e5233c",
@@ -27,6 +34,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/diversity-report.md",
       "destinationPath": "nonfiction/source-pack/diversity-report.md",
       "sourceBlobSha": "52b632915534c12324c535605cec3998a6ced556",
@@ -34,6 +43,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/licensing-report.md",
       "destinationPath": "nonfiction/source-pack/licensing-report.md",
       "sourceBlobSha": "744b5e14209d747706558157e0424f874e120d7f",
@@ -41,6 +52,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/source-evaluation.csv",
       "destinationPath": "nonfiction/source-pack/source-evaluation.csv",
       "sourceBlobSha": "bd52104344247652b8f04f435b9e9fc1173500f0",
@@ -48,6 +61,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/source-gaps.md",
       "destinationPath": "nonfiction/source-pack/source-gaps.md",
       "sourceBlobSha": "835c13b04f6386ae588d75e8749f1c9ce5b9ccf1",
@@ -55,6 +70,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/source-index.json",
       "destinationPath": "nonfiction/source-pack/source-index.json",
       "sourceBlobSha": "56617e38297b1116d88f3bc85f1615005da99b90",
@@ -62,6 +79,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/validation-opportunity-matrix.csv",
       "destinationPath": "nonfiction/source-pack/validation-opportunity-matrix.csv",
       "sourceBlobSha": "8109dbada019004df36d85acdd1cc596ea8b00ec",
@@ -69,6 +88,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_add_verification_status.py",
       "destinationPath": "nonfiction/source-pack/metadata/_add_verification_status.py",
       "sourceBlobSha": "2c4b6878a707c67cf988942fcbd825fc949735be",
@@ -76,6 +97,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_audit.json",
       "destinationPath": "nonfiction/source-pack/metadata/_audit.json",
       "sourceBlobSha": "7f78ccce72d39d47127291da6b225721d16543dd",
@@ -83,6 +106,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_audit.py",
       "destinationPath": "nonfiction/source-pack/metadata/_audit.py",
       "sourceBlobSha": "e9a42d1df4ee2b18de634654d967e30ad5b5f026",
@@ -90,6 +115,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_claims_v11.py",
       "destinationPath": "nonfiction/source-pack/metadata/_build_claims_v11.py",
       "sourceBlobSha": "800dadeb2793cc9c617996bc81656103de78604f",
@@ -97,6 +124,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_index_v11.py",
       "destinationPath": "nonfiction/source-pack/metadata/_build_index_v11.py",
       "sourceBlobSha": "08acd32863eed0324138927bfe92f35fa861fa34",
@@ -104,6 +133,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_matrix_v11.py",
       "destinationPath": "nonfiction/source-pack/metadata/_build_matrix_v11.py",
       "sourceBlobSha": "b66c21b24230968e72e525ad68be63831883671d",
@@ -111,6 +142,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_reports_v11.py",
       "destinationPath": "nonfiction/source-pack/metadata/_build_reports_v11.py",
       "sourceBlobSha": "deda3f967bf4e6fed3f4c7f29040b172a0f6cf69",
@@ -118,6 +151,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_curated_v11.json",
       "destinationPath": "nonfiction/source-pack/metadata/_curated_v11.json",
       "sourceBlobSha": "0a5973f653a916c1d4425b38ec205ff801712190",
@@ -125,6 +160,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_merge_curate.py",
       "destinationPath": "nonfiction/source-pack/metadata/_merge_curate.py",
       "sourceBlobSha": "52e195bbe4cde7f28c32b0495f00633c7b4a8896",
@@ -132,6 +169,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_merged.json",
       "destinationPath": "nonfiction/source-pack/metadata/_merged.json",
       "sourceBlobSha": "fd35cb56aa7971044235b5fe7810b37badb45c7b",
@@ -139,6 +178,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/candidates-academic.json",
       "destinationPath": "nonfiction/source-pack/metadata/candidates-academic.json",
       "sourceBlobSha": "2f1fec1282bae90951c2d0d53d3ac85a59f45584",
@@ -146,6 +187,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/candidates-international.json",
       "destinationPath": "nonfiction/source-pack/metadata/candidates-international.json",
       "sourceBlobSha": "9a6ca12d56507be95a70dd7774284a589fea071c",
@@ -153,6 +196,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/ARCHIVE-MANIFEST.json",
       "destinationPath": "nonfiction/source-pack/raw/ARCHIVE-MANIFEST.json",
       "sourceBlobSha": "932283b0feb3372780048dd3403bf82b50a9a63f",
@@ -160,6 +205,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/arxiv-1706.03762-attention-is-all-you-need.html",
       "destinationPath": "nonfiction/source-pack/raw/arxiv-1706.03762-attention-is-all-you-need.html",
       "sourceBlobSha": "82180f9b7c443396ddc375c03ce5ed8d13ad7fae",
@@ -167,6 +214,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/arxiv-2303.18223-gpt4-technical-report.html",
       "destinationPath": "nonfiction/source-pack/raw/arxiv-2303.18223-gpt4-technical-report.html",
       "sourceBlobSha": "7fbba759c3c5d06e7e3d5f517e8aa9966d175cfa",
@@ -174,6 +223,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/nist-sp-800-53r5.pdf",
       "destinationPath": "nonfiction/source-pack/raw/nist-sp-800-53r5.pdf",
       "sourceBlobSha": "127ab0191519fa32173e7c5c8d7c49b90222efde",
@@ -181,6 +232,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/nist-sp-800-63b.pdf",
       "destinationPath": "nonfiction/source-pack/raw/nist-sp-800-63b.pdf",
       "sourceBlobSha": "593ca4d4cc0f5672a94cd48c864e8c5d17405fcc",
@@ -188,6 +241,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/owid-co2-emissions.html",
       "destinationPath": "nonfiction/source-pack/raw/owid-co2-emissions.html",
       "sourceBlobSha": "525e91823a8c1194079a6206c5fc888d12dc6083",
@@ -195,6 +250,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/owid-co2-ghg.html",
       "destinationPath": "nonfiction/source-pack/raw/owid-co2-ghg.html",
       "sourceBlobSha": "629c08d101a0e58022d294584c20585f3419daa3",
@@ -202,6 +259,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/rfc1918-private-address.txt",
       "destinationPath": "nonfiction/source-pack/raw/rfc1918-private-address.txt",
       "sourceBlobSha": "43c0b2fff6a62c85c401e0d2632229ce8ab60e3b",
@@ -209,6 +268,8 @@
       "matchStatus": "MATCH"
     },
     {
+      "sourceBranch": "research/nonfiction-source-pack-v1.1",
+      "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
       "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/rfc9114-http3.txt",
       "destinationPath": "nonfiction/source-pack/raw/rfc9114-http3.txt",
       "sourceBlobSha": "67d5b0bd111c3bcbbf79295e8e611d1829fdba18",

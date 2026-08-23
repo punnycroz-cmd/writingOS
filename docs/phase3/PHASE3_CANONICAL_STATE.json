@@ -1,0 +1,32 @@
+{
+  "phase": 3,
+  "stage": "FOUNDATION",
+  "status": "BOOTSTRAPPED",
+  "phase2b": {
+    "branch": "research/phase2b-golden-corpus-v1-reconciled",
+    "sha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+    "frozen": true
+  },
+  "nonfiction": {
+    "branch": "research/nonfiction-source-pack-v1.1",
+    "sha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
+    "version": "1.1.0",
+    "status": "DISCOVERY_CORPUS",
+    "sourceCount": 69,
+    "sourceVerifiedCount": 0,
+    "unverifiedSourceCount": 47,
+    "urlVerifiedCount": 17,
+    "urlExistsBotBlockedCount": 5,
+    "claimCount": 135,
+    "sourceVerifiedClaimCount": 0,
+    "containsGroundTruth": false,
+    "selectionTiers": {"GOLD": 29, "SILVER": 25, "BRONZE": 15},
+    "claimVerificationLevels": {"SNIPPET_VERIFIED": 17, "WIDELY_CITED": 118}
+  },
+  "phase3": {
+    "branch": "research/phase3-nonfiction-foundation-v1",
+    "stage": "FOUNDATION",
+    "sourcePackPath": "nonfiction/source-pack/"
+  },
+  "nextStage": "SOURCE_VERIFICATION"
+}

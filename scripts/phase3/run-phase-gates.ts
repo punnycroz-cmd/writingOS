@@ -1,0 +1,158 @@
+// scripts/phase3/run-phase-gates.ts
+// Phase-gate runner — derives results from actual repository state.
+// Prints gate report and writes machine-readable results.
+
+import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from 'node:fs';
+import { createHash } from 'node:crypto';
+import { execSync } from 'node:child_process';
+
+const PHASE3_SNAPSHOT = 'PHASE3-SNAPSHOT-MANIFEST.json';
+const CANONICAL_STATE = 'docs/phase3/PHASE3_CANONICAL_STATE.json';
+const PHASE_GATES = 'docs/phase3/PHASE_GATES.json';
+const IMPORT_INVENTORY = 'docs/phase3/PHASE3_IMPORT_INVENTORY.json';
+const OUTPUT_DIR = 'logs/phase3';
+
+interface GateResult {
+  id: number;
+  name: string;
+  state: 'PASS' | 'READY' | 'BLOCKED' | 'FAIL';
+  checks: { name: string; passed: boolean; detail: string }[];
+}
+
+function sha256(path: string): string {
+  try { return createHash('sha256').update(readFileSync(path)).digest('hex'); }
+  catch { return 'HASH_ERROR'; }
+}
+
+function loadJson(path: string): any {
+  return JSON.parse(readFileSync(path, 'utf-8'));
+}
+
+function gitRevParse(ref: string): string | null {
+  try { return execSync(`git rev-parse ${ref}`, { encoding: 'utf-8' }).trim(); }
+  catch { return null; }
+}
+
+// Gate 0: Repository Foundation
+function checkGate0(): GateResult {
+  const checks: { name: string; passed: boolean; detail: string }[] = [];
+  
+  // Check branches exist
+  const phase2bSha = gitRevParse('origin/research/phase2b-golden-corpus-v1-reconciled');
+  const nfSha = gitRevParse('origin/research/nonfiction-source-pack-v1.1');
+  const phase3Sha = gitRevParse('origin/research/phase3-nonfiction-foundation-v1');
+  
+  checks.push({ name: 'phase2b_branch_exists', passed: !!phase2bSha, detail: phase2bSha || 'MISSING' });
+  checks.push({ name: 'nonfiction_branch_exists', passed: !!nfSha, detail: nfSha || 'MISSING' });
+  checks.push({ name: 'phase3_branch_exists', passed: !!phase3Sha, detail: phase3Sha || 'MISSING' });
+  
+  // Check provenance SHAs match
+  const snapshot = loadJson(PHASE3_SNAPSHOT);
+  checks.push({ name: 'phase2b_sha_matches', passed: snapshot.phase2bSha === phase2bSha, detail: `${snapshot.phase2bSha} vs ${phase2bSha}` });
+  checks.push({ name: 'nonfiction_sha_matches', passed: snapshot.nonfictionSha === nfSha, detail: `${snapshot.nonfictionSha} vs ${nfSha}` });
+  
+  // Check no duplicate source pack
+  const dupPath = 'research/nonfiction-source-pack-v1.1/source-pack/source-index.json';
+  checks.push({ name: 'no_duplicate_source_pack', passed: !existsSync(dupPath), detail: existsSync(dupPath) ? 'DUPLICATE EXISTS' : 'clean' });
+  
+  // Check canonical source pack exists
+  checks.push({ name: 'canonical_source_pack_exists', passed: existsSync('nonfiction/source-pack/source-index.json'), detail: 'nonfiction/source-pack/' });
+  
+  // Check manifests consistent
+  const manifest = loadJson('nonfiction/source-pack/PACK-MANIFEST.json');
+  const sourceIndex = loadJson('nonfiction/source-pack/source-index.json');
+  const sources = sourceIndex.sources || sourceIndex;
+  checks.push({ name: 'manifest_claim_count_matches', passed: manifest.claimCount === 135, detail: `${manifest.claimCount}` });
+  checks.push({ name: 'source_count_matches', passed: sources.length === 69, detail: `${sources.length}` });
+  
+  // Check import inventory hashes
+  const importInv = loadJson(IMPORT_INVENTORY);
+  let hashMatch = 0, hashMismatch = 0;
+  for (const f of importInv.files) {
+    if (!existsSync(f.destinationPath)) { hashMismatch++; continue; }
+    const actual = sha256(f.destinationPath);
+    if (actual === f.destinationSha256) hashMatch++;
+    else hashMismatch++;
+  }
+  checks.push({ name: 'import_hashes_valid', passed: hashMismatch === 0, detail: `${hashMatch} match, ${hashMismatch} mismatch` });
+  
+  const allPassed = checks.every(c => c.passed);
+  return { id: 0, name: 'Repository Foundation', state: allPassed ? 'PASS' : 'FAIL', checks };
+}
+
+// Gate 1: Source Verification Ready
+function checkGate1(): GateResult {
+  const checks: { name: string; passed: boolean; detail: string }[] = [];
+  
+  const sourceIndex = loadJson('nonfiction/source-pack/source-index.json');
+  const sources = sourceIndex.sources || sourceIndex;
+  
+  // Count verification statuses
+  const vs: Record<string, number> = {};
+  for (const s of sources) { vs[s.verificationStatus] = (vs[s.verificationStatus] || 0) + 1; }
+  
+  checks.push({ name: 'discovery_corpus_exists', passed: sources.length === 69, detail: `${sources.length} sources` });
+  checks.push({ name: 'unverified_sources_identified', passed: (vs.UNVERIFIED || 0) === 47, detail: `${vs.UNVERIFIED || 0} unverified` });
+  checks.push({ name: 'source_metadata_available', passed: existsSync('nonfiction/source-pack/source-evaluation.csv'), detail: 'source-evaluation.csv' });
+  
+  // Check no ground truth claims
+  let sourceVerifiedClaims = 0;
+  for (const line of readFileSync('nonfiction/source-pack/claim-inventory.jsonl', 'utf-8').trim().split('\n')) {
+    const c = JSON.parse(line);
+    if (c.verificationLevel === 'SOURCE_VERIFIED' || c.epistemicLabelStatus === 'SOURCE_VERIFIED') sourceVerifiedClaims++;
+  }
+  checks.push({ name: 'no_source_verified_claims', passed: sourceVerifiedClaims === 0, detail: `${sourceVerifiedClaims} SOURCE_VERIFIED` });
+  
+  // Check containsGroundTruth = false
+  const manifest = loadJson('nonfiction/source-pack/PACK-MANIFEST.json');
+  checks.push({ name: 'no_ground_truth', passed: manifest.groundTruth !== true, detail: `groundTruth=${manifest.groundTruth}` });
+  
+  const allPassed = checks.every(c => c.passed);
+  return { id: 1, name: 'Source Verification Ready', state: allPassed ? 'READY' : 'FAIL', checks };
+}
+
+function main() {
+  const gate0 = checkGate0();
+  const gate1 = checkGate1();
+  
+  const gates = [gate0, gate1];
+  // Gates 2-5 are BLOCKED (future phases not started)
+  for (let i = 2; i <= 5; i++) {
+    gates.push({ id: i, name: ['SourceFactLedger Ready', 'Nonfiction Rules Ready', 'Benchmark Ready', 'Integration Ready'][i-2], state: 'BLOCKED', checks: [] });
+  }
+  
+  // Print report
+  console.log('Phase 3 Foundation Gate Report\n');
+  for (const g of gates) {
+    console.log(`GATE ${g.id}  ${g.state}  ${g.name}`);
+    for (const c of g.checks) {
+      console.log(`  ${c.passed ? 'PASS' : 'FAIL'}  ${c.name}: ${c.detail}`);
+    }
+  }
+  
+  const gate0Pass = gate0.state === 'PASS';
+  const gate1Ready = gate1.state === 'READY';
+  console.log(`\nOverall current state:\n${gate0Pass && gate1Ready ? 'PHASE3_FOUNDATION_READY' : 'PHASE3_FOUNDATION_BLOCKED'}`);
+  
+  // Write machine-readable results
+  const commitSha = execSync('git rev-parse HEAD', { encoding: 'utf-8' }).trim();
+  const result = {
+    timestamp: new Date().toISOString(),
+    commitSha,
+    currentPhase: 'PHASE3_FOUNDATION',
+    overallState: gate0Pass && gate1Ready ? 'PHASE3_FOUNDATION_READY' : 'PHASE3_FOUNDATION_BLOCKED',
+    gates: gates.map(g => ({
+      id: g.id,
+      name: g.name,
+      state: g.state,
+      checks: g.checks,
+    })),
+  };
+  
+  writeFileSync(`${OUTPUT_DIR}/phase-gate-results.json`, JSON.stringify(result, null, 2));
+  console.log(`\nResults written to ${OUTPUT_DIR}/phase-gate-results.json`);
+  
+  if (!gate0Pass || !gate1Ready) process.exit(1);
+}
+
+main();

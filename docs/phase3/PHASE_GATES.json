@@ -1,0 +1,93 @@
+{
+  "currentPhase": "PHASE3_FOUNDATION",
+  "gates": [
+    {
+      "id": 0,
+      "name": "Repository Foundation",
+      "phase": "PHASE3_FOUNDATION",
+      "requirements": [
+        "canonical branches accessible",
+        "Phase 2B provenance valid",
+        "Nonfiction provenance valid",
+        "no duplicate source pack",
+        "manifests consistent"
+      ],
+      "expectedState": "PASS"
+    },
+    {
+      "id": 1,
+      "name": "Source Verification Ready",
+      "phase": "PHASE3_FOUNDATION",
+      "requirements": [
+        "discovery corpus exists",
+        "47 unverified sources identified",
+        "source locations/metadata available",
+        "no ground truth claims yet"
+      ],
+      "expectedState": "READY"
+    },
+    {
+      "id": 2,
+      "name": "SourceFactLedger Ready",
+      "phase": "PHASE3A_SOURCE_VERIFICATION",
+      "requirements": [
+        "source verification completed",
+        "every ledger fact has source provenance",
+        "no unsupported facts"
+      ],
+      "expectedState": "BLOCKED"
+    },
+    {
+      "id": 3,
+      "name": "Nonfiction Rules Ready",
+      "phase": "PHASE3B_SOURCEFACTLEDGER",
+      "requirements": [
+        "verified facts",
+        "epistemic model",
+        "causal/scope/time semantics",
+        "validator tests"
+      ],
+      "expectedState": "BLOCKED"
+    },
+    {
+      "id": 4,
+      "name": "Benchmark Ready",
+      "phase": "PHASE3D_NONFICTION_BENCHMARK",
+      "requirements": [
+        "frozen nonfiction benchmark",
+        "expected outcomes",
+        "source provenance",
+        "independent evaluation set"
+      ],
+      "expectedState": "BLOCKED"
+    },
+    {
+      "id": 5,
+      "name": "Integration Ready",
+      "phase": "PHASE3E_INTEGRATION",
+      "requirements": [
+        "Nonfiction validator respects Core invariants",
+        "Fiction behavior unchanged",
+        "benchmark passes required threshold"
+      ],
+      "expectedState": "BLOCKED"
+    }
+  ],
+  "allowedStates": [
+    "PHASE2_FROZEN",
+    "PHASE3_FOUNDATION",
+    "PHASE3A_SOURCE_VERIFICATION",
+    "PHASE3B_SOURCEFACTLEDGER",
+    "PHASE3C_NONFICTION_RULES",
+    "PHASE3D_NONFICTION_BENCHMARK",
+    "PHASE3E_INTEGRATION"
+  ],
+  "legalTransitions": [
+    {"from": "PHASE2_FROZEN", "to": "PHASE3_FOUNDATION"},
+    {"from": "PHASE3_FOUNDATION", "to": "PHASE3A_SOURCE_VERIFICATION"},
+    {"from": "PHASE3A_SOURCE_VERIFICATION", "to": "PHASE3B_SOURCEFACTLEDGER"},
+    {"from": "PHASE3B_SOURCEFACTLEDGER", "to": "PHASE3C_NONFICTION_RULES"},
+    {"from": "PHASE3C_NONFICTION_RULES", "to": "PHASE3D_NONFICTION_BENCHMARK"},
+    {"from": "PHASE3D_NONFICTION_BENCHMARK", "to": "PHASE3E_INTEGRATION"}
+  ]
+}

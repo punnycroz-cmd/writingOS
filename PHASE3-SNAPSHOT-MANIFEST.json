@@ -9,6 +9,7 @@
   "nonfictionBranch": "research/nonfiction-source-pack-v1.1",
   "nonfictionSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
   "nonfictionSourcePackVersion": "1.1.0",
+  "nonfictionSourcePackPath": "nonfiction/source-pack/",
   "nonfictionSourceCount": 69,
   "nonfictionClaimCount": 135,
   "nonfictionSourceVerified": 0,
