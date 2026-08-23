@@ -16,13 +16,14 @@ The repository consolidation and forensic synchronization have been fully execut
    - `research/nonfiction-source-pack-v1`
    - `research/phase2b-5f-1`
    - `archive/phase2b-5f-1`
-4. **Preservation Audit Results:**
+4. **Preservation Audit Results (Evidence-Based):**
    - **`PRESERVED_EXACT`**: 773 files byte-for-byte matching in canonical branches.
-   - **`PRESERVED_CONTENT_EQUIVALENT`**: 119 files migrated into upgraded schemas, updated verification taxonomies, or designated sub-namespaces (`research-history/v1/`).
+   - **`PRESERVED_CONTENT_EQUIVALENT`**: 118 files migrated into upgraded schemas, updated verification taxonomies, or designated sub-namespaces (`research-history/v1/`).
    - **`INTENTIONALLY_EXCLUDED`**: 473 application boilerplate files excluded to keep research branches isolated.
+   - **`NOT_VERIFIED`**: 1 binary tar archive container (contents encompassed in git history, but container binary diff was not extracted).
    - **`MISSING`**: **0 unique research artifacts lost**.
 5. **Phase 2B Forensic Synchronization:**
-   - Updated `forensic/phase2b-5/working-process.md` and `final-audit-report.md` on `research/phase2b-golden-corpus-v1-reconciled` to explicitly distinguish historical intermediate states (16 checks, 36 tests) from the final verified state (**20/20 checks PASS, 67/67 tests PASS, clean lint, 0 execution errors**).
+   - On `research/phase2b-golden-corpus-v1-reconciled`, all 20 consistency checks and all 67 tests pass cleanly (632 assertions, 0 failures, 0 execution errors, lint clean, 948 hash-verified files).
 
 ---
 
@@ -31,7 +32,7 @@ The repository consolidation and forensic synchronization have been fully execut
 ```text
 punnycroz-cmd/writingOS
 │
-├── main (HEAD: 438cb43) [DEFAULT]
+├── main (HEAD: a5fea65) [DEFAULT]
 │   └── Clean repository baseline & repository consolidation documentation
 │
 ├── integration/writing-os-v1 (HEAD: 287dad2)
@@ -43,7 +44,7 @@ punnycroz-cmd/writingOS
 ├── original/semantic-validation-v4-2 (HEAD: f5060a4)
 │   └── Canonical Semantic Validator v4.2 & raw benchmark logs (logs43b/, logs43fw/)
 │
-├── research/phase2b-golden-corpus-v1-reconciled (HEAD: 35d1a2f)
+├── research/phase2b-golden-corpus-v1-reconciled (HEAD: d8f8840)
 │   └── Frozen Golden Corpus v1 (59 cases), 20 consistency checks, 67 tests, forensic history
 │
 └── research/nonfiction-source-pack-v1.1 (HEAD: fd661f5)

@@ -28,6 +28,7 @@ To maintain scientific transparency, artifacts are evaluated using explicit cate
   - `PRESERVED_EXACT`: **10** (Deliverables 105–110, raw evaluation matrices)
   - `PRESERVED_CONTENT_EQUIVALENT`: **50** (v1.0 source index & 105 claims preserved in `research-history/v1/` alongside upgraded 69-source v1.1 discovery corpus)
   - `INTENTIONALLY_EXCLUDED`: **473** (Generic Next.js boilerplate and UI components stripped to keep research branch isolated)
+  - `NOT_VERIFIED`: **0**
   - `MISSING`: **0**
 - **Confidence Level:** **HIGH**
 
@@ -38,6 +39,7 @@ To maintain scientific transparency, artifacts are evaluated using explicit cate
   - `PRESERVED_EXACT`: **763** (Matching code, test suites, and historical logs)
   - `PRESERVED_CONTENT_EQUIVALENT`: **68** (60 result files and ledger summaries upgraded to final Phase 2B.5F.2 verified state with explicit provenance)
   - `INTENTIONALLY_EXCLUDED`: **0**
+  - `NOT_VERIFIED`: **0**
   - `MISSING`: **0**
 - **Preservation Action:** Intermediate tool results (`grep_1787436691374_0602aeb66af0.txt`, `read_1787436097781_7443224f7ee5.txt`) committed in `18f8b2a`.
 - **Confidence Level:** **HIGH**
@@ -46,16 +48,19 @@ To maintain scientific transparency, artifacts are evaluated using explicit cate
 - **Canonical Destination:** `research/phase2b-golden-corpus-v1-reconciled`
 - **Total Files in Retired Tree:** 1 (`Phase 2B.5F.1.tar` binary archive)
 - **Audit Breakdown:**
-  - `PRESERVED_CONTENT_EQUIVALENT`: **1** (The tar archive contained git commit `15f28d1`, which is completely encompassed by the commit history of `research/phase2b-golden-corpus-v1-reconciled` at commit `35d1a2f`)
+  - `PRESERVED_EXACT`: **0**
+  - `PRESERVED_CONTENT_EQUIVALENT`: **0**
+  - `INTENTIONALLY_EXCLUDED`: **0**
+  - `NOT_VERIFIED`: **1** (The tar archive contained an unextracted repository snapshot of commit `15f28d1`. While git commit `15f28d1` is encompassed by the commit history of `research/phase2b-golden-corpus-v1-reconciled`, container-level binary byte equivalence was not directly extracted/tested, so it is strictly classified as `NOT_VERIFIED`)
   - `MISSING`: **0**
-- **Confidence Level:** **HIGH**
+- **Confidence Level:** **QUALIFIED**
 
 ---
 
 ## 3. Summary Preservation Table
 
-| Retired Branch | Retired HEAD SHA | Canonical Destination | Files Audited | Missing Files | Confidence |
-|---|---|---|---|---|---|
-| `research/nonfiction-source-pack-v1` | `0ab6adb` | `research/nonfiction-source-pack-v1.1` | 533 | **0** | **HIGH** |
-| `research/phase2b-5f-1` | `15f28d1` | `research/phase2b-golden-corpus-v1-reconciled` | 831 | **0** | **HIGH** |
-| `archive/phase2b-5f-1` | `b6a3993` | `research/phase2b-golden-corpus-v1-reconciled` | 1 | **0** | **HIGH** |
+| Retired Branch | Retired HEAD SHA | Canonical Destination | PRESERVED_EXACT | PRESERVED_CONTENT_EQUIVALENT | INTENTIONALLY_EXCLUDED | NOT_VERIFIED | MISSING | Confidence |
+|---|---|---|---|---|---|---|---|---|
+| `research/nonfiction-source-pack-v1` | `0ab6adb` | `research/nonfiction-source-pack-v1.1` | 10 | 50 | 473 | 0 | **0** | **HIGH** |
+| `research/phase2b-5f-1` | `15f28d1` | `research/phase2b-golden-corpus-v1-reconciled` | 763 | 68 | 0 | 0 | **0** | **HIGH** |
+| `archive/phase2b-5f-1` | `b6a3993` | `research/phase2b-golden-corpus-v1-reconciled` | 0 | 0 | 0 | 1 | **0** | **QUALIFIED** |

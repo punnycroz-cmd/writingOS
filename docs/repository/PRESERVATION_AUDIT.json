@@ -19,6 +19,7 @@
         "PRESERVED_EXACT": 10,
         "PRESERVED_CONTENT_EQUIVALENT": 50,
         "INTENTIONALLY_EXCLUDED": 473,
+        "NOT_VERIFIED": 0,
         "MISSING": 0
       },
       "preservationDetails": {
@@ -39,6 +40,7 @@
         "PRESERVED_EXACT": 763,
         "PRESERVED_CONTENT_EQUIVALENT": 68,
         "INTENTIONALLY_EXCLUDED": 0,
+        "NOT_VERIFIED": 0,
         "MISSING": 0
       },
       "preservationDetails": {
@@ -55,14 +57,15 @@
       "totalSourceFiles": 1,
       "breakdown": {
         "PRESERVED_EXACT": 0,
-        "PRESERVED_CONTENT_EQUIVALENT": 1,
-        "NOT_VERIFIED": 0,
+        "PRESERVED_CONTENT_EQUIVALENT": 0,
+        "INTENTIONALLY_EXCLUDED": 0,
+        "NOT_VERIFIED": 1,
         "MISSING": 0
       },
       "preservationDetails": {
-        "binaryTarNote": "Phase 2B.5F.1.tar was an unextracted git container snapshot whose commit history (15f28d1) and all contained research files are fully encompassed in research/phase2b-golden-corpus-v1-reconciled."
+        "binaryTarNote": "Phase 2B.5F.1.tar was an unextracted git container snapshot whose commit history (15f28d1) is tracked on git, but container-level byte-matching is classified as NOT_VERIFIED because the tar file container itself was not extracted for byte-for-byte binary diffing."
       },
-      "confidence": "HIGH"
+      "confidence": "QUALIFIED"
     }
   ]
 }
