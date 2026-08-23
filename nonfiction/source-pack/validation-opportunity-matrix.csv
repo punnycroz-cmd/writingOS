@@ -1,0 +1,30 @@
+sourceId,title,organization,register,countryOrRegion,claimCount,supported,unsupported,contradiction,numbers,dates,entities,attribution,causal,paraphrase,negative,comparative,temporal,uncertainty,scope,forecast,totalOpportunities
+SRC-NF-0001,Climate Change 2023: AR6 Synthesis Report — Summary for,IPCC,ACADEMIC,US,8,8,2,8,4,4,8,8,4,8,0,4,7,5,0,3,73
+SRC-NF-0002,Emissions Gap Report 2023: Broken Record,UNEP,ACADEMIC,US,5,5,1,5,4,4,5,5,1,5,0,4,4,3,0,2,48
+SRC-NF-0003,Fifth National Climate Assessment (NCA5),USGCRP,ACADEMIC,US,6,6,1,6,2,1,6,6,5,6,1,0,2,2,0,1,45
+SRC-NF-0004,Comparative analysis of Cochrane and non-Cochrane syste,PMC / NIH,ACADEMIC,US,5,5,1,5,0,0,5,5,2,5,0,3,0,2,0,0,33
+SRC-NF-0005,2023 National Population Projections Tables: Main Serie,U.S. Census Bureau,GOVERNMENT,US,5,5,4,5,4,4,5,5,1,5,1,1,4,5,0,4,53
+SRC-NF-0006,"QUARTERLY FINANCIAL REPORT: U.S. MANUFACTURING, MINING,",U.S. Census Bureau,GOVERNMENT,US,4,4,0,4,3,2,4,4,0,4,0,2,2,2,0,0,31
+SRC-NF-0007,Employment Situation News Release - 2024 M13 Results (D,U.S. Bureau of Labor Stat,GOVERNMENT,US,5,5,0,5,5,4,5,5,0,5,0,2,4,1,0,0,41
+SRC-NF-0008,Consumer Price Index News Release - 2026 M05 Results (M,U.S. Bureau of Labor Stat,GOVERNMENT,US,4,4,2,4,3,3,4,4,0,4,0,2,3,1,0,0,34
+SRC-NF-0009,"GDP (Advance Estimate), 4th Quarter and Year 2025",U.S. Bureau of Economic A,GOVERNMENT,US,4,4,0,4,2,3,4,4,1,4,0,3,3,2,0,0,34
+SRC-NF-0010,"SP 800-53 Rev. 5, Security and Privacy Controls for Inf",NIST,TECHNICAL,US,5,5,0,5,1,0,5,5,0,5,0,1,0,0,1,0,28
+SRC-NF-0011,"SP 800-63B, Digital Identity Guidelines: Authentication",NIST,TECHNICAL,US,5,5,0,5,1,0,5,5,0,5,2,0,0,1,1,0,30
+SRC-NF-0012,ENISA Threat Landscape 2024,ENISA,TECHNICAL,US,5,5,2,5,2,3,5,5,0,5,0,2,4,3,0,1,42
+SRC-NF-0013,Microsoft Corporation Form 10-K For the Fiscal Year End,Microsoft Corporation / S,BUSINESS,US,5,5,2,5,3,3,5,5,2,5,1,2,4,2,0,1,45
+SRC-NF-0014,Apple Inc. Form 10-K For the Fiscal Year Ended Septembe,Apple Inc. / SEC EDGAR,BUSINESS,US,4,4,1,4,3,3,4,4,2,4,0,3,4,1,0,1,38
+SRC-NF-0015,CO₂ and Greenhouse Gas Emissions,Our World in Data,JOURNALISM,US,5,5,0,5,3,2,5,5,1,5,0,3,2,1,0,0,37
+SRC-NF-0016,CO₂ emissions,Our World in Data,JOURNALISM,US,4,4,0,4,2,2,4,4,1,4,0,2,2,1,0,0,30
+SRC-NF-0017,Estimated 2023–2024 COVID-19 Vaccine Effectiveness in A,PMC / NIH,ACADEMIC,US,5,5,3,5,4,2,5,5,0,5,1,1,2,4,1,0,43
+SRC-NF-0018,Revisiting the Minimum Wage–Employment Debate (NBER Wor,NBER,ACADEMIC,US,4,4,1,4,0,0,4,4,1,4,1,1,0,2,1,0,27
+SRC-NF-0019,"Amazon.com, Inc. Form 10-K for the year ended December ","Amazon.com, Inc. / SEC ED",BUSINESS,US,4,4,0,4,3,3,4,4,1,4,0,2,3,1,0,0,33
+SRC-NF-0020,Microsoft Corporation Definitive Proxy Statement (DEF 1,Microsoft Corporation / S,BUSINESS,US,4,4,0,4,4,4,4,4,0,4,0,1,4,0,0,0,33
+SRC-NF-0021,Highway Statistics 2023,Federal Highway Administr,GOVERNMENT,US,4,4,2,4,3,3,4,4,0,4,0,3,3,3,0,0,37
+SRC-NF-0022,Overview of Motor Vehicle Traffic Crashes in 2023 (DOT ,National Highway Traffic ,GOVERNMENT,US,5,5,2,5,3,3,5,5,0,5,0,2,3,4,0,0,42
+SRC-NF-V11-0001,Claims of 'no difference' or 'no effect' in Cochrane an,PMC / NIH National Librar,INTERNATIONAL,Global,5,5,1,5,1,0,5,5,0,5,5,3,0,2,1,0,38
+SRC-NF-V11-0002,Understanding and misunderstanding randomized controlle,PMC / NIH National Librar,INTERNATIONAL,Global,5,5,1,5,2,0,5,5,4,5,1,3,0,2,1,0,39
+SRC-NF-V11-0003,Eurostat regional yearbook - 2024 edition,Eurostat (European Union),INTERNATIONAL,EU,4,4,2,4,3,3,4,4,0,4,0,2,3,1,0,0,34
+SRC-NF-V11-0004,"The Daily - Labour Force Survey, December 2024",Statistics Canada,INTERNATIONAL,Canada,4,4,0,4,4,3,4,4,0,4,0,4,3,1,0,0,35
+SRC-NF-V11-0005,"Labour market overview, UK Statistical bulletins",Office for National Stati,INTERNATIONAL,UK,4,4,3,4,4,3,4,4,0,4,0,3,3,1,0,0,37
+SRC-NF-V11-0006,Italian Statistical Yearbook 2025 - Executive Summary,ISTAT (Italy),INTERNATIONAL,Italy,3,3,2,3,3,3,3,3,0,3,0,3,3,0,0,0,29
+SRC-NF-V11-0007,OECD Economic Surveys: Japan 2024,OECD,INTERNATIONAL,Japan,5,5,3,5,3,3,5,5,3,5,0,1,4,5,0,4,51

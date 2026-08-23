@@ -1,0 +1,17 @@
+{
+  "branch": "research/phase2b-golden-corpus-v1-reconciled",
+  "sha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+  "status": "FROZEN",
+  "corpusVersion": "golden-corpus-v1",
+  "activeCases": 59,
+  "supersededCases": 1,
+  "consistencyChecks": 20,
+  "allChecksPassed": true,
+  "tests": 67,
+  "testsPassed": 67,
+  "relationship": "Phase 3 is based on this commit. Phase 2B remains frozen as canonical reference.",
+  "corpusLocation": "corpus/golden-v1/",
+  "reconciliationLocation": "writing-engine/logs-golden-v1/",
+  "sourceCodeLocation": "src/corpus/",
+  "testsLocation": "tests/corpus/"
+}

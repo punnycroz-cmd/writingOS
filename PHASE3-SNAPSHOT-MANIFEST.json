@@ -1,0 +1,19 @@
+{
+  "phase": "3",
+  "stage": "FOUNDATION",
+  "status": "BOOTSTRAPPED",
+  "baseBranch": "research/phase2b-golden-corpus-v1-reconciled",
+  "baseSha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+  "phase2bBranch": "research/phase2b-golden-corpus-v1-reconciled",
+  "phase2bSha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+  "nonfictionBranch": "research/nonfiction-source-pack-v1.1",
+  "nonfictionSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
+  "nonfictionSourcePackVersion": "1.1.0",
+  "nonfictionSourceCount": 69,
+  "nonfictionClaimCount": 135,
+  "nonfictionSourceVerified": 0,
+  "nonfictionUnverified": 47,
+  "containsGroundTruth": false,
+  "sourceVerifiedClaims": 0,
+  "nextStage": "SOURCE_VERIFICATION"
+}

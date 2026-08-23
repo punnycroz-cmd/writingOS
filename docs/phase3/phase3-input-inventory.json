@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-08-23T01:00:00.000Z",
+  "phase2b": {
+    "branch": "research/phase2b-golden-corpus-v1-reconciled",
+    "sha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+    "status": "FROZEN",
+    "corpus": {
+      "location": "corpus/golden-v1/cases.jsonl",
+      "activeCases": 59,
+      "supersededCases": 1,
+      "historicalCases": 60
+    },
+    "reconciliation": {
+      "location": "writing-engine/logs-golden-v1/",
+      "files": ["canonical-case-ledger.json", "summary.json", "consistency-check.json", "reconciliation-report.json"],
+      "checks": 20,
+      "allPassed": true
+    },
+    "tests": {
+      "location": "tests/corpus/",
+      "files": ["classify-comparison.test.ts", "freeze-integrity.test.ts", "freeze-document-parser.test.ts", "forensic-validator.test.ts"],
+      "totalCount": 67,
+      "passCount": 67,
+      "failCount": 0
+    },
+    "sourceCode": {
+      "location": "src/corpus/",
+      "files": ["classify-comparison.ts", "reconcile-v1.ts", "evaluate.ts", "evaluate-v2.ts", "freeze-document-parser.ts", "forensic-validator.ts"]
+    },
+    "metrics": {
+      "activeCases": 59,
+      "finalCorrect": 54,
+      "scorableFinal": 59,
+      "llmExecuted": 42,
+      "deterministicFastPathed": 17,
+      "executionErrors": 0,
+      "falseAcceptance": 4,
+      "falseRejection": 1
+    }
+  },
+  "nonfiction": {
+    "branch": "research/nonfiction-source-pack-v1.1",
+    "sha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
+    "status": "DISCOVERY_CORPUS",
+    "groundTruth": false,
+    "sourcePackRoot": "research/nonfiction-source-pack-v1.1/source-pack/",
+    "sourceIndex": "research/nonfiction-source-pack-v1.1/source-pack/source-index.json",
+    "claimInventory": "research/nonfiction-source-pack-v1.1/source-pack/claim-inventory.jsonl",
+    "packManifest": "research/nonfiction-source-pack-v1.1/source-pack/PACK-MANIFEST.json",
+    "licensingReport": "research/nonfiction-source-pack-v1.1/source-pack/licensing-report.md",
+    "diversityReport": "research/nonfiction-source-pack-v1.1/source-pack/diversity-report.md",
+    "sourceGaps": "research/nonfiction-source-pack-v1.1/source-pack/source-gaps.md",
+    "validationOpportunityMatrix": "research/nonfiction-source-pack-v1.1/source-pack/validation-opportunity-matrix.csv",
+    "archiveManifest": "research/nonfiction-source-pack-v1.1/source-pack/raw/ARCHIVE-MANIFEST.json",
+    "sourceCount": 69,
+    "claimCount": 135,
+    "verificationStatus": {
+      "URL_VERIFIED": 17,
+      "URL_EXISTS_BOT_BLOCKED": 5,
+      "UNVERIFIED": 47,
+      "SOURCE_VERIFIED": 0
+    },
+    "selectionTiers": {
+      "GOLD": 29,
+      "SILVER": 25,
+      "BRONZE": 15
+    },
+    "claimVerificationStatus": {
+      "UNKNOWN": 135,
+      "SOURCE_VERIFIED": 0
+    }
+  }
+}

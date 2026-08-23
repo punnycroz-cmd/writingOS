@@ -1,0 +1,219 @@
+{
+  "generatedAt": "2026-08-23T01:00:00.000Z",
+  "sourceBranch": "research/nonfiction-source-pack-v1.1",
+  "sourceSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
+  "destinationBranch": "research/phase3-nonfiction-foundation-v1",
+  "fileCount": 30,
+  "files": [
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/PACK-MANIFEST.json",
+      "destinationPath": "nonfiction/source-pack/PACK-MANIFEST.json",
+      "sourceBlobSha": "7447b8169a7a0396aada8e1bf2ae4971afbd50e7",
+      "destinationSha256": "8777b8017e809e951ab7a4e0f52102d600bd7a2db708fe10f4c6c91cebe49c9b",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/README.md",
+      "destinationPath": "nonfiction/source-pack/README.md",
+      "sourceBlobSha": "92b399fda22ce8509b8c30ef447d79bdd997b0a5",
+      "destinationSha256": "3600dd2130186be4ce171fbb17531dd269c4959bdb37fd0f1b579d8c7af0922a",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/claim-inventory.jsonl",
+      "destinationPath": "nonfiction/source-pack/claim-inventory.jsonl",
+      "sourceBlobSha": "c34bed1e2d466124e39f72bfe75a9fbb39e5233c",
+      "destinationSha256": "1e2726fdc86d1213ee8afcc74635fe92f58c1ede9fcbac97096a7e98c39e2ac1",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/diversity-report.md",
+      "destinationPath": "nonfiction/source-pack/diversity-report.md",
+      "sourceBlobSha": "52b632915534c12324c535605cec3998a6ced556",
+      "destinationSha256": "e9928fcfd098635dc3ad089c1af5ea109253b64bb1487a29bc7f145ab6af8a63",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/licensing-report.md",
+      "destinationPath": "nonfiction/source-pack/licensing-report.md",
+      "sourceBlobSha": "744b5e14209d747706558157e0424f874e120d7f",
+      "destinationSha256": "5bc42bf5f7a71ed882951efa582096406e3b3565808d90952b1aa3776238c3fa",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/source-evaluation.csv",
+      "destinationPath": "nonfiction/source-pack/source-evaluation.csv",
+      "sourceBlobSha": "bd52104344247652b8f04f435b9e9fc1173500f0",
+      "destinationSha256": "20cb78268147d2b49d2755645fa9b1aeed4fab971a20a69efe615653459f2c9b",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/source-gaps.md",
+      "destinationPath": "nonfiction/source-pack/source-gaps.md",
+      "sourceBlobSha": "835c13b04f6386ae588d75e8749f1c9ce5b9ccf1",
+      "destinationSha256": "a86230f9af2e377f73794cc0ebba3e9066ec67686ad977913255f419a64e57c2",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/source-index.json",
+      "destinationPath": "nonfiction/source-pack/source-index.json",
+      "sourceBlobSha": "56617e38297b1116d88f3bc85f1615005da99b90",
+      "destinationSha256": "c82b6d84bc6ae0955b92edff533fc38124a3f8e000aaebd04e764ef5a770f4e6",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/validation-opportunity-matrix.csv",
+      "destinationPath": "nonfiction/source-pack/validation-opportunity-matrix.csv",
+      "sourceBlobSha": "8109dbada019004df36d85acdd1cc596ea8b00ec",
+      "destinationSha256": "9e4a7fcdc84031176358821619d222964c1ac189c4ca82b8c17cb3f358a5f6f6",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_add_verification_status.py",
+      "destinationPath": "nonfiction/source-pack/metadata/_add_verification_status.py",
+      "sourceBlobSha": "2c4b6878a707c67cf988942fcbd825fc949735be",
+      "destinationSha256": "bb1d3d96fff7d62f4d5931211343eb0d960716d845ec1bdebb30efa1c2a6e8b5",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_audit.json",
+      "destinationPath": "nonfiction/source-pack/metadata/_audit.json",
+      "sourceBlobSha": "7f78ccce72d39d47127291da6b225721d16543dd",
+      "destinationSha256": "0d64ac3896abaf55851ec5a51892e82779cf4435eac49dd1de29ccf5d84c7f9c",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_audit.py",
+      "destinationPath": "nonfiction/source-pack/metadata/_audit.py",
+      "sourceBlobSha": "e9a42d1df4ee2b18de634654d967e30ad5b5f026",
+      "destinationSha256": "c6ed0dde406daa60834810e0e214e28ef10c838753b1da85d2070c934e2c3a05",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_claims_v11.py",
+      "destinationPath": "nonfiction/source-pack/metadata/_build_claims_v11.py",
+      "sourceBlobSha": "800dadeb2793cc9c617996bc81656103de78604f",
+      "destinationSha256": "7aebb968dd7f8a05bd4dc10ad0a9b0e2622a266d1a8b6fde426d805159d77aaf",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_index_v11.py",
+      "destinationPath": "nonfiction/source-pack/metadata/_build_index_v11.py",
+      "sourceBlobSha": "08acd32863eed0324138927bfe92f35fa861fa34",
+      "destinationSha256": "4e618a87aee1ba8ed19fe1d3164067d5bead1fe30d2a084edabb9a1015d33f03",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_matrix_v11.py",
+      "destinationPath": "nonfiction/source-pack/metadata/_build_matrix_v11.py",
+      "sourceBlobSha": "b66c21b24230968e72e525ad68be63831883671d",
+      "destinationSha256": "c9abebef4e8a34f1e2dc376c98d3805086964697168c12dd1d65869072086b7a",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_reports_v11.py",
+      "destinationPath": "nonfiction/source-pack/metadata/_build_reports_v11.py",
+      "sourceBlobSha": "deda3f967bf4e6fed3f4c7f29040b172a0f6cf69",
+      "destinationSha256": "0ab15289d69445c9d609a52dc561b6a13522c87ab2f9a540eb25f6cdef64f9f8",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_curated_v11.json",
+      "destinationPath": "nonfiction/source-pack/metadata/_curated_v11.json",
+      "sourceBlobSha": "0a5973f653a916c1d4425b38ec205ff801712190",
+      "destinationSha256": "834e15b745ceed657ec561487cb5eadf6a71a8d2ff0e91194c745a021dfa4b88",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_merge_curate.py",
+      "destinationPath": "nonfiction/source-pack/metadata/_merge_curate.py",
+      "sourceBlobSha": "52e195bbe4cde7f28c32b0495f00633c7b4a8896",
+      "destinationSha256": "0d824dbdd15343119964e360eae2140c4b088c910554362b8dbf8b84a6fc4e2c",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_merged.json",
+      "destinationPath": "nonfiction/source-pack/metadata/_merged.json",
+      "sourceBlobSha": "fd35cb56aa7971044235b5fe7810b37badb45c7b",
+      "destinationSha256": "9efe7d420ad08a2e2951a83dd135f54d1ed88806ae52fb580db746ee3ee9f2f6",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/candidates-academic.json",
+      "destinationPath": "nonfiction/source-pack/metadata/candidates-academic.json",
+      "sourceBlobSha": "2f1fec1282bae90951c2d0d53d3ac85a59f45584",
+      "destinationSha256": "b266d58374a29489070da380603e3e03231d60e98ec773209928fc71e9a916c2",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/metadata/candidates-international.json",
+      "destinationPath": "nonfiction/source-pack/metadata/candidates-international.json",
+      "sourceBlobSha": "9a6ca12d56507be95a70dd7774284a589fea071c",
+      "destinationSha256": "9be9278e720386a158171977a97c649fbac23349f0a52ba24b0f3b5c300ab3c3",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/ARCHIVE-MANIFEST.json",
+      "destinationPath": "nonfiction/source-pack/raw/ARCHIVE-MANIFEST.json",
+      "sourceBlobSha": "932283b0feb3372780048dd3403bf82b50a9a63f",
+      "destinationSha256": "eec690f7271295672c5121fe07447b56a9470176f05bf2dc01512e5312a31fb2",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/arxiv-1706.03762-attention-is-all-you-need.html",
+      "destinationPath": "nonfiction/source-pack/raw/arxiv-1706.03762-attention-is-all-you-need.html",
+      "sourceBlobSha": "82180f9b7c443396ddc375c03ce5ed8d13ad7fae",
+      "destinationSha256": "29e42a996471db9c019f1122825cdac0e6d64c96767d9ee5c0b8891de6204bee",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/arxiv-2303.18223-gpt4-technical-report.html",
+      "destinationPath": "nonfiction/source-pack/raw/arxiv-2303.18223-gpt4-technical-report.html",
+      "sourceBlobSha": "7fbba759c3c5d06e7e3d5f517e8aa9966d175cfa",
+      "destinationSha256": "edf83b0dd6b9968230c9e0e6778b8ecd52e6961ee86def332b243ddf68e7953e",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/nist-sp-800-53r5.pdf",
+      "destinationPath": "nonfiction/source-pack/raw/nist-sp-800-53r5.pdf",
+      "sourceBlobSha": "127ab0191519fa32173e7c5c8d7c49b90222efde",
+      "destinationSha256": "fc63bcd61715d0181dd8e85998b1e6201ae3515fc6626102101cab1841e11ec6",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/nist-sp-800-63b.pdf",
+      "destinationPath": "nonfiction/source-pack/raw/nist-sp-800-63b.pdf",
+      "sourceBlobSha": "593ca4d4cc0f5672a94cd48c864e8c5d17405fcc",
+      "destinationSha256": "ccfce7510a1267933f912d023306c6e7d485f21be63d271108b61aad6139127e",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/owid-co2-emissions.html",
+      "destinationPath": "nonfiction/source-pack/raw/owid-co2-emissions.html",
+      "sourceBlobSha": "525e91823a8c1194079a6206c5fc888d12dc6083",
+      "destinationSha256": "c972f37dd7f531c536b4ed3c5cb3e5e86db19f1011778c2d97dd1bd74502758e",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/owid-co2-ghg.html",
+      "destinationPath": "nonfiction/source-pack/raw/owid-co2-ghg.html",
+      "sourceBlobSha": "629c08d101a0e58022d294584c20585f3419daa3",
+      "destinationSha256": "c1e21f6f5fe97f6302decbccd6efb6f492406119afdc8d32f438674a07895aaf",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/rfc1918-private-address.txt",
+      "destinationPath": "nonfiction/source-pack/raw/rfc1918-private-address.txt",
+      "sourceBlobSha": "43c0b2fff6a62c85c401e0d2632229ce8ab60e3b",
+      "destinationSha256": "56c43465298772bc4d899923f1785b7b7bf8dd2c9f2f9a53422800ddc5cf9337",
+      "matchStatus": "MATCH"
+    },
+    {
+      "sourcePath": "research/nonfiction-source-pack-v1.1/source-pack/raw/rfc9114-http3.txt",
+      "destinationPath": "nonfiction/source-pack/raw/rfc9114-http3.txt",
+      "sourceBlobSha": "67d5b0bd111c3bcbbf79295e8e611d1829fdba18",
+      "destinationSha256": "6b84555c88eeebcf5d2b2e1d9d7b58630abc97ab877b2cf62dee4cd635db34e4",
+      "matchStatus": "MATCH"
+    }
+  ]
+}
