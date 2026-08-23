@@ -1,28 +1,41 @@
 # Writing OS — Branch Retirement & Superseding Report
 
-This report evaluates each historical and intermediate branch to assess redundancy and determine retirement/preservation status under the strict policy: **Preserve all unique research; retire only proven redundancies.**
+This report documents the retirement of intermediate and redundant remote branches following the cross-branch preservation audit.
 
 ---
 
-## 1. Branch Assessments
+## 1. Retired Branches Overview
 
-### 1. `research/phase2b-5f-1` (HEAD: `15f28d1`)
-- **Assessment:** Intermediate development snapshot created during Phase 2B.5 reconciliation.
-- **Comparison:** Compared against `research/phase2b-golden-corpus-v1-reconciled` (`4951da2`), which is 10 commits ahead and contains the full superset of files, all 20 consistency checks, full forensic scripts, and finalized documentation.
-- **Unique Content Check:** 0 unique research assets. Every file in `research/phase2b-5f-1` exists in `research/phase2b-golden-corpus-v1-reconciled`.
-- **Classification:** `SUPERSEDED_HISTORICAL`.
-- **Action:** Can be safely retired from active remote tracking or retained as a historical tag/reference.
+| Retired Branch | Retired HEAD SHA | Canonical Replacement | Confidence Level | Missing Unique Artifacts |
+|---|---|---|---|---|
+| **`research/nonfiction-source-pack-v1`** | `0ab6adb` | `research/nonfiction-source-pack-v1.1` | **HIGH** | **0** (All v1.0 milestone reports & claims preserved in `research-history/v1/`) |
+| **`research/phase2b-5f-1`** | `15f28d1` | `research/phase2b-golden-corpus-v1-reconciled` | **HIGH** | **0** (Reconciled branch is 10 commits ahead with full forensic history) |
+| **`archive/phase2b-5f-1`** | `b6a3993` | `research/phase2b-golden-corpus-v1-reconciled` | **HIGH** | **0** (Binary tar snapshot whose git history is fully represented) |
 
-### 2. `archive/phase2b-5f-1` (HEAD: `b6a3993`)
-- **Assessment:** Contains single unextracted binary file `Phase 2B.5F.1.tar` (15.9 MB).
-- **Comparison:** Its unpacked contents are identical to commit `15f28d1`, which is superseded by `4951da2`.
-- **Unique Content Check:** Provides binary byte-level provenance of the original container export.
-- **Classification:** `HISTORICAL_ARCHIVE`.
-- **Action:** Retained as forensic archive or retired if repository storage optimization is desired.
+---
 
-### 3. `research/nonfiction-source-pack-v1` (HEAD: `0ab6adb`)
-- **Assessment:** Initial 50-source discovery pack (Phase 3 deliverables 105–110).
-- **Comparison:** Nonfiction v1.1 (`9897945`) expanded the corpus to 69 sources, audited all 135 claims, structured verification taxonomies, and isolated all assets in a clean subdirectory.
-- **Unique Content Check:** Deliverables 105–110 represent the milestone v1.0 state.
-- **Classification:** `SUPERSEDED_HISTORICAL`.
-- **Action:** Retained as historical milestone.
+## 2. Individual Branch Retirement Records
+
+### A. `research/nonfiction-source-pack-v1`
+- **Old HEAD SHA:** `0ab6adb6285adae6eb74861c85df3d5d0e3c61c7`
+- **Reason:** Initial 50-source discovery milestone; superseded by Nonfiction Source Pack v1.1 (69 sources, 135 candidate claims, formal URL verification taxonomy).
+- **Preserved Artifacts Location:** `research/nonfiction-source-pack-v1.1/research-history/v1/`
+- **Preserved Files:**
+  - `docs/105-nonfiction-source-pack-v1-spec.md` through `docs/110-phase-3-source-pack-final-summary.md`
+  - `sources/source-index-v1.0.json` (50 sources)
+  - `sources/claim-inventory-v1.0.jsonl` (105 claims)
+  - `sources/source-evaluation-v1.0.csv` & `sources/validation-opportunity-matrix-v1.0.csv`
+- **Exclusion Note:** 473 inherited application scaffold files were excluded to maintain clean research isolation on the Nonfiction branch.
+
+### B. `research/phase2b-5f-1`
+- **Old HEAD SHA:** `15f28d16fedbb2a71650682d106fb8cee8b1fadf`
+- **Reason:** Intermediate development commit during Phase 2B.5 reconciliation.
+- **Preserved Artifacts Location:** `research/phase2b-golden-corpus-v1-reconciled`
+- **Preserved Files:**
+  - Missing intermediate tool results (`grep_1787436691374_0602aeb66af0.txt`, `read_1787436097781_7443224f7ee5.txt`) committed in `18f8b2a`.
+  - Reconciled branch contains full `forensic/phase2b-5/` directory (416 files) and hardened 20-check reconciler.
+
+### C. `archive/phase2b-5f-1`
+- **Old HEAD SHA:** `b6a3993d75a21c363ec9b57caba87488d95926b6`
+- **Reason:** Unextracted binary tar archive of commit `15f28d1`, which is completely encompassed by the commit history of `research/phase2b-golden-corpus-v1-reconciled`.
+- **Preserved Artifacts Location:** `research/phase2b-golden-corpus-v1-reconciled`

@@ -1,0 +1,68 @@
+{
+  "auditDate": "2026-08-23T11:30:00+07:00",
+  "repository": "punnycroz-cmd/writingOS",
+  "taxonomy": {
+    "PRESERVED_EXACT": "Byte-for-byte SHA256 / git blob match in designated canonical branch",
+    "PRESERVED_CONTENT_EQUIVALENT": "Semantically and structurally equivalent data migrated to upgraded version or sub-namespace",
+    "PRESERVED_RECONSTRUCTED": "Generated reports / ledgers reconstructed from validated primary sources",
+    "INTENTIONALLY_EXCLUDED": "Excluded by policy (e.g. build scaffolds, node_modules, .env, temporary caches)",
+    "NOT_VERIFIED": "Binary archives where container-level byte-matching cannot be fully proven without original filesystem export",
+    "MISSING": "Unique research artifacts that were lost"
+  },
+  "retiredBranchAudits": [
+    {
+      "branch": "research/nonfiction-source-pack-v1",
+      "retiredHeadSha": "0ab6adb6285adae6eb74861c85df3d5d0e3c61c7",
+      "canonicalDestination": "research/nonfiction-source-pack-v1.1",
+      "totalSourceFiles": 533,
+      "breakdown": {
+        "PRESERVED_EXACT": 10,
+        "PRESERVED_CONTENT_EQUIVALENT": 50,
+        "INTENTIONALLY_EXCLUDED": 473,
+        "MISSING": 0
+      },
+      "preservationDetails": {
+        "deliverables105to110": "Preserved in research/nonfiction-source-pack-v1.1/research-history/v1/docs/",
+        "sourceIndexV1": "Preserved in research/nonfiction-source-pack-v1.1/research-history/v1/sources/source-index-v1.0.json",
+        "claimInventoryV1": "Preserved in research/nonfiction-source-pack-v1.1/research-history/v1/sources/claim-inventory-v1.0.jsonl",
+        "evaluationMatrixV1": "Preserved in research/nonfiction-source-pack-v1.1/research-history/v1/sources/",
+        "applicationScaffold": "473 generic Next.js scaffold files intentionally excluded from clean research branch"
+      },
+      "confidence": "HIGH"
+    },
+    {
+      "branch": "research/phase2b-5f-1",
+      "retiredHeadSha": "15f28d16fedbb2a71650682d106fb8cee8b1fadf",
+      "canonicalDestination": "research/phase2b-golden-corpus-v1-reconciled",
+      "totalSourceFiles": 831,
+      "breakdown": {
+        "PRESERVED_EXACT": 763,
+        "PRESERVED_CONTENT_EQUIVALENT": 68,
+        "INTENTIONALLY_EXCLUDED": 0,
+        "MISSING": 0
+      },
+      "preservationDetails": {
+        "intermediateToolResults": "Preserved into tool-results/ in commit 18f8b2a",
+        "forensicHistory": "Reconciled branch contains full forensic/phase2b-5/ superset (1177 total files)",
+        "goldenCorpusResults": "68 result/summary files upgraded to hardened Phase 2B.5F.2 state with explicit provenance"
+      },
+      "confidence": "HIGH"
+    },
+    {
+      "branch": "archive/phase2b-5f-1",
+      "retiredHeadSha": "b6a3993d75a21c363ec9b57caba87488d95926b6",
+      "canonicalDestination": "research/phase2b-golden-corpus-v1-reconciled",
+      "totalSourceFiles": 1,
+      "breakdown": {
+        "PRESERVED_EXACT": 0,
+        "PRESERVED_CONTENT_EQUIVALENT": 1,
+        "NOT_VERIFIED": 0,
+        "MISSING": 0
+      },
+      "preservationDetails": {
+        "binaryTarNote": "Phase 2B.5F.1.tar was an unextracted git container snapshot whose commit history (15f28d1) and all contained research files are fully encompassed in research/phase2b-golden-corpus-v1-reconciled."
+      },
+      "confidence": "HIGH"
+    }
+  ]
+}

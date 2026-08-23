@@ -3,7 +3,7 @@
     "branch": "main",
     "status": "KEEP",
     "canonicalReplacement": "main",
-    "uniqueArtifacts": ["Baseline Next.js setup", "Clean .gitignore"],
+    "uniqueArtifacts": ["Baseline Next.js setup", "Clean .gitignore", "docs/repository/*"],
     "duplicateOf": [],
     "reason": "Stable default branch."
   },
@@ -37,38 +37,38 @@
     "canonicalReplacement": "research/phase2b-golden-corpus-v1-reconciled",
     "uniqueArtifacts": ["corpus/golden-v1/*", "writing-engine/logs-golden-v1/*", "forensic/phase2b-5/*"],
     "duplicateOf": [],
-    "reason": "Frozen Golden Corpus v1 research state with 20 consistency checks."
+    "reason": "Frozen Golden Corpus v1 research state with 20 consistency checks and 67 tests."
   },
   {
     "branch": "research/nonfiction-source-pack-v1.1",
     "status": "KEEP",
     "canonicalReplacement": "research/nonfiction-source-pack-v1.1",
-    "uniqueArtifacts": ["research/nonfiction-source-pack-v1.1/*", "Deliverables 114-120"],
+    "uniqueArtifacts": ["research/nonfiction-source-pack-v1.1/*", "Deliverables 114-120", "research-history/v1/*"],
     "duplicateOf": [],
     "reason": "Canonical Nonfiction Source Pack v1.1 discovery corpus (69 sources, 135 claims)."
   },
   {
     "branch": "research/nonfiction-source-pack-v1",
-    "status": "SUPERSEDED",
+    "status": "RETIRED_AND_DELETED",
     "canonicalReplacement": "research/nonfiction-source-pack-v1.1",
-    "uniqueArtifacts": ["sources/nonfiction-v1/*", "Deliverables 105-110"],
-    "duplicateOf": [],
-    "reason": "Initial 50-source discovery milestone; superseded by v1.1."
+    "uniqueArtifacts": [],
+    "duplicateOf": ["research/nonfiction-source-pack-v1.1/research-history/v1/"],
+    "reason": "Initial 50-source discovery milestone; superseded by v1.1 and preserved in research-history/v1/."
   },
   {
     "branch": "research/phase2b-5f-1",
-    "status": "SUPERSEDED",
+    "status": "RETIRED_AND_DELETED",
     "canonicalReplacement": "research/phase2b-golden-corpus-v1-reconciled",
     "uniqueArtifacts": [],
     "duplicateOf": ["research/phase2b-golden-corpus-v1-reconciled"],
     "reason": "Intermediate commit snapshot fully encompassed by reconciled Golden Corpus branch."
   },
   {
-    "archive": "archive/phase2b-5f-1",
-    "status": "HISTORICAL_ARCHIVE",
+    "branch": "archive/phase2b-5f-1",
+    "status": "RETIRED_AND_DELETED",
     "canonicalReplacement": "research/phase2b-golden-corpus-v1-reconciled",
-    "uniqueArtifacts": ["Phase 2B.5F.1.tar"],
-    "duplicateOf": [],
-    "reason": "Raw unextracted binary archive of Phase 2B.5F.1 export."
+    "uniqueArtifacts": [],
+    "duplicateOf": ["research/phase2b-golden-corpus-v1-reconciled"],
+    "reason": "Raw unextracted binary archive of Phase 2B.5F.1 export whose commit tree is fully represented."
   }
 ]
