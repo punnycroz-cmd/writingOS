@@ -80,35 +80,46 @@ function checkGate0(): GateResult {
   return { id: 0, name: 'Repository Foundation', state: allPassed ? 'PASS' : 'FAIL', checks };
 }
 
-// Gate 1: Source Verification Ready
+// Gate 1: Source Verification
 function checkGate1(): GateResult {
   const checks: { name: string; passed: boolean; detail: string }[] = [];
   
-  const sourceIndex = loadJson('nonfiction/source-pack/source-index.json');
-  const sources = sourceIndex.sources || sourceIndex;
+  // Check if verification ledger exists
+  const ledgerExists = existsSync('nonfiction/verification/source-verification-ledger.jsonl');
+  checks.push({ name: 'verification_ledger_exists', passed: ledgerExists, detail: ledgerExists ? 'source-verification-ledger.jsonl' : 'MISSING' });
   
-  // Count verification statuses
-  const vs: Record<string, number> = {};
-  for (const s of sources) { vs[s.verificationStatus] = (vs[s.verificationStatus] || 0) + 1; }
-  
-  checks.push({ name: 'discovery_corpus_exists', passed: sources.length === 69, detail: `${sources.length} sources` });
-  checks.push({ name: 'unverified_sources_identified', passed: (vs.UNVERIFIED || 0) === 47, detail: `${vs.UNVERIFIED || 0} unverified` });
-  checks.push({ name: 'source_metadata_available', passed: existsSync('nonfiction/source-pack/source-evaluation.csv'), detail: 'source-evaluation.csv' });
-  
-  // Check no ground truth claims
-  let sourceVerifiedClaims = 0;
-  for (const line of readFileSync('nonfiction/source-pack/claim-inventory.jsonl', 'utf-8').trim().split('\n')) {
-    const c = JSON.parse(line);
-    if (c.verificationLevel === 'SOURCE_VERIFIED' || c.epistemicLabelStatus === 'SOURCE_VERIFIED') sourceVerifiedClaims++;
+  if (!ledgerExists) {
+    return { id: 1, name: 'Source Verification', state: 'FAIL', checks };
   }
-  checks.push({ name: 'no_source_verified_claims', passed: sourceVerifiedClaims === 0, detail: `${sourceVerifiedClaims} SOURCE_VERIFIED` });
   
-  // Check containsGroundTruth = false
-  const manifest = loadJson('nonfiction/source-pack/PACK-MANIFEST.json');
-  checks.push({ name: 'no_ground_truth', passed: manifest.groundTruth !== true, detail: `groundTruth=${manifest.groundTruth}` });
+  // Load ledger and check coverage
+  const ledgerLines = readFileSync('nonfiction/verification/source-verification-ledger.jsonl', 'utf-8').trim().split('\n');
+  const ledger = ledgerLines.map(l => JSON.parse(l));
+  checks.push({ name: 'ledger_has_69_records', passed: ledger.length === 69, detail: `${ledger.length} records` });
+  
+  // Check all have valid dispositions
+  const validStatuses = ['VERIFIED', 'PARTIALLY_VERIFIED', 'BLOCKED', 'FAILED', 'UNRESOLVED'];
+  const invalid = ledger.filter(r => !validStatuses.includes(r.verificationStatus));
+  checks.push({ name: 'all_records_valid_status', passed: invalid.length === 0, detail: `${invalid.length} invalid` });
+  
+  // Check summary exists and matches
+  const summaryExists = existsSync('nonfiction/verification/source-verification-summary.json');
+  checks.push({ name: 'summary_exists', passed: summaryExists, detail: summaryExists ? 'source-verification-summary.json' : 'MISSING' });
+  
+  if (summaryExists) {
+    const summary = loadJson('nonfiction/verification/source-verification-summary.json');
+    checks.push({ name: 'all_sources_have_disposition', passed: summary.allSourcesHaveDisposition === true, detail: `allSourcesHaveDisposition=${summary.allSourcesHaveDisposition}` });
+    checks.push({ name: 'no_source_verified_claims', passed: summary.sourceVerifiedClaims === 0, detail: `${summary.sourceVerifiedClaims} SOURCE_VERIFIED claims` });
+    checks.push({ name: 'no_ground_truth', passed: summary.containsGroundTruth === false, detail: `containsGroundTruth=${summary.containsGroundTruth}` });
+  }
+  
+  // Check no duplicate source IDs
+  const ids = ledger.map(r => r.sourceId);
+  const uniqueIds = new Set(ids).size;
+  checks.push({ name: 'no_duplicate_source_ids', passed: uniqueIds === ids.length, detail: `${uniqueIds} unique / ${ids.length} total` });
   
   const allPassed = checks.every(c => c.passed);
-  return { id: 1, name: 'Source Verification Ready', state: allPassed ? 'READY' : 'FAIL', checks };
+  return { id: 1, name: 'Source Verification', state: allPassed ? 'PASS' : 'FAIL', checks };
 }
 
 function main() {
@@ -131,8 +142,9 @@ function main() {
   }
   
   const gate0Pass = gate0.state === 'PASS';
-  const gate1Ready = gate1.state === 'READY';
-  console.log(`\nOverall current state:\n${gate0Pass && gate1Ready ? 'PHASE3_FOUNDATION_READY' : 'PHASE3_FOUNDATION_BLOCKED'}`);
+  const gate1Pass = gate1.state === 'PASS';
+  const overallState = gate0Pass && gate1Pass ? 'PHASE3A_SOURCE_VERIFICATION_COMPLETE' : 'PHASE3_FOUNDATION_BLOCKED';
+  console.log(`\nOverall current state:\n${overallState}`);
   
   // Write machine-readable results
   const commitSha = execSync('git rev-parse HEAD', { encoding: 'utf-8' }).trim();
@@ -140,7 +152,7 @@ function main() {
     timestamp: new Date().toISOString(),
     commitSha,
     currentPhase: 'PHASE3_FOUNDATION',
-    overallState: gate0Pass && gate1Ready ? 'PHASE3_FOUNDATION_READY' : 'PHASE3_FOUNDATION_BLOCKED',
+    overallState: gate0Pass && gate1Pass ? 'PHASE3A_SOURCE_VERIFICATION_COMPLETE' : 'PHASE3_FOUNDATION_BLOCKED',
     gates: gates.map(g => ({
       id: g.id,
       name: g.name,
@@ -152,7 +164,7 @@ function main() {
   writeFileSync(`${OUTPUT_DIR}/phase-gate-results.json`, JSON.stringify(result, null, 2));
   console.log(`\nResults written to ${OUTPUT_DIR}/phase-gate-results.json`);
   
-  if (!gate0Pass || !gate1Ready) process.exit(1);
+  if (!gate0Pass || !gate1Pass) process.exit(1);
 }
 
 main();

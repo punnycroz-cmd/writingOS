@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-23T22:00:06.115Z",
-  "commitSha": "3d617cf4df4a26102e08bd5fa4483843ae8e0960",
+  "timestamp": "2026-08-23T23:07:33.181Z",
+  "commitSha": "56ca43aeb55b75735dbe857b67bcdcae9ef29af4",
   "currentPhase": "PHASE3_FOUNDATION",
-  "overallState": "PHASE3_FOUNDATION_READY",
+  "overallState": "PHASE3A_SOURCE_VERIFICATION_COMPLETE",
   "gates": [
     {
       "id": 0,
@@ -22,7 +22,7 @@
         {
           "name": "phase3_branch_exists",
           "passed": true,
-          "detail": "3d617cf4df4a26102e08bd5fa4483843ae8e0960"
+          "detail": "56ca43aeb55b75735dbe857b67bcdcae9ef29af4"
         },
         {
           "name": "phase2b_sha_matches",
@@ -63,33 +63,48 @@
     },
     {
       "id": 1,
-      "name": "Source Verification Ready",
-      "state": "READY",
+      "name": "Source Verification",
+      "state": "PASS",
       "checks": [
         {
-          "name": "discovery_corpus_exists",
+          "name": "verification_ledger_exists",
           "passed": true,
-          "detail": "69 sources"
+          "detail": "source-verification-ledger.jsonl"
         },
         {
-          "name": "unverified_sources_identified",
+          "name": "ledger_has_69_records",
           "passed": true,
-          "detail": "47 unverified"
+          "detail": "69 records"
         },
         {
-          "name": "source_metadata_available",
+          "name": "all_records_valid_status",
           "passed": true,
-          "detail": "source-evaluation.csv"
+          "detail": "0 invalid"
+        },
+        {
+          "name": "summary_exists",
+          "passed": true,
+          "detail": "source-verification-summary.json"
+        },
+        {
+          "name": "all_sources_have_disposition",
+          "passed": true,
+          "detail": "allSourcesHaveDisposition=true"
         },
         {
           "name": "no_source_verified_claims",
           "passed": true,
-          "detail": "0 SOURCE_VERIFIED"
+          "detail": "0 SOURCE_VERIFIED claims"
         },
         {
           "name": "no_ground_truth",
           "passed": true,
-          "detail": "groundTruth=undefined"
+          "detail": "containsGroundTruth=false"
+        },
+        {
+          "name": "no_duplicate_source_ids",
+          "passed": true,
+          "detail": "69 unique / 69 total"
         }
       ]
     },

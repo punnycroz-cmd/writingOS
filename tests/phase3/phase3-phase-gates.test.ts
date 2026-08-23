@@ -10,7 +10,7 @@ describe('Phase State Machine', () => {
   const gates = loadJson('docs/phase3/PHASE_GATES.json');
 
   it('current phase is PHASE3_FOUNDATION', () => {
-    expect(gates.currentPhase).toBe('PHASE3_FOUNDATION');
+    expect(gates.currentPhase).toBe('PHASE3A_SOURCE_VERIFICATION');
   });
 
   it('has 6 gates (0-5)', () => {
@@ -22,7 +22,7 @@ describe('Phase State Machine', () => {
   });
 
   it('Gate 1 expected state is READY', () => {
-    expect(gates.gates[1].expectedState).toBe('READY');
+    expect(gates.gates[1].expectedState).toBe('PASS');
   });
 
   it('Gates 2-5 are BLOCKED', () => {
@@ -48,7 +48,7 @@ describe('Canonical State', () => {
   const state = loadJson('docs/phase3/PHASE3_CANONICAL_STATE.json');
 
   it('stage is FOUNDATION', () => {
-    expect(state.stage).toBe('FOUNDATION');
+    expect(state.stage).toBe('PHASE3A_COMPLETE');
   });
 
   it('nonfiction containsGroundTruth is false', () => {

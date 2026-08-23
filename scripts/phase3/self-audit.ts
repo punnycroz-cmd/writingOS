@@ -91,7 +91,19 @@ check('ground_truth_false', manifest.groundTruth !== true, `groundTruth=${manife
 // 8. Phase gate state
 console.log('\n8. Phase gate state:');
 const canonicalState = loadJson('docs/phase3/PHASE3_CANONICAL_STATE.json');
-check('phase3_foundation', canonicalState.stage === 'FOUNDATION', canonicalState.stage);
+check('phase3_stage', canonicalState.stage === 'PHASE3A_COMPLETE', canonicalState.stage);
+
+
+// 9. Phase 3A verification coverage
+console.log('\n9. Phase 3A verification:');
+const ledgerLines = readFileSync('nonfiction/verification/source-verification-ledger.jsonl', 'utf-8').trim().split('\n');
+const ledger = ledgerLines.map(l => JSON.parse(l));
+check('ledger_has_69_records', ledger.length === 69, `${ledger.length} records`);
+
+const summary = loadJson('nonfiction/verification/source-verification-summary.json');
+check('all_sources_have_disposition', summary.allSourcesHaveDisposition === true, String(summary.allSourcesHaveDisposition));
+check('source_verified_claims_zero', summary.sourceVerifiedClaims === 0, String(summary.sourceVerifiedClaims));
+check('no_ground_truth', summary.containsGroundTruth === false, String(summary.containsGroundTruth));
 
 console.log(`\n${failures === 0 ? 'SELF-AUDIT PASSED' : `SELF-AUDIT FAILED: ${failures} failures`}`);
 if (failures > 0) process.exit(1);

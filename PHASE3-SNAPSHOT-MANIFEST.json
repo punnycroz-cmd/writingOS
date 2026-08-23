@@ -1,7 +1,7 @@
 {
   "phase": "3",
-  "stage": "FOUNDATION",
-  "status": "BOOTSTRAPPED",
+  "stage": "PHASE3A_COMPLETE",
+  "status": "SOURCE_VERIFICATION_COMPLETE",
   "baseBranch": "research/phase2b-golden-corpus-v1-reconciled",
   "baseSha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
   "phase2bBranch": "research/phase2b-golden-corpus-v1-reconciled",
@@ -16,5 +16,5 @@
   "nonfictionUnverified": 47,
   "containsGroundTruth": false,
   "sourceVerifiedClaims": 0,
-  "nextStage": "SOURCE_VERIFICATION"
+  "nextStage": "SOURCEFACTLEDGER"
 }

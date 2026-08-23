@@ -1,5 +1,5 @@
 {
-  "currentPhase": "PHASE3_FOUNDATION",
+  "currentPhase": "PHASE3A_SOURCE_VERIFICATION",
   "gates": [
     {
       "id": 0,
@@ -24,7 +24,7 @@
         "source locations/metadata available",
         "no ground truth claims yet"
       ],
-      "expectedState": "READY"
+      "expectedState": "PASS"
     },
     {
       "id": 2,
@@ -83,11 +83,29 @@
     "PHASE3E_INTEGRATION"
   ],
   "legalTransitions": [
-    {"from": "PHASE2_FROZEN", "to": "PHASE3_FOUNDATION"},
-    {"from": "PHASE3_FOUNDATION", "to": "PHASE3A_SOURCE_VERIFICATION"},
-    {"from": "PHASE3A_SOURCE_VERIFICATION", "to": "PHASE3B_SOURCEFACTLEDGER"},
-    {"from": "PHASE3B_SOURCEFACTLEDGER", "to": "PHASE3C_NONFICTION_RULES"},
-    {"from": "PHASE3C_NONFICTION_RULES", "to": "PHASE3D_NONFICTION_BENCHMARK"},
-    {"from": "PHASE3D_NONFICTION_BENCHMARK", "to": "PHASE3E_INTEGRATION"}
+    {
+      "from": "PHASE2_FROZEN",
+      "to": "PHASE3_FOUNDATION"
+    },
+    {
+      "from": "PHASE3_FOUNDATION",
+      "to": "PHASE3A_SOURCE_VERIFICATION"
+    },
+    {
+      "from": "PHASE3A_SOURCE_VERIFICATION",
+      "to": "PHASE3B_SOURCEFACTLEDGER"
+    },
+    {
+      "from": "PHASE3B_SOURCEFACTLEDGER",
+      "to": "PHASE3C_NONFICTION_RULES"
+    },
+    {
+      "from": "PHASE3C_NONFICTION_RULES",
+      "to": "PHASE3D_NONFICTION_BENCHMARK"
+    },
+    {
+      "from": "PHASE3D_NONFICTION_BENCHMARK",
+      "to": "PHASE3E_INTEGRATION"
+    }
   ]
 }
