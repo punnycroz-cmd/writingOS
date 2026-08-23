@@ -6,7 +6,7 @@ import { createHash } from 'node:crypto';
 
 export interface ForensicManifest {
   task: string; snapshotCreatedAt: string; repository: string; branch: string; head: string;
-  filesPreserved: number; filesExcluded: number; sanitizedFiles: number;
+  filesPreserved: number; filesExcluded: number | null; sanitizedFiles: number;
   categories: Record<string, number>; sensitivePatternsChecked: boolean; secretsFound: boolean;
   [key: string]: unknown;
 }
@@ -40,15 +40,7 @@ export const HASH_EXCLUDED_FILES = new Set([
   'forensic/phase2b-5/test-results/reconciler-output.txt',
   'forensic/phase2b-5/test-results/corpus-tests.txt',
   'forensic/phase2b-5/test-results/lint.txt',
-  'forensic/phase2b-5/MANIFEST.json',
-  'forensic/phase2b-5/file-inventory.json',
-  'forensic/phase2b-5/excluded-files.json',
-  'worklog.md',
 ]);
-
-function isHashExcluded(path: string): boolean {
-  return SELF_EXCLUDED_FILES.has(path) || HASH_EXCLUDED_FILES.has(path);
-}
 
 export function validateManifestFields(manifest: Partial<ForensicManifest>): string[] {
   const issues: string[] = [];
@@ -101,31 +93,37 @@ export function validatePreservedFilesExist(inventory: FileInventory): { issues:
       } catch { hashVerification.hashNotRecomputable++; }
     }
   }
-  if (hashVerification.hashMismatch > 0) issues.push(`${hashVerification.hashMismatch} hash mismatches`);
-  for (const m of hashVerification.mismatches) issues.push(m);
+  if (hashVerification.hashMismatch > 0) {
+    issues.push(`${hashVerification.hashMismatch} hash mismatches\n  ${hashVerification.mismatches.join('\n  ')}`);
+  }
   return { issues, hashVerification };
 }
 
-export function validateExcludedFilesPolicy(content: string): string[] {
+export function validateExcludedFilesPolicy(excludedFilesMd: string): string[] {
   const issues: string[] = [];
-  const required = ['.env','node_modules','credentials','API keys','GitHub PAT','private key'];
-  for (const req of required) {
-    if (!content.toLowerCase().includes(req.toLowerCase())) issues.push(`EXCLUDED_FILES.md does not mention: ${req}`);
+  const required = ['.env','node_modules','.git','credentials','api keys','github pat','private key'];
+  const lower = excludedFilesMd.toLowerCase();
+  for (const r of required) {
+    if (!lower.includes(r)) issues.push(`EXCLUDED_FILES.md does not mention required policy: ${r}`);
   }
   return issues;
 }
 
-export function validateForensicInventory(manifest: Partial<ForensicManifest>, inventory: Partial<FileInventory>, excludedContent: string): { valid: boolean; issues: string[]; hashVerification: HashVerification } {
-  const issues: string[] = [];
-  let hashVerification: HashVerification = { hashMatch: 0, hashMismatch: 0, hashNotRecomputable: 0, mismatches: [] };
-  issues.push(...validateManifestFields(manifest));
-  issues.push(...validateManifestSecurityFlags(manifest));
-  issues.push(...validateManifestInventoryAgreement(manifest, inventory));
-  if (inventory.files && Array.isArray(inventory.files)) {
-    const result = validatePreservedFilesExist(inventory as FileInventory);
-    issues.push(...result.issues);
-    hashVerification = result.hashVerification;
-  } else { issues.push('inventory.files is not an array'); }
-  issues.push(...validateExcludedFilesPolicy(excludedContent));
-  return { valid: issues.length === 0, issues, hashVerification };
+export function validateForensicInventory(
+  manifest: ForensicManifest,
+  inventory: FileInventory,
+  excludedFilesMd: string
+): { valid: boolean; issues: string[]; hashVerification: HashVerification } {
+  const allIssues: string[] = [];
+  allIssues.push(...validateManifestFields(manifest));
+  allIssues.push(...validateManifestSecurityFlags(manifest));
+  allIssues.push(...validateManifestInventoryAgreement(manifest, inventory));
+  const { issues: fileIssues, hashVerification } = validatePreservedFilesExist(inventory);
+  allIssues.push(...fileIssues);
+  allIssues.push(...validateExcludedFilesPolicy(excludedFilesMd));
+  return {
+    valid: allIssues.length === 0,
+    issues: allIssues,
+    hashVerification,
+  };
 }

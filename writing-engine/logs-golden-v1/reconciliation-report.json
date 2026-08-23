@@ -181,7 +181,7 @@
     {
       "name": "20_forensic_inventory_consistency",
       "passed": true,
-      "detail": "manifest, inventory, counts, paths, hashes, exclusions validated\nhashes: 945 match, 0 mismatch, 0 not recomputable"
+      "detail": "manifest, inventory, counts, paths, hashes, exclusions validated\nhashes: 948 match, 0 mismatch, 0 not recomputable"
     }
   ],
   "allPassed": true

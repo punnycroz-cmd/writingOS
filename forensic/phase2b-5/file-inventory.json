@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-22T23:35:17.882Z",
-  "totalFiles": 954,
+  "generatedAt": "2026-08-23T05:18:11.454Z",
+  "totalFiles": 955,
   "sensitiveFiles": 0,
   "selfExcludedFiles": [
     "forensic/phase2b-5/MANIFEST.json",
@@ -11,7 +11,7 @@
     "other": 1,
     "report": 133,
     "data": 733,
-    "source": 68,
+    "source": 69,
     "log": 13,
     "test": 6
   },
@@ -634,9 +634,9 @@
     },
     {
       "path": "forensic/phase2b-5/HASH_POLICY.md",
-      "sizeBytes": 4779,
-      "sha256": "4c2e0682cd70bd4a51e326572d6e341f6e427f673ba882e12dc349163e1c6a10",
-      "gitTracked": false,
+      "sizeBytes": 4833,
+      "sha256": "447565f15ee410f0916aa69d8d499b17a165b0189a0f054e40ccbfbb7eb386e6",
+      "gitTracked": true,
       "gitIgnored": false,
       "category": "report",
       "sensitive": false,
@@ -1494,7 +1494,7 @@
       "path": "forensic/phase2b-5/excluded-files.json",
       "sizeBytes": 6440,
       "sha256": "b523cd117d6b55daab532a2849a0db99b6141150a847e738536cebd9eccfd6a3",
-      "gitTracked": false,
+      "gitTracked": true,
       "gitIgnored": false,
       "category": "data",
       "sensitive": false,
@@ -1503,8 +1503,8 @@
     },
     {
       "path": "forensic/phase2b-5/final-audit-report.md",
-      "sizeBytes": 13541,
-      "sha256": "21a9f82617e76bc2d6d4422a7b05c3a814f014c97cc9db4fbfcb87fdac880c7d",
+      "sizeBytes": 3106,
+      "sha256": "1ff9b9de51c7923e1764fd4fe14f02d2f10c2dcdfb6580b49e997bad85216c9b",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "report",
@@ -4285,9 +4285,20 @@
       "sanitized": false
     },
     {
+      "path": "forensic/phase2b-5/scripts/run-all-tests.ts",
+      "sizeBytes": 31063,
+      "sha256": "8163e7bd9308302ad7f4f92548b750a82006facd87a858c8ef7a312daa225a3b",
+      "gitTracked": false,
+      "gitIgnored": false,
+      "category": "source",
+      "sensitive": false,
+      "preserved": true,
+      "sanitized": false
+    },
+    {
       "path": "forensic/phase2b-5/test-results/corpus-tests.txt",
-      "sizeBytes": 7898,
-      "sha256": "a4a8de0a7561e95c0dd93d016e36e8a786333abfd2058597e0d1aa7e39834461",
+      "sizeBytes": 6713,
+      "sha256": "ec31e098cb5e43b202a73cccc0d1ad004da2b2ba232a55a5e55a454d6874cb0f",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "log",
@@ -4297,8 +4308,8 @@
     },
     {
       "path": "forensic/phase2b-5/test-results/lint.txt",
-      "sizeBytes": 11,
-      "sha256": "050c69da23536758722729aeda55a8d0fb9d557495ef6d33d70873a3b64a71c1",
+      "sizeBytes": 97,
+      "sha256": "ed26b371882cb04352e113932eec1092583dbfe3dc98c95d240a4c8e89b2ce02",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "log",
@@ -4309,7 +4320,7 @@
     {
       "path": "forensic/phase2b-5/test-results/reconciler-output.txt",
       "sizeBytes": 2005,
-      "sha256": "8ba72b57757f79bdd2c9e64b51dc7940c79c0fce2dce2257c02757b4d6aa15af",
+      "sha256": "69211204c5646dae76854323d29bb91912806329398976e47784d8f07fa38cfd",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "log",
@@ -4330,8 +4341,8 @@
     },
     {
       "path": "forensic/phase2b-5/working-process.md",
-      "sizeBytes": 16168,
-      "sha256": "f51f2122fdc30cc39e6550a1b94520e45f16463aaaa616d7fe382bb3897518b5",
+      "sizeBytes": 6428,
+      "sha256": "50dbb8bd126ac1e4cb20ef0444a926a910dcd67659a294dbefa1cf8005a66643",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "report",
@@ -4715,8 +4726,8 @@
     },
     {
       "path": "src/corpus/forensic-validator.ts",
-      "sizeBytes": 6350,
-      "sha256": "56a38591ccaf3c71b2435512696ad5e8b8f1f4f388ac30d594a4a524e26869e4",
+      "sizeBytes": 5887,
+      "sha256": "814b078856057e9bfec5ca1b1efcbc85b41999bf3458f17e66b7dec5f4fe3c1a",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "source",
@@ -5672,8 +5683,8 @@
     },
     {
       "path": "writing-engine/logs-golden-v1/consistency-check.json",
-      "sizeBytes": 2510,
-      "sha256": "f8991213126b26ff73a78c6ecf076732a301ae1dbfeeda6bb2f3034d691fb935",
+      "sizeBytes": 2497,
+      "sha256": "8019b202daaabd987891ad1e34c5be4f34757944fb78ea6c44d0f64149e6fd84",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "data",
@@ -5738,8 +5749,8 @@
     },
     {
       "path": "writing-engine/logs-golden-v1/reconciliation-report.json",
-      "sizeBytes": 4183,
-      "sha256": "f074fb92d7be6d87de5a87e8cef96999729814dfdc14af30a0cde0db7244f906",
+      "sizeBytes": 4170,
+      "sha256": "4f98cc83f9525fc1e7e062316fd672237df8e1ba84c01c9adafd81d7efab7ef9",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "data",

@@ -3,9 +3,9 @@
   "snapshotCreatedAt": "2026-08-23T00:30:00.000Z",
   "repository": "punnycroz-cmd/writingOS",
   "branch": "research/phase2b-golden-corpus-v1-reconciled",
-  "head": "f8089e7f0afaa878a4ee3dee4d15e795cd560624",
+  "head": "35d1a2f49218b02bda1ce5b18253e7df9419ef83",
   "headSemantics": "Updated in follow-up commit.",
-  "filesPreserved": 954,
+  "filesPreserved": 955,
   "filesExcluded": null,
   "filesExcludedNote": "Track exclusion CLASSES. See excluded-files.json.",
   "excludedPolicyClasses": 16,
@@ -14,7 +14,7 @@
     "other": 1,
     "report": 133,
     "data": 733,
-    "source": 68,
+    "source": 69,
     "log": 13,
     "test": 6
   },
@@ -50,9 +50,7 @@
     "writing-engine/logs-golden-v1/summary.json",
     "forensic/phase2b-5/test-results/reconciler-output.txt",
     "forensic/phase2b-5/test-results/corpus-tests.txt",
-    "forensic/phase2b-5/test-results/lint.txt",
-    "forensic/phase2b-5/excluded-files.json",
-    "worklog.md"
+    "forensic/phase2b-5/test-results/lint.txt"
   ],
   "selfExclusionNote": "See HASH_POLICY.md."
 }

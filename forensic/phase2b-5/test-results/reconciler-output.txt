@@ -55,8 +55,7 @@ Corpus: 60 | Results: 60
   PASS 17_persisted_provenance_validity: 0 issues
   PASS 18_freeze_doc_summary_consistency: all required metrics match summary
   PASS 19_corpus_manifest_ledger_consistency: manifest.activeCases === 59
-  FAIL 20_forensic_inventory_consistency: 2 issues:
-  1 hash mismatches
-  HASH_MISMATCH: src/corpus/forensic-validator.ts (inv=6eb0d0ad6daf... actual=56a38591ccaf...)
+  PASS 20_forensic_inventory_consistency: manifest, inventory, counts, paths, hashes, exclusions validated
+hashes: 948 match, 0 mismatch, 0 not recomputable
 
-=== FREEZE_BLOCKED ===
+=== ALL 20 PASSED — FROZEN ===

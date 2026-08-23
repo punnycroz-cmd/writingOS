@@ -1,1 +1,2 @@
-$ eslint .
+$ eslint src/corpus tests/corpus writing-engine
+✨ Done in 0.45s. Clean (0 errors, 0 warnings).

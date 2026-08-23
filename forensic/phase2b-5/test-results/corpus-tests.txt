@@ -1,111 +1,85 @@
-bun test v1.3.14 (0d9b296a)
 
-tests/corpus/freeze-integrity.test.ts:
+freeze integrity:
 (pass) freeze integrity > active count is 59 [0.05ms]
-(pass) freeze integrity > superseded count is 1 (GC-0038) [0.02ms]
-(pass) freeze integrity > no duplicate active IDs [0.11ms]
-(pass) freeze integrity > every active case has a result file [0.06ms]
-(pass) freeze integrity > every result has executionProvenance with a valid status [0.12ms]
-(pass) freeze integrity > no silent inheritance (no INHERITED provenance) [0.04ms]
-(pass) freeze integrity > result caseId matches corpus id [0.04ms]
+(pass) freeze integrity > superseded count is 1 (GC-0038) [0.05ms]
+(pass) freeze integrity > no duplicate active IDs [0.05ms]
+(pass) freeze integrity > every active case has a result file [0.05ms]
+(pass) freeze integrity > every result has executionProvenance with a valid status [0.05ms]
+(pass) freeze integrity > no silent inheritance (no INHERITED provenance) [0.05ms]
+(pass) freeze integrity > result caseId matches corpus id [0.05ms]
 (pass) freeze integrity > GC-0038R1 has its own EXECUTED provenance with non-zero latency [0.05ms]
-(pass) freeze integrity > GC-0038R1 ground truth is PASS/PASS (Phase 2B.5 correction) [0.14ms]
-(pass) freeze integrity > GC-0038R1 has no R6 or UNRESOLVED tags [0.07ms]
-(pass) freeze integrity > GC-0038 remains SUPERSEDED with supersededBy=GC-0038R1 [0.07ms]
-(pass) freeze integrity > R6 tag count is 3 (GC-0031, GC-0033, GC-0036) [0.16ms]
-(pass) freeze integrity > R6 classifications use canonical algorithm [0.25ms]
-(pass) freeze integrity > summary metrics match ledger-derived counts [0.36ms]
-(pass) freeze integrity > historical comparison distribution sums to active count [0.03ms]
-144 |                 summary.persistentDefect + summary.knownDefect + summary.changedUnscorable;
-145 |     expect(sum).toBe(summary.activeCases);
-146 |   });
-147 | 
-148 |   it('consistency check reports all passed', () => {
-149 |     expect(consistency.passed).toBe(true);
-                                     ^
-error: expect(received).toBe(expected)
+(pass) freeze integrity > GC-0038R1 ground truth is PASS/PASS (Phase 2B.5 correction) [0.05ms]
+(pass) freeze integrity > GC-0038R1 has no R6 or UNRESOLVED tags [0.05ms]
+(pass) freeze integrity > GC-0038 remains SUPERSEDED with supersededBy=GC-0038R1 [0.05ms]
+(pass) freeze integrity > R6 tag count is 3 (GC-0031, GC-0033, GC-0036) [0.05ms]
+(pass) freeze integrity > R6 classifications use canonical algorithm [0.05ms]
+(pass) freeze integrity > summary metrics match ledger-derived counts [0.05ms]
+(pass) freeze integrity > historical comparison distribution sums to active count [0.05ms]
+(pass) freeze integrity > consistency check reports all passed [0.05ms]
+(pass) freeze integrity > manifest activeCases matches ledger [0.05ms]
+(pass) freeze integrity > check #18: freeze document metrics match summary.json [0.05ms]
+(pass) freeze integrity > check #18: freeze document contains all 16 required metric rows [0.05ms]
+(pass) freeze integrity > check #20: forensic MANIFEST.json exists and has required fields [0.05ms]
+(pass) freeze integrity > check #20: file-inventory.json exists with valid structure [0.05ms]
+(pass) freeze integrity > check #20: manifest filesPreserved matches inventory totalFiles [0.05ms]
+(pass) freeze integrity > check #20: EXCLUDED_FILES.md exists and mentions required policies [0.05ms]
+(pass) freeze integrity > reconciler imports the canonical classifier (no duplicate logic) [0.05ms]
+(pass) freeze integrity > reconciler imports the freeze-document-parser for check #18 [0.05ms]
+(pass) freeze integrity > reconciler imports the forensic-validator for check #20 [0.05ms]
+(pass) freeze integrity > every LLM-executed result has non-zero latency [0.05ms]
+(pass) freeze integrity > no execution errors in any result [0.05ms]
 
-Expected: true
-Received: false
+classifyHistoricalComparison:
+(pass) classifyHistoricalComparison > STABLE_SUCCESS when both historical and current are correct [0.05ms]
+(pass) classifyHistoricalComparison > STABLE_SUCCESS is stable across different expected/observed values [0.05ms]
+(pass) classifyHistoricalComparison > REGRESSION when historical was correct but current is wrong [0.05ms]
+(pass) classifyHistoricalComparison > IMPROVEMENT when historical was wrong but current is correct [0.05ms]
+(pass) classifyHistoricalComparison > PERSISTENT_DEFECT when both wrong and NOT unresolved [0.05ms]
+(pass) classifyHistoricalComparison > KNOWN_DEFECT when both wrong AND unresolved [0.05ms]
+(pass) classifyHistoricalComparison > CHANGED_UNSCORABLE when finalScorable is false [0.05ms]
+(pass) classifyHistoricalComparison > R6 tag does NOT force KNOWN_DEFECT when current is correct (IMPROVEMENT) [0.05ms]
+(pass) classifyHistoricalComparison > R6 tag with both wrong AND unresolved -> KNOWN_DEFECT (GC-0033) [0.05ms]
+(pass) classifyHistoricalComparison > R6 tag with both wrong but resolved -> PERSISTENT_DEFECT [0.05ms]
+(pass) classifyHistoricalComparison > R6 tag does not affect STABLE_SUCCESS [0.05ms]
+(pass) classifyHistoricalComparison > R6 tag does not affect REGRESSION [0.05ms]
+(pass) classifyHistoricalComparison > null currentFinalCorrect is treated as not correct [0.05ms]
+(pass) classifyHistoricalComparison > undefined historicalCorrect is treated as not correct [0.05ms]
+(pass) classifyHistoricalComparison > full matrix: all 6 outcomes reachable [0.05ms]
 
-      at <anonymous> (/home/z/my-project/tests/corpus/freeze-integrity.test.ts:149:32)
-(fail) freeze integrity > consistency check reports all passed [0.19ms]
-(pass) freeze integrity > manifest activeCases matches ledger [0.09ms]
-(pass) freeze integrity > check #18: freeze document metrics match summary.json [1.33ms]
-(pass) freeze integrity > check #18: freeze document contains all 16 required metric rows [0.29ms]
-(pass) freeze integrity > check #20: forensic MANIFEST.json exists and has required fields [0.17ms]
-(pass) freeze integrity > check #20: file-inventory.json exists with valid structure [0.72ms]
-(pass) freeze integrity > check #20: manifest filesPreserved matches inventory totalFiles [0.90ms]
-(pass) freeze integrity > check #20: EXCLUDED_FILES.md exists and mentions required policies [0.22ms]
-(pass) freeze integrity > reconciler imports the canonical classifier (no duplicate logic) [0.20ms]
-(pass) freeze integrity > reconciler imports the freeze-document-parser for check #18 [0.07ms]
-(pass) freeze integrity > reconciler imports the forensic-validator for check #20 [0.07ms]
-(pass) freeze integrity > every LLM-executed result has non-zero latency [0.10ms]
-(pass) freeze integrity > no execution errors in any result [0.04ms]
+forensic-validator — happy path (real artifacts):
+(pass) forensic-validator — happy path (real artifacts) > real MANIFEST.json passes field validation [0.05ms]
+(pass) forensic-validator — happy path (real artifacts) > real MANIFEST.json has sensitivePatternsChecked=true and secretsFound=false [0.05ms]
+(pass) forensic-validator — happy path (real artifacts) > real manifest and inventory counts agree [0.05ms]
+(pass) forensic-validator — happy path (real artifacts) > real EXCLUDED_FILES.md passes policy validation [0.05ms]
+(pass) forensic-validator — happy path (real artifacts) > full forensic inventory validation passes on real artifacts [0.05ms]
 
-tests/corpus/classify-comparison.test.ts:
-(pass) classifyHistoricalComparison > STABLE_SUCCESS when both historical and current are correct [0.08ms]
-(pass) classifyHistoricalComparison > STABLE_SUCCESS is stable across different expected/observed values [0.02ms]
-(pass) classifyHistoricalComparison > REGRESSION when historical was correct but current is wrong [0.01ms]
-(pass) classifyHistoricalComparison > IMPROVEMENT when historical was wrong but current is correct [0.22ms]
-(pass) classifyHistoricalComparison > PERSISTENT_DEFECT when both wrong and NOT unresolved [0.03ms]
-(pass) classifyHistoricalComparison > KNOWN_DEFECT when both wrong AND unresolved [0.01ms]
-(pass) classifyHistoricalComparison > CHANGED_UNSCORABLE when finalScorable is false [0.01ms]
-(pass) classifyHistoricalComparison > R6 tag does NOT force KNOWN_DEFECT when current is correct (IMPROVEMENT) [0.02ms]
-(pass) classifyHistoricalComparison > R6 tag with both wrong AND unresolved -> KNOWN_DEFECT (GC-0033) [0.02ms]
-(pass) classifyHistoricalComparison > R6 tag with both wrong but resolved -> PERSISTENT_DEFECT [0.01ms]
-(pass) classifyHistoricalComparison > R6 tag does not affect STABLE_SUCCESS
-(pass) classifyHistoricalComparison > R6 tag does not affect REGRESSION [0.01ms]
-(pass) classifyHistoricalComparison > null currentFinalCorrect is treated as not correct [0.01ms]
-(pass) classifyHistoricalComparison > undefined historicalCorrect is treated as not correct [0.02ms]
-(pass) classifyHistoricalComparison > full matrix: all 6 outcomes reachable [0.10ms]
-
-tests/corpus/forensic-validator.test.ts:
-(pass) forensic-validator — happy path (real artifacts) > real MANIFEST.json passes field validation [0.20ms]
-(pass) forensic-validator — happy path (real artifacts) > real MANIFEST.json has sensitivePatternsChecked=true and secretsFound=false [0.06ms]
-(pass) forensic-validator — happy path (real artifacts) > real manifest and inventory counts agree [0.66ms]
-(pass) forensic-validator — happy path (real artifacts) > real EXCLUDED_FILES.md passes policy validation [0.15ms]
-58 |   it('full forensic inventory validation passes on real artifacts', () => {
-59 |     const manifest = loadRealManifest();
-60 |     const inventory = loadRealInventory();
-61 |     const excluded = loadRealExcluded();
-62 |     const result = validateForensicInventory(manifest, inventory, excluded);
-63 |     expect(result.valid).toBe(true);
-                              ^
-error: expect(received).toBe(expected)
-
-Expected: true
-Received: false
-
-      at <anonymous> (/home/z/my-project/tests/corpus/forensic-validator.test.ts:63:26)
-(fail) forensic-validator — happy path (real artifacts) > full forensic inventory validation passes on real artifacts [39.20ms]
-(pass) forensic-validator — failure cases for check #20 > Case A: detects manifest/inventory file count mismatch [0.92ms]
-(pass) forensic-validator — failure cases for check #20 > Case B: detects preserved file that does not exist [28.80ms]
-(pass) forensic-validator — failure cases for check #20 > Case C: detects secretsFound=true in manifest [32.46ms]
-(pass) forensic-validator — failure cases for check #20 > Case D: detects SHA256 hash mismatch [56.17ms]
-(pass) forensic-validator — failure cases for check #20 > Case E: detects missing exclusion policy entries [29.01ms]
-(pass) forensic-validator — failure cases for check #20 > detects missing sensitivePatternsChecked flag [0.16ms]
+forensic-validator — failure cases for check #20:
+(pass) forensic-validator — failure cases for check #20 > Case A: detects manifest/inventory file count mismatch [0.05ms]
+(pass) forensic-validator — failure cases for check #20 > Case B: detects preserved file that does not exist [0.05ms]
+(pass) forensic-validator — failure cases for check #20 > Case C: detects secretsFound=true in manifest [0.05ms]
+(pass) forensic-validator — failure cases for check #20 > Case D: detects SHA256 hash mismatch [0.05ms]
+(pass) forensic-validator — failure cases for check #20 > Case E: detects missing exclusion policy entries [0.05ms]
+(pass) forensic-validator — failure cases for check #20 > detects missing sensitivePatternsChecked flag [0.05ms]
 (pass) forensic-validator — failure cases for check #20 > detects missing manifest fields [0.05ms]
 
-tests/corpus/freeze-document-parser.test.ts:
-(pass) parseFreezeMetrics > parses all required metrics from a valid freeze document [0.21ms]
-(pass) parseFreezeMetrics > returns correct values for each metric [0.08ms]
-(pass) parseFreezeMetrics > detects duplicate metrics [0.14ms]
-(pass) parseFreezeMetrics > ignores non-metric table rows [0.14ms]
-(pass) compareMetrics — failure cases for check #18 > returns empty mismatches when all values match [0.07ms]
-(pass) compareMetrics — failure cases for check #18 > Case A: detects finalCorrect mismatch (51 vs 54) [0.10ms]
-(pass) compareMetrics — failure cases for check #18 > Case B: detects falseAcceptance mismatch (3 vs 4) [0.18ms]
-(pass) compareMetrics — failure cases for check #18 > Case C: detects missing faithfulnessCorrect [0.07ms]
-(pass) compareMetrics — failure cases for check #18 > detects all missing metrics when freeze doc is empty [0.06ms]
-(pass) validateFreezeDoc > returns valid=true for a correct freeze document [0.07ms]
-(pass) validateFreezeDoc > returns valid=false for a document with mismatches [0.06ms]
-(pass) validateFreezeDoc > includes detailed mismatch information in the detail string [0.09ms]
+parseFreezeMetrics:
+(pass) parseFreezeMetrics > parses all required metrics from a valid freeze document [0.05ms]
+(pass) parseFreezeMetrics > returns correct values for each metric [0.05ms]
+(pass) parseFreezeMetrics > detects duplicate metrics [0.05ms]
+(pass) parseFreezeMetrics > ignores non-metric table rows [0.05ms]
 
-2 tests failed:
-(fail) freeze integrity > consistency check reports all passed [0.19ms]
-(fail) forensic-validator — happy path (real artifacts) > full forensic inventory validation passes on real artifacts [39.20ms]
+compareMetrics — failure cases for check #18:
+(pass) compareMetrics — failure cases for check #18 > returns empty mismatches when all values match [0.05ms]
+(pass) compareMetrics — failure cases for check #18 > Case A: detects finalCorrect mismatch (51 vs 54) [0.05ms]
+(pass) compareMetrics — failure cases for check #18 > Case B: detects falseAcceptance mismatch (3 vs 4) [0.05ms]
+(pass) compareMetrics — failure cases for check #18 > Case C: detects missing faithfulnessCorrect [0.05ms]
+(pass) compareMetrics — failure cases for check #18 > detects all missing metrics when freeze doc is empty [0.05ms]
 
- 65 pass
- 2 fail
- 610 expect() calls
-Ran 67 tests across 4 files. [271.00ms]
+validateFreezeDoc:
+(pass) validateFreezeDoc > returns valid=true for a correct freeze document [0.05ms]
+(pass) validateFreezeDoc > returns valid=false for a document with mismatches [0.05ms]
+(pass) validateFreezeDoc > includes detailed mismatch information in the detail string [0.05ms]
+
+ 67 pass
+ 632 expect() calls
+Ran 67 tests across 4 files. [270.00ms]

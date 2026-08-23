@@ -66,7 +66,7 @@ outputs are verified by re-running the tests (67/67 pass).
 
 ## Files REMAINING Hash-Verified
 
-All other preserved files (~943 files) have their SHA256 hash verified by check #20.
+All other preserved files (948 files) have their SHA256 hash verified by check #20.
 This includes:
 - `corpus/golden-v1/cases.jsonl` (corpus ground truth)
 - `corpus/golden-v1/corpus-manifest.json`
@@ -88,8 +88,8 @@ Any tampering with these files would be detected by check #20 as a `HASH_MISMATC
    checks (#1–#19) verify that the derived artifacts (ledger, summary,
    reconciliation-report) are internally consistent with the corpus and results.
 
-3. **The hash-excluded set is small and well-defined.** Only 9 files out of
-   ~952 are hash-excluded. The remaining ~943 files have full SHA256 verification.
+3. **The hash-excluded set is small and well-defined.** Exactly 7 files in the inventory
+   are hash-excluded. The remaining 948 files have full SHA256 verification.
 
 4. **The exclusion is documented.** This file, `excluded-files.json`, and the
    `HASH_EXCLUDED_FILES` constant in `src/corpus/forensic-validator.ts` all
@@ -99,7 +99,7 @@ Any tampering with these files would be detected by check #20 as a `HASH_MISMATC
 
 | Category | Count | Hash verified? | Git protected? |
 |---|---|---|---|
-| Total preserved files | 952 | — | Yes |
-| Self-referential excluded | 2 | No (circular) | Yes |
-| Hash-excluded (derived) | 7 | No (regenerated) | Yes |
-| **Hash-verified** | **943** | **Yes** | Yes |
+| Total preserved in inventory | 955 | — | Yes |
+| Self-referential excluded from inventory | 2 | No (circular) | Yes |
+| Hash-excluded in inventory (derived) | 7 | No (regenerated) | Yes |
+| **Hash-verified in inventory** | **948** | **Yes** | Yes |

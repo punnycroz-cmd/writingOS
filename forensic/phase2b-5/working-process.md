@@ -15,8 +15,8 @@ To ensure full transparency between historical intermediate development checkpoi
 | **Phase 2B.4R** | 16 Consistency Checks | Initial regression tests | Canonical classifier introduced; GC-0038R1 live execution record (8875ms latency); initial 16-check suite. | `HISTORICAL_INTERMEDIATE` |
 | **Phase 2B.5** | 20 Consistency Checks | 36 Tests (457 assertions) | Explicit persisted provenance model (`executionProvenance`); GC-0038R1 ground-truth policy correction; initial forensic directory scaffold. | `HISTORICAL_INTERMEDIATE` |
 | **Phase 2B.5R** | 20 Consistency Checks | 67 Tests (610 assertions) | Check #18 & #20 hardened; `freeze-document-parser` and `forensic-validator` test suites added; 67-test suite. | `HISTORICAL_INTERMEDIATE` |
-| **Phase 2B.5F / 2B.5F.1** | 20 Consistency Checks | 67 Tests | Forensic snapshot synchronization; master file-inventory indexing (945 files); hash exclusion policy formalized. | `HISTORICAL_INTERMEDIATE` |
-| **Phase 2B.5F.2** | **20/20 Consistency Checks** | **67/67 Tests (ALL PASS)** | Final verified state: all 20 checks pass, 67/67 unit/integration tests verified clean, lint clean, zero execution errors. | **FINAL_VERIFIED_STATE** |
+| **Phase 2B.5F / 2B.5F.1** | 20 Consistency Checks | 67 Tests (65 pass, 2 fail stale intermediate) | Forensic snapshot synchronization; master file-inventory indexing; stale artifact ordering identified. | `HISTORICAL_INTERMEDIATE` |
+| **Phase 2B.5F.2** | **20/20 Consistency Checks** | **67/67 Tests (632 assertions, 0 failures)** | Final verified state: all 20 checks pass, 67/67 unit/integration tests verified clean, lint clean, zero execution errors. | **FINAL_VERIFIED_STATE** |
 
 ---
 
@@ -52,14 +52,15 @@ To ensure full transparency between historical intermediate development checkpoi
 
 ### D. Phase 2B.5F / 2B.5F.1 (Historical State)
 - Synchronized master forensic snapshot `forensic/phase2b-5/MANIFEST.json` and `file-inventory.json`.
-- Validated SHA256 integrity across all 945 tracked and forensic files.
-- Documented policy-based exclusions in `EXCLUDED_FILES.md`.
+- Validated SHA256 integrity across tracked and forensic files.
+- Observed intermediate stale output where 2 tests failed due to inventory ordering before reconciler regeneration.
 
 ### E. Phase 2B.5F.2 (Final Verified State)
 - Reconciler and test execution verified 100% clean:
-  - **Consistency Checks:** 20/20 PASS.
-  - **Corpus Test Suite:** 67/67 PASS across 4 test suites.
-  - **Lint:** Clean (0 errors).
+  - **Consistency Checks:** 20/20 PASS (`reconciler-output.txt`).
+  - **Corpus Test Suite:** 67/67 PASS across 4 test suites (`corpus-tests.txt`, 632 `expect()` calls, 0 failures).
+  - **Lint:** Clean (0 errors, 0 warnings in `lint.txt`).
+  - **Forensic Inventory:** 955 total files, 948 hash-verified, 7 hash-excluded, 0 mismatches.
   - **Execution Errors:** 0.
 
 ---
@@ -99,5 +100,5 @@ To ensure full transparency between historical intermediate development checkpoi
 - **Files Sanitized:** 0.
 - **Lint:** ESLint 0 errors, 0 warnings.
 - **Consistency Checks:** 20/20 PASS.
-- **Corpus Tests:** 67/67 PASS.
+- **Corpus Tests:** 67/67 PASS (632 assertions).
 - **Status:** **FROZEN & FORENSICALLY VERIFIED**.
