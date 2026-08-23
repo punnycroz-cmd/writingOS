@@ -1,0 +1,292 @@
+{
+  "inventory": [
+    {
+      "path": "research/nonfiction-source-pack-v1.1/DELIVERY-MANIFEST.json",
+      "sizeBytes": 811,
+      "sha256": "6bec6680c21b40068d806510633a6ef357122d0f00797d5e9827cda6213009d2",
+      "category": "manifest",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/DELIVERY-README.md",
+      "sizeBytes": 2072,
+      "sha256": "109b12cb8e9bcb3fee535fb0864fb5a304575e479aa405e965761b23e856ac61",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/PACK-MANIFEST.json",
+      "sizeBytes": 2454,
+      "sha256": "8777b8017e809e951ab7a4e0f52102d600bd7a2db708fe10f4c6c91cebe49c9b",
+      "category": "manifest",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/docs/114-nonfiction-source-pack-v1-1-audit.md",
+      "sizeBytes": 27832,
+      "sha256": "1c348d9567cc5bc9fcdc46d745976d8d841763f4897fa15df30bb86b7572c421",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/docs/115-nonfiction-source-pack-v1-1-discovery-report.md",
+      "sizeBytes": 9841,
+      "sha256": "0000ba4268961842633b9c10c06a82a3eb4d87455d4cf20f336074a3795f7a20",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/docs/116-nonfiction-source-pack-v1-1-quality-report.md",
+      "sizeBytes": 6320,
+      "sha256": "4b5105e7617dac158ce1391eca1a43db146401a1e81808eb59156e49f353d9b2",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/docs/117-nonfiction-source-pack-v1-1-claim-inventory.md",
+      "sizeBytes": 10821,
+      "sha256": "0884aa2dda56b789699b3b066c2c79982235d7a3ad1876765f81d324b14b378b",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/docs/118-nonfiction-source-pack-v1-1-validation-opportunity-report.md",
+      "sizeBytes": 7665,
+      "sha256": "99638a79ffe01a9a4ce64f3b2e3809bf5416a3dc07e3883c9a936e3afdb59906",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/docs/119-phase-3-source-pack-v1-1-final-summary.md",
+      "sizeBytes": 15001,
+      "sha256": "4c191139707e84f7df79af5bf5529172bf94df04ba8ba8747ce32c8fd0876622",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/docs/nonfiction/phase-3-source-pack-v1.1-delivery-report.md",
+      "sizeBytes": 3910,
+      "sha256": "015e172498742c043a4c3ce6b351b2e73a63c1803d41af8e5991262fb96640c1",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/docs/nonfiction/phase-3-source-pack-v1.1-final-audit.md",
+      "sizeBytes": 10887,
+      "sha256": "364435d63d0b56fec59e4df9f2a558c4c6dff0b0b9bfa66ad86abd0fe479ad2c",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/PACK-MANIFEST.json",
+      "sizeBytes": 2454,
+      "sha256": "8777b8017e809e951ab7a4e0f52102d600bd7a2db708fe10f4c6c91cebe49c9b",
+      "category": "manifest",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/README.md",
+      "sizeBytes": 11697,
+      "sha256": "3600dd2130186be4ce171fbb17531dd269c4959bdb37fd0f1b579d8c7af0922a",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/claim-inventory.jsonl",
+      "sizeBytes": 124741,
+      "sha256": "1e2726fdc86d1213ee8afcc74635fe92f58c1ede9fcbac97096a7e98c39e2ac1",
+      "category": "claim",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/diversity-report.md",
+      "sizeBytes": 5869,
+      "sha256": "e9928fcfd098635dc3ad089c1af5ea109253b64bb1487a29bc7f145ab6af8a63",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/licensing-report.md",
+      "sizeBytes": 19928,
+      "sha256": "5bc42bf5f7a71ed882951efa582096406e3b3565808d90952b1aa3776238c3fa",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_add_verification_status.py",
+      "sizeBytes": 8105,
+      "sha256": "bb1d3d96fff7d62f4d5931211343eb0d960716d845ec1bdebb30efa1c2a6e8b5",
+      "category": "other",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_audit.json",
+      "sizeBytes": 27328,
+      "sha256": "0d64ac3896abaf55851ec5a51892e82779cf4435eac49dd1de29ccf5d84c7f9c",
+      "category": "metadata",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_audit.py",
+      "sizeBytes": 12134,
+      "sha256": "c6ed0dde406daa60834810e0e214e28ef10c838753b1da85d2070c934e2c3a05",
+      "category": "other",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_claims_v11.py",
+      "sizeBytes": 23804,
+      "sha256": "7aebb968dd7f8a05bd4dc10ad0a9b0e2622a266d1a8b6fde426d805159d77aaf",
+      "category": "other",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_index_v11.py",
+      "sizeBytes": 7896,
+      "sha256": "4e618a87aee1ba8ed19fe1d3164067d5bead1fe30d2a084edabb9a1015d33f03",
+      "category": "other",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_matrix_v11.py",
+      "sizeBytes": 4626,
+      "sha256": "c9abebef4e8a34f1e2dc376c98d3805086964697168c12dd1d65869072086b7a",
+      "category": "other",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_build_reports_v11.py",
+      "sizeBytes": 29293,
+      "sha256": "0ab15289d69445c9d609a52dc561b6a13522c87ab2f9a540eb25f6cdef64f9f8",
+      "category": "other",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_curated_v11.json",
+      "sizeBytes": 152602,
+      "sha256": "834e15b745ceed657ec561487cb5eadf6a71a8d2ff0e91194c745a021dfa4b88",
+      "category": "metadata",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_merge_curate.py",
+      "sizeBytes": 11679,
+      "sha256": "0d824dbdd15343119964e360eae2140c4b088c910554362b8dbf8b84a6fc4e2c",
+      "category": "other",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/_merged.json",
+      "sizeBytes": 599593,
+      "sha256": "9efe7d420ad08a2e2951a83dd135f54d1ed88806ae52fb580db746ee3ee9f2f6",
+      "category": "metadata",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/candidates-academic.json",
+      "sizeBytes": 67586,
+      "sha256": "b266d58374a29489070da380603e3e03231d60e98ec773209928fc71e9a916c2",
+      "category": "metadata",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/metadata/candidates-international.json",
+      "sizeBytes": 84785,
+      "sha256": "9be9278e720386a158171977a97c649fbac23349f0a52ba24b0f3b5c300ab3c3",
+      "category": "metadata",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/ARCHIVE-MANIFEST.json",
+      "sizeBytes": 8921,
+      "sha256": "eec690f7271295672c5121fe07447b56a9470176f05bf2dc01512e5312a31fb2",
+      "category": "manifest",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/arxiv-1706.03762-attention-is-all-you-need.html",
+      "sizeBytes": 43644,
+      "sha256": "29e42a996471db9c019f1122825cdac0e6d64c96767d9ee5c0b8891de6204bee",
+      "category": "source",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/arxiv-2303.18223-gpt4-technical-report.html",
+      "sizeBytes": 50593,
+      "sha256": "edf83b0dd6b9968230c9e0e6778b8ecd52e6961ee86def332b243ddf68e7953e",
+      "category": "source",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/nist-sp-800-53r5.pdf",
+      "sizeBytes": 6073678,
+      "sha256": "fc63bcd61715d0181dd8e85998b1e6201ae3515fc6626102101cab1841e11ec6",
+      "category": "source",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/nist-sp-800-63b.pdf",
+      "sizeBytes": 1480377,
+      "sha256": "ccfce7510a1267933f912d023306c6e7d485f21be63d271108b61aad6139127e",
+      "category": "source",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/owid-co2-emissions.html",
+      "sizeBytes": 167838,
+      "sha256": "c972f37dd7f531c536b4ed3c5cb3e5e86db19f1011778c2d97dd1bd74502758e",
+      "category": "source",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/owid-co2-ghg.html",
+      "sizeBytes": 355705,
+      "sha256": "c1e21f6f5fe97f6302decbccd6efb6f492406119afdc8d32f438674a07895aaf",
+      "category": "source",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/rfc1918-private-address.txt",
+      "sizeBytes": 22271,
+      "sha256": "56c43465298772bc4d899923f1785b7b7bf8dd2c9f2f9a53422800ddc5cf9337",
+      "category": "source",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/raw/rfc9114-http3.txt",
+      "sizeBytes": 155206,
+      "sha256": "6b84555c88eeebcf5d2b2e1d9d7b58630abc97ab877b2cf62dee4cd635db34e4",
+      "category": "source",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/source-evaluation.csv",
+      "sizeBytes": 14279,
+      "sha256": "20cb78268147d2b49d2755645fa9b1aeed4fab971a20a69efe615653459f2c9b",
+      "category": "metadata",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/source-gaps.md",
+      "sizeBytes": 6778,
+      "sha256": "a86230f9af2e377f73794cc0ebba3e9066ec67686ad977913255f419a64e57c2",
+      "category": "report",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/source-index.json",
+      "sizeBytes": 141081,
+      "sha256": "c82b6d84bc6ae0955b92edff533fc38124a3f8e000aaebd04e764ef5a770f4e6",
+      "category": "metadata",
+      "licenseSensitive": false
+    },
+    {
+      "path": "research/nonfiction-source-pack-v1.1/source-pack/validation-opportunity-matrix.csv",
+      "sizeBytes": 4011,
+      "sha256": "9e4a7fcdc84031176358821619d222964c1ac189c4ca82b8c17cb3f358a5f6f6",
+      "category": "metadata",
+      "licenseSensitive": false
+    }
+  ],
+  "totalFiles": 41
+}

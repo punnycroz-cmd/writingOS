@@ -1,0 +1,33 @@
+{
+  "artifact": "Nonfiction Source Pack v1.1",
+  "version": "1.1.0",
+  "status": "FROZEN_DISCOVERY_CORPUS",
+  "containsGroundTruth": false,
+  "sourceCount": 69,
+  "claimCount": 135,
+  "selectionDistribution": {
+    "gold": 29,
+    "silver": 25,
+    "bronze": 15
+  },
+  "urlVerifiedSources": 17,
+  "botBlockedSources": 5,
+  "unverifiedSources": 47,
+  "sourceVerifiedClaims": 0,
+  "claimVerificationDistribution": {
+    "sourceVerified": 0,
+    "snippetVerified": 17,
+    "widelyCited": 118,
+    "unverified": 0
+  },
+  "licenseDistribution": {
+    "OPEN_ACCESS": 28,
+    "PUBLIC_DOMAIN": 26,
+    "CC_BY": 11,
+    "COPYRIGHT_RESTRICTED": 4
+  },
+  "licenseRestrictedSources": 4,
+  "deliveredAt": "2026-08-22T20:45:00Z",
+  "repository": "punnycroz-cmd/writingOS",
+  "branch": "research/nonfiction-source-pack-v1.1"
+}
