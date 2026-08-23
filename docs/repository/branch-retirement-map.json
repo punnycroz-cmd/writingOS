@@ -1,0 +1,74 @@
+[
+  {
+    "branch": "main",
+    "status": "KEEP",
+    "canonicalReplacement": "main",
+    "uniqueArtifacts": ["Baseline Next.js setup", "Clean .gitignore"],
+    "duplicateOf": [],
+    "reason": "Stable default branch."
+  },
+  {
+    "branch": "integration/writing-os-v1",
+    "status": "KEEP",
+    "canonicalReplacement": "integration/writing-os-v1",
+    "uniqueArtifacts": ["Multi-scene integration engine", "Mode/register architecture docs"],
+    "duplicateOf": [],
+    "reason": "Active canonical integrated Writing OS system."
+  },
+  {
+    "branch": "gemini/deterministic-triage-v2",
+    "status": "KEEP",
+    "canonicalReplacement": "gemini/deterministic-triage-v2",
+    "uniqueArtifacts": ["src/deterministic/*", "tests/deterministic_regression.test.ts", "Deliverables 23-76"],
+    "duplicateOf": [],
+    "reason": "Canonical deterministic gate and regression suite."
+  },
+  {
+    "branch": "original/semantic-validation-v4-2",
+    "status": "KEEP",
+    "canonicalReplacement": "original/semantic-validation-v4-2",
+    "uniqueArtifacts": ["writing-engine/logs43b/*", "writing-engine/logs43fw/*", "iteration43b.ts"],
+    "duplicateOf": [],
+    "reason": "Canonical semantic validator and benchmark logs."
+  },
+  {
+    "branch": "research/phase2b-golden-corpus-v1-reconciled",
+    "status": "KEEP",
+    "canonicalReplacement": "research/phase2b-golden-corpus-v1-reconciled",
+    "uniqueArtifacts": ["corpus/golden-v1/*", "writing-engine/logs-golden-v1/*", "forensic/phase2b-5/*"],
+    "duplicateOf": [],
+    "reason": "Frozen Golden Corpus v1 research state with 20 consistency checks."
+  },
+  {
+    "branch": "research/nonfiction-source-pack-v1.1",
+    "status": "KEEP",
+    "canonicalReplacement": "research/nonfiction-source-pack-v1.1",
+    "uniqueArtifacts": ["research/nonfiction-source-pack-v1.1/*", "Deliverables 114-120"],
+    "duplicateOf": [],
+    "reason": "Canonical Nonfiction Source Pack v1.1 discovery corpus (69 sources, 135 claims)."
+  },
+  {
+    "branch": "research/nonfiction-source-pack-v1",
+    "status": "SUPERSEDED",
+    "canonicalReplacement": "research/nonfiction-source-pack-v1.1",
+    "uniqueArtifacts": ["sources/nonfiction-v1/*", "Deliverables 105-110"],
+    "duplicateOf": [],
+    "reason": "Initial 50-source discovery milestone; superseded by v1.1."
+  },
+  {
+    "branch": "research/phase2b-5f-1",
+    "status": "SUPERSEDED",
+    "canonicalReplacement": "research/phase2b-golden-corpus-v1-reconciled",
+    "uniqueArtifacts": [],
+    "duplicateOf": ["research/phase2b-golden-corpus-v1-reconciled"],
+    "reason": "Intermediate commit snapshot fully encompassed by reconciled Golden Corpus branch."
+  },
+  {
+    "archive": "archive/phase2b-5f-1",
+    "status": "HISTORICAL_ARCHIVE",
+    "canonicalReplacement": "research/phase2b-golden-corpus-v1-reconciled",
+    "uniqueArtifacts": ["Phase 2B.5F.1.tar"],
+    "duplicateOf": [],
+    "reason": "Raw unextracted binary archive of Phase 2B.5F.1 export."
+  }
+]

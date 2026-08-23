@@ -1,0 +1,106 @@
+{
+  "auditDate": "2026-08-23T11:00:00+07:00",
+  "repository": "punnycroz-cmd/writingOS",
+  "totalBranches": 9,
+  "branches": [
+    {
+      "name": "main",
+      "headSha": "00b1b93920114410ecf0cbe80a8bd32fe0c6329b",
+      "date": "2026-08-22T11:06:16+07:00",
+      "subject": "chore(repo): establish clean shared main baseline",
+      "mergeBase": "00b1b93920114410ecf0cbe80a8bd32fe0c6329b",
+      "commitsAhead": 0,
+      "filesCount": 475,
+      "status": "CANONICAL",
+      "purpose": "Stable, neutral repository baseline"
+    },
+    {
+      "name": "gemini/deterministic-triage-v2",
+      "headSha": "655dd26b72a2d1864a082c0c044c96451f1a3fe8",
+      "date": "2026-08-22T10:03:12+07:00",
+      "subject": "chore(experiments): preserve historical deliverables 23-76 and benchmark logs",
+      "mergeBase": "3719d2488d3ec9131e348f022887c37ab897bca0",
+      "commitsAhead": 3,
+      "filesCount": 379,
+      "status": "CANONICAL_RESEARCH",
+      "purpose": "Canonical Deterministic Triage Gateway v2 & 16 regression scenarios"
+    },
+    {
+      "name": "original/semantic-validation-v4-2",
+      "headSha": "f5060a466d2902da7dcf8ef8cb78dc6127965669",
+      "date": "2026-08-22T07:14:44+00:00",
+      "subject": "feat(semantic): iteration 4.3B clean epistemic benchmark + full calibrated run",
+      "mergeBase": "28205c46ff1bbbd430eff983afa083bb05c74382",
+      "commitsAhead": 9,
+      "filesCount": 645,
+      "status": "CANONICAL_RESEARCH",
+      "purpose": "Canonical Semantic Validation v4.2 & Iteration 4.3B benchmark suite"
+    },
+    {
+      "name": "integration/writing-os-v1",
+      "headSha": "287dad2767cea8e290907f9c90a37b0f794e3425",
+      "date": "2026-08-22T21:29:48+00:00",
+      "subject": "fix(corpus): reconcile-v1 imports canonical classifier, 16 checks, no duplicate logic",
+      "mergeBase": "28205c46ff1bbbd430eff983afa083bb05c74382",
+      "commitsAhead": 25,
+      "filesCount": 829,
+      "status": "CANONICAL_INTEGRATION",
+      "purpose": "Canonical Integrated Writing OS v1 & v1.1 system"
+    },
+    {
+      "name": "research/phase2b-golden-corpus-v1-reconciled",
+      "headSha": "4951da2d11aa6676cff7d2fd526a6c04c2d4065f",
+      "date": "2026-08-22T23:36:27+00:00",
+      "subject": "docs(forensic): final SHA sync — all docs reference f8089e7f...",
+      "mergeBase": "28205c46ff1bbbd430eff983afa083bb05c74382",
+      "commitsAhead": 39,
+      "filesCount": 1175,
+      "status": "CANONICAL_RESEARCH_SNAPSHOT",
+      "purpose": "Reconciled Golden Corpus v1 research state (20 consistency checks)"
+    },
+    {
+      "name": "research/nonfiction-source-pack-v1.1",
+      "headSha": "9897945054d7bcf1b47666eec688223e1c060dca",
+      "date": "2026-08-23T10:45:29+07:00",
+      "subject": "feat(research): freeze nonfiction source pack v1.1 discovery corpus",
+      "mergeBase": "00b1b93920114410ecf0cbe80a8bd32fe0c6329b",
+      "commitsAhead": 1,
+      "filesCount": 517,
+      "status": "CANONICAL_DISCOVERY_CORPUS",
+      "purpose": "Canonical Nonfiction Source Pack v1.1 discovery corpus (69 sources, 135 claims)"
+    },
+    {
+      "name": "research/nonfiction-source-pack-v1",
+      "headSha": "0ab6adb6285adae6eb74861c85df3d5d0e3c61c7",
+      "date": "2026-08-23T04:30:56+07:00",
+      "subject": "feat(nonfiction): add Nonfiction Source Pack v1 (Phase 3 deliverables 105-110...)",
+      "mergeBase": "00b1b93920114410ecf0cbe80a8bd32fe0c6329b",
+      "commitsAhead": 1,
+      "filesCount": 533,
+      "status": "SUPERSEDED_HISTORICAL",
+      "purpose": "Initial 50-source discovery pack (superseded by v1.1)"
+    },
+    {
+      "name": "research/phase2b-5f-1",
+      "headSha": "15f28d16fedbb2a71650682d106fb8cee8b1fadf",
+      "date": "2026-08-22T22:26:52+00:00",
+      "subject": "099c0c25-5c73-49a8-8f99-7bd7a7decb96",
+      "mergeBase": "28205c46ff1bbbd430eff983afa083bb05c74382",
+      "commitsAhead": 29,
+      "filesCount": 831,
+      "status": "SUPERSEDED_HISTORICAL",
+      "purpose": "Intermediate Phase 2B.5 snapshot (superseded by reconciled branch)"
+    },
+    {
+      "name": "archive/phase2b-5f-1",
+      "headSha": "b6a3993d75a21c363ec9b57caba87488d95926b6",
+      "date": "2026-08-23T07:28:58+07:00",
+      "subject": "chore(archive): add Phase 2B.5F.1.tar snapshot as-is",
+      "mergeBase": "00b1b93920114410ecf0cbe80a8bd32fe0c6329b",
+      "commitsAhead": 1,
+      "filesCount": 476,
+      "status": "HISTORICAL_ARCHIVE",
+      "purpose": "Immutable unextracted binary tar archive of Phase 2B.5F.1"
+    }
+  ]
+}
