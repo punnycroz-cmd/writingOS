@@ -1,0 +1,51 @@
+sourceId,title,organization,register,authorityTier,license,accessStatus,documentFormat,domain,authority,stability,provenance,factualDensity,structuralRichness,rewriteUtility,accessibility,reproducibility,learningValue,totalScore,selectionStatus,goldRank
+SRC-NF-0001,Climate Change 2023: AR6 Synthesis Report — Summary for Policymakers,IPCC,ACADEMIC,1,Open Access,FULL_TEXT_ARCHIVABLE,PDF,climate,5,5,5,5,5,5,5,5,5,48,GOLD,1
+SRC-NF-0002,Emissions Gap Report 2023: Broken Record,UNEP,ACADEMIC,1,Open Access,FULL_TEXT_ARCHIVABLE,PDF,climate,5,5,5,5,5,5,5,5,5,48,GOLD,2
+SRC-NF-0003,Fifth National Climate Assessment (NCA5),USGCRP,ACADEMIC,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,climate,5,5,5,5,5,5,5,5,5,48,GOLD,3
+SRC-NF-0004,Comparative analysis of Cochrane and non-Cochrane systematic reviews,PMC / NIH,ACADEMIC,1,Open Access,FULL_TEXT_ARCHIVABLE,HTML,medicine,5,5,5,5,5,5,5,5,5,48,GOLD,4
+SRC-NF-0005,2023 National Population Projections Tables: Main Series - Census Bureau,U.S. Census Bureau,GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,demographics,5,5,5,5,5,5,5,5,5,48,GOLD,5
+SRC-NF-0006,"QUARTERLY FINANCIAL REPORT: U.S. MANUFACTURING, MINING, TRADE, AND SELECTED SERVICE INDUSTRIES, Q4 2024",U.S. Census Bureau,GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,PDF,economy,5,5,5,5,5,5,5,5,5,48,GOLD,6
+SRC-NF-0007,Employment Situation News Release - 2024 M13 Results (December 2024),U.S. Bureau of Labor Statistics,GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,labor,5,5,5,5,5,5,5,5,5,48,GOLD,7
+SRC-NF-0008,Consumer Price Index News Release - 2026 M05 Results (May 2026),U.S. Bureau of Labor Statistics,GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,economy,5,5,5,5,5,5,5,5,5,48,GOLD,8
+SRC-NF-0009,"GDP (Advance Estimate), 4th Quarter and Year 2025",U.S. Bureau of Economic Analysis,GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,economy,5,5,5,5,5,5,5,5,5,48,GOLD,9
+SRC-NF-0010,"SP 800-53 Rev. 5, Security and Privacy Controls for Information",NIST,TECHNICAL,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,cybersecurity,5,5,5,5,5,5,5,5,5,48,GOLD,10
+SRC-NF-0011,"SP 800-63B, Digital Identity Guidelines: Authentication and",NIST,TECHNICAL,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,cybersecurity,5,5,5,5,5,5,5,5,5,48,GOLD,11
+SRC-NF-0012,ENISA Threat Landscape 2024,ENISA,TECHNICAL,1,CC-BY,FULL_TEXT_ARCHIVABLE,HTML,cybersecurity,5,5,5,5,5,5,5,5,5,48,GOLD,12
+SRC-NF-0013,"Microsoft Corporation Form 10-K For the Fiscal Year Ended June 30, 2023",Microsoft Corporation / SEC EDGAR,BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,technology-corporate,5,5,5,5,5,5,5,5,5,48,GOLD,13
+SRC-NF-0014,"Apple Inc. Form 10-K For the Fiscal Year Ended September 30, 2023",Apple Inc. / SEC EDGAR,BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,technology-corporate,5,5,5,5,5,5,5,5,5,48,GOLD,14
+SRC-NF-0015,CO₂ and Greenhouse Gas Emissions,Our World in Data,JOURNALISM,2,CC-BY,FULL_TEXT_ARCHIVABLE,HTML,climate,4,5,5,5,5,5,5,5,5,46,GOLD,15
+SRC-NF-0016,CO₂ emissions,Our World in Data,JOURNALISM,2,CC-BY,FULL_TEXT_ARCHIVABLE,HTML,climate,4,5,5,5,5,5,5,5,5,46,GOLD,16
+SRC-NF-0017,Estimated 2023–2024 COVID-19 Vaccine Effectiveness in Adults,PMC / NIH,ACADEMIC,1,Open Access,FULL_TEXT_ARCHIVABLE,HTML,medicine,5,5,5,5,5,5,5,5,5,48,GOLD,17
+SRC-NF-0018,Revisiting the Minimum Wage–Employment Debate (NBER Working Paper 18681),NBER,ACADEMIC,1,Publisher OA,FULL_TEXT_ARCHIVABLE,PDF,economics,5,5,5,5,5,5,5,5,5,48,GOLD,18
+SRC-NF-0019,"Amazon.com, Inc. Form 10-K for the year ended December 31, 2023","Amazon.com, Inc. / SEC EDGAR",BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,consumer,5,5,5,5,5,5,5,5,5,48,GOLD,19
+SRC-NF-0020,Microsoft Corporation Definitive Proxy Statement (DEF 14A) 2025,Microsoft Corporation / SEC EDGAR,BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,governance,5,5,5,5,5,5,5,5,5,48,GOLD,20
+SRC-NF-0021,Highway Statistics 2023,"Federal Highway Administration (FHWA), U.S. DOT",GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,infrastructure,5,5,5,5,5,5,5,5,5,48,GOLD,21
+SRC-NF-0022,Overview of Motor Vehicle Traffic Crashes in 2023 (DOT HS 813 705),"National Highway Traffic Safety Administration (NHTSA), U.S. DOT",GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,PDF,infrastructure,5,5,5,5,5,5,5,5,5,48,GOLD,22
+SRC-NF-0023,Systematic review and meta-analysis of COVID-19 mRNA vaccine effectiveness,PMC / NIH,ACADEMIC,1,Open Access,FULL_TEXT_ARCHIVABLE,HTML,medicine,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0024,"The Developing World Is Poorer Than We Thought, But No Less Successful in the Fight against Poverty",World Bank Open Knowledge,ACADEMIC,1,CC-BY,FULL_TEXT_ARCHIVABLE,PDF,economics,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0025,The 2024 AI Index Report,Stanford HAI,ACADEMIC,1,CC-BY,FULL_TEXT_ARCHIVABLE,PDF,ai,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0026,The 2025 AI Index Report,Stanford HAI,ACADEMIC,1,CC-BY,FULL_TEXT_ARCHIVABLE,PDF,ai,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0027,"Alphabet Inc. Form 10-K for fiscal year ended December 31, 2023",Alphabet Inc. / SEC EDGAR,BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,technology-corporate,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0028,"Meta Platforms, Inc. Form 10-K for fiscal year ended December 31, 2023","Meta Platforms, Inc. / SEC EDGAR",BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,technology-corporate,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0029,"NVIDIA Corporation Form 10-K for fiscal year ended January 28, 2024",NVIDIA Corporation / SEC EDGAR,BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,technology-corporate,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0030,"Tesla, Inc. Form 10-K for fiscal year ended December 31, 2023","Tesla, Inc. / SEC EDGAR",BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,industrial,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0031,"Employee Benefits in the United States, March 2024",U.S. Bureau of Labor Statistics,GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,labor,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0032,The Condition of Education 2024 (NCES 2024-144),"National Center for Education Statistics (NCES), IES, U.S. Department of Education",GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,education,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0033,Digest of Education Statistics,"National Center for Education Statistics (NCES), IES, U.S. Department of Education",GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,education,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0034,The State of U.S. Science and Engineering 2024,"National Center for Science and Engineering Statistics (NCSES), National Science Foundation",GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,education,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0035,National Vital Statistics Reports (NVSR) - Homepage,"National Center for Health Statistics (NCHS), CDC, U.S. Department of Health and Human Services",GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,health,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0036,"NIST SP 800-171 Rev. 3, Protecting Controlled Unclassified Information",NIST,TECHNICAL,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,cybersecurity,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0037,[PDF] ENISA THREAT LANDSCAPE 2025,ENISA,TECHNICAL,1,CC-BY,FULL_TEXT_ARCHIVABLE,PDF,cybersecurity,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0038,Web Content Accessibility Guidelines (WCAG) 2.2,W3C,TECHNICAL,1,CC-BY,FULL_TEXT_ARCHIVABLE,HTML,standards,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0039,NASA Systems Engineering Handbook,NASA,TECHNICAL,1,Public Domain,FULL_TEXT_ARCHIVABLE,PDF,aerospace,5,5,5,5,5,5,5,5,5,48,SILVER,
+SRC-NF-0040,NOAA predicts above-normal 2024 Atlantic hurricane season,NOAA,JOURNALISM,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,climate,5,5,5,5,4,5,5,5,5,47,SILVER,
+SRC-NF-0041,Attention Is All You Need (arXiv 1706.03762),arXiv,ACADEMIC,1,arXiv OA,FULL_TEXT_ARCHIVABLE,PDF,ai,5,5,5,5,5,5,5,5,5,48,BRONZE,
+SRC-NF-0042,Condition of Education 2023,NCES / IES,ACADEMIC,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,education,5,5,5,5,5,5,5,5,5,48,BRONZE,
+SRC-NF-0043,"JPMorgan Chase & Co. Form 10-K for the year ended December 31, 2023",JPMorgan Chase & Co. / SEC EDGAR,BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,banking,5,5,5,5,5,5,5,5,5,48,BRONZE,
+SRC-NF-0044,"Bank of America Corporation Form 10-K for the year ended December 31, 2023",Bank of America Corporation / SEC EDGAR,BUSINESS,1,Publicly-released,FULL_TEXT_ARCHIVABLE,HTML,banking,5,5,5,5,5,5,5,5,5,48,BRONZE,
+SRC-NF-0045,Monthly Climate Reports: Global Climate Report — Annual 2024,NOAA National Centers for Environmental Information (NCEI),GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,climate,5,5,5,5,5,5,5,5,5,48,BRONZE,
+SRC-NF-0046,Fifth National Climate Assessment (NCA5),U.S. Global Change Research Program (USGCRP) — NOAA Institutional Repository,GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,PDF,climate,5,5,5,5,5,5,5,5,5,48,BRONZE,
+SRC-NF-0047,Inventory of U.S. Greenhouse Gas Emissions and Sinks,U.S. Environmental Protection Agency (EPA),GOVERNMENT,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,climate,5,5,5,5,5,5,5,5,5,48,BRONZE,
+SRC-NF-0048,UAM Airspace Research Roadmap - Rev. 2.0,NASA,TECHNICAL,1,Public Domain,FULL_TEXT_ARCHIVABLE,PDF,aerospace,5,5,5,5,5,5,5,5,5,48,BRONZE,
+SRC-NF-0049,[PDF] NIST.SP.800-53r5.pdf,NIST,TECHNICAL,1,Public Domain,FULL_TEXT_ARCHIVABLE,PDF,cybersecurity,5,5,5,5,5,4,5,5,5,47,BRONZE,
+SRC-NF-0050,Highly active hurricane season likely to continue in Atlantic,NOAA,JOURNALISM,1,Public Domain,FULL_TEXT_ARCHIVABLE,HTML,climate,5,5,5,4,4,5,5,5,5,46,BRONZE,
