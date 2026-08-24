@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-08-24T00:26:19.474Z",
+  "validatedCommitSha": "ac00bd49e930285076f88dfbec8e8e31d0e97f24",
+  "totalSources": 69,
+  "verified": 34,
+  "partiallyVerified": 20,
+  "blocked": 15,
+  "failed": 0,
+  "unresolved": 0,
+  "recordsNormalized": 69,
+  "statusChanges": 0,
+  "statusUnchanged": 69,
+  "mappingErrors": 0,
+  "evidenceErrors": 0,
+  "dateProvenanceIssues": 0,
+  "identityMismatches": 0,
+  "artifactErrors": 0,
+  "artifactsValidated": 34,
+  "normalizedCounts": {
+    "VERIFIED": 34,
+    "PARTIALLY_VERIFIED": 20,
+    "BLOCKED": 15,
+    "FAILED": 0,
+    "UNRESOLVED": 0
+  },
+  "allContradictionsResolved": true,
+  "sourceVerifiedClaims": 0,
+  "containsGroundTruth": false
+}

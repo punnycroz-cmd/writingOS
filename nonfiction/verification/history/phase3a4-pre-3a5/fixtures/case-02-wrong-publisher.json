@@ -1,0 +1,24 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-02",
+    "title": "Test Report",
+    "organization": "OECD",
+    "url": "https://oecd.org/report"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-02",
+    "verificationSourceId": "SRC-TEST-02",
+    "observedTitle": "Test Report",
+    "sourceUrl": "https://oecd.org/report",
+    "publisherObserved": "McKinsey",
+    "titleVariantType": "EXACT",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://oecd.org/report"
+    ],
+    "notes": "Wrong publisher"
+  }
+}

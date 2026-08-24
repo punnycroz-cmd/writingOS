@@ -1,0 +1,13 @@
+{
+  "sourcePackSourceId": "SRC-TEST-0004",
+  "verificationSourceId": "SRC-TEST-0004",
+  "sourceUrl": "https://wrong-domain.org/different-paper",
+  "verificationStatus": "VERIFIED",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": false,
+  "evidenceLocations": [
+    "https://wrong-domain.org"
+  ],
+  "notes": "Identity mismatch fixture"
+}

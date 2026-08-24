@@ -1,0 +1,28 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-17",
+    "title": "Claims of \u201cno difference\u201d in Reviews \u2014 Part 1",
+    "organization": "NIH",
+    "url": "https://nih.gov/doc"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-17",
+    "verificationSourceId": "SRC-TEST-17",
+    "observedTitle": "Claims of 'no difference' in Reviews - Part 1",
+    "sourceUrl": "https://nih.gov/doc",
+    "publisherObserved": "NIH",
+    "titleVariantType": "PUNCTUATION_VARIANT",
+    "titleMismatchReason": "Punctuation and dash variance in title",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://nih.gov/doc"
+    ],
+    "notes": "Punctuation title variant"
+  }
+}

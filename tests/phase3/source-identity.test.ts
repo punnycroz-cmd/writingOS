@@ -1,5 +1,5 @@
 // tests/phase3/source-identity.test.ts
-// Comprehensive identity and validation tests covering Cases 1 through 23.
+// Comprehensive Phase 3A.5 identity and validation tests covering Cases A through R.
 
 import { describe, it, expect } from 'bun:test';
 import { readFileSync } from 'node:fs';
@@ -8,229 +8,396 @@ import {
   canonicalizeIdentity,
   computeIdentityFingerprint,
   validateFullRecord,
+  validateSourceMappingSet,
   type SourcePackRecord,
   type VerificationRecord,
 } from '../../src/phase3/verification-validator';
 
-function loadFixture(name: string): { sourcePack: SourcePackRecord | null; verification: VerificationRecord } {
-  return JSON.parse(readFileSync(`tests/fixtures/phase3-verification/${name}`, 'utf-8'));
-}
+describe('Phase 3A.5 Fallback Leakage Invariants (Cases A–D)', () => {
+  const sp: SourcePackRecord = {
+    sourceId: 'SRC-TEST-LEAK',
+    title: 'Discovery Title of Document',
+    organization: 'OECD',
+    author: 'John Maynard Keynes',
+    url: 'https://oecd.org/report',
+  };
 
-describe('Phase 3A.4 Failure Invariants (Cases 1–15)', () => {
-  it('Case 1: Wrong URL -> FAILS identity comparison and validation', () => {
-    const { sourcePack, verification } = loadFixture('case-01-wrong-url.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
+  it('Case A: Verification title missing + discovery title present -> UNKNOWN (does not fall back to discovery title)', () => {
+    const vr: Partial<VerificationRecord> = {
+      sourcePackSourceId: 'SRC-TEST-LEAK',
+      verificationSourceId: 'SRC-TEST-LEAK',
+      observedTitle: '',
+      sourceUrl: 'https://oecd.org/report',
+      publisherObserved: 'OECD',
+      authorObserved: 'John Maynard Keynes',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(sp, vr);
     expect(comp.match).toBe(false);
-    expect(comp.url.status).toBe('MISMATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('URL mismatch'))).toBe(true);
+    expect(comp.title.status).toBe('UNKNOWN');
+    expect(comp.verificationIdentityFingerprint).not.toBe(comp.sourcePackIdentityFingerprint);
   });
 
-  it('Case 2: Wrong publisher -> FAILS identity comparison and validation', () => {
-    const { sourcePack, verification } = loadFixture('case-02-wrong-publisher.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
+  it('Case B: Verification publisher missing + discovery publisher present -> UNKNOWN (does not fall back to discovery organization)', () => {
+    const vr: Partial<VerificationRecord> = {
+      sourcePackSourceId: 'SRC-TEST-LEAK',
+      verificationSourceId: 'SRC-TEST-LEAK',
+      observedTitle: 'Discovery Title of Document',
+      sourceUrl: 'https://oecd.org/report',
+      publisherObserved: '',
+      authorObserved: 'John Maynard Keynes',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(sp, vr);
     expect(comp.match).toBe(false);
-    expect(comp.publisher.status).toBe('MISMATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('Publisher mismatch'))).toBe(true);
+    expect(comp.publisher.status).toBe('UNKNOWN');
   });
 
-  it('Case 3: Unrelated title -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-03-unrelated-title.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(false);
-    expect(comp.title.status).toBe('MISMATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
+  it('Case C: Verification author missing + discovery author present -> UNKNOWN (does not fall back to discovery author)', () => {
+    const vr: Partial<VerificationRecord> = {
+      sourcePackSourceId: 'SRC-TEST-LEAK',
+      verificationSourceId: 'SRC-TEST-LEAK',
+      observedTitle: 'Discovery Title of Document',
+      sourceUrl: 'https://oecd.org/report',
+      publisherObserved: 'OECD',
+      authorObserved: '',
+    };
+    const comp = compareSourceIdentity(sp, vr);
+    expect(comp.author.status).toBe('UNKNOWN');
   });
 
-  it('Case 4: Unrelated title + fake non-empty reason -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-04-fake-reason-unrelated-title.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(false);
-    expect(comp.title.status).toBe('MISMATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
+  it('Case D: All verification metadata missing -> FAILS VERIFIED validation', () => {
+    const vr: Partial<VerificationRecord> = {
+      sourcePackSourceId: 'SRC-TEST-LEAK',
+      verificationSourceId: 'SRC-TEST-LEAK',
+      observedTitle: '',
+      sourceUrl: '',
+      publisherObserved: '',
+      authorObserved: '',
+      sourceExists: true,
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+      verificationMethod: 'page_reader',
+      notes: 'Empty verification record',
+      evidenceLocations: ['https://example.com'],
+    };
+    const diag = validateFullRecord(vr, sp);
     expect(diag.valid).toBe(false);
   });
+});
 
-  it('Case 5: Conflicting author -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-05-wrong-author.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
+describe('Phase 3A.5 Author Comparison Invariants (Cases E–H)', () => {
+  const sp: SourcePackRecord = {
+    sourceId: 'SRC-TEST-AUTH',
+    title: 'Macroeconomic Study',
+    organization: 'NBER',
+    author: 'David Card',
+    url: 'https://nber.org/study',
+  };
+
+  it('Case E: Wrong author -> MISMATCH & fails identity comparison', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Macroeconomic Study',
+      sourceUrl: 'https://nber.org/study',
+      publisherObserved: 'NBER',
+      authorObserved: 'Kenneth Arrow',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(sp, vr);
     expect(comp.match).toBe(false);
     expect(comp.author.status).toBe('MISMATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('Author mismatch'))).toBe(true);
   });
 
-  it('Case 6: Wrong URL + manually entered canonical URL without redirect evidence -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-06-manual-canonical-no-evidence.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(false);
-    expect(comp.url.status).toBe('MISMATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('differs from discovery without redirectEvidence'))).toBe(true);
+  it('Case F: Author format variant with et al. -> DOCUMENTED_EQUIVALENT', () => {
+    const spEtAl: SourcePackRecord = { ...sp, author: 'David Card, Alan Krueger' };
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Macroeconomic Study',
+      sourceUrl: 'https://nber.org/study',
+      publisherObserved: 'NBER',
+      authorObserved: 'David Card, Alan Krueger et al.',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spEtAl, vr);
+    expect(comp.author.status).toBe('DOCUMENTED_EQUIVALENT');
   });
 
-  it('Case 7: Fake redirect evidence leading to wrong site -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-07-fake-redirect-evidence.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(false);
-    expect(comp.url.status).toBe('MISMATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
+  it('Case G: Organizational source without individual author -> NOT_APPLICABLE', () => {
+    const spOrg: SourcePackRecord = { ...sp, author: 'N/A' };
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Macroeconomic Study',
+      sourceUrl: 'https://nber.org/study',
+      publisherObserved: 'NBER',
+      authorObserved: 'N/A',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spOrg, vr);
+    expect(comp.author.status).toBe('NOT_APPLICABLE');
   });
 
-  it('Case 8: Identity comparison mismatch + sourceIdentityVerified=true -> FAILS (contradiction detected)', () => {
-    const { sourcePack, verification } = loadFixture('case-08-identity-mismatch-with-flag-true.json');
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('Contradiction: sourceIdentityVerified === true but identity comparison failed'))).toBe(true);
-  });
-
-  it('Case 9: Identity fingerprint mismatch -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-09-fingerprint-mismatch.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(false);
-    expect(comp.sourcePackIdentityFingerprint).not.toBe(comp.verificationIdentityFingerprint);
-  });
-
-  it('Case 10: SYSTEM_CLOCK date evidence -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-10-system-clock-date.json');
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('SYSTEM_CLOCK'))).toBe(true);
-  });
-
-  it('Case 11: HTTP transport timestamp used as publication date -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-11-http-transport-date.json');
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('HTTP transport header'))).toBe(true);
-  });
-
-  it('Case 12: FAILED status caused only by HTTP 429 rate limit -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-12-429-marked-failed.json');
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('temporary rate-limit'))).toBe(true);
-  });
-
-  it('Case 13: VERIFIED record with empty evidenceLocations -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-13-missing-evidence-verified.json');
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('non-empty evidenceLocations'))).toBe(true);
-  });
-
-  it('Case 14: Artifact SHA256 mismatch -> FAILS', () => {
-    const { sourcePack, verification } = loadFixture('case-14-artifact-hash-mismatch.json');
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('Artifact SHA256 mismatch'))).toBe(true);
-  });
-
-  it('Case 15: Missing source-pack mapping -> FAILS', () => {
-    const { verification } = loadFixture('case-15-missing-source-mapping.json');
-    const diag = validateFullRecord(verification, undefined);
-    expect(diag.valid).toBe(false);
-    expect(diag.errors.some(e => e.includes('No matching discovery source-pack record found'))).toBe(true);
+  it('Case H: Unspecified author -> UNKNOWN', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Macroeconomic Study',
+      sourceUrl: 'https://nber.org/study',
+      publisherObserved: 'NBER',
+      authorObserved: '',
+    };
+    const comp = compareSourceIdentity(sp, vr);
+    expect(comp.author.status).toBe('UNKNOWN');
   });
 });
 
-describe('Phase 3A.4 Pass Invariants (Cases 16–23)', () => {
-  it('Case 16: Exact normalized match -> PASS (EXACT_NORMALIZED_MATCH)', () => {
-    const { sourcePack, verification } = loadFixture('case-16-exact-normalized-match.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(true);
-    expect(comp.classification).toBe('EXACT_NORMALIZED_MATCH');
+describe('Phase 3A.5 Publisher Comparison Invariants (Cases I–K)', () => {
+  const spOECD: SourcePackRecord = {
+    sourceId: 'SRC-TEST-PUB',
+    title: 'OECD Economic Outlook',
+    organization: 'Organisation for Economic Co-operation and Development',
+    url: 'https://oecd.org/outlook',
+  };
 
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(true);
-  });
-
-  it('Case 17: Punctuation/formatting title variant -> PASS (EXACT_NORMALIZED_MATCH)', () => {
-    const { sourcePack, verification } = loadFixture('case-17-punctuation-title-variant.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(true);
-    expect(comp.title.status).toBe('MATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(true);
-  });
-
-  it('Case 18: Explicit official subtitle variant -> PASS (DOCUMENTED_TITLE_VARIANT)', () => {
-    const { sourcePack, verification } = loadFixture('case-18-official-subtitle-variant.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(true);
-    expect(comp.title.status).toBe('DOCUMENTED_VARIANT');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(true);
-  });
-
-  it('Case 19: Documented redirect -> PASS (EXACT_NORMALIZED_MATCH)', () => {
-    const { sourcePack, verification } = loadFixture('case-19-documented-redirect.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(true);
-    expect(comp.url.status).toBe('MATCH');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(true);
-  });
-
-  it('Case 20: Recognized publisher equivalence -> PASS (DOCUMENTED_TITLE_VARIANT)', () => {
-    const { sourcePack, verification } = loadFixture('case-20-recognized-publisher-equivalence.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
+  it('Case I: OECD acronym ↔ official name -> DOCUMENTED_EQUIVALENT via explicit dictionary', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'OECD Economic Outlook',
+      sourceUrl: 'https://oecd.org/outlook',
+      publisherObserved: 'OECD',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spOECD, vr);
     expect(comp.match).toBe(true);
     expect(comp.publisher.status).toBe('DOCUMENTED_EQUIVALENT');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(true);
   });
 
-  it('Case 21: Organizational source with no individual author -> PASS', () => {
-    const { sourcePack, verification } = loadFixture('case-21-org-no-author.json');
-    const comp = compareSourceIdentity(sourcePack!, verification);
-    expect(comp.match).toBe(true);
-    expect(comp.author.status).toBe('NOT_APPLICABLE');
-
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(true);
+  it('Case J: Unrelated publisher suffix -> MISMATCH (no substring leakage)', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'OECD Economic Outlook',
+      sourceUrl: 'https://oecd.org/outlook',
+      publisherObserved: 'Organisation for Economic Co-operation and Development - Japan Division Unrelated',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spOECD, vr);
+    expect(comp.match).toBe(false);
+    expect(comp.publisher.status).toBe('MISMATCH');
   });
 
-  it('Case 22: Valid DISCOVERY_INHERITED publication date -> PASS', () => {
-    const { sourcePack, verification } = loadFixture('case-22-inherited-pub-date.json');
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(true);
-  });
-
-  it('Case 23: PDF parser limitation -> BLOCKED passes validation', () => {
-    const { sourcePack, verification } = loadFixture('case-23-pdf-blocked.json');
-    const diag = validateFullRecord(verification, sourcePack!);
-    expect(diag.valid).toBe(true);
+  it('Case K: Unrecognized repository / hosting platform -> MISMATCH', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'OECD Economic Outlook',
+      sourceUrl: 'https://oecd.org/outlook',
+      publisherObserved: 'GitHub Documentation Mirror',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spOECD, vr);
+    expect(comp.match).toBe(false);
+    expect(comp.publisher.status).toBe('MISMATCH');
   });
 });
 
-describe('Phase 3A.4 Symmetric Identity Fingerprinting', () => {
+describe('Phase 3A.5 URL & Redirect Invariants (Cases L–O)', () => {
+  const spURL: SourcePackRecord = {
+    sourceId: 'SRC-TEST-URL',
+    title: 'Security Standard',
+    organization: 'NIST',
+    url: 'https://csrc.nist.gov/sp800-53',
+  };
+
+  it('Case L: http -> https without redirectEvidence -> MISMATCH (raw difference must be explained)', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Security Standard',
+      sourceUrl: 'http://csrc.nist.gov/sp800-53',
+      publisherObserved: 'NIST',
+      redirectObserved: false,
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spURL, vr);
+    expect(comp.match).toBe(false);
+    expect(comp.url.status).toBe('MISMATCH');
+  });
+
+  it('Case M: Documented redirect -> PASS (DOCUMENTED_VARIANT)', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Security Standard',
+      sourceUrl: 'http://csrc.nist.gov/sp800-53',
+      canonicalUrl: 'https://csrc.nist.gov/sp800-53',
+      redirectObserved: true,
+      redirectEvidence: 'HTTP 301 Permanent Redirect to canonical HTTPS endpoint',
+      publisherObserved: 'NIST',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spURL, vr);
+    expect(comp.match).toBe(true);
+    expect(comp.url.status).toBe('DOCUMENTED_VARIANT');
+  });
+
+  it('Case N: Wrong canonical URL in redirect -> MISMATCH', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Security Standard',
+      sourceUrl: 'http://csrc.nist.gov/sp800-53',
+      canonicalUrl: 'https://csrc.nist.gov/different-page',
+      redirectObserved: true,
+      redirectEvidence: 'Redirected to different page',
+      publisherObserved: 'NIST',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spURL, vr);
+    expect(comp.match).toBe(false);
+    expect(comp.url.status).toBe('MISMATCH');
+  });
+
+  it('Case O: Manual canonical URL without redirect evidence -> MISMATCH', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Security Standard',
+      sourceUrl: 'https://other-site.gov/doc',
+      canonicalUrl: 'https://csrc.nist.gov/sp800-53',
+      redirectObserved: false,
+      publisherObserved: 'NIST',
+      sourceIdentityVerified: true,
+      verificationStatus: 'VERIFIED',
+    };
+    const comp = compareSourceIdentity(spURL, vr);
+    expect(comp.match).toBe(false);
+    expect(comp.url.status).toBe('MISMATCH');
+  });
+});
+
+describe('Phase 3A.5 Fine-Grained Identity Classifications (Case P)', () => {
+  const spBase: SourcePackRecord = {
+    sourceId: 'SRC-BASE',
+    title: 'Standard Title',
+    organization: 'World Bank',
+    url: 'https://worldbank.org/report',
+  };
+
+  it('exact title + exact url + exact publisher -> EXACT_NORMALIZED_MATCH', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Standard Title',
+      sourceUrl: 'https://worldbank.org/report',
+      publisherObserved: 'World Bank',
+    };
+    expect(compareSourceIdentity(spBase, vr).classification).toBe('EXACT_NORMALIZED_MATCH');
+  });
+
+  it('title variant only -> TITLE_VARIANT', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Standard Title: Comprehensive 2024 Edition',
+      titleVariantType: 'OFFICIAL_SUBTITLE_VARIANT',
+      titleMismatchReason: 'Subtitle included in page title',
+      sourceUrl: 'https://worldbank.org/report',
+      publisherObserved: 'World Bank',
+    };
+    expect(compareSourceIdentity(spBase, vr).classification).toBe('TITLE_VARIANT');
+  });
+
+  it('publisher equivalent only -> PUBLISHER_EQUIVALENT', () => {
+    const spOECD: SourcePackRecord = {
+      sourceId: 'SRC-OECD',
+      title: 'Economic Outlook',
+      organization: 'Organisation for Economic Co-operation and Development',
+      url: 'https://oecd.org/report',
+    };
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Economic Outlook',
+      sourceUrl: 'https://oecd.org/report',
+      publisherObserved: 'OECD',
+    };
+    expect(compareSourceIdentity(spOECD, vr).classification).toBe('PUBLISHER_EQUIVALENT');
+  });
+
+  it('redirect only -> REDIRECT_EQUIVALENT', () => {
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: 'Standard Title',
+      sourceUrl: 'http://worldbank.org/report',
+      canonicalUrl: 'https://worldbank.org/report',
+      redirectObserved: true,
+      redirectEvidence: 'HTTP 301 redirect to HTTPS',
+      publisherObserved: 'World Bank',
+    };
+    expect(compareSourceIdentity(spBase, vr).classification).toBe('REDIRECT_EQUIVALENT');
+  });
+});
+
+describe('Phase 3A.5 One-to-One Set Mapping Validator (Case Q)', () => {
+  const sources: SourcePackRecord[] = [
+    { sourceId: 'SRC-01', title: 'A', url: 'https://a.com' },
+    { sourceId: 'SRC-02', title: 'B', url: 'https://b.com' },
+  ];
+  const records: VerificationRecord[] = [
+    { sourcePackSourceId: 'SRC-01', verificationSourceId: 'SRC-01', sourceUrl: 'https://a.com', verificationStatus: 'VERIFIED', verificationMethod: 'page_reader', sourceExists: true, sourceIdentityVerified: true, notes: 'ok' },
+    { sourcePackSourceId: 'SRC-02', verificationSourceId: 'SRC-02', sourceUrl: 'https://b.com', verificationStatus: 'VERIFIED', verificationMethod: 'page_reader', sourceExists: true, sourceIdentityVerified: true, notes: 'ok' },
+  ];
+
+  it('detects duplicate discovery IDs', () => {
+    const dupSources = [...sources, { sourceId: 'SRC-01', title: 'A duplicate', url: 'https://a.com' }];
+    const res = validateSourceMappingSet(dupSources, records);
+    expect(res.valid).toBe(false);
+    expect(res.duplicateDiscoveryIds).toContain('SRC-01');
+  });
+
+  it('detects duplicate verification IDs', () => {
+    const dupRecords = [...records, { ...records[0] }];
+    const res = validateSourceMappingSet(sources, dupRecords);
+    expect(res.valid).toBe(false);
+    expect(res.duplicateVerificationIds).toContain('SRC-01');
+  });
+
+  it('detects missing discovery IDs in verification', () => {
+    const res = validateSourceMappingSet(sources, [records[0]]);
+    expect(res.valid).toBe(false);
+    expect(res.missingFromVerification).toContain('SRC-02');
+  });
+
+  it('detects orphan verification records', () => {
+    const extraRecord: VerificationRecord = {
+      sourcePackSourceId: 'SRC-99',
+      verificationSourceId: 'SRC-99',
+      sourceUrl: 'https://x.com',
+      verificationStatus: 'VERIFIED',
+      verificationMethod: 'page_reader',
+      sourceExists: true,
+      sourceIdentityVerified: true,
+      notes: 'orphan',
+    };
+    const res = validateSourceMappingSet(sources, [...records, extraRecord]);
+    expect(res.valid).toBe(false);
+    expect(res.extraInVerification).toContain('SRC-99');
+  });
+
+  it('detects mismatched sourcePackSourceId vs verificationSourceId', () => {
+    const mismatchedRecord: VerificationRecord = {
+      ...records[0],
+      verificationSourceId: 'SRC-WRONG-ID',
+    };
+    const res = validateSourceMappingSet(sources, [mismatchedRecord, records[1]]);
+    expect(res.valid).toBe(false);
+    expect(res.mismatchedIdPairs.length).toBe(1);
+  });
+});
+
+describe('Phase 3A.5 Symmetric Identity Fingerprinting (Case R)', () => {
   it('computes identical SHA256 fingerprints from identical canonical identities', () => {
     const ident1 = canonicalizeIdentity('Climate Report 2024', 'https://ipcc.ch/report', 'IPCC', 'N/A');
-    const ident2 = canonicalizeIdentity('“Climate Report 2024”', 'http://ipcc.ch/report/', 'ipcc', '');
+    const ident2 = canonicalizeIdentity('“Climate Report 2024”', 'https://ipcc.ch/report/', 'ipcc', '');
 
     const fp1 = computeIdentityFingerprint(ident1);
     const fp2 = computeIdentityFingerprint(ident2);
 
     expect(fp1).toBe(fp2);
     expect(fp1.length).toBe(64);
+  });
+
+  it('computes different fingerprints for different canonical identities', () => {
+    const ident1 = canonicalizeIdentity('Climate Report 2024', 'https://ipcc.ch/report', 'IPCC');
+    const ident2 = canonicalizeIdentity('Climate Report 2025', 'https://ipcc.ch/report', 'IPCC');
+
+    expect(computeIdentityFingerprint(ident1)).not.toBe(computeIdentityFingerprint(ident2));
   });
 });

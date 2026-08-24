@@ -1,0 +1,26 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0011",
+    "title": "Labor Market Review",
+    "organization": "BLS",
+    "url": "https://bls.gov/lmr"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0011",
+    "verificationSourceId": "SRC-TEST-0011",
+    "observedTitle": "Labor Market Review",
+    "sourceUrl": "https://bls.gov/lmr",
+    "publisherObserved": "BLS",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://bls.gov/lmr"
+    ],
+    "notes": "Valid inherited discovery date"
+  }
+}

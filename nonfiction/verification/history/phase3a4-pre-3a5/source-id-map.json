@@ -1,0 +1,2148 @@
+{
+  "generatedAt": "2026-08-24T00:26:19.474Z",
+  "validatedCommitSha": "ac00bd49e930285076f88dfbec8e8e31d0e97f24",
+  "totalSources": 69,
+  "totalLedgerRecords": 69,
+  "allMapped": true,
+  "mappings": [
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0001",
+      "verificationSourceId": "SRC-NF-V11-0001",
+      "sourcePackTitle": "Claims of 'no difference' or 'no effect' in Cochrane and other systematic reviews",
+      "verificationTitle": "Claims of ‘no difference’ or ‘no effect’ in Cochrane and other systematic reviews",
+      "sourcePackCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142",
+      "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142",
+      "sourcePackPublisher": "PMC / NIH National Library of Medicine",
+      "verificationPublisher": "PMC / NIH National Library of Medicine",
+      "sourcePackIdentityFingerprint": "2aadc13b3c4c90375d454f2ee2199a999400124ea77b53af6ea631f6b6a59ab7",
+      "verificationIdentityFingerprint": "2aadc13b3c4c90375d454f2ee2199a999400124ea77b53af6ea631f6b6a59ab7",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0002",
+      "verificationSourceId": "SRC-NF-V11-0002",
+      "sourcePackTitle": "Understanding and misunderstanding randomized controlled trials",
+      "verificationTitle": "Understanding and misunderstanding randomized controlled trials",
+      "sourcePackCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019115",
+      "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019115",
+      "sourcePackPublisher": "PMC / NIH National Library of Medicine",
+      "verificationPublisher": "PMC / NIH National Library of Medicine",
+      "sourcePackIdentityFingerprint": "54122cf652e48da4d12a0d417965ac39b10437813bcd5e83bc5bd02a8f2a6f57",
+      "verificationIdentityFingerprint": "54122cf652e48da4d12a0d417965ac39b10437813bcd5e83bc5bd02a8f2a6f57",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0003",
+      "verificationSourceId": "SRC-NF-V11-0003",
+      "sourcePackTitle": "Eurostat regional yearbook - 2024 edition",
+      "verificationTitle": "Eurostat regional yearbook – 2024 edition",
+      "sourcePackCanonicalUrl": "https://ec.europa.eu/eurostat/web/products-flagship-publications/w/ks-ha-24-001",
+      "verificationCanonicalUrl": "https://ec.europa.eu/eurostat/web/products-flagship-publications/w/ks-ha-24-001",
+      "sourcePackPublisher": "Eurostat (European Union)",
+      "verificationPublisher": "Eurostat (European Union)",
+      "sourcePackIdentityFingerprint": "31f9759e7d53552dc9067dcfda090fefb8c9281d21ac4ec965aafd4ed1ed5243",
+      "verificationIdentityFingerprint": "31f9759e7d53552dc9067dcfda090fefb8c9281d21ac4ec965aafd4ed1ed5243",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0004",
+      "verificationSourceId": "SRC-NF-V11-0004",
+      "sourcePackTitle": "The Daily - Labour Force Survey, December 2024",
+      "verificationTitle": "The Daily — Labour Force Survey, December 2024",
+      "sourcePackCanonicalUrl": "https://www150.statcan.gc.ca/n1/daily-quotidien/250110/dq250110a-eng.htm",
+      "verificationCanonicalUrl": "https://www150.statcan.gc.ca/n1/daily-quotidien/250110/dq250110a-eng.htm",
+      "sourcePackPublisher": "Statistics Canada",
+      "verificationPublisher": "Statistics Canada",
+      "sourcePackIdentityFingerprint": "2a00fc85f11a39ca2db81e7bc361e31391a7cf38109d67fa6b3e39e1286a5410",
+      "verificationIdentityFingerprint": "2a00fc85f11a39ca2db81e7bc361e31391a7cf38109d67fa6b3e39e1286a5410",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0005",
+      "verificationSourceId": "SRC-NF-V11-0005",
+      "sourcePackTitle": "Labour market overview, UK Statistical bulletins",
+      "verificationTitle": "Previous releases for Labour market overview, UK",
+      "sourcePackCanonicalUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/previousreleases",
+      "verificationCanonicalUrl": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/previousreleases",
+      "sourcePackPublisher": "Office for National Statistics (UK)",
+      "verificationPublisher": "Office for National Statistics (UK)",
+      "sourcePackIdentityFingerprint": "7e853142793324d32052fddcb8800a53416752b7a3d4ef4b1d06532890623856",
+      "verificationIdentityFingerprint": "93469e97cdda0a82362ea988bed1385289bcbe45e307c9c5028b27f153fed038",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Titles match after normalization (encoding/punctuation differences)"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0006",
+      "verificationSourceId": "SRC-NF-V11-0006",
+      "sourcePackTitle": "Italian Statistical Yearbook 2025 - Executive Summary",
+      "verificationTitle": "Italian Statistical Yearbook 2025 – Executive Summary",
+      "sourcePackCanonicalUrl": "https://www.istat.it/en/publication/italian-statistical-yearbook-2025-executive-summary",
+      "verificationCanonicalUrl": "https://www.istat.it/en/publication/italian-statistical-yearbook-2025-executive-summary",
+      "sourcePackPublisher": "ISTAT (Italy)",
+      "verificationPublisher": "ISTAT (Italy)",
+      "sourcePackIdentityFingerprint": "3917b1306ae063586abd64fa0c05aee3e0b450675039eeb5b41e1ae452707e48",
+      "verificationIdentityFingerprint": "3917b1306ae063586abd64fa0c05aee3e0b450675039eeb5b41e1ae452707e48",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0007",
+      "verificationSourceId": "SRC-NF-V11-0007",
+      "sourcePackTitle": "OECD Economic Surveys: Japan 2024",
+      "verificationTitle": "OECD Economic Surveys: Japan 2024",
+      "sourcePackCanonicalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/01/oecd-economic-surveys-japan-2024_9289b572/41e807f9-en.pdf",
+      "verificationCanonicalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/01/oecd-economic-surveys-japan-2024_9289b572/41e807f9-en.pdf",
+      "sourcePackPublisher": "OECD",
+      "verificationPublisher": "OECD",
+      "sourcePackIdentityFingerprint": "88a45b4f44da458eae0f5a3a7d6e17b5b429c69fa233ed086631a73ab0862c1e",
+      "verificationIdentityFingerprint": "88a45b4f44da458eae0f5a3a7d6e17b5b429c69fa233ed086631a73ab0862c1e",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0008",
+      "verificationSourceId": "SRC-NF-V11-0008",
+      "sourcePackTitle": "THE OREGON HEALTH INSURANCE EXPERIMENT - PMC",
+      "verificationTitle": "THE OREGON HEALTH INSURANCE EXPERIMENT: EVIDENCE FROM THE FIRST YEAR*",
+      "sourcePackCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3535298",
+      "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3535298",
+      "sourcePackPublisher": "PMC / NIH (NBER/QJE)",
+      "verificationPublisher": "PMC / NIH (NBER/QJE)",
+      "sourcePackIdentityFingerprint": "41e1009440b6578ff91e477baad174c74ab8e78e86b8a4cd758b8e8f7fe7a6d6",
+      "verificationIdentityFingerprint": "802843145fdc0046f5c00d68fd26da6ee4274edb8f5f8729493370d495e0ff9b",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0009",
+      "verificationSourceId": "SRC-NF-V11-0009",
+      "sourcePackTitle": "Moving to Opportunity: an Experimental Study of  - PMC",
+      "verificationTitle": "Moving to Opportunity: an Experimental Study of Neighborhood Effects on Mental Health",
+      "sourcePackCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1448013",
+      "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1448013",
+      "sourcePackPublisher": "PMC / NIH (American Journal of Public Health)",
+      "verificationPublisher": "PMC / NIH (American Journal of Public Health)",
+      "sourcePackIdentityFingerprint": "fc7d8c2f5292eea5fc3fd657d2cbd9d6589070a568df3cea42af3d52c9a81fff",
+      "verificationIdentityFingerprint": "ff10c894d7f209ac637c7a5d4fb50f26d72f207e391591ae9ca5a7c316908d2a",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0010",
+      "verificationSourceId": "SRC-NF-V11-0010",
+      "sourcePackTitle": "Estimating the reproducibility of psychological science",
+      "verificationTitle": "Estimating the reproducibility of psychological science",
+      "sourcePackCanonicalUrl": "https://www.science.org/doi/10.1126/science.aac4716",
+      "verificationCanonicalUrl": "https://www.science.org/doi/10.1126/science.aac4716",
+      "sourcePackPublisher": "AAAS / Science",
+      "verificationPublisher": "AAAS / Science",
+      "sourcePackIdentityFingerprint": "246979f03b7499ed77f740b349eac38ad7b5dd64a04ea220acdce91c366a670a",
+      "verificationIdentityFingerprint": "246979f03b7499ed77f740b349eac38ad7b5dd64a04ea220acdce91c366a670a",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0011",
+      "verificationSourceId": "SRC-NF-V11-0011",
+      "sourcePackTitle": "Evaluating the replicability of social science experiments in",
+      "verificationTitle": "Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015",
+      "sourcePackCanonicalUrl": "https://www.nature.com/articles/s41562-018-0399-z",
+      "verificationCanonicalUrl": "https://www.nature.com/articles/s41562-018-0399-z",
+      "sourcePackPublisher": "Nature Human Behaviour",
+      "verificationPublisher": "Nature Human Behaviour",
+      "sourcePackIdentityFingerprint": "325c2e2fb2e21c80ad38ecc4cf7436ca7cf15fb1fd2a8fa4475e2d3a2772aa78",
+      "verificationIdentityFingerprint": "03b43038851cab8218729309f6f686dcf3dc2d056236dbb0fd64ac7ca72cea35",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0012",
+      "verificationSourceId": "SRC-NF-V11-0012",
+      "sourcePackTitle": "PRISMA 2020 checklist",
+      "verificationTitle": "PRISMA 2020 checklist — PRISMA statement",
+      "sourcePackCanonicalUrl": "https://www.prisma-statement.org/prisma-2020-checklist",
+      "verificationCanonicalUrl": "https://www.prisma-statement.org/prisma-2020-checklist",
+      "sourcePackPublisher": "PRISMA Statement Group",
+      "verificationPublisher": "PRISMA Statement Group",
+      "sourcePackIdentityFingerprint": "f237b0727668011b8f0e8e379664492d255448a86a195d8d2fd37d76f0b4ed0f",
+      "verificationIdentityFingerprint": "c54fbc1c541e41aab1acf868316c7108e938e7c4dcbe6b302b34900a44bc3163",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0013",
+      "verificationSourceId": "SRC-NF-V11-0013",
+      "sourcePackTitle": "World Population Prospects 2024",
+      "verificationTitle": "World Population Prospects",
+      "sourcePackCanonicalUrl": "https://population.un.org/wpp",
+      "verificationCanonicalUrl": "https://population.un.org/wpp",
+      "sourcePackPublisher": "UN DESA Population Division",
+      "verificationPublisher": "UN DESA Population Division",
+      "sourcePackIdentityFingerprint": "8ad8e7862f221ee74949d126ec2f69916e36940605ec106e920cc2510bca9770",
+      "verificationIdentityFingerprint": "338931954cef567ab7bad6b35ac9f28850948c7f12d0d32699ffcfd7875712cc",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Titles match after normalization (encoding/punctuation differences)"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0014",
+      "verificationSourceId": "SRC-NF-V11-0014",
+      "sourcePackTitle": "REPORT 2023/2024 | Human Development Reports (PDF)",
+      "verificationTitle": "REPORT 2023/2024 | Human Development Reports (PDF)",
+      "sourcePackCanonicalUrl": "https://hdr.undp.org/system/files/documents/global-report-document/hdr2023-24reporten.pdf",
+      "verificationCanonicalUrl": "https://hdr.undp.org/system/files/documents/global-report-document/hdr2023-24reporten.pdf",
+      "sourcePackPublisher": "United Nations Development Programme (UNDP)",
+      "verificationPublisher": "United Nations Development Programme (UNDP)",
+      "sourcePackIdentityFingerprint": "934d19b4a8383df6cd0051143caf0ac7ab28a43fa648af9add34bd85190117ca",
+      "verificationIdentityFingerprint": "934d19b4a8383df6cd0051143caf0ac7ab28a43fa648af9add34bd85190117ca",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0015",
+      "verificationSourceId": "SRC-NF-V11-0015",
+      "sourcePackTitle": "World health statistics 2024",
+      "verificationTitle": "World health statistics 2024: monitoring health for the SDGs, Sustainable Development Goals",
+      "sourcePackCanonicalUrl": "https://www.who.int/publications/b/74273",
+      "verificationCanonicalUrl": "https://www.who.int/publications/b/74273",
+      "sourcePackPublisher": "World Health Organization",
+      "verificationPublisher": "World Health Organization",
+      "sourcePackIdentityFingerprint": "8713cfd34f8d7aa4c1ec93c4afadb52e6b4372320320a8db0fccbb03e0940d30",
+      "verificationIdentityFingerprint": "1426f61e66aaabfff480c4b240538a26af256fcc91eb510c540a98e2bf856d5e",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0016",
+      "verificationSourceId": "SRC-NF-V11-0016",
+      "sourcePackTitle": "World malaria report 2024",
+      "verificationTitle": "World malaria report 2024",
+      "sourcePackCanonicalUrl": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2024",
+      "verificationCanonicalUrl": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2024",
+      "sourcePackPublisher": "World Health Organization",
+      "verificationPublisher": "World Health Organization",
+      "sourcePackIdentityFingerprint": "cf1144509b16d7536b051b0c7bdc375990764db4f6fc4325efa9487dcf3ea1c6",
+      "verificationIdentityFingerprint": "cf1144509b16d7536b051b0c7bdc375990764db4f6fc4325efa9487dcf3ea1c6",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0017",
+      "verificationSourceId": "SRC-NF-V11-0017",
+      "sourcePackTitle": "Food Outlook - Biannual report on global food markets (November 2024)",
+      "verificationTitle": "Release of Food Outlook November 2024",
+      "sourcePackCanonicalUrl": "https://www.fao.org/markets-and-trade/news-and-events/events-detail/food-outlook-november-2024/en",
+      "verificationCanonicalUrl": "https://www.fao.org/markets-and-trade/news-and-events/events-detail/food-outlook-november-2024/en",
+      "sourcePackPublisher": "Food and Agriculture Organization (FAO)",
+      "verificationPublisher": "Food and Agriculture Organization (FAO)",
+      "sourcePackIdentityFingerprint": "18ee9fffbaf839c5274ad87a34ccd51a63658fc78a59dc457da0febf1e9cbafd",
+      "verificationIdentityFingerprint": "c2c92cfb1377382d2b2d668459a670d715ee56e93880428c796e880ff7db083f",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Titles match after normalization (encoding/punctuation differences)"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0036",
+      "verificationSourceId": "SRC-NF-0036",
+      "sourcePackTitle": "NIST SP 800-171 Rev. 3, Protecting Controlled Unclassified Information",
+      "verificationTitle": "NIST Special Publication (SP) 800-171 Rev. 3, Protecting Controlled Unclassified Information in Nonfederal Systems and Organizations",
+      "sourcePackCanonicalUrl": "https://csrc.nist.gov/pubs/sp/800/171/r3/final",
+      "verificationCanonicalUrl": "https://csrc.nist.gov/pubs/sp/800/171/r3/final",
+      "sourcePackPublisher": "NIST",
+      "verificationPublisher": "NIST",
+      "sourcePackIdentityFingerprint": "c058591b4d7a759daa8a61dc0c8ae40c3a74ab9d0fb4502ef95f13dbb3b1f41a",
+      "verificationIdentityFingerprint": "1feae1c319523c48defd18c722a04cc7ddba6556c19cebcf367d41e194c89854",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Titles match after normalization (encoding/punctuation differences)"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0037",
+      "verificationSourceId": "SRC-NF-0037",
+      "sourcePackTitle": "[PDF] ENISA THREAT LANDSCAPE 2025",
+      "verificationTitle": "[PDF] ENISA THREAT LANDSCAPE 2025",
+      "sourcePackCanonicalUrl": "https://www.enisa.europa.eu/sites/default/files/2026-01/ENISA%20Threat%20Landscape%202025_v1.2.pdf",
+      "verificationCanonicalUrl": "https://www.enisa.europa.eu/sites/default/files/2026-01/ENISA%20Threat%20Landscape%202025_v1.2.pdf",
+      "sourcePackPublisher": "ENISA",
+      "verificationPublisher": "ENISA",
+      "sourcePackIdentityFingerprint": "46aa0ed3a669d918e1bf486ac0b4f75460101890c3c55e9d5eb240a48712857b",
+      "verificationIdentityFingerprint": "46aa0ed3a669d918e1bf486ac0b4f75460101890c3c55e9d5eb240a48712857b",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0038",
+      "verificationSourceId": "SRC-NF-0038",
+      "sourcePackTitle": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "verificationTitle": "Web Content Accessibility Guidelines (WCAG) 2.2",
+      "sourcePackCanonicalUrl": "https://www.w3.org/TR/WCAG22",
+      "verificationCanonicalUrl": "https://www.w3.org/TR/WCAG22",
+      "sourcePackPublisher": "W3C",
+      "verificationPublisher": "W3C",
+      "sourcePackIdentityFingerprint": "962643a101bc8f41fe7bc6f53637b210b87e901fe0da6e6a6e4029fa0b1cdbfd",
+      "verificationIdentityFingerprint": "962643a101bc8f41fe7bc6f53637b210b87e901fe0da6e6a6e4029fa0b1cdbfd",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0039",
+      "verificationSourceId": "SRC-NF-0039",
+      "sourcePackTitle": "NASA Systems Engineering Handbook",
+      "verificationTitle": "NASA Systems Engineering Handbook - NASA Technical Reports Server (NTRS)",
+      "sourcePackCanonicalUrl": "https://ntrs.nasa.gov/citations/20170001761",
+      "verificationCanonicalUrl": "https://ntrs.nasa.gov/citations/20170001761",
+      "sourcePackPublisher": "NASA",
+      "verificationPublisher": "NASA",
+      "sourcePackIdentityFingerprint": "7ea0c97388332f27aebc7cd965b5e615aa185cfbda0849f8f2553621c8e39d40",
+      "verificationIdentityFingerprint": "145f3c5cc2d88e5753aeab1654a4d62863681fed58e4b52ee1ec7ea288ff44be",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0048",
+      "verificationSourceId": "SRC-NF-0048",
+      "sourcePackTitle": "UAM Airspace Research Roadmap - Rev. 2.0",
+      "verificationTitle": "UAM Airspace Research Roadmap - Rev. 2.0",
+      "sourcePackCanonicalUrl": "https://ntrs.nasa.gov/citations/20230002647",
+      "verificationCanonicalUrl": "https://ntrs.nasa.gov/citations/20230002647",
+      "sourcePackPublisher": "NASA",
+      "verificationPublisher": "NASA",
+      "sourcePackIdentityFingerprint": "fa598b8b26a0da9276908b2df4d9741f47498a03fdad15d944b0aaf07ff1f94f",
+      "verificationIdentityFingerprint": "fa598b8b26a0da9276908b2df4d9741f47498a03fdad15d944b0aaf07ff1f94f",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0018",
+      "verificationSourceId": "SRC-NF-V11-0018",
+      "sourcePackTitle": "BIS Annual Economic Report 2024",
+      "verificationTitle": "Annual Economic Report 2024",
+      "sourcePackCanonicalUrl": "https://www.bis.org/publ/arpdf/ar2024e.htm",
+      "verificationCanonicalUrl": "https://www.bis.org/publ/arpdf/ar2024e.htm",
+      "sourcePackPublisher": "Bank for International Settlements",
+      "verificationPublisher": "Bank for International Settlements",
+      "sourcePackIdentityFingerprint": "fc6ace0c2ca46c2dc3b4d535e4cbb524fdb4e791579376d9a7da458059a0547b",
+      "verificationIdentityFingerprint": "db04d87bfa500400a5159e5ae4d79ce30611397d7823408e7eeebf0170b962cf",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Titles match after normalization (encoding/punctuation differences)"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0019",
+      "verificationSourceId": "SRC-NF-V11-0019",
+      "sourcePackTitle": "Bank of England Financial Stability Report, November 2024",
+      "verificationTitle": "Financial Stability Report - November 2024",
+      "sourcePackCanonicalUrl": "https://www.bankofengland.co.uk/financial-stability-report/2024/november-2024",
+      "verificationCanonicalUrl": "https://www.bankofengland.co.uk/financial-stability-report/2024/november-2024",
+      "sourcePackPublisher": "Bank of England",
+      "verificationPublisher": "Bank of England",
+      "sourcePackIdentityFingerprint": "5cd7ef080d225338e443c6bcb4afc2ec1a622cd81ba7ba88f198f378572ba190",
+      "verificationIdentityFingerprint": "90127a0003c06967273502e4f17823469398240b88896b10169ccac6c7446ed6",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0020",
+      "verificationSourceId": "SRC-NF-V11-0020",
+      "sourcePackTitle": "The Global Risks Report 2024, 19th Edition",
+      "verificationTitle": "Global Risks Report 2024 | World Economic Forum",
+      "sourcePackCanonicalUrl": "https://www.weforum.org/publications/global-risks-report-2024",
+      "verificationCanonicalUrl": "https://www.weforum.org/publications/global-risks-report-2024",
+      "sourcePackPublisher": "World Economic Forum",
+      "verificationPublisher": "World Economic Forum",
+      "sourcePackIdentityFingerprint": "fe2db1396da06e9f5ffa05b7ef5e7770f8caf71857d28449c64aab1e2a35035b",
+      "verificationIdentityFingerprint": "b431cfa9f3d901f2ad24b28b9c162ab42f07a1ba1fd09cb23823668d51fefb6e",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Titles match after normalization (encoding/punctuation differences)"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0021",
+      "verificationSourceId": "SRC-NF-V11-0021",
+      "sourcePackTitle": "The Future of Jobs Report 2025",
+      "verificationTitle": "The Future of Jobs Report 2025",
+      "sourcePackCanonicalUrl": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+      "verificationCanonicalUrl": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
+      "sourcePackPublisher": "World Economic Forum",
+      "verificationPublisher": "World Economic Forum",
+      "sourcePackIdentityFingerprint": "0067fe8e07d759c4bb4fb2d34c0cd2b0e3f12128a5f87a95cf3bd1cbd089b58d",
+      "verificationIdentityFingerprint": "0067fe8e07d759c4bb4fb2d34c0cd2b0e3f12128a5f87a95cf3bd1cbd089b58d",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0031",
+      "verificationSourceId": "SRC-NF-0031",
+      "sourcePackTitle": "Employee Benefits in the United States, March 2024",
+      "verificationTitle": "Employee Benefits in the United States, March 2024",
+      "sourcePackCanonicalUrl": "https://www.bls.gov/ebs/publications/employee-benefits-in-the-united-states-march-2024.htm",
+      "verificationCanonicalUrl": "https://www.bls.gov/ebs/publications/employee-benefits-in-the-united-states-march-2024.htm",
+      "sourcePackPublisher": "U.S. Bureau of Labor Statistics",
+      "verificationPublisher": "U.S. Bureau of Labor Statistics",
+      "sourcePackIdentityFingerprint": "695d4d1c4549d7a11a51e9425ed762d437314cceb24aa4e0b74684d89d7717c3",
+      "verificationIdentityFingerprint": "695d4d1c4549d7a11a51e9425ed762d437314cceb24aa4e0b74684d89d7717c3",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0022",
+      "verificationSourceId": "SRC-NF-V11-0022",
+      "sourcePackTitle": "Annual Energy Outlook 2026",
+      "verificationTitle": "Annual Energy Outlook 2026 - U.S. Energy Information Administration (EIA)",
+      "sourcePackCanonicalUrl": "https://www.eia.gov/outlooks/aeo",
+      "verificationCanonicalUrl": "https://www.eia.gov/outlooks/aeo",
+      "sourcePackPublisher": "U.S. Energy Information Administration",
+      "verificationPublisher": "U.S. Energy Information Administration",
+      "sourcePackIdentityFingerprint": "2877b1e167de85f59d0d85a85aac08aaba4e7f43d2f44482d7a5807f86fcd699",
+      "verificationIdentityFingerprint": "45c8f06222dd8bd38a506aebd416eb7864106042b6c939177f46640ccb499677",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0032",
+      "verificationSourceId": "SRC-NF-0032",
+      "sourcePackTitle": "The Condition of Education 2024 (NCES 2024-144)",
+      "verificationTitle": "Condition of Education 2024 | IES",
+      "sourcePackCanonicalUrl": "https://nces.ed.gov/use-work/resource-library/report/compendium/condition-education-2024",
+      "verificationCanonicalUrl": "https://nces.ed.gov/use-work/resource-library/report/compendium/condition-education-2024",
+      "sourcePackPublisher": "National Center for Education Statistics (NCES), IES, U.S. Department of Education",
+      "verificationPublisher": "National Center for Education Statistics (NCES), IES, U.S. Department of Education",
+      "sourcePackIdentityFingerprint": "af04001e2b67944b54ff18aacce8ebd8f43a1f863cb9fbcb6855b661464009a8",
+      "verificationIdentityFingerprint": "49092c88628d9c017680e7a39b89dc99d34ac2e43e81473bad08960a071d7608",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Titles match after normalization (encoding/punctuation differences)"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0033",
+      "verificationSourceId": "SRC-NF-0033",
+      "sourcePackTitle": "Digest of Education Statistics",
+      "verificationTitle": "Digest of Education Statistics Home",
+      "sourcePackCanonicalUrl": "https://nces.ed.gov/programs/digest",
+      "verificationCanonicalUrl": "https://nces.ed.gov/programs/digest",
+      "sourcePackPublisher": "National Center for Education Statistics (NCES), IES, U.S. Department of Education",
+      "verificationPublisher": "National Center for Education Statistics (NCES), IES, U.S. Department of Education",
+      "sourcePackIdentityFingerprint": "3397d3e16bef8205e2b529d15bb62405f2f4142de198fdc2af76dc310ee48018",
+      "verificationIdentityFingerprint": "31889ddf699ec7ce07fd726f6182b41272ee7492d9fd20d81a5ec7e45ff0f7a5",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0034",
+      "verificationSourceId": "SRC-NF-0034",
+      "sourcePackTitle": "The State of U.S. Science and Engineering 2024",
+      "verificationTitle": "The State of U.S. Science and Engineering 2024 | NCSES",
+      "sourcePackCanonicalUrl": "https://ncses.nsf.gov/pubs/nsb20243",
+      "verificationCanonicalUrl": "https://ncses.nsf.gov/pubs/nsb20243",
+      "sourcePackPublisher": "National Center for Science and Engineering Statistics (NCSES), National Science Foundation",
+      "verificationPublisher": "National Center for Science and Engineering Statistics (NCSES), National Science Foundation",
+      "sourcePackIdentityFingerprint": "a2072b9b43844c6983d530ad9d8c027039be63ccb37e0e3baa3e404abec0ab6b",
+      "verificationIdentityFingerprint": "7f20da6418c4b88586f74cd0005a45649dc2752129f7fbe89ba2b39a5fccd758",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0040",
+      "verificationSourceId": "SRC-NF-0040",
+      "sourcePackTitle": "NOAA predicts above-normal 2024 Atlantic hurricane season",
+      "verificationTitle": "NOAA predicts above-normal 2024 Atlantic hurricane season",
+      "sourcePackCanonicalUrl": "https://www.noaa.gov/news-release/noaa-predicts-above-normal-2024-atlantic-hurricane-season",
+      "verificationCanonicalUrl": "https://www.noaa.gov/news-release/noaa-predicts-above-normal-2024-atlantic-hurricane-season",
+      "sourcePackPublisher": "NOAA",
+      "verificationPublisher": "NOAA",
+      "sourcePackIdentityFingerprint": "1b413da105af08ef6b41b74c1f5f2ce34738424e79f03a9222a73028baddd520",
+      "verificationIdentityFingerprint": "1b413da105af08ef6b41b74c1f5f2ce34738424e79f03a9222a73028baddd520",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0023",
+      "verificationSourceId": "SRC-NF-V11-0023",
+      "sourcePackTitle": "Assessing risk of bias due to missing evidence in a meta-analysis",
+      "verificationTitle": "Assessing risk of bias due to missing evidence in a meta-analysis",
+      "sourcePackCanonicalUrl": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13",
+      "verificationCanonicalUrl": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13",
+      "sourcePackPublisher": "Cochrane",
+      "verificationPublisher": "Cochrane",
+      "sourcePackIdentityFingerprint": "32a11ece620befecc38051964cea828dee789530e5da1db71dbef011ca8b2ce2",
+      "verificationIdentityFingerprint": "32a11ece620befecc38051964cea828dee789530e5da1db71dbef011ca8b2ce2",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0024",
+      "verificationSourceId": "SRC-NF-V11-0024",
+      "sourcePackTitle": "Including non-randomized studies on intervention effects",
+      "verificationTitle": "Including non-randomized studies on intervention effects",
+      "sourcePackCanonicalUrl": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-24",
+      "verificationCanonicalUrl": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-24",
+      "sourcePackPublisher": "Cochrane",
+      "verificationPublisher": "Cochrane",
+      "sourcePackIdentityFingerprint": "118c255643221b1d239b3cf71887125cf4569baf6c8efef7ff6560849bfecb56",
+      "verificationIdentityFingerprint": "118c255643221b1d239b3cf71887125cf4569baf6c8efef7ff6560849bfecb56",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0025",
+      "verificationSourceId": "SRC-NF-V11-0025",
+      "sourcePackTitle": "GRADE",
+      "verificationTitle": "GRADE",
+      "sourcePackCanonicalUrl": "https://www.cochrane.org/learn/courses-and-resources/cochrane-methodology/grade",
+      "verificationCanonicalUrl": "https://www.cochrane.org/learn/courses-and-resources/cochrane-methodology/grade",
+      "sourcePackPublisher": "Cochrane / GRADE Working Group",
+      "verificationPublisher": "Cochrane / GRADE Working Group",
+      "sourcePackIdentityFingerprint": "071aba12eda93fe05efd6db5fdb78709480ad49f88dd1d6117ab4f61309d429e",
+      "verificationIdentityFingerprint": "071aba12eda93fe05efd6db5fdb78709480ad49f88dd1d6117ab4f61309d429e",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0026",
+      "verificationSourceId": "SRC-NF-V11-0026",
+      "sourcePackTitle": "The State of Food Security and Nutrition in the World 2024 (SOFI)",
+      "verificationTitle": "FAO Knowledge Repository",
+      "sourcePackCanonicalUrl": "https://openknowledge.fao.org/handle/20.500.14283/cd1254en",
+      "verificationCanonicalUrl": "https://openknowledge.fao.org/handle/20.500.14283/cd1254en",
+      "sourcePackPublisher": "FAO (on behalf of UN agencies)",
+      "verificationPublisher": "FAO (on behalf of UN agencies)",
+      "sourcePackIdentityFingerprint": "fd9becb0c3e74635a8c9eb9f2fccd9bfd3b9ae799b1c86a1fec5fcfe527e6251",
+      "verificationIdentityFingerprint": "e446bb9a60801b97373e5db0ec0ea367f7b5a281ed73fb6f484c4bea9198a29c",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0027",
+      "verificationSourceId": "SRC-NF-V11-0027",
+      "sourcePackTitle": "World Employment and Social Outlook: Trends 2024",
+      "verificationTitle": "World Employment and Social Outlook: Trends 2024",
+      "sourcePackCanonicalUrl": "https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook-trends-2024",
+      "verificationCanonicalUrl": "https://www.ilo.org/publications/flagship-reports/world-employment-and-social-outlook-trends-2024",
+      "sourcePackPublisher": "International Labour Organization (ILO)",
+      "verificationPublisher": "International Labour Organization (ILO)",
+      "sourcePackIdentityFingerprint": "03e7eca46fc2c90a2d8f65a175b78d67dbf3505bad5ae9334101042883c4d2e6",
+      "verificationIdentityFingerprint": "03e7eca46fc2c90a2d8f65a175b78d67dbf3505bad5ae9334101042883c4d2e6",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0028",
+      "verificationSourceId": "SRC-NF-V11-0028",
+      "sourcePackTitle": "World Education Statistics, 2024 | UNESCO",
+      "verificationTitle": "World Education Statistics, 2024",
+      "sourcePackCanonicalUrl": "https://www.unesco.org/en/articles/world-education-statistics-2024",
+      "verificationCanonicalUrl": "https://www.unesco.org/en/articles/world-education-statistics-2024",
+      "sourcePackPublisher": "UNESCO",
+      "verificationPublisher": "UNESCO",
+      "sourcePackIdentityFingerprint": "dff7069c84435d5baf2752c6addf46b73bbbddb6970b2ddffb9e9057c8c3b5e6",
+      "verificationIdentityFingerprint": "5b0c3b183fd53e61a0cbf3b810dffc6a75adb6805a79c5a552fc351ee08294a3",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0029",
+      "verificationSourceId": "SRC-NF-V11-0029",
+      "sourcePackTitle": "The economic potential of generative AI: The next productivity frontier",
+      "verificationTitle": "The economic potential of generative AI: The next productivity frontier",
+      "sourcePackCanonicalUrl": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "verificationCanonicalUrl": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
+      "sourcePackPublisher": "McKinsey & Company / McKinsey Global Institute",
+      "verificationPublisher": "McKinsey & Company / McKinsey Global Institute",
+      "sourcePackIdentityFingerprint": "27d1f5c96d955f562b115d96ecba30588cf3488867a09e308ed56d8e5f329696",
+      "verificationIdentityFingerprint": "27d1f5c96d955f562b115d96ecba30588cf3488867a09e308ed56d8e5f329696",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0030",
+      "verificationSourceId": "SRC-NF-V11-0030",
+      "sourcePackTitle": "McKinsey Technology Trends Outlook 2025",
+      "verificationTitle": "mckinsey-technology-trends-outlook-2025.pdf",
+      "sourcePackCanonicalUrl": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/the%20top%20trends%20in%20tech%202025/mckinsey-technology-trends-outlook-2025.pdf",
+      "verificationCanonicalUrl": "https://www.mckinsey.com/~/media/mckinsey/business%20functions/mckinsey%20digital/our%20insights/the%20top%20trends%20in%20tech%202025/mckinsey-technology-trends-outlook-2025.pdf",
+      "sourcePackPublisher": "McKinsey & Company",
+      "verificationPublisher": "McKinsey & Company",
+      "sourcePackIdentityFingerprint": "c4aa08230cad90bac4413e36ee3eda753376b7fd3ffe387aa38bdcc3192116bc",
+      "verificationIdentityFingerprint": "f1632dfd9e8fb9217fc7b9709fae44d3826d19dc11870002a2cc737798415589",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed document filename corresponds to McKinsey Technology Trends Outlook 2025"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0035",
+      "verificationSourceId": "SRC-NF-0035",
+      "sourcePackTitle": "National Vital Statistics Reports (NVSR) - Homepage",
+      "verificationTitle": "Products - National Vital Statistics Reports",
+      "sourcePackCanonicalUrl": "https://www.cdc.gov/nchs/products/nvsr.htm",
+      "verificationCanonicalUrl": "https://www.cdc.gov/nchs/products/nvsr.htm",
+      "sourcePackPublisher": "National Center for Health Statistics (NCHS), CDC, U.S. Department of Health and Human Services",
+      "verificationPublisher": "National Center for Health Statistics (NCHS), CDC, U.S. Department of Health and Human Services",
+      "sourcePackIdentityFingerprint": "6b4db1a03b3c48d43c61b0fb2bd61266dbb716b77c467e3580a5ea66d22855ed",
+      "verificationIdentityFingerprint": "1feb0dc38b7832ef1d1d1c219b0f105ef9b944017fb7040923725cdfc6376040",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0045",
+      "verificationSourceId": "SRC-NF-0045",
+      "sourcePackTitle": "Monthly Climate Reports: Global Climate Report — Annual 2024",
+      "verificationTitle": "Monthly Climate Reports: Global Climate Report — Annual 2024",
+      "sourcePackCanonicalUrl": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202413",
+      "verificationCanonicalUrl": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202413",
+      "sourcePackPublisher": "NOAA National Centers for Environmental Information (NCEI)",
+      "verificationPublisher": "NOAA National Centers for Environmental Information (NCEI)",
+      "sourcePackIdentityFingerprint": "4cd74f927a568c2958d53644d82e0d9712500545956c28d9764ea0780661c10e",
+      "verificationIdentityFingerprint": "4cd74f927a568c2958d53644d82e0d9712500545956c28d9764ea0780661c10e",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0046",
+      "verificationSourceId": "SRC-NF-0046",
+      "sourcePackTitle": "Fifth National Climate Assessment (NCA5)",
+      "verificationTitle": "NOAA Institutional Repository",
+      "sourcePackCanonicalUrl": "https://repository.library.noaa.gov/view/noaa/61592",
+      "verificationCanonicalUrl": "https://repository.library.noaa.gov/view/noaa/61592",
+      "sourcePackPublisher": "U.S. Global Change Research Program (USGCRP) — NOAA Institutional Repository",
+      "verificationPublisher": "U.S. Global Change Research Program (USGCRP) — NOAA Institutional Repository",
+      "sourcePackIdentityFingerprint": "498e84df4f4cb432860684022e043b3cadb50e61288a8a24f07904cce1fad97a",
+      "verificationIdentityFingerprint": "f731544576645776fad3b0482c8e2141414c9401873c54946cf69feb0dd65378",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0049",
+      "verificationSourceId": "SRC-NF-0049",
+      "sourcePackTitle": "[PDF] NIST.SP.800-53r5.pdf",
+      "verificationTitle": "Security and Privacy Controls for Information Systems and Organizations",
+      "sourcePackCanonicalUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf",
+      "verificationCanonicalUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf",
+      "sourcePackPublisher": "NIST",
+      "verificationPublisher": "NIST",
+      "sourcePackIdentityFingerprint": "bb9f1b3a5846680a80f8b75eb7e0bb4ed10175176dd9ce7ad7ed2c5ab205ad5c",
+      "verificationIdentityFingerprint": "ff1dd2bceda9d13f8220ea10bcfa886bdc6abc0ed7674a647b6c9002512213e3",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed official document title Security and Privacy Controls corresponds to discovery filename [PDF] NIST.SP.800-53r5.pdf"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0031",
+      "verificationSourceId": "SRC-NF-V11-0031",
+      "sourcePackTitle": "[PDF] The NIST Cybersecurity Framework (CSF) 2.0",
+      "verificationTitle": "The NIST Cybersecurity Framework (CSF) 2.0",
+      "sourcePackCanonicalUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+      "verificationCanonicalUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
+      "sourcePackPublisher": "NIST",
+      "verificationPublisher": "NIST",
+      "sourcePackIdentityFingerprint": "d134fe0be42f8d03f829c676f1c1e247e81b9c697354fe1e0c59fd412e18d393",
+      "verificationIdentityFingerprint": "4170c5631391b83fdeacbb509852d91c06dfca5f1eb90d9d0ebe0717164f4d2e",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0032",
+      "verificationSourceId": "SRC-NF-V11-0032",
+      "sourcePackTitle": "SP 800-207, Zero Trust Architecture",
+      "verificationTitle": "NIST Special Publication (SP) 800-207, Zero Trust Architecture",
+      "sourcePackCanonicalUrl": "https://csrc.nist.gov/pubs/sp/800/207/final",
+      "verificationCanonicalUrl": "https://csrc.nist.gov/pubs/sp/800/207/final",
+      "sourcePackPublisher": "NIST",
+      "verificationPublisher": "NIST",
+      "sourcePackIdentityFingerprint": "3cc80008eb0a15181b1448ad5f9268f6bc6ab48563c820a501576cfbdf773a35",
+      "verificationIdentityFingerprint": "1452e944e9707b556da994c04626bba9c7ded4e6dcb9f25233272ea67bd914b8",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0050",
+      "verificationSourceId": "SRC-NF-0050",
+      "sourcePackTitle": "Highly active hurricane season likely to continue in Atlantic",
+      "verificationTitle": "Highly active hurricane season likely to continue in the Atlantic",
+      "sourcePackCanonicalUrl": "https://www.noaa.gov/news-release/highly-active-hurricane-season-likely-to-continue-in-atlantic",
+      "verificationCanonicalUrl": "https://www.noaa.gov/news-release/highly-active-hurricane-season-likely-to-continue-in-atlantic",
+      "sourcePackPublisher": "NOAA",
+      "verificationPublisher": "NOAA",
+      "sourcePackIdentityFingerprint": "e269110f06c280f56c95c7467b0aab8c15a223942f0a320faf54e07e2abfe2c1",
+      "verificationIdentityFingerprint": "b843bd5629be190519cda95b849571386056432f4babca8ec28730068e110543",
+      "titleComparison": {
+        "status": "DOCUMENTED_VARIANT",
+        "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
+      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0001",
+      "verificationSourceId": "SRC-NF-0001",
+      "sourcePackTitle": "Climate Change 2023: AR6 Synthesis Report — Summary for Policymakers",
+      "verificationTitle": "Climate Change 2023: AR6 Synthesis Report — Summary for Policymakers",
+      "sourcePackCanonicalUrl": "https://digitallibrary.un.org/record/4008082?ln=en",
+      "verificationCanonicalUrl": "https://digitallibrary.un.org/record/4008082?ln=en",
+      "sourcePackPublisher": "IPCC",
+      "verificationPublisher": "IPCC",
+      "sourcePackIdentityFingerprint": "7095e0d695d97e1dfc65d5b48ce45f77503d0d31ed017bf1fb8c6a80ae73a06b",
+      "verificationIdentityFingerprint": "7095e0d695d97e1dfc65d5b48ce45f77503d0d31ed017bf1fb8c6a80ae73a06b",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0002",
+      "verificationSourceId": "SRC-NF-0002",
+      "sourcePackTitle": "Emissions Gap Report 2023: Broken Record",
+      "verificationTitle": "Emissions Gap Report 2023: Broken Record",
+      "sourcePackCanonicalUrl": "https://www.unep.org/resources/emissions-gap-report-2023",
+      "verificationCanonicalUrl": "https://www.unep.org/resources/emissions-gap-report-2023",
+      "sourcePackPublisher": "UNEP",
+      "verificationPublisher": "UNEP",
+      "sourcePackIdentityFingerprint": "e947f35cfed35e6c6b826323459a58487d17bad905c3925715807ceaf2a1bc48",
+      "verificationIdentityFingerprint": "e947f35cfed35e6c6b826323459a58487d17bad905c3925715807ceaf2a1bc48",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0003",
+      "verificationSourceId": "SRC-NF-0003",
+      "sourcePackTitle": "Fifth National Climate Assessment (NCA5)",
+      "verificationTitle": "Fifth National Climate Assessment (NCA5)",
+      "sourcePackCanonicalUrl": "https://toolkit.climate.gov/NCA5",
+      "verificationCanonicalUrl": "https://toolkit.climate.gov/NCA5",
+      "sourcePackPublisher": "USGCRP",
+      "verificationPublisher": "USGCRP",
+      "sourcePackIdentityFingerprint": "b39a278a428a1cae84c912dafcf9b3e5f0c1969dda826ed39d41362b2770a10b",
+      "verificationIdentityFingerprint": "b39a278a428a1cae84c912dafcf9b3e5f0c1969dda826ed39d41362b2770a10b",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0004",
+      "verificationSourceId": "SRC-NF-0004",
+      "sourcePackTitle": "Comparative analysis of Cochrane and non-Cochrane systematic reviews",
+      "verificationTitle": "Comparative analysis of Cochrane and non-Cochrane systematic reviews",
+      "sourcePackCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064235",
+      "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064235",
+      "sourcePackPublisher": "PMC / NIH",
+      "verificationPublisher": "PMC / NIH",
+      "sourcePackIdentityFingerprint": "a05339738f17bcb8093be449708a96004927c1a9035c95cda6f64c1e318b166d",
+      "verificationIdentityFingerprint": "a05339738f17bcb8093be449708a96004927c1a9035c95cda6f64c1e318b166d",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0005",
+      "verificationSourceId": "SRC-NF-0005",
+      "sourcePackTitle": "2023 National Population Projections Tables: Main Series - Census Bureau",
+      "verificationTitle": "2023 National Population Projections Tables: Main Series - Census Bureau",
+      "sourcePackCanonicalUrl": "https://www.census.gov/data/tables/2023/demo/popproj/2023-summary-tables.html",
+      "verificationCanonicalUrl": "https://www.census.gov/data/tables/2023/demo/popproj/2023-summary-tables.html",
+      "sourcePackPublisher": "U.S. Census Bureau",
+      "verificationPublisher": "U.S. Census Bureau",
+      "sourcePackIdentityFingerprint": "606a3e62971c05ae4cf88a364406a075df9c254574513e48875c26155fcf2922",
+      "verificationIdentityFingerprint": "606a3e62971c05ae4cf88a364406a075df9c254574513e48875c26155fcf2922",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0006",
+      "verificationSourceId": "SRC-NF-0006",
+      "sourcePackTitle": "QUARTERLY FINANCIAL REPORT: U.S. MANUFACTURING, MINING, TRADE, AND SELECTED SERVICE INDUSTRIES, Q4 2024",
+      "verificationTitle": "QUARTERLY FINANCIAL REPORT: U.S. MANUFACTURING, MINING, TRADE, AND SELECTED SERVICE INDUSTRIES, Q4 2024",
+      "sourcePackCanonicalUrl": "https://www2.census.gov/econ/qfr/press/qfr244mg.pdf",
+      "verificationCanonicalUrl": "https://www2.census.gov/econ/qfr/press/qfr244mg.pdf",
+      "sourcePackPublisher": "U.S. Census Bureau",
+      "verificationPublisher": "U.S. Census Bureau",
+      "sourcePackIdentityFingerprint": "a384880a573c8f7e39500ffd2dcbc3a4c385dbd08bc555a9f890452cf144427f",
+      "verificationIdentityFingerprint": "a384880a573c8f7e39500ffd2dcbc3a4c385dbd08bc555a9f890452cf144427f",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0007",
+      "verificationSourceId": "SRC-NF-0007",
+      "sourcePackTitle": "Employment Situation News Release - 2024 M13 Results (December 2024)",
+      "verificationTitle": "Employment Situation News Release - 2024 M13 Results (December 2024)",
+      "sourcePackCanonicalUrl": "https://www.bls.gov/news.release/archives/empsit_01102025.htm",
+      "verificationCanonicalUrl": "https://www.bls.gov/news.release/archives/empsit_01102025.htm",
+      "sourcePackPublisher": "U.S. Bureau of Labor Statistics",
+      "verificationPublisher": "U.S. Bureau of Labor Statistics",
+      "sourcePackIdentityFingerprint": "b74f4e0c52f979829b0633fe1784cb1d62635274f7bb661346cae471089ae0fe",
+      "verificationIdentityFingerprint": "b74f4e0c52f979829b0633fe1784cb1d62635274f7bb661346cae471089ae0fe",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0008",
+      "verificationSourceId": "SRC-NF-0008",
+      "sourcePackTitle": "Consumer Price Index News Release - 2026 M05 Results (May 2026)",
+      "verificationTitle": "Consumer Price Index News Release - 2026 M05 Results (May 2026)",
+      "sourcePackCanonicalUrl": "https://www.bls.gov/news.release/archives/cpi_06102026.htm",
+      "verificationCanonicalUrl": "https://www.bls.gov/news.release/archives/cpi_06102026.htm",
+      "sourcePackPublisher": "U.S. Bureau of Labor Statistics",
+      "verificationPublisher": "U.S. Bureau of Labor Statistics",
+      "sourcePackIdentityFingerprint": "7ffa993f6f6184cb810b37c8cdf60240b1585c6de55a2b09ec8677a73b5bd782",
+      "verificationIdentityFingerprint": "7ffa993f6f6184cb810b37c8cdf60240b1585c6de55a2b09ec8677a73b5bd782",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0009",
+      "verificationSourceId": "SRC-NF-0009",
+      "sourcePackTitle": "GDP (Advance Estimate), 4th Quarter and Year 2025",
+      "verificationTitle": "GDP (Advance Estimate), 4th Quarter and Year 2025",
+      "sourcePackCanonicalUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025",
+      "verificationCanonicalUrl": "https://www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025",
+      "sourcePackPublisher": "U.S. Bureau of Economic Analysis",
+      "verificationPublisher": "U.S. Bureau of Economic Analysis",
+      "sourcePackIdentityFingerprint": "8c42fc3d9647cced2d0b5417036b2538e7dd99eeba170ec97990371df8ea2c6e",
+      "verificationIdentityFingerprint": "8c42fc3d9647cced2d0b5417036b2538e7dd99eeba170ec97990371df8ea2c6e",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0010",
+      "verificationSourceId": "SRC-NF-0010",
+      "sourcePackTitle": "SP 800-53 Rev. 5, Security and Privacy Controls for Information",
+      "verificationTitle": "SP 800-53 Rev. 5, Security and Privacy Controls for Information",
+      "sourcePackCanonicalUrl": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "verificationCanonicalUrl": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+      "sourcePackPublisher": "NIST",
+      "verificationPublisher": "NIST",
+      "sourcePackIdentityFingerprint": "5115d2225f07c205afa0e2a08ac7578cdbf8cadb7b84e125676f2dfb2ca7091f",
+      "verificationIdentityFingerprint": "5115d2225f07c205afa0e2a08ac7578cdbf8cadb7b84e125676f2dfb2ca7091f",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0011",
+      "verificationSourceId": "SRC-NF-0011",
+      "sourcePackTitle": "SP 800-63B, Digital Identity Guidelines: Authentication and",
+      "verificationTitle": "SP 800-63B, Digital Identity Guidelines: Authentication and",
+      "sourcePackCanonicalUrl": "https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final",
+      "verificationCanonicalUrl": "https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final",
+      "sourcePackPublisher": "NIST",
+      "verificationPublisher": "NIST",
+      "sourcePackIdentityFingerprint": "aaaea3e3d62bd553845fc67f5e3faca787791a1ec410af99dd1a00466072a74e",
+      "verificationIdentityFingerprint": "aaaea3e3d62bd553845fc67f5e3faca787791a1ec410af99dd1a00466072a74e",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0012",
+      "verificationSourceId": "SRC-NF-0012",
+      "sourcePackTitle": "ENISA Threat Landscape 2024",
+      "verificationTitle": "ENISA Threat Landscape 2024",
+      "sourcePackCanonicalUrl": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024",
+      "verificationCanonicalUrl": "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024",
+      "sourcePackPublisher": "ENISA",
+      "verificationPublisher": "ENISA",
+      "sourcePackIdentityFingerprint": "490c6649ba99d97cfb9810f2ac661f9549ea1c39ab42799871b922926aecc3a7",
+      "verificationIdentityFingerprint": "490c6649ba99d97cfb9810f2ac661f9549ea1c39ab42799871b922926aecc3a7",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0013",
+      "verificationSourceId": "SRC-NF-0013",
+      "sourcePackTitle": "Microsoft Corporation Form 10-K For the Fiscal Year Ended June 30, 2023",
+      "verificationTitle": "Microsoft Corporation Form 10-K For the Fiscal Year Ended June 30, 2023",
+      "sourcePackCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+      "verificationCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
+      "sourcePackPublisher": "Microsoft Corporation / SEC EDGAR",
+      "verificationPublisher": "Microsoft Corporation / SEC EDGAR",
+      "sourcePackIdentityFingerprint": "dbef1f0c7c04a0c7f8892e35ee5f5496c11cf49dadd0ae02d91a2ef6122bc5a4",
+      "verificationIdentityFingerprint": "dbef1f0c7c04a0c7f8892e35ee5f5496c11cf49dadd0ae02d91a2ef6122bc5a4",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0014",
+      "verificationSourceId": "SRC-NF-0014",
+      "sourcePackTitle": "Apple Inc. Form 10-K For the Fiscal Year Ended September 30, 2023",
+      "verificationTitle": "Apple Inc. Form 10-K For the Fiscal Year Ended September 30, 2023",
+      "sourcePackCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "verificationCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "sourcePackPublisher": "Apple Inc. / SEC EDGAR",
+      "verificationPublisher": "Apple Inc. / SEC EDGAR",
+      "sourcePackIdentityFingerprint": "e4f3bbd512568129caeb998b46f4ecbac0a385d3048c1bef106c11c15f766785",
+      "verificationIdentityFingerprint": "e4f3bbd512568129caeb998b46f4ecbac0a385d3048c1bef106c11c15f766785",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0015",
+      "verificationSourceId": "SRC-NF-0015",
+      "sourcePackTitle": "CO₂ and Greenhouse Gas Emissions",
+      "verificationTitle": "CO₂ and Greenhouse Gas Emissions",
+      "sourcePackCanonicalUrl": "https://ourworldindata.org/co2-and-greenhouse-gas-emissions",
+      "verificationCanonicalUrl": "https://ourworldindata.org/co2-and-greenhouse-gas-emissions",
+      "sourcePackPublisher": "Our World in Data",
+      "verificationPublisher": "Our World in Data",
+      "sourcePackIdentityFingerprint": "070373615ab59bc43a5874c86177816fdfa4eb40fd3d2714af2ba1071e5698cf",
+      "verificationIdentityFingerprint": "070373615ab59bc43a5874c86177816fdfa4eb40fd3d2714af2ba1071e5698cf",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0016",
+      "verificationSourceId": "SRC-NF-0016",
+      "sourcePackTitle": "CO₂ emissions",
+      "verificationTitle": "CO₂ emissions",
+      "sourcePackCanonicalUrl": "https://ourworldindata.org/co2-emissions",
+      "verificationCanonicalUrl": "https://ourworldindata.org/co2-emissions",
+      "sourcePackPublisher": "Our World in Data",
+      "verificationPublisher": "Our World in Data",
+      "sourcePackIdentityFingerprint": "a07059f533ed468e1ff4849093bed2efc27b535b72469835726d45daad30612a",
+      "verificationIdentityFingerprint": "a07059f533ed468e1ff4849093bed2efc27b535b72469835726d45daad30612a",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0017",
+      "verificationSourceId": "SRC-NF-0017",
+      "sourcePackTitle": "Estimated 2023–2024 COVID-19 Vaccine Effectiveness in Adults",
+      "verificationTitle": "Estimated 2023–2024 COVID-19 Vaccine Effectiveness in Adults",
+      "sourcePackCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199055",
+      "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199055",
+      "sourcePackPublisher": "PMC / NIH",
+      "verificationPublisher": "PMC / NIH",
+      "sourcePackIdentityFingerprint": "7ca032d3314550376866879dd1f3366fdaa3e5f495e96214d980bda303e69318",
+      "verificationIdentityFingerprint": "7ca032d3314550376866879dd1f3366fdaa3e5f495e96214d980bda303e69318",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0018",
+      "verificationSourceId": "SRC-NF-0018",
+      "sourcePackTitle": "Revisiting the Minimum Wage–Employment Debate (NBER Working Paper 18681)",
+      "verificationTitle": "Revisiting the Minimum Wage–Employment Debate (NBER Working Paper 18681)",
+      "sourcePackCanonicalUrl": "https://www.nber.org/system/files/working_papers/w18681/w18681.pdf",
+      "verificationCanonicalUrl": "https://www.nber.org/system/files/working_papers/w18681/w18681.pdf",
+      "sourcePackPublisher": "NBER",
+      "verificationPublisher": "NBER",
+      "sourcePackIdentityFingerprint": "f3b1d593672761addb311b25c389807b06af04d6bdb8471e723746f63543e4d4",
+      "verificationIdentityFingerprint": "f3b1d593672761addb311b25c389807b06af04d6bdb8471e723746f63543e4d4",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0019",
+      "verificationSourceId": "SRC-NF-0019",
+      "sourcePackTitle": "Amazon.com, Inc. Form 10-K for the year ended December 31, 2023",
+      "verificationTitle": "Amazon.com, Inc. Form 10-K for the year ended December 31, 2023",
+      "sourcePackCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm",
+      "verificationCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm",
+      "sourcePackPublisher": "Amazon.com, Inc. / SEC EDGAR",
+      "verificationPublisher": "Amazon.com, Inc. / SEC EDGAR",
+      "sourcePackIdentityFingerprint": "35ee5f2d4652ba8aad6f3db733da19502b1b79443a51524056d91a2a506feca8",
+      "verificationIdentityFingerprint": "35ee5f2d4652ba8aad6f3db733da19502b1b79443a51524056d91a2a506feca8",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0020",
+      "verificationSourceId": "SRC-NF-0020",
+      "sourcePackTitle": "Microsoft Corporation Definitive Proxy Statement (DEF 14A) 2025",
+      "verificationTitle": "Microsoft Corporation Definitive Proxy Statement (DEF 14A) 2025",
+      "sourcePackCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+      "verificationCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+      "sourcePackPublisher": "Microsoft Corporation / SEC EDGAR",
+      "verificationPublisher": "Microsoft Corporation / SEC EDGAR",
+      "sourcePackIdentityFingerprint": "46706e4f9f2c0463869b5a8b0942787fd47878cc65c6ec9b1b0766833aacd0f8",
+      "verificationIdentityFingerprint": "46706e4f9f2c0463869b5a8b0942787fd47878cc65c6ec9b1b0766833aacd0f8",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized author match"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0021",
+      "verificationSourceId": "SRC-NF-0021",
+      "sourcePackTitle": "Highway Statistics 2023",
+      "verificationTitle": "Highway Statistics 2023",
+      "sourcePackCanonicalUrl": "https://www.fhwa.dot.gov/policyinformation/statistics/2023",
+      "verificationCanonicalUrl": "https://www.fhwa.dot.gov/policyinformation/statistics/2023",
+      "sourcePackPublisher": "Federal Highway Administration (FHWA), U.S. DOT",
+      "verificationPublisher": "Federal Highway Administration (FHWA), U.S. DOT",
+      "sourcePackIdentityFingerprint": "9eb914875dac9bb77282a911eb6ba29b2b3708409a517059a829711d2eb3a491",
+      "verificationIdentityFingerprint": "9eb914875dac9bb77282a911eb6ba29b2b3708409a517059a829711d2eb3a491",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0022",
+      "verificationSourceId": "SRC-NF-0022",
+      "sourcePackTitle": "Overview of Motor Vehicle Traffic Crashes in 2023 (DOT HS 813 705)",
+      "verificationTitle": "Overview of Motor Vehicle Traffic Crashes in 2023 (DOT HS 813 705)",
+      "sourcePackCanonicalUrl": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813705",
+      "verificationCanonicalUrl": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813705",
+      "sourcePackPublisher": "National Highway Traffic Safety Administration (NHTSA), U.S. DOT",
+      "verificationPublisher": "National Highway Traffic Safety Administration (NHTSA), U.S. DOT",
+      "sourcePackIdentityFingerprint": "f770312cfb3a11fbf1005fb9c51b1f5065730b7e7f7362ebef217914f80aefb7",
+      "verificationIdentityFingerprint": "f770312cfb3a11fbf1005fb9c51b1f5065730b7e7f7362ebef217914f80aefb7",
+      "titleComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized title match"
+      },
+      "urlComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized URL match"
+      },
+      "publisherComparison": {
+        "status": "MATCH",
+        "reason": "Exact normalized publisher match"
+      },
+      "authorComparison": {
+        "status": "NOT_APPLICABLE",
+        "reason": "Organizational/corporate authorship"
+      },
+      "identityMatch": true,
+      "identityClassification": "EXACT_NORMALIZED_MATCH",
+      "mappingReason": "Independently validated: EXACT_NORMALIZED_MATCH"
+    }
+  ]
+}

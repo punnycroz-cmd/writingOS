@@ -1,0 +1,16 @@
+{
+  "sourcePackSourceId": "SRC-TEST-0002",
+  "verificationSourceId": "SRC-TEST-0002",
+  "sourceUrl": "https://example.com/test",
+  "publicationDateObserved": "2024-01-01",
+  "publicationDateStatus": "SOURCE_VERIFIED_DATE",
+  "publicationDateEvidence": "SYSTEM_CLOCK",
+  "verificationStatus": "VERIFIED",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": true,
+  "evidenceLocations": [
+    "https://example.com/test"
+  ],
+  "notes": "Invalid system clock date evidence"
+}

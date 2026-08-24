@@ -1,0 +1,27 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-21",
+    "title": "QFR Q4 2024",
+    "organization": "U.S. Census Bureau",
+    "url": "https://census.gov/qfr"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-21",
+    "verificationSourceId": "SRC-TEST-21",
+    "observedTitle": "QFR Q4 2024",
+    "sourceUrl": "https://census.gov/qfr",
+    "publisherObserved": "U.S. Census Bureau",
+    "titleVariantType": "EXACT",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://census.gov/qfr"
+    ],
+    "notes": "Organizational source with no individual author"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0007",
+    "title": "Annual Economic Report 2024",
+    "organization": "Bank of England",
+    "url": "https://bankofengland.co.uk/report-2024"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0007",
+    "verificationSourceId": "SRC-TEST-0007",
+    "observedTitle": "Annual Economic Report 2024",
+    "sourceUrl": "https://bankofengland.co.uk/report-2024",
+    "publisherObserved": "Federal Reserve",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://bankofengland.co.uk/report-2024"
+    ],
+    "notes": "Same title but completely wrong publisher"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0002",
+    "title": "State of AI Report 2024",
+    "organization": "OECD",
+    "url": "https://oecd.org/ai-2024"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0002",
+    "verificationSourceId": "SRC-TEST-0002",
+    "observedTitle": "State of AI Report 2024",
+    "sourceUrl": "https://oecd.org/ai-2024",
+    "publisherObserved": "McKinsey & Company",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://oecd.org/ai-2024"
+    ],
+    "notes": "Test fixture with wrong publisher"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-20",
+    "title": "Japan Economic Survey 2024",
+    "organization": "Organisation for Economic Co-operation and Development",
+    "url": "https://oecd.org/japan"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-20",
+    "verificationSourceId": "SRC-TEST-20",
+    "observedTitle": "Japan Economic Survey 2024",
+    "sourceUrl": "https://oecd.org/japan",
+    "publisherObserved": "OECD",
+    "titleVariantType": "EXACT",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://oecd.org/japan"
+    ],
+    "notes": "Recognized publisher acronym equivalence"
+  }
+}

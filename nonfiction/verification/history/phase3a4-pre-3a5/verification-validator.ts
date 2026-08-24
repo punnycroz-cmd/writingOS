@@ -1,5 +1,5 @@
 // src/phase3/verification-validator.ts
-// Pure, evidence-based source identity and verification validator for Nonfiction Phase 3A.5.
+// Pure, evidence-based source identity and verification validator for Nonfiction Phase 3A.4.
 
 import { readFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -23,8 +23,7 @@ export type TitleVariantType =
   | 'OFFICIAL_SUBTITLE_VARIANT'
   | 'OFFICIAL_RENAMING'
   | 'PARENT_PUBLICATION'
-  | 'MISMATCH'
-  | 'UNKNOWN';
+  | 'MISMATCH';
 
 export interface VerificationRecord {
   sourcePackSourceId: string;
@@ -32,6 +31,7 @@ export interface VerificationRecord {
   sourcePackVersion?: string;
   sourceUrl: string;
   canonicalUrl?: string;
+  discoveryTitle?: string;
   observedTitle?: string;
   titleMatch?: boolean;
   titleVariantType?: TitleVariantType;
@@ -69,14 +69,10 @@ export interface CanonicalIdentity {
 
 export type IdentityClassification =
   | 'EXACT_NORMALIZED_MATCH'
-  | 'TITLE_VARIANT'
-  | 'PUBLISHER_EQUIVALENT'
-  | 'REDIRECT_EQUIVALENT'
-  | 'URL_CANONICALIZATION'
-  | 'COMBINED_DOCUMENTED_VARIANT'
+  | 'DOCUMENTED_TITLE_VARIANT'
+  | 'DOCUMENTED_EQUIVALENT'
   | 'PARENT_PUBLICATION_RELATION'
-  | 'MISMATCH'
-  | 'UNKNOWN';
+  | 'MISMATCH';
 
 export interface ComponentComparisonResult {
   status: 'MATCH' | 'DOCUMENTED_VARIANT' | 'DOCUMENTED_EQUIVALENT' | 'NOT_APPLICABLE' | 'UNKNOWN' | 'MISMATCH';
@@ -114,12 +110,11 @@ export function normalizeTitle(title?: string): string {
   return t;
 }
 
-export function normalizeRawUrl(url?: string): string {
+export function normalizeUrl(url?: string): string {
   if (!url) return '';
-  let u = url.trim();
-  // Strip fragment
+  let u = url.toLowerCase().trim();
+  u = u.replace(/^http:\/\//, 'https://');
   u = u.replace(/#.*$/, '');
-  // Strip trailing slashes
   u = u.replace(/\/+$/, '');
   return u;
 }
@@ -127,45 +122,35 @@ export function normalizeRawUrl(url?: string): string {
 export function normalizePublisher(pub?: string): string {
   if (!pub) return '';
   let p = pub.toLowerCase().trim();
+  // Strip legal corporate suffixes without corrupting hyphenated prefixes
   p = p.replace(/\b(inc|incorporated|corp|corporation|ltd|llc|gmbh)\b\.?/g, '');
   p = p.replace(/[^\w\s]/g, ' ');
   p = p.replace(/\s+/g, ' ').trim();
   return p;
 }
 
-// Explicit exact publisher alias dictionary (normalized keys & lists)
+// Known recognized publisher equivalents
 const KNOWN_PUBLISHER_EQUIVALENTS: Record<string, string[]> = {
-  'oecd': [
-    'organisation for economic co operation and development',
-    'organisation for economic cooperation and development',
-    'organization for economic cooperation and development',
-    'organization for economic co operation and development',
-  ],
+  'oecd': ['organisation for economic co operation and development', 'organisation for economic cooperation and development', 'organization for economic cooperation and development', 'organization for economic co operation and development'],
   'ipcc': ['intergovernmental panel on climate change', 'un digital library'],
-  'pmc nih': [
-    'pmc',
-    'national institutes of health',
-    'national library of medicine',
-    'pmc nih national library of medicine',
-    'ncbi',
-  ],
+  'nih': ['national institutes of health', 'national library of medicine', 'pmc', 'pmc nih', 'pmc nih national library of medicine', 'ncbi'],
   'nist': ['national institute of standards and technology', 'csrc nist', 'csrc'],
   'noaa': ['national oceanic and atmospheric administration', 'noaa institutional repository'],
   'fao': ['food and agriculture organization', 'food and agriculture organization of the united nations', 'fao knowledge repository'],
-  'u s bureau of labor statistics': ['bls', 'bureau of labor statistics', 'us bureau of labor statistics'],
-  'u s bureau of economic analysis': ['bea', 'bureau of economic analysis', 'us bureau of economic analysis'],
-  'u s census bureau': ['census', 'census bureau', 'us census bureau'],
+  'bls': ['bureau of labor statistics', 'u s bureau of labor statistics', 'us bureau of labor statistics'],
+  'bea': ['bureau of economic analysis', 'u s bureau of economic analysis', 'us bureau of economic analysis'],
+  'census': ['census bureau', 'u s census bureau', 'us census bureau'],
   'nber': ['national bureau of economic research'],
   'cdc': ['centers for disease control and prevention', 'national center for health statistics', 'cdc nchs'],
   'who': ['world health organization'],
   'world bank': ['the world bank', 'international bank for reconstruction and development'],
-  'world economic forum': ['wef'],
+  'wef': ['world economic forum'],
   'undp': ['united nations development programme'],
   'enisa': ['european union agency for cybersecurity'],
-  'sec edgar': ['sec', 'u s securities and exchange commission'],
-  'microsoft corporation sec edgar': ['microsoft', 'microsoft corporation'],
-  'apple inc sec edgar': ['apple', 'apple inc'],
-  'amazon com sec edgar': ['amazon com', 'amazon com inc', 'amazon'],
+  'sec': ['sec edgar', 'u s securities and exchange commission'],
+  'microsoft': ['microsoft corporation', 'microsoft corporation sec edgar'],
+  'apple': ['apple inc', 'apple inc sec edgar'],
+  'amazon': ['amazon com', 'amazon com inc', 'amazon com inc sec edgar'],
   'our world in data': ['owid', 'global change data lab'],
 };
 
@@ -177,8 +162,8 @@ export function arePublishersEquivalent(pubA?: string, pubB?: string): boolean {
 
   for (const [canonical, aliases] of Object.entries(KNOWN_PUBLISHER_EQUIVALENTS)) {
     const all = [canonical, ...aliases];
-    const matchA = all.includes(normA) || all.some(alias => normA === alias);
-    const matchB = all.includes(normB) || all.some(alias => normB === alias);
+    const matchA = all.some(alias => normA.includes(alias) || alias.includes(normA) || normA === alias);
+    const matchB = all.some(alias => normB.includes(alias) || alias.includes(normB) || normB === alias);
     if (matchA && matchB) return true;
   }
 
@@ -196,29 +181,16 @@ export function normalizeAuthor(author?: string): string {
   return a;
 }
 
-export function areAuthorsEquivalent(authA?: string, authB?: string): boolean {
-  const normA = normalizeAuthor(authA);
-  const normB = normalizeAuthor(authB);
-  if (!normA && !normB) return true;
-  if (!normA || !normB) return false;
-  if (normA === normB) return true;
-
-  const removeEtAl = (s: string) => s.replace(/\bet al\b/g, '').trim();
-  if (removeEtAl(normA) === removeEtAl(normB)) return true;
-
-  return false;
-}
-
 // 2. Canonical Identity & Symmetric Fingerprint Functions
 export function canonicalizeIdentity(
-  title?: string,
-  url?: string,
+  title: string,
+  url: string,
   publisher?: string,
   author?: string
 ): CanonicalIdentity {
   return {
     title: normalizeTitle(title),
-    canonicalUrl: normalizeRawUrl(url),
+    canonicalUrl: normalizeUrl(url),
     publisher: normalizePublisher(publisher),
     author: normalizeAuthor(author),
   };
@@ -229,44 +201,36 @@ export function computeIdentityFingerprint(identity: CanonicalIdentity): string 
   return createHash('sha256').update(serialized).digest('hex');
 }
 
-// 3. Component-by-Component Source Identity Comparison (Strict Zero-Fallback)
+// 3. Component-by-Component Source Identity Comparison
 export function compareSourceIdentity(
   sp: SourcePackRecord,
   vr: Partial<VerificationRecord>
 ): IdentityComparisonResult {
   const errors: string[] = [];
 
-  const spIdent = canonicalizeIdentity(sp.title, sp.url || sp.stableUrl, sp.organization, sp.author);
+  const spIdent = canonicalizeIdentity(sp.title, sp.url || sp.stableUrl || '', sp.organization, sp.author);
   const vrIdent = canonicalizeIdentity(
-    vr.observedTitle,
-    vr.sourceUrl || vr.canonicalUrl,
-    vr.publisherObserved,
-    vr.authorObserved
+    vr.observedTitle || vr.discoveryTitle || '',
+    vr.sourceUrl || vr.canonicalUrl || '',
+    vr.publisherObserved || sp.organization,
+    vr.authorObserved || sp.author
   );
 
   const spFingerprint = computeIdentityFingerprint(spIdent);
   const vrFingerprint = computeIdentityFingerprint(vrIdent);
 
   // 1. URL Comparison
-  const spRaw = spIdent.canonicalUrl;
-  const vrSourceRaw = normalizeRawUrl(vr.sourceUrl);
-  const vrCanonicalRaw = normalizeRawUrl(vr.canonicalUrl);
+  const spUrlNorm = spIdent.canonicalUrl;
+  const vrUrlNorm = normalizeUrl(vr.sourceUrl);
+  const vrCanonicalNorm = normalizeUrl(vr.canonicalUrl);
   let urlRes: ComponentComparisonResult;
 
-  if (spRaw === vrSourceRaw && spRaw.length > 0) {
-    urlRes = { status: 'MATCH', reason: 'Exact raw URL match' };
-  } else if (vr.redirectObserved && vr.redirectEvidence && vr.redirectEvidence.trim().length > 0) {
-    if (vrCanonicalRaw === spRaw || vrSourceRaw === spRaw) {
-      urlRes = { status: 'DOCUMENTED_VARIANT', reason: `Documented redirect: ${vr.redirectEvidence}` };
-    } else {
-      urlRes = { status: 'MISMATCH', reason: `Redirect evidence does not match discovery destination: discovery="${sp.url}" vs canonical="${vr.canonicalUrl}"` };
-      errors.push(urlRes.reason);
-    }
-  } else if (!vr.sourceUrl && !vr.canonicalUrl) {
-    urlRes = { status: 'UNKNOWN', reason: 'Verification source URL missing' };
-    errors.push(urlRes.reason);
-  } else if (spRaw.replace(/^http:\/\//, 'https://') === vrSourceRaw.replace(/^http:\/\//, 'https://')) {
-    urlRes = { status: 'MISMATCH', reason: `Protocol difference without redirectEvidence: discovery="${sp.url}" vs verification="${vr.sourceUrl}"` };
+  if (spUrlNorm === vrUrlNorm && spUrlNorm.length > 0) {
+    urlRes = { status: 'MATCH', reason: 'Exact normalized URL match' };
+  } else if (vr.redirectObserved && vr.redirectEvidence && vrCanonicalNorm === spUrlNorm) {
+    urlRes = { status: 'DOCUMENTED_VARIANT', reason: `Documented redirect: ${vr.redirectEvidence}` };
+  } else if (vrCanonicalNorm === spUrlNorm && !vr.redirectObserved && !vr.redirectEvidence) {
+    urlRes = { status: 'MISMATCH', reason: `URL mismatch: sourceUrl="${vr.sourceUrl}" differs from discovery without redirectEvidence` };
     errors.push(urlRes.reason);
   } else {
     urlRes = { status: 'MISMATCH', reason: `URL mismatch: discovery="${sp.url}" vs verification="${vr.sourceUrl}"` };
@@ -289,12 +253,6 @@ export function compareSourceIdentity(
 
   if (spTitleNorm === vrTitleNorm && spTitleNorm.length > 0) {
     titleRes = { status: 'MATCH', reason: 'Exact normalized title match' };
-  } else if (!vr.observedTitle) {
-    titleRes = { status: 'UNKNOWN', reason: 'Observed title missing in verification record' };
-    // Only an error if the record asserts source identity is verified
-    if (vr.sourceIdentityVerified === true || vr.verificationStatus === 'VERIFIED') {
-      errors.push(titleRes.reason);
-    }
   } else if (
     vr.titleVariantType &&
     validVariantTypes.includes(vr.titleVariantType) &&
@@ -321,18 +279,13 @@ export function compareSourceIdentity(
 
   if (spPubNorm === vrPubNorm && spPubNorm.length > 0) {
     pubRes = { status: 'MATCH', reason: 'Exact normalized publisher match' };
-  } else if (!vr.publisherObserved && !sp.organization) {
-    pubRes = { status: 'UNKNOWN', reason: 'Publisher omitted in both records' };
-  } else if (!vr.publisherObserved) {
-    pubRes = { status: 'UNKNOWN', reason: 'Publisher missing in verification record' };
-    if (vr.sourceIdentityVerified === true || vr.verificationStatus === 'VERIFIED') {
-      errors.push(pubRes.reason);
-    }
   } else if (arePublishersEquivalent(sp.organization, vr.publisherObserved)) {
     pubRes = {
       status: 'DOCUMENTED_EQUIVALENT',
       reason: `Publisher recognized equivalent: discovery="${sp.organization}" vs observed="${vr.publisherObserved}"`,
     };
+  } else if (!vrPubNorm || !spPubNorm) {
+    pubRes = { status: 'UNKNOWN', reason: 'Publisher omitted in one or both records' };
   } else {
     pubRes = { status: 'MISMATCH', reason: `Publisher mismatch: discovery="${sp.organization}" vs observed="${vr.publisherObserved}"` };
     errors.push(pubRes.reason);
@@ -347,37 +300,29 @@ export function compareSourceIdentity(
     authRes = { status: 'NOT_APPLICABLE', reason: 'Organizational/corporate authorship' };
   } else if (spAuthNorm === vrAuthNorm && spAuthNorm.length > 0) {
     authRes = { status: 'MATCH', reason: 'Exact normalized author match' };
-  } else if (areAuthorsEquivalent(sp.author, vr.authorObserved)) {
+  } else if (
+    spAuthNorm.length > 0 &&
+    vrAuthNorm.length > 0 &&
+    (spAuthNorm.includes(vrAuthNorm) || vrAuthNorm.includes(spAuthNorm))
+  ) {
     authRes = { status: 'DOCUMENTED_EQUIVALENT', reason: 'Author citation format equivalent' };
-  } else if (!vr.authorObserved) {
-    authRes = { status: 'UNKNOWN', reason: 'Author omitted in verification record' };
+  } else if (!spAuthNorm || !vrAuthNorm) {
+    authRes = { status: 'UNKNOWN', reason: `Author unspecified in one record: discovery="${sp.author}" vs observed="${vr.authorObserved}"` };
   } else {
     authRes = { status: 'MISMATCH', reason: `Author mismatch: discovery="${sp.author}" vs observed="${vr.authorObserved}"` };
     errors.push(authRes.reason);
   }
 
-  // Fine-grained Identity Classification
+  // Overall match evaluation
   let classification: IdentityClassification = 'MISMATCH';
   const match = errors.length === 0 && urlRes.status !== 'MISMATCH' && titleRes.status !== 'MISMATCH' && pubRes.status !== 'MISMATCH' && authRes.status !== 'MISMATCH';
 
   if (match) {
-    const isTitleVar = titleRes.status === 'DOCUMENTED_VARIANT';
-    const isPubVar = pubRes.status === 'DOCUMENTED_EQUIVALENT';
-    const isUrlVar = urlRes.status === 'DOCUMENTED_VARIANT';
-
-    if (!isTitleVar && !isPubVar && !isUrlVar) {
+    if (titleRes.status === 'MATCH' && urlRes.status === 'MATCH' && pubRes.status === 'MATCH') {
       classification = 'EXACT_NORMALIZED_MATCH';
-    } else if (isTitleVar && !isPubVar && !isUrlVar) {
-      classification = 'TITLE_VARIANT';
-    } else if (!isTitleVar && isPubVar && !isUrlVar) {
-      classification = 'PUBLISHER_EQUIVALENT';
-    } else if (!isTitleVar && !isPubVar && isUrlVar) {
-      classification = 'REDIRECT_EQUIVALENT';
     } else {
-      classification = 'COMBINED_DOCUMENTED_VARIANT';
+      classification = 'DOCUMENTED_TITLE_VARIANT';
     }
-  } else if (titleRes.status === 'UNKNOWN' || pubRes.status === 'UNKNOWN') {
-    classification = 'UNKNOWN';
   }
 
   return {
@@ -554,7 +499,7 @@ export function validateFullRecord(
 
   let identityRes: IdentityComparisonResult = {
     match: false,
-    classification: 'UNKNOWN',
+    classification: 'MISMATCH',
     sourcePackIdentityFingerprint: '',
     verificationIdentityFingerprint: '',
     title: { status: 'UNKNOWN', reason: 'No source pack record provided' },
@@ -566,11 +511,8 @@ export function validateFullRecord(
 
   if (source) {
     identityRes = compareSourceIdentity(source, record);
-    // If identity verification is required, add identity comparison errors
-    if (record.sourceIdentityVerified === true || record.verificationStatus === 'VERIFIED') {
-      if (!identityRes.match) {
-        errors.push(...identityRes.errors);
-      }
+    if (!identityRes.match) {
+      errors.push(...identityRes.errors);
     }
   } else {
     errors.push(`No matching discovery source-pack record found for ${record.sourcePackSourceId}`);
@@ -585,68 +527,5 @@ export function validateFullRecord(
     identityComparison: identityRes,
     errors,
     warnings,
-  };
-}
-
-// 8. One-to-One Set Mapping Validator
-export interface SetMappingResult {
-  valid: boolean;
-  totalDiscoverySources: number;
-  totalVerificationRecords: number;
-  duplicateDiscoveryIds: string[];
-  duplicateVerificationIds: string[];
-  missingFromVerification: string[];
-  extraInVerification: string[];
-  mismatchedIdPairs: Array<{ discoveryId: string; verificationId: string }>;
-  errors: string[];
-}
-
-export function validateSourceMappingSet(
-  discoverySources: SourcePackRecord[],
-  verificationRecords: VerificationRecord[]
-): SetMappingResult {
-  const errors: string[] = [];
-
-  const discIdCounts = new Map<string, number>();
-  for (const s of discoverySources) {
-    discIdCounts.set(s.sourceId, (discIdCounts.get(s.sourceId) || 0) + 1);
-  }
-  const duplicateDiscoveryIds = Array.from(discIdCounts.entries()).filter(([_, c]) => c > 1).map(([id]) => id);
-
-  const verIdCounts = new Map<string, number>();
-  for (const r of verificationRecords) {
-    verIdCounts.set(r.sourcePackSourceId, (verIdCounts.get(r.sourcePackSourceId) || 0) + 1);
-  }
-  const duplicateVerificationIds = Array.from(verIdCounts.entries()).filter(([_, c]) => c > 1).map(([id]) => id);
-
-  const discSet = new Set(discoverySources.map(s => s.sourceId));
-  const verSet = new Set(verificationRecords.map(r => r.sourcePackSourceId));
-
-  const missingFromVerification = Array.from(discSet).filter(id => !verSet.has(id));
-  const extraInVerification = Array.from(verSet).filter(id => !discSet.has(id));
-
-  const mismatchedIdPairs: Array<{ discoveryId: string; verificationId: string }> = [];
-  for (const r of verificationRecords) {
-    if (r.sourcePackSourceId !== r.verificationSourceId) {
-      mismatchedIdPairs.push({ discoveryId: r.sourcePackSourceId, verificationId: r.verificationSourceId });
-    }
-  }
-
-  if (duplicateDiscoveryIds.length > 0) errors.push(`Duplicate discovery IDs: ${duplicateDiscoveryIds.join(', ')}`);
-  if (duplicateVerificationIds.length > 0) errors.push(`Duplicate verification records for IDs: ${duplicateVerificationIds.join(', ')}`);
-  if (missingFromVerification.length > 0) errors.push(`Discovery sources missing in verification: ${missingFromVerification.join(', ')}`);
-  if (extraInVerification.length > 0) errors.push(`Orphan verification records not in discovery: ${extraInVerification.join(', ')}`);
-  if (mismatchedIdPairs.length > 0) errors.push(`Mismatched sourcePackSourceId vs verificationSourceId: ${mismatchedIdPairs.map(p => `${p.discoveryId}!=${p.verificationId}`).join(', ')}`);
-
-  return {
-    valid: errors.length === 0,
-    totalDiscoverySources: discoverySources.length,
-    totalVerificationRecords: verificationRecords.length,
-    duplicateDiscoveryIds,
-    duplicateVerificationIds,
-    missingFromVerification,
-    extraInVerification,
-    mismatchedIdPairs,
-    errors,
   };
 }

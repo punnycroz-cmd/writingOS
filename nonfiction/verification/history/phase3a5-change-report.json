@@ -1,0 +1,86 @@
+{
+  "generatedAt": "2026-08-24T07:30:09.634239",
+  "totalChanges": 10,
+  "changes": [
+    {
+      "sourceId": "SRC-NF-V11-0007",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=PDF_PARSER_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0014",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=PDF_PARSER_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-0037",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=PDF_PARSER_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0021",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=PDF_PARSER_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-0040",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=JSON_PARSE_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0023",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=JSON_PARSE_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0024",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=JSON_PARSE_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0025",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=JSON_PARSE_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0029",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=JSON_PARSE_LIMITATION"
+    },
+    {
+      "sourceId": "SRC-NF-0045",
+      "field": "sourceIdentityVerified",
+      "oldValue": true,
+      "newValue": false,
+      "reason": "Content retrieval blocked by technical limitation; source identity cannot be independently verified from document content",
+      "validatorEvidence": "verificationBlockReason=JSON_PARSE_LIMITATION"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 // tests/phase3/verification-normalization.test.ts
-// Phase 3A.5 verification normalization and live ledger validation tests.
+// Phase 3A.4 verification normalization and live ledger validation tests.
 
 import { describe, it, expect } from 'bun:test';
 import { readFileSync, existsSync } from 'node:fs';
@@ -9,7 +9,7 @@ import {
   validateArtifact,
   validateFullRecord,
   normalizeTitle,
-  normalizeRawUrl,
+  normalizeUrl,
   canonicalizeIdentity,
   computeIdentityFingerprint,
   type VerificationRecord,
@@ -35,15 +35,15 @@ describe('Verification Normalization — Text and URL Normalization Rules', () =
     expect(normalizeTitle(titleA)).toBe(normalizeTitle(titleB));
   });
 
-  it('normalizes trailing slashes and fragments in raw URLs', () => {
-    const urlA = 'https://example.org/report/doc/#section1';
-    const urlB = 'https://example.org/report/doc/';
-    expect(normalizeRawUrl(urlA)).toBe(normalizeRawUrl(urlB));
+  it('normalizes trailing slashes and HTTP vs HTTPS in canonical URLs', () => {
+    const urlA = 'http://example.org/report/doc/';
+    const urlB = 'https://example.org/report/doc';
+    expect(normalizeUrl(urlA)).toBe(normalizeUrl(urlB));
   });
 
-  it('generates consistent symmetric identity fingerprints from identical normalized identities', () => {
+  it('generates consistent symmetric identity fingerprints', () => {
     const identA = canonicalizeIdentity('My Title', 'https://example.com/doc', 'NIH', 'John Doe');
-    const identB = canonicalizeIdentity('“My Title”', 'https://example.com/doc/', 'NIH', 'john doe');
+    const identB = canonicalizeIdentity('“My Title”', 'http://example.com/doc/', 'nih', 'john doe');
     expect(computeIdentityFingerprint(identA)).toBe(computeIdentityFingerprint(identB));
   });
 });
