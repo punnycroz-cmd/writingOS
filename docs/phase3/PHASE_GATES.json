@@ -1,5 +1,4 @@
-{
-  "currentPhase": "PHASE3A_SOURCE_VERIFICATION",
+{  "currentPhase": "PHASE3B_SOURCEFACTLEDGER",
   "gates": [
     {
       "id": 0,
@@ -35,7 +34,7 @@
         "every ledger fact has source provenance",
         "no unsupported facts"
       ],
-      "expectedState": "BLOCKED"
+      "expectedState": "PASS"
     },
     {
       "id": 3,

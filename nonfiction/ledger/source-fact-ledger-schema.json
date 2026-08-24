@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SourceFactLedgerRecord",
+  "type": "object",
+  "properties": {
+    "ledgerFactId": {
+      "type": "string",
+      "description": "Unique identifier for this ledger record (e.g. LGR-NF-0001)."
+    },
+    "claimId": {
+      "type": "string",
+      "description": "The exact ID of the candidate claim from claim-inventory.jsonl."
+    },
+    "sourcePackSourceId": {
+      "type": "string",
+      "description": "The canonical source ID."
+    },
+    "claimText": {
+      "type": "string"
+    },
+    "claimType": {
+      "type": "string"
+    },
+    "epistemicStrength": {
+      "type": "string"
+    },
+    "causalStatus": {
+      "type": "string"
+    },
+    "sourceVerificationStatus": {
+      "type": "string",
+      "enum": ["VERIFIED", "PARTIALLY_VERIFIED", "BLOCKED", "FAILED", "UNRESOLVED"],
+      "description": "Inherited directly from the source verification ledger."
+    },
+    "factVerificationState": {
+      "type": "string",
+      "enum": ["CANDIDATE", "UNSUPPORTED", "PARTIALLY_SUPPORTED", "SOURCE_VERIFIED"],
+      "description": "The epistemic state of this specific fact in relation to the evidence."
+    },
+    "evidenceType": {
+      "type": "string",
+      "enum": ["DIRECT", "PARTIAL", "BLOCKED", "NONE"],
+      "description": "The type of evidence available for this claim."
+    },
+    "evidenceExcerpt": {
+      "type": "string",
+      "description": "Text excerpt from the retrieved artifact supporting the claim (if any)."
+    },
+    "evidenceLocations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "retrievedArtifact": {
+      "type": "string"
+    },
+    "publicationDateObserved": {
+      "type": "string"
+    },
+    "publisherObserved": {
+      "type": "string"
+    },
+    "authorObserved": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ledgerFactId",
+    "claimId",
+    "sourcePackSourceId",
+    "claimText",
+    "claimType",
+    "epistemicStrength",
+    "causalStatus",
+    "sourceVerificationStatus",
+    "factVerificationState",
+    "evidenceType",
+    "evidenceLocations",
+    "retrievedArtifact",
+    "publicationDateObserved",
+    "publisherObserved",
+    "authorObserved",
+    "notes"
+  ],
+  "additionalProperties": false
+}

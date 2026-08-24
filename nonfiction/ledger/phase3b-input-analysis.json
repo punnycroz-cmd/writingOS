@@ -1,0 +1,10 @@
+{
+  "totalClaims": 135,
+  "uniqueClaimIds": 135,
+  "claimsWithoutSources": 0,
+  "claimsWithOneSource": 135,
+  "claimsWithMultipleSources": 0,
+  "uniqueReferencedSources": 29,
+  "orphanClaimReferences": 0,
+  "orphanSourceReferences": 0
+}

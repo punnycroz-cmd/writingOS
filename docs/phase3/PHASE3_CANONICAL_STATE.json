@@ -1,6 +1,6 @@
 {
   "phase": 3,
-  "stage": "PHASE3A_COMPLETE",
+  "stage": "PHASE3B_ACTIVE",
   "status": "BOOTSTRAPPED",
   "phase2b": {
     "branch": "research/phase2b-golden-corpus-v1-reconciled",
@@ -31,11 +31,11 @@
     }
   },
   "phase3": {
-    "branch": "research/phase3-nonfiction-foundation-v1",
-    "stage": "FOUNDATION",
+    "branch": "research/phase3b-sourcefactledger-v1",
+    "stage": "SOURCEFACTLEDGER",
     "sourcePackPath": "nonfiction/source-pack/"
   },
-  "nextStage": "SOURCE_VERIFICATION",
+  "nextStage": "PHASE3C_NONFICTION_RULES",
   "sourceVerification": {
     "status": "COMPLETE",
     "totalSources": 69,

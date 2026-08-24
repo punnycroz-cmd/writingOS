@@ -9,8 +9,8 @@ function loadJson(path: string): any { return JSON.parse(readFileSync(path, 'utf
 describe('Phase State Machine', () => {
   const gates = loadJson('docs/phase3/PHASE_GATES.json');
 
-  it('current phase is PHASE3_FOUNDATION', () => {
-    expect(gates.currentPhase).toBe('PHASE3A_SOURCE_VERIFICATION');
+  it('current phase is PHASE3B_SOURCEFACTLEDGER', () => {
+    expect(gates.currentPhase).toBe('PHASE3B_SOURCEFACTLEDGER');
   });
 
   it('has 6 gates (0-5)', () => {
@@ -21,12 +21,16 @@ describe('Phase State Machine', () => {
     expect(gates.gates[0].expectedState).toBe('PASS');
   });
 
-  it('Gate 1 expected state is READY', () => {
+  it('Gate 1 expected state is PASS', () => {
     expect(gates.gates[1].expectedState).toBe('PASS');
   });
 
-  it('Gates 2-5 are BLOCKED', () => {
-    for (let i = 2; i <= 5; i++) {
+  it('Gate 2 expected state is PASS', () => {
+    expect(gates.gates[2].expectedState).toBe('PASS');
+  });
+
+  it('Gates 3-5 are BLOCKED', () => {
+    for (let i = 3; i <= 5; i++) {
       expect(gates.gates[i].expectedState).toBe('BLOCKED');
     }
   });
@@ -47,8 +51,8 @@ describe('Phase State Machine', () => {
 describe('Canonical State', () => {
   const state = loadJson('docs/phase3/PHASE3_CANONICAL_STATE.json');
 
-  it('stage is FOUNDATION', () => {
-    expect(state.stage).toBe('PHASE3A_COMPLETE');
+  it('stage is PHASE3B_ACTIVE', () => {
+    expect(state.stage).toBe('PHASE3B_ACTIVE');
   });
 
   it('nonfiction containsGroundTruth is false', () => {
@@ -59,7 +63,7 @@ describe('Canonical State', () => {
     expect(state.nonfiction.sourceVerifiedClaimCount).toBe(0);
   });
 
-  it('nextStage is SOURCE_VERIFICATION', () => {
-    expect(state.nextStage).toBe('SOURCE_VERIFICATION');
+  it('nextStage is PHASE3C_NONFICTION_RULES', () => {
+    expect(state.nextStage).toBe('PHASE3C_NONFICTION_RULES');
   });
 });
