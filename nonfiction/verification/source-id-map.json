@@ -1,8 +1,9 @@
 {
-  "generatedAt": "2026-08-24T00:26:19.474Z",
-  "validatedCommitSha": "ac00bd49e930285076f88dfbec8e8e31d0e97f24",
+  "generatedAt": "2026-08-24T00:31:40.883Z",
+  "validationInputCommitSha": "bb42eb33719e9a4d0350840419a714b3191583fe",
   "totalSources": 69,
   "totalLedgerRecords": 69,
+  "setMappingValid": true,
   "allMapped": true,
   "mappings": [
     {
@@ -14,15 +15,15 @@
       "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142",
       "sourcePackPublisher": "PMC / NIH National Library of Medicine",
       "verificationPublisher": "PMC / NIH National Library of Medicine",
-      "sourcePackIdentityFingerprint": "2aadc13b3c4c90375d454f2ee2199a999400124ea77b53af6ea631f6b6a59ab7",
-      "verificationIdentityFingerprint": "2aadc13b3c4c90375d454f2ee2199a999400124ea77b53af6ea631f6b6a59ab7",
+      "sourcePackIdentityFingerprint": "6be8c780b07fae427d4f02e9e23000f957d7bd19667a7e115fd9f05eb3b3a79f",
+      "verificationIdentityFingerprint": "6be8c780b07fae427d4f02e9e23000f957d7bd19667a7e115fd9f05eb3b3a79f",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -45,15 +46,15 @@
       "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019115",
       "sourcePackPublisher": "PMC / NIH National Library of Medicine",
       "verificationPublisher": "PMC / NIH National Library of Medicine",
-      "sourcePackIdentityFingerprint": "54122cf652e48da4d12a0d417965ac39b10437813bcd5e83bc5bd02a8f2a6f57",
-      "verificationIdentityFingerprint": "54122cf652e48da4d12a0d417965ac39b10437813bcd5e83bc5bd02a8f2a6f57",
+      "sourcePackIdentityFingerprint": "b0fa94ef08ee86bb2953f4fe286e40506978d9e5da49df765562e34c4c85a9bd",
+      "verificationIdentityFingerprint": "b0fa94ef08ee86bb2953f4fe286e40506978d9e5da49df765562e34c4c85a9bd",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -84,7 +85,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -115,7 +116,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -146,7 +147,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -157,8 +158,8 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0006",
@@ -177,7 +178,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -195,20 +196,20 @@
       "sourcePackSourceId": "SRC-NF-V11-0007",
       "verificationSourceId": "SRC-NF-V11-0007",
       "sourcePackTitle": "OECD Economic Surveys: Japan 2024",
-      "verificationTitle": "OECD Economic Surveys: Japan 2024",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/01/oecd-economic-surveys-japan-2024_9289b572/41e807f9-en.pdf",
       "verificationCanonicalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/01/oecd-economic-surveys-japan-2024_9289b572/41e807f9-en.pdf",
       "sourcePackPublisher": "OECD",
       "verificationPublisher": "OECD",
       "sourcePackIdentityFingerprint": "88a45b4f44da458eae0f5a3a7d6e17b5b429c69fa233ed086631a73ab0862c1e",
-      "verificationIdentityFingerprint": "88a45b4f44da458eae0f5a3a7d6e17b5b429c69fa233ed086631a73ab0862c1e",
+      "verificationIdentityFingerprint": "0deafef305b6f3ea1d4f569113369e0f428507ea8b77e0508c0f25f429b6aaa3",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -231,15 +232,15 @@
       "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3535298",
       "sourcePackPublisher": "PMC / NIH (NBER/QJE)",
       "verificationPublisher": "PMC / NIH (NBER/QJE)",
-      "sourcePackIdentityFingerprint": "41e1009440b6578ff91e477baad174c74ab8e78e86b8a4cd758b8e8f7fe7a6d6",
-      "verificationIdentityFingerprint": "802843145fdc0046f5c00d68fd26da6ee4274edb8f5f8729493370d495e0ff9b",
+      "sourcePackIdentityFingerprint": "25dfb0415e9497c35577770971d0c7193b72f4231ab8ca5b355dfff1e9d35a27",
+      "verificationIdentityFingerprint": "2a25f7abd6c444f74d64dc5ae208ff0a64820a0b9ffa8a07479ec46fbd8917e1",
       "titleComparison": {
         "status": "DOCUMENTED_VARIANT",
         "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -250,8 +251,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0009",
@@ -262,15 +263,15 @@
       "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1448013",
       "sourcePackPublisher": "PMC / NIH (American Journal of Public Health)",
       "verificationPublisher": "PMC / NIH (American Journal of Public Health)",
-      "sourcePackIdentityFingerprint": "fc7d8c2f5292eea5fc3fd657d2cbd9d6589070a568df3cea42af3d52c9a81fff",
-      "verificationIdentityFingerprint": "ff10c894d7f209ac637c7a5d4fb50f26d72f207e391591ae9ca5a7c316908d2a",
+      "sourcePackIdentityFingerprint": "efaffa1730827941a74e05462864cc0cb843a065f97226534da6b31e7d0c23f5",
+      "verificationIdentityFingerprint": "0b0b7fe5f27310f54d0eb2e6e35a0f380428fdea276e93c2d88712c1a23e72c4",
       "titleComparison": {
         "status": "DOCUMENTED_VARIANT",
         "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page header / repository title corresponds to the discovery document"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -281,8 +282,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0010",
@@ -301,7 +302,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -332,7 +333,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -343,8 +344,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0012",
@@ -363,7 +364,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -374,8 +375,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0013",
@@ -394,7 +395,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -405,27 +406,27 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0014",
       "verificationSourceId": "SRC-NF-V11-0014",
       "sourcePackTitle": "REPORT 2023/2024 | Human Development Reports (PDF)",
-      "verificationTitle": "REPORT 2023/2024 | Human Development Reports (PDF)",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://hdr.undp.org/system/files/documents/global-report-document/hdr2023-24reporten.pdf",
       "verificationCanonicalUrl": "https://hdr.undp.org/system/files/documents/global-report-document/hdr2023-24reporten.pdf",
       "sourcePackPublisher": "United Nations Development Programme (UNDP)",
       "verificationPublisher": "United Nations Development Programme (UNDP)",
       "sourcePackIdentityFingerprint": "934d19b4a8383df6cd0051143caf0ac7ab28a43fa648af9add34bd85190117ca",
-      "verificationIdentityFingerprint": "934d19b4a8383df6cd0051143caf0ac7ab28a43fa648af9add34bd85190117ca",
+      "verificationIdentityFingerprint": "02170a47df7ef85afed0aaa2e6a4448d47272e72d1c54a3eaf9a36133dcf9a03",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -456,7 +457,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -467,8 +468,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0016",
@@ -487,7 +488,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -518,7 +519,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -529,8 +530,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0036",
@@ -549,7 +550,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -560,27 +561,27 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0037",
       "verificationSourceId": "SRC-NF-0037",
       "sourcePackTitle": "[PDF] ENISA THREAT LANDSCAPE 2025",
-      "verificationTitle": "[PDF] ENISA THREAT LANDSCAPE 2025",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://www.enisa.europa.eu/sites/default/files/2026-01/ENISA%20Threat%20Landscape%202025_v1.2.pdf",
       "verificationCanonicalUrl": "https://www.enisa.europa.eu/sites/default/files/2026-01/ENISA%20Threat%20Landscape%202025_v1.2.pdf",
       "sourcePackPublisher": "ENISA",
       "verificationPublisher": "ENISA",
-      "sourcePackIdentityFingerprint": "46aa0ed3a669d918e1bf486ac0b4f75460101890c3c55e9d5eb240a48712857b",
-      "verificationIdentityFingerprint": "46aa0ed3a669d918e1bf486ac0b4f75460101890c3c55e9d5eb240a48712857b",
+      "sourcePackIdentityFingerprint": "68aa9c4bdbe39f1a960c75b316dfe482871fe71d7a4e415e61266b9170171489",
+      "verificationIdentityFingerprint": "cafbe4683e9f60dd977cefddbb635e3f070132f4706770dca21195084b7c9b05",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -603,15 +604,15 @@
       "verificationCanonicalUrl": "https://www.w3.org/TR/WCAG22",
       "sourcePackPublisher": "W3C",
       "verificationPublisher": "W3C",
-      "sourcePackIdentityFingerprint": "962643a101bc8f41fe7bc6f53637b210b87e901fe0da6e6a6e4029fa0b1cdbfd",
-      "verificationIdentityFingerprint": "962643a101bc8f41fe7bc6f53637b210b87e901fe0da6e6a6e4029fa0b1cdbfd",
+      "sourcePackIdentityFingerprint": "c2535e2ac057f8353cfb21e397c78e3c0c77e0ceb83a753961bcbe5431281705",
+      "verificationIdentityFingerprint": "c2535e2ac057f8353cfb21e397c78e3c0c77e0ceb83a753961bcbe5431281705",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -642,7 +643,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -653,8 +654,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0048",
@@ -673,7 +674,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -704,7 +705,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -715,8 +716,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0019",
@@ -735,7 +736,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -746,8 +747,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0020",
@@ -766,7 +767,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -777,27 +778,27 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0021",
       "verificationSourceId": "SRC-NF-V11-0021",
       "sourcePackTitle": "The Future of Jobs Report 2025",
-      "verificationTitle": "The Future of Jobs Report 2025",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
       "verificationCanonicalUrl": "https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf",
       "sourcePackPublisher": "World Economic Forum",
       "verificationPublisher": "World Economic Forum",
-      "sourcePackIdentityFingerprint": "0067fe8e07d759c4bb4fb2d34c0cd2b0e3f12128a5f87a95cf3bd1cbd089b58d",
-      "verificationIdentityFingerprint": "0067fe8e07d759c4bb4fb2d34c0cd2b0e3f12128a5f87a95cf3bd1cbd089b58d",
+      "sourcePackIdentityFingerprint": "b9b85b3093f09225a66c1d4250575affa03cd3fa719d59e2e54b1c8296c0ce66",
+      "verificationIdentityFingerprint": "619c7b070541ea1a7b4aacbaacb03016f7fee14a0fc5d47419cd670e4c977b30",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -828,7 +829,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -859,7 +860,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -870,8 +871,8 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0032",
@@ -890,7 +891,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -901,8 +902,8 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0033",
@@ -921,7 +922,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -932,8 +933,8 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0034",
@@ -952,7 +953,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -963,27 +964,27 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0040",
       "verificationSourceId": "SRC-NF-0040",
       "sourcePackTitle": "NOAA predicts above-normal 2024 Atlantic hurricane season",
-      "verificationTitle": "NOAA predicts above-normal 2024 Atlantic hurricane season",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://www.noaa.gov/news-release/noaa-predicts-above-normal-2024-atlantic-hurricane-season",
       "verificationCanonicalUrl": "https://www.noaa.gov/news-release/noaa-predicts-above-normal-2024-atlantic-hurricane-season",
       "sourcePackPublisher": "NOAA",
       "verificationPublisher": "NOAA",
       "sourcePackIdentityFingerprint": "1b413da105af08ef6b41b74c1f5f2ce34738424e79f03a9222a73028baddd520",
-      "verificationIdentityFingerprint": "1b413da105af08ef6b41b74c1f5f2ce34738424e79f03a9222a73028baddd520",
+      "verificationIdentityFingerprint": "6461fedb5e255f1d804ffecd368ba1aa2ab1615602ccd56eb9deb9c6d7b85a46",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1001,20 +1002,20 @@
       "sourcePackSourceId": "SRC-NF-V11-0023",
       "verificationSourceId": "SRC-NF-V11-0023",
       "sourcePackTitle": "Assessing risk of bias due to missing evidence in a meta-analysis",
-      "verificationTitle": "Assessing risk of bias due to missing evidence in a meta-analysis",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13",
       "verificationCanonicalUrl": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-13",
       "sourcePackPublisher": "Cochrane",
       "verificationPublisher": "Cochrane",
       "sourcePackIdentityFingerprint": "32a11ece620befecc38051964cea828dee789530e5da1db71dbef011ca8b2ce2",
-      "verificationIdentityFingerprint": "32a11ece620befecc38051964cea828dee789530e5da1db71dbef011ca8b2ce2",
+      "verificationIdentityFingerprint": "a65670ec02d158dd3540a2f98e6acc013daab882767880b6d9a556a47b85dc67",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1032,20 +1033,20 @@
       "sourcePackSourceId": "SRC-NF-V11-0024",
       "verificationSourceId": "SRC-NF-V11-0024",
       "sourcePackTitle": "Including non-randomized studies on intervention effects",
-      "verificationTitle": "Including non-randomized studies on intervention effects",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-24",
       "verificationCanonicalUrl": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-24",
       "sourcePackPublisher": "Cochrane",
       "verificationPublisher": "Cochrane",
       "sourcePackIdentityFingerprint": "118c255643221b1d239b3cf71887125cf4569baf6c8efef7ff6560849bfecb56",
-      "verificationIdentityFingerprint": "118c255643221b1d239b3cf71887125cf4569baf6c8efef7ff6560849bfecb56",
+      "verificationIdentityFingerprint": "476e3d6c122d2d8333ac7539723e6a587cba3b82a1bc55c0bc6d5ca042317dd8",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1063,20 +1064,20 @@
       "sourcePackSourceId": "SRC-NF-V11-0025",
       "verificationSourceId": "SRC-NF-V11-0025",
       "sourcePackTitle": "GRADE",
-      "verificationTitle": "GRADE",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://www.cochrane.org/learn/courses-and-resources/cochrane-methodology/grade",
       "verificationCanonicalUrl": "https://www.cochrane.org/learn/courses-and-resources/cochrane-methodology/grade",
       "sourcePackPublisher": "Cochrane / GRADE Working Group",
       "verificationPublisher": "Cochrane / GRADE Working Group",
       "sourcePackIdentityFingerprint": "071aba12eda93fe05efd6db5fdb78709480ad49f88dd1d6117ab4f61309d429e",
-      "verificationIdentityFingerprint": "071aba12eda93fe05efd6db5fdb78709480ad49f88dd1d6117ab4f61309d429e",
+      "verificationIdentityFingerprint": "45a4062e8056b4cc6f2117f9a2311795933ceb91562f3fa29ff8846110330e43",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1107,7 +1108,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1118,8 +1119,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0027",
@@ -1138,7 +1139,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1169,7 +1170,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1180,27 +1181,27 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0029",
       "verificationSourceId": "SRC-NF-V11-0029",
       "sourcePackTitle": "The economic potential of generative AI: The next productivity frontier",
-      "verificationTitle": "The economic potential of generative AI: The next productivity frontier",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
       "verificationCanonicalUrl": "https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier",
       "sourcePackPublisher": "McKinsey & Company / McKinsey Global Institute",
       "verificationPublisher": "McKinsey & Company / McKinsey Global Institute",
       "sourcePackIdentityFingerprint": "27d1f5c96d955f562b115d96ecba30588cf3488867a09e308ed56d8e5f329696",
-      "verificationIdentityFingerprint": "27d1f5c96d955f562b115d96ecba30588cf3488867a09e308ed56d8e5f329696",
+      "verificationIdentityFingerprint": "970c4c24065c4e8c81bfa9faf9a2680a0961f4bc1a0f653af60efa677c5725ca",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1231,7 +1232,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1242,8 +1243,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0035",
@@ -1262,7 +1263,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1273,27 +1274,27 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0045",
       "verificationSourceId": "SRC-NF-0045",
       "sourcePackTitle": "Monthly Climate Reports: Global Climate Report — Annual 2024",
-      "verificationTitle": "Monthly Climate Reports: Global Climate Report — Annual 2024",
+      "verificationTitle": "UNKNOWN",
       "sourcePackCanonicalUrl": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202413",
       "verificationCanonicalUrl": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/global/202413",
       "sourcePackPublisher": "NOAA National Centers for Environmental Information (NCEI)",
       "verificationPublisher": "NOAA National Centers for Environmental Information (NCEI)",
       "sourcePackIdentityFingerprint": "4cd74f927a568c2958d53644d82e0d9712500545956c28d9764ea0780661c10e",
-      "verificationIdentityFingerprint": "4cd74f927a568c2958d53644d82e0d9712500545956c28d9764ea0780661c10e",
+      "verificationIdentityFingerprint": "2fc6f2eb1463a2970384566302b5ca362a5af2ea8f7050979a409789daf08fdb",
       "titleComparison": {
-        "status": "MATCH",
-        "reason": "Exact normalized title match"
+        "status": "UNKNOWN",
+        "reason": "Observed title missing in verification record"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1324,7 +1325,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1335,8 +1336,8 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0049",
@@ -1347,15 +1348,15 @@
       "verificationCanonicalUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf",
       "sourcePackPublisher": "NIST",
       "verificationPublisher": "NIST",
-      "sourcePackIdentityFingerprint": "bb9f1b3a5846680a80f8b75eb7e0bb4ed10175176dd9ce7ad7ed2c5ab205ad5c",
-      "verificationIdentityFingerprint": "ff1dd2bceda9d13f8220ea10bcfa886bdc6abc0ed7674a647b6c9002512213e3",
+      "sourcePackIdentityFingerprint": "d326f70b4448578a7b6f4f29d301effdbd7778b55df3c18050f891212f771209",
+      "verificationIdentityFingerprint": "6a8f05181d1fa1706eadc8f6a81ee989a435b632853706fc1aff5d3e14bb68ff",
       "titleComparison": {
         "status": "DOCUMENTED_VARIANT",
         "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed official document title Security and Privacy Controls corresponds to discovery filename [PDF] NIST.SP.800-53r5.pdf"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1366,8 +1367,8 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0031",
@@ -1378,15 +1379,15 @@
       "verificationCanonicalUrl": "https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf",
       "sourcePackPublisher": "NIST",
       "verificationPublisher": "NIST",
-      "sourcePackIdentityFingerprint": "d134fe0be42f8d03f829c676f1c1e247e81b9c697354fe1e0c59fd412e18d393",
-      "verificationIdentityFingerprint": "4170c5631391b83fdeacbb509852d91c06dfca5f1eb90d9d0ebe0717164f4d2e",
+      "sourcePackIdentityFingerprint": "00cdcb37ad65f6f3edcf13c8d82c00917b996b56ad1b7b18aa418ea769d98548",
+      "verificationIdentityFingerprint": "1eb4467b0eff2d0b23d5555db91b254363a9dd673179918bd8fecbd7cb13cff4",
       "titleComparison": {
         "status": "DOCUMENTED_VARIANT",
         "reason": "[OFFICIAL_SUBTITLE_VARIANT] Observed page title corresponds to discovery publication"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1397,8 +1398,8 @@
         "reason": "Organizational/corporate authorship"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-V11-0032",
@@ -1417,7 +1418,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1428,8 +1429,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0050",
@@ -1448,7 +1449,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1459,8 +1460,8 @@
         "reason": "Exact normalized author match"
       },
       "identityMatch": true,
-      "identityClassification": "DOCUMENTED_TITLE_VARIANT",
-      "mappingReason": "Independently validated: DOCUMENTED_TITLE_VARIANT"
+      "identityClassification": "TITLE_VARIANT",
+      "mappingReason": "Independently validated: TITLE_VARIANT"
     },
     {
       "sourcePackSourceId": "SRC-NF-0001",
@@ -1479,7 +1480,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1510,7 +1511,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1533,15 +1534,15 @@
       "verificationCanonicalUrl": "https://toolkit.climate.gov/NCA5",
       "sourcePackPublisher": "USGCRP",
       "verificationPublisher": "USGCRP",
-      "sourcePackIdentityFingerprint": "b39a278a428a1cae84c912dafcf9b3e5f0c1969dda826ed39d41362b2770a10b",
-      "verificationIdentityFingerprint": "b39a278a428a1cae84c912dafcf9b3e5f0c1969dda826ed39d41362b2770a10b",
+      "sourcePackIdentityFingerprint": "ad73e91fe0f8af0f6432069cbf87fed4918ba43ba1b2a1c848b73440a3bc357c",
+      "verificationIdentityFingerprint": "ad73e91fe0f8af0f6432069cbf87fed4918ba43ba1b2a1c848b73440a3bc357c",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1564,15 +1565,15 @@
       "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064235",
       "sourcePackPublisher": "PMC / NIH",
       "verificationPublisher": "PMC / NIH",
-      "sourcePackIdentityFingerprint": "a05339738f17bcb8093be449708a96004927c1a9035c95cda6f64c1e318b166d",
-      "verificationIdentityFingerprint": "a05339738f17bcb8093be449708a96004927c1a9035c95cda6f64c1e318b166d",
+      "sourcePackIdentityFingerprint": "a55fcce6f263f99cababf6fd77a0f7a9948e826720c14b757182a046cd6da89d",
+      "verificationIdentityFingerprint": "a55fcce6f263f99cababf6fd77a0f7a9948e826720c14b757182a046cd6da89d",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1603,7 +1604,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1634,7 +1635,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1665,7 +1666,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1696,7 +1697,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1727,7 +1728,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1758,7 +1759,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1789,7 +1790,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1820,7 +1821,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1843,15 +1844,15 @@
       "verificationCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm",
       "sourcePackPublisher": "Microsoft Corporation / SEC EDGAR",
       "verificationPublisher": "Microsoft Corporation / SEC EDGAR",
-      "sourcePackIdentityFingerprint": "dbef1f0c7c04a0c7f8892e35ee5f5496c11cf49dadd0ae02d91a2ef6122bc5a4",
-      "verificationIdentityFingerprint": "dbef1f0c7c04a0c7f8892e35ee5f5496c11cf49dadd0ae02d91a2ef6122bc5a4",
+      "sourcePackIdentityFingerprint": "58e0dc62f6fdae96e4515f58f1d44029887c4d587dec59da564930e503fd5165",
+      "verificationIdentityFingerprint": "58e0dc62f6fdae96e4515f58f1d44029887c4d587dec59da564930e503fd5165",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1874,15 +1875,15 @@
       "verificationCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
       "sourcePackPublisher": "Apple Inc. / SEC EDGAR",
       "verificationPublisher": "Apple Inc. / SEC EDGAR",
-      "sourcePackIdentityFingerprint": "e4f3bbd512568129caeb998b46f4ecbac0a385d3048c1bef106c11c15f766785",
-      "verificationIdentityFingerprint": "e4f3bbd512568129caeb998b46f4ecbac0a385d3048c1bef106c11c15f766785",
+      "sourcePackIdentityFingerprint": "1081a341f1c034a165acac7251e61e442647471fad5144369c769ad11aa6b4b8",
+      "verificationIdentityFingerprint": "1081a341f1c034a165acac7251e61e442647471fad5144369c769ad11aa6b4b8",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1913,7 +1914,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1944,7 +1945,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -1967,15 +1968,15 @@
       "verificationCanonicalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199055",
       "sourcePackPublisher": "PMC / NIH",
       "verificationPublisher": "PMC / NIH",
-      "sourcePackIdentityFingerprint": "7ca032d3314550376866879dd1f3366fdaa3e5f495e96214d980bda303e69318",
-      "verificationIdentityFingerprint": "7ca032d3314550376866879dd1f3366fdaa3e5f495e96214d980bda303e69318",
+      "sourcePackIdentityFingerprint": "9ed6a7992b5928f3970c23de911279c6d1619a94993f5b943979b22fb22544e1",
+      "verificationIdentityFingerprint": "9ed6a7992b5928f3970c23de911279c6d1619a94993f5b943979b22fb22544e1",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -2006,7 +2007,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -2029,15 +2030,15 @@
       "verificationCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm",
       "sourcePackPublisher": "Amazon.com, Inc. / SEC EDGAR",
       "verificationPublisher": "Amazon.com, Inc. / SEC EDGAR",
-      "sourcePackIdentityFingerprint": "35ee5f2d4652ba8aad6f3db733da19502b1b79443a51524056d91a2a506feca8",
-      "verificationIdentityFingerprint": "35ee5f2d4652ba8aad6f3db733da19502b1b79443a51524056d91a2a506feca8",
+      "sourcePackIdentityFingerprint": "4ea70ef7ff9ea40b175ebaf4659acc382dbb558ee578fe4470126919ef561fd5",
+      "verificationIdentityFingerprint": "4ea70ef7ff9ea40b175ebaf4659acc382dbb558ee578fe4470126919ef561fd5",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -2060,15 +2061,15 @@
       "verificationCanonicalUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
       "sourcePackPublisher": "Microsoft Corporation / SEC EDGAR",
       "verificationPublisher": "Microsoft Corporation / SEC EDGAR",
-      "sourcePackIdentityFingerprint": "46706e4f9f2c0463869b5a8b0942787fd47878cc65c6ec9b1b0766833aacd0f8",
-      "verificationIdentityFingerprint": "46706e4f9f2c0463869b5a8b0942787fd47878cc65c6ec9b1b0766833aacd0f8",
+      "sourcePackIdentityFingerprint": "607bb2bef782b6d46fa4fbf9852f2e99d46a3f4f5e490cfbb696e2543cb58667",
+      "verificationIdentityFingerprint": "607bb2bef782b6d46fa4fbf9852f2e99d46a3f4f5e490cfbb696e2543cb58667",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -2099,7 +2100,7 @@
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",
@@ -2122,15 +2123,15 @@
       "verificationCanonicalUrl": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813705",
       "sourcePackPublisher": "National Highway Traffic Safety Administration (NHTSA), U.S. DOT",
       "verificationPublisher": "National Highway Traffic Safety Administration (NHTSA), U.S. DOT",
-      "sourcePackIdentityFingerprint": "f770312cfb3a11fbf1005fb9c51b1f5065730b7e7f7362ebef217914f80aefb7",
-      "verificationIdentityFingerprint": "f770312cfb3a11fbf1005fb9c51b1f5065730b7e7f7362ebef217914f80aefb7",
+      "sourcePackIdentityFingerprint": "a122d2f336dddd325823337cdf36058dba0018ee9e836b7f3884de7008daa750",
+      "verificationIdentityFingerprint": "a122d2f336dddd325823337cdf36058dba0018ee9e836b7f3884de7008daa750",
       "titleComparison": {
         "status": "MATCH",
         "reason": "Exact normalized title match"
       },
       "urlComparison": {
         "status": "MATCH",
-        "reason": "Exact normalized URL match"
+        "reason": "Exact raw URL match"
       },
       "publisherComparison": {
         "status": "MATCH",

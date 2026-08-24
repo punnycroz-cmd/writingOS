@@ -18,31 +18,27 @@ const nonfictionSha = execSync('git rev-parse origin/research/nonfiction-source-
 
 mkdirSync('logs/phase3', { recursive: true });
 
-// 2. Run real Bun test suites and capture exact logs
+// 2. Run real Bun test suites and capture exact logs with 2>&1
 const bunCmd = process.env.HOME ? `${process.env.HOME}/.bun/bin/bun` : 'bun';
 
-const phase3TestStart = new Date().toISOString();
 let phase3RawOutput = '';
 let phase3ExitCode = 0;
 try {
-  phase3RawOutput = execSync(`${bunCmd} test tests/phase3/`, { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] });
+  phase3RawOutput = execSync(`${bunCmd} test tests/phase3/ 2>&1`, { encoding: 'utf-8' });
 } catch (err: any) {
   phase3RawOutput = (err.stdout || '') + (err.stderr || '');
   phase3ExitCode = err.status || 1;
 }
-const phase3TestEnd = new Date().toISOString();
 writeFileSync('logs/phase3/phase3a5-tests.log', phase3RawOutput);
 
-const phase2bTestStart = new Date().toISOString();
 let phase2bRawOutput = '';
 let phase2bExitCode = 0;
 try {
-  phase2bRawOutput = execSync(`${bunCmd} test tests/corpus/`, { encoding: 'utf-8', stdio: ['pipe', 'pipe', 'pipe'] });
+  phase2bRawOutput = execSync(`${bunCmd} test tests/corpus/ 2>&1`, { encoding: 'utf-8' });
 } catch (err: any) {
   phase2bRawOutput = (err.stdout || '') + (err.stderr || '');
   phase2bExitCode = err.status || 1;
 }
-const phase2bTestEnd = new Date().toISOString();
 writeFileSync('logs/phase3/phase2b-regression-tests.log', phase2bRawOutput);
 
 // Parse test metrics from raw outputs

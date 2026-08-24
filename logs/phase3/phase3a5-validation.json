@@ -1,0 +1,34 @@
+{
+  "validationInputCommitSha": "bb42eb33719e9a4d0350840419a714b3191583fe",
+  "generatedAt": "2026-08-24T00:31:40.884Z",
+  "phase3Metrics": {
+    "total": 97,
+    "pass": 97,
+    "fail": 0
+  },
+  "phase2bMetrics": {
+    "total": 67,
+    "pass": 67,
+    "fail": 0
+  },
+  "validRecords": 69,
+  "invalidRecords": 0,
+  "statusDistribution": {
+    "VERIFIED": 34,
+    "PARTIALLY_VERIFIED": 20,
+    "BLOCKED": 15,
+    "FAILED": 0,
+    "UNRESOLVED": 0
+  },
+  "identityClassificationDistribution": {
+    "EXACT_NORMALIZED_MATCH": 43,
+    "TITLE_VARIANT": 26,
+    "PUBLISHER_EQUIVALENT": 0,
+    "REDIRECT_EQUIVALENT": 0,
+    "URL_CANONICALIZATION": 0,
+    "COMBINED_DOCUMENTED_VARIANT": 0,
+    "PARENT_PUBLICATION_RELATION": 0,
+    "MISMATCH": 0,
+    "UNKNOWN": 0
+  }
+}
