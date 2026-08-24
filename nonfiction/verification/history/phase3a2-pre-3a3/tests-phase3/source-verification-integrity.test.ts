@@ -64,15 +64,12 @@ describe('Full 69-Source Verification Integrity', () => {
     }
   });
 
-  it('source-id-map.json has all 69 independent identity fingerprints and verified matches', () => {
+  it('source-id-map.json has all 69 identity fingerprints and verified matches', () => {
     expect(idMap.allMapped).toBe(true);
     for (const m of idMap.mappings) {
       expect(m.identityMatch).toBe(true);
-      expect(m.sourcePackFingerprint).toBeDefined();
-      expect(m.sourcePackFingerprint.length).toBeGreaterThan(0);
-      expect(m.verificationFingerprint).toBeDefined();
-      expect(m.verificationFingerprint.length).toBeGreaterThan(0);
-      expect(m.identityClassification).toBeDefined();
+      expect(m.identityFingerprint).toBeDefined();
+      expect(m.identityFingerprint.length).toBeGreaterThan(0);
     }
   });
 });

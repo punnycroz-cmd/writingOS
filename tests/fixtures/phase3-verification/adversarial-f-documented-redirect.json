@@ -1,0 +1,28 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0006",
+    "title": "NIST Cybersecurity Framework 2.0",
+    "organization": "NIST",
+    "url": "https://csrc.nist.gov/pubs/csf/2/0/final"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0006",
+    "verificationSourceId": "SRC-TEST-0006",
+    "observedTitle": "NIST Special Publication: Cybersecurity Framework 2.0",
+    "sourceUrl": "https://csrc.nist.gov/pubs/csf/2/0/final",
+    "canonicalUrl": "https://csrc.nist.gov/pubs/csf/2/0/final",
+    "publisherObserved": "NIST",
+    "titleMismatchReason": "Observed document series subtitle corresponds to discovery publication",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/csf/2/0/final"
+    ],
+    "notes": "Documented title variant and canonical redirect"
+  }
+}

@@ -1,17 +1,17 @@
 // tests/phase3/verification-normalization.test.ts
-// Phase 3A.2 verification normalization and adversarial validator tests.
+// Phase 3A.3 verification normalization and live ledger validation tests.
 
 import { describe, it, expect } from 'bun:test';
 import { readFileSync, existsSync } from 'node:fs';
 import {
   validatePublicationDate,
-  validateSourceIdentity,
   validateVerificationStatus,
   validateArtifact,
   validateFullRecord,
   normalizeTitle,
   normalizeUrl,
-  computeIdentityFingerprint,
+  computeSourcePackFingerprint,
+  computeVerificationFingerprint,
   type VerificationRecord,
   type SourcePackRecord,
 } from '../../src/phase3/verification-validator';
@@ -28,85 +28,6 @@ function loadSourcePack(): SourcePackRecord[] {
   return d.sources || d;
 }
 
-function loadFixture(name: string): any {
-  return JSON.parse(readFileSync(`tests/fixtures/phase3-verification/${name}`, 'utf-8'));
-}
-
-describe('Verification Normalization — Adversarial Fixtures', () => {
-  const sources = loadSourcePack();
-  const sourceMap = new Map(sources.map(s => [s.sourceId, s]));
-
-  it('Case A: Title mismatch without explanation -> FAILS', () => {
-    const fixture = loadFixture('invalid-title-mismatch.json');
-    const mockSp: SourcePackRecord = {
-      sourceId: 'SRC-TEST-0001',
-      title: 'Original Discovery Title',
-      url: 'https://example.com/test',
-    };
-    const res = validateFullRecord(fixture, mockSp);
-    expect(res.valid).toBe(false);
-    expect(res.errors.some(e => e.includes('Title mismatch'))).toBe(true);
-  });
-
-  it('Case B: Publication date with SYSTEM_CLOCK evidence -> FAILS', () => {
-    const fixture = loadFixture('invalid-date-provenance-clock.json');
-    const res = validatePublicationDate(fixture);
-    expect(res.length).toBeGreaterThan(0);
-    expect(res.some(e => e.includes('SYSTEM_CLOCK'))).toBe(true);
-  });
-
-  it('Case C: Publication date with HTTP transport header format -> FAILS', () => {
-    const fixture = loadFixture('invalid-date-provenance-retrieved.json');
-    const res = validatePublicationDate(fixture);
-    expect(res.length).toBeGreaterThan(0);
-    expect(res.some(e => e.includes('HTTP transport header'))).toBe(true);
-  });
-
-  it('Case D: VERIFIED with sourceIdentityVerified=false -> FAILS', () => {
-    const fixture = loadFixture('invalid-identity.json');
-    const res = validateVerificationStatus(fixture);
-    expect(res.length).toBeGreaterThan(0);
-    expect(res.some(e => e.includes('sourceIdentityVerified === true'))).toBe(true);
-  });
-
-  it('Case E: VERIFIED with empty evidenceLocations -> FAILS', () => {
-    const fixture = loadFixture('invalid-empty-evidence.json');
-    const res = validateVerificationStatus(fixture);
-    expect(res.length).toBeGreaterThan(0);
-    expect(res.some(e => e.includes('non-empty evidenceLocations'))).toBe(true);
-  });
-
-  it('Case F: Artifact SHA256 mismatch -> FAILS', () => {
-    const fixture = loadFixture('invalid-artifact-hash.json');
-    const res = validateArtifact(fixture);
-    expect(res.length).toBeGreaterThan(0);
-    expect(res.some(e => e.includes('Artifact SHA256 mismatch'))).toBe(true);
-  });
-
-  it('Case G: FAILED caused solely by HTTP 429 rate limit -> FAILS', () => {
-    const fixture = loadFixture('invalid-failed-429.json');
-    const res = validateVerificationStatus(fixture);
-    expect(res.length).toBeGreaterThan(0);
-    expect(res.some(e => e.includes('temporary rate-limit'))).toBe(true);
-  });
-
-  it('Case H: Valid VERIFIED record passes all validation rules -> PASSES', () => {
-    const fixture = loadFixture('valid-verified.json');
-    const sp = sourceMap.get(fixture.sourcePackSourceId);
-    const res = validateFullRecord(fixture, sp);
-    expect(res.valid).toBe(true);
-    expect(res.errors.length).toBe(0);
-  });
-
-  it('Case I: Valid BLOCKED record with PDF parser limitation -> PASSES', () => {
-    const fixture = loadFixture('valid-blocked.json');
-    const sp = sourceMap.get(fixture.sourcePackSourceId);
-    const res = validateFullRecord(fixture, sp);
-    expect(res.valid).toBe(true);
-    expect(res.errors.length).toBe(0);
-  });
-});
-
 describe('Verification Normalization — Text and URL Normalization Rules', () => {
   it('normalizes smart quotes, dashes, and whitespace in titles', () => {
     const titleA = '“Claims of ‘no difference’ in Reviews — Part 1”';
@@ -120,10 +41,20 @@ describe('Verification Normalization — Text and URL Normalization Rules', () =
     expect(normalizeUrl(urlA)).toBe(normalizeUrl(urlB));
   });
 
-  it('generates consistent identity fingerprints', () => {
-    const fp1 = computeIdentityFingerprint('My Title', 'https://example.com/doc', 'NIH');
-    const fp2 = computeIdentityFingerprint('“My Title”', 'http://example.com/doc/', 'nih');
-    expect(fp1.fingerprint).toBe(fp2.fingerprint);
+  it('generates consistent independent fingerprints', () => {
+    const sp: SourcePackRecord = {
+      sourceId: 'SRC-TEST-01',
+      title: 'My Title',
+      url: 'https://example.com/doc',
+      organization: 'NIH',
+    };
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: '“My Title”',
+      sourceUrl: 'http://example.com/doc/',
+      publisherObserved: 'nih',
+    };
+    expect(computeSourcePackFingerprint(sp)).toBe('SP[my title]::[https://example.com/doc]::[nih]');
+    expect(computeVerificationFingerprint(vr)).toBe('VR[my title]::[https://example.com/doc]::[nih]');
   });
 });
 

@@ -1,0 +1,26 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0005",
+    "title": "Traffic Safety Report 2024",
+    "organization": "NHTSA",
+    "url": "http://nhtsa.gov/reports/2024/"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0005",
+    "verificationSourceId": "SRC-TEST-0005",
+    "observedTitle": "Traffic Safety Report 2024",
+    "sourceUrl": "https://nhtsa.gov/reports/2024",
+    "publisherObserved": "NHTSA",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://nhtsa.gov/reports/2024"
+    ],
+    "notes": "Trailing slash & https normalization"
+  }
+}

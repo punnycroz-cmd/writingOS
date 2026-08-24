@@ -1,0 +1,24 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0013",
+    "title": "Health Outcomes 2024 PDF",
+    "organization": "CDC",
+    "url": "https://cdc.gov/outcomes.pdf"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0013",
+    "verificationSourceId": "SRC-TEST-0013",
+    "observedTitle": "Health Outcomes 2024 PDF",
+    "sourceUrl": "https://cdc.gov/outcomes.pdf",
+    "publisherObserved": "CDC",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "BLOCKED",
+    "verificationBlockReason": "PDF_PARSER_LIMITATION",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "notes": "Binary PDF could not be retrieved by HTML page reader"
+  }
+}

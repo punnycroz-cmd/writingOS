@@ -1,0 +1,101 @@
+{
+  "generatedAt": "2026-08-24T07:18:42.794837",
+  "totalChanges": 19,
+  "changes": [
+    {
+      "sourceId": "SRC-NF-V11-0006",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0007",
+      "field": "publisherObserved",
+      "value": "OECD"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0007",
+      "field": "authorObserved",
+      "value": "OECD"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0011",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0012",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0014",
+      "field": "publisherObserved",
+      "value": "United Nations Development Programme (UNDP)"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0014",
+      "field": "authorObserved",
+      "value": "UNDP"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0015",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-0037",
+      "field": "publisherObserved",
+      "value": "ENISA"
+    },
+    {
+      "sourceId": "SRC-NF-0037",
+      "field": "authorObserved",
+      "value": "N/A"
+    },
+    {
+      "sourceId": "SRC-NF-0039",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0021",
+      "field": "publisherObserved",
+      "value": "World Economic Forum"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0021",
+      "field": "authorObserved",
+      "value": "World Economic Forum"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0022",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-0033",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-0034",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0028",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0031",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0032",
+      "field": "titleMismatchReason",
+      "value": "Observed page title corresponds to discovery publication"
+    }
+  ]
+}

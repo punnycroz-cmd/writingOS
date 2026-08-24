@@ -1,10 +1,14 @@
 {
-  "auditDate": "2026-08-23T17:30:00.000Z",
+  "auditTimestamp": "2026-08-24T00:19:48.951Z",
   "totalRecords": 69,
   "validRecords": 69,
   "invalidRecords": 0,
+  "identityMismatches": 0,
+  "publisherMismatches": 0,
+  "titleMismatches": 0,
+  "urlMismatches": 0,
+  "authorMismatches": 0,
   "publicationDateIssues": 0,
-  "identityIssues": 0,
   "evidenceIssues": 0,
   "artifactIssues": 0,
   "statusSemanticIssues": 0,
@@ -16,16 +20,25 @@
     "FAILED": 0,
     "UNRESOLVED": 0
   },
+  "identityClassificationDistribution": {
+    "EXACT_NORMALIZED_MATCH": 43,
+    "DOCUMENTED_TITLE_VARIANT": 26,
+    "PARENT_PUBLICATION_RELATION": 0,
+    "MISMATCH": 0
+  },
   "publicationDateStatusDistribution": {
-    "DISCOVERY_INHERITED": 69,
     "SOURCE_VERIFIED_DATE": 0,
+    "DISCOVERY_INHERITED": 69,
     "APPROXIMATE": 0,
     "UNKNOWN": 0
   },
   "blockedReasonDistribution": {
+    "BOT_PROTECTION": 5,
     "PDF_PARSER_LIMITATION": 4,
     "JSON_PARSE_LIMITATION": 6,
-    "BOT_PROTECTION": 5
+    "ACCESS_RESTRICTION": 0,
+    "RATE_LIMIT": 0,
+    "OTHER_TECHNICAL_LIMITATION": 0
   },
   "claimGroundTruthBoundary": {
     "sourceVerifiedClaims": 0,
