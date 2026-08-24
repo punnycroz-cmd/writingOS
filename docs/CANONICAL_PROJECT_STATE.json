@@ -1,7 +1,7 @@
 {
   "canonicalWorkingBranch": "research/phase3b-sourcefactledger-v1",
   "canonicalBaselineCommit": "2f290acf81e84296a80e59a43e0eb96f7c338056",
-  "currentPhase": "Phase 3B",
+  "currentPhase": "Phase 3A.5",
   "phase2bSourceCommit": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
   "nonfictionSourceCommit": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
   "phase3a5BaselineCommit": "2f290acf81e84296a80e59a43e0eb96f7c338056",
@@ -11,8 +11,8 @@
     "tests/corpus/",
     "tests/phase3/"
   ],
-  "activeReconciler": "src/corpus/reconcile-v1.ts",
-  "auditBranch": "audit/end-to-end-repro-v2 (verification-only)",
+  "authoritativePhase2bReconciler": "bun run src/corpus/reconcile-v1.ts",
+  "auditBranch": "verification-only",
   "historicalBranchList": [
     "integration/writing-os-v1",
     "gemini/deterministic-triage-v2",
