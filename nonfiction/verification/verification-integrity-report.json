@@ -1,0 +1,34 @@
+{
+  "auditDate": "2026-08-23T17:30:00.000Z",
+  "totalRecords": 69,
+  "validRecords": 69,
+  "invalidRecords": 0,
+  "publicationDateIssues": 0,
+  "identityIssues": 0,
+  "evidenceIssues": 0,
+  "artifactIssues": 0,
+  "statusSemanticIssues": 0,
+  "mappingIssues": 0,
+  "statusDistribution": {
+    "VERIFIED": 34,
+    "PARTIALLY_VERIFIED": 20,
+    "BLOCKED": 15,
+    "FAILED": 0,
+    "UNRESOLVED": 0
+  },
+  "publicationDateStatusDistribution": {
+    "DISCOVERY_INHERITED": 69,
+    "SOURCE_VERIFIED_DATE": 0,
+    "APPROXIMATE": 0,
+    "UNKNOWN": 0
+  },
+  "blockedReasonDistribution": {
+    "PDF_PARSER_LIMITATION": 4,
+    "JSON_PARSE_LIMITATION": 6,
+    "BOT_PROTECTION": 5
+  },
+  "claimGroundTruthBoundary": {
+    "sourceVerifiedClaims": 0,
+    "containsGroundTruth": false
+  }
+}

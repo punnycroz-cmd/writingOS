@@ -1,0 +1,1101 @@
+{
+  "generatedAt": "2026-08-23T17:15:00.000Z",
+  "totalRecordsAudited": 69,
+  "recordsModified": 69,
+  "changeReport": [
+    {
+      "sourceId": "SRC-NF-V11-0001",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0002",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0003",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0004",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0005",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0006",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0007",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "PDF_PARSER_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0008",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0009",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0010",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0011",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0012",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0013",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0014",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "PDF_PARSER_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0015",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0016",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0017",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0036",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0037",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "PDF_PARSER_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0038",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0039",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0048",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0018",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0019",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0020",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0021",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "PDF_PARSER_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0031",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0022",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0032",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0033",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0034",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0040",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "JSON_PARSE_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0023",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "JSON_PARSE_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0024",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "JSON_PARSE_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0025",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "JSON_PARSE_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0026",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0027",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0028",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "SYSTEM_CLOCK",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0029",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "JSON_PARSE_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0030",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0035",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0045",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "JSON_PARSE_LIMITATION"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0046",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0049",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0031",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0032",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0050",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "titleMismatchReason": {
+          "old": "",
+          "new": "Observed page header / repository title corresponds to the discovery document"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0001",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0002",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "BOT_PROTECTION"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0003",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0004",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0005",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "BOT_PROTECTION"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0006",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "BOT_PROTECTION"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0007",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "BOT_PROTECTION"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0008",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        },
+        "verificationBlockReason": {
+          "old": null,
+          "new": "BOT_PROTECTION"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0009",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0010",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0011",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0012",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0013",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0014",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0015",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0016",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0017",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0018",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0019",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0020",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0021",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    },
+    {
+      "sourceId": "SRC-NF-0022",
+      "changes": {
+        "publicationDateStatus": {
+          "old": "VERIFIED",
+          "new": "DISCOVERY_INHERITED"
+        },
+        "publicationDateEvidence": {
+          "old": "FILE_MTIME + GIT_REFLOG",
+          "new": "Frozen discovery source-index (v1.1)"
+        }
+      },
+      "reason": "Hardened evidence provenance and blocked reason taxonomy"
+    }
+  ]
+}

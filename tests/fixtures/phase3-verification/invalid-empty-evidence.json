@@ -1,0 +1,11 @@
+{
+  "sourcePackSourceId": "SRC-TEST-0005",
+  "verificationSourceId": "SRC-TEST-0005",
+  "sourceUrl": "https://example.com/test",
+  "verificationStatus": "VERIFIED",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": true,
+  "evidenceLocations": [],
+  "notes": "Empty evidence locations fixture"
+}

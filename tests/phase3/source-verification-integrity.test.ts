@@ -1,5 +1,5 @@
 // tests/phase3/source-verification-integrity.test.ts
-// Full 69-source invariant test.
+// Full 69-source invariant and identity mapping integrity test.
 
 import { describe, it, expect } from 'bun:test';
 import { readFileSync } from 'node:fs';
@@ -13,12 +13,18 @@ function loadSources(): any[] {
   return d.sources || d;
 }
 
+function loadIdMap(): any {
+  return JSON.parse(readFileSync('nonfiction/verification/source-id-map.json', 'utf-8'));
+}
+
 describe('Full 69-Source Verification Integrity', () => {
   const ledger = loadLedger();
   const sources = loadSources();
+  const idMap = loadIdMap();
 
   it('has exactly 69 source mappings', () => {
     expect(sources.length).toBe(69);
+    expect(idMap.mappings.length).toBe(69);
   });
 
   it('has exactly 69 verification records', () => {
@@ -36,12 +42,6 @@ describe('Full 69-Source Verification Integrity', () => {
     expect(missing.length).toBe(0);
   });
 
-  it('has zero extra IDs (no orphan verification records)', () => {
-    const sourceIds = new Set(sources.map(s => s.sourceId));
-    const orphans = ledger.filter(r => !sourceIds.has(r.sourcePackSourceId));
-    expect(orphans.length).toBe(0);
-  });
-
   it('has zero orphan verification records', () => {
     const sourceIds = new Set(sources.map(s => s.sourceId));
     const orphans = ledger.filter(r => !sourceIds.has(r.sourcePackSourceId));
@@ -49,7 +49,14 @@ describe('Full 69-Source Verification Integrity', () => {
   });
 
   it('all records have required fields', () => {
-    const required = ['sourcePackSourceId', 'verificationSourceId', 'verificationStatus', 'verificationMethod', 'sourceIdentityVerified', 'evidenceLocations', 'notes'];
+    const required = [
+      'sourcePackSourceId',
+      'verificationSourceId',
+      'verificationStatus',
+      'verificationMethod',
+      'sourceIdentityVerified',
+      'notes'
+    ];
     for (const r of ledger) {
       for (const f of required) {
         expect(r[f]).toBeDefined();
@@ -57,9 +64,12 @@ describe('Full 69-Source Verification Integrity', () => {
     }
   });
 
-  it('source-id-map.json has all 69 mappings', () => {
-    const map = JSON.parse(readFileSync('nonfiction/verification/source-id-map.json', 'utf-8'));
-    expect(map.mappings.length).toBe(69);
-    expect(map.allMapped).toBe(true);
+  it('source-id-map.json has all 69 identity fingerprints and verified matches', () => {
+    expect(idMap.allMapped).toBe(true);
+    for (const m of idMap.mappings) {
+      expect(m.identityMatch).toBe(true);
+      expect(m.identityFingerprint).toBeDefined();
+      expect(m.identityFingerprint.length).toBeGreaterThan(0);
+    }
   });
 });

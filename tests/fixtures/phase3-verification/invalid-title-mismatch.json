@@ -1,0 +1,17 @@
+{
+  "sourcePackSourceId": "SRC-TEST-0001",
+  "verificationSourceId": "SRC-TEST-0001",
+  "sourceUrl": "https://example.com/test",
+  "discoveryTitle": "Original Discovery Title",
+  "observedTitle": "Completely Unrelated Other Title",
+  "titleMatch": false,
+  "titleMismatchReason": "",
+  "verificationStatus": "VERIFIED",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": true,
+  "evidenceLocations": [
+    "https://example.com/test"
+  ],
+  "notes": "Test fixture with missing titleMismatchReason"
+}

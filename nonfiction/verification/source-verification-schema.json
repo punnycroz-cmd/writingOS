@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Phase 3A.1 Normalized Source Verification Record",
-  "description": "Normalized schema for source verification records with strict semantics",
+  "title": "Phase 3A.2 Hardened Source Verification Record",
+  "description": "Normalized and hardened schema for source verification records with strict evidence provenance and identity requirements",
   "type": "object",
   "required": [
     "sourcePackSourceId",
@@ -13,12 +13,11 @@
     "sourceExists",
     "sourceIdentityVerified",
     "retrievalStatus",
-    "evidenceLocations",
     "notes"
   ],
   "properties": {
     "sourcePackSourceId": { "type": "string", "description": "Source ID from the frozen discovery corpus" },
-    "verificationSourceId": { "type": "string", "description": "Source ID in the verification ledger (may match sourcePackSourceId)" },
+    "verificationSourceId": { "type": "string", "description": "Source ID in the verification ledger" },
     "sourcePackVersion": { "type": "string" },
     "sourceUrl": { "type": "string" },
     "canonicalUrl": { "type": "string" },
@@ -28,16 +27,17 @@
     "titleMismatchReason": { "type": "string", "description": "Explanation when titleMatch=false. Required if titleMatch=false and verificationStatus=VERIFIED" },
     "authorObserved": { "type": "string" },
     "publisherObserved": { "type": "string" },
-    "publicationDateObserved": { "type": "string", "description": "Publication date from the source itself, NOT HTTP/retrieval timestamps" },
-    "publicationDateStatus": { "type": "string", "enum": ["VERIFIED", "APPROXIMATE", "UNKNOWN"] },
-    "publicationDateEvidence": { "type": "string", "description": "How the publication date was determined" },
+    "publicationDateObserved": { "type": "string", "description": "Publication date from source or discovery corpus" },
+    "publicationDateStatus": { "type": "string", "enum": ["SOURCE_VERIFIED_DATE", "DISCOVERY_INHERITED", "APPROXIMATE", "UNKNOWN"] },
+    "publicationDateEvidence": { "type": "string", "description": "Explicit provenance for how publication date was determined" },
     "versionDateObserved": { "type": "string", "description": "Version date if different from publication date" },
     "pageLastModified": { "type": "string", "description": "HTTP Last-Modified header or page metadata timestamp (NOT publication date)" },
     "retrievedAt": { "type": "string", "description": "When the verification retrieval occurred" },
-    "sourceExists": { "type": "boolean", "description": "Whether the source URL is accessible/exists (even if content not retrieved)" },
-    "sourceIdentityVerified": { "type": "boolean", "description": "Whether source identity (title, publisher, author) was verified against the discovery record" },
+    "sourceExists": { "type": "boolean", "description": "Whether the source URL is accessible/exists" },
+    "sourceIdentityVerified": { "type": "boolean", "description": "Whether source identity was verified against discovery record" },
     "retrievalStatus": { "type": "string", "enum": ["SUCCESS", "PARTIAL", "BLOCKED", "PDF_NOT_RETRIEVABLE", "TOOL_PARSE_ERROR", "PRIOR_URL_VERIFIED", "PRIOR_BOT_BLOCKED", "NOT_FOUND", "ERROR", "PENDING"] },
     "verificationStatus": { "type": "string", "enum": ["VERIFIED", "PARTIALLY_VERIFIED", "BLOCKED", "FAILED", "UNRESOLVED"] },
+    "verificationBlockReason": { "type": "string", "enum": ["BOT_PROTECTION", "PDF_PARSER_LIMITATION", "JSON_PARSE_LIMITATION", "ACCESS_RESTRICTION", "RATE_LIMIT", "OTHER_TECHNICAL_LIMITATION"] },
     "verificationMethod": { "type": "string" },
     "evidenceLocations": { "type": "array", "items": { "type": "string" } },
     "retrievedArtifact": { "type": "string" },
@@ -53,12 +53,12 @@
       "if titleMatch=false then titleMismatchReason must be non-empty"
     ],
     "BLOCKED_requires": [
-      "sourceExists or sourceIdentityVerified should be true (source exists but content inaccessible)",
+      "verificationBlockReason must be specified",
       "notes must explain the blocking reason"
     ],
     "FAILED_requires": [
       "notes must explain why source is considered failed (not tool error)"
     ],
-    "publicationDate_rule": "publicationDateObserved must NOT equal pageLastModified or retrievedAt without publicationDateEvidence"
+    "publicationDate_rule": "publicationDateEvidence must not be SYSTEM_CLOCK or transport timestamp"
   }
 }
