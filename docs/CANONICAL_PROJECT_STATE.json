@@ -1,0 +1,26 @@
+{
+  "canonicalWorkingBranch": "research/phase3b-sourcefactledger-v1",
+  "canonicalBaselineCommit": "2f290acf81e84296a80e59a43e0eb96f7c338056",
+  "currentPhase": "Phase 3B",
+  "phase2bSourceCommit": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+  "nonfictionSourceCommit": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
+  "phase3a5BaselineCommit": "2f290acf81e84296a80e59a43e0eb96f7c338056",
+  "activeSourcePackLocation": "nonfiction/source-pack",
+  "activeVerificationLedgerLocation": "nonfiction/verification/source-verification-ledger.jsonl",
+  "activeTestSuites": [
+    "tests/corpus/",
+    "tests/phase3/"
+  ],
+  "activeReconciler": "src/corpus/reconcile-v1.ts",
+  "auditBranch": "audit/end-to-end-repro-v2 (verification-only)",
+  "historicalBranchList": [
+    "integration/writing-os-v1",
+    "gemini/deterministic-triage-v2",
+    "original/semantic-validation-v4-2",
+    "research/phase2b-golden-corpus-v1-reconciled",
+    "research/nonfiction-source-pack-v1.1",
+    "research/phase3-nonfiction-foundation-v1"
+  ],
+  "historicalArtifactLocations": "history/",
+  "nextPhase": "Phase 3B"
+}
