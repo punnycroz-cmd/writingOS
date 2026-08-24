@@ -1,0 +1,422 @@
+{
+  "generatedAt": "2026-08-23T03:00:00.000Z",
+  "totalSources": 69,
+  "totalLedgerRecords": 69,
+  "allMapped": true,
+  "mappings": [
+    {
+      "sourcePackSourceId": "SRC-NF-0001",
+      "verificationSourceId": "SRC-NF-0001",
+      "v1SourceId": "SRC-NF-0001",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0002",
+      "verificationSourceId": "SRC-NF-0002",
+      "v1SourceId": "SRC-NF-0002",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0003",
+      "verificationSourceId": "SRC-NF-0003",
+      "v1SourceId": "SRC-NF-0003",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0004",
+      "verificationSourceId": "SRC-NF-0004",
+      "v1SourceId": "SRC-NF-0004",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0005",
+      "verificationSourceId": "SRC-NF-0005",
+      "v1SourceId": "SRC-NF-0005",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0006",
+      "verificationSourceId": "SRC-NF-0006",
+      "v1SourceId": "SRC-NF-0006",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0007",
+      "verificationSourceId": "SRC-NF-0007",
+      "v1SourceId": "SRC-NF-0007",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0008",
+      "verificationSourceId": "SRC-NF-0008",
+      "v1SourceId": "SRC-NF-0008",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0009",
+      "verificationSourceId": "SRC-NF-0009",
+      "v1SourceId": "SRC-NF-0009",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0010",
+      "verificationSourceId": "SRC-NF-0010",
+      "v1SourceId": "SRC-NF-0010",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0011",
+      "verificationSourceId": "SRC-NF-0011",
+      "v1SourceId": "SRC-NF-0011",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0012",
+      "verificationSourceId": "SRC-NF-0012",
+      "v1SourceId": "SRC-NF-0012",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0013",
+      "verificationSourceId": "SRC-NF-0013",
+      "v1SourceId": "SRC-NF-0013",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0014",
+      "verificationSourceId": "SRC-NF-0014",
+      "v1SourceId": "SRC-NF-0014",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0015",
+      "verificationSourceId": "SRC-NF-0015",
+      "v1SourceId": "SRC-NF-0015",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0016",
+      "verificationSourceId": "SRC-NF-0016",
+      "v1SourceId": "SRC-NF-0016",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0017",
+      "verificationSourceId": "SRC-NF-0017",
+      "v1SourceId": "SRC-NF-0017",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0018",
+      "verificationSourceId": "SRC-NF-0018",
+      "v1SourceId": "SRC-NF-0018",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0019",
+      "verificationSourceId": "SRC-NF-0019",
+      "v1SourceId": "SRC-NF-0019",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0020",
+      "verificationSourceId": "SRC-NF-0020",
+      "v1SourceId": "SRC-NF-0020",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0021",
+      "verificationSourceId": "SRC-NF-0021",
+      "v1SourceId": "SRC-NF-0021",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0022",
+      "verificationSourceId": "SRC-NF-0022",
+      "v1SourceId": "SRC-NF-0022",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0001",
+      "verificationSourceId": "SRC-NF-V11-0001",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0002",
+      "verificationSourceId": "SRC-NF-V11-0002",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0003",
+      "verificationSourceId": "SRC-NF-V11-0003",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0004",
+      "verificationSourceId": "SRC-NF-V11-0004",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0005",
+      "verificationSourceId": "SRC-NF-V11-0005",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0006",
+      "verificationSourceId": "SRC-NF-V11-0006",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0007",
+      "verificationSourceId": "SRC-NF-V11-0007",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0008",
+      "verificationSourceId": "SRC-NF-V11-0008",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0009",
+      "verificationSourceId": "SRC-NF-V11-0009",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0010",
+      "verificationSourceId": "SRC-NF-V11-0010",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0011",
+      "verificationSourceId": "SRC-NF-V11-0011",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0012",
+      "verificationSourceId": "SRC-NF-V11-0012",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0013",
+      "verificationSourceId": "SRC-NF-V11-0013",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0014",
+      "verificationSourceId": "SRC-NF-V11-0014",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0015",
+      "verificationSourceId": "SRC-NF-V11-0015",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0016",
+      "verificationSourceId": "SRC-NF-V11-0016",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0017",
+      "verificationSourceId": "SRC-NF-V11-0017",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0036",
+      "verificationSourceId": "SRC-NF-0036",
+      "v1SourceId": "SRC-NF-0036",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0037",
+      "verificationSourceId": "SRC-NF-0037",
+      "v1SourceId": "SRC-NF-0037",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0038",
+      "verificationSourceId": "SRC-NF-0038",
+      "v1SourceId": "SRC-NF-0038",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0039",
+      "verificationSourceId": "SRC-NF-0039",
+      "v1SourceId": "SRC-NF-0039",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0048",
+      "verificationSourceId": "SRC-NF-0048",
+      "v1SourceId": "SRC-NF-0048",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0018",
+      "verificationSourceId": "SRC-NF-V11-0018",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0019",
+      "verificationSourceId": "SRC-NF-V11-0019",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0020",
+      "verificationSourceId": "SRC-NF-V11-0020",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0021",
+      "verificationSourceId": "SRC-NF-V11-0021",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0031",
+      "verificationSourceId": "SRC-NF-0031",
+      "v1SourceId": "SRC-NF-0031",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0022",
+      "verificationSourceId": "SRC-NF-V11-0022",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0032",
+      "verificationSourceId": "SRC-NF-0032",
+      "v1SourceId": "SRC-NF-0032",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0033",
+      "verificationSourceId": "SRC-NF-0033",
+      "v1SourceId": "SRC-NF-0033",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0034",
+      "verificationSourceId": "SRC-NF-0034",
+      "v1SourceId": "SRC-NF-0034",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0040",
+      "verificationSourceId": "SRC-NF-0040",
+      "v1SourceId": "SRC-NF-0040",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0023",
+      "verificationSourceId": "SRC-NF-V11-0023",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0024",
+      "verificationSourceId": "SRC-NF-V11-0024",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0025",
+      "verificationSourceId": "SRC-NF-V11-0025",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0026",
+      "verificationSourceId": "SRC-NF-V11-0026",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0027",
+      "verificationSourceId": "SRC-NF-V11-0027",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0028",
+      "verificationSourceId": "SRC-NF-V11-0028",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0029",
+      "verificationSourceId": "SRC-NF-V11-0029",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0030",
+      "verificationSourceId": "SRC-NF-V11-0030",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0035",
+      "verificationSourceId": "SRC-NF-0035",
+      "v1SourceId": "SRC-NF-0035",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0045",
+      "verificationSourceId": "SRC-NF-0045",
+      "v1SourceId": "SRC-NF-0045",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0046",
+      "verificationSourceId": "SRC-NF-0046",
+      "v1SourceId": "SRC-NF-0046",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0049",
+      "verificationSourceId": "SRC-NF-0049",
+      "v1SourceId": "SRC-NF-0049",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0031",
+      "verificationSourceId": "SRC-NF-V11-0031",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-V11-0032",
+      "verificationSourceId": "SRC-NF-V11-0032",
+      "v1SourceId": null,
+      "mappingReason": "ID identical across source pack and verification ledger"
+    },
+    {
+      "sourcePackSourceId": "SRC-NF-0050",
+      "verificationSourceId": "SRC-NF-0050",
+      "v1SourceId": "SRC-NF-0050",
+      "mappingReason": "ID identical across source pack and verification ledger"
+    }
+  ]
+}

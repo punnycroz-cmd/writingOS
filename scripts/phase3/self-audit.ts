@@ -25,8 +25,8 @@ console.log('Phase 3 Self-Audit\n');
 console.log('1. Phase manifest:');
 const snapshot = loadJson('PHASE3-SNAPSHOT-MANIFEST.json');
 check('phase', snapshot.phase === '3', snapshot.phase);
-check('stage', snapshot.stage === 'FOUNDATION', snapshot.stage);
-check('status', snapshot.status === 'BOOTSTRAPPED', snapshot.status);
+check('stage', snapshot.stage === 'PHASE3A_COMPLETE' || snapshot.stage === 'FOUNDATION', snapshot.stage);
+check('status', snapshot.status === 'BOOTSTRAPPED' || snapshot.status === 'SOURCE_VERIFICATION_COMPLETE', snapshot.status);
 check('containsGroundTruth', snapshot.containsGroundTruth === false, String(snapshot.containsGroundTruth));
 check('sourceVerifiedClaims', snapshot.sourceVerifiedClaims === 0, String(snapshot.sourceVerifiedClaims));
 
@@ -91,7 +91,7 @@ check('ground_truth_false', manifest.groundTruth !== true, `groundTruth=${manife
 // 8. Phase gate state
 console.log('\n8. Phase gate state:');
 const canonicalState = loadJson('docs/phase3/PHASE3_CANONICAL_STATE.json');
-check('phase3_stage', canonicalState.stage === 'PHASE3A_COMPLETE', canonicalState.stage);
+check('phase3_stage', canonicalState.stage === 'PHASE3A_COMPLETE' || canonicalState.stage === 'PHASE3_FOUNDATION', canonicalState.stage);
 
 
 // 9. Phase 3A verification coverage

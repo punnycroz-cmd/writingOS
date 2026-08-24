@@ -114,7 +114,7 @@ function checkGate1(): GateResult {
   }
   
   // Check no duplicate source IDs
-  const ids = ledger.map(r => r.sourceId);
+  const ids = ledger.map(r => r.sourcePackSourceId);
   const uniqueIds = new Set(ids).size;
   checks.push({ name: 'no_duplicate_source_ids', passed: uniqueIds === ids.length, detail: `${uniqueIds} unique / ${ids.length} total` });
   

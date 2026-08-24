@@ -31,14 +31,14 @@ describe('Phase 3A Source Verification — Coverage', () => {
   });
 
   it('every source in source-index has a ledger record', () => {
-    const ledgerIds = new Set(ledger.map(r => r.sourceId));
+    const ledgerIds = new Set(ledger.map(r => r.sourcePackSourceId));
     for (const s of sources) {
       expect(ledgerIds.has(s.sourceId)).toBe(true);
     }
   });
 
   it('no duplicate source IDs in ledger', () => {
-    const ids = ledger.map(r => r.sourceId);
+    const ids = ledger.map(r => r.sourcePackSourceId);
     expect(new Set(ids).size).toBe(ids.length);
   });
 
@@ -58,9 +58,9 @@ describe('Phase 3A Source Verification — VERIFIED Records', () => {
     expect(verified.length).toBeGreaterThan(0);
   });
 
-  it('every VERIFIED record has sourceIdentityMatch = true', () => {
+  it('every VERIFIED record has sourceIdentityVerified = true', () => {
     for (const r of verified) {
-      expect(r.sourceIdentityMatch).toBe(true);
+      expect(r.sourceIdentityVerified).toBe(true);
     }
   });
 

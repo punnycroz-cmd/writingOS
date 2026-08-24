@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-08-23T03:10:00.000Z",
+  "totalSources": 69,
+  "verified": 34,
+  "partiallyVerified": 20,
+  "blocked": 15,
+  "failed": 0,
+  "unresolved": 0,
+  "changedStatuses": 69,
+  "unchangedStatuses": 0,
+  "mappingErrors": 0,
+  "evidenceErrors": 0,
+  "dateNormalizationErrors": 0,
+  "titleNormalizationErrors": 0,
+  "artifactErrors": 0,
+  "artifactsValidated": 34,
+  "previousCounts": {
+    "VERIFIED": 34,
+    "BLOCKED": 15,
+    "PARTIALLY_VERIFIED": 20
+  },
+  "normalizedCounts": {
+    "VERIFIED": 34,
+    "BLOCKED": 15,
+    "PARTIALLY_VERIFIED": 20
+  },
+  "allContradictionsResolved": true,
+  "sourceVerifiedClaims": 0,
+  "containsGroundTruth": false
+}
