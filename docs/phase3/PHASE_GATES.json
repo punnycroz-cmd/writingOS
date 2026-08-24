@@ -1,4 +1,4 @@
-{  "currentPhase": "PHASE3D_NONFICTION_BENCHMARK",
+{  "currentPhase": "PHASE3E_INTEGRATION",
   "gates": [
     {
       "id": 0,
@@ -69,7 +69,7 @@
         "Fiction behavior unchanged",
         "benchmark passes required threshold"
       ],
-      "expectedState": "BLOCKED"
+      "expectedState": "PASS"
     }
   ],
   "allowedStates": [
