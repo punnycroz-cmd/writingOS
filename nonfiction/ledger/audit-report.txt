@@ -1,0 +1,27 @@
+totalSources = 69
+canonicalSourceMapping = 69 ↔ 69
+uniqueClaimReferencedSources = 29
+ledgerSourceMapping = 29
+
+totalClaims = 135
+ledgerRecords = 135
+CANDIDATE = 107
+UNSUPPORTED = 0
+PARTIALLY_SUPPORTED = 0
+BLOCKED = 28
+SOURCE_VERIFIED = 0
+
+claimsWithoutEvidence = 135
+directEvidence = 0
+partialEvidence = 0
+
+orphanClaims = 0
+orphanSources = 0
+duplicateRelationships = 0
+
+deterministicBuild = PASS
+frozenInputsUnchanged = YES
+epistemicBoundary = PASS
+gate2 = PASS
+
+phase3bStatus = COMPLETE

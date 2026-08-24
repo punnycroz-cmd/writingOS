@@ -1,0 +1,2152 @@
+[
+  {
+    "claimId": "CLM-NF-0001",
+    "sourceReferences": [
+      "SRC-NF-0001"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://digitallibrary.un.org/record/4008082?ln=en"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0002",
+    "sourceReferences": [
+      "SRC-NF-0001"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://digitallibrary.un.org/record/4008082?ln=en"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0003",
+    "sourceReferences": [
+      "SRC-NF-0001"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://digitallibrary.un.org/record/4008082?ln=en"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0004",
+    "sourceReferences": [
+      "SRC-NF-0001"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://digitallibrary.un.org/record/4008082?ln=en"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0005",
+    "sourceReferences": [
+      "SRC-NF-0001"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://digitallibrary.un.org/record/4008082?ln=en"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0006",
+    "sourceReferences": [
+      "SRC-NF-0001"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://digitallibrary.un.org/record/4008082?ln=en"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0007",
+    "sourceReferences": [
+      "SRC-NF-0001"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://digitallibrary.un.org/record/4008082?ln=en"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0008",
+    "sourceReferences": [
+      "SRC-NF-0001"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://digitallibrary.un.org/record/4008082?ln=en"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0009",
+    "sourceReferences": [
+      "SRC-NF-0002"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.unep.org/resources/emissions-gap-report-2023"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0010",
+    "sourceReferences": [
+      "SRC-NF-0002"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.unep.org/resources/emissions-gap-report-2023"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0011",
+    "sourceReferences": [
+      "SRC-NF-0002"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.unep.org/resources/emissions-gap-report-2023"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0012",
+    "sourceReferences": [
+      "SRC-NF-0002"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.unep.org/resources/emissions-gap-report-2023"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0013",
+    "sourceReferences": [
+      "SRC-NF-0002"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.unep.org/resources/emissions-gap-report-2023"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0014",
+    "sourceReferences": [
+      "SRC-NF-0003"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://toolkit.climate.gov/NCA5"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0015",
+    "sourceReferences": [
+      "SRC-NF-0003"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://toolkit.climate.gov/NCA5"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0016",
+    "sourceReferences": [
+      "SRC-NF-0003"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://toolkit.climate.gov/NCA5"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0017",
+    "sourceReferences": [
+      "SRC-NF-0003"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://toolkit.climate.gov/NCA5"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0018",
+    "sourceReferences": [
+      "SRC-NF-0003"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://toolkit.climate.gov/NCA5"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0019",
+    "sourceReferences": [
+      "SRC-NF-0003"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://toolkit.climate.gov/NCA5"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0020",
+    "sourceReferences": [
+      "SRC-NF-0004"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064235"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0021",
+    "sourceReferences": [
+      "SRC-NF-0004"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064235"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0022",
+    "sourceReferences": [
+      "SRC-NF-0004"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064235"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0023",
+    "sourceReferences": [
+      "SRC-NF-0004"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064235"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0024",
+    "sourceReferences": [
+      "SRC-NF-0004"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC11064235"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0025",
+    "sourceReferences": [
+      "SRC-NF-0005"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.census.gov/data/tables/2023/demo/popproj/2023-summary-tables.html"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0026",
+    "sourceReferences": [
+      "SRC-NF-0005"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.census.gov/data/tables/2023/demo/popproj/2023-summary-tables.html"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0027",
+    "sourceReferences": [
+      "SRC-NF-0005"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.census.gov/data/tables/2023/demo/popproj/2023-summary-tables.html"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0028",
+    "sourceReferences": [
+      "SRC-NF-0005"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.census.gov/data/tables/2023/demo/popproj/2023-summary-tables.html"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0029",
+    "sourceReferences": [
+      "SRC-NF-0005"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.census.gov/data/tables/2023/demo/popproj/2023-summary-tables.html"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0030",
+    "sourceReferences": [
+      "SRC-NF-0006"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www2.census.gov/econ/qfr/press/qfr244mg.pdf"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0031",
+    "sourceReferences": [
+      "SRC-NF-0006"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www2.census.gov/econ/qfr/press/qfr244mg.pdf"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0032",
+    "sourceReferences": [
+      "SRC-NF-0006"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www2.census.gov/econ/qfr/press/qfr244mg.pdf"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0033",
+    "sourceReferences": [
+      "SRC-NF-0006"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www2.census.gov/econ/qfr/press/qfr244mg.pdf"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0034",
+    "sourceReferences": [
+      "SRC-NF-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/empsit_01102025.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0035",
+    "sourceReferences": [
+      "SRC-NF-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/empsit_01102025.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0036",
+    "sourceReferences": [
+      "SRC-NF-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/empsit_01102025.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0037",
+    "sourceReferences": [
+      "SRC-NF-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/empsit_01102025.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0038",
+    "sourceReferences": [
+      "SRC-NF-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/empsit_01102025.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0039",
+    "sourceReferences": [
+      "SRC-NF-0008"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0040",
+    "sourceReferences": [
+      "SRC-NF-0008"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0041",
+    "sourceReferences": [
+      "SRC-NF-0008"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0042",
+    "sourceReferences": [
+      "SRC-NF-0008"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [
+      "https://www.bls.gov/news.release/archives/cpi_06102026.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-0043",
+    "sourceReferences": [
+      "SRC-NF-0009"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0044",
+    "sourceReferences": [
+      "SRC-NF-0009"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0045",
+    "sourceReferences": [
+      "SRC-NF-0009"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0046",
+    "sourceReferences": [
+      "SRC-NF-0009"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.bea.gov/news/2026/gdp-advance-estimate-4th-quarter-and-year-2025"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0047",
+    "sourceReferences": [
+      "SRC-NF-0010"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0048",
+    "sourceReferences": [
+      "SRC-NF-0010"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0049",
+    "sourceReferences": [
+      "SRC-NF-0010"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0050",
+    "sourceReferences": [
+      "SRC-NF-0010"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0051",
+    "sourceReferences": [
+      "SRC-NF-0010"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0052",
+    "sourceReferences": [
+      "SRC-NF-0011"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0053",
+    "sourceReferences": [
+      "SRC-NF-0011"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0054",
+    "sourceReferences": [
+      "SRC-NF-0011"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0055",
+    "sourceReferences": [
+      "SRC-NF-0011"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0056",
+    "sourceReferences": [
+      "SRC-NF-0011"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/sp/800/63/b/upd2/final"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0057",
+    "sourceReferences": [
+      "SRC-NF-0012"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0058",
+    "sourceReferences": [
+      "SRC-NF-0012"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0059",
+    "sourceReferences": [
+      "SRC-NF-0012"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0060",
+    "sourceReferences": [
+      "SRC-NF-0012"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0061",
+    "sourceReferences": [
+      "SRC-NF-0012"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.enisa.europa.eu/publications/enisa-threat-landscape-2024"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0062",
+    "sourceReferences": [
+      "SRC-NF-0013"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0063",
+    "sourceReferences": [
+      "SRC-NF-0013"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0064",
+    "sourceReferences": [
+      "SRC-NF-0013"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0065",
+    "sourceReferences": [
+      "SRC-NF-0013"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0066",
+    "sourceReferences": [
+      "SRC-NF-0013"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000095017023035122/msft-20230630.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0067",
+    "sourceReferences": [
+      "SRC-NF-0014"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0068",
+    "sourceReferences": [
+      "SRC-NF-0014"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0069",
+    "sourceReferences": [
+      "SRC-NF-0014"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0070",
+    "sourceReferences": [
+      "SRC-NF-0014"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0071",
+    "sourceReferences": [
+      "SRC-NF-0015"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-and-greenhouse-gas-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0072",
+    "sourceReferences": [
+      "SRC-NF-0015"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-and-greenhouse-gas-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0073",
+    "sourceReferences": [
+      "SRC-NF-0015"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-and-greenhouse-gas-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0074",
+    "sourceReferences": [
+      "SRC-NF-0015"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-and-greenhouse-gas-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0075",
+    "sourceReferences": [
+      "SRC-NF-0015"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-and-greenhouse-gas-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0076",
+    "sourceReferences": [
+      "SRC-NF-0016"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0077",
+    "sourceReferences": [
+      "SRC-NF-0016"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0078",
+    "sourceReferences": [
+      "SRC-NF-0016"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0079",
+    "sourceReferences": [
+      "SRC-NF-0016"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ourworldindata.org/co2-emissions"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0080",
+    "sourceReferences": [
+      "SRC-NF-0017"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199055"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0081",
+    "sourceReferences": [
+      "SRC-NF-0017"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199055"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0082",
+    "sourceReferences": [
+      "SRC-NF-0017"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199055"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0083",
+    "sourceReferences": [
+      "SRC-NF-0017"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199055"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0084",
+    "sourceReferences": [
+      "SRC-NF-0017"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199055"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0085",
+    "sourceReferences": [
+      "SRC-NF-0018"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.nber.org/system/files/working_papers/w18681/w18681.pdf"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0086",
+    "sourceReferences": [
+      "SRC-NF-0018"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.nber.org/system/files/working_papers/w18681/w18681.pdf"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0087",
+    "sourceReferences": [
+      "SRC-NF-0018"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.nber.org/system/files/working_papers/w18681/w18681.pdf"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0088",
+    "sourceReferences": [
+      "SRC-NF-0018"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.nber.org/system/files/working_papers/w18681/w18681.pdf"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0089",
+    "sourceReferences": [
+      "SRC-NF-0019"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0090",
+    "sourceReferences": [
+      "SRC-NF-0019"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0091",
+    "sourceReferences": [
+      "SRC-NF-0019"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0092",
+    "sourceReferences": [
+      "SRC-NF-0019"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/1018724/000101872424000008/amzn-20231231.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0093",
+    "sourceReferences": [
+      "SRC-NF-0020"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0094",
+    "sourceReferences": [
+      "SRC-NF-0020"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0095",
+    "sourceReferences": [
+      "SRC-NF-0020"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0096",
+    "sourceReferences": [
+      "SRC-NF-0020"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0097",
+    "sourceReferences": [
+      "SRC-NF-0021"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.fhwa.dot.gov/policyinformation/statistics/2023"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0098",
+    "sourceReferences": [
+      "SRC-NF-0021"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.fhwa.dot.gov/policyinformation/statistics/2023"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0099",
+    "sourceReferences": [
+      "SRC-NF-0021"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.fhwa.dot.gov/policyinformation/statistics/2023"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0100",
+    "sourceReferences": [
+      "SRC-NF-0021"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.fhwa.dot.gov/policyinformation/statistics/2023"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0101",
+    "sourceReferences": [
+      "SRC-NF-0022"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813705"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0102",
+    "sourceReferences": [
+      "SRC-NF-0022"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813705"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0103",
+    "sourceReferences": [
+      "SRC-NF-0022"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813705"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0104",
+    "sourceReferences": [
+      "SRC-NF-0022"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813705"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-0105",
+    "sourceReferences": [
+      "SRC-NF-0022"
+    ],
+    "sourceStatuses": [
+      "PARTIALLY_VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813705"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0106",
+    "sourceReferences": [
+      "SRC-NF-V11-0001"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0107",
+    "sourceReferences": [
+      "SRC-NF-V11-0001"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0108",
+    "sourceReferences": [
+      "SRC-NF-V11-0001"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0109",
+    "sourceReferences": [
+      "SRC-NF-V11-0001"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0110",
+    "sourceReferences": [
+      "SRC-NF-V11-0001"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0111",
+    "sourceReferences": [
+      "SRC-NF-V11-0002"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019115"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0112",
+    "sourceReferences": [
+      "SRC-NF-V11-0002"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019115"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0113",
+    "sourceReferences": [
+      "SRC-NF-V11-0002"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019115"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0114",
+    "sourceReferences": [
+      "SRC-NF-V11-0002"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019115"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0115",
+    "sourceReferences": [
+      "SRC-NF-V11-0002"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC6019115"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0116",
+    "sourceReferences": [
+      "SRC-NF-V11-0003"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ec.europa.eu/eurostat/web/products-flagship-publications/w/ks-ha-24-001"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0117",
+    "sourceReferences": [
+      "SRC-NF-V11-0003"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ec.europa.eu/eurostat/web/products-flagship-publications/w/ks-ha-24-001"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0118",
+    "sourceReferences": [
+      "SRC-NF-V11-0003"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ec.europa.eu/eurostat/web/products-flagship-publications/w/ks-ha-24-001"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0119",
+    "sourceReferences": [
+      "SRC-NF-V11-0003"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://ec.europa.eu/eurostat/web/products-flagship-publications/w/ks-ha-24-001"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0120",
+    "sourceReferences": [
+      "SRC-NF-V11-0004"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www150.statcan.gc.ca/n1/daily-quotidien/250110/dq250110a-eng.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0121",
+    "sourceReferences": [
+      "SRC-NF-V11-0004"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www150.statcan.gc.ca/n1/daily-quotidien/250110/dq250110a-eng.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0122",
+    "sourceReferences": [
+      "SRC-NF-V11-0004"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www150.statcan.gc.ca/n1/daily-quotidien/250110/dq250110a-eng.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0123",
+    "sourceReferences": [
+      "SRC-NF-V11-0004"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www150.statcan.gc.ca/n1/daily-quotidien/250110/dq250110a-eng.htm"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0124",
+    "sourceReferences": [
+      "SRC-NF-V11-0005"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/previousreleases"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0125",
+    "sourceReferences": [
+      "SRC-NF-V11-0005"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/previousreleases"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0126",
+    "sourceReferences": [
+      "SRC-NF-V11-0005"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/previousreleases"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0127",
+    "sourceReferences": [
+      "SRC-NF-V11-0005"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/bulletins/uklabourmarket/previousreleases"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0128",
+    "sourceReferences": [
+      "SRC-NF-V11-0006"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.istat.it/en/publication/italian-statistical-yearbook-2025-executive-summary"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0129",
+    "sourceReferences": [
+      "SRC-NF-V11-0006"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.istat.it/en/publication/italian-statistical-yearbook-2025-executive-summary"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0130",
+    "sourceReferences": [
+      "SRC-NF-V11-0006"
+    ],
+    "sourceStatuses": [
+      "VERIFIED"
+    ],
+    "factVerificationState": "CANDIDATE",
+    "evidenceType": "NONE",
+    "evidenceLocations": [
+      "https://www.istat.it/en/publication/italian-statistical-yearbook-2025-executive-summary"
+    ],
+    "evidencePresent": false,
+    "reason": "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet."
+  },
+  {
+    "claimId": "CLM-NF-V11-0131",
+    "sourceReferences": [
+      "SRC-NF-V11-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-V11-0132",
+    "sourceReferences": [
+      "SRC-NF-V11-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-V11-0133",
+    "sourceReferences": [
+      "SRC-NF-V11-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-V11-0134",
+    "sourceReferences": [
+      "SRC-NF-V11-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  },
+  {
+    "claimId": "CLM-NF-V11-0135",
+    "sourceReferences": [
+      "SRC-NF-V11-0007"
+    ],
+    "sourceStatuses": [
+      "BLOCKED"
+    ],
+    "factVerificationState": "UNSUPPORTED",
+    "evidenceType": "BLOCKED",
+    "evidenceLocations": [],
+    "evidencePresent": false,
+    "reason": "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction."
+  }
+]
