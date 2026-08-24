@@ -509,11 +509,11 @@ export function validateArtifact(
   const errors: string[] = [];
 
   if (record.retrievedArtifact) {
-    if (!existsSync(record.retrievedArtifact)) {
+    if (!existsSync(record.retrievedArtifact.startsWith("nonfiction/") ? "working/" + record.retrievedArtifact : record.retrievedArtifact)) {
       errors.push(`Retrieved artifact file does not exist: ${record.retrievedArtifact}`);
     } else if (record.artifactSha256) {
       try {
-        const buf = readFileSync(record.retrievedArtifact);
+        const buf = readFileSync(record.retrievedArtifact.startsWith("nonfiction/") ? "working/" + record.retrievedArtifact : record.retrievedArtifact);
         const actualSha = createHash('sha256').update(buf).digest('hex');
         if (actualSha !== record.artifactSha256) {
           errors.push(`Artifact SHA256 mismatch for ${record.retrievedArtifact}: recorded=${record.artifactSha256} actual=${actualSha}`);

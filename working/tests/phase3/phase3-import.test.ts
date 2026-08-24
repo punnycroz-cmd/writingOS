@@ -20,14 +20,14 @@ describe('Phase 3 Import Integrity', () => {
 
   it('every imported file exists', () => {
     for (const f of inv.files) {
-      expect(existsSync(f.destinationPath)).toBe(true);
+      expect(existsSync(f.destinationPath.startsWith("nonfiction/") ? "working/" + f.destinationPath : f.destinationPath)).toBe(true);
     }
   });
 
   it('every imported file hash matches', () => {
     let mismatches = 0;
     for (const f of inv.files) {
-      const actual = sha256(f.destinationPath);
+      const actual = sha256(f.destinationPath.startsWith("nonfiction/") ? "working/" + f.destinationPath : f.destinationPath);
       if (actual !== f.destinationSha256) {
         mismatches++;
       }
@@ -35,7 +35,7 @@ describe('Phase 3 Import Integrity', () => {
     expect(mismatches).toBe(0);
   });
 
-  it('all files are under nonfiction/source-pack/', () => {
+  it('all files are under working/nonfiction/source-pack/', () => {
     for (const f of inv.files) {
       expect(f.destinationPath).toMatch(/^nonfiction\/source-pack\//);
     }

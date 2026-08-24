@@ -5,16 +5,16 @@ import { describe, it, expect } from 'bun:test';
 import { readFileSync } from 'node:fs';
 
 function loadLedger(): any[] {
-  return readFileSync('nonfiction/verification/source-verification-ledger.jsonl', 'utf-8').trim().split('\n').map(l => JSON.parse(l));
+  return readFileSync('working/nonfiction/verification/source-verification-ledger.jsonl', 'utf-8').trim().split('\n').map(l => JSON.parse(l));
 }
 
 function loadSources(): any[] {
-  const d = JSON.parse(readFileSync('nonfiction/source-pack/source-index.json', 'utf-8'));
+  const d = JSON.parse(readFileSync('working/nonfiction/source-pack/source-index.json', 'utf-8'));
   return d.sources || d;
 }
 
 function loadIdMap(): any {
-  return JSON.parse(readFileSync('nonfiction/verification/source-id-map.json', 'utf-8'));
+  return JSON.parse(readFileSync('working/nonfiction/verification/source-id-map.json', 'utf-8'));
 }
 
 describe('Full 69-Source Verification Integrity', () => {

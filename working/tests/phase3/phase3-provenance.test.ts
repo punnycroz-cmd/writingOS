@@ -25,8 +25,9 @@ describe('Phase 3 Provenance', () => {
     expect(prov.fileCount).toBeGreaterThan(0);
     for (const f of prov.files) {
       expect(f.sha256).toMatch(/^[0-9a-f]{64}$/);
-      expect(existsSync(f.path)).toBe(true);
-      expect(sha256(f.path)).toBe(f.sha256);
+      const actualPath = f.path.startsWith('nonfiction/') ? `working/${f.path}` : f.path;
+      expect(existsSync(actualPath)).toBe(true);
+      expect(sha256(actualPath)).toBe(f.sha256);
     }
   });
 

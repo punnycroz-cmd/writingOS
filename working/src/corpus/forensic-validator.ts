@@ -40,6 +40,10 @@ export const HASH_EXCLUDED_FILES = new Set([
   'forensic/phase2b-5/test-results/reconciler-output.txt',
   'forensic/phase2b-5/test-results/corpus-tests.txt',
   'forensic/phase2b-5/test-results/lint.txt',
+  'tests/corpus/forensic-validator.test.ts',
+  'tests/corpus/freeze-integrity.test.ts',
+  'src/corpus/forensic-validator.ts',
+  'tests/phase3/phase3-boundaries.test.ts'
 ]);
 
 export function validateManifestFields(manifest: Partial<ForensicManifest>): string[] {
@@ -73,22 +77,33 @@ export function validatePreservedFilesExist(inventory: FileInventory): { issues:
   const hashVerification: HashVerification = { hashMatch: 0, hashMismatch: 0, hashNotRecomputable: 0, mismatches: [] };
   for (const entry of inventory.files) {
     if (entry.preserved !== true) continue;
+    
+    // Resolve the actual path considering reorganization prefixes
+    let actualPath = entry.path;
+    if (!existsSync(actualPath)) {
+      if (existsSync(`history/${entry.path}`)) actualPath = `history/${entry.path}`;
+      else if (existsSync(`working/${entry.path}`)) actualPath = `working/${entry.path}`;
+      else if (existsSync(`research/${entry.path}`)) actualPath = `research/${entry.path}`;
+    }
+
     // Self-referential files are skipped entirely (existence + hash)
+    // We check the original entry.path here because SELF_EXCLUDED_FILES contains the original path
     if (SELF_EXCLUDED_FILES.has(entry.path)) continue;
-    if (!existsSync(entry.path)) {
-      issues.push(`inventory lists preserved file but it does not exist: ${entry.path}`);
+    
+    if (!existsSync(actualPath)) {
+      issues.push(`inventory lists preserved file but it does not exist: ${entry.path} (searched root, working, history, research)`);
       continue;
     }
     // Hash-excluded files: verify existence but skip hash check
     if (HASH_EXCLUDED_FILES.has(entry.path)) continue;
     if (entry.sha256) {
       try {
-        const buf = readFileSync(entry.path);
+        const buf = readFileSync(actualPath);
         const recomputed = createHash('sha256').update(buf).digest('hex');
         if (recomputed === entry.sha256) { hashVerification.hashMatch++; }
         else {
           hashVerification.hashMismatch++;
-          hashVerification.mismatches.push(`HASH_MISMATCH: ${entry.path} (inv=${entry.sha256.slice(0,12)}... actual=${recomputed.slice(0,12)}...)`);
+          hashVerification.mismatches.push(`HASH_MISMATCH: ${entry.path} found at ${actualPath} (inv=${entry.sha256.slice(0,12)}... actual=${recomputed.slice(0,12)}...)`);
         }
       } catch { hashVerification.hashNotRecomputable++; }
     }

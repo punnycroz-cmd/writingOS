@@ -17,14 +17,14 @@ import {
 } from '../../src/phase3/verification-validator';
 
 function loadLedger(): VerificationRecord[] {
-  return readFileSync('nonfiction/verification/source-verification-ledger.jsonl', 'utf-8')
+  return readFileSync('working/nonfiction/verification/source-verification-ledger.jsonl', 'utf-8')
     .trim()
     .split('\n')
     .map(l => JSON.parse(l));
 }
 
 function loadSourcePack(): SourcePackRecord[] {
-  const d = JSON.parse(readFileSync('nonfiction/source-pack/source-index.json', 'utf-8'));
+  const d = JSON.parse(readFileSync('working/nonfiction/source-pack/source-index.json', 'utf-8'));
   return d.sources || d;
 }
 
@@ -84,7 +84,7 @@ describe('Verification Normalization — Live 69-Source Ledger Audit', () => {
   });
 
   it('preserves claim ground-truth boundary (0 SOURCE_VERIFIED claims)', () => {
-    const summary = JSON.parse(readFileSync('nonfiction/verification/verification-normalization-summary.json', 'utf-8'));
+    const summary = JSON.parse(readFileSync('working/nonfiction/verification/verification-normalization-summary.json', 'utf-8'));
     expect(summary.sourceVerifiedClaims).toBe(0);
     expect(summary.containsGroundTruth).toBe(false);
   });

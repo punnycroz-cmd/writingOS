@@ -15,9 +15,9 @@ import {
   type FileInventory,
 } from '../../src/corpus/forensic-validator';
 
-const FORENSIC_MANIFEST = 'forensic/phase2b-5/MANIFEST.json';
-const FORENSIC_INVENTORY = 'forensic/phase2b-5/file-inventory.json';
-const FORENSIC_EXCLUDED = 'forensic/phase2b-5/EXCLUDED_FILES.md';
+const FORENSIC_MANIFEST = 'history/forensic/phase2b-5/MANIFEST.json';
+const FORENSIC_INVENTORY = 'history/forensic/phase2b-5/file-inventory.json';
+const FORENSIC_EXCLUDED = 'history/forensic/phase2b-5/EXCLUDED_FILES.md';
 
 function loadRealManifest(): ForensicManifest {
   return JSON.parse(readFileSync(FORENSIC_MANIFEST, 'utf-8'));
@@ -60,7 +60,7 @@ describe('forensic-validator — happy path (real artifacts)', () => {
     const inventory = loadRealInventory();
     const excluded = loadRealExcluded();
     const result = validateForensicInventory(manifest, inventory, excluded);
-    expect(result.valid).toBe(true);
+    console.log(result.issues); expect(result.valid).toBe(true);
     expect(result.issues.length).toBe(0);
   });
 });

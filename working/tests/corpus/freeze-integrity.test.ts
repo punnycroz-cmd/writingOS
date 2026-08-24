@@ -7,16 +7,16 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { classifyHistoricalComparison } from '../../src/corpus/classify-comparison';
 import { validateFreezeDoc, REQUIRED_METRICS } from '../../src/corpus/freeze-document-parser';
 
-const CORPUS_FILE = 'corpus/golden-v1/cases.jsonl';
-const RESULTS_DIR = 'writing-engine/logs-golden-v1/results';
-const LEDGER_FILE = 'writing-engine/logs-golden-v1/canonical-case-ledger.json';
-const SUMMARY_FILE = 'writing-engine/logs-golden-v1/summary.json';
-const CONSISTENCY_FILE = 'writing-engine/logs-golden-v1/consistency-check.json';
-const MANIFEST_FILE = 'corpus/golden-v1/corpus-manifest.json';
+const CORPUS_FILE = 'history/corpus/golden-v1/cases.jsonl';
+const RESULTS_DIR = 'history/writing-engine/logs-golden-v1/results';
+const LEDGER_FILE = 'history/writing-engine/logs-golden-v1/canonical-case-ledger.json';
+const SUMMARY_FILE = 'history/writing-engine/logs-golden-v1/summary.json';
+const CONSISTENCY_FILE = 'history/writing-engine/logs-golden-v1/consistency-check.json';
+const MANIFEST_FILE = 'history/corpus/golden-v1/corpus-manifest.json';
 const FREEZE_DOC = 'docs/corpus/GOLDEN_CORPUS_V1_FREEZE.md';
-const FORENSIC_MANIFEST = 'forensic/phase2b-5/MANIFEST.json';
-const FORENSIC_INVENTORY = 'forensic/phase2b-5/file-inventory.json';
-const FORENSIC_EXCLUDED = 'forensic/phase2b-5/EXCLUDED_FILES.md';
+const FORENSIC_MANIFEST = 'history/forensic/phase2b-5/MANIFEST.json';
+const FORENSIC_INVENTORY = 'history/forensic/phase2b-5/file-inventory.json';
+const FORENSIC_EXCLUDED = 'history/forensic/phase2b-5/EXCLUDED_FILES.md';
 
 function loadCorpus(): any[] {
   return readFileSync(CORPUS_FILE, 'utf-8').trim().split('\n').map(l => JSON.parse(l));
@@ -221,19 +221,19 @@ describe('freeze integrity', () => {
   });
 
   it('reconciler imports the canonical classifier (no duplicate logic)', () => {
-    const reconcilerSrc = readFileSync('src/corpus/reconcile-v1.ts', 'utf-8');
+    const reconcilerSrc = readFileSync('working/src/corpus/reconcile-v1.ts', 'utf-8');
     expect(reconcilerSrc).toContain("from './classify-comparison'");
     expect(reconcilerSrc).not.toMatch(/if\s*\(\s*isR6\s*\|\|\s*isUnresolved\s*\)\s*return\s*['"]KNOWN_DEFECT['"]/);
   });
 
   it('reconciler imports the freeze-document-parser for check #18', () => {
-    const reconcilerSrc = readFileSync('src/corpus/reconcile-v1.ts', 'utf-8');
+    const reconcilerSrc = readFileSync('working/src/corpus/reconcile-v1.ts', 'utf-8');
     expect(reconcilerSrc).toContain("from './freeze-document-parser'");
     expect(reconcilerSrc).toContain('checkFreezeDocConsistency');
   });
 
   it('reconciler imports the forensic-validator for check #20', () => {
-    const reconcilerSrc = readFileSync('src/corpus/reconcile-v1.ts', 'utf-8');
+    const reconcilerSrc = readFileSync('working/src/corpus/reconcile-v1.ts', 'utf-8');
     expect(reconcilerSrc).toContain("from './forensic-validator'");
     expect(reconcilerSrc).toContain('checkForensicInventoryConsistency');
   });

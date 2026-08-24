@@ -10,8 +10,8 @@ function sha256(path: string): string {
   return createHash('sha256').update(readFileSync(path)).digest('hex');
 }
 
-const LEDGER_PATH = 'nonfiction/verification/source-verification-ledger.jsonl';
-const SOURCE_INDEX_PATH = 'nonfiction/source-pack/source-index.json';
+const LEDGER_PATH = 'working/nonfiction/verification/source-verification-ledger.jsonl';
+const SOURCE_INDEX_PATH = 'working/nonfiction/source-pack/source-index.json';
 
 function loadLedger(): any[] {
   return readFileSync(LEDGER_PATH, 'utf-8').trim().split('\n').map(l => JSON.parse(l));
@@ -79,8 +79,9 @@ describe('Phase 3A Source Verification — VERIFIED Records', () => {
   it('every VERIFIED record with an artifact has correct SHA256', () => {
     for (const r of verified) {
       if (r.retrievedArtifact && r.artifactSha256) {
-        expect(existsSync(r.retrievedArtifact)).toBe(true);
-        expect(sha256(r.retrievedArtifact)).toBe(r.artifactSha256);
+        const actualPath = r.retrievedArtifact.startsWith("nonfiction/") ? "working/" + r.retrievedArtifact : r.retrievedArtifact;
+        expect(existsSync(actualPath)).toBe(true);
+        expect(sha256(actualPath)).toBe(r.artifactSha256);
       }
     }
   });
@@ -88,12 +89,12 @@ describe('Phase 3A Source Verification — VERIFIED Records', () => {
 
 describe('Phase 3A Source Verification — Ground Truth Boundary', () => {
   it('SOURCE_VERIFIED claims count is 0', () => {
-    const summary = loadJson('nonfiction/verification/source-verification-summary.json');
+    const summary = loadJson('working/nonfiction/verification/source-verification-summary.json');
     expect(summary.sourceVerifiedClaims).toBe(0);
   });
 
   it('containsGroundTruth is false', () => {
-    const summary = loadJson('nonfiction/verification/source-verification-summary.json');
+    const summary = loadJson('working/nonfiction/verification/source-verification-summary.json');
     expect(summary.containsGroundTruth).toBe(false);
   });
 
@@ -114,7 +115,7 @@ describe('Phase 3A Source Verification — Ground Truth Boundary', () => {
 
 describe('Phase 3A Source Verification — Summary Consistency', () => {
   const ledger = loadLedger();
-  const summary = loadJson('nonfiction/verification/source-verification-summary.json');
+  const summary = loadJson('working/nonfiction/verification/source-verification-summary.json');
 
   it('summary totalSources matches ledger count', () => {
     expect(summary.totalSources).toBe(ledger.length);
@@ -148,7 +149,7 @@ describe('Phase 3A Source Verification — Frozen Source Pack', () => {
   });
 
   it('claim-inventory still has 135 claims', () => {
-    const claims = readFileSync('nonfiction/source-pack/claim-inventory.jsonl', 'utf-8').trim().split('\n');
+    const claims = readFileSync('working/nonfiction/source-pack/claim-inventory.jsonl', 'utf-8').trim().split('\n');
     expect(claims.length).toBe(135);
   });
 });

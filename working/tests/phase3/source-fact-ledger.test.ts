@@ -4,15 +4,15 @@ import { validateLedgerSet } from '../../src/phase3/source-fact-ledger-validator
 import * as crypto from 'crypto';
 
 describe('Phase 3B SourceFactLedger Invariants', () => {
-  const ledgerStr = fs.readFileSync('nonfiction/ledger/source-fact-ledger.jsonl', 'utf-8');
+  const ledgerStr = fs.readFileSync('working/nonfiction/ledger/source-fact-ledger.jsonl', 'utf-8');
   const records = ledgerStr.trim().split('\n').map(l => JSON.parse(l));
 
-  const claimInventoryStr = fs.readFileSync('nonfiction/source-pack/claim-inventory.jsonl', 'utf-8');
+  const claimInventoryStr = fs.readFileSync('working/nonfiction/source-pack/claim-inventory.jsonl', 'utf-8');
   const claimInventory = claimInventoryStr.trim().split('\n').map(l => JSON.parse(l));
 
-  const sourceIndex = JSON.parse(fs.readFileSync('nonfiction/source-pack/source-index.json', 'utf-8'));
+  const sourceIndex = JSON.parse(fs.readFileSync('working/nonfiction/source-pack/source-index.json', 'utf-8'));
 
-  const verificationLedgerStr = fs.readFileSync('nonfiction/verification/source-verification-ledger.jsonl', 'utf-8');
+  const verificationLedgerStr = fs.readFileSync('working/nonfiction/verification/source-verification-ledger.jsonl', 'utf-8');
   const verificationLedger = verificationLedgerStr.trim().split('\n').map(l => JSON.parse(l));
 
   test('Validates entire ledger set without error', () => {

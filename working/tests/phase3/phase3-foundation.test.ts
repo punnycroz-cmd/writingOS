@@ -37,14 +37,14 @@ describe('Phase 3 Foundation — No Duplicate Source Pack', () => {
   });
 
   it('contains exactly one canonical source-pack at nonfiction/source-pack/', () => {
-    expect(existsSync('nonfiction/source-pack/source-index.json')).toBe(true);
-    expect(existsSync('nonfiction/source-pack/claim-inventory.jsonl')).toBe(true);
-    expect(existsSync('nonfiction/source-pack/PACK-MANIFEST.json')).toBe(true);
+    expect(existsSync('working/nonfiction/source-pack/source-index.json')).toBe(true);
+    expect(existsSync('working/nonfiction/source-pack/claim-inventory.jsonl')).toBe(true);
+    expect(existsSync('working/nonfiction/source-pack/PACK-MANIFEST.json')).toBe(true);
   });
 });
 
 describe('Phase 3 Foundation — Source Pack Counts', () => {
-  const sourceIndex = loadJson('nonfiction/source-pack/source-index.json');
+  const sourceIndex = loadJson('working/nonfiction/source-pack/source-index.json');
   const sources = sourceIndex.sources || sourceIndex;
 
   it('has exactly 69 sources', () => {
@@ -69,12 +69,12 @@ describe('Phase 3 Foundation — Source Pack Counts', () => {
   });
 
   it('has exactly 135 claims', () => {
-    const claims = readFileSync('nonfiction/source-pack/claim-inventory.jsonl', 'utf-8').trim().split('\n');
+    const claims = readFileSync('working/nonfiction/source-pack/claim-inventory.jsonl', 'utf-8').trim().split('\n');
     expect(claims.length).toBe(135);
   });
 
   it('has 0 SOURCE_VERIFIED claims', () => {
-    const claims = readFileSync('nonfiction/source-pack/claim-inventory.jsonl', 'utf-8').trim().split('\n');
+    const claims = readFileSync('working/nonfiction/source-pack/claim-inventory.jsonl', 'utf-8').trim().split('\n');
     let sv = 0;
     for (const line of claims) {
       const c = JSON.parse(line);
@@ -84,7 +84,7 @@ describe('Phase 3 Foundation — Source Pack Counts', () => {
   });
 
   it('PACK-MANIFEST has correct counts and status', () => {
-    const manifest = loadJson('nonfiction/source-pack/PACK-MANIFEST.json');
+    const manifest = loadJson('working/nonfiction/source-pack/PACK-MANIFEST.json');
     expect(manifest.version).toBe('1.1.0');
     expect(manifest.status).toBe('DISCOVERY_CORPUS');
     expect(manifest.claimCount).toBe(135);

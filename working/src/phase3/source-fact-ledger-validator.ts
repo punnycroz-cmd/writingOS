@@ -21,7 +21,7 @@ export interface SourceFactLedgerRecord {
 }
 
 export function validateLedgerRecord(record: SourceFactLedgerRecord): void {
-  const schemaStr = fs.readFileSync('nonfiction/ledger/source-fact-ledger-schema.json', 'utf-8');
+  const schemaStr = fs.readFileSync('working/nonfiction/ledger/source-fact-ledger-schema.json', 'utf-8');
   const schema = JSON.parse(schemaStr);
 
   for (const field of schema.required) {
