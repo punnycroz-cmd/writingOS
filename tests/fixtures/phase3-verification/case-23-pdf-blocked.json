@@ -1,0 +1,25 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-23",
+    "title": "HDR 2024 Report",
+    "organization": "UNDP",
+    "url": "https://undp.org/hdr.pdf"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-23",
+    "verificationSourceId": "SRC-TEST-23",
+    "observedTitle": "HDR 2024 Report",
+    "sourceUrl": "https://undp.org/hdr.pdf",
+    "publisherObserved": "UNDP",
+    "titleVariantType": "EXACT",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "BLOCKED",
+    "verificationBlockReason": "PDF_PARSER_LIMITATION",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "notes": "Binary PDF document"
+  }
+}

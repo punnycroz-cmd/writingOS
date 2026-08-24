@@ -1,5 +1,5 @@
 // src/phase3/verification-validator.ts
-// Pure, evidence-based source identity and verification validator for Nonfiction Phase 3A.4.
+// Pure, evidence-based source identity and verification validator for Nonfiction Phase 3A.
 
 import { readFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -16,15 +16,6 @@ export interface SourcePackRecord {
   [key: string]: unknown;
 }
 
-export type TitleVariantType =
-  | 'EXACT'
-  | 'PUNCTUATION_VARIANT'
-  | 'FORMATTING_VARIANT'
-  | 'OFFICIAL_SUBTITLE_VARIANT'
-  | 'OFFICIAL_RENAMING'
-  | 'PARENT_PUBLICATION'
-  | 'MISMATCH';
-
 export interface VerificationRecord {
   sourcePackSourceId: string;
   verificationSourceId: string;
@@ -34,7 +25,6 @@ export interface VerificationRecord {
   discoveryTitle?: string;
   observedTitle?: string;
   titleMatch?: boolean;
-  titleVariantType?: TitleVariantType;
   titleMismatchReason?: string;
   authorObserved?: string;
   publisherObserved?: string;
@@ -53,37 +43,27 @@ export interface VerificationRecord {
   evidenceLocations?: string[];
   retrievedArtifact?: string;
   artifactSha256?: string;
-  redirectObserved?: boolean;
-  redirectEvidence?: string;
   licenseEvidence?: string;
   notes: string;
   [key: string]: unknown;
 }
 
-export interface CanonicalIdentity {
-  title: string;
-  canonicalUrl: string;
-  publisher: string;
-  author: string;
-}
-
 export type IdentityClassification =
   | 'EXACT_NORMALIZED_MATCH'
   | 'DOCUMENTED_TITLE_VARIANT'
-  | 'DOCUMENTED_EQUIVALENT'
   | 'PARENT_PUBLICATION_RELATION'
   | 'MISMATCH';
 
 export interface ComponentComparisonResult {
-  status: 'MATCH' | 'DOCUMENTED_VARIANT' | 'DOCUMENTED_EQUIVALENT' | 'NOT_APPLICABLE' | 'UNKNOWN' | 'MISMATCH';
+  status: 'MATCH' | 'DOCUMENTED_VARIANT' | 'DOCUMENTED_EQUIVALENT' | 'MISMATCH' | 'NOT_APPLICABLE' | 'UNKNOWN';
   reason: string;
 }
 
 export interface IdentityComparisonResult {
   match: boolean;
   classification: IdentityClassification;
-  sourcePackIdentityFingerprint: string;
-  verificationIdentityFingerprint: string;
+  sourcePackFingerprint: string;
+  verificationFingerprint: string;
   title: ComponentComparisonResult;
   url: ComponentComparisonResult;
   publisher: ComponentComparisonResult;
@@ -102,10 +82,15 @@ export interface ValidationDiagnostic {
 export function normalizeTitle(title?: string): string {
   if (!title) return '';
   let t = title.toLowerCase().trim();
+  // Strip all smart quotes, single quotes, and double quotes to normalize quotation variance
   t = t.replace(/[\u2018\u2019\u201A\u201B\u201C\u201D\u201E\u201F'"]/g, '');
+  // Normalize Unicode dashes (em-dash, en-dash, figure dash, hyphens)
   t = t.replace(/[\u2012\u2013\u2014\u2015\-]/g, '-');
+  // Normalize colons and semicolons surrounded by spaces
   t = t.replace(/\s*[:;]\s*/g, ': ');
+  // Replace non-word punctuation with space while preserving words and basic hyphens
   t = t.replace(/[^\w\s\-:]/g, ' ');
+  // Collapse whitespace
   t = t.replace(/\s+/g, ' ').trim();
   return t;
 }
@@ -113,8 +98,11 @@ export function normalizeTitle(title?: string): string {
 export function normalizeUrl(url?: string): string {
   if (!url) return '';
   let u = url.toLowerCase().trim();
+  // Normalize protocol
   u = u.replace(/^http:\/\//, 'https://');
+  // Strip fragment
   u = u.replace(/#.*$/, '');
+  // Strip trailing slashes
   u = u.replace(/\/+$/, '');
   return u;
 }
@@ -122,52 +110,11 @@ export function normalizeUrl(url?: string): string {
 export function normalizePublisher(pub?: string): string {
   if (!pub) return '';
   let p = pub.toLowerCase().trim();
-  // Strip legal corporate suffixes without corrupting hyphenated prefixes
-  p = p.replace(/\b(inc|incorporated|corp|corporation|ltd|llc|gmbh)\b\.?/g, '');
+  // Strip legal suffixes / noise words
+  p = p.replace(/\b(inc|incorporated|corp|corporation|ltd|llc|gmbh|co)\b\.?/g, '');
   p = p.replace(/[^\w\s]/g, ' ');
   p = p.replace(/\s+/g, ' ').trim();
   return p;
-}
-
-// Known recognized publisher equivalents
-const KNOWN_PUBLISHER_EQUIVALENTS: Record<string, string[]> = {
-  'oecd': ['organisation for economic co operation and development', 'organisation for economic cooperation and development', 'organization for economic cooperation and development', 'organization for economic co operation and development'],
-  'ipcc': ['intergovernmental panel on climate change', 'un digital library'],
-  'nih': ['national institutes of health', 'national library of medicine', 'pmc', 'pmc nih', 'pmc nih national library of medicine', 'ncbi'],
-  'nist': ['national institute of standards and technology', 'csrc nist', 'csrc'],
-  'noaa': ['national oceanic and atmospheric administration', 'noaa institutional repository'],
-  'fao': ['food and agriculture organization', 'food and agriculture organization of the united nations', 'fao knowledge repository'],
-  'bls': ['bureau of labor statistics', 'u s bureau of labor statistics', 'us bureau of labor statistics'],
-  'bea': ['bureau of economic analysis', 'u s bureau of economic analysis', 'us bureau of economic analysis'],
-  'census': ['census bureau', 'u s census bureau', 'us census bureau'],
-  'nber': ['national bureau of economic research'],
-  'cdc': ['centers for disease control and prevention', 'national center for health statistics', 'cdc nchs'],
-  'who': ['world health organization'],
-  'world bank': ['the world bank', 'international bank for reconstruction and development'],
-  'wef': ['world economic forum'],
-  'undp': ['united nations development programme'],
-  'enisa': ['european union agency for cybersecurity'],
-  'sec': ['sec edgar', 'u s securities and exchange commission'],
-  'microsoft': ['microsoft corporation', 'microsoft corporation sec edgar'],
-  'apple': ['apple inc', 'apple inc sec edgar'],
-  'amazon': ['amazon com', 'amazon com inc', 'amazon com inc sec edgar'],
-  'our world in data': ['owid', 'global change data lab'],
-};
-
-export function arePublishersEquivalent(pubA?: string, pubB?: string): boolean {
-  const normA = normalizePublisher(pubA);
-  const normB = normalizePublisher(pubB);
-  if (!normA || !normB) return false;
-  if (normA === normB) return true;
-
-  for (const [canonical, aliases] of Object.entries(KNOWN_PUBLISHER_EQUIVALENTS)) {
-    const all = [canonical, ...aliases];
-    const matchA = all.some(alias => normA.includes(alias) || alias.includes(normA) || normA === alias);
-    const matchB = all.some(alias => normB.includes(alias) || alias.includes(normB) || normB === alias);
-    if (matchA && matchB) return true;
-  }
-
-  return false;
 }
 
 export function normalizeAuthor(author?: string): string {
@@ -181,123 +128,83 @@ export function normalizeAuthor(author?: string): string {
   return a;
 }
 
-// 2. Canonical Identity & Symmetric Fingerprint Functions
-export function canonicalizeIdentity(
-  title: string,
-  url: string,
-  publisher?: string,
-  author?: string
-): CanonicalIdentity {
-  return {
-    title: normalizeTitle(title),
-    canonicalUrl: normalizeUrl(url),
-    publisher: normalizePublisher(publisher),
-    author: normalizeAuthor(author),
-  };
+// 2. Independent Fingerprint Generators
+export function computeSourcePackFingerprint(sp: SourcePackRecord): string {
+  const normT = normalizeTitle(sp.title);
+  const normU = normalizeUrl(sp.url || sp.stableUrl);
+  const normP = normalizePublisher(sp.organization);
+  return `SP[${normT}]::[${normU}]::[${normP}]`;
 }
 
-export function computeIdentityFingerprint(identity: CanonicalIdentity): string {
-  const serialized = `TITLE=${identity.title}|URL=${identity.canonicalUrl}|PUB=${identity.publisher}|AUTH=${identity.author}`;
-  return createHash('sha256').update(serialized).digest('hex');
+export function computeVerificationFingerprint(vr: Partial<VerificationRecord>): string {
+  const title = vr.observedTitle || vr.discoveryTitle || '';
+  const normT = normalizeTitle(title);
+  const normU = normalizeUrl(vr.sourceUrl || vr.canonicalUrl);
+  const normP = normalizePublisher(vr.publisherObserved);
+  return `VR[${normT}]::[${normU}]::[${normP}]`;
 }
 
-// 3. Component-by-Component Source Identity Comparison
+// 3. Multi-Field Identity Comparison Function
 export function compareSourceIdentity(
   sp: SourcePackRecord,
   vr: Partial<VerificationRecord>
 ): IdentityComparisonResult {
   const errors: string[] = [];
 
-  const spIdent = canonicalizeIdentity(sp.title, sp.url || sp.stableUrl || '', sp.organization, sp.author);
-  const vrIdent = canonicalizeIdentity(
-    vr.observedTitle || vr.discoveryTitle || '',
-    vr.sourceUrl || vr.canonicalUrl || '',
-    vr.publisherObserved || sp.organization,
-    vr.authorObserved || sp.author
-  );
-
-  const spFingerprint = computeIdentityFingerprint(spIdent);
-  const vrFingerprint = computeIdentityFingerprint(vrIdent);
+  const spFingerprint = computeSourcePackFingerprint(sp);
+  const vrFingerprint = computeVerificationFingerprint(vr);
 
   // 1. URL Comparison
-  const spUrlNorm = spIdent.canonicalUrl;
-  const vrUrlNorm = normalizeUrl(vr.sourceUrl);
-  const vrCanonicalNorm = normalizeUrl(vr.canonicalUrl);
+  const spUrlNorm = normalizeUrl(sp.url || sp.stableUrl);
+  const vrUrlNorm = normalizeUrl(vr.sourceUrl || vr.canonicalUrl);
   let urlRes: ComponentComparisonResult;
-
   if (spUrlNorm === vrUrlNorm && spUrlNorm.length > 0) {
     urlRes = { status: 'MATCH', reason: 'Exact normalized URL match' };
-  } else if (vr.redirectObserved && vr.redirectEvidence && vrCanonicalNorm === spUrlNorm) {
-    urlRes = { status: 'DOCUMENTED_VARIANT', reason: `Documented redirect: ${vr.redirectEvidence}` };
-  } else if (vrCanonicalNorm === spUrlNorm && !vr.redirectObserved && !vr.redirectEvidence) {
-    urlRes = { status: 'MISMATCH', reason: `URL mismatch: sourceUrl="${vr.sourceUrl}" differs from discovery without redirectEvidence` };
-    errors.push(urlRes.reason);
+  } else if (vr.canonicalUrl && normalizeUrl(vr.canonicalUrl) === spUrlNorm) {
+    urlRes = { status: 'DOCUMENTED_EQUIVALENT', reason: 'Canonical URL matches discovery source' };
   } else {
     urlRes = { status: 'MISMATCH', reason: `URL mismatch: discovery="${sp.url}" vs verification="${vr.sourceUrl}"` };
     errors.push(urlRes.reason);
   }
 
   // 2. Title Comparison
-  const spTitleNorm = spIdent.title;
-  const vrTitleNorm = vrIdent.title;
+  const spTitleNorm = normalizeTitle(sp.title);
+  const vrTitleNorm = normalizeTitle(vr.observedTitle || vr.discoveryTitle || '');
   let titleRes: ComponentComparisonResult;
-
-  const validVariantTypes: TitleVariantType[] = [
-    'EXACT',
-    'PUNCTUATION_VARIANT',
-    'FORMATTING_VARIANT',
-    'OFFICIAL_SUBTITLE_VARIANT',
-    'OFFICIAL_RENAMING',
-    'PARENT_PUBLICATION',
-  ];
-
   if (spTitleNorm === vrTitleNorm && spTitleNorm.length > 0) {
     titleRes = { status: 'MATCH', reason: 'Exact normalized title match' };
-  } else if (
-    vr.titleVariantType &&
-    validVariantTypes.includes(vr.titleVariantType) &&
-    vr.titleVariantType !== 'MISMATCH' &&
-    vr.titleMismatchReason &&
-    vr.titleMismatchReason.trim().length > 0
-  ) {
-    titleRes = {
-      status: 'DOCUMENTED_VARIANT',
-      reason: `[${vr.titleVariantType}] ${vr.titleMismatchReason}`,
-    };
+  } else if (vr.titleMismatchReason && vr.titleMismatchReason.trim().length > 0) {
+    titleRes = { status: 'DOCUMENTED_VARIANT', reason: vr.titleMismatchReason };
   } else {
-    titleRes = {
-      status: 'MISMATCH',
-      reason: `Title mismatch without documented titleVariantType & reason: discovery="${sp.title}" vs observed="${vr.observedTitle}"`,
-    };
+    titleRes = { status: 'MISMATCH', reason: `Title mismatch without documented reason: discovery="${sp.title}" vs observed="${vr.observedTitle}"` };
     errors.push(titleRes.reason);
   }
 
   // 3. Publisher / Organization Comparison
-  const spPubNorm = spIdent.publisher;
-  const vrPubNorm = vrIdent.publisher;
+  const spPubNorm = normalizePublisher(sp.organization);
+  const vrPubNorm = normalizePublisher(vr.publisherObserved);
   let pubRes: ComponentComparisonResult;
-
   if (spPubNorm === vrPubNorm && spPubNorm.length > 0) {
     pubRes = { status: 'MATCH', reason: 'Exact normalized publisher match' };
-  } else if (arePublishersEquivalent(sp.organization, vr.publisherObserved)) {
-    pubRes = {
-      status: 'DOCUMENTED_EQUIVALENT',
-      reason: `Publisher recognized equivalent: discovery="${sp.organization}" vs observed="${vr.publisherObserved}"`,
-    };
+  } else if (
+    (spPubNorm.includes(vrPubNorm) || vrPubNorm.includes(spPubNorm)) &&
+    spPubNorm.length > 0 &&
+    vrPubNorm.length > 0
+  ) {
+    pubRes = { status: 'DOCUMENTED_EQUIVALENT', reason: `Publisher equivalent under organization hierarchy: discovery="${sp.organization}" vs observed="${vr.publisherObserved}"` };
   } else if (!vrPubNorm || !spPubNorm) {
-    pubRes = { status: 'UNKNOWN', reason: 'Publisher omitted in one or both records' };
+    pubRes = { status: 'UNKNOWN', reason: 'Publisher information omitted in one or both records' };
   } else {
     pubRes = { status: 'MISMATCH', reason: `Publisher mismatch: discovery="${sp.organization}" vs observed="${vr.publisherObserved}"` };
     errors.push(pubRes.reason);
   }
 
   // 4. Author Comparison
-  const spAuthNorm = spIdent.author;
-  const vrAuthNorm = vrIdent.author;
+  const spAuthNorm = normalizeAuthor(sp.author);
+  const vrAuthNorm = normalizeAuthor(vr.authorObserved);
   let authRes: ComponentComparisonResult;
-
   if (!spAuthNorm && !vrAuthNorm) {
-    authRes = { status: 'NOT_APPLICABLE', reason: 'Organizational/corporate authorship' };
+    authRes = { status: 'NOT_APPLICABLE', reason: 'Organizational/corporate authorship (no individual author specified)' };
   } else if (spAuthNorm === vrAuthNorm && spAuthNorm.length > 0) {
     authRes = { status: 'MATCH', reason: 'Exact normalized author match' };
   } else if (
@@ -306,16 +213,13 @@ export function compareSourceIdentity(
     (spAuthNorm.includes(vrAuthNorm) || vrAuthNorm.includes(spAuthNorm))
   ) {
     authRes = { status: 'DOCUMENTED_EQUIVALENT', reason: 'Author citation format equivalent' };
-  } else if (!spAuthNorm || !vrAuthNorm) {
-    authRes = { status: 'UNKNOWN', reason: `Author unspecified in one record: discovery="${sp.author}" vs observed="${vr.authorObserved}"` };
   } else {
-    authRes = { status: 'MISMATCH', reason: `Author mismatch: discovery="${sp.author}" vs observed="${vr.authorObserved}"` };
-    errors.push(authRes.reason);
+    authRes = { status: 'UNKNOWN', reason: `Author variance: discovery="${sp.author}" vs observed="${vr.authorObserved}"` };
   }
 
-  // Overall match evaluation
+  // Determine overall classification
   let classification: IdentityClassification = 'MISMATCH';
-  const match = errors.length === 0 && urlRes.status !== 'MISMATCH' && titleRes.status !== 'MISMATCH' && pubRes.status !== 'MISMATCH' && authRes.status !== 'MISMATCH';
+  const match = errors.length === 0 && urlRes.status !== 'MISMATCH' && titleRes.status !== 'MISMATCH' && pubRes.status !== 'MISMATCH';
 
   if (match) {
     if (titleRes.status === 'MATCH' && urlRes.status === 'MATCH' && pubRes.status === 'MATCH') {
@@ -328,8 +232,8 @@ export function compareSourceIdentity(
   return {
     match,
     classification,
-    sourcePackIdentityFingerprint: spFingerprint,
-    verificationIdentityFingerprint: vrFingerprint,
+    sourcePackFingerprint: spFingerprint,
+    verificationFingerprint: vrFingerprint,
     title: titleRes,
     url: urlRes,
     publisher: pubRes,
@@ -347,6 +251,7 @@ export function validatePublicationDate(
   const status = record.publicationDateStatus;
   const evidence = record.publicationDateEvidence || '';
 
+  // Invalid evidence values
   if (evidence.toUpperCase().includes('SYSTEM_CLOCK')) {
     errors.push(`publicationDateEvidence="${evidence}" is invalid (system clock cannot determine publication date)`);
   }
@@ -354,22 +259,26 @@ export function validatePublicationDate(
     errors.push(`publicationDateEvidence="${evidence}" is invalid (git/filesystem timestamps are not document publication dates)`);
   }
 
+  // HTTP Last-Modified timestamp used as publication date
   const obs = record.publicationDateObserved || '';
   if (obs.includes('GMT') || /^(Mon|Tue|Wed|Thu|Fri|Sat|Sun),/.test(obs)) {
     errors.push(`publicationDateObserved="${obs}" appears to be an HTTP transport header, not a document publication date`);
   }
 
+  // Allowed statuses
   const allowedStatuses = ['SOURCE_VERIFIED_DATE', 'DISCOVERY_INHERITED', 'APPROXIMATE', 'UNKNOWN'];
   if (status && !allowedStatuses.includes(status)) {
     errors.push(`publicationDateStatus="${status}" is invalid. Must be one of: ${allowedStatuses.join(', ')}`);
   }
 
+  // Semantics rule: SOURCE_VERIFIED_DATE must have direct evidence from source or publisher metadata
   if (status === 'SOURCE_VERIFIED_DATE') {
     if (!evidence || evidence.trim() === '' || evidence.toLowerCase().includes('discovery')) {
       errors.push('SOURCE_VERIFIED_DATE requires explicit primary evidence from source document or publisher metadata');
     }
   }
 
+  // Semantics rule: DISCOVERY_INHERITED must reference discovery index
   if (status === 'DISCOVERY_INHERITED') {
     if (!evidence.toLowerCase().includes('discovery')) {
       errors.push('DISCOVERY_INHERITED evidence must indicate derivation from frozen discovery source-index');
@@ -381,8 +290,7 @@ export function validatePublicationDate(
 
 // 5. Verification Status Criteria Validation
 export function validateVerificationStatus(
-  record: Partial<VerificationRecord>,
-  identityComp?: IdentityComparisonResult
+  record: Partial<VerificationRecord>
 ): string[] {
   const errors: string[] = [];
   const status = record.verificationStatus;
@@ -392,16 +300,9 @@ export function validateVerificationStatus(
     return errors;
   }
 
-  if (identityComp && !identityComp.match && record.sourceIdentityVerified === true) {
-    errors.push('Contradiction: sourceIdentityVerified === true but identity comparison failed');
-  }
-
   if (status === 'VERIFIED') {
     if (record.sourceIdentityVerified !== true) {
       errors.push('VERIFIED status requires sourceIdentityVerified === true');
-    }
-    if (identityComp && !identityComp.match) {
-      errors.push('VERIFIED status requires identityComparison.match === true');
     }
     if (record.sourceExists !== true) {
       errors.push('VERIFIED status requires sourceExists === true');
@@ -500,8 +401,8 @@ export function validateFullRecord(
   let identityRes: IdentityComparisonResult = {
     match: false,
     classification: 'MISMATCH',
-    sourcePackIdentityFingerprint: '',
-    verificationIdentityFingerprint: '',
+    sourcePackFingerprint: '',
+    verificationFingerprint: '',
     title: { status: 'UNKNOWN', reason: 'No source pack record provided' },
     url: { status: 'UNKNOWN', reason: 'No source pack record provided' },
     publisher: { status: 'UNKNOWN', reason: 'No source pack record provided' },
@@ -519,7 +420,7 @@ export function validateFullRecord(
   }
 
   errors.push(...validatePublicationDate(record, source));
-  errors.push(...validateVerificationStatus(record, identityRes));
+  errors.push(...validateVerificationStatus(record));
   errors.push(...validateArtifact(record));
 
   return {

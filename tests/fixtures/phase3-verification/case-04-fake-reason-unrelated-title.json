@@ -1,0 +1,25 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-04",
+    "title": "Climate Report 2024",
+    "organization": "IPCC",
+    "url": "https://ipcc.ch/report"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-04",
+    "verificationSourceId": "SRC-TEST-04",
+    "observedTitle": "Unrelated Stock Analysis 1990",
+    "sourceUrl": "https://ipcc.ch/report",
+    "publisherObserved": "IPCC",
+    "titleVariantType": "MISMATCH",
+    "titleMismatchReason": "Fake reason asserting match",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://ipcc.ch/report"
+    ],
+    "notes": "Fake reason with MISMATCH"
+  }
+}

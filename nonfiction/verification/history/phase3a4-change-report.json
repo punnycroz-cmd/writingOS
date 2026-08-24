@@ -1,0 +1,420 @@
+{
+  "generatedAt": "2026-08-24T07:24:20.755417",
+  "totalChanges": 69,
+  "changes": [
+    {
+      "sourceId": "SRC-NF-V11-0001",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0002",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0003",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "PUNCTUATION_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0004",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "PUNCTUATION_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0005",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0006",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "PUNCTUATION_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0007",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0008",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0009",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0010",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0011",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0012",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0013",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0014",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0015",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0016",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0017",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0036",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0037",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0038",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0039",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0048",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0018",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0019",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0020",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0021",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0031",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0022",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0032",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0033",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0034",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0040",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0023",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0024",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0025",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0026",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0027",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0028",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0029",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0030",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0035",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0045",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0046",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0049",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0031",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-V11-0032",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0050",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "OFFICIAL_SUBTITLE_VARIANT"
+    },
+    {
+      "sourceId": "SRC-NF-0001",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0002",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0003",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0004",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0005",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0006",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0007",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0008",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0009",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0010",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0011",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0012",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0013",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0014",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0015",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0016",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0017",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0018",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0019",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0020",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0021",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    },
+    {
+      "sourceId": "SRC-NF-0022",
+      "field": "titleVariantType",
+      "old": null,
+      "new": "EXACT"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 // tests/phase3/verification-normalization.test.ts
-// Phase 3A.4 verification normalization and live ledger validation tests.
+// Phase 3A.3 verification normalization and live ledger validation tests.
 
 import { describe, it, expect } from 'bun:test';
 import { readFileSync, existsSync } from 'node:fs';
@@ -10,8 +10,8 @@ import {
   validateFullRecord,
   normalizeTitle,
   normalizeUrl,
-  canonicalizeIdentity,
-  computeIdentityFingerprint,
+  computeSourcePackFingerprint,
+  computeVerificationFingerprint,
   type VerificationRecord,
   type SourcePackRecord,
 } from '../../src/phase3/verification-validator';
@@ -41,10 +41,20 @@ describe('Verification Normalization — Text and URL Normalization Rules', () =
     expect(normalizeUrl(urlA)).toBe(normalizeUrl(urlB));
   });
 
-  it('generates consistent symmetric identity fingerprints', () => {
-    const identA = canonicalizeIdentity('My Title', 'https://example.com/doc', 'NIH', 'John Doe');
-    const identB = canonicalizeIdentity('“My Title”', 'http://example.com/doc/', 'nih', 'john doe');
-    expect(computeIdentityFingerprint(identA)).toBe(computeIdentityFingerprint(identB));
+  it('generates consistent independent fingerprints', () => {
+    const sp: SourcePackRecord = {
+      sourceId: 'SRC-TEST-01',
+      title: 'My Title',
+      url: 'https://example.com/doc',
+      organization: 'NIH',
+    };
+    const vr: Partial<VerificationRecord> = {
+      observedTitle: '“My Title”',
+      sourceUrl: 'http://example.com/doc/',
+      publisherObserved: 'nih',
+    };
+    expect(computeSourcePackFingerprint(sp)).toBe('SP[my title]::[https://example.com/doc]::[nih]');
+    expect(computeVerificationFingerprint(vr)).toBe('VR[my title]::[https://example.com/doc]::[nih]');
   });
 });
 

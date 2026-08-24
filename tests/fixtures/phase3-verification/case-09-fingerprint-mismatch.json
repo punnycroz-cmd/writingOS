@@ -1,0 +1,24 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-09",
+    "title": "Alpha Title",
+    "organization": "Alpha Org",
+    "url": "https://alpha.org/doc"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-09",
+    "verificationSourceId": "SRC-TEST-09",
+    "observedTitle": "Beta Title",
+    "sourceUrl": "https://beta.org/doc",
+    "publisherObserved": "Beta Org",
+    "titleVariantType": "MISMATCH",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://beta.org/doc"
+    ],
+    "notes": "Different fingerprints"
+  }
+}

@@ -1,8 +1,5 @@
 {
-  "auditTimestamp": "2026-08-24T00:26:12.389Z",
-  "validatedCommitSha": "fcf43d164a8bd49310d9cf63922c36dd8646f0a2",
-  "phase2bSha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
-  "nonfictionSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
+  "auditTimestamp": "2026-08-24T00:19:48.951Z",
   "totalRecords": 69,
   "validRecords": 69,
   "invalidRecords": 0,
@@ -26,7 +23,6 @@
   "identityClassificationDistribution": {
     "EXACT_NORMALIZED_MATCH": 43,
     "DOCUMENTED_TITLE_VARIANT": 26,
-    "DOCUMENTED_EQUIVALENT": 0,
     "PARENT_PUBLICATION_RELATION": 0,
     "MISMATCH": 0
   },

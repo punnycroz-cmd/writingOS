@@ -1,0 +1,25 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-13",
+    "title": "Article 13",
+    "organization": "PMC",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-13",
+    "verificationSourceId": "SRC-TEST-13",
+    "observedTitle": "Article 13",
+    "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142",
+    "publisherObserved": "PMC",
+    "titleVariantType": "EXACT",
+    "publicationDateObserved": "2020",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [],
+    "notes": "Missing evidence locations"
+  }
+}

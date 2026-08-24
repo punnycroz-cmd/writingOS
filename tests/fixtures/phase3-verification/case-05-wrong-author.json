@@ -1,0 +1,26 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-05",
+    "title": "Economic Study",
+    "author": "David Card",
+    "organization": "NBER",
+    "url": "https://nber.org/paper"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-05",
+    "verificationSourceId": "SRC-TEST-05",
+    "observedTitle": "Economic Study",
+    "authorObserved": "John Smith",
+    "sourceUrl": "https://nber.org/paper",
+    "publisherObserved": "NBER",
+    "titleVariantType": "EXACT",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://nber.org/paper"
+    ],
+    "notes": "Author contradiction"
+  }
+}
