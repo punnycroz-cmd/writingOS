@@ -1,4 +1,4 @@
-{  "currentPhase": "PHASE3C_NONFICTION_RULES",
+{  "currentPhase": "PHASE3D_NONFICTION_BENCHMARK",
   "gates": [
     {
       "id": 0,
@@ -58,7 +58,7 @@
         "source provenance",
         "independent evaluation set"
       ],
-      "expectedState": "BLOCKED"
+      "expectedState": "PASS"
     },
     {
       "id": 5,

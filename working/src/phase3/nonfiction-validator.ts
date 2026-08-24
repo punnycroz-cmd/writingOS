@@ -123,7 +123,7 @@ export class NonfictionValidator {
     const epistemicHonestyScore = Math.max(0, 1.0 - deduction);
 
     return {
-      valid: fatalErrors === 0,
+      valid: fatalErrors === 0 && highErrors === 0,
       faithfulnessScore: Number(faithfulnessScore.toFixed(3)),
       epistemicHonestyScore: Number(epistemicHonestyScore.toFixed(3)),
       totalAssertions: total,
