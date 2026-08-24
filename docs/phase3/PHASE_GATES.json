@@ -1,4 +1,4 @@
-{  "currentPhase": "PHASE3B_SOURCEFACTLEDGER",
+{  "currentPhase": "PHASE3C_NONFICTION_RULES",
   "gates": [
     {
       "id": 0,
@@ -46,7 +46,7 @@
         "causal/scope/time semantics",
         "validator tests"
       ],
-      "expectedState": "BLOCKED"
+      "expectedState": "PASS"
     },
     {
       "id": 4,
