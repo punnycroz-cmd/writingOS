@@ -1,83 +1,99 @@
 # Writing OS
 
-A specification-driven AI rewriting engine that validates writing across multiple registers (fiction, business, academic, legal, marketing, SEO, conversational) using a hybrid deterministic + semantic validation architecture.
+A verified-rewriting engine: it rewrites and validates text across registers
+(fiction, nonfiction, academic, legal, commercial) with a hard guarantee —
+numbers, dates, names, quotes, and epistemic claims that can't be traced to
+source material or declared state are **blocked, not shipped**.
+
+## Why it's different
+
+Grammarly and AI writers optimize for fluency. Writing OS optimizes for
+*faithfulness*: a deterministic provenance layer checks every concrete detail
+against the source text + document state before any LLM is consulted; a
+semantic judge then evaluates what determinism can't prove; a scoped
+arbitration layer resolves conflicts with authority proportional to evidence
+strength. Evaluated at **0% false-acceptance** on the frozen 60-variant
+golden benchmark (see `corpus/golden-v1/`).
 
 ## Architecture
 
 ```
-Writing Bible v4 (governing philosophy)
+Document State (character / information-ownership / canon / ledger)
         ↓
-Constitution (5 provisional invariants)
+[CC] Deterministic triage   →  DETERMINISTIC_ACCEPT | DETERMINISTIC_BLOCK
+   (provenance v4, epistemic |  HANDOFF_TO_LLM
+    claim resolver, scoped    ↓
+    severity)              [LJ] Semantic validator (9 dimensions, state-aware)
+        ↓                   ↓
+   Scoped arbitration (authority ∝ evidence strength)
         ↓
-Document State (character, info-ownership, canon, deferred checks)
-        ↓
-Deterministic Triage (gemini/deterministic-triage-v2)
-        ↓
-Semantic LLM Validation (original/semantic-validation-v4-2)
-        ↓
-Decision (ACCEPT / REJECT / UNCLEAR)
-        ↓
-Generation / Repair → Revalidation
+   ACCEPT / REJECT / UNCLEAR  →  repair → independent revalidation
 ```
 
-## Branch Structure
+- `src/engine/deterministic/` — provenance classifier (numbers, dates,
+  number-words, proper nouns, possessives) + epistemic-claim resolver
+  (knows/suspects/misunderstands/unknown vs. character state)
+- `src/engine/semantic/` — 9-dimension LLM validator, scoped arbitration
+  policy, repair generation + independent revalidation
+- `src/engine/nonfiction/` — Source Fact Ledger validators, epistemic rules
+  (ungrounded claim, blocked-source reliance, causal overclaim, temporal
+  anachronism, evidential fabrication), assertion extractor
+- `src/engine/llm.ts` — provider-agnostic LLM client (OpenAI-compatible:
+  OpenRouter / Fireworks / Groq / any base URL)
+- `src/engine/runtime/` — `WritingOSRuntime.processCandidate()` orchestrator
+- `src/app/api/` — `/api/validate`, `/api/rewrite`
+- `history/` — archived research iterations (immutable record)
+- `corpus/golden-v1/` — frozen evaluation benchmark
+- `nonfiction/` — ledger + source pack + benchmark data
 
-| Branch | Owner | Purpose |
-|---|---|---|
-| `main` | shared | Base project (Next.js sandbox) |
-| `gemini/deterministic-triage-v2` | Gemini agent | Deterministic triage infrastructure |
-| `original/semantic-validation-v4-2` | original agent | Semantic / LLM validation (this branch) |
-
-The two agent branches are **independently reviewable**. They share contracts (deterministic triage result → semantic validation input) but do not duplicate implementations.
-
-## What This Branch Provides
-
-- **Canonical semantic validation interface** (`src/semantic/`)
-- **State-aware validator** (consults DocumentState before integrity failure)
-- **Invention policy support** (NONE, SOURCE_CONSTRAINED, LICENSED_FICTION, LIMITED_INFERENCE)
-- **Scoped [CC]/[LJ] arbitration** (authority proportional to evidence strength)
-- **Generation / repair / revalidation** loop
-- **Historical experiment artifacts** (`experiments/iteration-4/`, `4-1/`, `4-2/`)
-- **Documentation** (`docs/semantic/`)
-
-## What This Branch Expects from Gemini's Deterministic Layer
-
-A `CanonicalTriageResult` with:
-- `action`: `DETERMINISTIC_ACCEPT` | `DETERMINISTIC_BLOCK` | `HANDOFF_TO_LLM` | `EXECUTION_ERROR`
-- `handoffPayload` (when `HANDOFF_TO_LLM`): structured signals, hard violations, soft signals, recommended semantic questions
-
-## Running Tests
+## Quick start
 
 ```bash
-# Type check
-npx tsc --noEmit
+bun install
 
-# Semantic regression tests (requires LLM for some tests)
-bun test tests/semantic_regression.test.ts
+# Optional: full pipeline (semantic layer). Without a key, the deterministic
+# layer still runs; EXECUTION_ERROR is reported honestly, never faked.
+export LLM_API_KEY=...            # OpenRouter / Fireworks / Groq key
+export LLM_BASE_URL=https://openrouter.ai/api/v1   # optional (default)
+export LLM_MODEL=meta-llama/llama-3.3-70b-instruct:free  # optional
+
+bun run dev      # http://localhost:3000 — validation UI
+bun test tests/  # 188 deterministic + 13 LLM-gated tests
 ```
 
-## Documentation
+## API
 
-- `docs/semantic/semantic-validation-v4-2.md` — overview
-- `docs/semantic/state-aware-validation.md` — the 5 state-aware rules
-- `docs/semantic/invention-policy.md` — the 4 invention policies
-- `docs/semantic/semantic-handoff.md` — the deterministic→semantic contract
-- `docs/semantic/semantic-limitations.md` — known unresolved problems
+```bash
+# Fiction: knowledge-leak / provenance check
+curl -X POST localhost:3000/api/validate -H 'Content-Type: application/json' -d '{
+  "mode": "FICTION",
+  "text": "Maya knew Marcus had embezzled $40,000 from the clinic.",
+  "inventionPolicy": "LICENSED_FICTION",
+  "stateContext": {
+    "character": {"identity": "Maya Okafor — ICU nurse"},
+    "informationOwnership": {"entries": [{
+      "fact": "Marcus embezzled $40,000 from the clinic",
+      "knows": ["Marcus"], "suspects": [], "misunderstands": [], "unknown": ["Maya"]
+    }]}
+  }
+}'
+# → REJECTED: CLAIM_STATE_CONTRADICTED (Maya is in `unknown` for this fact)
 
-## Historical Experiments
+# Validate → repair → revalidate
+curl -X POST localhost:3000/api/rewrite ...same body...
+```
 
-- `experiments/iteration-4/` — 20-triplet benchmark (60 variants), V4 validator (80% accuracy)
-- `experiments/iteration-4-1/` — State-aware A/B test (V4 vs V4.1, 93% accuracy)
-- `experiments/iteration-4-2/` — Scoped [CC]/[LJ] arbitration
+Nonfiction mode audits each extracted assertion against the Source Fact
+Ledger (`nonfiction/ledger/source-fact-ledger.jsonl`) for grounding, hedging,
+causality, temporal consistency, and quote authenticity.
 
-Results are frozen and immutable.
+## Project layout history
 
-## Constitution (Provisional, 5 Articles)
+Research history lives in `history/` + `docs/` + worklog.md — kept as
+provenance. The canonical codebase is under `src/engine/`. See INDEX.md for
+a map of the (large) documentation tree.
 
-1. **Faithfulness** — no invented specifics; enforced by independent validation
-2. **Independent Validation** — generation does not validate itself
-3. **Canon/Info-Ownership Integrity** — no canon contradictions; no info leaks
-4. **No Fabricated Closure** — don't auto-resolve deferred mechanisms
-5. **State Persistence** — state outside the context window
+## Monetization
 
-The Constitution is provisional and has been stable across 4 iterations. Writing Bible v4 remains the governing baseline. Writing Bible v5 does not exist.
+See MONETIZATION.md — freemium web app + metered API for content teams,
+legal/compliance, publishers, and regulated industries.
