@@ -51,14 +51,19 @@ Document State (character / information-ownership / canon / ledger)
 ```bash
 bun install
 
-# Optional: full pipeline (semantic layer). Without a key, the deterministic
-# layer still runs; EXECUTION_ERROR is reported honestly, never faked.
-export LLM_API_KEY=...            # OpenRouter / Fireworks / Groq key
-export LLM_BASE_URL=https://openrouter.ai/api/v1   # optional (default)
-export LLM_MODEL=meta-llama/llama-3.3-70b-instruct:free  # optional
+# Option A — local model, no API key (recommended for dev):
+#   curl -fsSL https://ollama.com/install.sh | sh
+#   ollama pull qwen2.5:7b-instruct        # or llama3.2:3b (Meta, faster)
+#   .env.local already points at http://localhost:11434/v1
+# Option B — hosted OpenAI-compatible API:
+#   export LLM_API_KEY=...                 # OpenRouter / Fireworks / Groq
+#   export LLM_BASE_URL=https://openrouter.ai/api/v1
+#   export LLM_MODEL=<model-id>
+# Without either, the deterministic layer still runs; EXECUTION_ERROR is
+# reported honestly, never faked.
 
 bun run dev      # http://localhost:3000 — validation UI
-bun test tests/  # 188 deterministic + 13 LLM-gated tests
+bun test tests/  # 198 deterministic + 13 LLM-gated tests
 ```
 
 ## API

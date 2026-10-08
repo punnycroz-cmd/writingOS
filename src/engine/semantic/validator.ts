@@ -108,18 +108,31 @@ export async function validate(input: SemanticValidationInput): Promise<Semantic
   }
 
   // Build dimension results.
+  // `reasons` should be string[], but small models sometimes return an
+  // object or string — normalize so dimension matching never crashes.
+  const reasonsArr: string[] = Array.isArray(lj.reasons)
+    ? lj.reasons.filter((r: any) => typeof r === 'string')
+    : typeof lj.reasons === 'string' ? [lj.reasons]
+    : lj.reasons && typeof lj.reasons === 'object'
+      ? Object.entries(lj.reasons).map(([k, v]) => `${k}: ${v}`)
+      : [];
+  const normVerdict = (v: any): DimensionVerdict =>
+    v === 'PASS' || v === 'FAIL' || v === 'UNCLEAR' ? v
+    : typeof v === 'string' && ['PASS','FAIL','UNCLEAR'].includes(v.toUpperCase()) ? v.toUpperCase() as DimensionVerdict
+    : 'UNCLEAR';
   const dimensions: { dimension: SemanticDimension; verdict: DimensionVerdict; reason: string }[] = [];
   for (const dim of DIMENSIONS) {
     dimensions.push({
       dimension: dim,
-      verdict: lj[dim] || 'UNCLEAR',
-      reason: lj.reasons?.find((r: string) => r.toLowerCase().startsWith(dim.toLowerCase())) || '',
+      verdict: normVerdict(lj[dim]),
+      reason: reasonsArr.find((r: string) => r.toLowerCase().startsWith(dim.toLowerCase())) || '',
     });
   }
 
-  const ljOverall = lj.overall === 'ACCEPT' ? 'ACCEPT' : lj.overall === 'REJECT' ? 'REJECT' : 'EXECUTION_ERROR';
-  const ljFaithfulness = lj.faithfulness || 'UNCLEAR';
-  const ljInfoOwnership = lj.infoOwnership || 'UNCLEAR';
+  const overallStr = String(lj.overall || '').toUpperCase();
+  const ljOverall = overallStr === 'ACCEPT' ? 'ACCEPT' : overallStr === 'REJECT' ? 'REJECT' : 'EXECUTION_ERROR';
+  const ljFaithfulness = normVerdict(lj.faithfulness);
+  const ljInfoOwnership = normVerdict(lj.infoOwnership);
 
   // Extract claim-state resolutions from the handoff payload's signals.
   const claimResolutions = (handoffPayload?.claimSignals || [])
@@ -148,7 +161,7 @@ export async function validate(input: SemanticValidationInput): Promise<Semantic
     decision: arb.decision,
     dimensions,
     epistemicLevelAssessed: (lj.epistemicLevelAssessed as EpistemicModality) || 'NONE',
-    stateConsulted: lj.stateConsulted === true,
+    stateConsulted: lj.stateConsulted === true || lj.stateConsulted === 'true',
     handoffConsumed: !!handoffPayload,
     validatorMode: 'HYBRID',
     reasoning: `${arb.overrideReason}. LJ dimensions: ${dimensions.filter(d => d.verdict === 'FAIL').map(d => d.dimension).join(', ') || 'none failed'}.`,
