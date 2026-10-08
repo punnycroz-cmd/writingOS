@@ -35,7 +35,30 @@ export function runDeterministicTriage(input: DeterministicTriageInput): Canonic
   };
 
   try {
-    if (originalText === candidateText) return noTriage;
+    if (originalText === candidateText) {
+      // Identical text: provenance is trivially satisfied, but epistemic
+      // claims are checked against state independently of the source —
+      // a contradiction (knowledge leak) still blocks.
+      const claims = extractClaims(candidateText, originalText, state);
+      const signals: EvidenceSignal[] = [];
+      let contradiction = false;
+      for (const c of claims) {
+        signals.push({
+          type: c.status === 'supported' ? 'CLAIM_STATE_SUPPORTED'
+            : c.status === 'contradicted' ? 'CLAIM_STATE_CONTRADICTED' : 'CLAIM_INSUFFICIENT_STATE',
+          detail: `${c.claimed}: ${c.fact}`, evidence: c.actually,
+        });
+        if (c.status === 'contradicted') contradiction = true;
+      }
+      if (contradiction) {
+        return {
+          action: 'DETERMINISTIC_BLOCK', proofStrength: 'DETERMINISTIC',
+          signals, scopedOverridesApplied: [],
+          reasoning: '[CC] block — state contradiction (knowledge leak / impossible inference)',
+        };
+      }
+      return noTriage;
+    }
 
     const signals: EvidenceSignal[] = [];
     const hardViolations: string[] = [];

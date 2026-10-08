@@ -30,13 +30,14 @@
     {
       "path": "README.md",
       "sizeBytes": 3400,
-      "sha256": "5f75227783daefd66e467717eeeaa753073d9a5d42d4d219109ac969e30ae79d",
+      "sha256": "9f794d0aaabe22e35130e5c3806eb60b079360f10d4cf6ebdeda7a37fc098a93",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "report",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout move"
     },
     {
       "path": "corpus/golden-v1/README.md",
