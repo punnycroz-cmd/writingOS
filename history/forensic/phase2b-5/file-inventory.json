@@ -4683,13 +4683,14 @@
     {
       "path": "package.json",
       "sizeBytes": 3213,
-      "sha256": "798ea853f51d5c529049240faced96193086a87b3cf2f73753125fcfca7c5ba3",
+      "sha256": "3993aded5640c4448e81de3668d1ec29f554a8349fc94c44a92e9280af63cf48",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "data",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout move"
     },
     {
       "path": "src/corpus/classify-comparison.ts",
@@ -4705,35 +4706,38 @@
     {
       "path": "src/corpus/evaluate-v2.ts",
       "sizeBytes": 17631,
-      "sha256": "e41178ba54a88316fef4302847df39d6bf6ac01e6523f91c688e775ce893fe2b",
+      "sha256": "57a646fda9c140636b676ab9d90e53364d9d59eae0691d624eeceb6233dd1aae",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "source",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout move rehashed after production-layout move rehashed after production-layout move"
     },
     {
       "path": "src/corpus/evaluate.ts",
       "sizeBytes": 14878,
-      "sha256": "dd2d74af6ad296d2c7a362120128e014189ed9df188f8da971b445d7e8861fb4",
+      "sha256": "28c55f16be13f57f3a027b73b029bcdbb34abc0b6b0e88991015066bea89efdb",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "source",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout move rehashed after production-layout move rehashed after production-layout move"
     },
     {
       "path": "src/corpus/forensic-validator.ts",
       "sizeBytes": 5887,
-      "sha256": "814b078856057e9bfec5ca1b1efcbc85b41999bf3458f17e66b7dec5f4fe3c1a",
+      "sha256": "7e54017239619b434879b4ed3bef8dd3c9db4c4d3b6e2f357e96db692576860b",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "source",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout move"
     },
     {
       "path": "src/corpus/freeze-document-parser.ts",
@@ -4760,46 +4764,50 @@
     {
       "path": "tests/corpus/classify-comparison.test.ts",
       "sizeBytes": 5408,
-      "sha256": "9fb99c4e8f836cd9cd3a66c49722cbac41e08ea15d8ce98d8a8dda5be24eadb5",
+      "sha256": "797dace75c666038b5068b0ff98d63baff25d6da09918ee907acb0434e7e83af",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "test",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout import-path update"
     },
     {
       "path": "tests/corpus/forensic-validator.test.ts",
       "sizeBytes": 6388,
-      "sha256": "f4aee6e882feca78e485414a3dd4976b70ae2e96f08a42634ddb9857235f093f",
+      "sha256": "ee07f503cea05b5204758d326b8216de87b6a3421b50a271e574bbfd0ac0822c",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "test",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout move"
     },
     {
       "path": "tests/corpus/freeze-document-parser.test.ts",
       "sizeBytes": 5794,
-      "sha256": "d6f39347acfbbd2b51458b40d51985cb2b97dc12b7eb481e2c9486c63fa2ed48",
+      "sha256": "451175873fdab7158dc86bf5e34b0354619f8588c47527802b9f2ebd40d330fd",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "test",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout import-path update"
     },
     {
       "path": "tests/corpus/freeze-integrity.test.ts",
       "sizeBytes": 11330,
-      "sha256": "29c4c977729295d3b9244305c3d9badb681fc2e4b127af5a3d05dcfb02c21eb7",
+      "sha256": "006a037a86f6b224aa4ceb4c4a0d7ad64581797b25288fa05a7a130be758da38",
       "gitTracked": true,
       "gitIgnored": false,
       "category": "test",
       "sensitive": false,
       "preserved": true,
-      "sanitized": false
+      "sanitized": false,
+      "notes": "rehashed after production-layout move"
     },
     {
       "path": "tsconfig.json",

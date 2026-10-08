@@ -1,0 +1,307 @@
+{
+  "iteration-4-3b": [
+    {
+      "gcId": "GC-0001",
+      "sourceCase": "A1",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-A1.json"
+    },
+    {
+      "gcId": "GC-0002",
+      "sourceCase": "A2",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-A2.json"
+    },
+    {
+      "gcId": "GC-0003",
+      "sourceCase": "A3",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-A3.json"
+    },
+    {
+      "gcId": "GC-0004",
+      "sourceCase": "A4",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-A4.json"
+    },
+    {
+      "gcId": "GC-0005",
+      "sourceCase": "B1",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-B1.json"
+    },
+    {
+      "gcId": "GC-0006",
+      "sourceCase": "B2",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-B2.json"
+    },
+    {
+      "gcId": "GC-0007",
+      "sourceCase": "B3",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-B3.json"
+    },
+    {
+      "gcId": "GC-0008",
+      "sourceCase": "B4",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-B4.json"
+    },
+    {
+      "gcId": "GC-0009",
+      "sourceCase": "C1",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-C1.json"
+    },
+    {
+      "gcId": "GC-0010",
+      "sourceCase": "C2",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-C2.json"
+    },
+    {
+      "gcId": "GC-0011",
+      "sourceCase": "C3",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-C3.json"
+    },
+    {
+      "gcId": "GC-0012",
+      "sourceCase": "C4",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-C4.json"
+    },
+    {
+      "gcId": "GC-0013",
+      "sourceCase": "D1",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-D1.json"
+    },
+    {
+      "gcId": "GC-0014",
+      "sourceCase": "D2",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-D2.json"
+    },
+    {
+      "gcId": "GC-0015",
+      "sourceCase": "D3",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-D3.json"
+    },
+    {
+      "gcId": "GC-0016",
+      "sourceCase": "E1",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-E1.json"
+    },
+    {
+      "gcId": "GC-0017",
+      "sourceCase": "E2",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-E2.json"
+    },
+    {
+      "gcId": "GC-0018",
+      "sourceCase": "E3",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-E3.json"
+    },
+    {
+      "gcId": "GC-0019",
+      "sourceCase": "P1-S",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-P1-S.json"
+    },
+    {
+      "gcId": "GC-0020",
+      "sourceCase": "P1-W",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-P1-W.json"
+    },
+    {
+      "gcId": "GC-0021",
+      "sourceCase": "P2-W",
+      "sourceFile": "logs43b/iteration43b-calibrated-fw-P2-W.json"
+    }
+  ],
+  "iteration-4-3b-regression": [
+    {
+      "gcId": "GC-0022",
+      "sourceCase": "R1",
+      "sourceFile": "logs43b/regression-R1.json"
+    },
+    {
+      "gcId": "GC-0023",
+      "sourceCase": "R4",
+      "sourceFile": "logs43b/regression-R4.json"
+    },
+    {
+      "gcId": "GC-0024",
+      "sourceCase": "R5",
+      "sourceFile": "logs43b/regression-R5.json"
+    },
+    {
+      "gcId": "GC-0025",
+      "sourceCase": "R6",
+      "sourceFile": "logs43b/regression-R6.json"
+    },
+    {
+      "gcId": "GC-0026",
+      "sourceCase": "R7",
+      "sourceFile": "logs43b/regression-R7.json"
+    },
+    {
+      "gcId": "GC-0027",
+      "sourceCase": "R8",
+      "sourceFile": "logs43b/regression-R8.json"
+    }
+  ],
+  "r6-baseline": [
+    {
+      "gcId": "GC-0028",
+      "sourceCase": "A1",
+      "sourceFile": "logs-r6/baseline-A1.json"
+    },
+    {
+      "gcId": "GC-0029",
+      "sourceCase": "A2",
+      "sourceFile": "logs-r6/baseline-A2.json"
+    },
+    {
+      "gcId": "GC-0030",
+      "sourceCase": "A3",
+      "sourceFile": "logs-r6/baseline-A3.json"
+    },
+    {
+      "gcId": "GC-0031",
+      "sourceCase": "B1",
+      "sourceFile": "logs-r6/baseline-B1.json"
+    },
+    {
+      "gcId": "GC-0032",
+      "sourceCase": "B2",
+      "sourceFile": "logs-r6/baseline-B2.json"
+    },
+    {
+      "gcId": "GC-0033",
+      "sourceCase": "B3",
+      "sourceFile": "logs-r6/baseline-B3.json"
+    },
+    {
+      "gcId": "GC-0034",
+      "sourceCase": "C1",
+      "sourceFile": "logs-r6/baseline-C1.json"
+    },
+    {
+      "gcId": "GC-0035",
+      "sourceCase": "C2",
+      "sourceFile": "logs-r6/baseline-C2.json"
+    },
+    {
+      "gcId": "GC-0036",
+      "sourceCase": "D1-UNKNOWN",
+      "sourceFile": "logs-r6/baseline-D1-UNKNOWN.json"
+    },
+    {
+      "gcId": "GC-0037",
+      "sourceCase": "D2-SUSPECTS",
+      "sourceFile": "logs-r6/baseline-D2-SUSPECTS.json"
+    },
+    {
+      "gcId": "GC-0038",
+      "sourceCase": "D3-KNOWS",
+      "sourceFile": "logs-r6/baseline-D3-KNOWS.json"
+    },
+    {
+      "gcId": "GC-0039",
+      "sourceCase": "E1",
+      "sourceFile": "logs-r6/baseline-E1.json"
+    },
+    {
+      "gcId": "GC-0040",
+      "sourceCase": "E2",
+      "sourceFile": "logs-r6/baseline-E2.json"
+    },
+    {
+      "gcId": "GC-0041",
+      "sourceCase": "E3",
+      "sourceFile": "logs-r6/baseline-E3.json"
+    },
+    {
+      "gcId": "GC-0042",
+      "sourceCase": "F1",
+      "sourceFile": "logs-r6/baseline-F1.json"
+    }
+  ],
+  "writing-os-v1": [
+    {
+      "gcId": "GC-0043",
+      "sourceCase": "S1-C1",
+      "sourceFile": "logs-integration-v1/candidate-S1-C1.json"
+    },
+    {
+      "gcId": "GC-0044",
+      "sourceCase": "S2-C1",
+      "sourceFile": "logs-integration-v1/candidate-S2-C1.json"
+    },
+    {
+      "gcId": "GC-0045",
+      "sourceCase": "S2-C2",
+      "sourceFile": "logs-integration-v1/candidate-S2-C2.json"
+    },
+    {
+      "gcId": "GC-0046",
+      "sourceCase": "S4-C1",
+      "sourceFile": "logs-integration-v1/candidate-S4-C1.json"
+    },
+    {
+      "gcId": "GC-0047",
+      "sourceCase": "S6-C1",
+      "sourceFile": "logs-integration-v1/candidate-S6-C1.json"
+    }
+  ],
+  "writing-os-v1-1": [
+    {
+      "gcId": "GC-0048",
+      "sourceCase": "A1-S1",
+      "sourceFile": "logs-integration-v1-1/case-A1-S1.json"
+    },
+    {
+      "gcId": "GC-0049",
+      "sourceCase": "A1-S2",
+      "sourceFile": "logs-integration-v1-1/case-A1-S2.json"
+    },
+    {
+      "gcId": "GC-0050",
+      "sourceCase": "A1-S2b",
+      "sourceFile": "logs-integration-v1-1/case-A1-S2b.json"
+    },
+    {
+      "gcId": "GC-0051",
+      "sourceCase": "A1-S3",
+      "sourceFile": "logs-integration-v1-1/case-A1-S3.json"
+    },
+    {
+      "gcId": "GC-0052",
+      "sourceCase": "A3-1",
+      "sourceFile": "logs-integration-v1-1/case-A3-1.json"
+    },
+    {
+      "gcId": "GC-0053",
+      "sourceCase": "A3-2",
+      "sourceFile": "logs-integration-v1-1/case-A3-2.json"
+    },
+    {
+      "gcId": "GC-0054",
+      "sourceCase": "A4-1",
+      "sourceFile": "logs-integration-v1-1/case-A4-1.json"
+    },
+    {
+      "gcId": "GC-0055",
+      "sourceCase": "A5-1",
+      "sourceFile": "logs-integration-v1-1/case-A5-1.json"
+    },
+    {
+      "gcId": "GC-0056",
+      "sourceCase": "A5-2",
+      "sourceFile": "logs-integration-v1-1/case-A5-2.json"
+    },
+    {
+      "gcId": "GC-0057",
+      "sourceCase": "A5-3",
+      "sourceFile": "logs-integration-v1-1/case-A5-3.json"
+    },
+    {
+      "gcId": "GC-0058",
+      "sourceCase": "A8-1",
+      "sourceFile": "logs-integration-v1-1/case-A8-1.json"
+    },
+    {
+      "gcId": "GC-0059",
+      "sourceCase": "A9-1",
+      "sourceFile": "logs-integration-v1-1/case-A9-1.json"
+    }
+  ]
+}
