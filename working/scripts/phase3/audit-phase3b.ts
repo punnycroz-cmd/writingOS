@@ -1,22 +1,45 @@
 import * as fs from 'fs';
+import * as path from 'path';
 import * as crypto from 'crypto';
-import { execSync } from 'child_process';
+import { buildSourceFactLedgerRecords, validateLedgerSet } from '../../src/phase3/source-fact-ledger-validator';
+
+function findFile(relativePath: string): string {
+  const candidates = [
+    path.join(__dirname, '../../', relativePath),
+    path.join(__dirname, '../../../', relativePath),
+    path.join(process.cwd(), relativePath),
+    path.join(process.cwd(), 'working', relativePath),
+    path.join(process.cwd(), 'writing_os', relativePath),
+  ];
+  for (const c of candidates) {
+    if (fs.existsSync(c)) return c;
+  }
+  return path.join(process.cwd(), relativePath);
+}
 
 function runAudit() {
-  const claimInventory = fs.readFileSync('nonfiction/source-pack/claim-inventory.jsonl', 'utf-8')
+  const claimInventoryPath = findFile('nonfiction/source-pack/claim-inventory.jsonl');
+  const claimInventory = fs.readFileSync(claimInventoryPath, 'utf-8')
     .trim().split('\n').map(l => JSON.parse(l));
-  const verificationLedger = fs.readFileSync('nonfiction/verification/source-verification-ledger.jsonl', 'utf-8')
+
+  const verificationLedgerPath = findFile('nonfiction/verification/source-verification-ledger.jsonl');
+  const verificationLedger = fs.readFileSync(verificationLedgerPath, 'utf-8')
     .trim().split('\n').map(l => JSON.parse(l));
-  const ledgerStr = fs.readFileSync('nonfiction/ledger/source-fact-ledger.jsonl', 'utf-8');
+
+  const sourceIndexPath = findFile('nonfiction/source-pack/source-index.json');
+  const sourceIndex = JSON.parse(fs.readFileSync(sourceIndexPath, 'utf-8'));
+
+  const ledgerPath = findFile('nonfiction/ledger/source-fact-ledger.jsonl');
+  const ledgerStr = fs.readFileSync(ledgerPath, 'utf-8');
   const ledgerRecords = ledgerStr.trim().split('\n').map(l => JSON.parse(l));
 
   // 1. Audit sourceMapping
   const totalCanonicalSources = 69;
   const totalVerificationSources = verificationLedger.length;
   
-  const uniqueReferencedSources = new Set();
-  const orphanClaimReferences = [];
-  const orphanSourceReferences = [];
+  const uniqueReferencedSources = new Set<string>();
+  const orphanClaimReferences: string[] = [];
+  const orphanSourceReferences: string[] = [];
 
   for (const claim of claimInventory) {
     let sourceIds: string[] = [];
@@ -42,7 +65,7 @@ function runAudit() {
 
   const ledgerSources = new Set(ledgerRecords.map(r => r.sourcePackSourceId));
 
-  // 2. Audit all 135 claims
+  // 2. Audit all claims distribution
   let countCandidate = 0;
   let countUnsupported = 0;
   let countPartiallySupported = 0;
@@ -50,9 +73,6 @@ function runAudit() {
   let countSourceVerified = 0;
 
   for (const r of ledgerRecords) {
-    // The user wants exactly one classification per claim among CANDIDATE, UNSUPPORTED, PARTIALLY_SUPPORTED, BLOCKED, SOURCE_VERIFIED
-    // In our model, BLOCKED is an evidenceType and factVerificationState is UNSUPPORTED.
-    // To make them mutually exclusive and sum to 135, we'll separate UNSUPPORTED into BLOCKED and actual UNSUPPORTED
     if (r.evidenceType === 'BLOCKED') {
       countBlocked++;
     } else if (r.factVerificationState === 'CANDIDATE') {
@@ -66,74 +86,54 @@ function runAudit() {
     }
   }
 
-  // 3. Explain claimsWithoutEvidence -> phase3b-evidence-coverage-audit.json
-  const auditEntries = [];
   let claimsWithoutEvidenceCount = 0;
   let directEvidenceCount = 0;
   let partialEvidenceCount = 0;
 
-  const verificationMap = new Map();
-  for (const v of verificationLedger) {
-    verificationMap.set(v.sourcePackSourceId, v);
-  }
-
   for (const r of ledgerRecords) {
-    const vRecord = verificationMap.get(r.sourcePackSourceId);
-    
-    let reason = "No specific evidence has been extracted or evaluated for this claim in Phase 3B yet.";
-    if (r.evidenceType === 'BLOCKED') {
-      reason = "Source is blocked (e.g. paywall/captcha), preventing direct evidence extraction.";
-    }
-
-    const hasEvidence = (r.evidenceType === 'DIRECT' || r.evidenceType === 'PARTIAL');
-    if (!hasEvidence) claimsWithoutEvidenceCount++;
-    if (r.evidenceType === 'DIRECT') directEvidenceCount++;
-    if (r.evidenceType === 'PARTIAL') partialEvidenceCount++;
-
-    auditEntries.push({
-      claimId: r.claimId,
-      sourceReferences: [r.sourcePackSourceId],
-      sourceStatuses: [r.sourceVerificationStatus],
-      factVerificationState: r.factVerificationState,
-      evidenceType: r.evidenceType,
-      evidenceLocations: r.evidenceLocations || [],
-      evidencePresent: hasEvidence,
-      reason
-    });
+    if (r.evidenceType === 'NONE' || r.evidenceType === 'BLOCKED') claimsWithoutEvidenceCount++;
+    else if (r.evidenceType === 'DIRECT') directEvidenceCount++;
+    else if (r.evidenceType === 'PARTIAL') partialEvidenceCount++;
   }
 
-  fs.writeFileSync('nonfiction/ledger/phase3b-evidence-coverage-audit.json', JSON.stringify(auditEntries, null, 2));
+  // 3. Dynamic Determinism Verification
+  const build1 = buildSourceFactLedgerRecords(claimInventory, verificationLedger);
+  const str1 = build1.map(r => JSON.stringify(r)).join('\n') + '\n';
+  const hash1 = crypto.createHash('sha256').update(str1).digest('hex');
 
-  // 4. Verify 135 ledger records cardinality
-  let multipleSourceRelationships = 0;
-  let claimsWithNoSourceRelationship = 0;
-  let claimsWithOneSourceRelationship = 0;
+  const build2 = buildSourceFactLedgerRecords(claimInventory, verificationLedger);
+  const str2 = build2.map(r => JSON.stringify(r)).join('\n') + '\n';
+  const hash2 = crypto.createHash('sha256').update(str2).digest('hex');
 
-  for (const claim of claimInventory) {
-    let sourceIds: string[] = [];
-    if (claim.sourceId) {
-      sourceIds = Array.isArray(claim.sourceId) ? claim.sourceId : [claim.sourceId];
-    } else if (claim.sourceIds) {
-      sourceIds = claim.sourceIds;
+  const diskHash = crypto.createHash('sha256').update(ledgerStr).digest('hex');
+  const deterministicBuild = (hash1 === hash2 && hash1 === diskHash) ? 'PASS' : 'FAIL';
+
+  // 4. Dynamic Epistemic Boundary Verification
+  const hasForbiddenPromotion = ledgerRecords.some(r => r.factVerificationState === 'SOURCE_VERIFIED');
+  const hasForbiddenBlockedDirect = ledgerRecords.some(r => r.sourceVerificationStatus === 'BLOCKED' && r.evidenceType === 'DIRECT');
+  const epistemicBoundary = (!hasForbiddenPromotion && !hasForbiddenBlockedDirect) ? 'PASS' : 'FAIL';
+
+  // 5. Dynamic Input Integrity Verification
+  const frozenInputsUnchanged = (totalVerificationSources === 69 && claimInventory.length === 135 && sourceIndex.length === 69) ? 'YES' : 'NO';
+
+  // 6. Dynamic Gate 2 Evaluation
+  const isSetValid = (() => {
+    try {
+      validateLedgerSet(ledgerRecords, sourceIndex, verificationLedger, claimInventory);
+      return true;
+    } catch {
+      return false;
     }
-    if (sourceIds.length === 0) claimsWithNoSourceRelationship++;
-    else if (sourceIds.length === 1) claimsWithOneSourceRelationship++;
-    else multipleSourceRelationships++;
-  }
+  })();
 
-  const oneClaimOneRecordActuallySupported = (claimsWithOneSourceRelationship === claimInventory.length);
-
-  // 6. Verify deterministic generation
-  const hash1 = crypto.createHash('sha256').update(ledgerStr).digest('hex');
-  execSync('export PATH="$HOME/.bun/bin:$PATH" && bun run scripts/phase3/build-source-fact-ledger.ts', { stdio: 'ignore' });
-  const ledgerStr2 = fs.readFileSync('nonfiction/ledger/source-fact-ledger.jsonl', 'utf-8');
-  const hash2 = crypto.createHash('sha256').update(ledgerStr2).digest('hex');
-  const deterministicBuild = (hash1 === hash2) ? "PASS" : "FAIL";
-
-  // 8. Verify Gate 2
-  const gate2 = "PASS";
-  const frozenInputsUnchanged = "YES";
-  const epistemicBoundary = "PASS";
+  const gate2 = (
+    deterministicBuild === 'PASS' &&
+    epistemicBoundary === 'PASS' &&
+    frozenInputsUnchanged === 'YES' &&
+    isSetValid &&
+    orphanClaimReferences.length === 0 &&
+    orphanSourceReferences.length === 0
+  ) ? 'PASS' : 'FAIL';
 
   const report = `
 totalSources = ${totalVerificationSources}
@@ -165,8 +165,9 @@ gate2 = ${gate2}
 phase3bStatus = COMPLETE
   `.trim();
 
-  fs.writeFileSync('nonfiction/ledger/audit-report.txt', report);
-  console.log("Audit Complete.");
+  const outReportPath = findFile('nonfiction/ledger/audit-report.txt');
+  fs.writeFileSync(outReportPath, report);
+  console.log('Dynamic Audit Complete. Gate 2:', gate2);
 }
 
 runAudit();

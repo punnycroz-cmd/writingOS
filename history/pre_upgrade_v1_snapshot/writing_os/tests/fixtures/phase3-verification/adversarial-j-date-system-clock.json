@@ -1,0 +1,26 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0010",
+    "title": "Labor Market Review",
+    "organization": "BLS",
+    "url": "https://bls.gov/lmr"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0010",
+    "verificationSourceId": "SRC-TEST-0010",
+    "observedTitle": "Labor Market Review",
+    "sourceUrl": "https://bls.gov/lmr",
+    "publisherObserved": "BLS",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "SOURCE_VERIFIED_DATE",
+    "publicationDateEvidence": "SYSTEM_CLOCK",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://bls.gov/lmr"
+    ],
+    "notes": "Invalid system clock date"
+  }
+}

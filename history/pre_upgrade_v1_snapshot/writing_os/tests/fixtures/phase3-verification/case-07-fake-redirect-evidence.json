@@ -1,0 +1,27 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-07",
+    "title": "Tech Report",
+    "organization": "NIST",
+    "url": "https://csrc.nist.gov/final"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-07",
+    "verificationSourceId": "SRC-TEST-07",
+    "observedTitle": "Tech Report",
+    "sourceUrl": "https://wrong-site.org",
+    "canonicalUrl": "https://csrc.nist.gov/unrelated",
+    "redirectObserved": true,
+    "redirectEvidence": "Redirected to wrong site",
+    "publisherObserved": "NIST",
+    "titleVariantType": "EXACT",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://wrong-site.org"
+    ],
+    "notes": "Redirect does not lead to canonical URL"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "product": {
+    "name": "Writing OS",
+    "version": "1.0.0",
+    "releaseDate": "2026-08-28",
+    "status": "RELEASE_READY_WITHIN_DECLARED_SCOPE",
+    "releaseStatement": "Writing OS v1.0.0 is release-ready within its declared evaluation and operational scope. The release conforms to Constitution v1.0.0, Writing Bible v5.0.0, Governance Charters A/B, and the documented Evidence Registry."
+  },
+  "constitution": {
+    "version": "1.0.0",
+    "articlesCount": 8,
+    "typedTiersCount": 6,
+    "chartersCount": 2,
+    "status": "RATIFIED_AND_FROZEN"
+  },
+  "bible": {
+    "version": "5.0.0",
+    "totalParts": 10,
+    "v4ConceptsAudited": 7,
+    "v4ConceptsMapped": 7,
+    "status": "CANONICAL_MASTERWORK"
+  },
+  "evidenceRegistry": {
+    "totalPhasesTraceable": 29,
+    "provenanceSpan": "P0 through P28",
+    "maxEvidenceLevel": "L7 (Independent User Replication & Production Pilots)",
+    "headlineClaimsAudited": 23,
+    "headlineClaimsSupported": 23,
+    "outOfScopeClaims": 0,
+    "unboundedClaims": 0
+  },
+  "registerPacks": [
+    "FICTION",
+    "ACADEMIC",
+    "BUSINESS",
+    "TECHNICAL",
+    "LEGAL",
+    "GENERAL"
+  ],
+  "fixtures": [
+    {
+      "fixtureId": "final.txt",
+      "artifactType": "FICTION_STRESS_FIXTURE",
+      "governingAuthority": "NON_AUTHORITATIVE_OBSERVATIONAL_FIXTURE",
+      "purpose": "Used for observational detector research and density stress testing. Not a quality gate."
+    }
+  ],
+  "knownLimitations": [
+    {
+      "limitationId": "LIMIT_001_LONG_HORIZON_COREF",
+      "area": "Deep Multi-Character Narrative Co-Reference",
+      "mitigation": "HandoffRouter triggers structured clarification dialog rather than guessing ambiguous references."
+    },
+    {
+      "limitationId": "LIMIT_002_DOMAIN_CALIBRATION_DRIFT",
+      "area": "Domain Shift Threshold Sensitivity",
+      "mitigation": "Register packs strictly isolate policy parameters (Charter A)."
+    },
+    {
+      "limitationId": "LIMIT_003_POETIC_AMBIGUITY",
+      "area": "Extreme Avant-Garde Poetic Structure",
+      "mitigation": "Task contract marks mode as LICENSED_AVANT_GARDE, routing to open-ended creative generation."
+    }
+  ],
+  "conformanceStatus": {
+    "allTracksPassed": true,
+    "totalConformanceTracks": 5
+  }
+}

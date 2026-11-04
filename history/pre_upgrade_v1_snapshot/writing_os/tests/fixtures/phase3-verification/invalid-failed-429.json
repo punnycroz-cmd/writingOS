@@ -1,0 +1,10 @@
+{
+  "sourcePackSourceId": "SRC-TEST-0007",
+  "verificationSourceId": "SRC-TEST-0007",
+  "sourceUrl": "https://example.com/test",
+  "verificationStatus": "FAILED",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": true,
+  "notes": "Temporary HTTP 429 rate limit error"
+}

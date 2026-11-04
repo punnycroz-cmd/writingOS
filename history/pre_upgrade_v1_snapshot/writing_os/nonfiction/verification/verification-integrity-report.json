@@ -1,0 +1,86 @@
+{
+  "auditTimestamp": "2026-08-24T00:31:40.884Z",
+  "validationInputCommitSha": "bb42eb33719e9a4d0350840419a714b3191583fe",
+  "phase2bSha": "d8f8840cb7b3df5a97848460ff3c9b91efc4b095",
+  "nonfictionSha": "fd661f53ffe5cab5e93ca527ae3158ff37cb41f2",
+  "totalRecords": 69,
+  "validRecords": 69,
+  "invalidRecords": 0,
+  "identityMismatches": 0,
+  "publisherMismatches": 0,
+  "titleMismatches": 0,
+  "urlMismatches": 0,
+  "authorMismatches": 0,
+  "publicationDateIssues": 0,
+  "evidenceIssues": 0,
+  "artifactIssues": 0,
+  "statusSemanticIssues": 0,
+  "mappingIssues": 0,
+  "statusDistribution": {
+    "VERIFIED": 34,
+    "PARTIALLY_VERIFIED": 20,
+    "BLOCKED": 15,
+    "FAILED": 0,
+    "UNRESOLVED": 0
+  },
+  "identityClassificationDistribution": {
+    "EXACT_NORMALIZED_MATCH": 43,
+    "TITLE_VARIANT": 26,
+    "PUBLISHER_EQUIVALENT": 0,
+    "REDIRECT_EQUIVALENT": 0,
+    "URL_CANONICALIZATION": 0,
+    "COMBINED_DOCUMENTED_VARIANT": 0,
+    "PARENT_PUBLICATION_RELATION": 0,
+    "MISMATCH": 0,
+    "UNKNOWN": 0
+  },
+  "publicationDateStatusDistribution": {
+    "SOURCE_VERIFIED_DATE": 0,
+    "DISCOVERY_INHERITED": 69,
+    "APPROXIMATE": 0,
+    "UNKNOWN": 0
+  },
+  "blockedReasonDistribution": {
+    "BOT_PROTECTION": 5,
+    "PDF_PARSER_LIMITATION": 4,
+    "JSON_PARSE_LIMITATION": 6,
+    "ACCESS_RESTRICTION": 0,
+    "RATE_LIMIT": 0,
+    "OTHER_TECHNICAL_LIMITATION": 0
+  },
+  "setMapping": {
+    "valid": true,
+    "totalDiscoverySources": 69,
+    "totalVerificationRecords": 69,
+    "duplicateDiscoveryIds": [],
+    "duplicateVerificationIds": [],
+    "missingFromVerification": [],
+    "extraInVerification": [],
+    "mismatchedIdPairs": [],
+    "errors": []
+  },
+  "testExecutions": {
+    "phase3": {
+      "exitCode": 0,
+      "metrics": {
+        "total": 97,
+        "pass": 97,
+        "fail": 0
+      },
+      "logFile": "logs/phase3/phase3a5-tests.log"
+    },
+    "phase2bRegression": {
+      "exitCode": 0,
+      "metrics": {
+        "total": 67,
+        "pass": 67,
+        "fail": 0
+      },
+      "logFile": "logs/phase3/phase2b-regression-tests.log"
+    }
+  },
+  "claimGroundTruthBoundary": {
+    "sourceVerifiedClaims": 0,
+    "containsGroundTruth": false
+  }
+}

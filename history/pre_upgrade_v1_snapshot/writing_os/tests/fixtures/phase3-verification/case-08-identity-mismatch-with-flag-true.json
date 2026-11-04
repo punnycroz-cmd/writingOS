@@ -1,0 +1,21 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-08",
+    "title": "True Report",
+    "organization": "OECD",
+    "url": "https://oecd.org/true"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-08",
+    "verificationSourceId": "SRC-TEST-08",
+    "observedTitle": "False Report",
+    "sourceUrl": "https://oecd.org/false",
+    "publisherObserved": "OECD",
+    "titleVariantType": "MISMATCH",
+    "verificationStatus": "PARTIALLY_VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "notes": "Identity mismatch but sourceIdentityVerified asserted true"
+  }
+}

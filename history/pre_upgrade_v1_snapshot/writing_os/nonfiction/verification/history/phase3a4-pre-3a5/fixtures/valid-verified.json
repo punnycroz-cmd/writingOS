@@ -1,0 +1,19 @@
+{
+  "sourcePackSourceId": "SRC-NF-V11-0001",
+  "verificationSourceId": "SRC-NF-V11-0001",
+  "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142",
+  "observedTitle": "Claims of \u2018no difference\u2019 or \u2018no effect\u2019 in Cochrane and other systematic reviews",
+  "titleMatch": true,
+  "titleMismatchReason": "Titles match after normalization (encoding/punctuation differences)",
+  "publicationDateObserved": "2020",
+  "publicationDateStatus": "DISCOVERY_INHERITED",
+  "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+  "verificationStatus": "VERIFIED",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": true,
+  "evidenceLocations": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165142"
+  ],
+  "notes": "Valid verified record"
+}

@@ -1,0 +1,16 @@
+{
+  "sourcePackSourceId": "SRC-TEST-0003",
+  "verificationSourceId": "SRC-TEST-0003",
+  "sourceUrl": "https://example.com/test",
+  "publicationDateObserved": "Wed, 5 Aug 2026 12:28:57 GMT",
+  "publicationDateStatus": "SOURCE_VERIFIED_DATE",
+  "publicationDateEvidence": "",
+  "verificationStatus": "VERIFIED",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": true,
+  "evidenceLocations": [
+    "https://example.com/test"
+  ],
+  "notes": "Invalid HTTP transport timestamp used as publication date"
+}

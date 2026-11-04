@@ -1,0 +1,20 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0012",
+    "title": "Health Outcomes 2024",
+    "organization": "CDC",
+    "url": "https://cdc.gov/outcomes"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0012",
+    "verificationSourceId": "SRC-TEST-0012",
+    "observedTitle": "Health Outcomes 2024",
+    "sourceUrl": "https://cdc.gov/outcomes",
+    "publisherObserved": "CDC",
+    "verificationStatus": "FAILED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "notes": "Temporary HTTP 429 rate limit exceeded during retrieval"
+  }
+}

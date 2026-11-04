@@ -1,0 +1,24 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-01",
+    "title": "Test Report",
+    "organization": "OECD",
+    "url": "https://oecd.org/report"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-01",
+    "verificationSourceId": "SRC-TEST-01",
+    "observedTitle": "Test Report",
+    "sourceUrl": "https://wrong-domain.org/report",
+    "publisherObserved": "OECD",
+    "titleVariantType": "EXACT",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://wrong-domain.org/report"
+    ],
+    "notes": "Wrong URL"
+  }
+}

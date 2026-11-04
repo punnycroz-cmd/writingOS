@@ -1,0 +1,26 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0009",
+    "title": "Quarterly Financial Report Q3",
+    "organization": "U.S. Census Bureau",
+    "url": "https://census.gov/qfr"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0009",
+    "verificationSourceId": "SRC-TEST-0009",
+    "observedTitle": "Quarterly Financial Report Q3",
+    "sourceUrl": "https://census.gov/qfr",
+    "publisherObserved": "U.S. Census Bureau",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://census.gov/qfr"
+    ],
+    "notes": "Organizational source with no individual author"
+  }
+}

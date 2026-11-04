@@ -1,0 +1,27 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-16",
+    "title": "Exact Title 2024",
+    "organization": "World Bank",
+    "url": "https://worldbank.org/report-2024"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-16",
+    "verificationSourceId": "SRC-TEST-16",
+    "observedTitle": "Exact Title 2024",
+    "sourceUrl": "https://worldbank.org/report-2024",
+    "publisherObserved": "World Bank",
+    "titleVariantType": "EXACT",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://worldbank.org/report-2024"
+    ],
+    "notes": "Exact normalized match"
+  }
+}

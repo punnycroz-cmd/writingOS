@@ -1,0 +1,20 @@
+{
+  "generatedAt": "2026-08-23T02:30:00.000Z",
+  "totalSources": 69,
+  "verified": 34,
+  "partiallyVerified": 20,
+  "blocked": 15,
+  "failed": 0,
+  "unresolved": 0,
+  "previouslyUnverifiedProcessed": 47,
+  "previouslyUrlVerified": 17,
+  "previouslyBotBlocked": 5,
+  "priorStatusBreakdown": {
+    "URL_VERIFIED": 17,
+    "URL_EXISTS_BOT_BLOCKED": 5,
+    "UNVERIFIED": 47
+  },
+  "sourceVerifiedClaims": 0,
+  "containsGroundTruth": false,
+  "allSourcesHaveDisposition": true
+}

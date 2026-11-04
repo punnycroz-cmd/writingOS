@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Phase 3A.4 Hardened Source Verification Record",
+  "description": "Normalized and hardened schema with symmetric identity fingerprinting, structured title variant types, and explicit publisher equivalence",
+  "type": "object",
+  "required": [
+    "sourcePackSourceId",
+    "verificationSourceId",
+    "sourcePackVersion",
+    "sourceUrl",
+    "verificationStatus",
+    "verificationMethod",
+    "sourceExists",
+    "sourceIdentityVerified",
+    "retrievalStatus",
+    "notes"
+  ],
+  "properties": {
+    "sourcePackSourceId": { "type": "string", "description": "Source ID from the frozen discovery corpus" },
+    "verificationSourceId": { "type": "string", "description": "Source ID in the verification ledger" },
+    "sourcePackVersion": { "type": "string" },
+    "sourceUrl": { "type": "string" },
+    "canonicalUrl": { "type": "string" },
+    "discoveryTitle": { "type": "string", "description": "Title from the discovery source-index.json" },
+    "observedTitle": { "type": "string", "description": "Title observed during verification retrieval" },
+    "titleMatch": { "type": "boolean", "description": "Whether observed title matches discovery title" },
+    "titleVariantType": {
+      "type": "string",
+      "enum": ["EXACT", "PUNCTUATION_VARIANT", "FORMATTING_VARIANT", "OFFICIAL_SUBTITLE_VARIANT", "OFFICIAL_RENAMING", "PARENT_PUBLICATION", "MISMATCH"]
+    },
+    "titleMismatchReason": { "type": "string", "description": "Explanation when titleVariantType is not EXACT" },
+    "authorObserved": { "type": "string" },
+    "publisherObserved": { "type": "string" },
+    "publicationDateObserved": { "type": "string" },
+    "publicationDateStatus": { "type": "string", "enum": ["SOURCE_VERIFIED_DATE", "DISCOVERY_INHERITED", "APPROXIMATE", "UNKNOWN"] },
+    "publicationDateEvidence": { "type": "string" },
+    "versionDateObserved": { "type": "string" },
+    "pageLastModified": { "type": "string" },
+    "retrievedAt": { "type": "string" },
+    "sourceExists": { "type": "boolean" },
+    "sourceIdentityVerified": { "type": "boolean" },
+    "retrievalStatus": { "type": "string", "enum": ["SUCCESS", "PARTIAL", "BLOCKED", "PDF_NOT_RETRIEVABLE", "TOOL_PARSE_ERROR", "PRIOR_URL_VERIFIED", "PRIOR_BOT_BLOCKED", "NOT_FOUND", "ERROR", "PENDING"] },
+    "verificationStatus": { "type": "string", "enum": ["VERIFIED", "PARTIALLY_VERIFIED", "BLOCKED", "FAILED", "UNRESOLVED"] },
+    "verificationBlockReason": { "type": "string", "enum": ["BOT_PROTECTION", "PDF_PARSER_LIMITATION", "JSON_PARSE_LIMITATION", "ACCESS_RESTRICTION", "RATE_LIMIT", "OTHER_TECHNICAL_LIMITATION"] },
+    "verificationMethod": { "type": "string" },
+    "evidenceLocations": { "type": "array", "items": { "type": "string" } },
+    "retrievedArtifact": { "type": "string" },
+    "artifactSha256": { "type": "string" },
+    "redirectObserved": { "type": "boolean" },
+    "redirectEvidence": { "type": "string" },
+    "licenseEvidence": { "type": "string" },
+    "notes": { "type": "string" }
+  },
+  "validationRules": {
+    "VERIFIED_requires": [
+      "identityComparison.match = true",
+      "sourceIdentityVerified = true",
+      "evidenceLocations non-empty",
+      "sourceExists = true",
+      "if titleVariantType != EXACT then titleMismatchReason must be non-empty"
+    ],
+    "BLOCKED_requires": [
+      "verificationBlockReason must be specified",
+      "notes must explain the blocking reason"
+    ],
+    "FAILED_requires": [
+      "notes must explain why source is considered failed (not tool error)"
+    ],
+    "publicationDate_rule": "publicationDateEvidence must not be SYSTEM_CLOCK or transport timestamp"
+  }
+}

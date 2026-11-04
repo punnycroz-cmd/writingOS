@@ -1,0 +1,262 @@
+{
+  "snapshotTimestamp": "2026-08-24T00:29:36.830733+00:00",
+  "baseCommitSha": "38f1005178a245cdcc963a2551ba46060d7036f0",
+  "files": {
+    "nonfiction/verification/source-verification-ledger.jsonl": {
+      "sha256": "602902dc4ef006db2e9751ed1e71805ec038181121f68b8115a570100bf3ab98",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/source-verification-ledger.jsonl"
+    },
+    "nonfiction/verification/source-id-map.json": {
+      "sha256": "75918c06355cce5361b0d7223cd10c7b54b9fe419afeb678f344ac796f478211",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/source-id-map.json"
+    },
+    "nonfiction/verification/source-verification-schema.json": {
+      "sha256": "28651c027f34130e893842ca40db31fdac4d959de6f6c042ee1c2dfc56dcaa5a",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/source-verification-schema.json"
+    },
+    "nonfiction/verification/verification-integrity-report.json": {
+      "sha256": "448aecf74f183616993f7467d59ddae225ec8a19392503c28c1e336d69f9217a",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/verification-integrity-report.json"
+    },
+    "nonfiction/verification/verification-normalization-summary.json": {
+      "sha256": "faef284a2dd475eeee2a9ab79e59f57d199b6faca47e37cf61ce135e1316df90",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/verification-normalization-summary.json"
+    },
+    "src/phase3/verification-validator.ts": {
+      "sha256": "1c396f7bd935877765d7f2ffc11669895745e9a98ab92228e49b2410a128448b",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/verification-validator.ts"
+    },
+    "scripts/phase3/generate-phase3a4-artifacts.ts": {
+      "sha256": "58be14293104092beaecbe666369745796b5bbf0d0a0d532127aff2fcddcfa5f",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/generate-phase3a4-artifacts.ts"
+    },
+    "docs/phase3/PHASE3A4_FINAL_REPORT.md": {
+      "sha256": "b509dac82df3b77296cb555660254c9cb34f2ad183d70991b74c5171c4958538",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/PHASE3A4_FINAL_REPORT.md"
+    },
+    "tests/phase3/phase3a-verification.test.ts": {
+      "sha256": "423f79368ea00d506e7743fb0b5417b5e93efb09aa317a8adb398fd2f4e0d173",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/phase3a-verification.test.ts"
+    },
+    "tests/phase3/phase3-foundation.test.ts": {
+      "sha256": "4c780dffb2bd95e9d2c55972ab006d6efbfde543341301b8558fee69f965b59b",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/phase3-foundation.test.ts"
+    },
+    "tests/phase3/source-verification-integrity.test.ts": {
+      "sha256": "0fa2a5b0dc4d31e8592f8b5bc83887b4726e03725f385526eaf4e949ff302a34",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/source-verification-integrity.test.ts"
+    },
+    "tests/phase3/phase3-boundaries.test.ts": {
+      "sha256": "2961bed3da3961a13cc380d6146de45db9ee0670223e2bcbe2b31e9f3b8a74a1",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/phase3-boundaries.test.ts"
+    },
+    "tests/phase3/phase3-phase-gates.test.ts": {
+      "sha256": "8250c398abd5c11c1a6a5b7fe1f87f01a2855e8b13f7078d777c864df5ab9ac4",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/phase3-phase-gates.test.ts"
+    },
+    "tests/phase3/verification-normalization.test.ts": {
+      "sha256": "01e40ef80921e0a8eaea639d33aaa86e3f41241c50953fe3456a29f7d1106023",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/verification-normalization.test.ts"
+    },
+    "tests/phase3/phase3-import.test.ts": {
+      "sha256": "c0219d10ae79a29aceb80ba92054bfa3129827f3e9850860ae3d22366253b3b1",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/phase3-import.test.ts"
+    },
+    "tests/phase3/phase3-provenance.test.ts": {
+      "sha256": "766ad6632222eb15db60cf6dc8b2c90518607314b1eef065c2a26e1e3a453396",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/phase3-provenance.test.ts"
+    },
+    "tests/phase3/source-identity.test.ts": {
+      "sha256": "cecce48af272b4cabc460f474c1f1dfecca08609ec85162e636068c7ab868e1c",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/tests-phase3/source-identity.test.ts"
+    },
+    "tests/fixtures/phase3-verification/case-18-official-subtitle-variant.json": {
+      "sha256": "a4a41a596637546573f6131721193eb769ecdd12125dd27483265e4f02679bd9",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-18-official-subtitle-variant.json"
+    },
+    "tests/fixtures/phase3-verification/case-19-documented-redirect.json": {
+      "sha256": "7d6d442c95d7859a194f60e782eca7b6c3967c4e6f2a55b8cebff85864c7c186",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-19-documented-redirect.json"
+    },
+    "tests/fixtures/phase3-verification/case-07-fake-redirect-evidence.json": {
+      "sha256": "828f434a511181447e441e2f0701fa527ad7c8c2c2456fc122b04ca0865bd262",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-07-fake-redirect-evidence.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-h-same-url-wrong-title.json": {
+      "sha256": "a0d256aa5cd77429bb4040a816c7dfac9050dcf0621b790f33e9fb99b373133c",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-h-same-url-wrong-title.json"
+    },
+    "tests/fixtures/phase3-verification/case-06-manual-canonical-no-evidence.json": {
+      "sha256": "ac8c01611e78312e1f07a25d55a7343055665b96d269e100c03a530c6445ed1e",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-06-manual-canonical-no-evidence.json"
+    },
+    "tests/fixtures/phase3-verification/valid-blocked.json": {
+      "sha256": "c1b8e6f2c909f462f3fcca92a769d4c85846049f9437f299ebebf419423cd7ab",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/valid-blocked.json"
+    },
+    "tests/fixtures/phase3-verification/case-12-429-marked-failed.json": {
+      "sha256": "f6fdcfcebd8fbedb991c7cd07cb26459cd15566508940340da2e7ad7d0d44885",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-12-429-marked-failed.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-e-trailing-slash-url.json": {
+      "sha256": "e6c283848371faa5e31a26b491bacac6ca990d6f9a855578316ab6853263eb1c",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-e-trailing-slash-url.json"
+    },
+    "tests/fixtures/phase3-verification/case-14-artifact-hash-mismatch.json": {
+      "sha256": "74922d7b02e101b59ad6f4a22395dd4cb86ce8f9a73ad78992f8ea601a245e9d",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-14-artifact-hash-mismatch.json"
+    },
+    "tests/fixtures/phase3-verification/case-21-org-no-author.json": {
+      "sha256": "6046a3fc86503f06731e6c555c67cba48ae52f73b9f6012927a7d33dfd7806f8",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-21-org-no-author.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-d-punct-title.json": {
+      "sha256": "6b8a2fc26dfa5fa4ef631153f43fd074d9757210a9606117407a50241278c830",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-d-punct-title.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-m-pdf-blocked.json": {
+      "sha256": "cd24bdd6eb486ade2d1d846a3ca773f7f272e7896c07c61405671b8110200679",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-m-pdf-blocked.json"
+    },
+    "tests/fixtures/phase3-verification/invalid-identity.json": {
+      "sha256": "987e2ba8bc382d33efae813b8e02adce6cc6a11aea30bf03b7e6fdec54cf656b",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/invalid-identity.json"
+    },
+    "tests/fixtures/phase3-verification/case-08-identity-mismatch-with-flag-true.json": {
+      "sha256": "d1ca41d37ffea407d48af15e2c86146e4b5898e826d18d9b84f931093b47c8b9",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-08-identity-mismatch-with-flag-true.json"
+    },
+    "tests/fixtures/phase3-verification/invalid-title-mismatch.json": {
+      "sha256": "2cb1b9c88850279b044cc726266dcd3e9f07fb5c6612f5448418dff6f0eaf219",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/invalid-title-mismatch.json"
+    },
+    "tests/fixtures/phase3-verification/case-03-unrelated-title.json": {
+      "sha256": "bd1a3d92fb4be04df2f36de3b3f7c5c6928fee6dbb76037e108531f43fa07375",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-03-unrelated-title.json"
+    },
+    "tests/fixtures/phase3-verification/case-09-fingerprint-mismatch.json": {
+      "sha256": "31c45b90d316af5e1b68b651de48684729994537c7f79869eab5004f68697d1d",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-09-fingerprint-mismatch.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-c-diff-title.json": {
+      "sha256": "0d036da511d3bba8e8db9e3996e516cdd1d6157428ebe4c905e7fb0c9ef2555a",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-c-diff-title.json"
+    },
+    "tests/fixtures/phase3-verification/invalid-empty-evidence.json": {
+      "sha256": "1f1bfdb4a91db4e48c23adbb1687539176629cfb417f230a9db6f31e64a73dae",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/invalid-empty-evidence.json"
+    },
+    "tests/fixtures/phase3-verification/case-16-exact-normalized-match.json": {
+      "sha256": "63592af05d4c42df4c797382e4bf67624ce41a22827f74c917655aaf2093ceb6",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-16-exact-normalized-match.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-f-documented-redirect.json": {
+      "sha256": "bd9692b743be547b94c9e8a584cac932135bfa7d1ca14848b199ba985904fe50",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-f-documented-redirect.json"
+    },
+    "tests/fixtures/phase3-verification/case-11-http-transport-date.json": {
+      "sha256": "2376868cd09a7ad9ffe45ffaaa499bc165720f95c455301ced5e01eb059ba469",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-11-http-transport-date.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-j-date-system-clock.json": {
+      "sha256": "7df8cf5019c0148a6e4e1c3c84c2ca37495dda78d2903a2d7f5da65572e6cf01",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-j-date-system-clock.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-k-date-inherited.json": {
+      "sha256": "f18fc055367720efc11811e721b76df270fd20b7e06347ce0c5e20837b506d59",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-k-date-inherited.json"
+    },
+    "tests/fixtures/phase3-verification/case-22-inherited-pub-date.json": {
+      "sha256": "9b2ba9cc28152c1c54bb777b1c86d89b263fe98717e679faf1edac6750f86bbd",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-22-inherited-pub-date.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-n-artifact-hash-mismatch.json": {
+      "sha256": "469c6f40cf29253fc18503ed4c53dfe20079cd87f3c720e5b2444b48b0e6aa8a",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-n-artifact-hash-mismatch.json"
+    },
+    "tests/fixtures/phase3-verification/case-10-system-clock-date.json": {
+      "sha256": "7a071343f812ba493df4bf3c50ed86fef37f0246ac1465a786ac39540be7120a",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-10-system-clock-date.json"
+    },
+    "tests/fixtures/phase3-verification/case-02-wrong-publisher.json": {
+      "sha256": "a29a961e4db9336622891ae92cc6dce5b2173445a8cda12569870c913bed89ee",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-02-wrong-publisher.json"
+    },
+    "tests/fixtures/phase3-verification/case-04-fake-reason-unrelated-title.json": {
+      "sha256": "886c0b12a1ed38718afa206dcd6a87836e9466e56bfcb398a926813cce170913",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-04-fake-reason-unrelated-title.json"
+    },
+    "tests/fixtures/phase3-verification/case-15-missing-source-mapping.json": {
+      "sha256": "a4b5a14dfe07561c99d117050c439239ff8d698b186422026a63d3223de436be",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-15-missing-source-mapping.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-i-org-no-author.json": {
+      "sha256": "31848292429b44408c7d605c26fcaa6f520c0349960ce5bc244398ec53034986",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-i-org-no-author.json"
+    },
+    "tests/fixtures/phase3-verification/case-23-pdf-blocked.json": {
+      "sha256": "04dc2f77519457cc2473b2c509562bb3b0a5322a5be4895026ba3cd6e8bbec18",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-23-pdf-blocked.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-o-missing-evidence.json": {
+      "sha256": "22bb7f20fd1062ef44afb1abf17511bee7e6a8617e11160288d33b1764027012",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-o-missing-evidence.json"
+    },
+    "tests/fixtures/phase3-verification/case-20-recognized-publisher-equivalence.json": {
+      "sha256": "91abdcbdf8992aed521bf047df07f67006634864992c25232de5ef5ce8022aac",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-20-recognized-publisher-equivalence.json"
+    },
+    "tests/fixtures/phase3-verification/invalid-date-provenance-clock.json": {
+      "sha256": "1b2cb1adc0bb60fbc1405519dd8a88ac3eb54377c5786e73b27feeeb978c6dd8",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/invalid-date-provenance-clock.json"
+    },
+    "tests/fixtures/phase3-verification/invalid-artifact-hash.json": {
+      "sha256": "009c83c1a722c553da7a66959145830f8acb8e2104426e62addcdb825e2fc705",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/invalid-artifact-hash.json"
+    },
+    "tests/fixtures/phase3-verification/invalid-failed-429.json": {
+      "sha256": "fce29ee883cfe8aab845900c58ebb75b4d6d8f8c0585a6fc1c30c43a8b956b99",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/invalid-failed-429.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-b-diff-publisher.json": {
+      "sha256": "b0523a6df0fa3baee6168787f434f73817a3184b161360a138c35efff27b0e7d",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-b-diff-publisher.json"
+    },
+    "tests/fixtures/phase3-verification/case-05-wrong-author.json": {
+      "sha256": "472879ac8ce2d832ac32a87e2c9a602b0e63267b1311e0255cc010dec0a3cc16",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-05-wrong-author.json"
+    },
+    "tests/fixtures/phase3-verification/valid-verified.json": {
+      "sha256": "edc01c926338d291980f7890b26df775b6596c18f52092b356775bc1e109d4d1",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/valid-verified.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-a-diff-url.json": {
+      "sha256": "601064e865b529337ea81b53a69e8761383d9f79b2ff7c8887620d9413555705",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-a-diff-url.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-l-429-failed.json": {
+      "sha256": "3fe1ec5092a6ac4addc775fd97bdd227ee7c0d10033f60fca3cbed6500c435cb",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-l-429-failed.json"
+    },
+    "tests/fixtures/phase3-verification/adversarial-g-same-title-wrong-pub.json": {
+      "sha256": "647ad33c0608fcaa6ebbba1c35b3af14acb35d1d17c2045146bb37cecd82354e",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/adversarial-g-same-title-wrong-pub.json"
+    },
+    "tests/fixtures/phase3-verification/invalid-date-provenance-retrieved.json": {
+      "sha256": "1436642a6a82935c7a3b3565c656a1672820171831066064dee166dbdf9f8c2b",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/invalid-date-provenance-retrieved.json"
+    },
+    "tests/fixtures/phase3-verification/case-17-punctuation-title-variant.json": {
+      "sha256": "043134cd73cefe0f356e366aece4970cb467df8e27824d7508948d45083ba27e",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-17-punctuation-title-variant.json"
+    },
+    "tests/fixtures/phase3-verification/case-13-missing-evidence-verified.json": {
+      "sha256": "09383fdfe47dfc83aa67bf04520d4da69aa62b192582b475f4add6f32b84666b",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-13-missing-evidence-verified.json"
+    },
+    "tests/fixtures/phase3-verification/case-01-wrong-url.json": {
+      "sha256": "7e3fb040964459c56520c5ebb36ba558a12b02998364ac2643727be44d5fa39f",
+      "snapshotPath": "nonfiction/verification/history/phase3a4-pre-3a5/fixtures/case-01-wrong-url.json"
+    }
+  }
+}

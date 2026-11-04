@@ -1,0 +1,15 @@
+{
+  "sourcePackSourceId": "SRC-NF-V11-0007",
+  "verificationSourceId": "SRC-NF-V11-0007",
+  "sourceUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/01/oecd-economic-surveys-japan-2024_9289b572/41e807f9-en.pdf",
+  "canonicalUrl": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/01/oecd-economic-surveys-japan-2024_9289b572/41e807f9-en.pdf",
+  "publicationDateObserved": "2024-01-10",
+  "publicationDateStatus": "DISCOVERY_INHERITED",
+  "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+  "verificationStatus": "BLOCKED",
+  "verificationBlockReason": "PDF_PARSER_LIMITATION",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": true,
+  "notes": "Source is a PDF document. page_reader could not retrieve PDF binary format"
+}

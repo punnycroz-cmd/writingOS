@@ -1,0 +1,71 @@
+{
+  "version": "1.1.0",
+  "packName": "Nonfiction Source Pack v1.1",
+  "purpose": "NONFICTION_SOURCE_DISCOVERY",
+  "status": "DISCOVERY_CORPUS",
+  "containsGroundTruth": false,
+  "computedAt": "2026-08-22",
+  "computedFrom": {
+    "sourceIndex": "sources/nonfiction-v1.1/source-index.json",
+    "claimInventory": "sources/nonfiction-v1.1/claim-inventory.jsonl",
+    "archiveManifest": "sources/nonfiction-v1.1/raw/ARCHIVE-MANIFEST.json"
+  },
+  "selectedSources": 69,
+  "selectionDistribution": {
+    "gold": 29,
+    "silver": 25,
+    "bronze": 15
+  },
+  "verificationDistribution": {
+    "urlVerified": 17,
+    "urlExistsBotBlocked": 5,
+    "unverified": 47,
+    "sourceVerified": 0
+  },
+  "claimCount": 135,
+  "claimVerificationDistribution": {
+    "sourceVerified": 0,
+    "sourcePartiallyVerified": 0,
+    "snippetVerified": 17,
+    "widelyCited": 118,
+    "unverified": 0
+  },
+  "sourceVerifiedClaims": 0,
+  "licensingDistribution": {
+    "OPEN_ACCESS": 28,
+    "PUBLIC_DOMAIN": 26,
+    "CC_BY": 11,
+    "COPYRIGHT_RESTRICTED": 4,
+    "UNKNOWN": 0
+  },
+  "archivalPermissionDistribution": {
+    "archivable_YES": 65,
+    "archivable_NO": 4,
+    "archivable_UNKNOWN": 0
+  },
+  "archiveSummary": {
+    "totalArchives": 8,
+    "archivedFullDocument": 6,
+    "archivedLandingPage": 2,
+    "archivedAbstractOnly": 0
+  },
+  "validationOpportunities": "CANDIDATE_OPPORTUNITY (NOT verified test cases)",
+  "securityStatus": {
+    "privateFilesInPack": 0,
+    "envFilesInPack": 0,
+    "credentialsInPack": 0,
+    "scanNote": "sources/nonfiction-v1.1/ scanned for .env, .env.*, *.key, *.pem, credentials*, *token*, *secret*. None found inside the pack. Workspace-level .env and .zscripts/ exist at repo root but are NOT inside the source-pack artifact."
+  },
+  "honestSummary": "69 selected nonfiction sources form a strong discovery corpus. 17 are directly URL-verified, 5 are reachable but bot-blocked, and 47 remain unverified. The 135 claim records are discovery/candidate claims, not ground truth, and there are currently zero SOURCE_VERIFIED claims.",
+  "readiness": {
+    "discovery": "STRONG",
+    "licensing": "SUBSTANTIALLY_ORGANIZED",
+    "diversity": "SUBSTANTIALLY_IMPROVED",
+    "sourceVerification": "INCOMPLETE",
+    "claimVerification": "NOT_STARTED",
+    "groundTruth": "NOT_ESTABLISHED",
+    "sourceFactLedgerReady": false
+  },
+  "sourcePackRoot": "research/nonfiction-source-pack-v1.1/source-pack",
+  "generatedAt": "2026-08-22T20:45:00Z"
+}

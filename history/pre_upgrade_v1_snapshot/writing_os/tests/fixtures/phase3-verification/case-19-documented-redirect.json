@@ -1,0 +1,30 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-19",
+    "title": "NIST CSF 2.0",
+    "organization": "NIST",
+    "url": "https://csrc.nist.gov/pubs/csf/2/0/final"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-19",
+    "verificationSourceId": "SRC-TEST-19",
+    "observedTitle": "NIST CSF 2.0",
+    "sourceUrl": "http://csrc.nist.gov/pubs/csf/2/0/final",
+    "canonicalUrl": "https://csrc.nist.gov/pubs/csf/2/0/final",
+    "redirectObserved": true,
+    "redirectEvidence": "HTTP 301 redirect from HTTP to HTTPS canonical",
+    "publisherObserved": "NIST",
+    "titleVariantType": "EXACT",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://csrc.nist.gov/pubs/csf/2/0/final"
+    ],
+    "notes": "Documented redirect"
+  }
+}

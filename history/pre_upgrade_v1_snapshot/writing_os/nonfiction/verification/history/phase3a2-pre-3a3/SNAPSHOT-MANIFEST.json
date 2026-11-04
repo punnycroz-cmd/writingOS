@@ -1,0 +1,22 @@
+{
+  "snapshotTimestamp": "2026-08-24T00:18:24.377961+00:00",
+  "baseCommitSha": "34e97ebb04d712ba1a2de10d009fe4c907179c4f",
+  "files": {
+    "nonfiction/verification/source-verification-ledger.jsonl": {
+      "sha256": "cf407f146d2bdd9d56653cda69f0d10c12134f5f357e8edd9cba855c268d78da",
+      "snapshotPath": "nonfiction/verification/history/phase3a2-pre-3a3/source-verification-ledger.jsonl"
+    },
+    "nonfiction/verification/source-id-map.json": {
+      "sha256": "de0fe6b41a110b0573299a502cfcbfef1eb8eeeecd2909f1219d886df4f5e027",
+      "snapshotPath": "nonfiction/verification/history/phase3a2-pre-3a3/source-id-map.json"
+    },
+    "nonfiction/verification/source-verification-schema.json": {
+      "sha256": "93178c0792093a16e2812b854d11b3a4f67b57a22ca8f086e77e2c5303a504a5",
+      "snapshotPath": "nonfiction/verification/history/phase3a2-pre-3a3/source-verification-schema.json"
+    },
+    "src/phase3/verification-validator.ts": {
+      "sha256": "7b4236dec68c4a5674659b6afee9bdff804a74d165fc1032cfa193d74f4a2936",
+      "snapshotPath": "nonfiction/verification/history/phase3a2-pre-3a3/verification-validator.ts"
+    }
+  }
+}

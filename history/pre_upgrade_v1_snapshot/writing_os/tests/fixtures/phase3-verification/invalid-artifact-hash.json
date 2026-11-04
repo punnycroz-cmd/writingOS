@@ -1,0 +1,15 @@
+{
+  "sourcePackSourceId": "SRC-TEST-0006",
+  "verificationSourceId": "SRC-TEST-0006",
+  "sourceUrl": "https://example.com/test",
+  "verificationStatus": "VERIFIED",
+  "verificationMethod": "page_reader",
+  "sourceExists": true,
+  "sourceIdentityVerified": true,
+  "evidenceLocations": [
+    "https://example.com/test"
+  ],
+  "retrievedArtifact": "nonfiction/verification/raw/SRC-NF-V11-0001.html",
+  "artifactSha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "notes": "Artifact SHA mismatch fixture"
+}

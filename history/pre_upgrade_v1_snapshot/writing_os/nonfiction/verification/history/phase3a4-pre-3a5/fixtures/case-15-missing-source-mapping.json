@@ -1,0 +1,13 @@
+{
+  "sourcePack": null,
+  "verification": {
+    "sourcePackSourceId": "SRC-NONEXISTENT",
+    "verificationSourceId": "SRC-NONEXISTENT",
+    "sourceUrl": "https://example.com",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "notes": "No matching source pack record"
+  }
+}

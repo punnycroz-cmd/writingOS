@@ -1,0 +1,25 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0008",
+    "title": "Climate Policy Synthesis",
+    "organization": "IPCC",
+    "url": "https://ipcc.ch/report-2024"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0008",
+    "verificationSourceId": "SRC-TEST-0008",
+    "observedTitle": "Biomedical Drug Discovery Findings",
+    "sourceUrl": "https://ipcc.ch/report-2024",
+    "publisherObserved": "IPCC",
+    "titleMatch": false,
+    "titleMismatchReason": "",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://ipcc.ch/report-2024"
+    ],
+    "notes": "Same URL but wrong title without explanation"
+  }
+}

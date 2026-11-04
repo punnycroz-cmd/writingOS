@@ -1,0 +1,27 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-22",
+    "title": "LMR 2024",
+    "organization": "BLS",
+    "url": "https://bls.gov/lmr"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-22",
+    "verificationSourceId": "SRC-TEST-22",
+    "observedTitle": "LMR 2024",
+    "sourceUrl": "https://bls.gov/lmr",
+    "publisherObserved": "BLS",
+    "titleVariantType": "EXACT",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://bls.gov/lmr"
+    ],
+    "notes": "Valid inherited publication date"
+  }
+}

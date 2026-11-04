@@ -1,0 +1,21 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-12",
+    "title": "CDC Outcomes",
+    "organization": "CDC",
+    "url": "https://cdc.gov/outcomes"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-12",
+    "verificationSourceId": "SRC-TEST-12",
+    "observedTitle": "CDC Outcomes",
+    "sourceUrl": "https://cdc.gov/outcomes",
+    "publisherObserved": "CDC",
+    "titleVariantType": "EXACT",
+    "verificationStatus": "FAILED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "notes": "HTTP 429 rate limit exceeded"
+  }
+}

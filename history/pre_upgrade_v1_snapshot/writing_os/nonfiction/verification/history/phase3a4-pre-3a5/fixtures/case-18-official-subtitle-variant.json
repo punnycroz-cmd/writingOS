@@ -1,0 +1,28 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-18",
+    "title": "NIST SP 800-171 Rev. 3",
+    "organization": "NIST",
+    "url": "https://csrc.nist.gov/sp800-171"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-18",
+    "verificationSourceId": "SRC-TEST-18",
+    "observedTitle": "NIST Special Publication 800-171 Rev. 3: Protecting CUI",
+    "sourceUrl": "https://csrc.nist.gov/sp800-171",
+    "publisherObserved": "NIST",
+    "titleVariantType": "OFFICIAL_SUBTITLE_VARIANT",
+    "titleMismatchReason": "Full subtitle included in observed page header",
+    "publicationDateObserved": "2024",
+    "publicationDateStatus": "DISCOVERY_INHERITED",
+    "publicationDateEvidence": "Frozen discovery source-index (v1.1)",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://csrc.nist.gov/sp800-171"
+    ],
+    "notes": "Official subtitle variant"
+  }
+}

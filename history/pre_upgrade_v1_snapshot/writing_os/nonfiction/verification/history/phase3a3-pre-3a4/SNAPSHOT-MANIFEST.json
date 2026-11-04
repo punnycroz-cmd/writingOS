@@ -1,0 +1,30 @@
+{
+  "snapshotTimestamp": "2026-08-24T00:24:04.745562+00:00",
+  "baseCommitSha": "fcf43d164a8bd49310d9cf63922c36dd8646f0a2",
+  "files": {
+    "nonfiction/verification/source-verification-ledger.jsonl": {
+      "sha256": "c0114356fa84dc25ee3dda21b9b8c3c20498c310436fe67848ac7170a74da20a",
+      "snapshotPath": "nonfiction/verification/history/phase3a3-pre-3a4/source-verification-ledger.jsonl"
+    },
+    "nonfiction/verification/source-id-map.json": {
+      "sha256": "65f80b43e9d9e43774e8ee959f9b80e98e6b737fcfbc22ff8ec674c7dfb880f4",
+      "snapshotPath": "nonfiction/verification/history/phase3a3-pre-3a4/source-id-map.json"
+    },
+    "nonfiction/verification/source-verification-schema.json": {
+      "sha256": "93178c0792093a16e2812b854d11b3a4f67b57a22ca8f086e77e2c5303a504a5",
+      "snapshotPath": "nonfiction/verification/history/phase3a3-pre-3a4/source-verification-schema.json"
+    },
+    "nonfiction/verification/verification-integrity-report.json": {
+      "sha256": "b7d6e3572a49d5b19e06294b4c30c02405bc088ea7ec4a934212f3924ea07235",
+      "snapshotPath": "nonfiction/verification/history/phase3a3-pre-3a4/verification-integrity-report.json"
+    },
+    "src/phase3/verification-validator.ts": {
+      "sha256": "f207e1d9770a9beda078e177f4f9b30bc1a8447e2d1e6afcf15ed403e628093f",
+      "snapshotPath": "nonfiction/verification/history/phase3a3-pre-3a4/verification-validator.ts"
+    },
+    "docs/phase3/PHASE3A3_FINAL_REPORT.md": {
+      "sha256": "96e55fb7961e0e1332212f745c7f810598a67c73d3ab01fafbdaf69caf29c26f",
+      "snapshotPath": "nonfiction/verification/history/phase3a3-pre-3a4/PHASE3A3_FINAL_REPORT.md"
+    }
+  }
+}

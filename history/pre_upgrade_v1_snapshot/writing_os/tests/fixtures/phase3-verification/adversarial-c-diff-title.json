@@ -1,0 +1,25 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0003",
+    "title": "Renewable Energy Statistics 2024",
+    "organization": "IRENA",
+    "url": "https://irena.org/stats-2024"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0003",
+    "verificationSourceId": "SRC-TEST-0003",
+    "observedTitle": "Completely Unrelated Fossil Fuel Analysis 1999",
+    "sourceUrl": "https://irena.org/stats-2024",
+    "publisherObserved": "IRENA",
+    "titleMatch": false,
+    "titleMismatchReason": "",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://irena.org/stats-2024"
+    ],
+    "notes": "Test fixture with unrelated title and no explanation"
+  }
+}

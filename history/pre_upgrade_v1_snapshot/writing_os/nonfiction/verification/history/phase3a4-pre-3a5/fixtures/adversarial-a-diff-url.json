@@ -1,0 +1,23 @@
+{
+  "sourcePack": {
+    "sourceId": "SRC-TEST-0001",
+    "title": "Global Economic Outlook 2024",
+    "organization": "World Bank",
+    "url": "https://worldbank.org/reports/geo-2024"
+  },
+  "verification": {
+    "sourcePackSourceId": "SRC-TEST-0001",
+    "verificationSourceId": "SRC-TEST-0001",
+    "observedTitle": "Global Economic Outlook 2024",
+    "sourceUrl": "https://unrelated-domain.org/wrong-paper",
+    "publisherObserved": "World Bank",
+    "verificationStatus": "VERIFIED",
+    "verificationMethod": "page_reader",
+    "sourceExists": true,
+    "sourceIdentityVerified": true,
+    "evidenceLocations": [
+      "https://unrelated-domain.org/wrong-paper"
+    ],
+    "notes": "Test fixture with wrong URL"
+  }
+}
