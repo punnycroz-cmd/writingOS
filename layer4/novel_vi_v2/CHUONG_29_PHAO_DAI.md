@@ -1,142 +1,124 @@
 # CHƯƠNG 29: PHÁO ĐÀI
 
-Ở Layer 3, họ đi bộ mười một tiếng trong lòng một sợi cáp quang.
+Ở Layer 3, họ đi bộ mười một tiếng đồng hồ trong lòng một sợi cáp quang.
 
-Ngoài đời, đó là chưa tới bảy phút. Elias biết điều đó theo cách anh biết nhiều thứ về Layer 3: không phải qua trí nhớ, mà qua cơ thể. Những năm Vanguard đã dạy cơ thể anh cách đọc dòng thời gian bị kéo giãn, cách không để mình hoảng khi một trận đấu năm phút ngoài đời kéo dài suốt một buổi chiều trong game.
+Ngoài đời thì chưa tới bảy phút. Elias biết điều đó theo cái cách anh vẫn biết nhiều thứ về Layer 3, không phải nhờ trí nhớ mà nhờ cơ thể. Những năm ở Vanguard đã dạy cơ thể anh cách đọc dòng thời gian bị kéo giãn, cách giữ cho mình khỏi hoảng khi một trận đấu năm phút ngoài đời kéo dài nguyên một buổi chiều trong game.
 
-Bên trong sợi cáp là một đường hầm hình trụ, rộng đủ cho hai người đi song song, thành bằng một thứ ánh sáng trắng sữa chảy liên tục về phía trước như dòng sông. Dưới chân họ, sàn hầm trong suốt, và qua nó họ thấy biển. Đúng hơn là một bản dựng lại của biển, những gì mà dữ liệu đi qua sợi cáp này đã từng mô tả: những cột sóng âm, những bản đồ độ sâu, những đàn cá được đếm bằng sonar, tất cả trôi lững lờ bên dưới như một bể cá khổng lồ của một ai đó không hiểu cá trông thế nào.
+Bên trong sợi cáp là một đường hầm hình trụ, đủ rộng cho hai người đi song song, thành hầm bằng một thứ ánh sáng trắng sữa chảy mãi về phía trước như một dòng sông. Sàn hầm trong suốt, và qua đó họ thấy biển, hay đúng hơn là một bản dựng lại của biển từ những gì mà dòng dữ liệu đi qua sợi cáp này từng mô tả: những cột sóng âm, những tấm bản đồ độ sâu, những đàn cá được đếm bằng sonar, tất cả trôi lững lờ bên dưới như một bể cá khổng lồ của một người chưa từng biết cá trông ra sao.
 
-"Tôi đói," Viper nói, giờ thứ bảy.
+"Tao đói," tới giờ thứ bảy Viper nói.
 
-"Anh không đói," Kev nói. "Não anh đang nghĩ là anh đói vì nó tưởng đã bảy tiếng không ăn."
+"Anh có đói đâu," Kev nói. "Não anh tưởng là anh đói vì nó nghĩ đã bảy tiếng không ăn gì thôi."
 
-"Thế thì não tôi đói."
+"Thế thì não tao đói."
 
-"Ăn đi," Linh nói, và ném cho Viper một thứ gì đó cô vừa dựng ra từ không khí. Một ổ bánh mì. Kẹp thịt. Có cả ngò và đồ chua. "Bánh mì Sài Gòn. Ăn không no được nhưng ít nhất não anh im."
+"Ăn đi này," Linh nói, ném cho Viper một thứ cô vừa dựng ra từ không khí, một ổ bánh mì kẹp thịt có cả ngò với đồ chua. "Bánh mì Sài Gòn đấy. Ăn không no được, nhưng ít ra não anh cũng im mồm."
 
-Viper nhìn ổ bánh mì, cắn một miếng, nhai, và mặt ông ta từ từ dãn ra thành một vẻ gần như hạnh phúc.
+Viper nhìn ổ bánh mì, cắn một miếng, nhai, và mặt ông ta giãn ra từ từ thành một vẻ gần như hạnh phúc.
 
-"Cái này ngon hơn ớt hầm của tao," ông ta nói, miệng đầy.
+"Cái này ngon hơn ớt hầm của tao," ông ta nói, miệng còn đầy bánh.
 
-"Em biết."
+"Em biết mà."
 
-Elias đi trước. Nhân vật Layer 3 của anh khác với nhân vật trong Tổ Quạ. Nó là bộ giáp anh đã dùng ở Vanguard ba năm, nhẹ, xám mờ, những đường dẫn năng lượng màu xanh lam chạy dọc các khớp. Hai thanh kiếm xung lực đeo chéo sau lưng. Cơ thể này nhớ mọi thứ, kể cả khi anh không nhớ. Và ở một góc nào đó trong đầu, anh cảm thấy cô.
+Elias đi đầu. Nhân vật Layer 3 của anh khác với nhân vật ở Tổ Quạ, đó là bộ giáp anh đã mặc ở Vanguard suốt ba năm, nhẹ, màu xám mờ, những đường dẫn năng lượng xanh lam chạy dọc các khớp, hai thanh kiếm xung lực đeo chéo sau lưng. Cái cơ thể này còn nhớ mọi thứ, kể cả những thứ anh đã quên.
 
-Không có giọng nói, không có hình ảnh, chỉ một thứ giống như hơi ấm của một người ngồi ở phòng bên cạnh. Khi anh bước nhanh hơn, hơi ấm ấy căng ra, như sợi dây cao su. Khi anh dừng lại, nó dịu đi. Thỉnh thoảng có những nhịp nhỏ chạy qua nó. Lúc thì nhanh và gắt: cô đang căng thẳng. Lúc thì chậm và đều: cô đang thở theo kiểu bốn-hai-sáu.
+Và ở một góc nào đó trong đầu, anh cảm thấy cô. Không phải giọng nói, không phải hình ảnh, mà là một thứ giống như hơi ấm của một người đang ngồi ở phòng bên cạnh. Khi anh bước nhanh hơn, hơi ấm ấy căng ra như sợi dây chun, khi anh dừng lại thì nó dịu xuống. Thỉnh thoảng lại có những nhịp nhỏ chạy qua nó, lúc nhanh và gắt khi cô căng thẳng, lúc chậm và đều khi cô thở theo kiểu bốn-hai-sáu.
 
-Giờ thứ tám, nó giật mạnh một cái. Như ai đó vừa bị đẩy. Elias khựng lại.
+Tới giờ thứ tám, nó giật mạnh một cái, như có ai vừa xô cô. Elias khựng lại.
 
-"Gì vậy?" Linh hỏi.
+"Sao thế?" Linh hỏi.
 
-"Ngoài kia có chuyện." Anh nhắm mắt, cố cảm nhận. Sợi dây vẫn căng, vẫn còn. Nhịp nhanh, gắt, nhưng đều. "Cô ấy ổn. Đang… đang bận."
+"Ngoài kia có chuyện rồi." Anh nhắm mắt lại, cố cảm nhận. Sợi dây vẫn căng, vẫn còn đó, nhịp nhanh và gắt nhưng đều đặn. "Cô ấy ổn. Đang... đang bận."
 
-Kev nhìn anh. Anh ta không hỏi thêm. Anh ta không cần. Ngoài kia, ở thế giới thật, đã gần bảy phút trôi qua. Đủ để bốn chiếc xe tải tới được khối bê tông.
+Kev nhìn anh nhưng không hỏi gì thêm, cũng chẳng cần hỏi. Ngoài kia, ở thế giới thật, đã gần bảy phút trôi qua, đủ để bốn chiếc xe tải tới được khối bê tông.
 
 "Đi tiếp," Kev nói. "Càng nhanh càng tốt."
 
 ---
 
-Giờ thứ mười một, sợi cáp kết thúc. Đường hầm ánh sáng mở ra như một con mắt, và họ bước ra ngoài, lên một bậc thềm đá đen bóng như gương. Pháo đài Mnemosyne nằm giữa một thành phố chết.
+Tới giờ thứ mười một thì sợi cáp kết thúc. Đường hầm ánh sáng mở ra như một con mắt, và họ bước ra ngoài, đứng trên một bậc thềm đá đen bóng như gương.
 
-Đó là ấn tượng đầu tiên của Elias. Nó không đổ nát. Nó chết theo kiểu chưa bao giờ sống. Những tòa nhà bằng kính đen cao vút, vuông vức, giống hệt nhau, xếp thành những dãy thẳng tắp tới tận chân trời. Không có cửa sổ, không có cửa ra vào. Những con đường giữa chúng rộng và trống trơn, lát bằng cùng thứ đá đen bóng dưới chân họ. Bầu trời màu đỏ sẫm, không có mặt trời, không có mây, chỉ có những dòng ký tự thập lục phân màu đỏ tươi chậm rãi rơi xuống như tuyết. Ở trung tâm, cách đó chừng hai cây số, là pháo đài.
+Pháo đài Mnemosyne nằm giữa một thành phố chết. Đó là ấn tượng đầu tiên của Elias. Không phải chết theo kiểu đổ nát hoang tàn, mà chết theo kiểu chưa từng có sự sống bao giờ. Những tòa nhà kính đen cao vút, vuông vức, giống hệt nhau, xếp thành những dãy thẳng tắp tới tận chân trời, không cửa sổ, không cửa ra vào. Những con đường giữa chúng rộng thênh thang và trống trơn, lát cùng một thứ đá đen bóng như dưới chân họ. Bầu trời đỏ sẫm, không mặt trời, không mây, chỉ có những dòng ký tự thập lục phân màu đỏ tươi rơi xuống chầm chậm như tuyết.
 
-Một khối lục giác khổng lồ, đen, cao gấp mười những tòa nhà xung quanh. Ba vòng tường bao quanh nó, mỗi vòng cao hơn vòng trước. Trên đỉnh mỗi bức tường, những tháp canh đứng cách đều nhau như răng lược, trên mỗi tháp có một đốm sáng đỏ quét qua quét lại.
+Ở chính giữa, cách đó chừng hai cây số, là pháo đài: một khối lục giác khổng lồ màu đen, cao gấp mười những tòa nhà xung quanh, bao quanh bởi ba vòng tường, vòng sau cao hơn vòng trước. Trên đỉnh mỗi bức tường, những tháp canh đứng cách đều nhau như răng lược, tháp nào cũng có một đốm sáng đỏ quét qua quét lại.
 
-"Ồ," Linh nói. "Ồ, không."
+"Ôi," Linh nói. "Ôi, không."
 
-"Ba vòng tường," Kev nói. Anh ta đã gỡ khẩu súng bắn tỉa khỏi lưng, đang nhìn qua ống ngắm. "Mỗi tháp canh có một xạ thủ tự động. Bên trong vòng thứ hai có ít nhất hai mươi người. Người thật. Admin cấp bốn." Anh ta hạ ống ngắm xuống. "Họ hồi sinh từ bộ nhớ đệm máy chủ. Ba giây."
+"Ba vòng tường," Kev nói, đã gỡ khẩu súng bắn tỉa khỏi lưng và đang nhìn qua ống ngắm. "Tháp canh nào cũng có xạ thủ tự động. Bên trong vòng thứ hai có ít nhất hai mươi người, người thật, Admin cấp bốn." Anh hạ ống ngắm xuống. "Họ hồi sinh từ bộ nhớ đệm máy chủ, mất ba giây."
 
-"Ba giây?" Viper hỏi.
+"Ba giây á?" Viper hỏi.
 
 "Ba giây."
 
 "Thế thì đánh kiểu gì?"
 
-"Không đánh," Elias nói.
+"Mình không đánh," Elias nói.
 
 Mọi người quay sang nhìn anh.
 
-"Mình không cần giết hết bọn họ," anh nói. Anh đang nhìn pháo đài, và bộ não của anh đang làm cái việc nó vẫn làm: đếm, tính, đo. Những tháp canh cách nhau bao xa. Đốm sáng đỏ quét một vòng hết bao lâu. Đâu là góc khuất. "Mình chỉ cần tới được cổng trong cùng. Lin mở khóa. Mình vào, lấy kho lưu trữ, ra. Không cần thắng. Chỉ cần không thua trước khi tới đó."
+"Mình đâu cần giết hết bọn họ," anh nói. Anh đang nhìn pháo đài, và bộ não anh đang làm cái việc nó vẫn làm: đếm, tính, đo, các tháp canh cách nhau bao xa, đốm sáng đỏ quét một vòng mất bao lâu, góc khuất nằm ở đâu. "Mình chỉ cần tới được cái cổng trong cùng. Lin mở khóa. Mình vào, lấy kho lưu trữ, rồi ra. Không cần thắng, chỉ cần đừng thua trước khi tới được đó."
 
-"Như bản đồ Hang Băng mùa đông năm ngoái," Linh nói. Mắt cô sáng lên. "Mình không giết boss. Mình chạy vòng qua nó, lấy rương, rồi chạy."
+"Giống cái bản đồ Hang Băng mùa đông năm ngoái," Linh nói, mắt sáng lên. "Mình không giết boss, mình chạy vòng qua nó, lấy cái rương, rồi chạy."
 
-"Đúng."
+"Đúng thế."
 
-"Mình thua trận đó," Viper nói.
+"Trận đó mình thua mà," Viper nói.
 
-"Vì anh dừng lại để đánh boss," Linh nói.
+"Vì anh dừng lại đánh boss," Linh nói.
 
 "Nó chửi mẹ tao!"
 
-"Nó là một con bot, anh Viper. Nó không có khái niệm mẹ."
+"Nó là bot mà anh Viper, nó làm gì biết mẹ là gì."
 
-Kev đã bắt đầu đánh dấu những tháp canh trên một bản đồ lơ lửng trước mặt. "Đốm sáng đỏ quét một vòng mất mười bốn giây. Có một góc khuất bốn giây ở tháp phía đông bắc, khi hai đốm sáng quét qua nhau." Anh ta nhìn Elias. "Đủ để một người qua. Không đủ cho bốn."
+Kev đã bắt đầu đánh dấu các tháp canh lên một tấm bản đồ lơ lửng trước mặt. "Đốm sáng đỏ quét một vòng mất mười bốn giây. Ở tháp phía đông bắc có một góc khuất bốn giây, lúc hai đốm sáng quét ngang qua nhau." Anh nhìn Elias. "Đủ cho một người qua, không đủ cho bốn."
 
-"Thế thì tạo thêm góc khuất," Elias nói. "Viper. Anh làm ồn. Càng to càng tốt. Ở phía tây. Kéo tất cả đốm sáng về đó."
+"Thì tạo thêm góc khuất," Elias nói. "Anh Viper, anh làm ồn đi, càng ồn càng tốt, ở phía tây, kéo hết các đốm sáng về đó."
 
-Viper nhe răng cười. Ông ta lôi ra khẩu súng điện từ chống tăng to hơn người, vác lên vai.
+Viper nhe răng cười, lôi ra khẩu súng điện từ chống tăng to hơn cả người, vác lên vai. "Làm ồn thì tao làm được."
 
-"Ồn thì tao làm được," ông ta nói.
-
-"Kev, anh ở trên cao. Tháp bỏ hoang kia." Elias chỉ vào một tòa nhà kính đen gần nhất. "Hạ những người bên trong vòng thứ hai khi họ chạy về phía Viper. Không cần giết. Ba giây hồi sinh, mình chỉ cần ba giây mỗi lần."
-
-"Lin đi với tôi. Qua góc khuất phía đông bắc. Thẳng tới cổng."
+"Kev, anh lên chỗ cao, cái tòa nhà bỏ hoang kia." Elias chỉ vào một tòa nhà kính đen gần nhất. "Hạ mấy người bên trong vòng thứ hai lúc họ chạy về phía Viper. Không cần giết, ba giây hồi sinh thì mình chỉ cần ba giây mỗi lần thôi. Lin đi với tôi, qua góc khuất phía đông bắc, thẳng tới cổng."
 
 "Còn anh?" Linh hỏi.
 
 "Tôi mở đường."
 
-Mọi người im lặng. Ba người nhìn anh. Rồi Viper nói, khẽ hơn bình thường:
+Mọi người im lặng, ba người cùng nhìn anh. Rồi Viper nói, khẽ hơn thường lệ:
 
 "Mày nói được nhiều thế từ bao giờ vậy?"
 
-Elias không biết trả lời thế nào. Anh nhún vai.
+Elias không biết trả lời thế nào, anh nhún vai.
 
-"Từ khi có người bảo tôi là lần sau thì nói," anh nói.
+"Từ lúc có người bảo tôi là lần sau thì phải nói ra," anh nói.
 
-Linh quay mặt đi. Kev hắng giọng. Viper vỗ vai anh một cái mạnh tới mức nhân vật của anh suýt ngã khỏi bậc thềm.
+Linh quay mặt đi, Kev hắng giọng, Viper vỗ vai anh một cái mạnh tới mức nhân vật của anh suýt ngã khỏi bậc thềm.
 
 "Đi thôi, đội trưởng," Viper nói.
 
 ---
 
-Kế hoạch chạy đúng trong mười hai phút.
+Kế hoạch chạy đúng như dự tính trong mười hai phút. Mười hai phút ở trong này, bảy giây ngoài đời.
 
-Mười hai phút ở trong này. Bảy giây ngoài đời.
+Viper vòng sang phía tây, tới một quảng trường trống ngay dưới chân vòng tường thứ nhất, đứng giữa quảng trường, chĩa khẩu súng điện từ lên trời và bắn một phát. Âm thanh của nó như xé toạc cả bầu trời làm đôi. Một cột sáng màu cam rực phóng thẳng lên, làm tan những dòng ký tự đỏ đang rơi, để lại một lỗ thủng tròn trên nền trời.
 
-Viper đi vòng sang phía tây, tới một quảng trường trống ngay dưới chân vòng tường thứ nhất. Ông ta đứng giữa quảng trường, chĩa khẩu súng điện từ lên trời, và bắn một phát.
+Rồi ông ta hét lên, chẳng ra chữ nào cả, chỉ là một tiếng hét dài và to, cái kiểu hét của một người đàn ông đã kìm nén mọi thứ suốt ba mươi tám năm trời, giờ mới được phép xả ra.
 
-Âm thanh của nó giống như cả bầu trời bị xé đôi. Một cột sáng màu cam rực phóng thẳng lên, làm tan những dòng ký tự đỏ đang rơi xuống, để lại một lỗ hổng tròn trên bầu trời.
+Mọi đốm sáng đỏ trên bức tường phía tây quay về phía ông ta, rồi tới các đốm sáng ở tường phía bắc, rồi phía nam.
 
-Rồi ông ta hét lên. Không có từ nào cả. Chỉ là một tiếng hét dài, to, kiểu tiếng hét của một người đàn ông đã kìm nén mọi thứ trong ba mươi tám năm và cuối cùng được phép để nó ra. Tất cả đốm sáng đỏ trên tường phía tây quay về phía ông ta.
+"Đi," Kev nói qua kênh liên lạc.
 
-Rồi tất cả những đốm sáng trên tường phía bắc. Rồi phía nam.
+Elias và Linh chạy, qua quảng trường phía đông, men theo chân tường thứ nhất, tới tháp canh phía đông bắc. Đốm sáng đỏ trên tháp đã quay đi, cái góc khuất bốn giây giờ đã thành mười giây, hai mươi giây, vì Viper vẫn đang hét, vẫn đang bắn những cột sáng màu cam lên trời.
 
-"Giờ," Kev nói qua kênh liên lạc.
+Elias rút một thanh kiếm xung lực ra chém vào chân tường, không phải để phá mà để tạo chỗ bám. Lưỡi kiếm năng lượng cắt vào đá đen như dao nóng cắt vào sáp, một rãnh, rồi một rãnh nữa cao hơn, thành những bậc thang. Họ leo lên.
 
-Elias và Linh chạy.
+Vòng tường thứ nhất, rồi vòng thứ hai. Ở vòng thứ hai, những bóng người đầu tiên xuất hiện, cao lớn, mặc giáp đen không có mặt, súng trường đỏ rực. Bốn tên chạy về phía tây, phía có tiếng hét của Viper, và một tên quay đầu lại. Một tiếng nổ nhỏ vọng tới từ phía tòa nhà kính đen xa xa, tên lính vừa quay đầu gục xuống, tan thành những điểm ảnh đỏ. Ba giây sau hắn hiện lại đúng chỗ cũ, đứng ngơ ngác, chẳng biết mình vừa ở đâu. Ba giây là đủ, Elias và Linh đã leo qua.
 
-Qua quảng trường phía đông, dọc theo chân tường thứ nhất, tới tháp canh phía đông bắc. Đốm sáng đỏ trên tháp đã quay đi. Bốn giây góc khuất giờ đã thành mười giây, hai mươi giây, vì Viper vẫn đang hét, vẫn đang bắn những cột sáng màu cam lên trời.
+"Đẹp đấy, anh Kev," Linh nói, thở hổn hển.
 
-Elias rút một thanh kiếm xung lực, chém vào chân tường. Anh chỉ cần một chỗ bám. Lưỡi kiếm năng lượng cắt vào đá đen như dao nóng cắt vào sáp. Một rãnh. Một rãnh nữa, cao hơn. Như những bậc thang. Họ leo lên.
+"Tôi biết," giọng Kev khô khốc.
 
-Vòng tường thứ nhất. Vòng tường thứ hai. Ở vòng thứ hai, những bóng người đầu tiên xuất hiện: cao lớn, mặc giáp đen không mặt, súng trường đỏ rực. Bốn tên. Chúng chạy về phía tây, về phía tiếng hét của Viper, và một tên quay đầu lại.
+Vòng tường thứ ba là vòng cao nhất, không có góc khuất nào. Elias leo trước, chém từng bậc một, Linh leo sau, những ngón tay nhỏ bấu vào rãnh đá. Tới lưng chừng thì cô trượt chân. Elias với xuống chộp lấy cổ tay cô, giữ chặt lại. Cô ngước lên nhìn anh, anh nhìn xuống cô.
 
-Một tiếng nổ nhỏ từ phía tòa nhà kính đen xa xa. Tên lính quay đầu lại ngã gục, tan thành những điểm ảnh đỏ.
-
-Ba giây sau, hắn hồi sinh ở chỗ cũ. Hắn đứng đó, choáng váng, không biết mình vừa ở đâu.
-
-Ba giây là đủ. Elias và Linh đã leo qua.
-
-"Đẹp đấy, Kev," Linh nói, thở hổn hển.
-
-"Tôi biết," giọng Kev, khô khốc.
-
-Vòng tường thứ ba. Cao nhất. Không có góc khuất. Elias leo trước, chém từng bậc. Linh leo sau, những ngón tay nhỏ bấu vào rãnh đá. Ở lưng chừng, cô trượt chân. Elias với xuống, chộp lấy cổ tay cô, giữ chặt.
-
-Cô nhìn lên anh. Anh nhìn xuống cô.
-
-"Thua thì đánh lại," cô nói, thở dốc. "Mất người thì không. Đúng không?"
+"Thua thì đánh lại," cô nói, thở dốc. "Mất người thì không. Đúng không anh?"
 
 "Đúng."
 
@@ -144,38 +126,34 @@ Anh kéo cô lên.
 
 ---
 
-Bên trong vòng tường thứ ba là một khoảng sân lớn, lát đá đen, trống trơn. Ở giữa sân, cách đó hai trăm mét, là cánh cổng của pháo đài: một tấm cửa lục giác khổng lồ, trên mặt có những ký tự đỏ chạy vòng quanh như những con kiến. Và đứng giữa họ với cánh cổng là những con thú.
+Bên trong vòng tường thứ ba là một khoảng sân rộng lát đá đen, trống trơn. Ở giữa sân, cách chừng hai trăm mét, là cổng pháo đài, một tấm cửa lục giác khổng lồ, trên mặt có những ký tự đỏ chạy vòng quanh như đàn kiến.
 
-Elias không thấy chúng ngay. Chúng đứng yên, màu đen trên nền đá đen, chỉ có viền mắt phát sáng màu bạc mờ. Khi chúng cử động, anh mới thấy. Hàng chục con. Có lẽ hàng trăm. Sói, cáo, quạ, mèo, chó, những con chim không rõ loài. Tất cả đều đen, tất cả đều nhìn về phía họ.
+Và đứng giữa họ với cánh cổng là những con thú.
 
-"Echo," Linh thì thầm. Giọng cô run. "Đó là… đó là Echo."
+Ban đầu Elias không nhìn thấy chúng. Chúng đứng yên, đen trên nền đá đen, chỉ có viền mắt phát sáng màu bạc mờ. Tới khi chúng cử động anh mới thấy, hàng chục con, có khi cả trăm con, sói, cáo, quạ, mèo, chó, những con chim không rõ là loài gì, con nào cũng đen, con nào cũng đang nhìn về phía họ.
 
-Chúng chẳng thuộc về ai. Không có tên người dùng lơ lửng trên đầu. Không có nơ hồng, không có bong bóng xà phòng. Chỉ là những hình dạng của Echo, trống rỗng, như những bộ giáp không có người mặc.
+"Echo," Linh thì thầm, giọng run run. "Đó là... là Echo."
 
-"Kev," Elias nói vào kênh liên lạc. "Có thấy không?"
+Nhưng chúng chẳng thuộc về ai cả. Không có tên người dùng lơ lửng trên đầu, không có nơ hồng, không có bong bóng xà phòng, chỉ là những cái hình dáng của Echo, trống rỗng, như những bộ áo giáp không có người mặc.
 
-Im lặng một nhịp. "Có thấy."
+"Kev," Elias nói vào kênh liên lạc. "Anh thấy không?"
 
-"Chúng là gì?"
+Im lặng một nhịp. "Thấy."
 
-"Không biết." Lần đầu tiên, giọng Kev có chút gì đó không chắc chắn. "Không có trong bất kỳ tài liệu nào."
+"Chúng là cái gì?"
 
-Những con thú đứng yên. Không tấn công. Chỉ nhìn. Rồi, từ giữa đàn thú, một con chim nhỏ bay lên.
+"Không biết." Lần đầu tiên giọng Kev nghe có vẻ không chắc chắn. "Không có trong bất cứ tài liệu nào cả."
 
-Một con quạ. Lông đen ánh xanh. Viền mắt phát sáng màu bạc mờ. Nó bay một vòng trên đầu đàn thú, rồi đáp xuống ngay trước mặt Elias, cách anh ba bước.
+Những con thú vẫn đứng yên, không tấn công, chỉ nhìn.
 
-Nó nghiêng đầu nhìn anh. Một bên mắt, rồi bên kia. Elias đứng sững.
+Rồi từ giữa bầy thú, một con chim nhỏ bay lên, một con quạ, lông đen ánh xanh, viền mắt phát sáng màu bạc mờ. Nó bay một vòng trên đầu bầy thú rồi đáp xuống ngay trước mặt Elias, cách anh ba bước, nghiêng đầu nhìn anh, bên này rồi bên kia.
 
-Anh không nhớ nó. Anh chưa bao giờ nhớ nó. Nhưng anh đã thấy nó một lần, ở Tổ Quạ, đậu trên lan can, nhìn anh rồi bay đi.
-
-*Than.*
+Elias đứng sững. Anh không nhớ nó, chưa bao giờ nhớ, nhưng anh đã thấy nó một lần ở Tổ Quạ, đậu trên lan can, nhìn anh một lúc rồi bay đi.
 
 "Anh Eli," Linh nói, rất khẽ. "Đó là Than."
 
-Con quạ kêu một tiếng ngắn, khàn. Như một câu hỏi.
+Con quạ kêu lên một tiếng ngắn và khàn, như một câu hỏi.
 
-Một tiếng nổ phía sau cánh cổng. Một tiếng gầm cơ khí. Trên đỉnh cánh cổng lục giác, một ụ súng trồi lên khỏi mặt đá: một tháp pháo đen, ba nòng, quay chầm chậm về phía họ, những đốm sáng đỏ trên đầu nòng sáng dần lên như mắt một con thú đang tỉnh dậy.
+Rồi một tiếng nổ vang lên phía sau cánh cổng, một tiếng gầm cơ khí. Trên đỉnh tấm cửa lục giác, một ụ súng trồi lên khỏi mặt đá, một tháp pháo đen ba nòng, chầm chậm quay về phía họ, những đốm sáng đỏ trên đầu nòng sáng dần lên như mắt một con thú đang thức dậy.
 
-Con quạ quay đầu nhìn tháp pháo. Nhìn lại Elias.
-
-Nó bay đi, lẫn vào đàn thú đen, và anh không còn phân biệt được nó với những con khác nữa.
+Con quạ quay đầu nhìn tháp pháo, rồi nhìn lại Elias. Rồi nó bay đi, lẫn vào bầy thú đen, và anh không còn phân biệt được nó với những con khác nữa.

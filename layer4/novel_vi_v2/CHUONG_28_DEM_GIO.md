@@ -1,50 +1,48 @@
 # CHƯƠNG 28: ĐÊM GIỖ
 
-Có một thứ người ta không nói với bạn về việc chuẩn bị cho một trận đánh, Lena nghĩ, là nó giống hệt việc chuẩn bị cho một ca phẫu thuật cấp cứu. Không có thời gian để sợ. Chỉ có một danh sách, và đôi tay của bạn đi qua danh sách đó nhanh hơn đầu óc.
+Người ta chẳng bao giờ nói với mình rằng chuẩn bị cho một trận đánh cũng giống y như chuẩn bị cho một ca mổ cấp cứu, Lena nghĩ. Chẳng có thời gian đâu mà sợ, chỉ có một danh sách cần làm, và đôi tay mình chạy qua danh sách ấy nhanh hơn cả đầu óc.
 
-Bốn chiếc ghế xếp kê thành hàng dọc bức tường phía tây phòng điều khiển, nơi gần tủ máy chủ nhất. Bốn vòng cảm biến. Bốn sợi cáp quang chạy từ đầu mỗi vòng tới hộp kết nối mà Kev đã dựng, rồi từ đó xuống hầm, ra biển, tới cái hộp thép dưới đáy sâu một trăm bốn mươi mét. Bốn túi dịch truyền Alpha-9 treo trên bốn cái móc áo uốn thành giá truyền. Lena đã pha loãng ống cuối cùng của mình ra làm bốn. Kev bảo không đủ. Cô bảo đó là tất cả những gì cô có.
+Bốn chiếc ghế xếp kê thành một hàng dọc bức tường phía tây phòng điều khiển, chỗ gần tủ máy chủ nhất. Bốn vòng cảm biến. Bốn sợi cáp quang chạy từ đầu mỗi người tới cái hộp kết nối Kev lắp, rồi từ đó xuống hầm, ra biển, tới cái hộp thép nằm dưới đáy sâu một trăm bốn mươi mét. Bốn túi dịch truyền Alpha-9 treo trên bốn cái móc áo uốn thành giá truyền. Lena đã pha loãng ống cuối cùng của mình ra làm bốn. Kev bảo không đủ, cô bảo đó là tất cả những gì cô có.
 
-Bàn điều khiển của cô ở giữa phòng, quay mặt về phía bốn chiếc ghế. Một vòng cảm biến thứ năm, nối thẳng vào đầu Elias bằng một sợi cáp riêng, màu đỏ. Sợi cáp mỏ neo.
+Bàn điều khiển của cô đặt ở giữa phòng, quay mặt về phía bốn chiếc ghế. Có thêm một vòng cảm biến thứ năm nối thẳng vào đầu Elias bằng một sợi cáp riêng màu đỏ, sợi cáp mỏ neo.
 
-"Mười tám phút," Kev nói từ ghế đầu tiên. Anh ta đã đeo vòng cảm biến, đang gõ những lệnh cuối cùng lên chiếc laptop đặt trên đùi. "Xe đầu tiên vừa qua cổng sắt ở đầu đường đất."
+"Mười tám phút," Kev nói từ chiếc ghế đầu tiên. Anh đã đeo vòng cảm biến, đang gõ mấy lệnh cuối cùng lên chiếc laptop đặt trên đùi. "Chiếc xe đầu tiên vừa qua cái cổng sắt ở đầu đường đất."
 
-"Drone?" Viper hỏi.
+"Drone thì sao?" Viper hỏi.
 
-"Ba chiếc. Đang bay vòng ngoài biển, cách bờ hai cây số. Chưa vào."
+"Ba chiếc, đang bay vòng ngoài biển, cách bờ hai cây số, chưa vào."
 
-Viper đứng ở chân cầu thang sắt dẫn xuống hầm, hai tay chống nạnh, nhìn quanh phòng như đang tính xem có thể kê bếp ở đâu. Rồi ông ta đi tới góc phòng, nơi có một cái tủ sắt cao ngang ngực, mở nó ra.
+Viper đứng ở chân cầu thang sắt dẫn xuống hầm, hai tay chống nạnh, nhìn quanh phòng như đang tính xem có chỗ nào kê được cái bếp. Rồi ông ta đi tới góc phòng, nơi có một cái tủ sắt cao ngang ngực, mở nó ra.
 
-Bên trong là đồ an ninh ông ta đã để lại từ hồi đội còn dùng trạm này làm máy chủ giải đấu, ba năm trước. Lena đã thấy nó hôm đầu tiên tới đây. Một khẩu súng bắn điện dạng súng trường, loại các bảo vệ dùng ở sự kiện thể thao. Hai hộp đạn điện. Một cái loa cầm tay. Một bộ đèn pha di động. Một cuộn xích thép to bằng cổ tay. Ông ta lấy khẩu súng ra, kiểm tra pin, nạp một hộp đạn, rồi chìa nó cho Lena.
+Bên trong là đồ an ninh ông ta để lại từ hồi cả đội còn dùng trạm này làm máy chủ giải đấu, ba năm trước. Lena đã thấy nó ngay hôm đầu tới đây: một khẩu súng bắn điện dạng súng trường, loại bảo vệ hay dùng ở các sự kiện thể thao, hai hộp đạn điện, một cái loa cầm tay, một bộ đèn pha di động, một cuộn xích thép to bằng cổ tay.
 
-"Cô biết dùng cái này chứ?"
+Ông ta lấy khẩu súng ra, kiểm tra pin, nạp một hộp đạn vào rồi chìa cho Lena. "Cô biết dùng cái này chứ?"
 
-Lena nhìn khẩu súng. "Tôi bắn được mười bốn con robot trong phòng tập của Linh."
+Lena nhìn khẩu súng. "Tôi bắn được mười bốn con robot trong phòng tập của Linh rồi đấy."
 
-"Đây không phải robot."
+"Đây đâu phải robot."
 
 "Tôi biết."
 
-Viper nhìn cô thêm một giây. Rồi ông ta đặt khẩu súng vào tay cô.
+Viper nhìn cô thêm một giây, rồi đặt khẩu súng vào tay cô.
 
-"Cầu thang xoắn ốc từ đỉnh hải đăng xuống chỉ có một lối ra vào phòng này," ông ta nói. "Cửa thép phía trước thì tôi sẽ xích lại. Cửa sang hải đăng, tôi khóa. Nếu chúng vào được, chúng phải vào bằng cửa trước. Cô đứng sau bàn điều khiển. Nhắm vào cửa." Ông ta ngừng một chút. "Đừng bắn trúng bọn tôi."
+"Cầu thang xoắn ốc từ đỉnh hải đăng xuống chỉ có một lối vào phòng này thôi," ông ta nói. "Cửa thép phía trước thì tôi sẽ xích lại, cửa sang hải đăng thì tôi khóa. Muốn vào thì chúng nó phải vào bằng cửa trước. Cô đứng sau bàn điều khiển, nhắm thẳng vào cửa." Ông ta ngừng một chút. "Đừng có bắn trúng bọn tôi đấy."
 
-"Các anh ở trong giấc mơ."
+"Mấy anh đang ở trong giấc mơ mà."
 
-"Thế thì đừng bắn trúng ghế của bọn tôi."
+"Thì đừng bắn trúng ghế của bọn tôi."
 
-Ông ta đi ra cửa thép phía trước, quấn cuộn xích quanh tay nắm và khung cửa hai vòng, khóa lại bằng một ổ khóa to bằng nắm tay. Rồi ông ta quay về chiếc ghế thứ ba, ngồi xuống, đội vòng cảm biến lên đầu.
+Ông ta ra cửa thép phía trước, quấn cuộn xích quanh tay nắm và khung cửa hai vòng, khóa lại bằng một cái ổ khóa to bằng nắm tay, rồi quay về chiếc ghế thứ ba, ngồi xuống, đội vòng cảm biến lên đầu.
 
-"Tao chưa bao giờ đánh nhau thật," ông ta nói với không ai cả. "Ở ngoài ấy. Ba mươi tám năm. Chưa bao giờ đấm ai."
+"Tao chưa đánh nhau thật bao giờ," ông ta nói với không ai cả. "Ở ngoài đời ấy. Ba mươi tám năm, chưa đấm ai bao giờ."
 
-"Anh sẽ không phải đấm ai," Linh nói. Cô ngồi ở ghế thứ hai, giữa Kev và Viper, chân không chạm tới đất. Con hạc giấy cánh lệch đậu trên đùi Kev. "Ở trong đó anh có súng điện từ chống tăng. To hơn người."
+"Anh có phải đấm ai đâu," Linh nói. Cô ngồi ở chiếc ghế thứ hai, giữa Kev với Viper, chân không chạm được tới đất, con hạc giấy cánh lệch đậu trên đùi Kev. "Vào trong đó anh có súng điện từ chống tăng, to hơn cả người cơ mà."
 
-"Ừ. Thế thì đỡ."
+"Ừ, thế thì đỡ."
 
-Elias ngồi ở ghế cuối cùng, gần bàn điều khiển của Lena nhất.
+Elias ngồi ở chiếc ghế cuối cùng, chỗ gần bàn điều khiển của Lena nhất. Từ lúc chạy xuống khỏi hải đăng tới giờ anh chưa nói câu nào. Anh lẳng lặng đội vòng cảm biến, cắm cáp, kiểm tra túi dịch truyền, giờ thì ngồi đó, hai tay đặt trên đùi, nhìn xuống sàn.
 
-Anh chưa nói gì từ lúc họ chạy xuống khỏi hải đăng. Anh đội vòng cảm biến, cắm cáp, kiểm tra túi dịch truyền, tất cả đều làm im lặng. Bây giờ anh ngồi đó, hai tay đặt trên đùi, nhìn sàn nhà.
-
-Lena đi tới. Cô quỳ xuống trước ghế anh, sát trùng mặt trong khuỷu tay anh bằng một miếng gạc cồn. Cô luồn kim truyền vào tĩnh mạch, dán băng keo cố định. Tay cô vững. Tay cô luôn vững khi có việc để làm.
+Lena đi tới quỳ xuống trước ghế anh, lau mặt trong khuỷu tay anh bằng miếng gạc cồn, luồn kim truyền vào tĩnh mạch, dán băng keo giữ lại. Tay cô vững vàng, lúc nào có việc để làm là tay cô vững.
 
 "Tớ hứa rồi," anh nói, rất khẽ.
 
@@ -52,100 +50,96 @@ Lena đi tới. Cô quỳ xuống trước ghế anh, sát trùng mặt trong kh
 
 "Tớ sẽ không mở nó."
 
-"Tớ biết, Eli."
+"Tớ biết mà, Eli."
 
-Cô cắm sợi cáp đỏ vào vòng cảm biến của anh. Một tiếng tách nhỏ. Trên màn hình bàn điều khiển, một đường sóng thứ hai hiện lên, chạy song song với đường sóng của anh. Đường sóng của cô. Chúng lệch nhau một chút ở các đỉnh, như hai người đi cạnh nhau mà chưa cùng bước. Cô đặt hai bàn tay lên tay anh.
+Cô cắm sợi cáp đỏ vào vòng cảm biến của anh, một tiếng tách nhỏ. Trên màn hình bàn điều khiển hiện lên một đường sóng thứ hai, chạy song song với đường sóng của anh, đó là đường sóng của cô. Hai đường lệch nhau một chút ở các đỉnh, như hai người đi bên cạnh nhau mà chưa bước cùng một nhịp.
 
-Hai đường sóng trên màn hình xích lại gần nhau. Lệch ít hơn. Ít hơn nữa. Rồi khớp.
+Cô đặt hai bàn tay mình lên tay anh. Hai đường sóng trên màn hình xích lại gần nhau, lệch ít hơn, ít hơn nữa, rồi khớp hẳn.
 
-Kev nhìn màn hình từ ghế đầu, gật đầu. "Đồng bộ chín mươi bốn phần trăm. Đủ rồi."
+Kev nhìn màn hình từ ghế đầu, gật đầu. "Đồng bộ chín mươi tư phần trăm. Đủ rồi."
 
-Lena không buông tay ngay. Cô giữ thêm ba giây, bốn giây.
+Lena chưa buông tay ngay, cô giữ thêm mấy giây nữa, rồi gõ lên mu bàn tay anh, ba nhanh, hai chậm. Anh lật tay lại, gõ lên lòng bàn tay cô, ba nhanh, hai chậm.
 
-Cô gõ lên mu bàn tay anh. Ba nhanh. Hai chậm.
-
-Anh lật tay lại, gõ lên lòng bàn tay cô. Ba nhanh. Hai chậm.
-
-Cô đứng dậy, quay về bàn điều khiển.
+Cô đứng dậy quay về bàn điều khiển.
 
 ---
 
 "Mười hai phút," Kev nói. "Tôi kích hoạt từ ghế này. Đếm ngược từ năm."
 
-Lena đặt khẩu súng điện lên bàn, ngay cạnh bàn phím, nòng hướng về phía cửa thép. Cô đội vòng cảm biến của mình. Loại nông, chỉ để đồng bộ, không dùng để lặn. Cô vẫn ở đây. Cô sẽ vẫn nhìn thấy căn phòng, nghe thấy tiếng sóng, cảm thấy sàn bê tông dưới chân. Nhưng ở một góc nào đó trong đầu, cô cũng sẽ cảm thấy anh.
+Lena đặt khẩu súng điện lên bàn, ngay cạnh bàn phím, nòng chĩa về phía cửa thép. Cô đội vòng cảm biến của mình vào, không phải loại dùng để lặn mà là loại nông, chỉ để đồng bộ. Cô vẫn ở đây, vẫn nhìn thấy căn phòng, nghe thấy tiếng sóng, cảm thấy sàn bê tông dưới chân. Nhưng ở một góc nào đó trong đầu, cô cũng sẽ cảm thấy được anh.
 
 "Năm."
 
-Viper nhắm mắt. Môi ông ta mấp máy. Lena không nghe rõ, nhưng cô nghĩ đó là tên con gái ông ta.
+Viper nhắm mắt lại, môi mấp máy. Lena không nghe rõ, nhưng cô đoán đó là tên con gái ông ta.
 
 "Bốn."
 
-Linh nắm lấy tay Kev. Kev để yên.
+Linh nắm lấy tay Kev, Kev để yên cho cô nắm.
 
 "Ba."
 
-Elias quay đầu nhìn Lena. Cô nhìn lại anh.
+Elias quay đầu nhìn Lena, cô nhìn lại anh.
 
 "Hai."
 
-Anh không nói gì. Cô cũng không. Không còn gì để nói nữa.
+Anh không nói gì, cô cũng không nói gì, chẳng còn gì để nói nữa.
 
 "Một."
 
-Bốn cơ thể trên bốn chiếc ghế đồng loạt chùng xuống, như những con rối bị cắt dây.
+Bốn cơ thể trên bốn chiếc ghế cùng chùng xuống một lúc, như những con rối bị cắt dây.
 
-Trên màn hình, bốn đường sóng chuyển màu, từ xanh sang cam. Layer 3. Một trăm lần thời gian thực. Mỗi phút ngoài này là hơn một tiếng rưỡi ở trong kia.
+Trên màn hình, bốn đường sóng chuyển từ xanh sang cam. Layer 3, nhanh gấp một trăm lần thời gian thực, mỗi phút ngoài này là hơn một tiếng rưỡi ở trong kia. Và ở một góc trong đầu, Lena cảm thấy anh rơi đi, như khi bước hụt một bậc thang trong bóng tối, rồi một cảm giác khác, lạnh, sáng, mênh mông, một thành phố bằng kính đen mở ra dưới chân anh.
 
-Và ở một góc nào đó trong đầu cô, Lena cảm thấy anh rơi đi. Như cảm giác bước hụt một bậc cầu thang trong bóng tối. Một cảm giác khác: lạnh, sáng, rộng mênh mông. Một thành phố bằng kính đen, mở ra dưới chân anh.
-
-Cô nắm chặt mép bàn.
+Cô bám chặt lấy mép bàn.
 
 ---
 
-Phòng điều khiển lặng ngắt. Chỉ có tiếng rì rì của tủ máy chủ, tiếng tíc tắc của chiếc đồng hồ Kev dán lên tường, và tiếng thở của bốn người đang ngủ.
+Phòng điều khiển im phăng phắc, chỉ có tiếng tủ máy chủ rì rì, tiếng tích tắc của cái đồng hồ Kev dán trên tường, và tiếng thở của bốn người đang ngủ.
 
-Lena nhìn bốn đường sóng trên màn hình. Elias ổn định. Kev ổn định. Linh hơi nhanh, nhưng trong ngưỡng. Viper chậm và đều, như người đang ngủ trưa.
+Lena nhìn bốn đường sóng trên màn hình. Elias ổn định, Kev ổn định, Linh hơi nhanh nhưng vẫn trong ngưỡng, Viper chậm và đều như người đang ngủ trưa.
 
-Cô nhìn đồng hồ. Mười giờ lẻ hai phút. Hai phút ngoài này. Ba tiếng hai mươi phút trong kia. Cô nghe tiếng động cơ.
+Cô nhìn đồng hồ, mười giờ lẻ hai phút, mới hai phút ngoài này, mà ở trong kia đã là ba tiếng hai mươi phút.
 
-Trầm, nặng, nhiều chiếc, vọng qua lớp tường bê tông dày gần một mét. Tiếng lốp xe nghiến trên sỏi. Tiếng cửa xe mở rồi đóng. Tiếng ủng. Cô đứng dậy, cầm khẩu súng điện lên.
+Rồi cô nghe tiếng động cơ, trầm, nặng, rất nhiều chiếc, vọng qua lớp tường bê tông dày gần một mét, tiếng lốp xe nghiến trên sỏi, tiếng cửa xe mở ra đóng vào, tiếng ủng.
 
-Màn hình phụ ở góc bàn điều khiển hiện hình ảnh từ chiếc camera an ninh cũ mà Kev đã sửa lại, gắn trên nóc khối bê tông. Hình ảnh đen trắng, nhòe, nhưng đủ.
+Cô đứng dậy, cầm khẩu súng điện lên.
 
-Bốn chiếc xe tải đen đỗ theo hình bán nguyệt trên bãi đất trước hải đăng. Đèn pha bật sáng, chiếu thẳng vào cửa khối bê tông. Những bóng người tràn ra khỏi thùng xe: mũ chống đạn, kính nhìn đêm, súng tiểu liên. Lena đếm. Mười. Mười hai. Mười sáu. Trên trời, ba chấm đen đã rời khỏi vùng biển, đang hạ thấp dần, bay vòng quanh đỉnh hải đăng.
+Màn hình phụ ở góc bàn điều khiển hiện hình ảnh từ cái camera an ninh cũ mà Kev đã sửa lại, gắn trên nóc khối bê tông, đen trắng và nhòe nhoẹt nhưng vẫn đủ rõ. Bốn chiếc xe tải đen đỗ thành hình bán nguyệt trên bãi đất trước hải đăng, đèn pha bật sáng chiếu thẳng vào cửa khối bê tông. Những bóng người tràn ra khỏi thùng xe, mũ chống đạn, kính nhìn đêm, súng tiểu liên. Lena đếm, mười, mười hai, mười sáu.
 
-Một người tách ra khỏi nhóm lính, đi tới trước mũi chiếc xe tải đầu tiên, đứng giữa luồng đèn pha. Không đội mũ. Không cầm súng. Một người đàn ông trung niên, tóc hoa râm, áo khoác dạ xám.
+Trên trời, ba chấm đen đã rời khỏi vùng biển, đang hạ thấp dần, bay vòng quanh đỉnh hải đăng.
 
-Lena nhận ra ông ta ngay. Bác sĩ Bradley. Người kỹ thuật viên trẻ trong ký ức của Elias đã lén dúi cho cậu bé một viên kẹo bạc hà. Người bác sĩ mệt mỏi trong ký ức đầu tiên của Elias ở bệnh viện. Hai mươi năm đứng giữa hai khoảnh khắc đó.
+Một người tách ra khỏi nhóm lính, đi tới trước mũi chiếc xe tải đầu tiên, đứng giữa luồng đèn pha, không đội mũ, không cầm súng: một người đàn ông trung niên tóc hoa râm mặc áo khoác dạ xám.
 
-Bradley cầm một chiếc loa. Giọng ông ta vang qua lớp bê tông, méo mó, nhưng rõ.
+Lena nhận ra ông ta ngay. Bác sĩ Bradley, người kỹ thuật viên trẻ trong ký ức của Elias đã lén dúi cho thằng bé một viên kẹo bạc hà, người bác sĩ mệt mỏi trong ký ức đầu tiên của Elias ở bệnh viện. Giữa hai khoảnh khắc ấy là hai mươi năm.
 
-"Tiến sĩ Hale. Hoặc tôi nên gọi là Tiến sĩ Solis." Một khoảng ngừng. "Chúng tôi biết cô đang ở trong đó. Chúng tôi biết anh Vane đang ở cùng cô. Không ai muốn chuyện này kết thúc theo cách xấu. Mở cửa ra, và tôi hứa không ai bị thương."
+Bradley cầm một cái loa. Giọng ông ta vang qua lớp bê tông, méo mó nhưng rõ ràng.
 
-Lena không trả lời. Cô đứng sau bàn điều khiển, súng trong tay, nhìn màn hình. Điện thoại của cô rung lên trên bàn.
+"Tiến sĩ Hale. Hay tôi nên gọi là Tiến sĩ Solis." Một khoảng ngừng. "Chúng tôi biết cô đang ở trong đó. Chúng tôi biết anh Vane đang ở cùng cô. Không ai muốn chuyện này kết thúc theo cách tồi tệ cả. Cô mở cửa ra, tôi hứa sẽ không có ai bị thương."
 
-Một số lạ. Một cuộc gọi thường, không qua ứng dụng con quạ, đến chiếc điện thoại trả trước mà chỉ có bốn người biết số. Cô biết trước khi nghe máy.
+Lena không trả lời. Cô đứng sau bàn điều khiển, súng trong tay, mắt nhìn màn hình.
 
-"Maren," giọng Iris Halloway nói, êm ái, lịch thiệp, như đang gọi để mời đi ăn tối. "Tôi xin lỗi vì gọi muộn. Hôm nay là một ngày đặc biệt, tôi nghĩ cô hiểu."
+Điện thoại của cô rung lên trên bàn. Một số lạ. Một cuộc gọi bình thường, không qua ứng dụng con quạ, gọi tới cái điện thoại trả trước mà chỉ có bốn người biết số. Cô biết là ai trước cả khi nhấc máy.
+
+"Maren," giọng Iris Halloway cất lên, êm ái, lịch thiệp, như đang gọi điện mời cô đi ăn tối. "Tôi xin lỗi vì gọi muộn thế này. Hôm nay là một ngày đặc biệt, chắc cô hiểu mà."
 
 Lena không nói gì.
 
-"Hai mươi năm," Halloway nói. "Mẹ cô và tôi đã từng là bạn, cô biết không. Thật đấy. Chúng tôi từng ngồi trong căn tin của viện tới hai giờ sáng, cãi nhau về triết học. Elena tin rằng ký ức là thứ thiêng liêng. Tôi tin rằng ký ức là một công cụ, như mọi thứ khác. Chúng tôi chưa bao giờ đồng ý." Một khoảng ngừng. "Rồi bà ấy đốt cháy mười năm nghiên cứu của tôi, và chết trong lửa, vì một nguyên tắc. Để lại cô."
+"Hai mươi năm," Halloway nói. "Mẹ cô với tôi từng là bạn đấy, cô có biết không? Thật lòng đấy. Bọn tôi từng ngồi ở căn tin của viện tới hai giờ sáng cãi nhau về triết học. Elena tin rằng ký ức là thứ thiêng liêng, còn tôi tin rằng ký ức là một công cụ như mọi thứ khác. Bọn tôi chưa bao giờ đồng ý được với nhau." Một khoảng ngừng. "Rồi bà ấy đốt sạch mười năm nghiên cứu của tôi và chết trong lửa, chỉ vì một nguyên tắc. Bỏ lại cô."
 
-"Bà để lại tôi," Lena nói, "vì bà đã cứu tôi khỏi bà."
+"Mẹ tôi để tôi lại," Lena nói, "vì mẹ đã cứu tôi khỏi tay bà."
 
-"Bà ấy đã làm cô mất hai mươi năm. Không biết mình là ai. Không biết mẹ mình là ai. Đó là sự cứu rỗi à?" Giọng Halloway không thay đổi, không cao lên, không thấp xuống. "Tôi có thể trả lại cho cô tất cả, Maren. Mọi ký ức. Mọi khoảnh khắc với mẹ cô. Bằng Somnia 5.0, chuyện đó dễ như bật một công tắc. Không cần lặn, không cần đau. Cô chỉ cần mở cửa ra."
+"Bà ấy làm cô mất hai mươi năm. Không biết mình là ai, không biết mẹ mình là ai. Thế mà gọi là cứu à?" Giọng Halloway không cao lên, không thấp xuống. "Tôi có thể trả lại cho cô tất cả, Maren ạ. Mọi ký ức, mọi khoảnh khắc với mẹ cô. Với Somnia 5.0, chuyện đó dễ như bật một cái công tắc, không cần lặn, không đau đớn gì cả. Cô chỉ cần mở cửa ra thôi."
 
-Lena nhìn màn hình. Nhìn bốn đường sóng màu cam. Nhìn đường sóng của Elias, chạy song song với đường sóng mờ hơn của chính cô.
+Lena nhìn màn hình, nhìn bốn đường sóng màu cam, nhìn đường sóng của Elias đang chạy song song với đường sóng mờ hơn của chính mình.
 
-"Mẹ cô đã chọn sai," Halloway nói. "Đừng lặp lại lỗi của bà ấy."
+"Mẹ cô đã chọn sai," Halloway nói. "Đừng lặp lại sai lầm của bà ấy."
 
-Lena cầm điện thoại lên, đưa sát vào miệng.
+Lena đưa điện thoại sát vào miệng.
 
-"Mẹ tôi hát," cô nói. "Lúc cuối. Bà có biết không? Khi người của bà đến. Bà ấy đứng chắn hành lang, và bà ấy hát." Cô ngừng lại. "Bà không có cái đó trong hồ sơ, đúng không, Iris? Bà không có ký ức đó. Tôi thì có."
+"Mẹ tôi đã hát," cô nói. "Lúc cuối. Bà có biết không? Lúc người của bà tới, mẹ tôi đứng chắn ngang hành lang và hát." Cô dừng lại. "Trong hồ sơ của bà không có chuyện đó, đúng không, Iris? Bà không có ký ức ấy. Tôi thì có."
 
 Cô cúp máy.
 
-Bên ngoài, giọng Bradley qua loa im bặt. Một giọng khác, khô hơn, ra lệnh, không qua loa.
+Bên ngoài, giọng Bradley trong loa im bặt, rồi một giọng khác, khô khốc hơn, ra lệnh, không qua loa.
 
-Tiếng nổ đầu tiên làm rung chuyển cửa thép.
+Tiếng nổ đầu tiên làm cánh cửa thép rung lên bần bật.
