@@ -10,6 +10,14 @@
 - Các cảnh của hội bạn game phải làm câu chuyện sáng lên, bớt tối tăm.
 - Truyện đủ dài và đều giữa các phần.
 
+## 1b. Giọng văn của truyện (bản viết lại, lấy từ chính bản thảo gốc của tác giả)
+- Kể ở ngôi thứ ba, bám sát nhân vật. Người kể được phép nói thẳng nhân vật đang cảm thấy gì; không né cảm xúc.
+- Không khí điện ảnh, kịch tính như bản `novel_vi` gốc, nhưng không chồng tính từ.
+- Câu văn tiếng Việt tự nhiên: câu dài có nhịp, có từ nối (mà, thì, lại, cứ, vẫn), xen câu ngắn khi căng. Không viết chuỗi câu cụt.
+- Thoại có tiểu từ và khẩu ngữ Việt (à, nhé, chứ, cơ, đấy, thôi mà).
+- Cảnh hội bạn ấm áp, hài hước.
+- Các mô-típ (ám hiệu gõ tay, bài hát ru, câu đùa lặp) chỉ xuất hiện ở những khoảnh khắc đắt giá.
+
 ## 2. Quy ước kỹ thuật (giữ cho nhất quán, không phải quy tắc văn chương)
 - **Xưng hô:**
   - Elias và Maren xưng "tôi" với nhau cho tới Ch.23. Sau đó, lúc riêng tư, họ xưng "tớ/cậu".

@@ -1,24 +1,22 @@
 # CHƯƠNG 8: HỒ SƠ TRONG TƯỜNG
 
-Tòa nhà St. Jude tắt đèn hành lang lúc chín giờ tối. Đến mười giờ, chỉ còn tiếng máy sưởi rì rì và tiếng mưa trên mái.
+Tòa nhà St. Jude tắt đèn hành lang lúc chín giờ tối, tới mười giờ thì chỉ còn tiếng máy sưởi rì rì và tiếng mưa trên mái.
 
-Lena kéo kín rèm phòng làm việc. Cô cắm ổ cứng của Elias vào trạm máy chính qua một cổng cách ly, rồi ngắt toàn bộ kết nối mạng của phòng. Cô làm việc nhanh và gọn, không nói gì, những ngón tay lướt trên bàn phím với nhịp điệu của một người đã làm việc này hàng nghìn lần.
+Lena kéo kín rèm phòng làm việc, cắm ổ cứng của Elias vào máy chính qua một cổng cách ly rồi ngắt toàn bộ kết nối mạng trong phòng. Cô làm nhanh và gọn, không nói một lời, những ngón tay lướt trên bàn phím với cái nhịp của người đã làm việc này cả nghìn lần.
 
-Elias đứng sau lưng cô, tựa vào giá sách. Anh nhìn màn hình, nhưng phần lớn thời gian anh nhìn cô. Cái cách cô nghiêng đầu khi đọc một dòng mã. Cái cách cô cắn nhẹ môi dưới khi một lệnh không chạy. Cái cách vai cô cứng lại mỗi khi có tiếng xe ngoài đường.
+Elias đứng sau lưng cô, tựa vào giá sách. Anh nhìn màn hình, nhưng phần lớn thời gian anh nhìn cô: cái cách cô nghiêng đầu khi đọc một dòng mã, cái cách cô cắn nhẹ môi dưới mỗi khi một lệnh không chạy, cái cách vai cô cứng lại mỗi lần có tiếng xe ngoài đường. Cô chưa kể cho anh nghe chuyện ở viện dưỡng lão. Anh biết là có chuyện gì đó, vì hôm qua cô về muộn hơn đã hẹn và mắt đỏ hoe, nhưng anh không hỏi. Quy tắc số một: đây là một cuộc điều tra.
 
-Cô chưa kể với anh về bà Margaret. Anh biết có chuyện gì đó, vì hôm qua cô về muộn hơn nói và mắt đỏ, nhưng anh không hỏi. Quy tắc số một: đây là một cuộc điều tra.
+"Khóa của Nyx khớp với lớp vỏ ngoài," Lena nói. "Nó đang giải nén. Phần lớn là rác, nhật ký kết nối, thông số hiệu chỉnh của năm phiên chuẩn bị. Nhưng có một phân vùng nằm tít dưới cùng, chẳng thuộc về phiên nào cả." Cô nhíu mày. "Cứ như có ai nhét nó vào máy anh lúc anh không để ý. Hoặc nó tự bám theo anh từ trong mạng lưới ra."
 
-"Khóa của Nyx khớp với lớp vỏ ngoài," Lena nói. "Nó đang giải nén. Phần lớn là rác: nhật ký kết nối, thông số hiệu chỉnh của năm phiên chuẩn bị. Nhưng có một phân vùng nằm dưới cùng, không thuộc về phiên nào cả." Cô nhíu mày. "Như thể ai đó đã nhét nó vào máy anh trong lúc anh không để ý. Hoặc nó tự đi theo anh từ trong mạng lưới ra."
+"Lúc mọi thứ vỡ ra, có những thứ bám vào tôi," Elias nói. "Ký ức của Corwin, có khi cả những thứ khác nữa."
 
-"Ba mươi năm," Elias nói. "Khi mọi thứ vỡ ra, có những thứ bám vào tôi. Ký ức của Corwin. Có thể cả những thứ khác."
-
-Thanh tiến trình chạy tới chín mươi phần trăm. Chín mươi tư. Chín mươi chín. Rồi màn hình chuyển sang màu xám, và một tài liệu mở ra.
+Thanh tiến trình chạy tới chín mươi phần trăm, chín mươi tư, chín mươi chín. Màn hình chuyển sang màu xám và một tài liệu mở ra.
 
 > `[LƯU TRỮ GỐC — VIỆN NHẬN THỨC SINH HỌC PROMETHEUS]`
 > `[PHÂN LOẠI: CẤP 0]`
 > `[NGÀY TẠO: 15/10/2004 — 06:12]`
 
-Lena ngừng gõ phím. Elias rời khỏi giá sách, bước lại gần.
+Lena ngừng gõ. Elias rời khỏi giá sách, bước lại gần.
 
 ```
 ==================================================================
@@ -34,7 +32,9 @@ cách ly lúc 02:40, mở cửa phòng giữ của cặp đối tượng trọng
 nhằm hủy toàn bộ dữ liệu chương trình.
 
 Lửa lan nhanh hơn dự kiến của đối tượng Solis. Hành lang phía tây
-sập lúc 03:10. THƯƠNG VONG:
+sập lúc 03:10.
+
+THƯƠNG VONG:
 - Elena Solis: Tử vong (hành lang phía tây).
 
 TÌNH TRẠNG ĐỐI TƯỢNG:
@@ -60,11 +60,13 @@ CHỈ THỊ:
 
 Phê duyệt: I. Halloway, Giám đốc Chương trình
 ==================================================================
-``` Không ai nói gì.
+```
 
-Elias đọc lại dòng ấy. *Từ chối rời vị trí cho tới khi bị khống chế.* Anh không nhớ đêm đó. Nhưng tay trái anh, buông bên người, bỗng nhói lên ở cổ tay, đúng chỗ có một vết sẹo bỏng mờ mà anh đã thấy sáng nay khi rửa mặt và không hiểu từ đâu ra.
+Không ai nói gì.
 
-Lena cuộn xuống. Có một tài liệu thứ hai, ngắn hơn, ngày tháng muộn hơn nhiều.
+Elias đọc đi đọc lại dòng *từ chối rời vị trí cho tới khi bị khống chế*. Anh không nhớ đêm hôm ấy, nhưng bàn tay trái buông thõng bên người bỗng nhói lên ở cổ tay, đúng chỗ có một vết sẹo bỏng mờ mà sáng nay lúc rửa mặt anh mới để ý và không hiểu từ đâu ra.
+
+Lena cuộn xuống, thấy một tài liệu thứ hai, ngắn hơn, ngày tháng muộn hơn nhiều.
 
 ```
 ==================================================================
@@ -95,27 +97,25 @@ Phê duyệt: I. Halloway
 ==================================================================
 ```
 
-Elias đọc dòng thứ hai của phương án. Rồi đọc lại.
+Elias đọc dòng thứ hai của phần phương án, đọc lại lần nữa. *Gây ra vụ cháy làm chết mẹ nuôi. Mục đích: mặc cảm mãn tính.*
 
-*Gây ra vụ cháy làm chết mẹ nuôi.*
+Anh không nhớ cuốn nhật ký kia đã được viết ra như thế nào, không nhớ những đêm thức trắng. Nhưng chiều hôm trước anh đã đọc từng dòng của nó, trong căn hộ trống trơn ấy: *rèm cửa bắt lửa, mình đứng trong góc không dám kêu, bà ấy chạy vào, bà ấy không chạy ra*. Anh đã đọc câu *nếu ai lấy được thứ này ra khỏi đầu mình thì mình sẽ đưa họ bất cứ thứ gì*.
 
-*Mục đích: mặc cảm mãn tính.*
+Hai mươi năm trời, người viết cuốn nhật ký ấy đã tự trừng phạt mình vì một ngọn nến chưa từng tồn tại. Và chính cái mặc cảm ấy đã dắt anh ngoan ngoãn tới tận chiếc ghế trong phòng thí nghiệm. Họ chẳng cần ép anh làm gì, họ chỉ việc ngồi chờ.
 
-Anh không nhớ cuốn nhật ký được viết ra như thế nào. Anh không nhớ những đêm không ngủ. Nhưng anh đã đọc nó, từng dòng, chiều hôm trước, trong căn hộ trống: *Rèm cửa bắt lửa. Mình đứng trong góc không dám kêu. Bà ấy chạy vào. Bà ấy không chạy ra.* Anh đã đọc *trẻ mồ côi nào gây ra cái chết của người nuôi mình cũng mang nó suốt đời*. Anh đã đọc *nếu ai đó lấy được thứ này ra khỏi đầu mình, mình sẽ đưa họ bất cứ thứ gì.* Hai mươi năm, người viết cuốn nhật ký đó đã tự trừng phạt mình vì một ngọn nến chưa từng tồn tại.
+Anh lùi lại một bước, lưng đập vào giá sách, vài cuốn sách rơi xuống thảm mà anh cũng chẳng buồn nhặt.
 
-Và chính cảm giác tội lỗi ấy đã dắt anh, ngoan ngoãn, tới tận chiếc ghế trong phòng thí nghiệm. Họ không cần ép anh. Họ chỉ cần đợi.
+"Không có ngọn nến nào cả," anh nói, giọng nghe như của một người khác. "Không có nhà Ashford nào cả. Chẳng có ai chết vì tôi hết."
 
-Anh lùi lại một bước. Lưng chạm vào giá sách. Vài cuốn sách rơi xuống thảm. Anh không nhặt lên.
+Anh chờ cảm giác nhẹ nhõm ập đến, nhưng nó không đến. Thay vào đó là một thứ lạnh lẽo và trống rỗng: anh đã bị lấy mất hai mươi năm để thương tiếc một người không có thật, trong khi người phụ nữ thật sự đã chết để cứu anh thì anh lại chẳng hề nhớ tới.
 
-"Không có ngọn nến nào cả," anh nói. Giọng anh nghe như của người khác. "Không có nhà Ashford nào cả. Không có ai chết vì tôi cả."
+Anh quay sang Lena, định nói gì đó, nhưng cô không nhìn anh. Cô đang nhìn màn hình.
 
-Anh muốn cảm thấy nhẹ nhõm. Anh đợi nó đến. Thay vào đó là một thứ khác, lạnh và trống rỗng: mình đã bị lấy mất hai mươi năm để thương tiếc một người không có thật, trong khi người phụ nữ thật đã chết để cứu mình thì mình không hề nhớ tới. Anh quay sang Lena, định nói gì đó.
+Cô đã cuộn xuống tận cuối tài liệu thứ nhất, tới phần phụ lục, một bảng thông tin đối tượng chia làm hai cột, mỗi cột có một tấm ảnh chụp chính diện kiểu ảnh hồ sơ trên phông trắng.
 
-Cô không nhìn anh. Cô đang nhìn màn hình.
+Cột bên trái là một cậu bé bảy tuổi, tóc đen dựng ngược, mắt xám, gầy tới mức hai gò má hõm sâu vào. Bên dưới ghi: *Đối tượng Zero. Vane, Elias. Chỉ số dẻo thần kinh: 99.8.*
 
-Cô đã cuộn xuống tận cuối tài liệu thứ nhất, tới phần phụ lục. Một bảng thông tin đối tượng. Hai cột. Mỗi cột có một tấm ảnh chụp chính diện, kiểu ảnh hồ sơ, phông trắng.
-
-Cột bên trái: một cậu bé bảy tuổi, tóc đen dựng ngược, mắt xám, gầy tới mức hai gò má hõm vào. Bên dưới ghi: *Đối tượng Zero. Vane, Elias. Chỉ số dẻo thần kinh: 99.8.* Cột bên phải: một cô bé chín tuổi, tóc đen cắt ngắn lởm chởm, mắt đen, nhìn thẳng vào ống kính mà không cười.
+Cột bên phải là một cô bé chín tuổi, tóc đen cắt ngắn lởm chởm, mắt đen nhìn thẳng vào ống kính mà không cười.
 
 > *Đối tượng Một. Solis, Maren.*
 > *Sinh: 22/04/1995.*
@@ -124,44 +124,38 @@ Cột bên trái: một cậu bé bảy tuổi, tóc đen dựng ngược, mắt
 > *Chỉ số dẻo thần kinh: 99.6.*
 > *Ghi chú: Đưa vào chương trình theo thỏa thuận với Trưởng nhóm Solis (xem phụ lục C). Đồng bộ hai chiều với Zero từ tháng 3/2003.*
 
-Elias nhìn tấm ảnh. Đó là cô bé. Cô bé trong đầu anh. Cô bé hét lên *đừng quên tớ*. Rồi anh nhìn sang người phụ nữ đang ngồi trước màn hình.
+Elias nhìn tấm ảnh. Đó chính là cô bé, cô bé trong đầu anh, cô bé đã hét lên *đừng quên tớ*. Rồi anh nhìn sang người phụ nữ đang ngồi trước màn hình.
 
-Lena ngồi rất thẳng. Hai tay đặt trên bàn phím, bất động. Mặt cô trắng bệch dưới ánh sáng màn hình, và môi cô mấp máy, không ra tiếng, như đang đọc đi đọc lại một dòng chữ để chắc chắn mình không đọc sai.
+Lena ngồi thẳng lưng, hai tay đặt trên bàn phím, bất động. Gương mặt cô trắng bệch dưới ánh màn hình, môi mấp máy không ra tiếng, như đang đọc đi đọc lại một dòng chữ để chắc rằng mình không đọc nhầm.
 
-*Sinh: 22/04/1995.*
-
-"Ngày sinh của tôi," cô nói. Giọng cô bình thản đến kỳ lạ, như giọng của một giám định viên đọc kết luận. "Hai mươi hai tháng Tư. Năm 1995. Đó là ngày sinh của tôi."
+"Ngày sinh của tôi," cô nói. Giọng cô bình thản đến lạ, như giọng của một giám định viên đang đọc kết luận. "Hai mươi hai tháng Tư năm 1995. Đó là ngày sinh của tôi."
 
 "Lena—"
 
-"Bà Margaret gọi tôi là Maren." Cô vẫn không nhìn anh. "Hôm qua. Ở viện dưỡng lão. Tôi bật bài hát ru cho bà nghe, và bà hát theo. Rồi bà nắm tay tôi và gọi tôi là Maren. Bà bảo bác Thomas dặn phải giữ tôi an toàn." Cô bật ra một tiếng cười, ngắn và vỡ. "Tôi đã tự bảo mình là bà lẫn. Bà lẫn ba năm rồi. Bà gọi y tá là tên con mèo đã chết từ năm chín mươi tám."
+"Bà Margaret gọi tôi là Maren." Cô vẫn không nhìn anh. "Hôm qua, ở viện dưỡng lão. Tôi bật bài hát ru cho bà nghe, và bà hát theo. Rồi bà nắm tay tôi, gọi tôi là Maren, bảo là bác Thomas dặn phải giữ cho tôi an toàn." Cô bật ra một tiếng cười ngắn ngủn và vỡ vụn. "Thế mà tôi cứ tự nhủ là bà lẫn. Bà lẫn ba năm nay rồi, bà còn gọi y tá bằng tên con mèo chết từ năm chín mươi tám cơ mà."
 
-Cô đưa tay lên chạm vào màn hình. Đầu ngón tay cô dừng trên khuôn mặt cô bé.
+Cô đưa tay lên chạm vào màn hình, đầu ngón tay dừng lại trên khuôn mặt cô bé.
 
-"Tôi không có ký ức nào trước năm chín tuổi," cô nói. "Họ bảo tôi bị chấn thương đầu trong một vụ tai nạn xe. Bố mẹ tôi chết. Tôi sống sót. Bà Margaret nhận nuôi tôi vì là bạn thân của gia đình Daly. Hai mươi năm nay tôi tin như vậy." Ngón tay cô run lên trên mặt kính. "Tôi chưa bao giờ thấy ảnh bố mẹ mình. Bà bảo tất cả cháy hết trong vụ tai nạn. Tôi chưa bao giờ hỏi thêm. Tại sao tôi chưa bao giờ hỏi thêm?"
+"Tôi không có ký ức nào trước năm chín tuổi," cô nói. "Người ta bảo tôi bị chấn thương đầu trong một vụ tai nạn xe. Bố mẹ tôi chết, chỉ mình tôi sống sót, rồi bà Margaret nhận nuôi tôi vì bà là bạn thân của nhà Daly. Hai mươi năm nay tôi tin như thế." Ngón tay cô run run trên mặt kính. "Tôi chưa bao giờ được thấy ảnh bố mẹ mình. Bà bảo là cháy hết trong vụ tai nạn rồi, và tôi cũng chưa bao giờ hỏi thêm. Tại sao tôi lại chưa bao giờ hỏi thêm hả trời?"
 
-Elias không có câu trả lời. Anh chỉ biết đứng đó, nhìn cô. Người phụ nữ đã giữ cho mình một khoảng cách cả cái bàn suốt hai ngày qua giờ đang ngồi cách anh một sải tay, và anh không dám vươn tay ra.
+Elias không có câu trả lời. Anh chỉ biết đứng đó nhìn cô. Người phụ nữ suốt hai ngày qua cứ giữ khoảng cách với anh bằng nguyên một cái bàn, giờ đang ngồi cách anh chưa đầy một sải tay, vậy mà anh không dám đưa tay ra.
 
-*Elena Solis.* Người phụ nữ hát ru sau cánh cửa. Người phụ nữ mở tấm lưới thông gió với cánh tay bỏng. Người đã chết ở hành lang phía tây.
+*Elena Solis.* Người phụ nữ hát ru sau cánh cửa, người phụ nữ tháo tấm lưới thông gió bằng cánh tay bị bỏng, người đã chết ở hành lang phía tây. Là mẹ của cô.
 
-Là mẹ cô.
+"Mẹ tôi tên là Elena," Lena nói rất khẽ, như đang thử những chữ ấy trên đầu lưỡi lần đầu tiên. "Mẹ tôi hát bài hát đó. Mẹ tôi chết để..."
 
-"Mẹ tôi tên là Elena," Lena nói, rất khẽ, như đang thử những từ đó trên lưỡi. "Mẹ tôi hát bài hát đó. Mẹ tôi chết để..."
+Cô không nói hết câu, mà cũng không cần phải nói hết. *Để cứu cả hai chúng ta.*
 
-Cô không nói hết câu. Cô không cần nói.
+Elias mở miệng. Anh không biết mình định nói gì, xin lỗi cô, hay bảo rằng anh nhớ ra cô rồi, hay bảo rằng anh chẳng nhớ gì nhưng vẫn biết cô. Câu nào cũng không đúng.
 
-*Để cứu cả hai chúng ta.*
+Và anh chưa kịp nói gì thì đèn trong phòng tắt phụt.
 
-Elias mở miệng. Anh không biết mình định nói gì. *Tôi xin lỗi.* *Tôi nhớ ra cô rồi.* *Tôi không nhớ gì cả nhưng tôi biết cô.* Không câu nào đúng. Anh chưa kịp nói gì thì đèn trong phòng tắt phụt. Một giây im lặng, tối đen, chỉ còn màn hình phát sáng. Rồi còi báo cháy của tòa nhà rú lên.
+Một giây im lặng tối đen, chỉ còn màn hình máy tính phát sáng. Rồi còi báo cháy của tòa nhà rú lên, xé toạc căn phòng tiêu âm, chói tai và dồn dập. Những ngọn đèn khẩn cấp màu đỏ gắn trên trần bắt đầu xoay tròn, quét những vệt sáng đỏ qua tường, qua sàn, qua gương mặt trắng bệch của Lena.
 
-Âm thanh xé toạc căn phòng tiêu âm, chói tai, dồn dập. Những đèn khẩn cấp màu đỏ gắn trên trần bắt đầu xoay, quét những vệt sáng đỏ qua tường, qua sàn, qua gương mặt trắng bệch của Lena.
+Trên màn hình phụ ở góc bàn, hình ảnh từ camera an ninh tầng trệt nhảy lên: ba chiếc xe tải đen không biển số đỗ chéo ở con hẻm phía sau tòa nhà, cửa sau mở toang, những bóng người mặc đồ đen tràn ra, mũ chống đạn, kính nhìn đêm, súng tiểu liên gắn ống giảm thanh. Mười hai người, Elias đếm kịp trước khi màn hình tắt ngấm.
 
-Trên màn hình phụ ở góc bàn, bức ảnh từ camera an ninh tầng trệt nhảy lên. Ba chiếc xe tải đen không biển số đỗ chéo ở con hẻm phía sau tòa nhà. Cửa sau xe mở. Những bóng người mặc đồ đen tràn ra: mũ chống đạn, kính nhìn đêm, súng tiểu liên có ống giảm thanh.
-
-Mười hai người. Elias đếm được trước khi màn hình tắt ngấm.
-
-Anh quay sang Lena. Cô đã đứng dậy. Mặt cô vẫn trắng, nhưng mắt cô đã khác. Người giám định viên đã quay lại.
+Anh quay sang Lena. Cô đã đứng dậy. Mặt cô vẫn trắng bệch, nhưng ánh mắt đã khác hẳn, người giám định viên đã quay trở lại.
 
 "Ổ cứng," anh nói.
 
-Cô đã giật nó ra khỏi cổng trước khi anh nói xong.
+Cô đã giật nó ra khỏi cổng trước khi anh kịp nói hết câu.

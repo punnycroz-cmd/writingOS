@@ -1,140 +1,120 @@
 # CHƯƠNG 2: CĂN HỘ CỦA NGƯỜI LẠ
 
-Số 118 đường Harlow là một tòa nhà gạch sáu tầng nằm kẹp giữa một tiệm giặt tự động và một cửa hàng sửa điện thoại. Mặt tiền ám khói, thang thoát hiểm bằng sắt rỉ chạy ngoằn ngoèo bên hông như một vết khâu. Elias đứng dưới mưa nhìn nó rất lâu.
+Số 118 đường Harlow là một tòa nhà gạch sáu tầng nằm kẹp giữa một tiệm giặt tự động và một cửa hàng sửa điện thoại, mặt tiền ám khói đen, chiếc thang thoát hiểm bằng sắt rỉ chạy ngoằn ngoèo bên hông như một vết khâu vụng về. Elias đứng dưới mưa nhìn nó một hồi lâu, chờ đợi một chút quen thuộc, dù chỉ là cách ánh đèn hắt ra từ ô cửa sổ tầng ba hay mùi xà phòng thoang thoảng từ tiệm giặt bên cạnh. Nhưng tòa nhà nhìn anh như nhìn một người lạ, và anh cũng nhìn lại nó y như thế.
 
-Anh chờ một cảm giác. Một chút quen thuộc, dù chỉ là cách ánh đèn hắt ra từ ô cửa sổ tầng ba, hay mùi xà phòng từ tiệm giặt. Không có gì. Tòa nhà nhìn anh như nhìn một người lạ, và anh nhìn lại nó y như vậy.
+Cửa ra vào không khóa. Trên hộp thư số 6C có dán một mẩu băng dính ghi *E. VANE* bằng bút dạ, nét chữ thẳng, hơi nghiêng sang phải. Anh nhìn mấy chữ cái ấy và giật mình nhận ra rằng đó là chữ của mình. Trí nhớ thì không biết, nhưng bàn tay thì biết, nó cứ muốn viết theo những nét ấy.
 
-Cửa ra vào không khóa. Hộp thư số 6C có dán một mẩu băng dính ghi *E. VANE* bằng bút dạ, nét chữ thẳng, nghiêng nhẹ sang phải. Anh nhìn những chữ cái ấy và nhận ra một điều kỳ lạ: anh biết đó là chữ của mình. Trí nhớ không biết, nhưng tay thì biết. Bàn tay anh muốn viết theo nét ấy.
+Thang máy hỏng nên anh phải leo bộ sáu tầng. Đến tầng bốn thì hai đùi anh run bần bật, đến tầng năm anh phải dừng lại tựa vào lan can mà thở dốc, mồ hôi lạnh túa ra sau gáy. Mười một ngày nằm im một chỗ đã ăn mòn cơ thể anh nhiều hơn anh tưởng.
 
-Thang máy hỏng. Anh leo bộ sáu tầng. Đến tầng bốn, hai đùi anh run lên. Đến tầng năm, anh phải dừng lại tựa vào lan can, thở dốc, mồ hôi lạnh túa ra sau gáy. Mười một ngày nằm yên đã ăn mòn cơ thể anh nhiều hơn anh tưởng.
+Chìa khóa nằm dưới tấm thảm chùi chân trước cửa. Cũng phải thôi, anh nghĩ, một người sống một mình, chẳng bao giờ có ai ghé thăm, thì đâu có lý do gì để nghĩ rằng sẽ có người muốn vào đây.
 
-Chìa khóa nằm dưới tấm thảm chùi chân trước cửa 6C. Tất nhiên rồi. Một người sống một mình, không ai ghé thăm, có lẽ chẳng bao giờ nghĩ có ai đó sẽ muốn vào đây.
-
-Anh mở cửa.
+Anh mở cửa ra.
 
 ---
 
-Căn hộ trống đến mức gần như vang.
+Căn hộ trống đến mức tiếng bước chân anh vang lên lộp cộp. Sàn gỗ cũ, vài chỗ đã bong ván. Một chiếc giường đơn kê sát tường, chăn gấp vuông vức như trong doanh trại. Một chiếc bàn ăn nhỏ và đúng một chiếc ghế. Gian bếp sạch đến mức chẳng có dấu hiệu nào cho thấy từng có người nấu nướng ở đây, chỉ có một cái ấm điện, một hũ cà phê hòa tan và một chồng mì ly xếp thẳng hàng trong tủ.
 
-Sàn gỗ cũ, mấy chỗ bong ván. Một chiếc giường đơn kê sát tường, chăn gấp vuông vức như trong quân đội. Một cái bàn ăn nhỏ với đúng một chiếc ghế. Bếp sạch, sạch tới mức không có dấu hiệu từng có ai nấu ăn: chỉ một ấm đun nước điện, một hũ cà phê hòa tan, một chồng mì ly xếp thẳng hàng trong tủ.
+Không có ảnh, không có tranh, không có lấy một chậu cây hay một cuốn sách, cứ như người sống ở đây đã cố tình không để lại một dấu vết nào của bản thân mình.
 
-Không có ảnh. Không có tranh. Không có cây cảnh, không có sách, không có một món đồ trang trí nào. Như thể người sống ở đây đã cố tình không để lại dấu vết gì của chính mình. Chỉ có một góc phòng là khác.
+Chỉ có một góc là khác hẳn. Sát cửa sổ, một chiếc bàn công nghiệp bằng gỗ dày chiếm gần nửa bức tường, trên đó là dàn máy được lắp ráp kỹ lưỡng đến mức gần như là yêu thương: ba màn hình cong xếp hình cánh cung, thùng máy trong suốt có những ống tản nhiệt chất lỏng chạy uốn lượn, bàn phím cơ mà các phím đã mòn bóng đúng ở những chỗ bàn tay hay đặt lên. Bên cạnh, trên một giá đỡ riêng, là chiếc mũ kết nối thần kinh với vòng titan mảnh, lớp đệm đã sờn đi vì dùng nhiều.
 
-Sát cửa sổ, một chiếc bàn công nghiệp bằng gỗ dày chiếm gần nửa bức tường. Trên đó là một dàn máy được lắp ráp cẩn thận đến mức gần như yêu thương: ba màn hình cong xếp hình cánh cung, thùng máy trong suốt có ống tản nhiệt chất lỏng chạy uốn lượn, bàn phím cơ với những phím đã mòn bóng ở đúng những vị trí bàn tay đặt lên. Cạnh đó, trên một giá đỡ riêng, là một chiếc mũ kết nối thần kinh: vòng titan mảnh, lớp đệm đã sờn vì dùng nhiều.
+Elias đặt tay lên lưng ghế. Lớp da đã lún xuống theo hình dáng một cơ thể, cơ thể của anh. Đây mới là nơi anh thật sự sống, anh nghĩ, không phải căn hộ này mà là chiếc ghế này.
 
-Elias bước tới, đặt tay lên lưng ghế. Lớp da đã lún theo hình một cơ thể. Cơ thể của anh.
+Anh chưa ngồi xuống vội. Anh quay ra lục soát cả căn hộ, có hệ thống, từ trái sang phải, từ trên xuống dưới. Tủ quần áo có năm chiếc áo thun màu tối, hai chiếc quần jean, một chiếc áo khoác gió, tất cả cùng một kiểu như thể chúng được mua một lần cho xong chuyện. Ngăn kéo bàn có dây cáp, ốc vít, một cái tua vít và một hộp thuốc giảm đau đã hết một nửa. Trong tủ thuốc nhà tắm có ba lọ thuốc ngủ kê đơn, tên bác sĩ in trên nhãn là *Dr. M. Pruitt, Phòng khám Liên kết Halloway*.
 
-Đây là nơi anh đã sống. Ở chiếc ghế này.
+Lại là cái tên Halloway.
 
-Anh không ngồi xuống. Chưa. Anh quay lại và bắt đầu lục soát, cũng có hệ thống như lúc ở bệnh viện, từ trái sang phải, từ trên xuống dưới. Tủ quần áo: năm cái áo thun màu tối, hai quần jean, một áo khoác gió, tất cả đều cùng một kiểu như thể được mua một lần cho xong. Ngăn kéo bàn: dây cáp, ốc vít, một tuốc nơ vít, một hộp thuốc giảm đau đã hết nửa. Tủ thuốc trong nhà tắm: thuốc ngủ kê đơn, ba lọ, tên bác sĩ in trên nhãn là *Dr. M. Pruitt — Phòng khám Liên kết Halloway*.
-
-Halloway. Lại là cái tên đó. Trên tủ đầu giường có một cuốn sổ bìa đen.
-
-Anh mở nó ra. Những trang đầu ghi ngày tháng, mỗi trang một ngày, chữ nghiêng sang phải, đôi chỗ run như viết trong bóng tối.
+Trên tủ đầu giường có một cuốn sổ bìa đen. Anh mở ra, những trang đầu ghi ngày tháng, mỗi trang một ngày, chữ nghiêng sang phải, có chỗ run run như viết trong bóng tối.
 
 > *14/3. Lại mơ thấy nó. Rèm cửa bắt lửa. Mình đứng trong góc không dám kêu. Bà ấy chạy vào. Bà ấy không chạy ra.*
 
-> *2/4. Ba đêm liền. Uống hai viên thay vì một. Không có tác dụng.*
+> *2/4. Ba đêm liền. Uống hai viên thay vì một. Không ăn thua.*
 
-> *19/5. Bác sĩ Pruitt bảo đó là ký ức sang chấn, bình thường thôi, trẻ mồ côi nào gây ra cái chết của người nuôi mình cũng mang nó suốt đời. Ông ta nói "gây ra" như nói thời tiết.*
+> *19/5. Bác sĩ Pruitt bảo đó là ký ức sang chấn, bình thường thôi, đứa trẻ mồ côi nào gây ra cái chết của người nuôi mình cũng mang nó suốt đời. Ông ta nói chữ "gây ra" nhẹ tênh như nói chuyện thời tiết.*
 
-> *30/6. Có lúc mình nghĩ nếu ai đó lấy được thứ này ra khỏi đầu mình, mình sẽ đưa họ bất cứ thứ gì.*
+> *30/6. Có lúc mình nghĩ nếu ai lấy được thứ này ra khỏi đầu mình thì mình sẽ đưa họ bất cứ thứ gì.*
 
-Elias ngồi xuống mép giường.
+Elias ngồi xuống mép giường. Những dòng chữ ấy là của anh, tay anh biết điều đó, nhưng nỗi đau trong đó thì anh không nhớ. Anh đọc chúng như đọc nhật ký của một người khác, vậy mà ngực anh vẫn thắt lại.
 
-Những dòng chữ là của anh. Anh biết vì tay anh. Nhưng nỗi đau trong đó, anh không nhớ được. Anh đọc nó như đọc nhật ký của một người lạ. Và dù vậy, ngực anh vẫn thắt lại.
+Giữa những trang cuối có kẹp một tấm ảnh in đã cũ, góc quăn lại, chụp một ngôi nhà gỗ hai tầng cháy rụi chỉ còn trơ khung đen, ống khói gạch đứng một mình giữa đống tro. Mặt sau có dòng bút chì, nét chữ của người lớn chứ không phải của anh: *Nhà của gia đình Ashford. Tháng 11/2003.*
 
-Có một tấm ảnh kẹp giữa những trang cuối. Một tấm ảnh in, cũ, góc đã quăn. Một ngôi nhà gỗ hai tầng cháy rụi, chỉ còn trơ lại khung đen và ống khói gạch đứng một mình giữa đống tro. Mặt sau có ghi bằng bút chì, nét chữ của người lớn, không phải của anh: *Nhà của gia đình Ashford. Tháng 11/2003.*
+Một ký ức, hoặc một thứ gì đó giả làm ký ức. Anh lật đi lật lại tấm ảnh, ngôi nhà không gợi lên trong anh điều gì, nhưng cảm giác tội lỗi thì có, và nó không đến từ hình ảnh. Nó đến từ một nơi sâu hơn trong cơ thể, nơi không cần hiểu mà vẫn biết đau.
 
-Một ký ức. Hoặc thứ gì đó giả làm ký ức. Anh lật đi lật lại tấm ảnh. Ngôi nhà không gợi lên điều gì. Nhưng cái cảm giác tội lỗi thì có. Nó không đến từ hình ảnh. Nó đến từ sâu hơn, từ một nơi trong cơ thể không cần hiểu mà vẫn biết đau.
+Anh kẹp tấm ảnh trở lại vào sổ, gấp sổ lại rồi bước tới bên cửa sổ.
 
-Anh để tấm ảnh lại vào sổ. Gấp sổ lại. Rồi anh nhìn qua cửa sổ.
-
-Bên dưới, bên kia đường, chiếc sedan đen đỗ sát lề. Đèn tắt. Máy tắt. Mưa chảy thành vệt trên kính chắn gió mà không ai gạt. Nó đã đỗ đó mười bảy phút rồi, theo đồng hồ treo tường. Anh biết vì anh đã đếm từ lúc bước vào.
-
-Chúng không lên. Chúng không gõ cửa. Chúng chỉ đợi.
+Chiếc sedan đen đang đỗ sát lề bên kia đường, đèn tắt, máy tắt, nước mưa chảy thành vệt trên kính chắn gió mà không ai gạt. Theo cái đồng hồ treo tường thì nó đã đỗ ở đó mười bảy phút, anh biết vì anh đã đếm từ lúc bước vào cửa. Họ không lên, cũng không gõ cửa, họ chỉ chờ.
 
 Elias kéo rèm lại.
 
 ---
 
-Anh tìm thấy nó khi đang lục gầm giường.
+Anh tìm thấy nó khi đang lục gầm giường: một hộp giày các-tông, nắp dán băng dính kín mít. Bên trong có một xấp tiền mặt chừng hai nghìn đô buộc dây chun, một chiếc điện thoại cũ đã tắt nguồn với màn hình nứt một góc, một chiếc huy chương kim loại khắc dòng chữ *VANGUARD LEAGUE — VÔ ĐỊCH KHU VỰC ĐÔNG BẮC — MÙA ĐÔNG 2022*, và một tập giấy đóng bìa xanh.
 
-Một hộp giày các-tông, nắp dán băng dính. Bên trong có mấy thứ: một xấp tiền mặt, khoảng hai nghìn đô, buộc dây chun. Một chiếc điện thoại cũ đã tắt nguồn, màn hình nứt một góc. Một chiếc huy chương bằng kim loại khắc dòng chữ *VANGUARD LEAGUE — VÔ ĐỊCH KHU VỰC ĐÔNG BẮC — MÙA ĐÔNG 2022*. Và một tập giấy đóng bìa xanh. Anh lật trang đầu.
+Anh lật trang đầu.
 
 > **HỢP ĐỒNG THAM GIA THỬ NGHIỆM ĐỒNG BỘ NHẬN THỨC NÂNG CAO**
 > **Bên A:** Halloway Neuro-Systems, Bộ phận Nghiên cứu Đặc biệt.
 > **Bên B:** Elias Vane.
 
-Những trang tiếp theo dày đặc điều khoản. Rủi ro thần kinh. Miễn trừ trách nhiệm. Bảo mật tuyệt đối. Anh lướt qua tất cả, mắt bắt lấy những cụm từ như bắt mồi: *"đồng bộ hóa đa tầng"*, *"vượt ngưỡng nhận thức tiêu chuẩn"*, *"Bên B tự nguyện và được thông tin đầy đủ"*.
-
-Rồi đến trang cuối. Mục *Quyền lợi của Bên B*:
+Những trang tiếp theo dày đặc điều khoản: rủi ro thần kinh, miễn trừ trách nhiệm, bảo mật tuyệt đối. Anh lướt qua tất cả, mắt chỉ bắt được vài cụm từ như *đồng bộ hóa đa tầng*, *vượt ngưỡng nhận thức tiêu chuẩn*, *Bên B tự nguyện và đã được thông tin đầy đủ*. Rồi tới trang cuối, mục quyền lợi của Bên B:
 
 > *1. Thù lao: 400.000 USD.*
-> *2. Bên A cam kết, sau khi hoàn tất thử nghiệm, thực hiện liệu trình tái cấu trúc ký ức nhằm* ***xóa bỏ vĩnh viễn*** *các ký ức sang chấn tái diễn của Bên B (hồ sơ tham chiếu: Ashford/2003).*
+> *2. Sau khi hoàn tất thử nghiệm, Bên A cam kết thực hiện liệu trình tái cấu trúc ký ức nhằm* ***xóa bỏ vĩnh viễn*** *các ký ức sang chấn tái diễn của Bên B (hồ sơ tham chiếu: Ashford/2003).*
 
-Bên dưới là chữ ký. Nét chữ nghiêng sang phải, ngày 14/8/2024. Elias ngồi yên rất lâu với tập giấy trên đùi.
+Bên dưới là chữ ký nghiêng sang phải, đề ngày 14/8/2024.
 
-Anh đã ký. Anh đã tự bước vào đó. Xấp tiền trong hộp cho thấy anh chẳng tiêu gì, nên tiền chưa bao giờ là lý do. Lý do nằm ở dòng thứ hai. Vì lời hứa rằng người ta sẽ lấy cơn ác mộng ra khỏi đầu anh.
+Elias ngồi lặng đi rất lâu với tập giấy trên đùi. Anh đã ký vào đây, đã tự nguyện bước vào. Tiền chẳng phải lý do, xấp tiền trong hộp cho thấy anh có tiêu gì đâu. Lý do nằm ở dòng thứ hai, ở lời hứa rằng người ta sẽ lấy cơn ác mộng ra khỏi đầu anh.
 
-Và họ đã giữ lời, theo một cách nào đó. Cơn ác mộng không còn nữa. Cùng với tất cả những thứ khác.
+Mà họ giữ lời thật, theo một cách nào đó. Cơn ác mộng không còn nữa, cùng với tất cả mọi thứ khác.
 
-Anh bật cười, một tiếng khô khốc, ngắn, vang lên trong căn phòng trống. Nó nghe xa lạ đến mức anh dừng lại ngay.
-
-*Ai đó lấy được thứ này ra khỏi đầu mình, mình sẽ đưa họ bất cứ thứ gì.*
-
-Anh đã đưa họ tất cả.
+Anh bật cười, một tiếng khô khốc và ngắn ngủn vang lên trong căn phòng trống, nghe lạ tai đến mức chính anh cũng phải dừng lại. Anh nhớ dòng chữ trong cuốn nhật ký, *nếu ai lấy được thứ này ra khỏi đầu mình thì mình sẽ đưa họ bất cứ thứ gì*, và anh nghĩ, mình đã đưa họ tất cả rồi đấy thôi.
 
 ---
 
-Chiếc điện thoại cũ vẫn còn pin sau khi cắm sạc mười phút. Màn hình sáng lên, hỏi mật khẩu. Ngón tay anh tự gõ sáu con số mà anh không biết mình biết. Màn hình mở khóa. Có hai trăm mười bốn thông báo.
+Cắm sạc mười phút thì chiếc điện thoại cũ sáng lên, đòi mật khẩu. Ngón tay anh tự gõ sáu con số mà anh không biết là mình biết, và màn hình mở khóa.
 
-Phần lớn là từ một ứng dụng nhắn tin có biểu tượng một con quạ đen. Một nhóm chat tên *TỔ QUẠ 🐦‍⬛*. Anh mở ra, lướt từ dưới lên.
+Có hai trăm mười bốn thông báo, phần lớn từ một ứng dụng nhắn tin có biểu tượng con quạ đen, trong một nhóm chat tên *TỔ QUẠ 🐦‍⬛*. Anh mở ra, lướt từ dưới lên.
 
 > **Viper_99:** VANE. Mày đâu rồi.
 > **Viper_99:** 3 ngày rồi đấy thằng kia
-> **Cipher_Lin:** chắc ổng lại ngủ quên trong game rồi
-> **Cipher_Lin:** ...lần trước ổng ngủ quên 2 ngày thật đấy, không đùa đâu
+> **Cipher_Lin:** chắc ổng lại ngủ quên trong game r
+> **Cipher_Lin:** lần trước ổng ngủ quên 2 ngày thật đấy, ko đùa đâu
 > **Ghost_Kev:** Tín hiệu của cậu ấy trên bảng xếp hạng Vanguard biến mất lúc 14h ngày 21/8.
 > **Ghost_Kev:** Không phải ngủ quên.
 > **Viper_99:** Kev đừng nói kiểu đó
 > **Cipher_Lin:** ...
 > **Cipher_Lin:** anh Eli ơi trả lời đi mà
 > **Viper_99:** tao gọi bệnh viện rồi. Họ bảo không có bệnh nhân nào tên đó
-> **Ghost_Kev:** Tôi tìm được một tin đồn trên một diễn đàn. Có người bảo cậu ấy ký hợp đồng thử nghiệm với Halloway.
+> **Ghost_Kev:** Tôi đọc được một tin đồn trên diễn đàn. Có người bảo cậu ấy ký hợp đồng thử nghiệm với Halloway.
 > **Viper_99:** cái GÌ
-> **Cipher_Lin:** không. anh ấy ghét Halloway mà
-> **Ghost_Kev:** Có thể không ghét bằng ghét những cơn ác mộng.
+> **Cipher_Lin:** ko đời nào. ổng ghét Halloway mà
+> **Ghost_Kev:** Có thể không ghét bằng ghét mấy cơn ác mộng.
 
-Elias dừng lại ở dòng cuối.
+Elias dừng lại ở dòng cuối. Những người này biết về cơn ác mộng của anh, họ biết anh rõ hơn chính anh lúc này. Anh kéo xuống tin nhắn mới nhất, gửi từ sáng nay.
 
-Họ biết. Những người này biết về cơn ác mộng. Họ biết anh nhiều hơn chính anh lúc này.
+> **Cipher_Lin:** ngày thứ 11. tối nay em vẫn mở Tổ như mọi khi. nếu anh về thì cứ vào nha. ko ai trách anh đâu.
 
-Anh kéo xuống cuối. Tin nhắn mới nhất là của sáng hôm nay.
+Có thứ gì đó nóng lên sau mắt anh. Anh không biết những người này là ai, không nhớ giọng nói hay khuôn mặt họ, nhưng có ba con người đã chờ anh suốt mười một ngày, và vẫn đang chờ.
 
-> **Cipher_Lin:** ngày thứ 11. tối nay em vẫn mở Tổ như mọi khi. nếu anh về thì cứ vào nhé. không ai trách anh đâu.
+Ngón tay anh dừng lơ lửng trên bàn phím. Anh nên viết gì đây? Rằng tôi không nhớ các bạn là ai? Rằng tôi vừa bị xóa sạch? Rằng có một chiếc xe đen đang đậu dưới nhà tôi?
 
-Có thứ gì đó nóng lên sau mắt anh. Anh không biết những người này là ai. Anh không nhớ giọng họ, mặt họ. Nhưng có ba người đã đợi anh mười một ngày, và vẫn đang đợi.
-
-Ngón tay anh lơ lửng trên bàn phím. Anh nên viết gì? *Tôi không nhớ các bạn là ai*? *Tôi vừa bị xóa sạch*? *Có một chiếc xe đen đang đỗ dưới nhà tôi*? Anh gõ:
+Cuối cùng anh chỉ gõ:
 
 > **Elias:** Tôi về rồi.
 
-Ba dấu chấm hiện lên gần như ngay lập tức. Rồi biến mất. Rồi lại hiện lên. Một loạt tin nhắn đổ xuống nhanh tới mức màn hình rung liên tục.
+Ba dấu chấm hiện lên gần như ngay tức khắc, rồi tắt, rồi lại hiện, và một loạt tin nhắn đổ xuống nhanh đến mức điện thoại rung liên hồi trong tay anh.
 
 > **Cipher_Lin:** !!!!!!!!!!
 > **Viper_99:** VANE
-> **Viper_99:** THẰNG CHẾT TIỆT
+> **Viper_99:** THẰNG KHỈ GIÓ
 > **Viper_99:** MÀY Ở ĐÂU
 > **Ghost_Kev:** Cậu ổn không.
 > **Cipher_Lin:** vào Tổ đi. ngay bây giờ. em mở cửa rồi
 
-Elias nhìn dàn máy bên cửa sổ. Nhìn chiếc mũ kết nối nằm trên giá. Nhìn bàn phím đã mòn theo hình những ngón tay anh.
-
-Anh vừa mới thoát khỏi một cỗ máy đã ăn mất cuộc đời anh. Đội mũ đó vào lúc này nghe như một ý tưởng tồi. Nhưng ba người kia là những người duy nhất trên đời có thể nói cho anh biết anh là ai. Và có thể, họ sẽ giúp anh tìm cô. Anh gõ:
+Elias nhìn dàn máy bên cửa sổ, nhìn chiếc mũ kết nối nằm trên giá, nhìn bàn phím đã mòn theo hình những ngón tay của chính mình. Anh vừa mới thoát ra khỏi một cỗ máy đã ăn mất cả cuộc đời anh, và đội cái mũ đó lên đầu vào lúc này nghe chẳng khôn ngoan chút nào. Nhưng ba người kia là những người duy nhất trên đời có thể cho anh biết anh là ai, và biết đâu, họ có thể giúp anh tìm ra cô.
 
 > **Elias:** Năm phút.
 
-Anh đứng dậy, đi tới bên cửa sổ, vén một góc rèm. Chiếc sedan vẫn đỗ đó. Một đốm sáng đỏ nhỏ lóe lên rồi tắt sau tấm kính chắn gió: ai đó vừa châm thuốc. Elias buông rèm, quay lại, và lần đầu tiên ngồi xuống chiếc ghế của chính mình.
+Anh đứng dậy, bước tới cửa sổ, vén một góc rèm. Chiếc sedan vẫn đỗ đó, và sau lớp kính chắn gió, một đốm lửa đỏ nhỏ lóe lên rồi tắt, ai đó vừa châm điếu thuốc.
 
-Lớp da lún xuống vừa khít.
+Elias buông rèm xuống, quay lại, và lần đầu tiên ngồi xuống chiếc ghế của chính mình. Lớp da lún xuống vừa khít.
