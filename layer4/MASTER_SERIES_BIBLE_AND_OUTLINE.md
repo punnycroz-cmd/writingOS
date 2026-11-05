@@ -1,3 +1,5 @@
+> ⚠️ **ĐÃ CŨ (11/2026):** cốt truyện, thông số các tầng giấc mơ và tuyến tình cảm trong file này đã được thay bằng `CANON_V2_CAI_TEN_CON_SONG_SOT.md` và `DAN_Y_TAP1_V2.md`. Khi có mâu thuẫn, theo CANON V2.
+
 # MASTER STORY ARCHITECTURE & SERIES BIBLE
 ## *THE NAME THAT SURVIVED* (DỰ ÁN: LAYER 4 SERIES)
 
