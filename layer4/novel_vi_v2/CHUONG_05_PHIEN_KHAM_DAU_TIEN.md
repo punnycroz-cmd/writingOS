@@ -75,7 +75,7 @@ Nhưng đó không phải cô trong gương. Đó là cô qua đôi mắt của 
 
 *Corwin.*
 
-"Đó là gì vậy?" Elias thì thầm, mắt vẫn nhắm nhưng lông mày đã nhíu lại. "Tôi thấy cô, trong một căn bếp. Tôi chưa bao giờ ở đó cả."
+"Căn bếp ấy," Elias thì thầm, mắt vẫn nhắm nhưng lông mày đã nhíu lại. "Là cô, trong căn bếp ấy. Tôi đã ở trong căn bếp đó hai mươi chín năm." Anh nuốt khan. "Mà tôi chưa bao giờ đặt chân tới đó."
 
 "Không," Lena nói, giọng vỡ ra. "Anh chưa bao giờ ở đó."
 

@@ -1,5 +1,47 @@
 # CHƯƠNG 1: SỰ TỈNH THỨC
 
+Vào năm thứ hai mươi chín của một cuộc đời không phải của mình, Elias nhận ra cái đồng hồ trong bếp không có số.
+
+Nó vẫn treo ở chỗ cũ, phía trên tủ lạnh, mặt tròn viền nhựa trắng, kim giây vẫn nhích từng nấc đều đặn. Có điều chỗ của những con số chỉ là một vòng trắng trơn. Anh đứng nhìn nó, cốc cà phê nguội dần trong tay, cố nhớ xem nó đã như thế từ bao giờ, mà nhớ không ra. Anh chỉ biết rằng suốt hai mươi chín năm, sáng nào anh cũng liếc lên cái đồng hồ ấy, và chưa sáng nào anh biết là mấy giờ. Cà phê thì lúc nào cũng hơi mặn, và anh cũng chưa bao giờ thắc mắc vì sao.
+
+Căn bếp sơn màu vàng, cái màu vàng của miếng bơ để quên ngoài trời. Rèm cửa kẻ caro xanh. Trên bệ cửa sổ có một chậu húng quế héo mất một nửa, và hai mươi chín năm nay nó vẫn héo đúng một nửa ấy, chẳng chết hẳn mà cũng chẳng tươi lên. Anh chưa tưới nó lần nào. Anh cũng chưa thấy ai tưới.
+
+Người phụ nữ đứng bên cửa sổ quay lại.
+
+Lúc nào cô ấy cũng quay lại đúng vào lúc này. Tóc đen búi lỏng, chiếc áo len xám rộng thùng thình xắn tay tới khuỷu, cốc cà phê ôm bằng cả hai tay như để sưởi. Cô cười, một nụ cười thoải mái, chẳng đề phòng gì, cái nụ cười mà theo anh nhớ thì anh đã được thấy hơn mười nghìn buổi sáng. Anh chưa bao giờ hỏi tên cô. Ở đâu đó trong anh có một linh cảm rằng nếu anh hỏi thì sẽ có thứ gì đó vỡ ra.
+
+Sáng hôm ấy, đang cười thì khuôn mặt cô thay đổi.
+
+Chỉ trong nửa giây. Đường nét co lại, nhỏ đi, gò má lấm một vệt xám, mái tóc cắt ngang vai lởm chởm như tự cắt bằng kéo, và người phụ nữ ấy thành một cô bé chín tuổi đang hét. Anh không nghe thấy tiếng hét. Anh chỉ thấy cái miệng mở to và đôi mắt đen nhìn thẳng vào anh, như thể trên đời này anh là thứ duy nhất cô bé cần nhìn thấy.
+
+Rồi cô lại là người phụ nữ cầm cốc cà phê, lại đang cười, như chưa có chuyện gì xảy ra.
+
+Và lần đầu tiên sau hai mươi chín năm, anh để ý thấy cô không cười với anh. Cô nhìn qua vai anh, về phía cửa bếp, nơi chẳng có ai đứng cả.
+
+Cái cốc trong tay anh rơi xuống sàn. Nó không vỡ. Nó cứ nằm nghiêng ở đó, mà cà phê chẳng chảy ra giọt nào.
+
+Đúng lúc ấy, bức tường sau lưng anh vang lên tiếng gõ.
+
+Ba tiếng nhanh. Hai tiếng chậm.
+
+Anh quay lại. Bức tường sau bếp lò là tường ngoài, bên kia chỉ có khoảng sân con và cái hàng rào gỗ. Không có ai ở đó. Không thể có ai ở đó được.
+
+Ba nhanh. Hai chậm.
+
+Anh biết tiếng gõ ấy. Cả đời anh chưa từng nghe nó.
+
+Tay anh tự đưa lên trước cả khi anh kịp nghĩ. Các khớp ngón tay chạm vào lớp sơn vàng, và anh gõ đáp lại, ba nhanh, hai chậm, nhịp nhàng như người đã gõ thế cả nghìn lần. Bức tường ấm. Rồi nóng dần. Lớp sơn dưới tay anh phồng lên thành những bọng nhỏ, nứt ra, và từ các khe nứt có khói luồn ra, mảnh như sợi chỉ.
+
+"Anh yêu?" người phụ nữ bên cửa sổ gọi, vẫn nhìn về phía cửa bếp trống trơn. Hơi nước bốc lên từ cốc cà phê của cô đã đặc lại thành khói.
+
+Căn bếp bắt đầu bong ra như giấy dán tường cũ, và đằng sau lớp vàng ấy là những thứ khác. Một nhà ga lạ hoắc lúc nửa đêm. Boong một con tàu, nước biển tạt vào mặt mặn chát, dù anh biết chắc mình chưa đặt chân lên tàu bao giờ. Một đứa bé gọi anh là bố. Một người đàn ông gọi anh bằng một cái tên không phải tên anh. Một người phụ nữ hát ru bằng thứ tiếng anh không hiểu. Một hành lang trắng có hai cánh cửa nằm sát cạnh nhau. Ba mươi năm của ai đó, của nhiều ai đó, xếp chồng lên nhau như những tấm kính, giờ cùng nứt ra một lúc.
+
+Rồi lửa, lửa ở khắp nơi, liếm lên trần nhà và nuốt trọn mọi thứ.
+
+Anh với tay vào giữa đám cháy. Căn bếp thì anh không giữ được, người phụ nữ kia cũng không. Anh chỉ kịp chộp lấy một thứ: đôi môi cô bé chín tuổi giữa làn khói, đang mấp máy thành một cái tên.
+
+---
+
 Thứ đầu tiên quay trở lại là tiếng ồn, một tiếng vo ve mảnh như sợi chỉ chạy dọc trần nhà rồi luồn xuống tận chân răng. Anh nằm nghe nó rất lâu mới hiểu ra đó là âm thanh, và phải lâu hơn nữa mới nhận ra đó là tiếng đèn huỳnh quang. Sáu mươi hertz, ý nghĩ ấy hiện lên gọn gàng như một con số đọc trên đồng hồ đo, và anh không hiểu tại sao mình lại biết điều đó.
 
 Ngoài con số ấy ra thì anh chẳng biết gì cả.
@@ -12,13 +54,7 @@ Vậy mà vẫn có một thứ còn ở lại.
 
 Năm chữ cái, không kèm theo giọng nói hay mùi hương nào cả, cứ nằm yên giữa lồng ngực anh, nặng và chắc như viên sỏi trong lòng bàn tay một đứa trẻ, thứ mà đứa trẻ nhất định không chịu buông ra dù người lớn có dỗ dành thế nào.
 
-Đi cùng với cái tên là hai khuôn mặt.
-
-Khuôn mặt thứ nhất là một cô bé chừng chín tuổi, tóc đen cắt ngang vai lởm chởm như tự cắt bằng kéo, gò má lấm một vệt xám. Cô bé đang hét. Anh không nghe được tiếng hét ấy, anh chỉ thấy cái miệng mở to và đôi mắt đen nhìn thẳng vào anh, như thể trên đời này anh là thứ duy nhất cô bé cần nhìn thấy.
-
-Khuôn mặt thứ hai là một người phụ nữ gần ba mươi tuổi. Vẫn đôi mắt ấy, vẫn cái cằm hơi nhọn ấy, chỉ là đường nét đã dài ra và trầm xuống. Cô đứng bên một ô cửa sổ, nắng sớm hắt qua vai, tay cầm một cái cốc, và cô đang cười với ai đó ở phía sau người nhìn, một nụ cười thoải mái, không đề phòng gì hết.
-
-Anh không biết họ là ai, nhưng toàn thân anh cứ khăng khăng rằng hai khuôn mặt ấy là cùng một người, và người đó tên là Maren.
+Đi cùng với cái tên là hai khuôn mặt: cô bé chín tuổi đang hét giữa làn khói, và người phụ nữ cầm cốc cà phê bên ô cửa sổ. Căn bếp đã cháy mất, ba mươi năm cũng đã cháy mất, vậy mà hai khuôn mặt ấy vẫn còn đây. Anh không biết họ là ai, nhưng toàn thân anh cứ khăng khăng rằng đó là cùng một người, và người đó tên là Maren.
 
 "Nhịp tim lên một trăm hai," một giọng phụ nữ cất lên đâu đó bên trái. "Sóng não đang ra khỏi Delta. Bác sĩ Bradley ơi, cậu ta đang tỉnh."
 
@@ -54,7 +90,7 @@ Lại là bức tường trắng. "Tôi không biết."
 
 Câu hỏi ấy chạm vào một chỗ nào đó trong đầu anh, và chỗ đó vỡ tung.
 
-Anh đang rơi, rơi xuyên qua những tầng ánh sáng chồng lên nhau mà mỗi tầng là một cuộc đời. Anh năm tuổi, đứng dưới mưa trước một ngôi nhà gỗ. Anh mười bốn tuổi, ngồi trên bậc thềm của một nhà ga lạ hoắc. Anh hai mươi tuổi, đứng trên boong một con tàu, nước biển tạt vào mặt mặn chát, dù anh biết chắc mình chưa bao giờ đặt chân lên tàu. Rồi ba mươi, bốn mươi, những gương mặt lướt qua nhanh quá không giữ lại kịp, có người gọi anh là bố, có người gọi anh bằng một cái tên không phải tên anh. Một người phụ nữ hát ru bằng thứ tiếng anh không hiểu. Một căn bếp sơn màu vàng. Một cô gái cười bên ô cửa sổ. Một hành lang trắng có hai cánh cửa nằm sát nhau. Và lửa, lửa ở khắp nơi, liếm lên trần nhà và nuốt trọn mọi thứ.
+Anh lại thấy căn bếp vàng, lần này từ trên cao, bé xíu, như nhìn xuống đáy một cái giếng, và anh đang rơi về phía nó qua từng tầng ánh sáng, mỗi tầng là một quãng đời. Năm tuổi, đứng dưới mưa trước một ngôi nhà gỗ. Mười bốn tuổi, ngồi trên bậc thềm một nhà ga. Hai mươi, ba mươi, bốn mươi. Những gương mặt lướt qua nhanh tới mức không giữ lại kịp, những cái tên người ta gọi anh mà chẳng cái nào là tên anh, và dưới đáy tất cả vẫn là lửa.
 
 Ba mươi năm. Anh đã sống trọn ba mươi năm trong đó, để rồi chứng kiến tất cả vỡ ra như một tấm kính.
 

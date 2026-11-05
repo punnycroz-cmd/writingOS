@@ -17,6 +17,7 @@
 
 ### Ch.1 — Sự tỉnh thức · POV Elias · 1/9, sáng
 **Mục tiêu:** đặt bí ẩn và cái giá: một người tỉnh dậy chỉ còn một cái tên.
+- **Mở đầu (bản sửa):** "Vào năm thứ hai mươi chín của một cuộc đời không phải của mình, Elias nhận ra cái đồng hồ trong bếp không có số." Căn bếp vàng (thật ra là bếp của Lena và Corwin, mượn từ ký ức Corwin), chậu húng quế héo một nửa, cà phê hơi mặn (gài cho Ch.18). Người phụ nữ bên cửa sổ thoáng biến thành cô bé 9 tuổi; cô gọi "Anh yêu?" về phía cửa bếp trống, không phải gọi anh. Tiếng gõ ba nhanh hai chậm từ bức tường ngoài, anh gõ đáp lại, rồi lửa. Anh chộp lấy cái tên trên môi cô bé, rồi tỉnh dậy.
 - Elias tỉnh dậy ở Trung tâm Y tế Halloway sau 11 ngày hôn mê. Anh đếm vết nứt trên trần để giữ mình tỉnh táo.
 - Ba thứ còn lại trong đầu: cái tên **Maren**, khuôn mặt một cô bé khoảng 9 tuổi, và khuôn mặt một người phụ nữ trưởng thành. Não anh tin chắc hai khuôn mặt là một người.
 - Bác sĩ Bradley giải thích lấp liếm rằng đó là "sự cố đồng bộ". Elias lóe lên một mảnh ký ức: 30 năm của một cuộc đời vỡ vụn, chen lẫn những ký ức không phải của anh.
