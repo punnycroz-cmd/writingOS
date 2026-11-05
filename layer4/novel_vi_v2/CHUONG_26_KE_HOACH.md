@@ -1,165 +1,157 @@
 # CHƯƠNG 26: KẾ HOẠCH
 
-Nút chuyển tiếp nằm dưới đáy biển, ở độ sâu một trăm bốn mươi mét, cách mũi đất mười bốn cây số về phía đông bắc. Kev chưa bao giờ thấy nó, và sẽ không bao giờ thấy nó. Anh chỉ biết nó qua những con số: độ trễ tín hiệu, băng thông, nhiệt độ hoạt động. Nó là một cái hộp thép to bằng chiếc tủ lạnh, nằm trong bóng tối, chia dòng dữ liệu làm hai nhánh như một ngã ba đường.
+Cái nút chuyển tiếp nằm dưới đáy biển ở độ sâu một trăm bốn mươi mét, cách mũi đất mười bốn cây số về phía đông bắc. Kev chưa bao giờ nhìn thấy nó, và sẽ chẳng bao giờ nhìn thấy nó. Anh chỉ biết nó qua những con số: độ trễ tín hiệu, băng thông, nhiệt độ hoạt động. Nó là một cái hộp thép to bằng cái tủ lạnh, nằm trong bóng tối, chia dòng dữ liệu ra làm hai nhánh như một ngã ba đường, một nhánh về đất liền, một nhánh ra khơi.
 
-Một nhánh về đất liền. Một nhánh ra khơi. Anh mất bốn ngày để mở được nó.
-
-Không, không đúng. Anh mất hai ngày để mở được nó. Hai ngày còn lại là để chắc chắn rằng không ai ở đầu bên kia biết là nó đã bị mở. Linh nói anh hoang tưởng. Anh nói đó là lý do anh còn sống.
+Anh mất bốn ngày để mở được nó. Nói cho chính xác thì hai ngày để mở, hai ngày còn lại là để chắc chắn rằng người ở đầu bên kia không hề biết nó đã bị mở. Linh bảo anh hoang tưởng. Anh bảo nhờ thế mà anh mới còn sống.
 
 ---
 
-Ngày mùng bảy tháng Mười, hai giờ mười lăm sáng, Nyx gửi cho anh một tin nhắn trực tiếp.
-
-Lần này nó đến thẳng máy của anh, không qua Lena. Qua đường hầm Reykjavik mà anh đã tự tay dựng, mà anh tin là không ai biết.
+Hai giờ mười lăm sáng ngày mùng bảy tháng Mười, Nyx gửi cho anh một tin nhắn, không phải qua máy của Lena mà thẳng tới máy của anh, qua cái đường hầm Reykjavik mà chính tay anh dựng nên và anh vẫn tin là không ai biết.
 
 > **[N]:** Anh dựng đường hầm đẹp đấy. Gần bằng tôi.
 
-Kev nhìn tin nhắn đó rất lâu. Anh ta cảm thấy một thứ gì đó lạnh chạy dọc sống lưng, kiểu cảm giác của người lính vừa nhận ra mình đã bị ngắm từ trước, từ lâu, mà không biết. Anh gõ:
+Kev nhìn tin nhắn ấy rất lâu, cảm thấy một luồng lạnh chạy dọc sống lưng, cái cảm giác của người lính vừa nhận ra mình đã nằm trong ống ngắm của ai đó từ rất lâu mà không hề hay biết.
+
+Anh gõ:
 
 > **Kev:** Cô muốn gì.
 
-> **[N]:** Muốn đưa cho anh thứ Thomas để lại. Mật khẩu đã được nói rồi. Tôi giữ lời.
+> **[N]:** Muốn đưa cho anh thứ Thomas để lại. Mật khẩu đã được nói ra rồi. Tôi giữ lời.
 
-Một đường dẫn hiện ra. Một kho lưu trữ, nặng hai mươi ba gigabyte, mã hóa ba lớp.
+Một đường dẫn hiện lên, một kho lưu trữ nặng hai mươi ba gigabyte, mã hóa ba lớp.
 
-Kev không mở nó ngay. Anh chạy nó qua bốn chương trình quét, trên một máy tính cách ly mà anh đã mang theo đúng cho trường hợp này. Bốn tiếng. Không có gì. Không mã độc, không thiết bị theo dõi, không có gì ngoài dữ liệu.
-
-Lúc sáu giờ sáng, khi trời ngoài cửa khối bê tông bắt đầu chuyển sang màu xám bạc, anh mở nó ra.
+Kev không mở ngay. Anh cho nó chạy qua bốn chương trình quét trên một cái máy tính cách ly mà anh mang theo đúng cho những lúc thế này. Bốn tiếng đồng hồ, chẳng có gì cả, không mã độc, không thứ gì theo dõi, chỉ có dữ liệu. Sáu giờ sáng, khi trời ngoài cửa khối bê tông bắt đầu ngả sang màu xám bạc, anh mới mở nó ra.
 
 ---
 
-Kho lưu trữ của Thomas Daly là mười năm làm việc của một cảnh sát không tin vào hồ sơ chính thức.
+Kho lưu trữ của Thomas Daly là mười năm làm việc của một người cảnh sát không tin vào hồ sơ chính thức.
 
-Những bản sao báo cáo cứu hỏa năm 2004 trước khi bị niêm phong. Những bức ảnh chụp lén hiện trường Prometheus từ con đường đất phía sau, chụp lúc năm giờ sáng ngày mười lăm tháng Mười, khi khói vẫn còn bốc lên. Những ghi chép phỏng vấn ba kỹ thuật viên cũ của viện, hai người trong số đó đã chết trong vòng một năm sau đó. Một danh sách tên của các "đối tượng phụ". Hai tới năm. Ba đứa trẻ. Đã được chuyển sang "Phân khu 9" từ tháng Tám năm 2004.
+Những bản sao báo cáo cứu hỏa năm 2004 trước khi bị niêm phong. Những tấm ảnh chụp lén hiện trường Prometheus từ con đường đất phía sau, chụp lúc năm giờ sáng ngày mười lăm tháng Mười, khói vẫn còn bốc lên nghi ngút. Những ghi chép phỏng vấn ba kỹ thuật viên cũ của viện, hai người trong số đó đã chết chưa đầy một năm sau. Một danh sách tên của các "đối tượng phụ" từ số hai tới số năm, ba đứa trẻ, đã được chuyển sang "Phân khu 9" từ tháng Tám năm 2004.
 
-Kev đọc danh sách đó hai lần. Anh ghi nhớ ba cái tên. Anh không nói với ai về chúng, chưa. Không phải bây giờ.
+Kev đọc danh sách đó hai lần và nhớ kỹ ba cái tên. Anh không nói với ai về chúng, chưa phải bây giờ.
 
-Rồi anh tìm thấy thư mục cuối cùng. Ngày tạo: mùng hai tháng Năm, năm 2012. Mười hai ngày trước khi Thomas chết.
+Rồi anh tìm thấy thư mục cuối cùng, ngày tạo là mùng hai tháng Năm năm 2012, mười hai ngày trước khi Thomas mất.
 
 *ECHO / HALLOWAY / GIÁM SÁT.*
 
-Bên trong là những đoạn ghi âm. Thomas đã ghi lại chính chiếc điện thoại của mình. Ông đã đặt một máy ghi âm cũ cạnh chiếc điện thoại có Echo, trong phòng ngủ, ba đêm liền, trong lúc ông giả vờ ngủ. Rồi ông phân tích lưu lượng dữ liệu mà chiếc điện thoại gửi đi. Những dòng ghi chú tay của ông, scan lại, nằm cạnh mỗi đoạn ghi âm:
+Bên trong là những đoạn ghi âm. Thomas đã ghi âm lại chính chiếc điện thoại của mình. Ông đặt một cái máy ghi âm cũ cạnh chiếc điện thoại có Echo trong phòng ngủ, ba đêm liền, trong lúc giả vờ ngủ, rồi phân tích lượng dữ liệu mà chiếc điện thoại gửi đi. Những dòng ghi chú viết tay của ông, được scan lại, nằm cạnh mỗi đoạn ghi âm:
 
-*Đêm 1: Echo gửi 340MB dữ liệu lúc 3h sáng. Tôi không dùng điện thoại suốt đêm.*
+*Đêm 1: Echo gửi đi 340MB dữ liệu lúc 3h sáng. Tôi không hề dùng điện thoại suốt đêm.*
 
-*Đêm 2: Nói chuyện với Ruth về N. trong phòng ngủ (cố ý, để thử). 4 phút sau, Echo gửi một gói dữ liệu nhỏ tới một địa chỉ IP thuộc Halloway Neuro-Systems. Một máy chủ riêng, tách khỏi hệ thống Echo chung.*
+*Đêm 2: Nói chuyện với Ruth về N. trong phòng ngủ (cố ý, để thử). 4 phút sau, Echo gửi một gói dữ liệu nhỏ tới một địa chỉ IP thuộc Halloway Neuro-Systems. Không phải máy chủ Echo chung. Máy chủ riêng.*
 
 *Đêm 3: Tắt Echo. Nó tự bật lại lúc 2h17.*
 
 *Kết luận: Echo không chỉ nghe. Nó chọn những gì nó nghe. Nó biết từ khóa nào cần báo về.*
 
-Kev ngồi lặng trước màn hình.
+Kev ngồi lặng trước màn hình. Cách đó ba mét, con hạc giấy xám của anh đang đậu trên nóc tủ máy chủ, cánh gập lại, mắt tắt, chế độ ngủ, anh để nó như thế từ ngày tới Ashgrove.
 
-Cách đó ba mét, con hạc giấy xám của anh đang đậu trên nóc tủ máy chủ, cánh gập lại, mắt tắt. Chế độ ngủ. Anh đã để nó như vậy từ ngày tới Ashgrove. Anh nhìn nó rất lâu.
+Anh nhìn nó rất lâu, rồi đứng dậy, đi tới nhấc con hạc lên và tắt hẳn nó đi. Không phải để ngủ nữa, mà tắt hẳn. Anh rút luôn phần lõi kết nối ra khỏi khe cắm trên chiếc máy tính nhỏ của mình, thứ mà bảy năm nay anh chưa từng rút ra, kể từ khi rời khỏi chương trình.
 
-Rồi anh đứng dậy, đi tới, nhấc con hạc lên, và tắt nó hẳn. Rút luôn phần lõi kết nối ra khỏi khe cắm trên chiếc máy tính nhỏ của anh, thứ mà anh đã không rút ra suốt bảy năm, kể từ khi rời khỏi chương trình.
-
-Con hạc giấy nằm im trong tay anh. Một mảnh giấy xám gấp khéo léo, nhẹ bẫng.
+Con hạc giấy nằm im lìm trong tay anh, một mảnh giấy xám gấp khéo léo, nhẹ bẫng.
 
 ---
 
-"Họ không chỉ muốn Layer 4," Kev nói.
+"Họ không chỉ muốn có Layer 4," Kev nói.
 
-Năm người ngồi quanh bàn gỗ trong phòng điều khiển. Bên ngoài trời đang mưa. Mưa biển, nặng hạt, quất vào tường bê tông thành những tiếng lộp độp. Viper đã nấu súp cá. Không ai ăn.
+Năm người ngồi quanh chiếc bàn gỗ trong phòng điều khiển. Bên ngoài trời đang mưa, mưa biển nặng hạt quất vào tường bê tông lộp độp. Viper đã nấu súp cá nhưng chẳng ai ăn.
 
-Kev quay laptop về phía họ. Trên màn hình là một tài liệu nội bộ của Halloway Neuro-Systems, lấy từ nhánh dữ liệu dẫn về đất liền mà anh và Linh đã mở được tối qua.
+Kev quay laptop về phía họ. Trên màn hình là một tài liệu nội bộ của Halloway Neuro-Systems mà tối qua anh với Linh lấy được từ cái nhánh dữ liệu dẫn về đất liền.
 
 *SOMNIA 5.0 — RA MẮT 14/10/2024*
 *Tính năng chính: ECHO SÂU*
 
-"Ra mắt ngày mười bốn tháng Mười," Linh nói. "Bả chọn đúng ngày."
+"Ra mắt ngày mười bốn tháng Mười," Linh nói. "Bả chọn đúng ngày đấy."
 
-"Echo Sâu là gì?" Viper hỏi.
+"Echo Sâu là cái gì?" Viper hỏi.
 
-Kev cuộn xuống.
+Kev cuộn xuống. "Hiện tại Echo của mỗi người chạy ở Layer 1, nó nghe, nó học, nó giúp đỡ. Bản 5.0 sẽ cho phép nó truy cập sâu hơn, xuống Layer 2, vào tận ký ức." Anh dừng lại. "Quảng cáo bảo là để giúp người dùng 'sắp xếp lại những ký ức đau buồn', 'nhớ lại những khoảnh khắc đẹp'. Có cả một đoạn video giới thiệu, một bà cụ nhờ Echo của mình tìm lại ký ức về ngày cưới."
 
-"Hiện tại, Echo của mỗi người chạy ở Layer 1, với mọi người dùng," anh nói. "Nó nghe, nó học, nó giúp. Bản 5.0 sẽ cho phép nó truy cập sâu hơn. Xuống Layer 2. Vào ký ức." Anh dừng lại. "Quảng cáo nói là để giúp người dùng 'sắp xếp lại những ký ức đau buồn', 'nhớ lại những khoảnh khắc đẹp'. Có một video demo. Một bà cụ nhờ Echo của mình tìm lại ký ức về ngày cưới."
-
-"Nghe cũng không tệ," Viper nói.
+"Nghe cũng có vẻ hay mà," Viper nói.
 
 "Đọc phần kỹ thuật đi."
 
-Lena đã đọc. Cô là người đầu tiên đọc xong, vì cô hiểu những thuật ngữ đó. Mặt cô trắng bệch.
+Lena đã đọc rồi, cô là người đọc xong đầu tiên vì cô hiểu mấy cái thuật ngữ ấy, và mặt cô trắng bệch.
 
-"Mỗi Echo sẽ là một cổng," cô nói. "Một cổng vào Layer 2 của người dùng. Ba trăm triệu người dùng Somnia. Ba trăm triệu cổng." Cô nhìn Kev. "Và tất cả các cổng đó nối về một chỗ."
+"Mỗi con Echo sẽ là một cánh cổng," cô nói. "Một cánh cổng mở vào Layer 2 của người dùng. Ba trăm triệu người dùng Somnia, là ba trăm triệu cánh cổng." Cô nhìn Kev. "Và tất cả những cánh cổng đó đều nối về một chỗ."
 
 "Mnemosyne," Kev nói.
 
-"Layer 4 có quyền ghi đè mọi tầng bên dưới," Elias nói. Giọng anh trầm. Anh biết điều đó rõ hơn ai hết. "Nếu Mnemosyne chạy được Layer 4 ổn định, và nối vào ba trăm triệu cái cổng…"
+"Layer 4 có quyền ghi đè lên mọi tầng bên dưới," Elias nói, giọng trầm xuống. Anh hiểu điều đó hơn ai hết. "Nếu Mnemosyne chạy được Layer 4 một cách ổn định, rồi nối vào ba trăm triệu cánh cổng ấy..."
 
-Không ai nói hết câu đó. Không cần nói.
+Không ai nói hết câu, mà cũng chẳng cần nói hết.
 
-"Nhưng bả chưa có Layer 4 ổn định," Linh nói. "Đúng không? Anh Eli là người duy nhất từng vào. Và anh ấy suýt chết."
+"Nhưng bả đâu có Layer 4 ổn định," Linh nói. "Đúng không? Anh Eli là người duy nhất từng vào đó, mà anh ấy suýt chết đấy thôi."
 
-Kev cuộn thêm một trang nữa. Một sơ đồ. Hai vòng tròn, nối với nhau bằng một đường thẳng, ở giữa là một biểu tượng hình xoắn kép.
+Kev cuộn thêm một trang nữa, một sơ đồ gồm hai vòng tròn nối với nhau bằng một đường thẳng, chính giữa là biểu tượng chuỗi xoắn kép.
 
 *CẤU HÌNH CẶP — GIAI ĐOẠN 2*
 *Đối tượng Zero (người vận hành) + Đối tượng Một (mỏ neo)*
 *Dự kiến: Layer 4 ổn định 94,7% khi có mỏ neo đồng bộ hai chiều.*
 
-Bên dưới có một dòng ghi chú, ngày tháng là mùng năm tháng Chín. Hai ngày sau khi Halloway tới văn phòng của Lena.
+Bên dưới có một dòng ghi chú, đề ngày mùng năm tháng Chín, hai ngày sau khi Halloway tới văn phòng của Lena.
 
-*Đối tượng Một đã được xác định. Hiện đang ở cùng Đối tượng Zero. Đồng bộ tự nhiên đang diễn ra (xem dữ liệu Alpha-7). KHÔNG CAN THIỆP. Để quá trình tự hoàn thiện.*
+*Đã xác định được Đối tượng Một. Hiện đang ở cùng Đối tượng Zero. Quá trình đồng bộ tự nhiên đang diễn ra (xem dữ liệu Alpha-7). KHÔNG CAN THIỆP. Để quá trình tự hoàn thiện.*
 
-Lena đọc dòng đó, và Kev thấy tay cô siết lại trên mép bàn.
+Lena đọc dòng đó, và Kev thấy tay cô siết chặt lấy mép bàn.
 
-"Họ để tụi mình đi," cô nói. "Từ St. Jude. Tên lính trên thang thoát hiểm rút súng lại. Tôi đã thắc mắc vì sao." Cô bật cười, không vui. "Họ không muốn bắt chúng tôi. Họ muốn chúng tôi ở cạnh nhau. Mỗi lần lặn chung, mỗi lần chúng tôi nhớ lại một chuyện gì đó cùng nhau, chúng tôi đang làm hộ họ."
+"Họ để chúng tôi đi," cô nói. "Ở St. Jude ấy, cái tên lính trên thang thoát hiểm thu súng lại. Tôi đã thắc mắc mãi vì sao." Cô bật cười, chẳng vui vẻ gì. "Họ không muốn bắt chúng tôi. Họ muốn chúng tôi ở cạnh nhau. Mỗi lần lặn chung, mỗi lần chúng tôi cùng nhau nhớ lại một chuyện gì đó, là chúng tôi lại đang làm hộ họ."
 
-"Tín hiệu đã tắt," Elias nói. "Từ hôm ở nhà kho. Họ không còn biết tụi mình ở đâu."
+"Tín hiệu tắt rồi mà," Elias nói. "Từ hôm ở nhà kho. Họ không còn biết mình ở đâu nữa."
 
-"Họ không cần biết," Kev nói. "Không phải bây giờ. Tối ngày mười bốn, khi Somnia 5.0 chạy, họ sẽ cần hai người. Họ sẽ đến tìm."
+"Họ không cần biết," Kev nói. "Không phải bây giờ. Tối ngày mười bốn, lúc Somnia 5.0 chạy, họ mới cần tới hai người. Lúc đó họ sẽ tới tìm."
 
 ---
 
-Kế hoạch được vẽ trên một tấm bản đồ hải đồ cũ mà Viper lật mặt sau lên. Kev vẽ bằng bút bi, những đường thẳng, những mũi tên, những con số giờ giấc ghi chi chít bên lề.
+Kế hoạch được vẽ lên mặt sau một tấm hải đồ cũ mà Viper lật ra. Kev vẽ bằng bút bi, những đường thẳng, những mũi tên, những con số giờ giấc ghi chi chít bên lề.
 
-Mnemosyne, máy chủ thật, không nằm ở trụ sở Halloway trên Đại lộ số Năm. Nó nằm trong một pháo đài Layer 3, một không gian mô phỏng chạy trên phần cứng quân sự ở đâu đó trong đất liền. Nhánh cáp dẫn về đất liền từ nút chuyển tiếp dưới đáy biển là một trong ba đường vào duy nhất.
+Mnemosyne, cái máy chủ thật sự, không nằm ở trụ sở Halloway trên Đại lộ số Năm, mà nằm trong một pháo đài Layer 3, một không gian mô phỏng chạy trên phần cứng quân sự ở đâu đó trong đất liền. Cái nhánh cáp dẫn từ nút chuyển tiếp dưới đáy biển về đất liền là một trong ba lối vào duy nhất.
 
-"Tối mười bốn, mười một giờ bốn lăm," Kev nói. "Mười lăm phút trước khi Somnia 5.0 tự động cập nhật cho ba trăm triệu người. Lúc đó hệ thống của họ đang tập trung vào việc chuẩn bị ra mắt. Phòng thủ mỏng nhất."
+"Tối ngày mười bốn, mười một giờ bốn lăm," Kev nói. "Mười lăm phút trước khi Somnia 5.0 tự động cập nhật cho ba trăm triệu người. Lúc đó hệ thống của họ đang dồn hết sức vào việc chuẩn bị ra mắt, phòng thủ sẽ mỏng nhất."
 
-"Chúng ta vào," Linh nói, chỉ vào sơ đồ. "Anh Eli, anh Viper, anh Kev, em. Bốn người. Layer 3. Lặn từ đây, qua cáp ngầm, vào thẳng pháo đài."
+"Mình vào," Linh nói, chỉ vào sơ đồ. "Anh Eli, anh Viper, anh Kev với em, bốn người. Layer 3. Lặn từ đây, đi theo cáp ngầm, vào thẳng pháo đài."
 
-"Mục tiêu là kho lưu trữ gốc," Kev nói. "Tất cả mọi thứ. Prometheus, Mnemosyne, ghi âm của Thomas, nhật ký Echo, Somnia 5.0. Lấy được thì phát tán. Báo chí, FBI, Bộ Tư pháp, cả ủy ban quốc hội đang điều tra Halloway về chuyện hợp đồng quân sự. Nyx có đường dây tới tất cả."
+"Mục tiêu là kho lưu trữ gốc," Kev nói. "Lấy hết. Prometheus, Mnemosyne, ghi âm của Thomas, nhật ký Echo, Somnia 5.0. Lấy được thì phát tán ra ngoài: báo chí, FBI, Bộ Tư pháp, cả cái ủy ban quốc hội đang điều tra Halloway vụ hợp đồng quân sự. Nyx có đường dây tới tất cả."
 
-"Và trước khi Somnia 5.0 chạy," Lena nói. "Nếu đến nửa đêm mà nó đã chạy, thì có phát tán gì cũng muộn rồi."
+"Mà phải làm trước khi Somnia 5.0 chạy," Lena nói. "Tới nửa đêm mà nó chạy rồi thì có phát tán gì cũng muộn."
 
 "Còn chị?" Linh hỏi.
 
 Mọi người nhìn Lena.
 
-"Tôi ở lại đây," cô nói. "Ngoài đời. Ở bàn điều khiển."
+"Chị ở lại đây," cô nói, "ngoài đời, ở bàn điều khiển."
 
 "Chị không lặn à?"
 
-"Tôi làm mỏ neo." Lena nhìn Elias. "Kev đã tính rồi. Không có mỏ neo, não Elias chỉ chịu được Layer 3 khoảng mười hai phút trước khi bắt đầu chảy máu. Có tôi đồng bộ từ bên ngoài, ba mươi phút."
+"Chị làm mỏ neo." Lena nhìn Elias. "Kev tính rồi. Không có mỏ neo, não Elias chỉ chịu được Layer 3 khoảng mười hai phút là bắt đầu chảy máu. Có chị đồng bộ từ bên ngoài thì được ba mươi phút."
 
-"Đó chính là cái Halloway muốn," Elias nói. Anh đã đứng dậy. "Cô ở cạnh tôi. Đồng bộ với tôi. Nối vào mạng của họ. Đó chính xác là cái sơ đồ trên màn hình."
+"Đó chính xác là cái Halloway muốn," Elias nói, anh đã đứng dậy. "Cô ở cạnh tôi, đồng bộ với tôi, nối vào mạng của họ. Đúng y cái sơ đồ trên màn hình kia."
 
 "Tôi biết."
 
 "Thế thì đừng làm."
 
-"Không có tôi, anh có mười hai phút. Đường vào pháo đài mất tám phút. Mười hai phút không đủ." Lena nói đều đều, như đọc một kết luận giám định. "Có tôi, anh có ba mươi phút. Đủ."
+"Không có tôi, anh chỉ có mười hai phút. Đường vào pháo đài mất tám phút rồi, mười hai phút không đủ đâu." Lena nói đều đều như đang đọc một bản kết luận giám định. "Có tôi thì anh có ba mươi phút. Đủ."
 
 "Tôi không cần đủ. Tôi cần cô không bị kéo vào."
 
-"Elias." Lena đứng dậy, đối diện anh qua bàn. "Họ cần cả hai chúng ta, đúng không? Thế thì đó là thứ duy nhất họ không có. Nếu tôi đồng bộ với anh mà vẫn tỉnh táo, ở ngoài đời, ngồi trước một bàn điều khiển mà tôi kiểm soát, thì họ chỉ có một nửa. Và một nửa thì vô dụng."
+"Elias." Lena đứng dậy, đối diện anh qua mặt bàn. "Họ cần cả hai chúng ta, đúng không? Thế thì đó chính là thứ duy nhất họ không có. Nếu tôi đồng bộ với anh mà vẫn tỉnh táo, ở ngoài đời, ngồi trước một bàn điều khiển do tôi kiểm soát, thì họ chỉ có được một nửa. Mà một nửa thì vô dụng."
 
-"Và nếu họ kéo được cô vào?"
+"Lỡ họ kéo được cô vào thì sao?"
 
-"Thì anh kéo tôi ra." Cô dừng lại. "Như tôi đã kéo anh ra ở nhà kho."
+"Thì anh kéo tôi ra." Cô ngừng một chút. "Như tôi đã kéo anh ra ở nhà kho ấy."
 
-Không ai nói gì. Mưa vẫn quất vào tường bê tông.
+Không ai nói gì, mưa vẫn quất vào tường bê tông.
 
-Kev nhìn hai người qua mặt bàn. Anh đã thấy cảnh này trước đây. Trong cái hộp ánh sáng ấy, hai năm trong một tuần, anh đã thấy những người lính cãi nhau xem ai đi trước vào một cánh cửa có thể có mìn. Người nào cũng muốn đi trước. Không phải vì dũng cảm. Vì không chịu nổi cảnh người kia đi trước.
+Kev nhìn hai người qua mặt bàn. Anh đã từng thấy cảnh này trước đây, trong cái hộp ánh sáng ấy, hai năm trong một tuần. Anh đã thấy những người lính cãi nhau xem ai được đi trước qua một cánh cửa có thể có mìn. Ai cũng muốn đi trước, chẳng phải vì dũng cảm, mà vì không chịu nổi cảnh người kia đi trước.
 
 "Có một điều kiện," Kev nói.
 
 Cả hai quay sang nhìn anh.
 
-"Elias, cậu không được mở Layer 4." Kev nhìn thẳng vào anh. "Dù chuyện gì xảy ra. Dù Halloway đứng ngay trước mặt cậu. Dù cả bốn chúng tôi đều gục. Cậu không mở. Nếu cậu mở, với Lena đang nối vào cậu, thì cậu đang đưa cho họ chính xác cái họ cần."
+"Elias, cậu không được mở Layer 4." Kev nhìn thẳng vào anh. "Dù có chuyện gì xảy ra. Dù Halloway có đứng ngay trước mặt cậu. Dù cả bốn bọn tôi có gục hết. Cậu không được mở. Lena đang nối vào cậu, mà cậu mở ra là cậu dâng cho họ đúng cái thứ họ cần."
 
-Elias nhìn Kev. Rồi nhìn Lena.
+Elias nhìn Kev, rồi nhìn Lena.
 
 "Tôi hứa," anh nói.
 
@@ -169,41 +161,41 @@ Elias quay sang Lena. Cô đang nhìn anh, hai tay chống trên mặt bàn, chi
 
 "Tớ hứa," anh nói, khẽ hơn. "Tớ sẽ không mở Layer 4."
 
-Lena gật đầu một lần. Cô ngồi xuống.
+Lena gật đầu một cái rồi ngồi xuống.
 
-Viper hắng giọng. "Súp nguội rồi," ông ta nói. "Ai muốn ăn thì tao hâm lại."
+Viper hắng giọng. "Súp nguội hết rồi," ông ta nói. "Ai muốn ăn thì tao hâm lại."
 
-Không ai trả lời. Viper đứng dậy hâm lại súp. Đó là cách ông ta đối phó với mọi thứ, và Kev đã bắt đầu hiểu rằng đó không phải là một cách tệ.
+Không ai trả lời, Viper đứng dậy hâm lại súp. Đó là cách ông ta đối phó với mọi chuyện, và Kev bắt đầu hiểu ra rằng đó chẳng phải là một cách tồi.
 
 ---
 
-Tối hôm đó, Kev ngồi một mình trong phòng điều khiển, kiểm tra lại các đường kết nối lần thứ mười một. Điện thoại anh rung lên.
+Tối hôm đó, Kev ngồi một mình trong phòng điều khiển kiểm tra lại các đường kết nối lần thứ mười một, thì điện thoại rung lên.
 
 > **[N]:** Kế hoạch tốt. Có ba lỗ hổng.
 
-Kev nhìn tin nhắn. Anh không ngạc nhiên. Anh đã không còn ngạc nhiên về người này nữa.
+Kev nhìn tin nhắn, chẳng ngạc nhiên gì. Anh đã thôi ngạc nhiên về người này từ lâu rồi.
 
 > **Kev:** Kể đi.
 
-> **[N]:** 1. Họ sẽ không chỉ phòng thủ trong Layer 3. Họ sẽ đến hải đăng. Bằng người thật.
-> **[N]:** 2. Bạn của anh, cô bé có con mèo thổi bong bóng. Cô ấy để lại dấu vết trên nút chuyển tiếp. Nhỏ thôi. Nhưng đủ.
-> **[N]:** 3. Elias Vane sẽ không giữ được lời hứa.
+> **[N]:** 1. Họ không chỉ phòng thủ trong Layer 3 đâu. Họ sẽ tới hải đăng. Bằng người thật.
+> **[N]:** 2. Bạn anh, cô bé có con mèo thổi bong bóng ấy. Cô ấy để lại dấu vết trên nút chuyển tiếp. Nhỏ thôi. Nhưng đủ.
+> **[N]:** 3. Elias Vane sẽ không giữ được lời hứa đâu.
 
 Kev đọc dòng cuối ba lần.
 
 > **Kev:** Sao cô biết.
 
-> **[N]:** Vì tôi đã xem anh ta ngồi chặn một cái ống thông gió năm bảy tuổi. Tôi có bản ghi camera của Prometheus đêm đó. Thomas giữ nó.
-> **[N]:** Người như vậy không thay đổi đâu.
+> **[N]:** Vì tôi đã xem cậu ta ngồi chặn một cái ống thông gió năm bảy tuổi. Tôi có đoạn ghi hình camera của Prometheus đêm hôm đó. Thomas giữ nó.
+> **[N]:** Người như thế không thay đổi đâu.
 
-Kev đặt điện thoại xuống. Anh nhìn ra cánh cửa thép đang đóng, nghe tiếng sóng vỗ ở bên ngoài. Anh cầm điện thoại lên lại.
+Kev đặt điện thoại xuống, nhìn cánh cửa thép đang đóng, nghe tiếng sóng vỗ ngoài kia. Rồi anh lại cầm điện thoại lên.
 
-> **Kev:** Thế thì cô giúp được gì.
+> **Kev:** Thế cô giúp được gì.
 
-Một khoảng im lặng dài. Ba mươi giây. Một phút.
+Một khoảng lặng dài, ba mươi giây, một phút.
 
 > **[N]:** Tôi sẽ có mặt. Theo cách của tôi.
 
-Màn hình tối đi. Kev ngồi đó rất lâu, cho tới khi Linh xuất hiện ở cửa với hai cốc trà nóng và ngồi bệt xuống sàn cạnh chân ghế anh, như mọi đêm.
+Màn hình tối đi. Kev ngồi đó rất lâu, cho tới khi Linh xuất hiện ở cửa với hai cốc trà nóng và ngồi bệt xuống sàn cạnh chân ghế anh như mọi đêm.
 
-Anh không kể với cô về lỗ hổng thứ hai. Anh dành hai tiếng tiếp theo để vá nó, trong khi cô ngủ gật trên đầu gối anh.
+Anh không kể cho cô nghe về lỗ hổng thứ hai. Anh dành hai tiếng sau đó để vá nó lại, trong khi cô ngủ gật trên đầu gối anh.
