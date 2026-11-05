@@ -44,9 +44,7 @@ Kev đỗ xe cách đó hai dãy nhà, đi một vòng quanh khu phố trước,
 
 "Không có ai. Hoặc họ giỏi hơn tôi." Anh ta ngồi lại vào ghế lái. "Tôi ở đây với Lin. Hai mươi phút. Nếu tôi bấm còi hai lần, cô ra ngay."
 
-Lena gõ cửa.
-
-Bà Ruth mở cửa, và đứng sững ở đó.
+Lena gõ cửa. Bà Ruth mở cửa, và đứng sững ở đó.
 
 Bà sáu mươi tuổi, nhỏ người, tóc bạc cắt ngắn. Bà mặc chiếc áo len xanh rêu mà Corwin tặng bà dịp Giáng sinh hai năm trước, và đeo cặp kính đọc sách đẩy lên đỉnh đầu. Một tay bà cầm chiếc điều khiển tivi. Ở phòng khách phía sau, Lena nghe thấy tiếng bản tin, giọng nữ phát thanh viên đọc tên cô.
 
@@ -66,9 +64,7 @@ Bà Ruth đã kéo cô vào trong, đóng cửa lại, ôm chầm lấy cô. Bà
 
 Căn bếp vẫn y như cũ. Chiếc bàn gỗ sồi có vết cháy hình tròn ở góc, chỗ Corwin hồi mười hai tuổi đặt nồi nóng lên. Tủ lạnh dán đầy ảnh. Corwin đội mũ tốt nghiệp. Corwin và Lena trên bãi biển, cô đang cố giật lại chiếc mũ anh vừa trộm. Bác Thomas mặc đồng phục, cười, một tay ôm một đứa bé tóc xoăn mà Lena biết là Corwin lúc ba tuổi.
 
-Bà Ruth pha trà gừng. Lena không nói gì cho tới khi chiếc cốc đã nằm trong tay cô, nóng tới mức suýt bỏng.
-
-Rồi cô kể.
+Bà Ruth pha trà gừng. Lena không nói gì cho tới khi chiếc cốc đã nằm trong tay cô, nóng tới mức suýt bỏng. Rồi cô kể.
 
 Không phải tất cả. Cô không kể về Elias, không kể về Layer 4, không kể về cái kén trắng và ngày thứ một trăm chín mươi hai. Cô không biết nói những chuyện đó với một người mẹ như thế nào. Cô kể về con lạch. Về chiếc áo mưa màu vàng. Về bác Thomas kéo áo che con số trên ngực cô bé.
 
@@ -192,13 +188,9 @@ Elias suýt bật cười. Ông ta nói y hệt Lena.
 
 Vùng điều kiện hóa không giống bất cứ nơi nào anh từng lặn.
 
-Không có hành lang trắng. Không có những con cá phát sáng. Không có xô sơn. Chỉ có một căn phòng tối, hình cầu, và ở giữa là một khối sáng nhỏ, cỡ một nắm tay, đập nhịp nhàng như một trái tim. Chậm. Rất chậm. Mỗi nhịp, nó phát ra một làn sóng màu đỏ nhạt, lan ra, chạm vào thành phòng, rồi xuyên qua và biến mất về phía nào đó anh không thấy.
+Không có hành lang trắng. Không có những con cá phát sáng. Không có xô sơn. Chỉ có một căn phòng tối, hình cầu, và ở giữa là một khối sáng nhỏ, cỡ một nắm tay, đập nhịp nhàng như một trái tim. Chậm. Rất chậm. Mỗi nhịp, nó phát ra một làn sóng màu đỏ nhạt, lan ra, chạm vào thành phòng, rồi xuyên qua và biến mất về phía nào đó anh không thấy. Anh tiến lại gần.
 
-Anh tiến lại gần.
-
-Khối sáng ấy được làm từ hàng nghìn sợi chỉ nhỏ, đan vào nhau. Mỗi sợi là một tế bào thần kinh. Chúng đập cùng một nhịp vì có ai đó đã dạy chúng như vậy, lặp đi lặp lại, hàng nghìn lần, khi anh còn nhỏ, khi anh nằm trên chiếc giường sắt trong căn phòng số không.
-
-Anh đặt tay lên nó.
+Khối sáng ấy được làm từ hàng nghìn sợi chỉ nhỏ, đan vào nhau. Mỗi sợi là một tế bào thần kinh. Chúng đập cùng một nhịp vì có ai đó đã dạy chúng như vậy, lặp đi lặp lại, hàng nghìn lần, khi anh còn nhỏ, khi anh nằm trên chiếc giường sắt trong căn phòng số không. Anh đặt tay lên nó.
 
 Nó nóng. Và nó biết anh. Ngay khi tay anh chạm vào, anh nghe thấy một giọng, không phải giọng người, mà là một thứ âm thanh trơn, đều, như giọng của một hệ thống:
 
@@ -212,11 +204,9 @@ Khối sáng giật lên. Một cơn đau trắng xóa chạy dọc cánh tay an
 
 *Truyền tín hiệu. Truyền tín hiệu. Truyền—*
 
-Anh không buông. Anh siết chặt hơn. Những sợi chỉ trong tay bắt đầu đứt, từng sợi, kêu như dây đàn bị kéo căng quá mức. Cái nhịp chậm lại. Chậm nữa.
+Anh không buông. Anh siết chặt hơn. Những sợi chỉ trong tay bắt đầu đứt, từng sợi, kêu như dây đàn bị kéo căng quá mức. Cái nhịp chậm lại. Chậm nữa. Rồi căn phòng tối bắt đầu nứt.
 
-Rồi căn phòng tối bắt đầu nứt.
-
-Không phải căn phòng. Ở đằng sau căn phòng, đằng sau bức tường cong, có một thứ gì đó. Anh nhận ra nó trước khi thấy nó. Một cảm giác rơi. Một cảm giác về hàng nghìn cuộc đời ép vào một khoảnh khắc. Một nhiệt độ không có tên.
+Đúng hơn là ở đằng sau căn phòng, đằng sau bức tường cong, có một thứ gì đó. Anh nhận ra nó trước khi thấy nó. Một cảm giác rơi. Một cảm giác về hàng nghìn cuộc đời ép vào một khoảnh khắc. Một nhiệt độ không có tên.
 
 *Layer 4.*
 
@@ -232,11 +222,7 @@ Viper đang lắc vai anh. Elias biết vì cơ thể anh đang lắc, nhưng an
 
 Elias muốn nói *tôi đang nhìn*. Môi anh không cử động.
 
-Anh thấy Viper buông vai anh ra, lục lọi chiếc vali. Thấy ông ta cầm một ống thuốc lên, nhìn nó, nhìn ống bên cạnh, lẩm bẩm *bên trái, bên trái của ai?*. Thấy ông ta đâm đầu vòi phun vào cổ anh. Một tiếng *xì*. Một luồng lạnh.
-
-Không đủ.
-
-Thế giới bắt đầu tối lại ở rìa, như một con mắt đang nhắm dần.
+Anh thấy Viper buông vai anh ra, lục lọi chiếc vali. Thấy ông ta cầm một ống thuốc lên, nhìn nó, nhìn ống bên cạnh, lẩm bẩm *bên trái, bên trái của ai?*. Thấy ông ta đâm đầu vòi phun vào cổ anh. Một tiếng *xì*. Một luồng lạnh. Không đủ. Thế giới bắt đầu tối lại ở rìa, như một con mắt đang nhắm dần.
 
 Anh nghe tiếng Viper bấm điện thoại. Nghe tiếng chuông đổ, một hồi, hai hồi.
 

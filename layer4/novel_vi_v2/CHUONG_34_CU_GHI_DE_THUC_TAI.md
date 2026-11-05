@@ -2,13 +2,9 @@
 
 Layer 4 không có âm thanh.
 
-Đó là thứ Elias nhận ra đầu tiên, lần này, khi anh không còn bị nó nuốt chửng. Ba mươi năm trong cơn hôn mê, nó là một trận lở đất của tiếng nói và hình ảnh. Lần này, đứng ở mép cánh cửa với tay Maren trong tay mình, nó im lặng. Như một căn phòng rất lớn mà mọi người trong đó đều đang nín thở.
+Đó là thứ Elias nhận ra đầu tiên, lần này, khi anh không còn bị nó nuốt chửng. Ba mươi năm trong cơn hôn mê, nó là một trận lở đất của tiếng nói và hình ảnh. Lần này, đứng ở mép cánh cửa với tay Maren trong tay mình, nó im lặng. Như một căn phòng rất lớn mà mọi người trong đó đều đang nín thở. Và anh thấy mọi thứ.
 
-Và anh thấy mọi thứ.
-
-Không phải bằng mắt. Bằng một thứ khác, như cách người ta biết căn phòng mình đang đứng có bao nhiêu góc mà không cần đếm. Anh thấy căn phòng lục giác, những dòng sông bạc dưới sàn kính, hàng triệu sợi tơ chạy về quả cầu thủy tinh ở giữa. Anh thấy mỗi sợi tơ dẫn tới đâu. Một căn bếp ở Ohio. Một phòng ký túc xá ở Seoul. Một chiếc giường bệnh ở São Paulo. Ba trăm triệu nơi chốn, ba trăm triệu người đang ngủ, ba trăm triệu con thú nhỏ phát sáng ngồi canh bên gối họ.
-
-Anh thấy Halloway.
+Anh thấy bằng một thứ khác ngoài mắt, như cách người ta biết căn phòng mình đang đứng có bao nhiêu góc mà không cần đếm. Anh thấy căn phòng lục giác, những dòng sông bạc dưới sàn kính, hàng triệu sợi tơ chạy về quả cầu thủy tinh ở giữa. Anh thấy mỗi sợi tơ dẫn tới đâu. Một căn bếp ở Ohio. Một phòng ký túc xá ở Seoul. Một chiếc giường bệnh ở São Paulo. Ba trăm triệu nơi chốn, ba trăm triệu người đang ngủ, ba trăm triệu con thú nhỏ phát sáng ngồi canh bên gối họ. Anh thấy Halloway.
 
 Không phải bà ta, người phụ nữ áo khoác xanh navy đang đứng cách anh mười bước. Anh thấy thứ bà ta là ở đây: một sợi dây đen, đặc, cứng, chạy từ bàn tay đang giơ lên của bà ta tới quả cầu thủy tinh, và từ quả cầu tỏa ra thành hàng triệu sợi nhỏ hơn, quấn quanh hàng triệu sợi bạc. Như một cây nho ký sinh quấn quanh một khu rừng.
 
@@ -24,29 +20,19 @@ Và anh đưa bàn tay còn lại lên.
 
 ---
 
-Không có phép thuật nào cả. Không có cột sáng hoàng kim, không có sấm sét. Ở Layer 4, mọi thứ chỉ là quyền. Ai được phép chạm vào cái gì.
+Không có phép thuật nào cả. Không có cột sáng hoàng kim, không có sấm sét. Ở Layer 4, mọi thứ chỉ là quyền. Ai được phép chạm vào cái gì. Hai mươi năm nay, Halloway là người duy nhất được phép. Elias chỉ đơn giản là chạm vào sợi dây đen.
 
-Hai mươi năm nay, Halloway là người duy nhất được phép.
+Nó lạnh. Lạnh như tay nắm cửa kim loại trong một căn phòng không có hệ thống sưởi. Và khi anh chạm vào, anh cảm thấy nó hiểu ra anh là ai. Anh cảm thấy nó kiểm tra quyền của anh. Một lần. Hai lần. Rồi nó buông ra.
 
-Elias chỉ đơn giản là chạm vào sợi dây đen.
+Nó buông ra. Như một người cuối cùng cũng mở nắm tay ra sau khi đã nắm quá lâu. Sợi dây đen tuột khỏi quả cầu thủy tinh. Hàng triệu sợi nhỏ hơn của nó tuột khỏi hàng triệu sợi bạc, từng sợi một, như những sợi tóc rơi khỏi một chiếc lược. Halloway hét lên.
 
-Nó lạnh. Lạnh như tay nắm cửa kim loại trong một căn phòng không có hệ thống sưởi. Và khi anh chạm vào, anh cảm thấy nó hiểu ra anh là ai. Anh cảm thấy nó kiểm tra quyền của anh. Một lần. Hai lần.
-
-Rồi nó buông ra.
-
-Không phải đứt. Buông ra. Như một người cuối cùng cũng mở nắm tay ra sau khi đã nắm quá lâu. Sợi dây đen tuột khỏi quả cầu thủy tinh. Hàng triệu sợi nhỏ hơn của nó tuột khỏi hàng triệu sợi bạc, từng sợi một, như những sợi tóc rơi khỏi một chiếc lược.
-
-Halloway hét lên.
-
-Đó không phải tiếng hét của đau đớn. Đó là tiếng hét của một người vừa thấy thứ mình xây dựng cả đời bị lấy mất trong một giây. Cánh tay bà ta giật xuống, như bị ai đó giật mạnh. Bà ta loạng choạng lùi lại.
+Đó là tiếng hét của một người vừa thấy thứ mình xây dựng cả đời bị lấy mất trong một giây. Cánh tay bà ta giật xuống, như bị ai đó giật mạnh. Bà ta loạng choạng lùi lại.
 
 "Không," bà ta nói. "Không. Cậu không có quyền. Ta đã làm ra cậu."
 
 "Bà làm ra cái ống thông gió," Elias nói. "Không phải tôi."
 
-Hình ảnh của Halloway nhòe đi. Rìa áo khoác xanh navy bắt đầu vỡ ra thành những điểm ảnh, như tro bay lên từ giấy cháy. Bà ta nhìn xuống tay mình, nhìn những ngón tay đang tan biến, và lần đầu tiên, Elias thấy trên mặt bà ta một thứ mà anh nhận ra.
-
-Sợ.
+Hình ảnh của Halloway nhòe đi. Rìa áo khoác xanh navy bắt đầu vỡ ra thành những điểm ảnh, như tro bay lên từ giấy cháy. Bà ta nhìn xuống tay mình, nhìn những ngón tay đang tan biến, và lần đầu tiên, Elias thấy trên mặt bà ta một thứ mà anh nhận ra. Sợ.
 
 "Elena," bà ta nói. Không phải với anh. Với không ai cả. "Elena, bà đã…"
 
@@ -68,15 +54,11 @@ Sợi dây đen đã biến mất. Không còn ai giật dây chúng nữa. Chú
 
 "Cậu có thể xóa chúng không?"
 
-Anh nghĩ. Anh có thể. Ở Layer 4, anh có thể làm gần như bất cứ thứ gì. Anh có thể quét tay một lần, và hàng trăm con thú này sẽ tan thành bụi, như những tên lính áo đen.
-
-Một con quạ nhỏ bước ra khỏi vòng tròn.
+Anh nghĩ. Anh có thể. Ở Layer 4, anh có thể làm gần như bất cứ thứ gì. Anh có thể quét tay một lần, và hàng trăm con thú này sẽ tan thành bụi, như những tên lính áo đen. Một con quạ nhỏ bước ra khỏi vòng tròn.
 
 Lông đen ánh xanh. Viền mắt bạc mờ. Nó nhảy lò cò qua sàn kính, ba bước, rồi dừng lại trước chân anh. Nó nghiêng đầu nhìn anh. Một bên mắt. Rồi bên kia.
 
-Rồi nó kêu một tiếng. Ngắn, khàn. Không phải câu hỏi lần này.
-
-Nó vỗ cánh, bay lên, và đáp xuống vai anh.
+Rồi nó kêu một tiếng. Ngắn, khàn. Không phải câu hỏi lần này. Nó vỗ cánh, bay lên, và đáp xuống vai anh.
 
 Elias đứng im. Con quạ nặng hơn anh tưởng. Móng của nó bấu vào lớp giáp trên vai, không đau, chỉ chắc chắn. Nó dụi đầu vào cổ anh một lần, như một con mèo.
 
@@ -86,9 +68,7 @@ Elias đứng im. Con quạ nặng hơn anh tưởng. Móng của nó bấu vào
 
 Maren nhìn tay họ đang nắm vào nhau. Cô không nói gì.
 
-Elias nhìn những con thú đen còn lại. Chúng không phải Than. Chúng không có chủ. Nhưng chúng được làm ra từ những thứ mà ba trăm triệu người đã nói với Echo của mình lúc ba giờ sáng, khi không ngủ được. Những câu càu nhàu, những lời tâm sự, những bài hát ru.
-
-Anh không xóa chúng.
+Elias nhìn những con thú đen còn lại. Chúng không phải Than. Chúng không có chủ. Nhưng chúng được làm ra từ những thứ mà ba trăm triệu người đã nói với Echo của mình lúc ba giờ sáng, khi không ngủ được. Những câu càu nhàu, những lời tâm sự, những bài hát ru. Anh không xóa chúng.
 
 Anh chỉ tháo những sợi dây cuối cùng còn nối chúng với quả cầu thủy tinh. Từng sợi một. Nhẹ nhàng, như gỡ một sợi dây bị rối.
 
@@ -136,7 +116,7 @@ Elias biết cô đang nghĩ gì. Cô đang nghĩ về một cái ống thông g
 
 Cô nhìn quả cầu trong tay mình. Rồi nhìn anh.
 
-Rồi cô làm một việc anh không ngờ tới. Cô nghiêng người về phía trước và áp trán mình vào trán anh. Như cô đã làm trong nhà kho. Như mẹ cô đã làm với cô ở mép giường sắt.
+Cô làm một việc anh không ngờ tới. Cô nghiêng người về phía trước và áp trán mình vào trán anh. Như cô đã làm trong nhà kho. Như mẹ cô đã làm với cô ở mép giường sắt.
 
 "Ba giây," cô nói. "Không hơn."
 
@@ -148,7 +128,7 @@ Rồi cô làm một việc anh không ngờ tới. Cô nghiêng người về p
 
 Cô gõ lên mu bàn tay anh. Ba nhanh. Hai chậm.
 
-Rồi cô buông tay.
+Cô buông tay.
 
 ---
 
@@ -174,9 +154,7 @@ Tay cô chạm vào chân bàn điều khiển. Cô kéo mình đứng dậy. M�
 
 Một cái nút. Tròn. Nhô lên.
 
-Cô nhớ ra rằng hai mươi năm trước, mẹ cô đã đứng trong một hành lang đầy khói, và đã không có cái nút nào để bấm.
-
-Cô bấm.
+Cô nhớ ra rằng hai mươi năm trước, mẹ cô đã đứng trong một hành lang đầy khói, và đã không có cái nút nào để bấm. Cô bấm.
 
 > `[PHÁT TÁN: ĐANG TRUYỀN]`
 > `[NGƯỜI NHẬN: CỤC ĐIỀU TRA LIÊN BANG, BỘ TƯ PHÁP, ỦY BAN GIÁM SÁT QUỐC HỘI, REUTERS, ASSOCIATED PRESS, THE NEW YORK TIMES, BBC, +412 ĐỊA CHỈ KHÁC]`

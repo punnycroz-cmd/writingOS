@@ -26,9 +26,7 @@ Lena kéo ba hộp tài liệu và cuốn sổ bìa da ra khỏi két, nhét t�
 
 Anh nắm lấy cổ tay cô, kéo về phía phòng khám. Cửa sổ phía sau là loại cửa sổ kính cũ có khung gỗ, chốt bằng đồng. Anh giật chốt. Nó kẹt. Sơn đã bám dính khung cửa vào bệ qua nhiều năm.
 
-Ngoài hành lang, ai đó quát lên một mệnh lệnh. Tiếng gõ cửa phòng 4A bên cạnh. Rồi tiếng gỗ vỡ.
-
-Elias lùi lại một bước, nhấc chiếc ghế xoay bằng thép của bàn điều khiển, và nện thẳng vào khung cửa sổ.
+Ngoài hành lang, ai đó quát lên một mệnh lệnh. Tiếng gõ cửa phòng 4A bên cạnh. Rồi tiếng gỗ vỡ. Elias lùi lại một bước, nhấc chiếc ghế xoay bằng thép của bàn điều khiển, và nện thẳng vào khung cửa sổ.
 
 Kính vỡ tung ra màn mưa. Gió lạnh ùa vào, mang theo những hạt mưa tạt ngang mặt. Anh dùng chân ghế gạt những mảnh kính còn bám trên khung.
 
@@ -50,13 +48,9 @@ Một loạt đạn giảm thanh xé toạc vách kính mờ. Âm thanh không g
 
 Elias cúi người. Trên tường cạnh cửa phòng khám treo một bình chữa cháy CO₂, loại to, màu đỏ, nặng chín kí. Anh nhìn nó, nhìn ngưỡng cửa, nhìn khoảng cách.
 
-Anh giật bình chữa cháy khỏi giá, rút chốt an toàn, rồi lăn nó dọc sàn về phía ngưỡng cửa như lăn một quả bowling.
+Anh giật bình chữa cháy khỏi giá, rút chốt an toàn, rồi lăn nó dọc sàn về phía ngưỡng cửa như lăn một quả bowling. Hai bóng người đen xuất hiện ở khung cửa đúng lúc bình chữa cháy lăn tới chân họ.
 
-Hai bóng người đen xuất hiện ở khung cửa đúng lúc bình chữa cháy lăn tới chân họ.
-
-Elias bóp cò bình chữa cháy thứ hai, chiếc bình nhỏ hơn gắn dưới bồn rửa phòng khám mà anh đã thấy từ chiều. Một luồng khí trắng lạnh buốt phụt ra, đập thẳng vào kính nhìn đêm của tên lính đi đầu. Hắn lùi lại, chửi thề, giật kính ra. Tên thứ hai vấp vào chiếc bình lăn dưới chân, ngã chúi về phía trước.
-
-Elias ném chiếc bình nhỏ vào ngực tên thứ nhất, rồi lao về phía cửa sổ.
+Elias bóp cò bình chữa cháy thứ hai, chiếc bình nhỏ hơn gắn dưới bồn rửa phòng khám mà anh đã thấy từ chiều. Một luồng khí trắng lạnh buốt phụt ra, đập thẳng vào kính nhìn đêm của tên lính đi đầu. Hắn lùi lại, chửi thề, giật kính ra. Tên thứ hai vấp vào chiếc bình lăn dưới chân, ngã chúi về phía trước. Elias ném chiếc bình nhỏ vào ngực tên thứ nhất, rồi lao về phía cửa sổ.
 
 Anh chui qua khung cửa, đầu trước, lăn người trên mặt lưới sắt. Một mảnh kính sót lại cứa vào lòng bàn tay anh. Anh không thấy đau.
 
@@ -72,31 +66,23 @@ Bốn tầng. Lưới sắt trơn trượt dưới mưa, lan can rỉ rung bần
 
 "Sát tường!"
 
-Lena ép người vào tường gạch. Elias kéo cô xuống, che bằng lưng mình. Những viên đạn giảm thanh găm vào lan can sắt cách họ nửa mét, tóe lửa.
-
-Rồi khuôn mặt đó biến mất, như có ai đó vừa ra lệnh rút.
+Lena ép người vào tường gạch. Elias kéo cô xuống, che bằng lưng mình. Những viên đạn giảm thanh găm vào lan can sắt cách họ nửa mét, tóe lửa. Khuôn mặt đó biến mất, như có ai đó vừa ra lệnh rút.
 
 Elias không hiểu vì sao. Anh không dừng lại để hiểu.
 
 Tầng hai. Tầng một. Đoạn cuối của thang thoát hiểm là một cái thang trượt bằng sắt, được kéo lên cao để chống trộm. Elias đạp vào chốt hãm. Thang rơi xuống với một tiếng rầm, chạm mặt đất ướt.
 
-Họ đáp xuống con hẻm lát đá cuội phía sau tòa nhà. Bên trái, đầu hẻm, đèn pha của ba chiếc xe tải đen chiếu thẳng vào màn mưa. Bên phải là bóng tối, những thùng rác, một bức tường gạch thấp.
+Họ đáp xuống con hẻm lát đá cuội phía sau tòa nhà. Bên trái, đầu hẻm, đèn pha của ba chiếc xe tải đen chiếu thẳng vào màn mưa. Bên phải là bóng tối, những thùng rác, một bức tường gạch thấp. Họ chạy về bên phải.
 
-Họ chạy về bên phải.
-
-Elias đỡ Lena trèo qua bức tường, rồi trèo theo. Bên kia là một bãi đỗ xe trống. Rồi một con đường. Rồi một con hẻm khác. Họ chạy cho tới khi tiếng còi báo cháy chỉ còn là một âm thanh rền rĩ xa xa sau lưng, chìm lẫn trong tiếng mưa.
+Elias đỡ Lena trèo qua bức tường, rồi trèo theo. Bên kia là một bãi đỗ xe trống. Một con đường. Một con hẻm khác. Họ chạy cho tới khi tiếng còi báo cháy chỉ còn là một âm thanh rền rĩ xa xa sau lưng, chìm lẫn trong tiếng mưa.
 
 ---
 
 Họ dừng lại dưới gầm một cây cầu vượt đường sắt, nơi mưa không rơi tới, chỉ có tiếng nước nhỏ giọt từ những thanh dầm thép phía trên.
 
-Lena tựa lưng vào trụ bê tông, thở dốc. Tóc cô ướt sũng, bết vào má. Chiếc vali vẫn trên vai cô, túi tài liệu vẫn ôm chặt trước ngực như một đứa trẻ.
+Lena tựa lưng vào trụ bê tông, thở dốc. Tóc cô ướt sũng, bết vào má. Chiếc vali vẫn trên vai cô, túi tài liệu vẫn ôm chặt trước ngực như một đứa trẻ. Elias quay lại nhìn về phía họ vừa chạy tới.
 
-Elias quay lại nhìn về phía họ vừa chạy tới.
-
-Ở đằng xa, qua những mái nhà, có một quầng sáng màu cam rực lên trong màn mưa. Một cột khói đen bốc lên, xoắn lại, rồi bị gió thổi nghiêng đi.
-
-Lena nhìn theo ánh mắt anh.
+Ở đằng xa, qua những mái nhà, có một quầng sáng màu cam rực lên trong màn mưa. Một cột khói đen bốc lên, xoắn lại, rồi bị gió thổi nghiêng đi. Lena nhìn theo ánh mắt anh.
 
 "Tầng bốn," cô nói. Giọng cô bình thản đến kỳ lạ. "Họ đốt nó."
 
@@ -104,9 +90,7 @@ Anh hiểu, đột nhiên, vì sao tên lính trên thang thoát hiểm đã rú
 
 Như năm 2004. Lửa và báo cáo: *tai nạn rò rỉ khí gas*.
 
-Lena đứng nhìn quầng sáng cam ấy rất lâu. Năm năm. Những tấm tiêu âm cô tự chọn màu. Tấm biển đồng cô lau mỗi sáng thứ Hai. Chiếc ghế bành nơi Corwin hay ngồi đọc sách đợi cô làm xong việc.
-
-Rồi cô lấy điện thoại ra, bấm một số.
+Lena đứng nhìn quầng sáng cam ấy rất lâu. Năm năm. Những tấm tiêu âm cô tự chọn màu. Tấm biển đồng cô lau mỗi sáng thứ Hai. Chiếc ghế bành nơi Corwin hay ngồi đọc sách đợi cô làm xong việc. Cô lấy điện thoại ra, bấm một số.
 
 "Nia," cô nói khi đầu dây bên kia bắt máy. "Nia, nghe tớ này. Cậu đang ở đâu?" Một khoảng lặng. "Ở nhà. Tốt. Đừng ra ngoài. Đừng tới văn phòng. Sáng mai nếu có ai hỏi, cậu không biết tớ ở đâu, vì cậu thật sự không biết." Một khoảng lặng nữa, dài hơn. "Tớ ổn. Tớ hứa. Tớ sẽ gọi lại."
 
@@ -122,9 +106,7 @@ Cô ngẩng lên nhìn anh. Mưa nhỏ giọt từ dầm thép xuống giữa ha
 
 "Kể cho tôi nghe về Maren," cô nói. Giọng cô vỡ ra ở cái tên. "Cô bé ấy. Anh nhớ gì về cô ấy?"
 
-Elias nhìn cô. Người phụ nữ tóc ướt, mặt trắng bệch, khoác chiếc áo của anh. Anh nghĩ về cô bé trong đầu mình, cô bé hét lên trong ánh lửa. Anh lục tìm trong khoảng trống trơn nhẵn sau mắt mình, tìm bất cứ thứ gì, một tiếng cười, một câu nói, một trò chơi.
-
-Chỉ có một thứ.
+Elias nhìn cô. Người phụ nữ tóc ướt, mặt trắng bệch, khoác chiếc áo của anh. Anh nghĩ về cô bé trong đầu mình, cô bé hét lên trong ánh lửa. Anh lục tìm trong khoảng trống trơn nhẵn sau mắt mình, tìm bất cứ thứ gì, một tiếng cười, một câu nói, một trò chơi. Chỉ có một thứ.
 
 "Tôi chỉ nhớ được đúng một điều," anh nói. "Cô ấy bắt tôi hứa sẽ tìm cô ấy."
 

@@ -2,9 +2,7 @@
 
 Ngày mười bốn tháng Mười trôi qua chậm như một ngày Chủ nhật.
 
-Không ai nói ra điều đó, nhưng cả năm người đều cư xử như thể đây là một ngày bình thường. Viper dậy sớm câu cá. Linh ngủ nướng tới mười giờ. Kev chạy kiểm tra hệ thống lần thứ mười bốn, rồi lần thứ mười lăm, rồi đi ra mỏm đá ngồi cạnh Viper và cầm một cái cần câu mà anh ta không thả xuống nước. Lena giặt quần áo bằng tay trong một cái xô nhựa, phơi chúng lên một sợi dây căng giữa ngọn hải đăng và khối nhà bê tông, và gió biển thổi chúng phần phật như những lá cờ.
-
-Elias leo lên đỉnh hải đăng và vẽ.
+Không ai nói ra điều đó, nhưng cả năm người đều cư xử như thể đây là một ngày bình thường. Viper dậy sớm câu cá. Linh ngủ nướng tới mười giờ. Kev chạy kiểm tra hệ thống lần thứ mười bốn, rồi lần thứ mười lăm, rồi đi ra mỏm đá ngồi cạnh Viper và cầm một cái cần câu mà anh ta không thả xuống nước. Lena giặt quần áo bằng tay trong một cái xô nhựa, phơi chúng lên một sợi dây căng giữa ngọn hải đăng và khối nhà bê tông, và gió biển thổi chúng phần phật như những lá cờ. Elias leo lên đỉnh hải đăng và vẽ.
 
 Anh vẽ cả năm người. Viper với cái cần câu và cái mũ đội ngược. Kev ngồi cạnh, cầm cái cần câu như cầm một khẩu súng không nạp đạn. Linh ngủ trên chiếc ghế xếp bên ngoài cửa khối bê tông, một cuốn sách úp trên mặt. Lena đứng giữa những chiếc áo đang phơi, một tay giữ cái kẹp, nhìn ra biển.
 
@@ -70,9 +68,7 @@ Lúc năm giờ chiều, Linh mang ra ngoài một chồng giấy màu.
 
 Cô đã mua chúng ở trạm xăng gần Portland, hồi họ cắm trại, cùng với một hộp bút màu và một gói kẹo dẻo, "để giải trí". Cô ngồi bệt xuống bậc thềm, cạnh chân Kev, và bắt đầu gấp.
 
-Kev nhìn cô. Linh không nhìn lại. Cô gấp rất tập trung, lưỡi thè ra một chút ở khóe miệng, những ngón tay nhỏ gập từng nếp giấy một.
-
-Năm phút sau, cô đặt vào lòng bàn tay Kev một con hạc giấy màu xám.
+Kev nhìn cô. Linh không nhìn lại. Cô gấp rất tập trung, lưỡi thè ra một chút ở khóe miệng, những ngón tay nhỏ gập từng nếp giấy một. Năm phút sau, cô đặt vào lòng bàn tay Kev một con hạc giấy màu xám.
 
 Không giống con hạc Echo của anh ta. Một bên cánh lệch, cái cổ hơi vẹo, và cô đã gấp ngược một nếp ở đuôi nên nó cong lên như đuôi gà. Nhưng màu xám thì giống.
 
@@ -104,25 +100,17 @@ Elias, đứng ở cửa khối bê tông, quay vào trong trước khi ai kịp
 
 ---
 
-Lúc tám giờ tối, sau bữa súp cá cuối cùng mà Viper thề là ngon nhất ông ta từng nấu, Lena biến mất.
-
-Elias tìm thấy cô ở đỉnh hải đăng.
+Lúc tám giờ tối, sau bữa súp cá cuối cùng mà Viper thề là ngon nhất ông ta từng nấu, Lena biến mất. Elias tìm thấy cô ở đỉnh hải đăng.
 
 Một trăm mười hai bậc. Anh không đếm, nhưng Linh đã đếm hộ anh rồi. Anh tới nơi, thở dốc, đầu hơi choáng. Đầu anh vẫn hay choáng kể từ hôm ở nhà kho.
 
-Căn phòng đèn tròn, những ô kính chắn bão đã ố vàng, nhìn ra bốn phía biển đêm. Gió rít qua những khe hở. Ở giữa phòng, nơi từng đặt bộ thấu kính khổng lồ của ngọn đèn, giờ chỉ còn một bệ đá trống.
+Căn phòng đèn tròn, những ô kính chắn bão đã ố vàng, nhìn ra bốn phía biển đêm. Gió rít qua những khe hở. Ở giữa phòng, nơi từng đặt bộ thấu kính khổng lồ của ngọn đèn, giờ chỉ còn một bệ đá trống. Trên bệ đá có một ngọn nến.
 
-Trên bệ đá có một ngọn nến.
-
-Lena ngồi xếp bằng trước bệ đá, quay lưng về phía cầu thang. Ngọn nến là loại nến trắng to, kiểu nến cúp điện, cô hẳn đã mua ở trạm xăng hôm nào đó. Ngọn lửa đứng yên dù gió rít bên ngoài, vì căn phòng kín.
-
-Elias dừng lại ở bậc thang cuối cùng.
+Lena ngồi xếp bằng trước bệ đá, quay lưng về phía cầu thang. Ngọn nến là loại nến trắng to, kiểu nến cúp điện, cô hẳn đã mua ở trạm xăng hôm nào đó. Ngọn lửa đứng yên dù gió rít bên ngoài, vì căn phòng kín. Elias dừng lại ở bậc thang cuối cùng.
 
 Ngọn lửa. Một ngọn nến trong phòng tối. Một cảm giác nhói lên ở đâu đó dưới xương ức, rất quen. *Rèm cửa bắt lửa. Mình đứng trong góc không dám kêu.*
 
-Anh đợi nỗi sợ ập tới. Nó đã ập tới mỗi đêm trong hai mươi năm, theo cuốn nhật ký. Nó đã khiến anh ký vào một bản hợp đồng đổi lấy cả cuộc đời.
-
-Nó không tới.
+Anh đợi nỗi sợ ập tới. Nó đã ập tới mỗi đêm trong hai mươi năm, theo cuốn nhật ký. Nó đã khiến anh ký vào một bản hợp đồng đổi lấy cả cuộc đời. Nó không tới.
 
 Có một chút gì đó, như dư âm của một tiếng chuông đã ngừng rung. Rồi nó tan đi. Chỉ còn lại một ngọn nến. Trắng. Cháy đều. Không có gì cả.
 
@@ -144,9 +132,7 @@ Cô quay sang nhìn anh.
 
 Cô nhìn anh thêm một lúc, như đang đọc cơ mặt. Rồi cô gật đầu và quay lại với ngọn nến.
 
-Họ ngồi im lặng một lúc. Bên ngoài, ánh đèn đỏ của chiếc phao tiêu ngoài biển vẫn nhấp nháy. Sáng ba giây. Tắt hai giây.
-
-Rồi Lena bắt đầu hát.
+Họ ngồi im lặng một lúc. Bên ngoài, ánh đèn đỏ của chiếc phao tiêu ngoài biển vẫn nhấp nháy. Sáng ba giây. Tắt hai giây. Lena bắt đầu hát.
 
 Rất khẽ. Giọng cô không trầm và khàn như giọng mẹ cô. Nó cao hơn, mỏng hơn, hơi run ở những nốt thấp. Cô hát sai lời ở câu thứ ba, dừng lại, rồi hát lại từ đầu câu.
 
@@ -154,9 +140,7 @@ Rất khẽ. Giọng cô không trầm và khàn như giọng mẹ cô. Nó cao 
 
 Elias nhắm mắt.
 
-Anh không biết lời. Anh chưa bao giờ biết lời. Anh chỉ biết giai điệu, vì nó đã sống sót trong anh ở một chỗ sâu hơn cả tên tuổi. Nhưng khi cô hát, anh nghe thấy những thứ anh không nghe được trong các lần lặn. Tiếng gió rít qua khe kính, giống tiếng gió rít qua lỗ thông hơi trên trần căn phòng số không. Tiếng sột soạt khi cô dịch người, giống tiếng một đứa trẻ trở mình bên kia bức tường.
-
-Ngón tay anh, đặt trên sàn đá cạnh đầu gối, bắt đầu gõ.
+Anh không biết lời. Anh chưa bao giờ biết lời. Anh chỉ biết giai điệu, vì nó đã sống sót trong anh ở một chỗ sâu hơn cả tên tuổi. Nhưng khi cô hát, anh nghe thấy những thứ anh không nghe được trong các lần lặn. Tiếng gió rít qua khe kính, giống tiếng gió rít qua lỗ thông hơi trên trần căn phòng số không. Tiếng sột soạt khi cô dịch người, giống tiếng một đứa trẻ trở mình bên kia bức tường. Ngón tay anh, đặt trên sàn đá cạnh đầu gối, bắt đầu gõ.
 
 *Ba nhanh. Hai chậm.*
 
@@ -178,7 +162,7 @@ Cô quay sang nhìn anh. Trong ánh nến, mắt cô ướt, nhưng cô đang c�
 
 "Lần này tớ không nói dối."
 
-Cô không trả lời. Cô quay lại nhìn ngọn nến, và anh thấy tay cô tìm tới sợi dây chuyền dưới cổ áo, nắm lấy chiếc nhẫn, như mọi lần. Rồi buông ra. Rồi để bàn tay ấy lại trên sàn đá, cạnh tay anh.
+Cô không trả lời. Cô quay lại nhìn ngọn nến, và anh thấy tay cô tìm tới sợi dây chuyền dưới cổ áo, nắm lấy chiếc nhẫn, như mọi lần. Rồi buông ra. Để bàn tay ấy lại trên sàn đá, cạnh tay anh.
 
 Một gang tay. Không chạm.
 

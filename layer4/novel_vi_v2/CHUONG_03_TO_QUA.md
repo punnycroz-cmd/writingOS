@@ -6,19 +6,13 @@ Elias ngả lưng vào ghế. Vòng titan tự siết lại, những đầu dò 
 
 Anh suýt bật cười. Bất thường. Đó là một cách nói.
 
-Tim anh đập nhanh. Anh không biết mình sợ gì: sợ mạng lưới này lại nuốt mình vào, hay sợ những người đang đợi ở bên kia sẽ nhìn anh và thấy một người lạ.
-
-Anh nhắm mắt.
+Tim anh đập nhanh. Anh không biết mình sợ gì: sợ mạng lưới này lại nuốt mình vào, hay sợ những người đang đợi ở bên kia sẽ nhìn anh và thấy một người lạ. Anh nhắm mắt.
 
 *Kết nối.*
 
 ---
 
-Không có cú rơi nào cả. Layer 1 không phải như thế. Nó giống như bước qua một cánh cửa: một giây trước anh còn ngồi trong căn hộ trống, giây sau anh đã đứng trên một bậc thềm gỗ, và không khí có mùi nhựa thông, mùi mưa và một chút mùi bỏng ngô cháy.
-
-Anh mở mắt, và há hốc miệng.
-
-Tổ Quạ là một con tàu vũ trụ mọc trên một cái cây.
+Không có cú rơi nào cả. Layer 1 không phải như thế. Nó giống như bước qua một cánh cửa: một giây trước anh còn ngồi trong căn hộ trống, giây sau anh đã đứng trên một bậc thềm gỗ, và không khí có mùi nhựa thông, mùi mưa và một chút mùi bỏng ngô cháy. Anh mở mắt, và há hốc miệng. Tổ Quạ là một con tàu vũ trụ mọc trên một cái cây.
 
 Hay đúng hơn là một cái cây khổng lồ, thân to bằng cả một tòa nhà, mà ai đó đã quyết định nhồi một con tàu vũ trụ vào giữa các cành. Thân tàu bằng thép xanh rỉ, đầy những vết hàn vụng về, nằm vắt ngang ba cành cổ thụ, rễ cây quấn lấy những động cơ đã tắt từ lâu. Đèn lồng giấy treo dọc các lối đi bằng ván. Một chiếc cầu trượt màu đỏ chạy vòng quanh thân cây từ boong trên xuống tận gốc. Ở mũi tàu có người sơn một con quạ đen khổng lồ đang nháy mắt, cùng dòng chữ nguệch ngoạc: *KHÔNG CÓ NGƯỜI LỚN. TRỪ VIPER.*
 
@@ -122,7 +116,7 @@ Viper gật gù. "Mày là thằng giỏi nhất tao từng thấy ở Vanguard.
 
 "Chuột không ăn khoai tây chiên vị phô mai."
 
-Lin bật cười, một tiếng cười bất ngờ, trong và cao, và Elias nhận ra mình cũng đang cười. Không phải vì câu đùa. Vì một điều gì đó ấm áp đang dâng lên trong lồng ngực, thứ anh không có tên gọi. Ba người này cãi nhau như anh em ruột, và họ đã giữ một chỗ trống cho anh ở cái bàn này suốt mười một ngày.
+Lin bật cười, một tiếng cười bất ngờ, trong và cao, và Elias nhận ra mình cũng đang cười. Câu đùa không buồn cười tới vậy. Chỉ là có một điều gì đó ấm áp đang dâng lên trong lồng ngực, thứ anh không có tên gọi. Ba người này cãi nhau như anh em ruột, và họ đã giữ một chỗ trống cho anh ở cái bàn này suốt mười một ngày.
 
 Anh không nhớ họ. Nhưng có lẽ, anh nghĩ, anh có thể học lại.
 
@@ -156,9 +150,7 @@ Lin chạy so khớp. Thanh tiến trình nhích dần. Mười phần trăm. N�
 
 "Không thể nào," Lin nói. Cô chạy lại, mở rộng phạm vi. *Không tìm thấy.* Chạy thêm lần nữa, bỏ hẳn bộ lọc tên. *Không tìm thấy.* "Không có ai tên Maren có khuôn mặt này. Ít nhất là không có trong bất kỳ cơ sở dữ liệu công khai nào em vào được."
 
-Elias nhìn khuôn mặt lơ lửng. Một cảm giác nặng nề trượt xuống dạ dày anh. Có thể cô không tồn tại. Có thể cô chỉ là một mảnh của ba mươi năm giả kia, một người được não anh dựng lên rồi bỏ quên lại khi mọi thứ vỡ vụn. Có thể anh đã giữ chặt một hòn đá cuội mà hóa ra chỉ là một hạt cát.
-
-Rồi anh thấy Kev.
+Elias nhìn khuôn mặt lơ lửng. Một cảm giác nặng nề trượt xuống dạ dày anh. Có thể cô không tồn tại. Có thể cô chỉ là một mảnh của ba mươi năm giả kia, một người được não anh dựng lên rồi bỏ quên lại khi mọi thứ vỡ vụn. Có thể anh đã giữ chặt một hòn đá cuội mà hóa ra chỉ là một hạt cát. Rồi anh thấy Kev.
 
 Kev đã đứng dậy từ lúc nào. Anh ta bước lại gần khuôn mặt, chậm, như sợ làm vỡ nó. Anh ta nghiêng đầu, nheo mắt.
 
@@ -174,9 +166,7 @@ Kev không trả lời ngay. Anh ta mở một màn hình riêng, lục tìm th�
 
 "Tôi đọc tin tức nhiều," Kev nói, mắt vẫn không rời màn hình. "Thói quen cũ. Tháng Hai năm nay có một vụ nhỏ trên báo địa phương. Một nhà báo điều tra mất tích trên biển. Tàu vỡ ngoài rặng đá phía bắc, không tìm thấy thi thể." Anh ta dừng lại, kéo một tấm ảnh ra giữa bàn, đặt nó cạnh khuôn mặt Elias vừa vẽ. "Đây là ảnh trong bài viết về lễ tưởng niệm."
 
-Tấm ảnh chụp một nhóm người mặc đồ đen đứng trên một cầu cảng gỗ, gió thổi bạt tóc họ. Ở giữa, hơi tách ra khỏi những người còn lại, là một người phụ nữ đứng nhìn ra biển. Gương mặt nghiêng. Không cười. Nhưng đường cằm ấy, đôi mắt ấy.
-
-Là cô.
+Tấm ảnh chụp một nhóm người mặc đồ đen đứng trên một cầu cảng gỗ, gió thổi bạt tóc họ. Ở giữa, hơi tách ra khỏi những người còn lại, là một người phụ nữ đứng nhìn ra biển. Gương mặt nghiêng. Không cười. Nhưng đường cằm ấy, đôi mắt ấy. Là cô.
 
 Không ai nói gì. Elias nhìn hai khuôn mặt cạnh nhau, một cười bên ô cửa sổ, một đứng lặng trên cầu cảng, và một thứ gì đó trong đầu anh khớp lại với tiếng tách nhỏ như then cửa rơi vào ổ khóa.
 
@@ -214,8 +204,6 @@ Elias im lặng. Ông ta nói đúng. Từng chữ.
 
 "Một chữ. *Nyx*."
 
-Gió thổi qua Tổ Quạ. Những chiếc đèn lồng chao đi, rồi đứng yên. Ở phía dưới xa, đại dương mây đang cuộn chầm chậm như đang thở.
-
-Elias nhìn khuôn mặt người phụ nữ đứng trên cầu cảng thêm một lần.
+Gió thổi qua Tổ Quạ. Những chiếc đèn lồng chao đi, rồi đứng yên. Ở phía dưới xa, đại dương mây đang cuộn chầm chậm như đang thở. Elias nhìn khuôn mặt người phụ nữ đứng trên cầu cảng thêm một lần.
 
 "Cho tôi địa chỉ chỗ làm của cô ấy," anh nói.

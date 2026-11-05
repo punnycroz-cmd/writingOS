@@ -62,19 +62,13 @@ Chương trình quét mạng bên màn hình phải kêu bíp lúc bốn giờ m
 
 Kev giật mình, suýt đánh đổ cốc cà phê. Một dòng đỏ nhấp nháy. Anh kéo nó ra, phóng to.
 
-Suốt bốn mươi tám tiếng qua, ngôi nhà này đã phát ra đúng những gì nó phải phát ra: router của Viper, điện thoại của bà Rosa ở nhà bên cạnh, cái tivi thông minh trong phòng khách, chiếc máy tính bảng hồng của Rosie. Không có gì lạ.
-
-Trừ một tín hiệu.
+Suốt bốn mươi tám tiếng qua, ngôi nhà này đã phát ra đúng những gì nó phải phát ra: router của Viper, điện thoại của bà Rosa ở nhà bên cạnh, cái tivi thông minh trong phòng khách, chiếc máy tính bảng hồng của Rosie. Không có gì lạ. Trừ một tín hiệu.
 
 Nó cực yếu, nằm ở dải tần thấp mà không thiết bị dân sự nào dùng. Nó không phát liên tục. Mỗi bốn mươi phút nó lóe lên một lần, kéo dài chừng một phần mười giây, như một nhịp tim ngắt quãng. Và nó không đến từ thiết bị nào trong nhà cả.
 
 Kev dò nguồn. Anh mất hai mươi phút, vì tín hiệu quá yếu và nhà Viper toàn tường gỗ cũ. Anh đi một vòng quanh nhà với chiếc laptop trên tay và một ăng-ten tự chế cắm vào cổng USB, trong bóng tối, cẩn thận không đánh thức ai, như một kẻ trộm trong chính ngôi nhà của bạn mình.
 
-Phòng khách: không. Phòng Rosie: không. Phòng Viper: không. Phòng Lena: không.
-
-Phòng làm việc, nơi Elias ngủ trên giường xếp.
-
-Tín hiệu nhảy vọt khi Kev bước qua ngưỡng cửa.
+Phòng khách: không. Phòng Rosie: không. Phòng Viper: không. Phòng Lena: không. Phòng làm việc, nơi Elias ngủ trên giường xếp. Tín hiệu nhảy vọt khi Kev bước qua ngưỡng cửa.
 
 Elias nằm nghiêng, quay mặt vào tường, một tay buông thõng khỏi mép giường. Anh ngủ say, sâu, kiểu ngủ của người đã kiệt sức.
 
@@ -90,9 +84,7 @@ Giao thức Giám sát Alpha-7. *Dữ liệu thần kinh truyền trực tiếp 
 
 Không có thiết bị nào cả. Không có con chip nào dưới da. Kev đã kiểm tra hồ sơ phẫu thuật, và Lena cũng đã quét. Tín hiệu đang phát ra từ chính bộ não của Elias. Có thể họ đã điều chỉnh nó từ hồi anh còn nhỏ, để nó tự phát ra một nhịp sóng có thể bắt được từ xa, như một con chim được đeo vòng chân. Hoặc nó là di chứng của Layer 4. Kev không biết. Anh chỉ biết nó đang phát, đều đặn, mỗi bốn mươi phút, ngay lúc này.
 
-Chiếc sedan đen không theo Elias được tới tiệm giặt. Không có ai bám đuôi chiếc xe taco. Họ không cần làm vậy. Họ chỉ cần ngồi đợi tín hiệu tiếp theo.
-
-Kev ngồi xuống sàn, lưng tựa vào khung cửa, chiếc laptop trên đùi.
+Chiếc sedan đen không theo Elias được tới tiệm giặt. Không có ai bám đuôi chiếc xe taco. Họ không cần làm vậy. Họ chỉ cần ngồi đợi tín hiệu tiếp theo. Kev ngồi xuống sàn, lưng tựa vào khung cửa, chiếc laptop trên đùi.
 
 Anh nghĩ tới Rosie đang ngủ ở phòng bên kia hành lang, ôm một con khủng long bông. Anh nghĩ tới Viper đã lái xe hai tiếng giữa đêm.
 

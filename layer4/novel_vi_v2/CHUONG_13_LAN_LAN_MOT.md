@@ -32,13 +32,9 @@ Anh thấy một chiếc xe tải vàng chanh. Một chiếc chăn kỳ lân. M�
 
 Anh để mình chìm.
 
-Nước tối dần. Lạnh dần. Những con cá phát sáng thưa dần, rồi biến mất. Có một khoảng tối kéo dài, trống rỗng, giống như khoảng trống anh cảm thấy mỗi khi cố nhớ lại cuộc đời mình.
+Nước tối dần. Lạnh dần. Những con cá phát sáng thưa dần, rồi biến mất. Có một khoảng tối kéo dài, trống rỗng, giống như khoảng trống anh cảm thấy mỗi khi cố nhớ lại cuộc đời mình. Rồi, ở đáy, một ánh sáng.
 
-Rồi, ở đáy, một ánh sáng.
-
-Ánh đèn huỳnh quang. Trắng. Nhấp nháy. Sáu mươi hertz.
-
-Anh đang đứng trong một hành lang.
+Ánh đèn huỳnh quang. Trắng. Nhấp nháy. Sáu mươi hertz. Anh đang đứng trong một hành lang.
 
 Sàn nhựa màu xanh lá nhạt. Một vết nứt chạy chéo từ chân tường bên trái. Tường sơn trắng, chỗ thấp ngang đầu gối có những vết bẩn, vết trầy, như dấu tay của trẻ con. Mùi thuốc tẩy. Mùi bắp cải luộc vọng ra từ đâu đó.
 
@@ -58,9 +54,7 @@ Căn phòng nhỏ. Một chiếc giường sắt. Một cái bàn gắn chặt v
 
 Cửa đóng lại sau lưng anh. Tiếng khóa xoay.
 
-Đứa trẻ mà anh đang là ngồi xuống mép giường, hai tay đặt trên đùi, nhìn bức tường đối diện. Anh cảm thấy những gì đứa trẻ cảm thấy. Không phải sợ. Sợ là thứ đã cũ, đã mòn đi từ lâu. Chỉ có một sự trống rỗng mệt mỏi, và một sự chờ đợi.
-
-Chờ đợi gì?
+Đứa trẻ mà anh đang là ngồi xuống mép giường, hai tay đặt trên đùi, nhìn bức tường đối diện. Anh cảm thấy những gì đứa trẻ cảm thấy. Nỗi sợ là thứ đã cũ, đã mòn đi từ lâu. Chỉ có một sự trống rỗng mệt mỏi, và một sự chờ đợi. Chờ đợi gì?
 
 Đứa trẻ đứng dậy, bước tới bức tường bên trái. Áp lòng bàn tay lên đó. Rồi nắm tay lại, và gõ.
 
@@ -70,9 +64,7 @@ Chờ đợi gì?
 
 Rồi đứng im. Lắng nghe.
 
-Một giây. Hai giây. Ba giây.
-
-Rồi từ bên kia bức tường, rất khẽ, vang lên:
+Một giây. Hai giây. Ba giây. Rồi từ bên kia bức tường, rất khẽ, vang lên:
 
 *Cộc cộc cộc. Cộc. Cộc.*
 
@@ -88,17 +80,13 @@ Elias không hiểu những chuỗi dài. Chúng nằm ở tầng sâu hơn, m�
 
 "Elias." Giọng Lena, từ trên cao. "Còn bốn phút. Anh đang thấy gì?"
 
-Anh muốn trả lời. Nhưng anh không muốn rời đi. Anh đặt bàn tay nhỏ của đứa trẻ lên tường, và lắng nghe.
-
-Bên kia bức tường có tiếng hát.
+Anh muốn trả lời. Nhưng anh không muốn rời đi. Anh đặt bàn tay nhỏ của đứa trẻ lên tường, và lắng nghe. Bên kia bức tường có tiếng hát.
 
 Rất khẽ. Một giọng phụ nữ, trầm và khàn, hát một bài hát ru bằng tiếng nước ngoài. Giọng đó vọng qua bức tường, xa hơn, như từ phòng bên kia nữa. Bài hát ru anh đã nghe ở phòng khám của Lena. Bài hát làm cô khóc.
 
-Đứa trẻ trượt người xuống, ngồi bệt dưới chân tường, lưng tựa vào đó. Cậu bé nhắm mắt lại, nghe. Và từ phía bên kia tường, cũng ở chỗ thấp ngang đầu gối, có tiếng sột soạt nhẹ, như ai đó cũng vừa ngồi xuống, tựa lưng vào đúng chỗ ấy.
+Đứa trẻ trượt người xuống, ngồi bệt dưới chân tường, lưng tựa vào đó. Cậu bé nhắm mắt lại, nghe. Và từ phía bên kia tường, cũng ở chỗ thấp ngang đầu gối, có tiếng sột soạt nhẹ, như ai đó cũng vừa ngồi xuống, tựa lưng vào đúng chỗ ấy. Hai đứa trẻ, hai bên một bức tường, lưng tựa lưng qua lớp gạch, cùng nghe một bài hát.
 
-Hai đứa trẻ, hai bên một bức tường, lưng tựa lưng qua lớp gạch, cùng nghe một bài hát.
-
-Elias thấy mắt mình nóng lên. Không phải mắt của đứa trẻ. Mắt của anh, người đàn ông hai mươi bảy tuổi đang ngồi trên chiếc ghế bành cũ trong nhà Viper.
+Elias thấy mắt mình nóng lên. Mắt thật của anh, của người đàn ông hai mươi bảy tuổi đang ngồi trên chiếc ghế bành cũ trong nhà Viper.
 
 "Elias, nhịp tim anh đang tăng." Giọng Lena gần hơn. "Còn hai phút. Tôi sẽ bắt đầu kéo anh lên."
 
@@ -110,7 +98,7 @@ Trong ký ức, bài hát ru đã hết. Đứa trẻ vẫn ngồi đó. Rồi b
 
 Và rồi, ở thế giới thật, Elias nghe thấy nó.
 
-Không phải trong ký ức. Ở bên ngoài. Bên cạnh anh. Ngay sát thành ghế bành.
+Ở bên ngoài ký ức. Bên cạnh anh. Ngay sát thành ghế bành.
 
 *Cộc cộc cộc. Cộc. Cộc.*
 
@@ -128,15 +116,11 @@ Anh mở mắt.
 
 Phòng khách nhà Viper. Rèm kéo kín. Ánh sáng chiều mờ vàng lọt qua khe. Chiếc vali mở ra bên cạnh, màn hình máy quét nhấp nháy những con số màu cam.
 
-Lena quỳ cạnh ghế, một tay cầm ống tiêm huyết thanh đã sẵn sàng, một tay đặt trên thành ghế bành, sát bên tay anh.
-
-Những ngón tay của bàn tay đó đang gõ.
+Lena quỳ cạnh ghế, một tay cầm ống tiêm huyết thanh đã sẵn sàng, một tay đặt trên thành ghế bành, sát bên tay anh. Những ngón tay của bàn tay đó đang gõ.
 
 Ba nhanh. Hai chậm.
 
-Cô không nhìn tay mình. Cô đang nhìn màn hình, đọc các chỉ số, môi mấp máy đếm. Cô không biết mình đang gõ. Cô chưa bao giờ biết. Thói quen từ hồi nhỏ, cô sẽ nói vậy nếu ai hỏi.
-
-Elias nhìn chằm chằm vào những ngón tay đó.
+Cô không nhìn tay mình. Cô đang nhìn màn hình, đọc các chỉ số, môi mấp máy đếm. Cô không biết mình đang gõ. Cô chưa bao giờ biết. Thói quen từ hồi nhỏ, cô sẽ nói vậy nếu ai hỏi. Elias nhìn chằm chằm vào những ngón tay đó.
 
 "Không chảy máu," Lena nói, mắt vẫn trên màn hình. "Nhịp tim đã hạ. Áp lực nội sọ ổn. Tốt. Tốt hơn tôi tưởng." Cô thở ra, đặt ống tiêm xuống. Cuối cùng cô cũng quay sang nhìn anh. "Anh thấy gì?"
 

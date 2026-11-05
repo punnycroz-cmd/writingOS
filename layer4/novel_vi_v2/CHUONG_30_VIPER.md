@@ -4,9 +4,7 @@ Marcus Reyes chưa bao giờ đấm ai.
 
 Không phải hồi đi học, khi thằng Kyle Dunbar trêu cái tên của ông là tên con gái. Không phải năm hai mươi hai tuổi, khi ông chủ tiệm bánh đầu tiên ông làm thuê quỵt ba tháng lương. Không phải cái đêm ở bệnh viện, khi bác sĩ ra khỏi phòng mổ và nói một câu bắt đầu bằng chữ *chúng tôi đã cố hết sức*, và ông đứng giữa hành lang với hai bàn tay nắm chặt tới mức móng cắm vào lòng bàn tay, và không có gì để đấm cả.
 
-Ông là một người to lớn. Người ta luôn nghĩ ông hay đánh nhau. Người ta luôn nghĩ những người to lớn hay đánh nhau.
-
-Ông chỉ biết làm bánh.
+Ông là một người to lớn. Người ta luôn nghĩ ông hay đánh nhau. Người ta luôn nghĩ những người to lớn hay đánh nhau. Ông chỉ biết làm bánh.
 
 Và giờ ông đang đứng giữa một quảng trường bằng đá đen, dưới một bầu trời đỏ, với một khẩu súng to hơn người trên vai, hét vào mặt một pháo đài.
 
@@ -18,9 +16,7 @@ Mười hai phút đầu tiên, mọi thứ đi đúng như thằng Vane nói.
 
 Ông hét. Ông bắn. Những đốm sáng đỏ trên tường quay về phía ông như những con thiêu thân. Rồi những tên lính áo đen bắt đầu tràn ra từ các cánh cửa nhỏ trên chân tường, chạy về phía ông, súng trường đỏ rực.
 
-Ông bắn chúng. Khẩu súng điện từ nổ một tiếng như sấm, và tên đi đầu tan thành một đám bụi điểm ảnh. Ba giây sau hắn hiện lại ở đúng chỗ đó, choáng váng.
-
-Ông bắn hắn lần nữa.
+Ông bắn chúng. Khẩu súng điện từ nổ một tiếng như sấm, và tên đi đầu tan thành một đám bụi điểm ảnh. Ba giây sau hắn hiện lại ở đúng chỗ đó, choáng váng. Ông bắn hắn lần nữa.
 
 "Viper, bên trái," Kev nói trong tai ông.
 
@@ -36,9 +32,7 @@ Mười hai phút đầu tiên, mọi thứ đi đúng như thằng Vane nói.
 
 Ông bắn. Ông hét. Ông bắn tiếp.
 
-Có một lúc, giữa những tiếng nổ, ông nghĩ tới Rosie. Không phải theo kiểu lo lắng. Theo kiểu một người đang làm việc gì đó ngớ ngẩn nhưng vui, và nghĩ: *ước gì con bé thấy được bố nó lúc này.* Ông nghĩ con bé sẽ thích lắm. Con bé sẽ vỗ tay. Con bé sẽ bảo bố là siêu anh hùng.
-
-Rồi ông nghĩ: *không, con bé sẽ bảo bố hét to quá, làm con đau tai.*
+Có một lúc, giữa những tiếng nổ, ông nghĩ tới Rosie. Ông không lo. Ông nghĩ theo kiểu một người đang làm việc gì đó ngớ ngẩn nhưng vui, và nghĩ: *ước gì con bé thấy được bố nó lúc này.* Ông nghĩ con bé sẽ thích lắm. Con bé sẽ vỗ tay. Con bé sẽ bảo bố là siêu anh hùng. Rồi ông nghĩ: *không, con bé sẽ bảo bố hét to quá, làm con đau tai.*
 
 Ông bật cười, giữa quảng trường, giữa làn đạn đỏ.
 
@@ -46,7 +40,7 @@ Rồi ông nghĩ: *không, con bé sẽ bảo bố hét to quá, làm con đau t
 
 "Có vấn đề," Kev nói.
 
-Ông đang nạp lại khẩu súng. Hai mươi tám phút đã trôi qua ở trong này. Mười bảy giây ngoài kia. Ông bắt đầu thấy mỏi. Không phải mỏi tay, vì tay ông ở trong này không biết mỏi. Mỏi ở đâu đó sâu hơn. Như khi ông đứng bên lò nướng mười hai tiếng liền trong mùa Giáng sinh.
+Ông đang nạp lại khẩu súng. Hai mươi tám phút đã trôi qua ở trong này. Mười bảy giây ngoài kia. Ông bắt đầu thấy mỏi. Tay ông ở trong này không biết mỏi. Cái mỏi nằm ở đâu đó sâu hơn. Như khi ông đứng bên lò nướng mười hai tiếng liền trong mùa Giáng sinh.
 
 "Vấn đề gì?"
 
@@ -92,7 +86,7 @@ Viper gật đầu. Ông ta đã đoán vậy.
 
 "Nói với Lin là tao bảo nó chạy," ông ta nói. "Nói với thằng Vane là… thôi khỏi. Nó biết rồi."
 
-Rồi ông ta chạy.
+Ông ta chạy.
 
 ---
 
@@ -100,11 +94,7 @@ Rồi ông ta chạy.
 
 Không phải leo. Đâm. Khẩu súng điện từ chĩa thẳng về phía trước, ông bắn một phát vào chân tường ở khoảng cách ba mét, và lực giật đẩy ông lùi lại nhưng bức tường đá đen nứt toác ra một lỗ to bằng cánh cửa. Ông lao qua lỗ hổng trước khi bụi kịp lắng.
 
-Hai tên lính ở phía bên kia. Chúng quay lại, súng giơ lên. Ông không bắn. Ông lao thẳng vào, vai húc vào ngực tên thứ nhất, và tên đó văng đi như một con búp bê. Tên thứ hai bắn. Viên đạn đỏ đập vào ngực giáp của ông, và ông cảm thấy nó: không phải đau, mà là một cú đập nặng nề, như bị ai đó ném một bao bột vào người.
-
-Trên góc tầm nhìn, một thanh màu xanh lá tụt xuống một phần năm.
-
-Ông chạy tiếp.
+Hai tên lính ở phía bên kia. Chúng quay lại, súng giơ lên. Ông không bắn. Ông lao thẳng vào, vai húc vào ngực tên thứ nhất, và tên đó văng đi như một con búp bê. Tên thứ hai bắn. Viên đạn đỏ đập vào ngực giáp của ông, và ông cảm thấy nó: không phải đau, mà là một cú đập nặng nề, như bị ai đó ném một bao bột vào người. Trên góc tầm nhìn, một thanh màu xanh lá tụt xuống một phần năm. Ông chạy tiếp.
 
 Vòng tường thứ hai. Bắn. Nứt. Lao qua. Bốn tên. Ông bắn hai, húc một, tên thứ tư bắn ông ba phát vào lưng trước khi Kev hạ hắn từ xa.
 
@@ -114,11 +104,7 @@ Thanh xanh lá còn một nửa. Chuyển sang màu vàng.
 
 Vòng tường thứ ba. Cao nhất. Dày nhất. Ông bắn. Bức tường nứt, nhưng không vỡ. Ông bắn lần nữa. Lỗ hổng chỉ đủ cho một con chó chui qua.
 
-Ông vứt khẩu súng xuống. Ông lùi lại năm bước. Rồi ông chạy, và lao cả thân hình hai mét bọc giáp titan vào chỗ nứt.
-
-Bức tường vỡ.
-
-Ông ngã qua lỗ hổng, lăn một vòng trên sân đá đen, và khi ông ngẩng lên, ông thấy họ.
+Ông vứt khẩu súng xuống. Ông lùi lại năm bước. Ông chạy, và lao cả thân hình hai mét bọc giáp titan vào chỗ nứt. Bức tường vỡ. Ông ngã qua lỗ hổng, lăn một vòng trên sân đá đen, và khi ông ngẩng lên, ông thấy họ.
 
 Thằng Vane đứng ở giữa sân, hai thanh kiếm xanh lam đã rút ra, chắn trước Lin. Con bé thì đứng sau nó, nhỏ xíu, hai tay ôm cái máy giải mã hình viên kim cương vào ngực. Xung quanh họ là hàng trăm con thú đen, đứng yên, mắt bạc mờ.
 
@@ -128,21 +114,13 @@ Và trên đỉnh cánh cổng, tháp pháo ba nòng đã sáng đỏ rực, nh�
 
 Viper đứng dậy.
 
-Ông không nghĩ gì cả. Đó là điều kỳ lạ nhất. Cả đời ông đã nghĩ quá nhiều. Nghĩ về tiền thuê nhà, về học phí của Rosie, về những cơn đau đầu của vợ mà ông đã không nhận ra kịp. Lúc này, đầu ông trống trơn. Chỉ có một khoảng cách: hai mươi mét giữa ông và chỗ thằng Vane đứng. Và một con số: ba giây.
+Ông không nghĩ gì cả. Đó là điều kỳ lạ nhất. Cả đời ông đã nghĩ quá nhiều. Nghĩ về tiền thuê nhà, về học phí của Rosie, về những cơn đau đầu của vợ mà ông đã không nhận ra kịp. Lúc này, đầu ông trống trơn. Chỉ có một khoảng cách: hai mươi mét giữa ông và chỗ thằng Vane đứng. Và một con số: ba giây. Ông chạy.
 
-Ông chạy.
-
-Hai mươi mét. Mười lăm. Mười.
-
-Thằng Vane quay đầu lại, thấy ông, và mắt nó mở to.
-
-Tháp pháo bắn.
+Hai mươi mét. Mười lăm. Mười. Thằng Vane quay đầu lại, thấy ông, và mắt nó mở to. Tháp pháo bắn.
 
 Ba luồng sáng đỏ, to bằng thân cây, đâm thẳng xuống sân. Viper nhảy. Không cao. Chỉ đủ để thân hình to lớn của ông chắn ngang đường bay của ba luồng sáng, giữa họng súng và hai người bạn của ông.
 
-Cú đập không giống những lần trước. Nó không phải một bao bột. Nó là cả một bức tường. Ông cảm thấy bộ giáp titan nứt toác ra ở ngực, ở vai, ở bụng. Ông cảm thấy cái tạp dề hồng cháy thành tro. Thanh màu vàng trên góc tầm nhìn chuyển đỏ, rồi nhấp nháy, rồi biến mất.
-
-Ông ngã xuống sân đá.
+Cú đập không giống những lần trước. Nó không phải một bao bột. Nó là cả một bức tường. Ông cảm thấy bộ giáp titan nứt toác ra ở ngực, ở vai, ở bụng. Ông cảm thấy cái tạp dề hồng cháy thành tro. Thanh màu vàng trên góc tầm nhìn chuyển đỏ, rồi nhấp nháy, rồi biến mất. Ông ngã xuống sân đá.
 
 Ông nằm ngửa, nhìn lên bầu trời đỏ có những dòng ký tự rơi xuống như tuyết. Ông không cảm thấy đau. Ông chỉ cảm thấy nặng, như đang chìm vào một cái giường quá mềm.
 
@@ -164,21 +142,17 @@ Một khuôn mặt nữa. Lin. Con bé đang khóc. Nước mắt ảo, chảy t
 
 Con bé bật ra một tiếng gì đó, nửa cười nửa nấc.
 
-Ông thấy góc tầm nhìn của mình bắt đầu vỡ ra. Những điểm ảnh bong ra từ rìa, bay lên, như tro bay lên từ một đống lửa.
-
-Ông nhìn thằng Vane lần cuối.
+Ông thấy góc tầm nhìn của mình bắt đầu vỡ ra. Những điểm ảnh bong ra từ rìa, bay lên, như tro bay lên từ một đống lửa. Ông nhìn thằng Vane lần cuối.
 
 "Nói với Rosie," ông nói, "là bố thắng nhé."
 
-Rồi bầu trời đỏ biến mất.
+Bầu trời đỏ biến mất.
 
 ---
 
-Lena đang đứng sau bàn điều khiển, súng điện chĩa vào cánh cửa thép đang rung lên dưới tiếng nổ thứ hai, khi chiếc ghế thứ ba bắt đầu rung.
+Lena đang đứng sau bàn điều khiển, súng điện chĩa vào cánh cửa thép đang rung lên dưới tiếng nổ thứ hai, khi chiếc ghế thứ ba bắt đầu rung. Cô quay lại.
 
-Cô quay lại.
-
-Viper đang co giật. Không phải những cái giật nhẹ của người đang mơ. Toàn thân ông ta cong lên khỏi lưng ghế, hai tay co quắp, đầu ngửa ra sau, miệng há ra. Trên màn hình, đường sóng màu cam của ông ta dựng đứng lên thành một đỉnh nhọn, rồi tụt thẳng xuống, rồi một dòng chữ đỏ nhấp nháy:
+Viper đang co giật. Toàn thân ông ta cong lên khỏi lưng ghế, hai tay co quắp, đầu ngửa ra sau, miệng há ra. Trên màn hình, đường sóng màu cam của ông ta dựng đứng lên thành một đỉnh nhọn, rồi tụt thẳng xuống, rồi một dòng chữ đỏ nhấp nháy:
 
 > `[VIPER_99: NGẮT KẾT NỐI CƯỠNG CHẾ — PHÁT HIỆN SỐC PHẢN HỒI]`
 

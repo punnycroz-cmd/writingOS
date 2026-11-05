@@ -1,6 +1,6 @@
 # DÀN Ý CHI TIẾT TẬP 1 (V2) — *CÁI TÊN CÒN SỐNG SÓT*
 
-> Theo `CANON_V2_CAI_TEN_CON_SONG_SOT.md`. 36 chương, khoảng 90–100 nghìn từ, mỗi chương 2.500–3.000 từ.
+> Theo `CANON_V2_CAI_TEN_CON_SONG_SOT.md`. Bản viết đầy đủ nằm ở `novel_vi_v2/`; bản viết có vài điều chỉnh nhỏ so với dàn ý này (Ch.19 gộp cảnh vỡ lở và tách nhóm; Ch.20 là cuộc gọi đối chất; Corwin phát hiện thân phận Lena ở Ch.24). 36 chương, khoảng 90–100 nghìn từ, mỗi chương 2.500–3.000 từ.
 > ⚙️ là chỗ gắn hệ thống AI **Echo** (thú cưng AI đồng hành của mọi người dùng, do Halloway phát triển). Nyx là người cung cấp tin cũ của Thomas Daly. POV là nhân vật kể chính của chương.
 
 | Hồi | Chương | Thời gian | Tông |

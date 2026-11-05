@@ -2,11 +2,7 @@
 
 Sáng thứ Năm, Lena đến văn phòng lúc bảy giờ mười lăm, và có người đang đợi cô.
 
-Cô thấy họ ngay khi cửa thang máy mở ra. Hai người đàn ông mặc vest xám than đứng hai bên cửa phòng 4B, tay đan trước thắt lưng, tai nghe không dây có dây xoắn trong suốt chạy xuống sau cổ áo. Vai rộng, đứng thả lỏng nhưng không lơ đễnh. Kiểu người được trả tiền để không bao giờ lơ đễnh.
-
-Và đứng giữa họ, quay lưng về phía thang máy, đang đọc tấm biển đồng trên cửa, là một người phụ nữ.
-
-Người phụ nữ quay lại.
+Cô thấy họ ngay khi cửa thang máy mở ra. Hai người đàn ông mặc vest xám than đứng hai bên cửa phòng 4B, tay đan trước thắt lưng, tai nghe không dây có dây xoắn trong suốt chạy xuống sau cổ áo. Vai rộng, đứng thả lỏng nhưng không lơ đễnh. Kiểu người được trả tiền để không bao giờ lơ đễnh. Và đứng giữa họ, quay lưng về phía thang máy, đang đọc tấm biển đồng trên cửa, là một người phụ nữ. Người phụ nữ quay lại.
 
 Bà ta khoảng ngoài năm mươi, nhưng làn da căng mịn theo cách chỉ có tiền mới mua được. Tóc bạc cắt ngắn, chải ngược ra sau, gọn gàng như một chiếc mũ bạc. Áo khoác len xanh navy may đo, áo lụa màu ngà bên trong, không trang sức gì ngoài một chiếc ghim cài áo bằng bạch kim hình chuỗi xoắn kép. Đôi mắt màu xanh nhạt, trong như băng tan, và cũng lạnh như băng.
 
@@ -58,7 +54,7 @@ Halloway đã quay người định đi. Bà ta dừng lại.
 
 Đôi mắt màu băng ấy hạ xuống, nhìn bàn tay Lena. Nhìn những ngón tay đang gõ nhẹ lên vải quần. Lâu hơn mức cần thiết. Một nhịp. Hai nhịp.
 
-Rồi bà ta ngẩng lên, nhìn thẳng vào mặt Lena. Và lần đầu tiên kể từ khi bước ra khỏi thang máy, nụ cười trên môi Halloway biến mất. Không phải vì tức giận. Nó chỉ đơn giản là không còn ở đó nữa, như thể Halloway đã quên mất phải giữ nó lại. Thay vào đó là một vẻ chăm chú trần trụi, gần như đói khát, như một nhà sưu tầm vừa nhận ra món đồ mình tìm kiếm cả đời nằm lẫn trong một thùng đồ cũ ngoài chợ.
+Rồi bà ta ngẩng lên, nhìn thẳng vào mặt Lena. Và lần đầu tiên kể từ khi bước ra khỏi thang máy, nụ cười trên môi Halloway biến mất. Nó chỉ đơn giản là không còn ở đó nữa, như thể Halloway đã quên mất phải giữ nó lại. Thay vào đó là một vẻ chăm chú trần trụi, gần như đói khát, như một nhà sưu tầm vừa nhận ra món đồ mình tìm kiếm cả đời nằm lẫn trong một thùng đồ cũ ngoài chợ.
 
 "Cô bao nhiêu tuổi, Tiến sĩ Hale?" Halloway hỏi.
 
@@ -102,9 +98,7 @@ Iris Halloway ngồi ở hàng ghế sau, một chiếc máy tính bảng đặt
 
 *Đối tượng Một — Solis, M. — Tình trạng: Mất tích, nghi đã chết (14/10/2004).*
 
-Halloway đặt ngón tay lên tấm ảnh, phóng to khuôn mặt cô bé. Rồi bà ta mở một tấm ảnh khác bên cạnh: ảnh chân dung của Lena Hale trên trang web của Hội đồng Pháp y bang.
-
-Bà ta nhìn hai tấm ảnh rất lâu.
+Halloway đặt ngón tay lên tấm ảnh, phóng to khuôn mặt cô bé. Rồi bà ta mở một tấm ảnh khác bên cạnh: ảnh chân dung của Lena Hale trên trang web của Hội đồng Pháp y bang. Bà ta nhìn hai tấm ảnh rất lâu.
 
 "Bà Halloway?" người tài xế hỏi qua gương chiếu hậu. "Về trụ sở chứ ạ?"
 
@@ -112,6 +106,6 @@ Bà ta nhìn hai tấm ảnh rất lâu.
 
 "Vâng."
 
-Halloway nhìn hai tấm ảnh thêm một lúc. Rồi bà ta tắt màn hình, ngả đầu ra sau ghế, nhắm mắt. Và bà ta mỉm cười. Lần này là một nụ cười thật, nhỏ, gần như dịu dàng.
+Halloway nhìn hai tấm ảnh thêm một lúc. Bà ta tắt màn hình, ngả đầu ra sau ghế, nhắm mắt. Và bà ta mỉm cười. Lần này là một nụ cười thật, nhỏ, gần như dịu dàng.
 
 "Hai mươi năm," bà ta nói khẽ, với chính mình. "Tìm thấy rồi. Đối tượng Một."

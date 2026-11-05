@@ -2,9 +2,7 @@
 
 Nút chuyển tiếp nằm dưới đáy biển, ở độ sâu một trăm bốn mươi mét, cách mũi đất mười bốn cây số về phía đông bắc. Kev chưa bao giờ thấy nó, và sẽ không bao giờ thấy nó. Anh chỉ biết nó qua những con số: độ trễ tín hiệu, băng thông, nhiệt độ hoạt động. Nó là một cái hộp thép to bằng chiếc tủ lạnh, nằm trong bóng tối, chia dòng dữ liệu làm hai nhánh như một ngã ba đường.
 
-Một nhánh về đất liền. Một nhánh ra khơi.
-
-Anh mất bốn ngày để mở được nó.
+Một nhánh về đất liền. Một nhánh ra khơi. Anh mất bốn ngày để mở được nó.
 
 Không, không đúng. Anh mất hai ngày để mở được nó. Hai ngày còn lại là để chắc chắn rằng không ai ở đầu bên kia biết là nó đã bị mở. Linh nói anh hoang tưởng. Anh nói đó là lý do anh còn sống.
 
@@ -12,13 +10,11 @@ Không, không đúng. Anh mất hai ngày để mở được nó. Hai ngày c�
 
 Ngày mùng bảy tháng Mười, hai giờ mười lăm sáng, Nyx gửi cho anh một tin nhắn trực tiếp.
 
-Không phải qua máy của Lena. Qua máy của anh. Qua đường hầm Reykjavik mà anh đã tự tay dựng, mà anh tin là không ai biết.
+Lần này nó đến thẳng máy của anh, không qua Lena. Qua đường hầm Reykjavik mà anh đã tự tay dựng, mà anh tin là không ai biết.
 
 > **[N]:** Anh dựng đường hầm đẹp đấy. Gần bằng tôi.
 
-Kev nhìn tin nhắn đó rất lâu. Anh ta cảm thấy một thứ gì đó lạnh chạy dọc sống lưng, kiểu cảm giác của người lính vừa nhận ra mình đã bị ngắm từ trước, từ lâu, mà không biết.
-
-Anh gõ:
+Kev nhìn tin nhắn đó rất lâu. Anh ta cảm thấy một thứ gì đó lạnh chạy dọc sống lưng, kiểu cảm giác của người lính vừa nhận ra mình đã bị ngắm từ trước, từ lâu, mà không biết. Anh gõ:
 
 > **Kev:** Cô muốn gì.
 
@@ -42,13 +38,11 @@ Rồi anh tìm thấy thư mục cuối cùng. Ngày tạo: mùng hai tháng Nă
 
 *ECHO / HALLOWAY / GIÁM SÁT.*
 
-Bên trong là những đoạn ghi âm. Thomas đã ghi lại chính chiếc điện thoại của mình. Ông đã đặt một máy ghi âm cũ cạnh chiếc điện thoại có Echo, trong phòng ngủ, ba đêm liền, trong lúc ông giả vờ ngủ. Rồi ông phân tích lưu lượng dữ liệu mà chiếc điện thoại gửi đi.
-
-Những dòng ghi chú tay của ông, scan lại, nằm cạnh mỗi đoạn ghi âm:
+Bên trong là những đoạn ghi âm. Thomas đã ghi lại chính chiếc điện thoại của mình. Ông đã đặt một máy ghi âm cũ cạnh chiếc điện thoại có Echo, trong phòng ngủ, ba đêm liền, trong lúc ông giả vờ ngủ. Rồi ông phân tích lưu lượng dữ liệu mà chiếc điện thoại gửi đi. Những dòng ghi chú tay của ông, scan lại, nằm cạnh mỗi đoạn ghi âm:
 
 *Đêm 1: Echo gửi 340MB dữ liệu lúc 3h sáng. Tôi không dùng điện thoại suốt đêm.*
 
-*Đêm 2: Nói chuyện với Ruth về N. trong phòng ngủ (cố ý, để thử). 4 phút sau, Echo gửi một gói dữ liệu nhỏ tới một địa chỉ IP thuộc Halloway Neuro-Systems. Không phải máy chủ Echo chung. Máy chủ riêng.*
+*Đêm 2: Nói chuyện với Ruth về N. trong phòng ngủ (cố ý, để thử). 4 phút sau, Echo gửi một gói dữ liệu nhỏ tới một địa chỉ IP thuộc Halloway Neuro-Systems. Một máy chủ riêng, tách khỏi hệ thống Echo chung.*
 
 *Đêm 3: Tắt Echo. Nó tự bật lại lúc 2h17.*
 
@@ -56,11 +50,9 @@ Những dòng ghi chú tay của ông, scan lại, nằm cạnh mỗi đoạn gh
 
 Kev ngồi lặng trước màn hình.
 
-Cách đó ba mét, con hạc giấy xám của anh đang đậu trên nóc tủ máy chủ, cánh gập lại, mắt tắt. Chế độ ngủ. Anh đã để nó như vậy từ ngày tới Ashgrove.
+Cách đó ba mét, con hạc giấy xám của anh đang đậu trên nóc tủ máy chủ, cánh gập lại, mắt tắt. Chế độ ngủ. Anh đã để nó như vậy từ ngày tới Ashgrove. Anh nhìn nó rất lâu.
 
-Anh nhìn nó rất lâu.
-
-Rồi anh đứng dậy, đi tới, nhấc con hạc lên, và tắt nó hẳn. Không phải chế độ ngủ. Tắt hẳn. Rút luôn phần lõi kết nối ra khỏi khe cắm trên chiếc máy tính nhỏ của anh, thứ mà anh đã không rút ra suốt bảy năm, kể từ khi rời khỏi chương trình.
+Rồi anh đứng dậy, đi tới, nhấc con hạc lên, và tắt nó hẳn. Rút luôn phần lõi kết nối ra khỏi khe cắm trên chiếc máy tính nhỏ của anh, thứ mà anh đã không rút ra suốt bảy năm, kể từ khi rời khỏi chương trình.
 
 Con hạc giấy nằm im trong tay anh. Một mảnh giấy xám gấp khéo léo, nhẹ bẫng.
 
@@ -185,9 +177,7 @@ Không ai trả lời. Viper đứng dậy hâm lại súp. Đó là cách ông 
 
 ---
 
-Tối hôm đó, Kev ngồi một mình trong phòng điều khiển, kiểm tra lại các đường kết nối lần thứ mười một.
-
-Điện thoại anh rung lên.
+Tối hôm đó, Kev ngồi một mình trong phòng điều khiển, kiểm tra lại các đường kết nối lần thứ mười một. Điện thoại anh rung lên.
 
 > **[N]:** Kế hoạch tốt. Có ba lỗ hổng.
 
@@ -206,9 +196,7 @@ Kev đọc dòng cuối ba lần.
 > **[N]:** Vì tôi đã xem anh ta ngồi chặn một cái ống thông gió năm bảy tuổi. Tôi có bản ghi camera của Prometheus đêm đó. Thomas giữ nó.
 > **[N]:** Người như vậy không thay đổi đâu.
 
-Kev đặt điện thoại xuống. Anh nhìn ra cánh cửa thép đang đóng, nghe tiếng sóng vỗ ở bên ngoài.
-
-Rồi anh cầm điện thoại lên lại.
+Kev đặt điện thoại xuống. Anh nhìn ra cánh cửa thép đang đóng, nghe tiếng sóng vỗ ở bên ngoài. Anh cầm điện thoại lên lại.
 
 > **Kev:** Thế thì cô giúp được gì.
 

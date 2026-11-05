@@ -4,9 +4,7 @@ Thị trấn tên là Ashgrove, và nó trông đúng như cái tên của nó.
 
 Một con đường chính dài sáu dãy nhà. Một nhà máy giấy đã đóng cửa từ mười năm trước, ống khói gạch vẫn đứng sừng sững ở cuối phố như một ngón tay chỉ lên trời. Một tiệm ăn có biển hiệu đèn neon chỉ còn sáng được nửa chữ. Một nhà thờ sơn trắng. Những ngôi nhà gỗ hai tầng có hiên trước, sơn đã bong, sân trồng cỏ dại và bày đồ chơi trẻ con.
 
-Nhà của Viper là ngôi nhà cuối cùng trên một con phố cụt, sát bìa rừng. Màu xanh lơ. Một chiếc xích đu bằng lốp xe treo trên cành sồi trước sân. Trên hiên có một hàng chậu hoa dã quỳ, một nửa đã héo, một nửa nở vàng rực.
-
-Rosie đứng đợi trên bậc thềm.
+Nhà của Viper là ngôi nhà cuối cùng trên một con phố cụt, sát bìa rừng. Màu xanh lơ. Một chiếc xích đu bằng lốp xe treo trên cành sồi trước sân. Trên hiên có một hàng chậu hoa dã quỳ, một nửa đã héo, một nửa nở vàng rực. Rosie đứng đợi trên bậc thềm.
 
 Lena nhận ra cô bé trước khi xe kịp dừng hẳn: tám tuổi, tóc xoăn tít buộc hai bím lệch nhau, mặc váy ngủ in hình khủng long bên ngoài một chiếc quần jean, chân đi ủng cao su màu vàng. Hai tay khoanh trước ngực. Gương mặt nghiêm trọng như một cảnh sát giao thông.
 
@@ -84,9 +82,7 @@ Viper ho một tiếng, đứng dậy, đi lấy thêm bánh mì ngô. Lena th�
 
 ---
 
-Sau bữa tối, Rosie bị đưa đi tắm. Elias rửa bát. Lena lau. Họ làm việc trong im lặng, cạnh nhau bên bồn rửa, khuỷu tay thỉnh thoảng chạm vào nhau.
-
-Viper bước vào, đặt hai chai bia lên bàn, ngồi xuống chiếc ghế ọp ẹp.
+Sau bữa tối, Rosie bị đưa đi tắm. Elias rửa bát. Lena lau. Họ làm việc trong im lặng, cạnh nhau bên bồn rửa, khuỷu tay thỉnh thoảng chạm vào nhau. Viper bước vào, đặt hai chai bia lên bàn, ngồi xuống chiếc ghế ọp ẹp.
 
 "Nó ngủ rồi," ông ta nói. "Nó bắt tôi kể chuyện về chú gầy mất trí nhớ."
 
@@ -108,9 +104,7 @@ Elias không nói gì. Anh cầm chiếc đĩa cuối cùng lên, rửa nó lâu
 
 Lúc mười giờ, cơn đau trở lại.
 
-Elias đang ngồi trên mép chiếc giường xếp Viper dọn cho anh trong phòng làm việc, một căn phòng nhỏ ngập dây cáp và linh kiện máy tính. Anh đang cố đọc lại cuốn sổ của Corwin. Những dòng chữ bắt đầu nhảy múa.
-
-Rồi một chiếc đinh nung đỏ đóng thẳng vào sau mắt trái anh.
+Elias đang ngồi trên mép chiếc giường xếp Viper dọn cho anh trong phòng làm việc, một căn phòng nhỏ ngập dây cáp và linh kiện máy tính. Anh đang cố đọc lại cuốn sổ của Corwin. Những dòng chữ bắt đầu nhảy múa. Rồi một chiếc đinh nung đỏ đóng thẳng vào sau mắt trái anh.
 
 Anh không kêu. Anh gập người lại, hai tay ôm đầu. Tầm nhìn vỡ ra thành những hạt nhiễu trắng li ti, lấp lánh như tuyết trên màn hình hỏng. Một dòng ấm nóng chảy xuống môi trên. Mùi sắt. Máu.
 
@@ -144,7 +138,7 @@ Elias nhìn cô. Ánh đèn bàn hắt lên một bên mặt cô, để lại b�
 
 Cô gật đầu. Cô ngồi đó thêm một lúc, không nói gì, chỉ nghe nhịp thở của anh đều dần.
 
-Rồi cô đứng dậy, cầm vali, đi về phòng mình.
+Cô đứng dậy, cầm vali, đi về phòng mình.
 
 ---
 
@@ -156,7 +150,7 @@ Cô ngồi trên chiếc giường đơn trong căn phòng khách của Viper, g
 
 Cô đọc nó dưới ánh đèn hình mặt trăng.
 
-Đó không phải một thỏa thuận. Đó là một tối hậu thư. Elena Solis đã phát hiện ra chương trình đang thử nghiệm trên trẻ em, và muốn rút lui. Halloway đã đưa ra một lựa chọn: hoặc Elena ở lại và tiếp tục làm việc, hoặc con gái bà, một đứa trẻ có chỉ số thần kinh hiếm gặp mà chính bà đã vô tình nhắc đến trong một buổi họp, sẽ được "đưa vào chương trình dưới sự giám sát của viện" theo một lệnh tạm giữ của tòa án vị thành niên mà Halloway đã chuẩn bị sẵn.
+Gọi nó là thỏa thuận thì hơi quá. Nó là một tối hậu thư. Elena Solis đã phát hiện ra chương trình đang thử nghiệm trên trẻ em, và muốn rút lui. Halloway đã đưa ra một lựa chọn: hoặc Elena ở lại và tiếp tục làm việc, hoặc con gái bà, một đứa trẻ có chỉ số thần kinh hiếm gặp mà chính bà đã vô tình nhắc đến trong một buổi họp, sẽ được "đưa vào chương trình dưới sự giám sát của viện" theo một lệnh tạm giữ của tòa án vị thành niên mà Halloway đã chuẩn bị sẵn.
 
 Elena đã chọn ở lại. Và Maren vẫn bị đưa vào.
 

@@ -4,9 +4,7 @@ Nguyễn Hoài Linh đã tưởng tượng cảnh này ba năm nay, và trong t�
 
 Trong tưởng tượng, cả đội sẽ gặp nhau ở một hội chợ game. Có đèn, có nhạc, có khán giả. Cô sẽ bước vào, cao hơn một chút nhờ đôi giày đế bánh mì, tóc nhuộm xanh như nhân vật của mình, và nói một câu gì đó thật ngầu. Viper sẽ ôm cô. Kev sẽ gật đầu. Eli sẽ... thật ra cô không bao giờ tưởng tượng nổi Eli sẽ làm gì. Có lẽ đứng ở góc, nhìn.
 
-Thực tế là cô đang ngồi ở ghế phụ một chiếc xe bán tải cũ màu xám, cạnh một gã đàn ông gầy nhẳng ba mươi tuổi đeo kính gọng đen, áo khoác gió kéo khóa tận cằm, đã lái xe bốn tiếng đồng hồ mà nói tổng cộng đúng mười một câu.
-
-Cô đã đếm.
+Thực tế là cô đang ngồi ở ghế phụ một chiếc xe bán tải cũ màu xám, cạnh một gã đàn ông gầy nhẳng ba mươi tuổi đeo kính gọng đen, áo khoác gió kéo khóa tận cằm, đã lái xe bốn tiếng đồng hồ mà nói tổng cộng đúng mười một câu. Cô đã đếm.
 
 "Anh Kev," cô nói lần thứ ba. "Ngoài đời anh ít nói thật đấy à?"
 
@@ -74,9 +72,7 @@ Viper chìa tay ra. Kev bắt lấy. Họ lắc tay một cái, cứng nhắc, r
 
 Rồi Viper kéo anh vào một cái ôm. Kev đứng cứng đờ như một tấm ván trong ba giây, rồi một tay anh vỗ nhẹ lên lưng Viper, hai lần, vụng về.
 
-Linh quay mặt đi, giả vờ như đang nhìn một con sóc trên cây sồi, vì mắt cô cay cay và cô sẽ không bao giờ thừa nhận điều đó.
-
-Rồi cô thấy anh.
+Linh quay mặt đi, giả vờ như đang nhìn một con sóc trên cây sồi, vì mắt cô cay cay và cô sẽ không bao giờ thừa nhận điều đó. Cô thấy anh.
 
 Eli đứng ở ngưỡng cửa, một tay bám vào khung cửa. Gầy hơn cô tưởng. Cao hơn cô tưởng. Tóc đen rối, mắt xám, mặc một chiếc áo thun quá rộng có lẽ là của Viper. Anh đang nhìn cô, nhìn Kev, nhìn Viper, với cái vẻ của một người đứng bên ngoài cửa kính một cửa hàng, nhìn vào trong.
 
@@ -120,9 +116,7 @@ Linh nhìn cô ấy, rồi nhìn Eli, người đang ngồi ở chiếc ghế b�
 
 Lena mở mắt ra trên một bậc thềm gỗ.
 
-Mùi nhựa thông. Mùi mưa. Một chút mùi bỏng ngô cháy. Gió thổi qua tóc cô, mát và nhẹ, mang theo tiếng chuông gió kêu leng keng ở đâu đó trên cao.
-
-Cô ngẩng lên, và thấy một con tàu vũ trụ mọc trên một cái cây.
+Mùi nhựa thông. Mùi mưa. Một chút mùi bỏng ngô cháy. Gió thổi qua tóc cô, mát và nhẹ, mang theo tiếng chuông gió kêu leng keng ở đâu đó trên cao. Cô ngẩng lên, và thấy một con tàu vũ trụ mọc trên một cái cây.
 
 Cô đã thấy hàng trăm không gian Layer 1. Văn phòng ảo của các tập đoàn, bóng bẩy và vô hồn. Phòng hội nghị. Phòng trị liệu. Những khu vườn thiền định được thiết kế bởi đội ngũ chuyên gia, hoàn hảo tới từng chiếc lá. Cô chưa bao giờ thấy một thứ gì như thế này.
 
@@ -186,19 +180,11 @@ Lena ở lại thêm một chút. Cô muốn nhìn Tổ Quạ thêm một lần 
 
 Cô đi dọc hành lang thân tàu, qua những cánh cửa có tên viết bằng phấn: *Viper — CẤM VÀO KHI ĐANG NẤU*. *Lin — NGUY HIỂM — BONG BÓNG*. *Kev* — không có dòng chữ nào, chỉ có một bông hoa giấy gấp hình con hạc dán trên cửa.
 
-Cánh cửa cuối cùng không có tên. Nó khép hờ.
+Cánh cửa cuối cùng không có tên. Nó khép hờ. Lena đẩy cửa ra.
 
-Lena đẩy cửa ra.
+Đó là một căn phòng nhỏ, trống trơn. Không có máy móc kỳ quặc, không có đèn lồng. Chỉ một chiếc ghế, một ô cửa sổ nhìn ra biển mây, và bốn bức tường trắng. Nhưng tường không trắng.
 
-Đó là một căn phòng nhỏ, trống trơn. Không có máy móc kỳ quặc, không có đèn lồng. Chỉ một chiếc ghế, một ô cửa sổ nhìn ra biển mây, và bốn bức tường trắng.
-
-Nhưng tường không trắng.
-
-Chúng được phủ kín bởi những hình vẽ. Hàng trăm, có lẽ hàng nghìn hình vẽ bằng than chì, chồng lên nhau, đè lên nhau, kín từ sàn tới trần. Tất cả đều vẽ cùng một thứ, lặp đi lặp lại, từ mọi góc độ: một hành lang. Sàn có vết nứt chéo. Đèn huỳnh quang trên trần. Và ở cuối hành lang, hai cánh cửa trắng sát nhau.
-
-Một cánh có số *0*.
-
-Cánh kia có số *1*.
+Chúng được phủ kín bởi những hình vẽ. Hàng trăm, có lẽ hàng nghìn hình vẽ bằng than chì, chồng lên nhau, đè lên nhau, kín từ sàn tới trần. Tất cả đều vẽ cùng một thứ, lặp đi lặp lại, từ mọi góc độ: một hành lang. Sàn có vết nứt chéo. Đèn huỳnh quang trên trần. Và ở cuối hành lang, hai cánh cửa trắng sát nhau. Một cánh có số *0*. Cánh kia có số *1*.
 
 Lena đứng sững ở ngưỡng cửa. Tim cô đập thình thịch.
 

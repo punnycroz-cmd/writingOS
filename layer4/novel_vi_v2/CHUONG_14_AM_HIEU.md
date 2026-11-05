@@ -10,9 +10,7 @@ Hai mươi năm nay cô vẫn làm vậy. Trong những cuộc họp căng thẳ
 
 Giờ cô biết lý do. Và cô ước gì mình không biết.
 
-Không, không phải vậy. Cô không ước như vậy. Cô chỉ không biết phải làm gì với nó. Một mẩu ký ức trả về không kèm theo hướng dẫn sử dụng. Không biết nó vừa với chỗ nào trong cuộc đời cô.
-
-Cô nhắm mắt.
+Không, không phải vậy. Cô không ước như vậy. Cô chỉ không biết phải làm gì với nó. Một mẩu ký ức trả về không kèm theo hướng dẫn sử dụng. Không biết nó vừa với chỗ nào trong cuộc đời cô. Cô nhắm mắt.
 
 Và lần này, khi bóng tối sau mí mắt đặc lại, có thứ gì đó trồi lên.
 
@@ -78,17 +76,13 @@ Mặt cô ướt. Cô không biết mình đã khóc từ lúc nào. Ngực cô 
 
 *Mẹ.*
 
-Cô có một người mẹ. Người mẹ ấy có khuôn mặt, có giọng nói, có tiếng cười. Người mẹ ấy gọi cô là *con của mẹ* trong bóng tối, khi không có ai nghe.
-
-Hai mươi năm nay cô không biết điều đó.
+Cô có một người mẹ. Người mẹ ấy có khuôn mặt, có giọng nói, có tiếng cười. Người mẹ ấy gọi cô là *con của mẹ* trong bóng tối, khi không có ai nghe. Hai mươi năm nay cô không biết điều đó.
 
 Cô ngồi dậy. Không thể nằm thêm được nữa.
 
 ---
 
-Mái nhà Viper bằng phẳng ở phía sau, chỗ nhà bếp được xây thêm vào. Có một cái thang sắt dựng sát tường. Lena trèo lên, khoác chiếc áo len của bà Rosa cho mượn.
-
-Elias đã ở đó.
+Mái nhà Viper bằng phẳng ở phía sau, chỗ nhà bếp được xây thêm vào. Có một cái thang sắt dựng sát tường. Lena trèo lên, khoác chiếc áo len của bà Rosa cho mượn. Elias đã ở đó.
 
 Anh ngồi ở mép mái, hai chân buông thõng, lưng hơi khom, nhìn lên bầu trời. Ashgrove không có nhiều đèn. Sao rất nhiều.
 
@@ -106,9 +100,7 @@ Họ ngồi im lặng một lúc. Gió đêm thổi qua tán sồi, xào xạc. 
 
 Anh quay sang nhìn cô.
 
-Cô kể cho anh nghe. Căn phòng trắng. Con cá voi bay. Nhịp gõ. Người phụ nữ áo blouse. *Con của mẹ.* Cái tên dài quá. Cô kể nhanh, như sợ nếu dừng lại thì nó sẽ tan mất.
-
-Khi cô kể tới đoạn *Eli*, anh nhắm mắt lại.
+Cô kể cho anh nghe. Căn phòng trắng. Con cá voi bay. Nhịp gõ. Người phụ nữ áo blouse. *Con của mẹ.* Cái tên dài quá. Cô kể nhanh, như sợ nếu dừng lại thì nó sẽ tan mất. Khi cô kể tới đoạn *Eli*, anh nhắm mắt lại.
 
 "Tôi nghe thấy tên đó," anh nói. "Ở bệnh viện. Khi vừa tỉnh dậy. Trong ba mươi năm vỡ vụn đó có ai đó gọi tôi bằng một cái tên không phải tên tôi. Tôi tưởng đó là một trong những ký ức lạ." Anh mở mắt. "Là cô."
 
@@ -130,7 +122,7 @@ Họ nhìn nhau.
 
 "Hoặc hai bên của một bức tường."
 
-Lena bật cười, khẽ. Rồi cô im lặng. Tay cô tự tìm tới sợi dây chuyền dưới cổ áo, chạm vào chiếc nhẫn bạc.
+Lena bật cười, khẽ. Cô im lặng. Tay cô tự tìm tới sợi dây chuyền dưới cổ áo, chạm vào chiếc nhẫn bạc.
 
 Elias thấy cử chỉ đó. Anh không nói gì.
 
@@ -186,8 +178,6 @@ Cái tên rơi ra khỏi miệng cô trước khi cô kịp nghĩ.
 
 Cô đứng sững. Anh cũng vậy, quay lại nhìn cô, đôi mắt mở to trong bóng tối.
 
-Không ai nói gì. Gió thổi qua. Con cú trong rừng lại kêu, một lần, hai lần.
-
-Lena quay người, trèo xuống thang thật nhanh, và không ngoảnh lại.
+Không ai nói gì. Gió thổi qua. Con cú trong rừng lại kêu, một lần, hai lần. Lena quay người, trèo xuống thang thật nhanh, và không ngoảnh lại.
 
 Trên mái nhà, Elias ngồi một mình rất lâu, nhìn bàn tay mình, nơi những ngón tay vẫn còn đặt ở tư thế vừa gõ.

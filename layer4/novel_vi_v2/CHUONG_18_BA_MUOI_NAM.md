@@ -28,9 +28,7 @@ Kế hoạch chiều hôm đó là của Elias, và Lena đã phản đối nó 
 
 "Đó là chỗ có thứ chúng ta cần," Elias nói.
 
-Mười ngày qua, họ đã lặn bảy lần. Bốn lần vào ký ức của anh, ba lần vào ký ức của cô. Mỗi lần là một mảnh. Căn phòng số không và chuỗi gõ dài hơn mà họ vẫn chưa giải mã được. Bà Elena dạy Maren cách đếm bằng tiếng Tây Ban Nha. Một kỹ thuật viên tên Bradley, trẻ hơn hai mươi tuổi, dúi cho Elias một viên kẹo bạc hà khi không ai nhìn. Họ biết thêm nhiều về tuổi thơ của mình. Họ không biết thêm gì về máy chủ của Halloway, về Trạm Đảo, hay về việc Corwin đã thấy gì trước khi biến mất.
-
-Những thứ đó, nếu có ở đâu, thì nằm ở ba mươi năm.
+Mười ngày qua, họ đã lặn bảy lần. Bốn lần vào ký ức của anh, ba lần vào ký ức của cô. Mỗi lần là một mảnh. Căn phòng số không và chuỗi gõ dài hơn mà họ vẫn chưa giải mã được. Bà Elena dạy Maren cách đếm bằng tiếng Tây Ban Nha. Một kỹ thuật viên tên Bradley, trẻ hơn hai mươi tuổi, dúi cho Elias một viên kẹo bạc hà khi không ai nhìn. Họ biết thêm nhiều về tuổi thơ của mình. Họ không biết thêm gì về máy chủ của Halloway, về Trạm Đảo, hay về việc Corwin đã thấy gì trước khi biến mất. Những thứ đó, nếu có ở đâu, thì nằm ở ba mươi năm.
 
 Ba mươi năm vỡ vụn mà anh đã sống trong mười một ngày hôn mê, nơi ký ức của anh và ký ức của những người lạ trộn vào nhau như sơn đổ chung một xô. Lena gọi nó là "vùng nhiễu". Kev gọi nó là "bãi rác". Lin gọi nó là "cái máy xay sinh tố", và Viper đã cấm cô gọi thế trước mặt Rosie.
 
@@ -54,13 +52,9 @@ Xuống nữa thì nước không còn là nước. Nó đặc lại, sền sệ
 
 Một chiếc xe đạp màu đỏ có giỏ đằng trước. Một đám cưới ở một nhà thờ anh không biết, cô dâu khóc vì giày quá chật. Một con chó cái già nằm chết dưới gầm bàn bếp. Một người đàn ông ngồi ở một văn phòng kế toán lúc mười giờ đêm, nhìn ra cửa sổ, nghĩ về việc bỏ trốn. Một bé gái đứng trên sân khấu trường học quên lời bài hát. Một cái bàn bi-a. Một bệnh viện. Một bãi biển ở đâu đó rất nóng.
 
-Mỗi ký ức lướt qua để lại một vị trên lưỡi anh: mặn, ngọt, đắng, kim loại. Anh không giữ chúng lại. Chúng không phải của anh. Chúng là của những người đã đăng nhập vào mạng lưới của Halloway đúng ngày hai mươi mốt tháng Tám, lúc hai giờ chiều, khi não anh nổ tung trong Layer 4 và hút vào mọi thứ ở gần như một lỗ đen.
+Mỗi ký ức lướt qua để lại một vị trên lưỡi anh: mặn, ngọt, đắng, kim loại. Anh không giữ chúng lại. Chúng không phải của anh. Chúng là của những người đã đăng nhập vào mạng lưới của Halloway đúng ngày hai mươi mốt tháng Tám, lúc hai giờ chiều, khi não anh nổ tung trong Layer 4 và hút vào mọi thứ ở gần như một lỗ đen. Anh nhận ra một điều mà bảy lần lặn trước anh không để ý.
 
-Anh nhận ra một điều mà bảy lần lặn trước anh không để ý.
-
-Trong mỗi ký ức, ở một góc nào đó, luôn có một con vật nhỏ phát sáng. Một con cáo ngồi dưới chân bàn kế toán. Một con chim sẻ đậu trên khung cửa sổ nhà thờ. Một con mèo nằm trên mép sân khấu. Chúng không làm gì cả. Chúng chỉ nhìn.
-
-Echo.
+Trong mỗi ký ức, ở một góc nào đó, luôn có một con vật nhỏ phát sáng. Một con cáo ngồi dưới chân bàn kế toán. Một con chim sẻ đậu trên khung cửa sổ nhà thờ. Một con mèo nằm trên mép sân khấu. Chúng không làm gì cả. Chúng chỉ nhìn. Echo.
 
 Anh ghi nhớ điều đó lại, như ghi một tọa độ trên bản đồ, và đi tiếp. Anh không có thời gian để hiểu nó.
 
@@ -84,19 +78,13 @@ Anh đang nhìn qua mắt của một người đàn ông cao, vai rộng, tay c
 
 Người đàn ông gõ trả lời bằng ngón cái lạnh cóng: *Đã ở đây rồi. Có đèn ở phía bắc. Họ có người ở đó.*
 
-Phía trước, qua màn mưa, có một ánh sáng mờ nhạt. Không phải đèn hải đăng. Một thứ ánh sáng xanh lạnh, như ánh sáng từ dưới nước hắt lên.
+Phía trước, qua màn mưa, có một ánh sáng mờ nhạt. Đèn hải đăng không có màu đó. Đây là một thứ ánh sáng xanh lạnh, như ánh sáng từ dưới nước hắt lên.
 
-Rồi một tiếng động cơ. Không phải của con tàu này. Tiếng của một thứ gì đó lớn hơn, nhanh hơn, đang lao tới từ bên phải.
+Rồi một tiếng động cơ. Tiếng của một thứ gì đó lớn hơn, nhanh hơn, đang lao tới từ bên phải.
 
-Elias cảm thấy người đàn ông nghĩ về một người phụ nữ. Không phải bằng lời. Bằng hình ảnh: một căn bếp, một chậu húng quế héo một nửa, một cái áo len xám quá rộng. Bằng một cảm giác giống như nuối tiếc nhưng nóng hơn, gần với giận dữ hơn. *Đáng lẽ mình phải nói với cô ấy. Đáng lẽ mình phải nói hết.*
+Elias cảm thấy người đàn ông nghĩ về một người phụ nữ. Bằng hình ảnh, không thành lời: một căn bếp, một chậu húng quế héo một nửa, một cái áo len xám quá rộng. Bằng một cảm giác giống như nuối tiếc nhưng nóng hơn, gần với giận dữ hơn. *Đáng lẽ mình phải nói với cô ấy. Đáng lẽ mình phải nói hết.* Tiếng va chạm. Nước.
 
-Tiếng va chạm.
-
-Nước.
-
-Ký ức vỡ vụn. Elias để nó trôi đi. Phổi anh, ở đâu đó rất xa bên trên, co thắt lại như vừa sặc nước thật.
-
-Anh định bơi lên.
+Ký ức vỡ vụn. Elias để nó trôi đi. Phổi anh, ở đâu đó rất xa bên trên, co thắt lại như vừa sặc nước thật. Anh định bơi lên.
 
 Rồi anh thấy nó. Một mảnh khác, nhỏ hơn, nằm ngay sau mảnh vừa vỡ, cùng vị mặn nhưng lạnh hơn. Như vị nước biển đã được làm lạnh trong tủ.
 
@@ -106,11 +94,9 @@ Anh với lấy nó.
 
 Trắng.
 
-Một trần nhà cong, màu trắng, rất gần, gần tới mức chỉ cách mặt một gang tay. Không phải trần nhà. Mặt trong của một cái nắp. Kính mờ. Có hơi nước đọng li ti.
+Một trần nhà cong, màu trắng, rất gần, gần tới mức chỉ cách mặt một gang tay. Đó là mặt trong của một cái nắp. Kính mờ. Có hơi nước đọng li ti.
 
-Anh không cử động được. Người đàn ông mà anh đang ở trong đầu không cử động được. Có một cái ống trong cổ họng. Có một áp lực nhẹ nhàng, đều đặn, đẩy không khí vào phổi rồi rút ra. Vào. Ra. Vào. Ra.
-
-Ngoài lớp kính mờ có bóng người đi qua. Một giọng phụ nữ, đều đều, chán chường, như đang đọc biểu mẫu:
+Anh không cử động được. Người đàn ông mà anh đang ở trong đầu không cử động được. Có một cái ống trong cổ họng. Có một áp lực nhẹ nhàng, đều đặn, đẩy không khí vào phổi rồi rút ra. Vào. Ra. Vào. Ra. Ngoài lớp kính mờ có bóng người đi qua. Một giọng phụ nữ, đều đều, chán chường, như đang đọc biểu mẫu:
 
 "…Daly. Ngày thứ một trăm chín mươi hai. Nhịp Theta ổn định. Không có phản ứng với kích thích Layer 1. Ghi chú: đối tượng có hiện tượng 'mỏ neo' lặp lại với cùng một từ khóa…"
 
@@ -184,15 +170,11 @@ Kev im lặng một lúc. "Vậy là chúng ta phải tin một người bán th
 
 "Hoặc không tin ai cả."
 
-Kev cất điện thoại vào túi. Anh không nói đồng ý. Anh cũng không nói không.
+Kev cất điện thoại vào túi. Anh không nói đồng ý. Anh cũng không nói không. Lena nhìn Elias.
 
-Lena nhìn Elias.
+Anh vẫn ngồi đó, miếng gạc đỏ trên mũi, nhìn lên cô. Anh biết mình nên nói gì đó. Một câu đúng đắn. Kiểu *tôi mừng cho cô*, hoặc *chúng ta sẽ tìm ra anh ấy*. Đó là những câu đúng. Nó là những câu một người bạn sẽ nói. Anh nói: "Mũi tôi vẫn chảy máu."
 
-Anh vẫn ngồi đó, miếng gạc đỏ trên mũi, nhìn lên cô. Anh biết mình nên nói gì đó. Một câu đúng đắn. Kiểu *tôi mừng cho cô*, hoặc *chúng ta sẽ tìm ra anh ấy*. Đó là những câu đúng. Nó là những câu một người bạn sẽ nói.
-
-Anh nói: "Mũi tôi vẫn chảy máu."
-
-Lena nhìn anh. Rồi cô làm một việc anh không đoán được: cô bật cười. Một tiếng ngắn, ướt, gần như tiếng nấc. Cô quỳ xuống trước ghế, giật miếng gạc cũ ra, ấn miếng mới vào.
+Lena nhìn anh. Cô làm một việc anh không đoán được: cô bật cười. Một tiếng ngắn, ướt, gần như tiếng nấc. Cô quỳ xuống trước ghế, giật miếng gạc cũ ra, ấn miếng mới vào.
 
 "Cúi đầu xuống," cô nói. Tay cô run. "Đừng ngửa ra sau."
 

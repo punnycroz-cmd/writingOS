@@ -14,9 +14,7 @@ Bàn điều khiển của cô ở giữa phòng, quay mặt về phía bốn ch
 
 Viper đứng ở chân cầu thang sắt dẫn xuống hầm, hai tay chống nạnh, nhìn quanh phòng như đang tính xem có thể kê bếp ở đâu. Rồi ông ta đi tới góc phòng, nơi có một cái tủ sắt cao ngang ngực, mở nó ra.
 
-Bên trong là đồ an ninh ông ta đã để lại từ hồi đội còn dùng trạm này làm máy chủ giải đấu, ba năm trước. Lena đã thấy nó hôm đầu tiên tới đây. Một khẩu súng bắn điện dạng súng trường, loại các bảo vệ dùng ở sự kiện thể thao. Hai hộp đạn điện. Một cái loa cầm tay. Một bộ đèn pha di động. Một cuộn xích thép to bằng cổ tay.
-
-Ông ta lấy khẩu súng ra, kiểm tra pin, nạp một hộp đạn, rồi chìa nó cho Lena.
+Bên trong là đồ an ninh ông ta đã để lại từ hồi đội còn dùng trạm này làm máy chủ giải đấu, ba năm trước. Lena đã thấy nó hôm đầu tiên tới đây. Một khẩu súng bắn điện dạng súng trường, loại các bảo vệ dùng ở sự kiện thể thao. Hai hộp đạn điện. Một cái loa cầm tay. Một bộ đèn pha di động. Một cuộn xích thép to bằng cổ tay. Ông ta lấy khẩu súng ra, kiểm tra pin, nạp một hộp đạn, rồi chìa nó cho Lena.
 
 "Cô biết dùng cái này chứ?"
 
@@ -56,9 +54,7 @@ Lena đi tới. Cô quỳ xuống trước ghế anh, sát trùng mặt trong kh
 
 "Tớ biết, Eli."
 
-Cô cắm sợi cáp đỏ vào vòng cảm biến của anh. Một tiếng tách nhỏ. Trên màn hình bàn điều khiển, một đường sóng thứ hai hiện lên, chạy song song với đường sóng của anh. Đường sóng của cô. Chúng lệch nhau một chút ở các đỉnh, như hai người đi cạnh nhau mà chưa cùng bước.
-
-Cô đặt hai bàn tay lên tay anh.
+Cô cắm sợi cáp đỏ vào vòng cảm biến của anh. Một tiếng tách nhỏ. Trên màn hình bàn điều khiển, một đường sóng thứ hai hiện lên, chạy song song với đường sóng của anh. Đường sóng của cô. Chúng lệch nhau một chút ở các đỉnh, như hai người đi cạnh nhau mà chưa cùng bước. Cô đặt hai bàn tay lên tay anh.
 
 Hai đường sóng trên màn hình xích lại gần nhau. Lệch ít hơn. Ít hơn nữa. Rồi khớp.
 
@@ -66,7 +62,7 @@ Kev nhìn màn hình từ ghế đầu, gật đầu. "Đồng bộ chín mươi
 
 Lena không buông tay ngay. Cô giữ thêm ba giây, bốn giây.
 
-Rồi cô gõ lên mu bàn tay anh. Ba nhanh. Hai chậm.
+Cô gõ lên mu bàn tay anh. Ba nhanh. Hai chậm.
 
 Anh lật tay lại, gõ lên lòng bàn tay cô. Ba nhanh. Hai chậm.
 
@@ -76,7 +72,7 @@ Cô đứng dậy, quay về bàn điều khiển.
 
 "Mười hai phút," Kev nói. "Tôi kích hoạt từ ghế này. Đếm ngược từ năm."
 
-Lena đặt khẩu súng điện lên bàn, ngay cạnh bàn phím, nòng hướng về phía cửa thép. Cô đội vòng cảm biến của mình. Không phải loại để lặn. Loại nông, chỉ để đồng bộ. Cô vẫn ở đây. Cô sẽ vẫn nhìn thấy căn phòng, nghe thấy tiếng sóng, cảm thấy sàn bê tông dưới chân. Nhưng ở một góc nào đó trong đầu, cô cũng sẽ cảm thấy anh.
+Lena đặt khẩu súng điện lên bàn, ngay cạnh bàn phím, nòng hướng về phía cửa thép. Cô đội vòng cảm biến của mình. Loại nông, chỉ để đồng bộ, không dùng để lặn. Cô vẫn ở đây. Cô sẽ vẫn nhìn thấy căn phòng, nghe thấy tiếng sóng, cảm thấy sàn bê tông dưới chân. Nhưng ở một góc nào đó trong đầu, cô cũng sẽ cảm thấy anh.
 
 "Năm."
 
@@ -100,7 +96,7 @@ Bốn cơ thể trên bốn chiếc ghế đồng loạt chùng xuống, như nh
 
 Trên màn hình, bốn đường sóng chuyển màu, từ xanh sang cam. Layer 3. Một trăm lần thời gian thực. Mỗi phút ngoài này là hơn một tiếng rưỡi ở trong kia.
 
-Và ở một góc nào đó trong đầu cô, Lena cảm thấy anh rơi đi. Như cảm giác bước hụt một bậc cầu thang trong bóng tối. Rồi một cảm giác khác: lạnh, sáng, rộng mênh mông. Một thành phố bằng kính đen, mở ra dưới chân anh.
+Và ở một góc nào đó trong đầu cô, Lena cảm thấy anh rơi đi. Như cảm giác bước hụt một bậc cầu thang trong bóng tối. Một cảm giác khác: lạnh, sáng, rộng mênh mông. Một thành phố bằng kính đen, mở ra dưới chân anh.
 
 Cô nắm chặt mép bàn.
 
@@ -110,19 +106,13 @@ Phòng điều khiển lặng ngắt. Chỉ có tiếng rì rì của tủ máy 
 
 Lena nhìn bốn đường sóng trên màn hình. Elias ổn định. Kev ổn định. Linh hơi nhanh, nhưng trong ngưỡng. Viper chậm và đều, như người đang ngủ trưa.
 
-Cô nhìn đồng hồ. Mười giờ lẻ hai phút. Hai phút ngoài này. Ba tiếng hai mươi phút trong kia.
+Cô nhìn đồng hồ. Mười giờ lẻ hai phút. Hai phút ngoài này. Ba tiếng hai mươi phút trong kia. Cô nghe tiếng động cơ.
 
-Rồi cô nghe tiếng động cơ.
-
-Trầm, nặng, nhiều chiếc, vọng qua lớp tường bê tông dày gần một mét. Tiếng lốp xe nghiến trên sỏi. Tiếng cửa xe mở rồi đóng. Tiếng ủng.
-
-Cô đứng dậy, cầm khẩu súng điện lên.
+Trầm, nặng, nhiều chiếc, vọng qua lớp tường bê tông dày gần một mét. Tiếng lốp xe nghiến trên sỏi. Tiếng cửa xe mở rồi đóng. Tiếng ủng. Cô đứng dậy, cầm khẩu súng điện lên.
 
 Màn hình phụ ở góc bàn điều khiển hiện hình ảnh từ chiếc camera an ninh cũ mà Kev đã sửa lại, gắn trên nóc khối bê tông. Hình ảnh đen trắng, nhòe, nhưng đủ.
 
-Bốn chiếc xe tải đen đỗ theo hình bán nguyệt trên bãi đất trước hải đăng. Đèn pha bật sáng, chiếu thẳng vào cửa khối bê tông. Những bóng người tràn ra khỏi thùng xe: mũ chống đạn, kính nhìn đêm, súng tiểu liên. Lena đếm. Mười. Mười hai. Mười sáu.
-
-Trên trời, ba chấm đen đã rời khỏi vùng biển, đang hạ thấp dần, bay vòng quanh đỉnh hải đăng.
+Bốn chiếc xe tải đen đỗ theo hình bán nguyệt trên bãi đất trước hải đăng. Đèn pha bật sáng, chiếu thẳng vào cửa khối bê tông. Những bóng người tràn ra khỏi thùng xe: mũ chống đạn, kính nhìn đêm, súng tiểu liên. Lena đếm. Mười. Mười hai. Mười sáu. Trên trời, ba chấm đen đã rời khỏi vùng biển, đang hạ thấp dần, bay vòng quanh đỉnh hải đăng.
 
 Một người tách ra khỏi nhóm lính, đi tới trước mũi chiếc xe tải đầu tiên, đứng giữa luồng đèn pha. Không đội mũ. Không cầm súng. Một người đàn ông trung niên, tóc hoa râm, áo khoác dạ xám.
 
@@ -132,13 +122,9 @@ Bradley cầm một chiếc loa. Giọng ông ta vang qua lớp bê tông, méo 
 
 "Tiến sĩ Hale. Hoặc tôi nên gọi là Tiến sĩ Solis." Một khoảng ngừng. "Chúng tôi biết cô đang ở trong đó. Chúng tôi biết anh Vane đang ở cùng cô. Không ai muốn chuyện này kết thúc theo cách xấu. Mở cửa ra, và tôi hứa không ai bị thương."
 
-Lena không trả lời. Cô đứng sau bàn điều khiển, súng trong tay, nhìn màn hình.
+Lena không trả lời. Cô đứng sau bàn điều khiển, súng trong tay, nhìn màn hình. Điện thoại của cô rung lên trên bàn.
 
-Điện thoại của cô rung lên trên bàn.
-
-Một số lạ. Không phải ứng dụng con quạ. Một cuộc gọi thường, đến chiếc điện thoại trả trước mà chỉ có bốn người biết số.
-
-Cô biết trước khi nghe máy.
+Một số lạ. Một cuộc gọi thường, không qua ứng dụng con quạ, đến chiếc điện thoại trả trước mà chỉ có bốn người biết số. Cô biết trước khi nghe máy.
 
 "Maren," giọng Iris Halloway nói, êm ái, lịch thiệp, như đang gọi để mời đi ăn tối. "Tôi xin lỗi vì gọi muộn. Hôm nay là một ngày đặc biệt, tôi nghĩ cô hiểu."
 
@@ -160,6 +146,6 @@ Lena cầm điện thoại lên, đưa sát vào miệng.
 
 Cô cúp máy.
 
-Bên ngoài, giọng Bradley qua loa im bặt. Rồi một giọng khác, khô hơn, ra lệnh, không qua loa.
+Bên ngoài, giọng Bradley qua loa im bặt. Một giọng khác, khô hơn, ra lệnh, không qua loa.
 
 Tiếng nổ đầu tiên làm rung chuyển cửa thép.

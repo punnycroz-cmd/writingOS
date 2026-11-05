@@ -32,7 +32,7 @@ Và anh. Đứng quay lưng về phía cô. Hai thanh kiếm hạ xuống.
 
 Rồi cô cảm thấy tiếng gõ.
 
-Ở đầu bên kia sợi dây. Rất nhẹ. Không phải bằng tay, vì không có tay nào ở đây cả. Chỉ là một nhịp, chạy dọc sợi dây như một rung động.
+Ở đầu bên kia sợi dây. Rất nhẹ. Ở đây không có tay nào cả. Chỉ là một nhịp, chạy dọc sợi dây như một rung động.
 
 *Ba nhanh. Hai chậm.*
 
@@ -40,9 +40,7 @@ Rồi cô cảm thấy tiếng gõ.
 
 Lena đứng sững.
 
-Cô biết nhịp đó. Cô đã gõ nó cả đời mà không biết vì sao. Cô đã gõ nó lên những bức tường, những mặt bàn, những đầu gối, những tay ghế. Cô biết nó có nghĩa là gì.
-
-Cô cũng biết khi nào thì một đứa trẻ gõ nó.
+Cô biết nhịp đó. Cô đã gõ nó cả đời mà không biết vì sao. Cô đã gõ nó lên những bức tường, những mặt bàn, những đầu gối, những tay ghế. Cô biết nó có nghĩa là gì. Cô cũng biết khi nào thì một đứa trẻ gõ nó.
 
 Mỗi tối. Qua bức tường. Trước khi ngủ. Và một lần khác, một lần duy nhất, ở đâu đó trong một ký ức cô đã thấy cách đây mười sáu ngày trên sàn một nhà kho bỏ hoang: một cậu bé bảy tuổi ngồi chặn miệng ống thông gió, và từ phía bên kia cái ống, một cô bé đang bò, và cậu bé đã gõ lên thành ống kim loại một lần cuối, nhẹ, trước khi những người mặc đồ đen tới.
 
@@ -58,15 +56,11 @@ Màn hình trước mặt cô nhảy lên.
 > `[ÁP LỰC NỘI SỌ: 52 mmHg]`
 > `[ĐỒNG BỘ MỎ NEO: ĐANG TÁCH]`
 
-Sợi dây trong đầu cô giật mạnh. Không phải từ phía bàn tay lạnh. Từ phía anh. Một cú đẩy. Như ai đó vừa đẩy mạnh vào gót chân cô, đẩy cô về phía trước, về phía đầu kia của một cái ống tối.
+Sợi dây trong đầu cô giật mạnh. Lần này cú giật đến từ phía anh. Một cú đẩy. Như ai đó vừa đẩy mạnh vào gót chân cô, đẩy cô về phía trước, về phía đầu kia của một cái ống tối.
 
-Căn phòng điều khiển ùa về, rõ nét, sáng, ồn ào. Tiếng sóng. Tiếng lửa. Giọng Nyx. Cô đang bị đẩy ra. Về lại cơ thể mình. Về lại nơi an toàn.
+Căn phòng điều khiển ùa về, rõ nét, sáng, ồn ào. Tiếng sóng. Tiếng lửa. Giọng Nyx. Cô đang bị đẩy ra. Về lại cơ thể mình. Về lại nơi an toàn. Và anh đang ở lại.
 
-Và anh đang ở lại.
-
-Trên chiếc ghế xếp cuối cùng, cơ thể Elias cong lên khỏi lưng ghế. Máu bắt đầu chảy từ cả hai lỗ mũi, từ khóe mắt trái, từ tai. Những ngón tay anh co quắp lại, bấu chặt vào thành ghế.
-
-Anh đang làm lại đúng việc đó.
+Trên chiếc ghế xếp cuối cùng, cơ thể Elias cong lên khỏi lưng ghế. Máu bắt đầu chảy từ cả hai lỗ mũi, từ khóe mắt trái, từ tai. Những ngón tay anh co quắp lại, bấu chặt vào thành ghế. Anh đang làm lại đúng việc đó.
 
 Anh đã tính. Như anh luôn tính. Một sợi dây, hai đầu, một bàn tay đang kéo. Nếu anh tự mở Layer 4 từ phía mình, lực đẩy sẽ cắt đứt sợi dây, đẩy cô ra khỏi tầm tay của Halloway. Còn anh thì ở lại. Một mình. Ở miệng ống.
 
@@ -78,11 +72,7 @@ Anh đã tính. Như anh luôn tính. Một sợi dây, hai đầu, một bàn t
 
 Lena nhìn màn hình. Hai sợi chỉ xoắn vào nhau đang bung ra. Đường của cô đang trở về màu xanh. Đường của anh đang đỏ dần lên, đỏ dần, vượt khỏi khung hình.
 
-Cô đã có hai mươi năm không biết mình là ai.
-
-Cô đã có hai mươi năm gõ một nhịp mà không biết vì sao.
-
-Cô đã có hai mươi năm tin rằng ký ức đầu tiên của đời mình là một người đàn ông gọt táo trong phòng bệnh viện. Trong khi ký ức đầu tiên thật sự, ký ức quan trọng nhất, là một cậu bé ngồi chặn một cái ống thông gió để cô được sống.
+Cô đã có hai mươi năm không biết mình là ai. Hai mươi năm gõ một nhịp mà không biết vì sao. Hai mươi năm tin rằng ký ức đầu tiên của đời mình là một người đàn ông gọt táo trong phòng bệnh viện. Trong khi ký ức đầu tiên thật sự, ký ức quan trọng nhất, là một cậu bé ngồi chặn một cái ống thông gió để cô được sống.
 
 Anh đã ở lại một lần. Hai mươi năm trước. Anh đã ở lại, và người ta đã lấy đi tất cả của anh. Tên tuổi, ký ức, cuộc đời. Chỉ còn lại một cái tên. Tên của cô.
 
@@ -92,9 +82,7 @@ Cô sẽ không để anh ở lại thêm lần nữa.
 
 Lena buông mép bàn điều khiển ra.
 
-Cô không rút cáp. Cô làm ngược lại. Cô đưa tay lên vòng cảm biến trên đầu mình. Loại nông, loại chỉ để đồng bộ, loại để cô vẫn đứng ở đây, an toàn, ở thế giới thật. Cô vặn núm điều chỉnh độ sâu.
-
-Hết cỡ.
+Cô không rút cáp. Cô làm ngược lại. Cô đưa tay lên vòng cảm biến trên đầu mình. Loại nông, loại chỉ để đồng bộ, loại để cô vẫn đứng ở đây, an toàn, ở thế giới thật. Cô vặn núm điều chỉnh độ sâu. Hết cỡ.
 
 "Bác sĩ, cô làm gì vậy?" giọng Nyx. "Lena. LENA—"
 
@@ -104,19 +92,13 @@ Căn phòng điều khiển biến mất.
 
 Cô không rơi. Cô lao.
 
-Dọc theo sợi dây đang đứt, như một người bơi ngược dòng thác. Qua lớp nhựa đường nóng. Qua những dòng sông bạc. Qua những bóng thú đen mắt bạc mờ ngồi thành vòng tròn. Qua người phụ nữ áo khoác xanh navy, người đang quay đầu lại với một vẻ mặt mà Lena sẽ nhớ mãi: lần đầu tiên trong hai mươi năm, Iris Halloway không đoán trước được điều gì đó.
+Dọc theo sợi dây đang đứt, như một người bơi ngược dòng thác. Qua lớp nhựa đường nóng. Qua những dòng sông bạc. Qua những bóng thú đen mắt bạc mờ ngồi thành vòng tròn. Qua người phụ nữ áo khoác xanh navy, người đang quay đầu lại với một vẻ mặt mà Lena sẽ nhớ mãi: lần đầu tiên trong hai mươi năm, Iris Halloway không đoán trước được điều gì đó. Cô thấy anh.
 
-Cô thấy anh.
-
-Anh đứng trước một cánh cửa. Không phải cánh cửa thật. Một vết nứt trên không trung, cao từ sàn tới tận chỗ không thấy đỉnh, rộng ra dần. Qua vết nứt là thứ ánh sáng không có tên. Một cảm giác về quá nhiều. Mọi tiếng nói của mọi người đã từng sống.
-
-Anh đang bước vào.
+Anh đứng trước một cánh cửa. Đúng hơn là một vết nứt trên không trung, cao từ sàn tới tận chỗ không thấy đỉnh, rộng ra dần. Qua vết nứt là thứ ánh sáng không có tên. Một cảm giác về quá nhiều. Mọi tiếng nói của mọi người đã từng sống. Anh đang bước vào.
 
 Một chân đã qua khỏi mép vết nứt. Nửa người anh đã nhòe đi, tan dần vào thứ ánh sáng ấy, như một bức tranh màu nước bị nhúng vào nước.
 
-Lena không gọi tên anh. Không gọi *Elias*. Cái tên đó là của bệnh án, của báo chí, của người đàn ông hai mươi bảy tuổi bước vào văn phòng cô một tối mưa. Cái tên đó không đi tới được chỗ anh đang đứng.
-
-Cô gọi cái tên mà một cô bé chín tuổi đã đặt cho một cậu bé không có ai trên đời.
+Lena không gọi tên anh. Không gọi *Elias*. Cái tên đó là của bệnh án, của báo chí, của người đàn ông hai mươi bảy tuổi bước vào văn phòng cô một tối mưa. Cái tên đó không đi tới được chỗ anh đang đứng. Cô gọi cái tên mà một cô bé chín tuổi đã đặt cho một cậu bé không có ai trên đời.
 
 "ELI!"
 
@@ -156,9 +138,7 @@ Rồi cô nói điều mà cô đã không nói được hai mươi năm. Điề
 
 Có thứ gì đó vỡ ra trong cô.
 
-Không phải đau. Như băng vỡ trên mặt hồ đầu xuân. Như một cánh cửa bị khóa hai mươi năm bỗng bật mở.
-
-Và mọi thứ tràn vào.
+Như băng vỡ trên mặt hồ đầu xuân. Như một cánh cửa bị khóa hai mươi năm bỗng bật mở. Và mọi thứ tràn vào.
 
 Căn phòng số một. Con cá voi bay trên tường. Vết ố nước hình nước Ý trên trần. Mùi bút sáp màu. Mẹ ngồi ở mép giường, móng tay cắn cụt, hát về tuyết. Tiếng gõ qua bức tường, mỗi tối, ba nhanh hai chậm, và cả những chuỗi dài hơn mà cô đã quên. *Hai nhanh, một chậm, bốn nhanh: hôm nay cậu có đau không? Một chậm, hai nhanh: có một chút. Ba chậm: ngủ đi.* Một cậu bé gầy, tóc dựng ngược, mắt xám, đứng trong hành lang trắng nhìn cô lần đầu tiên, và cô đã nghĩ: *cậu ấy trông như con mèo bị ướt.* Những buổi kiểm tra ở tầng dưới. Những cái kim. Những vòng kim loại lạnh trên đầu. Và tay cậu ấy, luôn tìm được tay cô qua khe cửa khi người lớn không nhìn.
 
@@ -172,11 +152,9 @@ Maren Solis mở mắt ra giữa căn phòng lục giác, và cô biết mình l
 
 Cô với tay ra.
 
-Không phải để kéo anh ra khỏi vết nứt. Cô biết cô không kéo được. Cô biết lực hút của Layer 4 lớn hơn bất cứ thứ gì cô có.
+Cô biết mình không kéo được anh ra khỏi vết nứt. Cô biết lực hút của Layer 4 lớn hơn bất cứ thứ gì cô có.
 
-Cô với tay ra và nắm lấy tay anh. Nửa bàn tay còn lại của anh, chưa tan vào ánh sáng.
-
-Và cô giữ nguyên sợi dây.
+Cô với tay ra và nắm lấy tay anh. Nửa bàn tay còn lại của anh, chưa tan vào ánh sáng. Và cô giữ nguyên sợi dây.
 
 Không để nó đứt. Không để Halloway kéo nó. Cô nắm lấy nó, ở đầu bên này, bằng cả ý chí của mình, và giữ. Tự nguyện. Không phải vì bị kéo vào. Vì cô chọn ở đây.
 
@@ -198,8 +176,6 @@ Maren không quay lại. Cô nhìn Eli.
 
 Anh nhìn cô. Rồi, rất chậm, khóe miệng còn lại của anh nhích lên.
 
-Ánh sáng trong vết nứt thay đổi. Không còn kéo nữa. Nó đứng yên. Như mặt nước khi gió ngừng thổi. Như một cánh cửa nặng nề, cuối cùng cũng đứng vững được trên cả hai bản lề.
-
-Nửa khuôn mặt đã tan của anh bắt đầu hiện lại, từng chút một, như một bức ảnh hiện dần trong thuốc rửa.
+Ánh sáng trong vết nứt thay đổi. Không còn kéo nữa. Nó đứng yên. Như mặt nước khi gió ngừng thổi. Như một cánh cửa nặng nề, cuối cùng cũng đứng vững được trên cả hai bản lề. Nửa khuôn mặt đã tan của anh bắt đầu hiện lại, từng chút một, như một bức ảnh hiện dần trong thuốc rửa.
 
 Và anh không còn đứng ở mép vết nứt nữa. Họ đứng ở đó. Cả hai. Tay trong tay. Quay lưng về phía thứ ánh sáng không có tên, quay mặt về phía Iris Halloway.

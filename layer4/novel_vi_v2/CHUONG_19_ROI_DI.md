@@ -50,9 +50,7 @@ Cô nhìn anh thêm một giây, như định hỏi gì đó. Rồi Kev gọi to
 
 ---
 
-Họ ra khỏi Ashgrove bằng con đường đất phía sau rừng, đường mà chỉ thợ săn và những đứa trẻ trốn học mới biết. Viper lái. Chiếc xe taco nhảy chồm chồm trên ổ gà, giá treo nồi niêu kêu leng keng như chuông nhà thờ. Tấm biển hình chiếc bánh taco trên nóc xe đã được tháo ra, nằm dưới sàn xe giữa đống thùng hành tây, vẫn còn cắm điện và vẫn còn xoay chầm chậm vì không ai nhớ rút dây.
-
-Kev ngồi ở ghế phụ, laptop mở trên đùi, mắt dán vào một bản đồ.
+Họ ra khỏi Ashgrove bằng con đường đất phía sau rừng, đường mà chỉ thợ săn và những đứa trẻ trốn học mới biết. Viper lái. Chiếc xe taco nhảy chồm chồm trên ổ gà, giá treo nồi niêu kêu leng keng như chuông nhà thờ. Tấm biển hình chiếc bánh taco trên nóc xe đã được tháo ra, nằm dưới sàn xe giữa đống thùng hành tây, vẫn còn cắm điện và vẫn còn xoay chầm chậm vì không ai nhớ rút dây. Kev ngồi ở ghế phụ, laptop mở trên đùi, mắt dán vào một bản đồ.
 
 "Ba chiếc drone vẫn ở trên thị trấn," anh nói. "Không đi theo chúng ta. Chưa."
 
@@ -60,9 +58,7 @@ Kev ngồi ở ghế phụ, laptop mở trên đùi, mắt dán vào một bản
 
 Kev không trả lời.
 
-Ở thùng xe phía sau, Lin ngồi trên một thùng hành tây, ôm một cái túi đựng ổ cứng như ôm một con mèo. Lena ngồi trên sàn, lưng tựa vào tủ lạnh, chiếc vali kẹp giữa hai đầu gối. Elias ngồi đối diện cô, chỗ anh đã ngồi hai tuần trước, khi chiếc xe này đón họ ở tiệm giặt.
-
-Chỗ đó có vẻ là chỗ của anh.
+Ở thùng xe phía sau, Lin ngồi trên một thùng hành tây, ôm một cái túi đựng ổ cứng như ôm một con mèo. Lena ngồi trên sàn, lưng tựa vào tủ lạnh, chiếc vali kẹp giữa hai đầu gối. Elias ngồi đối diện cô, chỗ anh đã ngồi hai tuần trước, khi chiếc xe này đón họ ở tiệm giặt. Chỗ đó có vẻ là chỗ của anh.
 
 Chiếc xe rẽ từ đường đất ra một con đường nhựa hẹp chạy giữa hai hàng thông. Mặt đường ướt. Trời bắt đầu mưa lắc rắc.
 
@@ -80,11 +76,9 @@ Chiếc xe rẽ từ đường đất ra một con đường nhựa hẹp chạy
 
 Lin bật cười, một tiếng cười căng thẳng. Lena cũng cười, khẽ. Elias không cười. Anh đang nhìn đồng hồ trên điện thoại.
 
-Bốn giờ năm mươi. Lần phát tín hiệu cuối cùng là lúc ba giờ năm mươi mốt. Bốn mươi phút một lần. Lần tiếp theo là lúc bốn giờ ba mươi mốt. Đã qua rồi. Lần tiếp theo nữa là năm giờ mười một.
+Bốn giờ năm mươi. Lần phát tín hiệu cuối cùng là lúc ba giờ năm mươi mốt. Bốn mươi phút một lần. Lần tiếp theo là lúc bốn giờ ba mươi mốt. Đã qua rồi. Lần tiếp theo nữa là năm giờ mười một. Hai mươi mốt phút nữa.
 
-Hai mươi mốt phút nữa.
-
-Họ có thể chạy tới đâu trong hai mươi mốt phút? Tới bất cứ đâu, thì tới năm giờ mười một não anh lại phát ra một nhịp, và ba chấm đen trên trời sẽ biết chính xác chiếc xe taco màu vàng chanh này đang ở đâu. Rồi năm giờ năm mươi mốt. Rồi sáu giờ ba mươi mốt. Mãi mãi.
+Họ có thể chạy tới đâu trong hai mươi mốt phút? Tới bất cứ đâu, thì tới năm giờ mười một não anh lại phát ra một nhịp, và ba chấm đen trên trời sẽ biết chính xác chiếc xe taco màu vàng chanh này đang ở đâu. Năm giờ năm mươi mốt. Sáu giờ ba mươi mốt. Mãi mãi.
 
 Anh nhìn Lena. Cô đang dựa đầu vào tủ lạnh, mắt nhắm lại, ngón tay gõ lên nắp vali. Ba nhanh, hai chậm.
 
@@ -114,9 +108,7 @@ Lena đã ngồi thẳng dậy. Cô nhìn Elias, và anh thấy trong mắt cô 
 
 "Elias?" cô nói.
 
-Anh mở miệng. Anh đã tập câu này mười ngày. Anh đã tập nó dưới vòi sen, trên mái nhà, trong lúc thái hành, trong lúc rửa bát. Anh đã có những câu mở đầu, những câu giải thích, những câu xin lỗi.
-
-Chúng biến mất hết.
+Anh mở miệng. Anh đã tập câu này mười ngày. Anh đã tập nó dưới vòi sen, trên mái nhà, trong lúc thái hành, trong lúc rửa bát. Anh đã có những câu mở đầu, những câu giải thích, những câu xin lỗi. Chúng biến mất hết.
 
 "Họ không cần bám đuôi chúng ta," anh nói. "Họ chưa bao giờ cần. Bệnh án ghi là *dữ liệu thần kinh truyền trực tiếp*. Tôi tưởng đó là dữ liệu từ máy móc ở bệnh viện." Anh dừng lại. "Không phải. Là từ não tôi. Nó tự phát tín hiệu. Bốn mươi phút một lần. Kev bắt được nó mười ngày trước."
 
@@ -152,7 +144,7 @@ Cô nhìn đồng hồ trên cổ tay. Năm giờ hai phút.
 
 "Vậy thì tách."
 
-Cô nói câu đó mà không nhìn Elias. Rồi cô kéo chiếc vali lên đùi, mở ra, bắt đầu kiểm tra các ống thuốc một cách cẩn thận, chậm rãi, từng ống một, như thể ở thời điểm này không có việc gì quan trọng hơn thế.
+Cô nói câu đó mà không nhìn Elias. Cô kéo chiếc vali lên đùi, mở ra, bắt đầu kiểm tra các ống thuốc một cách cẩn thận, chậm rãi, từng ống một, như thể ở thời điểm này không có việc gì quan trọng hơn thế.
 
 Elias nhìn tay cô. Ngón tay cô không gõ nữa.
 
@@ -162,9 +154,7 @@ Năm giờ mười một, Kev nhìn màn hình và nói: "Có rồi."
 
 Không ai hỏi gì. Không cần.
 
-Năm giờ hai mươi tư, chiếc xe taco dừng lại ở bãi đỗ một trạm xăng bỏ hoang bên đường quốc lộ. Một chiếc bán tải màu xám đã đậu sẵn ở đó, chính chiếc xe Kev và Lin lái tới Ashgrove mười ngày trước. Kev đã nhờ một người quen mang nó ra đây từ trưa. Anh ta lúc nào cũng có kế hoạch dự phòng. Elias tự hỏi Kev đã chuẩn bị chuyện này từ bao giờ. Có lẽ từ ngày thứ nhất.
-
-Họ đứng dưới mái che cây xăng gỉ sét, mưa nhỏ giọt từ mép mái xuống.
+Năm giờ hai mươi tư, chiếc xe taco dừng lại ở bãi đỗ một trạm xăng bỏ hoang bên đường quốc lộ. Một chiếc bán tải màu xám đã đậu sẵn ở đó, chính chiếc xe Kev và Lin lái tới Ashgrove mười ngày trước. Kev đã nhờ một người quen mang nó ra đây từ trưa. Anh ta lúc nào cũng có kế hoạch dự phòng. Elias tự hỏi Kev đã chuẩn bị chuyện này từ bao giờ. Có lẽ từ ngày thứ nhất. Họ đứng dưới mái che cây xăng gỉ sét, mưa nhỏ giọt từ mép mái xuống.
 
 "Lin đi với tôi," Kev nói. "Lena đi với—"
 
@@ -180,7 +170,7 @@ Kev không trả lời ngay. Anh ta nhìn Lena.
 
 "Cách duy nhất tôi biết cần người hiểu não cậu ấy," anh ta nói.
 
-Lena đang đeo vali lên vai. Tay cô khựng lại trên quai đeo. Rồi cô kéo nó lên, chỉnh lại cho vừa.
+Lena đang đeo vali lên vai. Tay cô khựng lại trên quai đeo. Cô kéo nó lên, chỉnh lại cho vừa.
 
 "Gửi tôi hồ sơ kỹ thuật," cô nói. "Tôi sẽ đọc."
 

@@ -48,9 +48,7 @@ Tường bọc tấm tiêu âm màu xám tro. Sàn lót bần dưới lớp th�
 
 Corwin đã cười khi cô đặt làm câu châm ngôn đó. *Nghe như khẩu hiệu của một giáo phái*, anh nói. *Một giáo phái rất nghiêm khắc, không ai được phép mơ mộng.* Rồi anh hôn lên trán cô và bảo cô cứ để vậy, vì nó đúng là cô.
 
-Lena làm xong một bản báo cáo. Bắt đầu bản thứ hai. Đọc đi đọc lại một đoạn ba lần mà không hiểu nó viết gì.
-
-Cô bỏ bút xuống.
+Lena làm xong một bản báo cáo. Bắt đầu bản thứ hai. Đọc đi đọc lại một đoạn ba lần mà không hiểu nó viết gì. Cô bỏ bút xuống.
 
 Bên ngoài trời đã tối. Mưa đầu thu gõ nhẹ lên cửa kính, ánh đèn đường loang thành những vệt vàng trên mặt kính ướt. Cô nhìn cái két sắt nhỏ gắn chìm trong tủ hồ sơ góc phòng. Cô đã tự hứa tối nay sẽ không mở nó ra.
 
@@ -76,11 +74,7 @@ Bên dưới, một dòng viết bằng mực khác, như được thêm vào sa
 
 *Hỏi Nyx về Trạm Đảo.*
 
-Lena đã tra cái tên Elias Vane ngay tuần đầu tiên. Cô tìm được một tài khoản game đã đóng băng, một vài trận đấu của một giải gì đó tên Vanguard, và không gì hơn. Không địa chỉ, không hồ sơ y tế, không ảnh. Như thể có ai đó đã cẩn thận gỡ người đàn ông này ra khỏi thế giới, chỉ để lại cái tên. Cô đã gửi yêu cầu tra cứu qua hai người quen ở văn phòng công tố. Cả hai đều quay lại với cùng một câu trả lời: *Hồ sơ bị niêm phong theo lệnh an ninh quốc phòng. Đừng hỏi nữa.*
-
-Còn Nyx thì cô không biết là ai, hay là cái gì.
-
-Cô lật tới trang cuối cùng. Chỉ có một dòng, viết vội, nét bút gần như rách giấy:
+Lena đã tra cái tên Elias Vane ngay tuần đầu tiên. Cô tìm được một tài khoản game đã đóng băng, một vài trận đấu của một giải gì đó tên Vanguard, và không gì hơn. Không địa chỉ, không hồ sơ y tế, không ảnh. Như thể có ai đó đã cẩn thận gỡ người đàn ông này ra khỏi thế giới, chỉ để lại cái tên. Cô đã gửi yêu cầu tra cứu qua hai người quen ở văn phòng công tố. Cả hai đều quay lại với cùng một câu trả lời: *Hồ sơ bị niêm phong theo lệnh an ninh quốc phòng. Đừng hỏi nữa.* Còn Nyx thì cô không biết là ai, hay là cái gì. Cô lật tới trang cuối cùng. Chỉ có một dòng, viết vội, nét bút gần như rách giấy:
 
 *L — nếu anh không về kịp, đừng tìm. Hứa với anh.*
 
@@ -96,15 +90,11 @@ Cô hay nghĩ đó là lý do cô chọn nghề này. Một người không có 
 
 *Kính coong.*
 
-Tiếng chuông đồng trên cửa phòng chờ vang lên, ngân dài.
-
-Lena mở mắt.
+Tiếng chuông đồng trên cửa phòng chờ vang lên, ngân dài. Lena mở mắt.
 
 Cô đã khóa cửa sảnh dưới chưa? Cô không nhớ. Đồng hồ trên màn hình máy tính chỉ sáu giờ bốn mươi. Không có lịch hẹn nào.
 
-Cô đứng dậy, cất cuốn sổ vào két, đóng cửa két lại. Tim cô đập nhanh hơn một chút. Ngớ ngẩn thật. Chắc là người giao hàng. Hoặc ai đó đi nhầm tầng.
-
-Cô bước tới cửa kính mờ ngăn phòng làm việc với phòng chờ, đặt tay lên tay nắm.
+Cô đứng dậy, cất cuốn sổ vào két, đóng cửa két lại. Tim cô đập nhanh hơn một chút. Ngớ ngẩn thật. Chắc là người giao hàng. Hoặc ai đó đi nhầm tầng. Cô bước tới cửa kính mờ ngăn phòng làm việc với phòng chờ, đặt tay lên tay nắm.
 
 Cánh cửa mở ra từ phía bên kia trước khi cô kịp kéo.
 
@@ -112,21 +102,13 @@ Cánh cửa mở ra từ phía bên kia trước khi cô kịp kéo.
 
 Một người đàn ông đứng ở ngưỡng cửa.
 
-Cao. Rất cao, nhưng đứng như thể đang cố co mình lại. Ướt từ đầu tới chân: nước mưa chảy thành dòng từ vạt áo khoác dạ xanh navy quá rộng, nhỏ xuống thảm thành những vòng sẫm màu. Tóc đen bết vào thái dương. Gương mặt gầy, hai gò má nhô ra như bị gọt bằng dao. Dưới cổ áo khoác, cô thấy một cổ áo sơ mi mỏng, và bên dưới nữa là xương quai xanh hằn rõ như người vừa ốm một trận dài.
+Cao. Rất cao, nhưng đứng như thể đang cố co mình lại. Ướt từ đầu tới chân: nước mưa chảy thành dòng từ vạt áo khoác dạ xanh navy quá rộng, nhỏ xuống thảm thành những vòng sẫm màu. Tóc đen bết vào thái dương. Gương mặt gầy, hai gò má nhô ra như bị gọt bằng dao. Dưới cổ áo khoác, cô thấy một cổ áo sơ mi mỏng, và bên dưới nữa là xương quai xanh hằn rõ như người vừa ốm một trận dài. Nhưng không phải những thứ đó khiến Lena đứng sững. Là đôi mắt anh.
 
-Nhưng không phải những thứ đó khiến Lena đứng sững.
-
-Là đôi mắt anh.
-
-Màu xám. Xám như trời trước bão. Chúng nhìn thẳng vào cô, không chớp, với một cường độ khiến cô có cảm giác như mình đang đứng trần trụi giữa một căn phòng sáng đèn.
-
-Và cơ thể cô phản ứng trước khi đầu óc kịp hiểu gì.
+Màu xám. Xám như trời trước bão. Chúng nhìn thẳng vào cô, không chớp, với một cường độ khiến cô có cảm giác như mình đang đứng trần trụi giữa một căn phòng sáng đèn. Và cơ thể cô phản ứng trước khi đầu óc kịp hiểu gì.
 
 Một luồng điện chạy dọc sống lưng, từ gáy xuống tận thắt lưng. Lông tơ trên cánh tay dựng đứng. Phổi cô ngừng hít vào, như thể quên mất cách thở. Trên cổ tay, chiếc đồng hồ thông minh rung lên: *Nhịp tim bất thường — 118 bpm.*
 
-Cô là chuyên gia. Cô đã thấy phản ứng này hàng trăm lần trên biểu đồ của người khác. *Nhận diện thể xác.* Khi cơ thể nhận ra một người, một mùi, một âm thanh trước khi ý thức kịp bắt kịp. Thường gặp ở người sống sót sau sang chấn khi đối diện với thứ gì đó từ quá khứ.
-
-Nhưng cô không có quá khứ.
+Cô là chuyên gia. Cô đã thấy phản ứng này hàng trăm lần trên biểu đồ của người khác. *Nhận diện thể xác.* Khi cơ thể nhận ra một người, một mùi, một âm thanh trước khi ý thức kịp bắt kịp. Thường gặp ở người sống sót sau sang chấn khi đối diện với thứ gì đó từ quá khứ. Nhưng cô không có quá khứ.
 
 Người đàn ông bước một bước vào phòng. Đế giày ướt rít lên trên thảm. Anh dừng lại, và môi anh mấp máy, như đang thử một từ anh đã nói thầm rất nhiều lần nhưng chưa bao giờ nói thành tiếng.
 
@@ -134,9 +116,7 @@ Người đàn ông bước một bước vào phòng. Đế giày ướt rít l
 
 Cái tên rơi xuống căn phòng tiêu âm và không vang lại.
 
-Lena không biết ai tên Maren. Cô chưa từng nghe cái tên đó. Nó là một từ xa lạ, hai âm tiết, chẳng có nghĩa gì với cô.
-
-Vậy thì tại sao đầu gối cô lại run lên?
+Lena không biết ai tên Maren. Cô chưa từng nghe cái tên đó. Nó là một từ xa lạ, hai âm tiết, chẳng có nghĩa gì với cô. Vậy thì tại sao đầu gối cô lại run lên?
 
 "Tôi xin lỗi," cô nghe giọng mình nói, mỏng và xa như vọng từ phòng bên. "Anh nhầm người rồi. Tôi là Lena Hale. Phòng khám đóng cửa rồi. Nếu anh cần cấp cứu, khoa chấn thương của quận cách đây ba dãy nhà về phía—"
 
@@ -152,8 +132,6 @@ Lena nghe thấy máu chảy rần rần trong tai.
 
 Nét chữ của Corwin. Gạch chân hai lần. Nằm cách cô bốn mét, trong một cái két sắt khóa bằng ngày sinh của anh.
 
-Ngón tay phải của cô, buông thõng bên người, bắt đầu gõ lên đùi. Ba nhanh, hai chậm.
-
-Đôi mắt xám của người đàn ông trượt xuống bàn tay cô.
+Ngón tay phải của cô, buông thõng bên người, bắt đầu gõ lên đùi. Ba nhanh, hai chậm. Đôi mắt xám của người đàn ông trượt xuống bàn tay cô.
 
 Và anh đứng sững lại, như vừa nghe thấy một tiếng gọi từ rất xa.

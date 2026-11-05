@@ -56,9 +56,7 @@ Bàn tay anh đặt lên công tắc. Một bàn tay có hai vết khâu cô t�
 
 ---
 
-Cô biết lý thuyết. Cô đã giảng về nó, đã viết về nó, đã làm chứng về nó trước tòa. Ký ức bị phong ấn không giống một căn phòng khóa cửa. Nó giống một căn phòng mà ánh sáng đã bị rút ra. Mọi đồ đạc vẫn ở đó, và người ta có thể đi vào, nhưng không nhìn thấy gì cho đến khi có thứ gì đó thắp sáng một góc.
-
-Thứ thắp sáng là giai điệu.
+Cô biết lý thuyết. Cô đã giảng về nó, đã viết về nó, đã làm chứng về nó trước tòa. Ký ức bị phong ấn không giống một căn phòng khóa cửa. Nó giống một căn phòng mà ánh sáng đã bị rút ra. Mọi đồ đạc vẫn ở đó, và người ta có thể đi vào, nhưng không nhìn thấy gì cho đến khi có thứ gì đó thắp sáng một góc. Thứ thắp sáng là giai điệu.
 
 Cô nghe nó trước khi thấy bất cứ thứ gì. Giọng trầm, khàn, hát bằng tiếng Ladino, thứ tiếng mà cô không biết mình biết cho tới khi những từ ngữ trôi qua và cô hiểu chúng. *Nana, niña, nana. Tuyết rơi trên mái nhà. Ngủ đi, con, tuyết sẽ giữ con ấm.* Một bài hát ru kỳ cục: tuyết chẳng giữ ấm cho ai bao giờ. Mẹ cô từng giải thích là ở làng của bà ngoại, khi tuyết dày, người ta không phải ra đồng, cả nhà được ở trong nhà với nhau. Tuyết có nghĩa là được ở bên nhau.
 
@@ -68,9 +66,7 @@ Cô nghe nó trước khi thấy bất cứ thứ gì. Giọng trầm, khàn, h�
 
 "Trên giường," cô nói. Miệng cô nói ở thế giới bên ngoài, và cô nghe giọng mình méo đi, bé đi. "Giường sắt. Có một con cá voi trên tường. Tôi vẽ nó."
 
-Ánh sáng tràn vào căn phòng như nước tràn vào một cái cốc. Căn phòng số một. Tường trắng, con cá voi bay bằng bút sáp màu xanh dán băng dính trên đầu giường, một vết ố nước hình nước Ý trên trần mà cô bé hay nhìn khi không ngủ được. Một cái gối lông vũ mà cô bé biết, không hiểu vì sao, là không phải đồ của viện. Đồ mẹ mang từ nhà vào.
-
-Mẹ cô ngồi ở mép giường, đang hát.
+Ánh sáng tràn vào căn phòng như nước tràn vào một cái cốc. Căn phòng số một. Tường trắng, con cá voi bay bằng bút sáp màu xanh dán băng dính trên đầu giường, một vết ố nước hình nước Ý trên trần mà cô bé hay nhìn khi không ngủ được. Một cái gối lông vũ mà cô bé biết, không hiểu vì sao, là không phải đồ của viện. Đồ mẹ mang từ nhà vào. Mẹ cô ngồi ở mép giường, đang hát.
 
 Lena nhìn khuôn mặt bà. Cô đã thấy khuôn mặt này qua mắt Elias, lấm lem tro, trong ánh lửa. Bây giờ nó sạch và mệt. Bốn mươi tuổi, có lẽ vậy, có những nếp nhăn nhỏ ở khóe mắt kiểu của người hay nheo mắt đọc tài liệu. Tóc búi lỏng bằng một cây bút chì. Áo blouse có một vết cà phê ở cổ tay áo. Móng tay cắn cụt.
 
@@ -106,9 +102,7 @@ Elena không trả lời ngay. Bà nhìn con gái rất lâu, cái nhìn của m
 
 Cô bé không hiểu. Lena thì hiểu.
 
-Đây là phụ lục C. Đây là cái tối hậu thư cô đã đọc dưới ánh đèn hình mặt trăng: *hoặc ở lại và tiếp tục làm việc, hoặc con gái bà sẽ được đưa vào chương trình dưới sự giám sát của viện.* Nhưng tờ giấy đó không ghi lại chuyện này. Nó không ghi lại một người phụ nữ ngồi ở mép giường con gái mình mỗi tối, hát một bài về tuyết, để giữ cho cả hai đứa trẻ ngủ được trong một nơi mà chính bà đang góp tay xây dựng. Không ghi lại rằng bà đã ở lại vì không tin tưởng ai khác làm việc đó với con mình.
-
-Không ghi lại rằng bà đã sai.
+Đây là phụ lục C. Đây là cái tối hậu thư cô đã đọc dưới ánh đèn hình mặt trăng: *hoặc ở lại và tiếp tục làm việc, hoặc con gái bà sẽ được đưa vào chương trình dưới sự giám sát của viện.* Nhưng tờ giấy đó không ghi lại chuyện này. Nó không ghi lại một người phụ nữ ngồi ở mép giường con gái mình mỗi tối, hát một bài về tuyết, để giữ cho cả hai đứa trẻ ngủ được trong một nơi mà chính bà đang góp tay xây dựng. Không ghi lại rằng bà đã ở lại vì không tin tưởng ai khác làm việc đó với con mình. Không ghi lại rằng bà đã sai.
 
 Bởi vì ở lại không cứu được ai. Bà cẩn thận, và Maren vẫn bị đưa xuống tầng dưới mỗi ngày. Bà cẩn thận, và cậu bé bên kia tường vẫn khóc đêm đầu tiên. Bà cẩn thận suốt hai năm, rồi một đêm bà ngừng cẩn thận, mang theo một bình chất xúc tác gây cháy, và…
 
@@ -132,13 +126,9 @@ Phía sau, rất xa, bầu trời màu cam. Có tiếng còi xe cứu hỏa vọ
 
 Cô bé không khóc. Cô bé đã khóc hết từ trong ống thông gió. Cô bé chỉ bám vào rễ cây và nhìn về phía bầu trời màu cam và gọi, khàn đặc, không thành tiếng: *Eli. Eli. Eli.*
 
-Cậu ấy không ra. Cô bé đã bò ra khỏi miệng ống, ngã lăn xuống con dốc, rơi vào lạch nước, và quay lại nhìn, và đợi, và cậu ấy không ra.
+Cậu ấy không ra. Cô bé đã bò ra khỏi miệng ống, ngã lăn xuống con dốc, rơi vào lạch nước, và quay lại nhìn, và đợi, và cậu ấy không ra. Có ánh đèn pin quét trên bờ.
 
-Có ánh đèn pin quét trên bờ.
-
-Cô bé co người lại. Người của viện. Mặc đồ đen, có súng, đến để đưa cô bé về. Cô bé buông một tay khỏi rễ cây, định lặn xuống, nhưng tay kia không buông được, những ngón tay đã đông cứng ở đó.
-
-Ánh đèn dừng lại trên mặt cô bé.
+Cô bé co người lại. Người của viện. Mặc đồ đen, có súng, đến để đưa cô bé về. Cô bé buông một tay khỏi rễ cây, định lặn xuống, nhưng tay kia không buông được, những ngón tay đã đông cứng ở đó. Ánh đèn dừng lại trên mặt cô bé.
 
 "Chúa ơi," một giọng đàn ông nói. Không phải giọng của viện. Giọng khàn, có chút âm miền Nam, và hoảng hốt. "Chúa ơi, con bé."
 
@@ -152,19 +142,15 @@ Cô bé nhìn lên khuôn mặt ông. Râu ria lởm chởm. Mắt nâu. Một v
 
 "Con tên gì?" ông hỏi.
 
-Cô bé mở miệng. Định nói. Rồi nhớ ra những người áo đen, nhớ ra viện, nhớ ra mẹ đã dặn: *Nếu ra được ngoài, đừng nói tên con với ai. Không ai cả. Cho tới khi chắc chắn.*
-
-Cô bé ngậm miệng lại.
+Cô bé mở miệng. Định nói. Rồi nhớ ra những người áo đen, nhớ ra viện, nhớ ra mẹ đã dặn: *Nếu ra được ngoài, đừng nói tên con với ai. Không ai cả. Cho tới khi chắc chắn.* Cô bé ngậm miệng lại.
 
 Người đàn ông nhìn cô bé thêm một giây. Ông nhìn bộ đồ cotton trắng ướt sũng có in số *1* trên ngực. Nhìn vết lấy máu bầm tím ở khuỷu tay. Nhìn về phía bầu trời màu cam, nơi có tiếng còi xe.
 
-Và Lena, từ hai mươi năm sau, thấy được khoảnh khắc khuôn mặt ông thay đổi. Khoảnh khắc một người cảnh sát hiểu ra rằng đứa trẻ trong tay mình không phải nạn nhân của một vụ cháy kho hóa chất. Khoảnh khắc ông quyết định.
-
-Ông kéo áo mưa che kín con số trên ngực cô bé.
+Và Lena, từ hai mươi năm sau, thấy được khoảnh khắc khuôn mặt ông thay đổi. Khoảnh khắc một người cảnh sát hiểu ra rằng đứa trẻ trong tay mình không phải nạn nhân của một vụ cháy kho hóa chất. Khoảnh khắc ông quyết định. Ông kéo áo mưa che kín con số trên ngực cô bé.
 
 "Không sao," ông nói, khẽ hơn. "Chưa cần nói. Bác không hỏi nữa."
 
-Ông bế cô bé leo lên bờ, đi ngược hướng với bầu trời màu cam, về phía một chiếc xe tuần tra đỗ ở khúc quanh con đường đất. Không phải về phía những chiếc xe cứu hỏa. Không phải về phía những người áo đen.
+Ông bế cô bé leo lên bờ, đi ngược hướng với bầu trời màu cam, về phía một chiếc xe tuần tra đỗ ở khúc quanh con đường đất. Tránh xa những chiếc xe cứu hỏa, tránh xa những người áo đen.
 
 ---
 
@@ -198,8 +184,6 @@ Cô nhớ ra ký ức đầu tiên của đời mình, cái ký ức cô vẫn t
 
 Hai mươi năm cô nghĩ đó là khởi đầu. Đó là ngày thứ hai.
 
-Lena đứng dậy, đi vào bếp, mở tủ lạnh. Có ba quả táo trong ngăn rau. Cô lấy một quả, lấy con dao gọt hoa quả trong ngăn kéo, ngồi xuống bàn ăn, và bắt đầu gọt.
-
-Vỏ đứt ở vòng thứ ba.
+Lena đứng dậy, đi vào bếp, mở tủ lạnh. Có ba quả táo trong ngăn rau. Cô lấy một quả, lấy con dao gọt hoa quả trong ngăn kéo, ngồi xuống bàn ăn, và bắt đầu gọt. Vỏ đứt ở vòng thứ ba.
 
 Cô gọt tiếp.

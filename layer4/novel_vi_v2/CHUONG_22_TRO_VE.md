@@ -18,9 +18,7 @@ Lena quỳ xuống.
 
 Cô không nhìn mặt Elias trước. Cô nhìn những thứ cô được dạy để nhìn. Đồng tử: không đều, bên trái giãn to hơn bên phải. Mạch cổ: nhanh, yếu, một trăm bốn mươi hai. Hơi thở: nông, có những khoảng ngừng dài bất thường. Da: lạnh ở tay chân, nóng hầm hập ở hai thái dương. Máu: chảy từ cả hai lỗ mũi và, đúng như Viper nói, từ khóe mắt trái, một vệt mảnh như nét bút chì.
 
-Đây là những dấu hiệu cô đã đọc trong tài liệu. Mỗi dấu hiệu là một con số, một ngưỡng, một kết luận. Cô ghép chúng lại trong đầu, nhanh và tự động như cách cô ghép những đỉnh sóng trên biểu đồ.
-
-Kết luận không tốt.
+Đây là những dấu hiệu cô đã đọc trong tài liệu. Mỗi dấu hiệu là một con số, một ngưỡng, một kết luận. Cô ghép chúng lại trong đầu, nhanh và tự động như cách cô ghép những đỉnh sóng trên biểu đồ. Kết luận không tốt.
 
 "Anh ấy đang ở đâu đó giữa Layer 2 và Layer 4," cô nói. Giọng cô đều. "Không lên được, không xuống hẳn được. Não anh ấy đang tự đốt mình để giữ một cánh cửa không mở ra."
 
@@ -66,13 +64,11 @@ Cô rơi.
 
 Không giống những lần lặn trước. Không có mặt nước ấm, không có những con cá ký ức. Cô rơi thẳng qua một thứ gì đó đặc và nóng, như rơi qua lớp nhựa đường mùa hè, và đáp xuống một sàn nhà cong.
 
-Căn phòng hình cầu. Tối. Ở giữa là một thứ gì đó đang cháy âm ỉ.
-
-Elias quỳ ở đó, hai tay vẫn ôm lấy nó.
+Căn phòng hình cầu. Tối. Ở giữa là một thứ gì đó đang cháy âm ỉ. Elias quỳ ở đó, hai tay vẫn ôm lấy nó.
 
 Nó từng là một khối sáng cỡ nắm tay, cô đoán được từ những gì còn lại. Bây giờ nó là một mớ chỉ cháy dở, đỏ rực ở những chỗ đứt, vẫn còn đập, nhưng đập sai nhịp: lúc nhanh, lúc chậm, lúc ngừng hẳn rồi giật lên. Mỗi lần nó giật, một làn sóng đỏ phụt ra, đập vào thành phòng.
 
-Thành phòng đã nứt. Một vết nứt dài, từ sàn lên tận đỉnh vòm, rộng cỡ một bàn tay. Qua vết nứt là một thứ ánh sáng mà Lena không có từ ngữ nào để tả. Không phải màu. Không phải độ sáng. Một cảm giác về quá nhiều, như đứng trước một cánh cửa mở ra một căn phòng chứa mọi tiếng nói của mọi người đã từng sống.
+Thành phòng đã nứt. Một vết nứt dài, từ sàn lên tận đỉnh vòm, rộng cỡ một bàn tay. Qua vết nứt là một thứ ánh sáng mà Lena không có từ ngữ nào để tả. Nó gần với một cảm giác hơn là một màu: cảm giác về quá nhiều, như đứng trước một cánh cửa mở ra một căn phòng chứa mọi tiếng nói của mọi người đã từng sống.
 
 Nó đang kéo. Cô cảm thấy nó, ngay cả từ chỗ cô đứng. Một lực hút nhẹ nhàng, êm ái, gần như dễ chịu.
 
@@ -96,7 +92,7 @@ Cô quỳ xuống trước mặt anh, ở phía bên kia khối sáng. Đặt ha
 
 "Bằng thứ nó đã biết trước khi họ dạy nó," cô nói.
 
-Cô bắt đầu gõ. Không phải lên tay anh. Lên chính khối sáng ấy, bằng đầu ngón tay, nhẹ, đều.
+Cô bắt đầu gõ lên chính khối sáng ấy, bằng đầu ngón tay, nhẹ, đều.
 
 *Ba nhanh. Hai chậm.*
 
@@ -112,7 +108,7 @@ Anh nhìn cô. Rồi anh hiểu. Những ngón tay cháy đen của anh, đặt 
 
 *Ba nhanh. Hai chậm. Ba nhanh. Hai chậm.*
 
-Khối sáng ngừng giật. Nó đứng yên một khoảnh khắc, như một con thú nghe thấy tiếng gọi lạ. Rồi những sợi chỉ còn lại bắt đầu đập theo. Không phải nhịp chậm bốn mươi phút một lần của Halloway. Không phải nhịp loạn của lúc nãy. Nhịp của họ. Nhịp của hai bàn tay nhỏ trên một bức tường, mỗi đêm, trong một tòa nhà không có lịch.
+Khối sáng ngừng giật. Nó đứng yên một khoảnh khắc, như một con thú nghe thấy tiếng gọi lạ. Rồi những sợi chỉ còn lại bắt đầu đập theo. Nhịp của họ, chẳng dính gì tới cái nhịp bốn mươi phút của Halloway. Nhịp của hai bàn tay nhỏ trên một bức tường, mỗi đêm, trong một tòa nhà không có lịch.
 
 Làn sóng đỏ phát ra lần cuối, yếu ớt, chạm vào thành phòng, và không xuyên qua được nữa. Nó tan ra như hơi thở trên kính lạnh.
 
@@ -136,13 +132,9 @@ Họ đứng dậy cùng lúc, vẫn nắm tay nhau, vì cả hai đều không 
 
 "Ừ."
 
-Họ quay lưng lại với vết nứt.
+Họ quay lưng lại với vết nứt. Và ánh sáng bên kia vết nứt thay đổi.
 
-Và ánh sáng bên kia vết nứt thay đổi.
-
-Lena cảm thấy nó trước khi thấy. Một mùi. Khói. Không phải khói của căn phòng này. Khói thật, khói của nhựa cháy và giấy cháy và một thứ gì đó ngọt ngọt mà cô biết, không hiểu vì sao, là mùi chất xúc tác gây cháy. Một tiếng còi, rất xa, rú lên rồi tắt, rú lên rồi tắt.
-
-Tay Elias trong tay cô siết lại.
+Lena cảm thấy nó trước khi thấy. Một mùi. Khói. Khói thật, khói của nhựa cháy và giấy cháy và một thứ gì đó ngọt ngọt mà cô biết, không hiểu vì sao, là mùi chất xúc tác gây cháy. Một tiếng còi, rất xa, rú lên rồi tắt, rú lên rồi tắt. Tay Elias trong tay cô siết lại.
 
 "Cô có ngửi thấy không?" anh hỏi.
 

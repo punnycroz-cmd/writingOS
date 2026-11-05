@@ -8,7 +8,7 @@ Linh và Kev gần như không rời khỏi phòng điều khiển. Hai người
 
 Lena đặt khay đồ ăn xuống thật khẽ và đi ra. Cô không nói gì với ai về chuyện đó.
 
-Elias ngủ. Vẫn ngủ nhiều, nhưng ít hơn. Khi thức, anh leo lên đỉnh hải đăng, ngồi trong căn phòng đèn tròn có những ô kính chắn bão, và vẽ. Không phải hành lang phòng thí nghiệm nữa. Lena đã liếc thấy một lần: anh vẽ ngọn hải đăng nhìn từ dưới lên, con cá tuyết của Viper, chiếc bếp ga. Những thứ ở hiện tại.
+Elias ngủ. Vẫn ngủ nhiều, nhưng ít hơn. Khi thức, anh leo lên đỉnh hải đăng, ngồi trong căn phòng đèn tròn có những ô kính chắn bão, và vẽ. Anh không vẽ hành lang phòng thí nghiệm nữa. Lena đã liếc thấy một lần: anh vẽ ngọn hải đăng nhìn từ dưới lên, con cá tuyết của Viper, chiếc bếp ga. Những thứ ở hiện tại.
 
 Còn Lena thì gọt táo, và đọc đi đọc lại cuốn sổ của Corwin, và không nói chuyện với ai về nó.
 
@@ -16,9 +16,7 @@ Còn Lena thì gọt táo, và đọc đi đọc lại cuốn sổ của Corwin,
 
 Ngày mùng năm, chiếc điện thoại vệ tinh của Viper đổ chuông lúc mười giờ sáng.
 
-Đó là chú Diego, gọi từ trạm kiểm lâm dưới chân núi, nơi duy nhất có sóng trong bán kính ba mươi cây số. Viper nghe được ba câu rồi ngồi phịch xuống mỏm đá, mặt trắng bệch, tay run, và Lena tưởng có chuyện gì tệ xảy ra.
-
-Rồi giọng Rosie vọng ra từ loa điện thoại, to tới mức cả mỏm đá nghe thấy.
+Đó là chú Diego, gọi từ trạm kiểm lâm dưới chân núi, nơi duy nhất có sóng trong bán kính ba mươi cây số. Viper nghe được ba câu rồi ngồi phịch xuống mỏm đá, mặt trắng bệch, tay run, và Lena tưởng có chuyện gì tệ xảy ra. Rồi giọng Rosie vọng ra từ loa điện thoại, to tới mức cả mỏm đá nghe thấy.
 
 "BỐ! Bố ơi! Con thấy một con NAI SỪNG TẤM! Thật! Nó to bằng xe taco! Chú Diego bảo nó tên là Gerald!"
 
@@ -36,19 +34,13 @@ Cô không biết mình định đi đâu cho tới khi bàn tay cô đã nắm 
 
 Bãi biển chỉ là một vạt sỏi đá hẹp kẹp giữa hai mỏm granite, những viên sỏi bị sóng mài tròn trịa, màu xám, màu đen, thỉnh thoảng có một viên màu hồng nhạt sọc trắng. Thủy triều đang xuống. Rong biển nằm thành từng đống trên sỏi, bốc mùi muối và i-ốt.
 
-Lena đi tới mép nước. Một con sóng nhỏ chạy lên, ướt mũi giày cô, rồi rút về.
-
-Cô cởi sợi dây chuyền ra.
+Lena đi tới mép nước. Một con sóng nhỏ chạy lên, ướt mũi giày cô, rồi rút về. Cô cởi sợi dây chuyền ra.
 
 Chiếc nhẫn nằm trong lòng bàn tay cô. Bạc, mộc mạc, đánh mờ, mặt trong khắc một dòng chữ nhỏ mà cô đã đọc tới mức thuộc từng nét: *Cho chiếc mỏ neo của anh.*
 
-Corwin đã bảo cô là mỏ neo. Một tối, ở mũi đất phía bắc Bayside, gió thổi tới mức anh phải hét lên để cô nghe thấy. *Trong đầu em lúc nào cũng có bão, Lena. Anh không muốn dập tắt nó. Anh chỉ muốn ở đây, cạnh em, trong lúc nó thổi.* Cô đã cười vào mặt anh và bảo đó là câu sến nhất cô từng nghe. Anh bảo anh đã tập nó cả tuần. Rồi anh quỳ xuống trên đá ướt, quên mất là mình mặc quần sáng màu, và hỏi.
+Corwin đã bảo cô là mỏ neo. Một tối, ở mũi đất phía bắc Bayside, gió thổi tới mức anh phải hét lên để cô nghe thấy. *Trong đầu em lúc nào cũng có bão, Lena. Anh không muốn dập tắt nó. Anh chỉ muốn ở đây, cạnh em, trong lúc nó thổi.* Cô đã cười vào mặt anh và bảo đó là câu sến nhất cô từng nghe. Anh bảo anh đã tập nó cả tuần. Rồi anh quỳ xuống trên đá ướt, quên mất là mình mặc quần sáng màu, và hỏi. Cô đã nói có.
 
-Cô đã nói có.
-
-Tám tháng nay, cô đã tưởng tượng cảnh này rất nhiều lần. Đứng ở mép nước. Thả chiếc nhẫn. Để biển lấy nó đi. Một nghi thức. Một kết thúc. Nia đã khuyên cô làm vậy, hồi tháng Năm. Bác sĩ tâm lý của cô cũng khuyên vậy. *Một hành động mang tính biểu tượng có thể giúp não khép lại một vòng lặp tang tóc.* Cô biết điều đó đúng. Cô đã từng nói câu đó với bệnh nhân.
-
-Cô giơ tay lên.
+Tám tháng nay, cô đã tưởng tượng cảnh này rất nhiều lần. Đứng ở mép nước. Thả chiếc nhẫn. Để biển lấy nó đi. Một nghi thức. Một kết thúc. Nia đã khuyên cô làm vậy, hồi tháng Năm. Bác sĩ tâm lý của cô cũng khuyên vậy. *Một hành động mang tính biểu tượng có thể giúp não khép lại một vòng lặp tang tóc.* Cô biết điều đó đúng. Cô đã từng nói câu đó với bệnh nhân. Cô giơ tay lên.
 
 *Nếu em đọc được, Lena, đừng tin rằng anh đã chết.*
 
@@ -62,9 +54,7 @@ Tay cô không mở ra được.
 
 Cô đứng đó, cánh tay vươn ra trên mặt nước, nắm tay siết chặt tới mức cạnh chiếc nhẫn hằn vào lòng bàn tay, và cô không mở ra được. Không phải vì cô không muốn. Có một phần trong cô muốn, rất muốn, muốn được nhẹ đi, muốn được thôi chờ đợi. Phần đó đã sống tám tháng với một nấm mồ trống rỗng, và nó mệt rồi.
 
-Nhưng anh có thể còn sống. Ngày thứ một trăm chín mươi hai. Một cái kén trắng. Một người đàn ông chìm dưới băng nghĩ về mặt trời và gọi tên cô.
-
-Ném chiếc nhẫn xuống biển vào lúc này là chôn một người còn đang thở.
+Nhưng anh có thể còn sống. Ngày thứ một trăm chín mươi hai. Một cái kén trắng. Một người đàn ông chìm dưới băng nghĩ về mặt trời và gọi tên cô. Ném chiếc nhẫn xuống biển vào lúc này là chôn một người còn đang thở.
 
 Cô hạ tay xuống. Cô quỳ xuống trên sỏi ướt, hai đầu gối lún vào những viên đá tròn lạnh ngắt, và ngồi đó, chiếc nhẫn trong nắm tay, nhìn những con sóng nhỏ chạy lên chạy xuống.
 
@@ -102,13 +92,9 @@ Lena không nói gì. Gió biển thổi một lọn tóc ra khỏi búi tóc c�
 
 Cô nhìn anh rất lâu.
 
-Cô là giám định viên. Cô đọc cơ mặt người ta để kiếm sống. Cô thấy những thứ người ta không nói ra trong độ trễ của một nụ cười, trong cái cách mắt người ta trượt đi một phần mười giây trước khi trả lời.
+Cô là giám định viên. Cô đọc cơ mặt người ta để kiếm sống. Cô thấy những thứ người ta không nói ra trong độ trễ của một nụ cười, trong cái cách mắt người ta trượt đi một phần mười giây trước khi trả lời. Cô thấy hết những thứ đó trên mặt anh lúc này.
 
-Cô thấy hết những thứ đó trên mặt anh lúc này.
-
-Và anh vẫn nói. Không trượt mắt đi, không ngập ngừng. Anh nói như thể đó là điều tự nhiên nhất trên đời. Như thể anh không đang hứa đưa về người đàn ông duy nhất đứng giữa anh và…
-
-Cô không cho phép mình nghĩ hết câu đó.
+Và anh vẫn nói. Không trượt mắt đi, không ngập ngừng. Anh nói như thể đó là điều tự nhiên nhất trên đời. Như thể anh không đang hứa đưa về người đàn ông duy nhất đứng giữa anh và… Cô không cho phép mình nghĩ hết câu đó.
 
 "Cậu là đồ ngốc," cô nói. Giọng cô vỡ ra ở giữa.
 
@@ -118,7 +104,7 @@ Cô không cho phép mình nghĩ hết câu đó.
 
 Cô đeo sợi dây chuyền trở lại cổ. Chiếc nhẫn trượt xuống dưới cổ áo, chạm vào xương ức, lạnh.
 
-Rồi cô làm một việc cô không định làm. Cô nghiêng đầu, tựa vào vai anh. Chỉ một chút thôi. Một phần sức nặng. Như một người tựa vào lan can.
+Cô làm một việc cô không định làm. Cô nghiêng đầu, tựa vào vai anh. Chỉ một chút thôi. Một phần sức nặng. Như một người tựa vào lan can.
 
 Anh ngồi im như tượng. Cô cảm thấy anh nín thở.
 

@@ -2,9 +2,7 @@
 
 Elias ngủ trên chiếc ghế bành trong phòng chờ của cô.
 
-Đó không phải là kế hoạch. Kế hoạch là anh sẽ về nhà, cô sẽ khóa cửa, cả hai sẽ có một đêm để nghĩ. Nhưng khi anh đứng dậy được, đã gần mười giờ, ngoài trời mưa đổ như trút, và anh vừa chảy máu mũi gần nửa lít. Khi cô hỏi anh sẽ về bằng gì, anh nói đi bộ. Khi cô hỏi về đâu, anh nói tới một căn hộ có một chiếc xe đen đỗ dưới nhà suốt từ chiều.
-
-Cô đưa cho anh một cái chăn.
+Đó không phải là kế hoạch. Kế hoạch là anh sẽ về nhà, cô sẽ khóa cửa, cả hai sẽ có một đêm để nghĩ. Nhưng khi anh đứng dậy được, đã gần mười giờ, ngoài trời mưa đổ như trút, và anh vừa chảy máu mũi gần nửa lít. Khi cô hỏi anh sẽ về bằng gì, anh nói đi bộ. Khi cô hỏi về đâu, anh nói tới một căn hộ có một chiếc xe đen đỗ dưới nhà suốt từ chiều. Cô đưa cho anh một cái chăn.
 
 Lena không ngủ. Cô ngồi trong phòng làm việc với cửa kính mờ khép hờ, chạy đi chạy lại đoạn dữ liệu cuối cùng trước khi máy sập. Cô xem khung hình cô bé hàng chục lần. Cô phóng to, làm nét, so với trí nhớ về tấm ảnh trong ngăn kéo của bà Margaret. Cô tự bảo mình rằng não người luôn tìm ra khuôn mặt trong những thứ không phải khuôn mặt. Hiện tượng mặt người trong mây. Trong ổ cắm điện. Trong vết loang trên tường.
 
@@ -40,9 +38,7 @@ Anh im lặng một giây. "Được."
 
 Anh kể. Bệnh viện, bệnh án, căn hộ trống, cuốn nhật ký. Anh rút từ túi áo khoác ra tấm ảnh căn nhà cháy và tờ hợp đồng gấp làm tư, đặt lên bàn. Cô đọc chúng mà không nói gì, chỉ có ngón tay khẽ siết lại ở dòng *xóa bỏ vĩnh viễn*.
 
-Anh không kể về chiếc sedan đen. Anh nói với mình rằng đó là vì cô đã biết. Thật ra là vì anh không muốn nói ra thành tiếng điều anh đã nghĩ suốt đêm qua: rằng chiếc xe đó đã theo anh tới đây. Rằng nó có thể đang đỗ dưới tòa nhà này ngay lúc này.
-
-Khi anh kể xong, Lena đứng dậy, đi vào phòng làm việc, rồi quay lại với một cuốn sổ bìa da.
+Anh không kể về chiếc sedan đen. Anh nói với mình rằng đó là vì cô đã biết. Thật ra là vì anh không muốn nói ra thành tiếng điều anh đã nghĩ suốt đêm qua: rằng chiếc xe đó đã theo anh tới đây. Rằng nó có thể đang đỗ dưới tòa nhà này ngay lúc này. Khi anh kể xong, Lena đứng dậy, đi vào phòng làm việc, rồi quay lại với một cuốn sổ bìa da.
 
 "Corwin đã điều tra Halloway Neuro-Systems hơn một năm," cô nói, mở cuốn sổ ra và đặt nó lên bàn trước mặt anh. "Anh ấy bắt đầu từ cái chết của bố anh ấy. Bác Thomas là cảnh sát. Ông chết năm 2012, xe lao xuống sông trên một con đường ông đi hàng nghìn lần. Hồ sơ ghi là lỗi của trợ lý lái tự động: chiếc Echo trong xe hiểu nhầm một biển báo. Hãng xe bồi thường, Halloway gửi lời chia buồn. Corwin không bao giờ tin."
 
@@ -120,29 +116,17 @@ Lena mỉm cười. Ba năm. Cô đã quen với nụ cười đó. Cô đã que
 
 "Cháu biết."
 
-Họ ngồi bên nhau một lúc. Lena kể về thời tiết, về Nia, về những bông hồng ngoài vườn. Bà Margaret nghe và gật đầu và thỉnh thoảng nói những câu không liên quan, về một con mèo tên Biscuit đã chết từ năm 1998, về chiếc váy xanh bà mặc trong đám cưới.
+Họ ngồi bên nhau một lúc. Lena kể về thời tiết, về Nia, về những bông hồng ngoài vườn. Bà Margaret nghe và gật đầu và thỉnh thoảng nói những câu không liên quan, về một con mèo tên Biscuit đã chết từ năm 1998, về chiếc váy xanh bà mặc trong đám cưới. Rồi Lena lấy điện thoại ra.
 
-Rồi Lena lấy điện thoại ra.
+Cô đã lưu một đoạn ghi âm từ dữ liệu quét tối qua. Mười hai giây, rè và méo, nhưng giai điệu vẫn còn nguyên. Cô không biết vì sao mình làm vậy. Có lẽ vì cô cần ai đó nói với cô rằng cô đang tưởng tượng. Cô bật nó lên, rất nhỏ. Giọng người phụ nữ trầm, khàn, hát bằng thứ tiếng xa lạ, lên xuống theo nhịp ba. Những ngón tay đang đan khăn vô hình của bà Margaret dừng lại.
 
-Cô đã lưu một đoạn ghi âm từ dữ liệu quét tối qua. Mười hai giây, rè và méo, nhưng giai điệu vẫn còn nguyên. Cô không biết vì sao mình làm vậy. Có lẽ vì cô cần ai đó nói với cô rằng cô đang tưởng tượng.
+Bà quay đầu, chậm, rất chậm, về phía chiếc điện thoại. Đôi mắt xanh nhạt mờ đục ấy, trong một khoảnh khắc, bỗng trong trở lại. Như mặt hồ khi gió ngừng thổi. Và bà bắt đầu ngân nga theo.
 
-Cô bật nó lên, rất nhỏ.
-
-Giọng người phụ nữ trầm, khàn, hát bằng thứ tiếng xa lạ, lên xuống theo nhịp ba.
-
-Những ngón tay đang đan khăn vô hình của bà Margaret dừng lại.
-
-Bà quay đầu, chậm, rất chậm, về phía chiếc điện thoại. Đôi mắt xanh nhạt mờ đục ấy, trong một khoảnh khắc, bỗng trong trở lại. Như mặt hồ khi gió ngừng thổi.
-
-Và bà bắt đầu ngân nga theo.
-
-Không phải lời. Chỉ giai điệu. Nhưng đúng từng nốt, đúng từng chỗ lên xuống, đúng cả cái chỗ ngắt hơi ở cuối câu thứ hai, chỗ mà đoạn ghi âm bị rè và gần như mất tiếng.
-
-Lena nghe tim mình ngừng đập.
+Không lời, chỉ giai điệu. Nhưng đúng từng nốt, đúng từng chỗ lên xuống, đúng cả cái chỗ ngắt hơi ở cuối câu thứ hai, chỗ mà đoạn ghi âm bị rè và gần như mất tiếng. Lena nghe tim mình ngừng đập.
 
 "Bà ơi," cô thì thầm. "Bà biết bài này?"
 
-Bà Margaret ngừng hát. Bà nhìn Lena, và lần đầu tiên sau ba năm, đôi mắt ấy nhìn thấy cô. Không phải một y tá mới. Không phải một người lạ. Mà là cô.
+Bà Margaret ngừng hát. Bà nhìn Lena, và lần đầu tiên sau ba năm, đôi mắt ấy nhìn thấy cô.
 
 Bàn tay đầy đồi mồi vươn ra, nắm lấy tay Lena. Những ngón tay gầy siết lại, mạnh hơn cô tưởng.
 
@@ -154,7 +138,7 @@ Bà Margaret nhìn cô, và đôi mắt ấy ngân ngấn nước.
 
 "Maren," bà nói. "Con bé của bà. Maren."
 
-Rồi mặt hồ gợn sóng trở lại. Ánh nhìn trôi đi, mờ dần, xa dần. Những ngón tay nới lỏng. Bà Margaret quay lại nhìn ra cửa sổ, ra những bông hồng tròn hoàn hảo.
+Mặt hồ gợn sóng trở lại. Ánh nhìn trôi đi, mờ dần, xa dần. Những ngón tay nới lỏng. Bà Margaret quay lại nhìn ra cửa sổ, ra những bông hồng tròn hoàn hảo.
 
 "Hồng năm nay nở muộn quá," bà nói với không ai cả. "Cô có thấy không?"
 

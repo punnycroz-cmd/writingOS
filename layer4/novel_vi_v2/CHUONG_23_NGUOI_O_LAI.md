@@ -12,7 +12,7 @@ Bà chạy trước họ ba bước, tay cầm một chiếc đèn pin, tay kia 
 
 Phía sau họ, hành lang phía tây đang cháy. Không phải cháy như trong phim, với những ngọn lửa đẹp đẽ nhảy múa. Nó cháy như một con thú nuốt mọi thứ, chậm và đều, từ trần xuống. Những tấm trần thạch cao rơi xuống thành những mảng lửa. Đèn báo động đỏ xoay tròn, quét qua khói, khiến khói như có màu máu.
 
-Có tiếng chân. Không phải của họ. Ở đâu đó phía sau, sau những bức tường, tiếng ủng nện trên sàn, nhiều người, và một giọng đàn ông quát vào bộ đàm.
+Có tiếng chân. Ở đâu đó phía sau, sau những bức tường, tiếng ủng nện trên sàn, nhiều người, và một giọng đàn ông quát vào bộ đàm.
 
 "Lối ba," mẹ Maren nói. "Nhanh lên, các con."
 
@@ -58,15 +58,9 @@ Cậu bé nhìn bà. Rồi nhìn Maren, nửa người đã chui vào ống, tay
 
 Cậu bé đã sống bảy năm ở một nơi mà người lớn dạy cậu đếm. Đếm thời gian giữa những lần kiểm tra. Đếm những tiếng bíp trên máy. Đếm số bước từ phòng số không tới phòng thí nghiệm dưới tầng. Cậu đếm bây giờ, mà không cần ai bảo.
 
-Ống thông gió dài. Maren bò chậm. Nếu cậu bò theo ngay sau, hai đứa sẽ mất ít nhất một phút để ra tới đầu bên kia. Cánh cửa thép không trụ được một phút. Bà Elena không trụ được một phút. Và khi cánh cửa mở ra, những người mặc đồ đen sẽ thấy cái lỗ trên tường, sẽ thấy tấm lưới tháo ra, sẽ rọi đèn vào ống. Sẽ thấy hai đôi chân.
+Ống thông gió dài. Maren bò chậm. Nếu cậu bò theo ngay sau, hai đứa sẽ mất ít nhất một phút để ra tới đầu bên kia. Cánh cửa thép không trụ được một phút. Bà Elena không trụ được một phút. Và khi cánh cửa mở ra, những người mặc đồ đen sẽ thấy cái lỗ trên tường, sẽ thấy tấm lưới tháo ra, sẽ rọi đèn vào ống. Sẽ thấy hai đôi chân. Nếu chỉ có một đôi chân, và đôi chân đó đã ra khỏi đầu bên kia, thì chúng chỉ thấy một cái ống trống. Và một đứa trẻ ngồi chặn ở miệng ống.
 
-Nếu chỉ có một đôi chân, và đôi chân đó đã ra khỏi đầu bên kia, thì chúng chỉ thấy một cái ống trống.
-
-Và một đứa trẻ ngồi chặn ở miệng ống.
-
-Elias, ở hai mươi năm sau, cảm thấy cậu bé đi tới quyết định đó. Không có sự dũng cảm nào trong đó cả. Không có sự hy sinh nào cả. Chỉ là một phép tính, làm bởi một bộ não được huấn luyện để tính, cho ra một kết quả.
-
-Anh cảm thấy, từ phía bên kia bàn tay, Lena cũng hiểu ra cùng lúc.
+Elias, ở hai mươi năm sau, cảm thấy cậu bé đi tới quyết định đó. Không có sự dũng cảm nào trong đó cả. Không có sự hy sinh nào cả. Chỉ là một phép tính, làm bởi một bộ não được huấn luyện để tính, cho ra một kết quả. Anh cảm thấy, từ phía bên kia bàn tay, Lena cũng hiểu ra cùng lúc.
 
 "Maren," cậu bé nói. "Buông tớ ra."
 
@@ -78,9 +72,7 @@ Anh cảm thấy, từ phía bên kia bàn tay, Lena cũng hiểu ra cùng lúc.
 
 Cánh cửa thép kêu một tiếng dài, kim loại rên lên. Bà Elena hét lên gì đó bằng tiếng Tây Ban Nha.
 
-Cậu bé dùng tay kia gỡ từng ngón tay của Maren ra khỏi cổ tay mình. Một ngón. Rồi ngón nữa. Con bé khóc. Cậu không khóc. Cậu không biết vì sao cậu không khóc, có lẽ vì cậu đã được dạy không khóc, có lẽ vì không có thời gian.
-
-Khi ngón tay cuối cùng rời ra, cậu đẩy nhẹ vào gót chân con bé, đẩy con bé sâu vào trong ống.
+Cậu bé dùng tay kia gỡ từng ngón tay của Maren ra khỏi cổ tay mình. Một ngón. Rồi ngón nữa. Con bé khóc. Cậu không khóc. Cậu không biết vì sao cậu không khóc, có lẽ vì cậu đã được dạy không khóc, có lẽ vì không có thời gian. Khi ngón tay cuối cùng rời ra, cậu đẩy nhẹ vào gót chân con bé, đẩy con bé sâu vào trong ống.
 
 Maren quay lại một lần nữa. Trong bóng tối của ống thông gió, cậu chỉ thấy đôi mắt con bé, phản chiếu ánh đỏ của đèn báo động.
 
@@ -112,9 +104,7 @@ Bà không bò về phía cánh cửa. Bà bò về phía cậu.
 
 Cậu bé không trả lời. Cậu chỉ ngồi đó, lưng chặn miệng ống.
 
-Bà Elena nhìn cậu. Bà nhìn cái cách cậu ngồi, cái cách lưng cậu chặn kín tấm lưới đã tháo, và Elias thấy trên khuôn mặt cháy đen của bà một biểu cảm mà anh sẽ không bao giờ quên được. Không phải ngạc nhiên. Không phải đau đớn. Một thứ gì đó giống như một người mẹ nhìn thấy con mình vừa làm một việc vừa đúng vừa sai một cách không thể chịu nổi.
-
-Bà đưa bàn tay không bị bỏng lên, đặt lên má cậu.
+Bà Elena nhìn cậu. Bà nhìn cái cách cậu ngồi, cái cách lưng cậu chặn kín tấm lưới đã tháo, và Elias thấy trên khuôn mặt cháy đen của bà một biểu cảm mà anh sẽ không bao giờ quên được. Một thứ gì đó giống như một người mẹ nhìn thấy con mình vừa làm một việc vừa đúng vừa sai một cách không thể chịu nổi. Bà đưa bàn tay không bị bỏng lên, đặt lên má cậu.
 
 "Con ngốc quá," bà nói. "Hai đứa con ngốc giống nhau."
 
@@ -130,9 +120,7 @@ Cậu bé gật đầu. Cậu không hiểu.
 
 Bà Elena cười. Một nụ cười trên một khuôn mặt cháy đen, giữa khói và lửa và tiếng còi báo động, và đó là nụ cười đẹp nhất mà cậu bé từng thấy.
 
-Rồi bà đứng dậy. Bà quay lưng lại với cậu, quay mặt về phía những ánh đèn pin đang tới gần. Bà dang hai tay ra, chắn ngang hành lang hẹp.
-
-Và bà bắt đầu hát.
+Bà đứng dậy. Bà quay lưng lại với cậu, quay mặt về phía những ánh đèn pin đang tới gần. Bà dang hai tay ra, chắn ngang hành lang hẹp. Và bà bắt đầu hát.
 
 *Nana, niña, nana…*
 
@@ -144,9 +132,7 @@ Elias mở mắt ra, và anh đang khóc.
 
 Anh không biết mình đã khóc từ lúc nào. Anh không nhớ lần cuối mình khóc là bao giờ. Anh không có ký ức nào về việc đó. Nhưng nước mắt đang chảy xuống thái dương, vào tai, và anh không dừng được.
 
-Có ai đó đang nắm tay anh. Chặt tới mức móng tay cắm vào da.
-
-Anh quay đầu.
+Có ai đó đang nắm tay anh. Chặt tới mức móng tay cắm vào da. Anh quay đầu.
 
 Lena nằm cạnh anh trên sàn bê tông, đầu cô cũng gối lên một chiếc áo khoác cuộn tròn, vòng cảm biến vẫn trên trán. Cô cũng đang khóc. Không thành tiếng. Mắt cô mở, nhìn anh, và cô không buông tay anh ra.
 
@@ -156,7 +142,7 @@ Viper ngồi ở giữa hai người, một tay đặt trên vai anh, một tay 
 
 Không ai trả lời anh ta.
 
-Lena là người lên tiếng trước. Giọng cô khàn, nhỏ, và khác hẳn. Không phải giọng giám định viên. Giọng của một đứa trẻ chín tuổi nói qua một bức tường.
+Lena là người lên tiếng trước. Giọng cô khàn, nhỏ, và khác hẳn. Nghe như giọng của một đứa trẻ chín tuổi nói qua một bức tường.
 
 "Cậu đã giữ lời."
 
@@ -194,9 +180,7 @@ Họ ăn ớt hầm ngồi xếp bằng trên sàn bê tông, dùng thìa nhựa
 
 Lena ngồi cạnh Elias. Không gần, không xa. Vai họ thỉnh thoảng chạm vào nhau khi cô với lấy bánh mì.
 
-Cô chưa nói là cô tha thứ cho anh. Anh chưa xin lỗi thêm lần nào. Cả hai đều biết chuyện đó chưa xong. Nhưng nó đã chuyển sang một chỗ khác, một chỗ không còn là giữa hai người, mà là giữa hai người với những gì đã xảy ra với họ.
-
-Điện thoại của Lena rung lên trên sàn bê tông.
+Cô chưa nói là cô tha thứ cho anh. Anh chưa xin lỗi thêm lần nào. Cả hai đều biết chuyện đó chưa xong. Nhưng nó đã chuyển sang một chỗ khác, một chỗ không còn là giữa hai người, mà là giữa hai người với những gì đã xảy ra với họ. Điện thoại của Lena rung lên trên sàn bê tông.
 
 Cô nhìn màn hình. Mặt trăng khuyết màu đen trên nền tím.
 
@@ -213,23 +197,17 @@ Lena đã gõ.
 
 Đã gửi. Đã đọc.
 
-Mười giây. Hai mươi giây. Linh nín thở. Viper cầm thìa lơ lửng giữa không trung.
-
-Màn hình sáng lên.
+Mười giây. Hai mươi giây. Linh nín thở. Viper cầm thìa lơ lửng giữa không trung. Màn hình sáng lên.
 
 > **[N]:** 43°58'12" Bắc, 69°09'40" Tây. Hải đăng Point Lookout. Một trạm tiếp sóng cũ của Prometheus.
 > **[N]:** Corwin đã ở đó ba ngày trước khi ra khơi. Anh ấy để lại một thứ cho cô.
 
-Lena đưa điện thoại cho Kev. Anh ta nhìn những con số, rồi mở bản đồ trên laptop, gõ vào.
-
-Một chấm đỏ hiện lên trên bờ biển Maine, ở mũi một dải đất nhô ra biển như một ngón tay.
+Lena đưa điện thoại cho Kev. Anh ta nhìn những con số, rồi mở bản đồ trên laptop, gõ vào. Một chấm đỏ hiện lên trên bờ biển Maine, ở mũi một dải đất nhô ra biển như một ngón tay.
 
 "Ba trăm hai mươi cây số," Kev nói. "Năm tiếng lái xe."
 
-Elias nhìn chấm đỏ ấy. Rồi anh nhìn Lena. Cô không nhìn anh. Cô đang nhìn bản đồ, và tay trái cô đã tìm tới sợi dây chuyền dưới cổ áo, nắm chặt lấy chiếc nhẫn.
+Elias nhìn chấm đỏ ấy. Anh nhìn Lena. Cô không nhìn anh. Cô đang nhìn bản đồ, và tay trái cô đã tìm tới sợi dây chuyền dưới cổ áo, nắm chặt lấy chiếc nhẫn.
 
-Anh thấy điều đó. Anh không nói gì cả.
-
-Viper múc thêm một muôi ớt vào bát của anh.
+Anh thấy điều đó. Anh không nói gì cả. Viper múc thêm một muôi ớt vào bát của anh.
 
 "Ăn đi," ông ta nói. "Năm tiếng lái xe. Mày sẽ cần nó."

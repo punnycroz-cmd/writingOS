@@ -2,19 +2,13 @@
 
 Thứ đầu tiên trở lại là tiếng ồn.
 
-Một tiếng vo ve đều đều, mảnh như sợi chỉ, chạy dọc trần nhà rồi xuyên vào chân răng. Anh nằm nghe nó rất lâu trước khi hiểu đó là âm thanh, và lâu hơn nữa mới hiểu đó là tiếng đèn huỳnh quang. Sáu mươi hertz. Ý nghĩ ấy hiện ra gọn gàng, chính xác, như một con số đọc trên đồng hồ đo. Anh không biết vì sao mình biết điều đó.
+Một tiếng vo ve đều đều, mảnh như sợi chỉ, chạy dọc trần nhà rồi xuyên vào chân răng. Anh nằm nghe nó rất lâu trước khi hiểu đó là âm thanh, và lâu hơn nữa mới hiểu đó là tiếng đèn huỳnh quang. Sáu mươi hertz. Ý nghĩ ấy hiện ra gọn gàng, chính xác, như một con số đọc trên đồng hồ đo. Anh không biết vì sao mình biết điều đó. Anh không biết gì khác cả.
 
-Anh không biết gì khác cả.
-
-Không biết đây là đâu. Không biết hôm nay là ngày nào, năm nào. Không biết mình bao nhiêu tuổi, mình làm nghề gì, mình từng yêu ai, từng ghét ai, từng ăn sáng bằng gì. Khi anh thử với về phía những thứ ấy, tay anh chạm vào một khoảng trống trơn nhẵn, lạnh, như mặt kính đặt trên một cái hố.
-
-Nhưng có một thứ vẫn ở đó.
+Không biết đây là đâu. Không biết hôm nay là ngày nào, năm nào. Không biết mình bao nhiêu tuổi, mình làm nghề gì, mình từng yêu ai, từng ghét ai, từng ăn sáng bằng gì. Khi anh thử với về phía những thứ ấy, tay anh chạm vào một khoảng trống trơn nhẵn, lạnh, như mặt kính đặt trên một cái hố. Nhưng có một thứ vẫn ở đó.
 
 *Maren.*
 
-Năm chữ cái. Chúng không đi kèm một giọng nói hay một mùi hương nào. Chúng chỉ nằm đó, giữa ngực anh, nặng và chắc như một hòn đá cuội trong lòng bàn tay một đứa trẻ, thứ đứa trẻ nhất định không chịu buông ra.
-
-Và cùng với cái tên là hai khuôn mặt.
+Năm chữ cái. Chúng không đi kèm một giọng nói hay một mùi hương nào. Chúng chỉ nằm đó, giữa ngực anh, nặng và chắc như một hòn đá cuội trong lòng bàn tay một đứa trẻ, thứ đứa trẻ nhất định không chịu buông ra. Và cùng với cái tên là hai khuôn mặt.
 
 Một cô bé. Chín tuổi, có lẽ vậy. Tóc đen cắt ngang vai, lởm chởm như tự cắt bằng kéo, mắt đen, gò má lấm lem một vệt gì đó màu xám. Cô bé đang hét. Anh không nghe thấy tiếng, chỉ thấy cái miệng mở to và đôi mắt nhìn thẳng vào anh như thể anh là thứ duy nhất trên đời cô cần nhìn thấy.
 
@@ -60,7 +54,7 @@ Bức tường trắng.
 
 Câu hỏi chạm vào một chỗ nào đó, và thứ đó nổ tung.
 
-Không phải một ký ức. Một trận lở đất. Anh đang rơi. Rơi xuyên qua những tầng sáng chồng lên nhau, mỗi tầng một cuộc đời. Anh năm tuổi, đứng dưới mưa trước một ngôi nhà gỗ. Anh mười bốn tuổi, ngồi trên bậc thềm một nhà ga lạ. Anh hai mươi tuổi, đứng trên boong một con tàu, nước biển tạt vào mặt, mặn chát, và anh biết chắc mình chưa bao giờ lên tàu. Anh ba mươi, bốn mươi, những gương mặt lướt qua quá nhanh để giữ lại, có người gọi anh là bố, có người gọi bằng một cái tên không phải tên anh. Một người phụ nữ hát một bài hát ru bằng thứ tiếng anh không hiểu. Một căn bếp màu vàng. Một cô gái cười bên ô cửa sổ. Một hành lang trắng có hai cánh cửa sát nhau. Và lửa. Lửa ở khắp nơi, liếm lên trần, nuốt lấy tất cả.
+Một trận lở đất ập xuống. Anh đang rơi. Rơi xuyên qua những tầng sáng chồng lên nhau, mỗi tầng một cuộc đời. Anh năm tuổi, đứng dưới mưa trước một ngôi nhà gỗ. Anh mười bốn tuổi, ngồi trên bậc thềm một nhà ga lạ. Anh hai mươi tuổi, đứng trên boong một con tàu, nước biển tạt vào mặt, mặn chát, và anh biết chắc mình chưa bao giờ lên tàu. Anh ba mươi, bốn mươi, những gương mặt lướt qua quá nhanh để giữ lại, có người gọi anh là bố, có người gọi bằng một cái tên không phải tên anh. Một người phụ nữ hát một bài hát ru bằng thứ tiếng anh không hiểu. Một căn bếp màu vàng. Một cô gái cười bên ô cửa sổ. Một hành lang trắng có hai cánh cửa sát nhau. Và lửa. Lửa ở khắp nơi, liếm lên trần, nuốt lấy tất cả.
 
 Ba mươi năm. Anh đã sống ba mươi năm trong đó. Và tất cả vỡ ra như kính.
 
@@ -90,9 +84,7 @@ Elias nhìn quanh phòng. Anh làm việc đó một cách có hệ thống, t�
 
 Loại kẹp giấy. Giấy thật. Ở một nơi toàn máy móc thế này, giấy chỉ được dùng khi người ta không muốn thứ gì đó nằm trên mạng.
 
-Anh nhích người. Cơ bắp chân run lên vì mười một ngày nằm yên, nhưng tay anh với được tới tập hồ sơ. Y tá Vance vẫn đang gõ phím.
-
-Trang bìa có một dòng mực đỏ đóng chéo:
+Anh nhích người. Cơ bắp chân run lên vì mười một ngày nằm yên, nhưng tay anh với được tới tập hồ sơ. Y tá Vance vẫn đang gõ phím. Trang bìa có một dòng mực đỏ đóng chéo:
 
 > **ĐỐI TƯỢNG ZERO — DỰ ÁN MNEMOSYNE**
 > **Quyền truy cập: Cấp 0**
@@ -106,9 +98,7 @@ Anh đọc ba lần.
 
 Anh không hiểu hết những dòng chữ này. Nhưng anh hiểu một điều: người ta không định giữ anh lại. Người ta muốn anh đi. Và người ta muốn biết anh sẽ đi đâu.
 
-Trang thứ hai là giấy xuất viện, có in một địa chỉ: *Căn 6C, số 118 đường Harlow.* Nhà của anh, có lẽ vậy. Anh xé trang giấy ra, gấp làm tư, nhét vào cạp quần áo bệnh nhân.
-
-Y tá Vance vẫn chưa quay lại.
+Trang thứ hai là giấy xuất viện, có in một địa chỉ: *Căn 6C, số 118 đường Harlow.* Nhà của anh, có lẽ vậy. Anh xé trang giấy ra, gấp làm tư, nhét vào cạp quần áo bệnh nhân. Y tá Vance vẫn chưa quay lại.
 
 Elias thả chân xuống sàn. Gạch lạnh buốt. Đầu gối anh muốn khuỵu xuống, nhưng anh đứng được. Anh bước tới tủ đồ. Bên trong có một chiếc quần nỉ xám, một áo sơ mi tối màu, một áo khoác dạ xanh navy quá rộng, như lấy từ thùng đồ thất lạc. Anh mặc vào, từng cúc một. Ngón tay anh run ở cúc đầu tiên, vững hơn ở cúc thứ ba, và đến cúc cuối cùng thì hoàn toàn không run nữa.
 
@@ -126,31 +116,21 @@ Elias bước ra hành lang.
 
 ---
 
-Trung tâm Y tế Halloway là một mê cung trắng. Hành lang nào cũng giống hành lang nào, sàn bóng, đèn đều, những cánh cửa trượt không tay nắm. Người ta đi qua anh mà không nhìn: bác sĩ, kỹ thuật viên, một phụ nữ đẩy xe dụng cụ. Không ai hỏi gì. Không ai cản lại.
-
-Đó là phần đáng sợ nhất.
+Trung tâm Y tế Halloway là một mê cung trắng. Hành lang nào cũng giống hành lang nào, sàn bóng, đèn đều, những cánh cửa trượt không tay nắm. Người ta đi qua anh mà không nhìn: bác sĩ, kỹ thuật viên, một phụ nữ đẩy xe dụng cụ. Không ai hỏi gì. Không ai cản lại. Đó là phần đáng sợ nhất.
 
 Anh đi theo những biển chỉ dẫn màu xanh ghi *Lối ra*. Ở một khúc rẽ có một vách kính lớn nhìn xuống sảnh chính. Trên bức tường đối diện treo một màn hình khổng lồ chạy quảng cáo: một gia đình ba người ngồi trong một khu vườn tràn ánh nắng, đứa con gái nhỏ đang vẽ một con cá voi bay lơ lửng giữa trời, và con cá voi thật sự bơi ra khỏi tờ giấy. Bên cạnh cô bé, một chú cáo nhỏ phát sáng màu xanh nhạt ngồi chồm hỗm, nghiêng đầu nhìn con cá voi, rồi quay ra nhìn thẳng vào người xem và vẫy đuôi. Dòng chữ hiện lên: *SOMNIA — Thế giới bạn mơ, mỗi ngày. Cùng ECHO, người bạn đồng hành hiểu bạn nhất. Một sản phẩm của Halloway Neuro-Systems.*
 
-Elias dừng lại nhìn. Anh không nhớ Somnia là gì, nhưng tay anh tự động co lại như đang cầm một tay cầm điều khiển. Có thứ gì đó trong cơ bắp còn nhớ.
+Elias dừng lại nhìn. Anh không nhớ Somnia là gì, nhưng tay anh tự động co lại như đang cầm một tay cầm điều khiển. Có thứ gì đó trong cơ bắp còn nhớ. Rồi anh thấy hình phản chiếu của mình trên vách kính.
 
-Rồi anh thấy hình phản chiếu của mình trên vách kính.
-
-Một người đàn ông cao, gầy, vai hơi khom như cố chiếm ít chỗ nhất có thể. Tóc đen bết lại. Gò má nhô cao. Đôi mắt màu xám, trũng sâu sau hai quầng thâm. Anh nhìn người đó và chờ một cảm giác nhận ra.
-
-Không có gì cả.
+Một người đàn ông cao, gầy, vai hơi khom như cố chiếm ít chỗ nhất có thể. Tóc đen bết lại. Gò má nhô cao. Đôi mắt màu xám, trũng sâu sau hai quầng thâm. Anh nhìn người đó và chờ một cảm giác nhận ra. Không có gì cả.
 
 Anh đưa tay lên chạm vào mặt kính. Người đàn ông trong kính cũng chạm lại. Ngón tay họ gặp nhau ở một điểm lạnh.
 
 *Tôi là ai?*
 
-Khoảng trống không trả lời. Chỉ có hòn đá cuội trong lồng ngực, và năm chữ cái khắc trên đó.
+Khoảng trống không trả lời. Chỉ có hòn đá cuội trong lồng ngực, và năm chữ cái khắc trên đó. Anh hạ tay xuống, đi tiếp.
 
-Anh hạ tay xuống, đi tiếp.
-
-Cửa chính trượt mở. Không khí bên ngoài ập vào: lạnh, ẩm, đầy mùi mưa trên nhựa đường và khói xe. Đầu tháng Chín, anh đoán vậy từ màu lá trên hàng cây bên kia đường, mới chớm vàng ở rìa. Một cơn mưa phùn lơ lửng trong không trung, không rơi hẳn xuống, chỉ bám lên mặt và tóc như một lớp màng mỏng.
-
-Anh đứng trên bậc thềm, và lần đầu tiên kể từ khi mở mắt, anh để mình thở.
+Cửa chính trượt mở. Không khí bên ngoài ập vào: lạnh, ẩm, đầy mùi mưa trên nhựa đường và khói xe. Đầu tháng Chín, anh đoán vậy từ màu lá trên hàng cây bên kia đường, mới chớm vàng ở rìa. Một cơn mưa phùn lơ lửng trong không trung, không rơi hẳn xuống, chỉ bám lên mặt và tóc như một lớp màng mỏng. Anh đứng trên bậc thềm, và lần đầu tiên kể từ khi mở mắt, anh để mình thở.
 
 Bên kia đường có một chiếc sedan đen. Không biển số dân sự. Kính dán phim tối. Đuôi xe hơi trĩu xuống, kiểu trĩu của một chiếc xe có thêm thép ở những chỗ không ai nhìn thấy. Nó không nổ máy. Nó chỉ đỗ đó.
 
@@ -160,16 +140,12 @@ Elias nhìn nó đúng một giây rồi quay đi. Anh không cần nhìn lâu h
 
 Được thôi. Anh sẽ di chuyển.
 
-Anh rút tờ giấy gấp tư ra khỏi túi, đọc lại địa chỉ. Đường Harlow. Anh không biết đường Harlow ở đâu, nhưng có những tấm biển, có những tấm bản đồ ở trạm xe buýt, và có một bộ não vẫn còn biết đếm.
-
-Trước khi đi, anh nhắm mắt một lần nữa, chỉ để kiểm tra.
+Anh rút tờ giấy gấp tư ra khỏi túi, đọc lại địa chỉ. Đường Harlow. Anh không biết đường Harlow ở đâu, nhưng có những tấm biển, có những tấm bản đồ ở trạm xe buýt, và có một bộ não vẫn còn biết đếm. Trước khi đi, anh nhắm mắt một lần nữa, chỉ để kiểm tra.
 
 Cô bé ở đó. Cô gái bên ô cửa sổ cũng ở đó. Và cái tên vẫn nằm yên, nặng, ấm.
 
 *Maren.*
 
-Anh không biết cô là ai. Anh không biết cô ở đâu, còn sống hay đã chết, có nhớ anh không, có muốn gặp anh không. Anh chỉ biết rằng giữa một cuộc đời bị xóa trắng, đó là thứ duy nhất còn lại. Và nếu một thứ có thể sống sót qua chuyện đó, thì nó phải có lý do.
-
-Elias kéo cổ áo khoác lên, bước vào màn mưa.
+Anh không biết cô là ai. Anh không biết cô ở đâu, còn sống hay đã chết, có nhớ anh không, có muốn gặp anh không. Anh chỉ biết rằng giữa một cuộc đời bị xóa trắng, đó là thứ duy nhất còn lại. Và nếu một thứ có thể sống sót qua chuyện đó, thì nó phải có lý do. Elias kéo cổ áo khoác lên, bước vào màn mưa.
 
 Phía sau anh, chiếc sedan đen lặng lẽ lăn bánh theo.

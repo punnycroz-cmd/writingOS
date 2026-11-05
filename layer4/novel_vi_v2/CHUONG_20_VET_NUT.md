@@ -14,15 +14,11 @@ Hồ sơ viết khô khan, đúng kiểu của Kev. Những biểu đồ sóng n
 
 *Ứng viên duy nhất: L. Hale.*
 
-Kev đã gạch chân dòng cuối. Anh ta không cần làm vậy. Cô đã hiểu từ trang thứ ba.
-
-Lena đóng laptop lại.
+Kev đã gạch chân dòng cuối. Anh ta không cần làm vậy. Cô đã hiểu từ trang thứ ba. Lena đóng laptop lại.
 
 Cô biết mình nên làm gì. Cô biết chính xác. Nếu đây là một ca bệnh ở phòng khám, nếu người đàn ông có khoanh đỏ trên não kia là một bệnh nhân bất kỳ, cô sẽ đọc hồ sơ, đặt lịch, chuẩn bị thiết bị, và làm. Không cần cảm thấy gì cả. Không cần tha thứ cho ai cả. Chỉ cần làm việc.
 
-Cô cầm điện thoại lên, chiếc máy trả trước Linh đưa. Mở ứng dụng hình con quạ. Ngón cái cô lơ lửng trên tên Elias trong danh bạ.
-
-Rồi cô lướt sang một cuộc hội thoại khác.
+Cô cầm điện thoại lên, chiếc máy trả trước Linh đưa. Mở ứng dụng hình con quạ. Ngón cái cô lơ lửng trên tên Elias trong danh bạ. Rồi cô lướt sang một cuộc hội thoại khác.
 
 Biểu tượng mặt trăng khuyết màu đen trên nền tím. Hai tin nhắn từ Nyx mà cô chưa trả lời.
 
@@ -32,13 +28,9 @@ Và một tin nhắn cô đã gửi. Lúc hai giờ sáng, hai đêm trước, k
 
 Không có trả lời. Chỉ có hai dấu tích xám: đã gửi, đã đọc.
 
-Cô đã không nói với ai về tin nhắn này. Cô đã tự bảo mình là vì chưa có trả lời thì chưa có gì để nói. Cô đã tự bảo mình rằng Kev sẽ phản đối, rằng như vậy chỉ thêm rắc rối.
+Cô đã không nói với ai về tin nhắn này. Cô đã tự bảo mình là vì chưa có trả lời thì chưa có gì để nói. Cô đã tự bảo mình rằng Kev sẽ phản đối, rằng như vậy chỉ thêm rắc rối. Lena nhìn tin nhắn của mình rất lâu.
 
-Lena nhìn tin nhắn của mình rất lâu.
-
-Cô nghĩ tới Elias đứng giữa phòng khách nhà Viper chiều nay, không biết làm gì với tay mình, trong khi mọi người chạy qua chạy lại. Cô đã nhìn thấy điều đó, và cô đã nghĩ: *anh ấy trông như người đang đợi bị xử án.* Lúc đó cô không hiểu vì sao.
-
-Hai đêm trước, khi gửi tin nhắn đó, cô cũng đã đợi.
+Cô nghĩ tới Elias đứng giữa phòng khách nhà Viper chiều nay, không biết làm gì với tay mình, trong khi mọi người chạy qua chạy lại. Cô đã nhìn thấy điều đó, và cô đã nghĩ: *anh ấy trông như người đang đợi bị xử án.* Lúc đó cô không hiểu vì sao. Hai đêm trước, khi gửi tin nhắn đó, cô cũng đã đợi.
 
 Cô tắt màn hình, đặt điện thoại úp xuống chăn. Rồi cô lại cầm nó lên.
 
@@ -94,9 +86,7 @@ Anh không cho cô cái gì cả. Anh chỉ ngồi đó, ở đầu bên kia đ�
 
 Lena nhắm mắt lại.
 
-Cô đã kiểm định hàng trăm lời khai. Cô biết lời khai thật nghe như thế nào. Nó không bao giờ tròn trịa. Nó luôn có một chỗ trễ, một chỗ mà người nói ngừng lại vì biết rằng điều mình sắp nói sẽ làm mình trông tệ hơn.
-
-Câu anh vừa nói có đúng chỗ trễ đó.
+Cô đã kiểm định hàng trăm lời khai. Cô biết lời khai thật nghe như thế nào. Nó không bao giờ tròn trịa. Nó luôn có một chỗ trễ, một chỗ mà người nói ngừng lại vì biết rằng điều mình sắp nói sẽ làm mình trông tệ hơn. Câu anh vừa nói có đúng chỗ trễ đó.
 
 Và điều tệ nhất là cô hiểu nó. Cô hiểu nó tới mức buồn nôn. Bởi vì hai đêm trước, lúc hai giờ sáng, cô đã nhắn tin cho một người lạ trên mạng, một người có thể là kẻ thù, chỉ vì người đó đã gọi cô bằng tên thật. Chỉ vì người đó *biết* cô. Và cô đã không nói với ai vì cô sợ họ sẽ bảo cô dừng lại.
 
@@ -156,13 +146,9 @@ Lena nhìn trần nhà. Có một vết ố hình nước Ý ở góc. Cô nhìn
 
 "Ngủ đi, Linh," cô nói.
 
-Cô cầm điện thoại lên lần cuối. Mở cuộc hội thoại với mặt trăng khuyết.
+Cô cầm điện thoại lên lần cuối. Mở cuộc hội thoại với mặt trăng khuyết. Vẫn chưa có trả lời.
 
-Vẫn chưa có trả lời.
-
-Cô gõ một tin nhắn mới, cho Kev. Cô xóa đi. Gõ lại. Xóa đi lần nữa.
-
-Cuối cùng cô chỉ gửi:
+Cô gõ một tin nhắn mới, cho Kev. Cô xóa đi. Gõ lại. Xóa đi lần nữa. Cuối cùng cô chỉ gửi:
 
 > **Lena:** Sáng mai tôi cần nói chuyện với anh. Không phải về Elias. Về Nyx.
 

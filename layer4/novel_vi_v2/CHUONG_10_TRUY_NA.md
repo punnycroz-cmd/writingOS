@@ -18,9 +18,7 @@ Cô nhìn anh một lúc, rồi cắt chỉ, không nói gì thêm.
 
 Giờ cô đã ngủ, đầu gục vào vai, ngồi thẳng trên ghế nhựa như người ngủ gật trên xe buýt. Elias nhìn cô, rồi nhìn ra đường. Mưa đã nhỏ lại. Một chiếc xe rác chạy qua. Một con mèo hoang băng qua vỉa hè.
 
-Anh rút điện thoại ra. Chiếc điện thoại cũ màn hình nứt, thứ duy nhất anh mang theo từ cuộc đời trước. Anh biết nó có thể đang bị theo dõi. Anh biết Lena đã vứt điện thoại của cô xuống vũng nước vì lý do đó. Nhưng nó cũng là sợi dây duy nhất nối anh với ba người trên đời có thể giúp.
-
-Anh mở ứng dụng hình con quạ.
+Anh rút điện thoại ra. Chiếc điện thoại cũ màn hình nứt, thứ duy nhất anh mang theo từ cuộc đời trước. Anh biết nó có thể đang bị theo dõi. Anh biết Lena đã vứt điện thoại của cô xuống vũng nước vì lý do đó. Nhưng nó cũng là sợi dây duy nhất nối anh với ba người trên đời có thể giúp. Anh mở ứng dụng hình con quạ.
 
 > **Elias:** Có chuyện rồi.
 
@@ -70,9 +68,7 @@ Bản tin buổi sáng. Một nữ phát thanh viên tóc vàng. Rồi hình ả
 
 Rồi một khuôn mặt hiện lên. Khuôn mặt anh.
 
-Ảnh chụp ở bệnh viện, ngay sau khi tỉnh dậy: da trắng bệch, mắt đờ đẫn, tóc bết lại, trông như một người vừa bò ra từ dưới mồ. Bên dưới là tên anh, tuổi anh, và mấy chữ: *Bệnh nhân tâm thần nguy hiểm. Có thể mang vũ khí.*
-
-Elias đứng dậy, bước lại gần tivi, tìm nút chỉnh âm lượng.
+Ảnh chụp ở bệnh viện, ngay sau khi tỉnh dậy: da trắng bệch, mắt đờ đẫn, tóc bết lại, trông như một người vừa bò ra từ dưới mồ. Bên dưới là tên anh, tuổi anh, và mấy chữ: *Bệnh nhân tâm thần nguy hiểm. Có thể mang vũ khí.* Elias đứng dậy, bước lại gần tivi, tìm nút chỉnh âm lượng.
 
 "...ngọn lửa bùng phát tại văn phòng của Tiến sĩ Lena Hale, một chuyên gia pháp y ký ức. Theo nguồn tin từ cảnh sát, nghi phạm là Elias Vane, hai mươi bảy tuổi, một bệnh nhân vừa tự ý rời khỏi Trung tâm Y tế Halloway sau khi được chẩn đoán mắc chứng rối loạn hoang tưởng cấp tính. Tiến sĩ Hale hiện chưa rõ tung tích. Cảnh sát tin rằng cô đã bị nghi phạm bắt đi..."
 
@@ -84,7 +80,7 @@ Nhưng anh không làm như thế. Anh không kéo cô. Cô chạy trước anh.
 
 "Đoạn này giả," Lena nói sau lưng anh.
 
-Cô đã đứng dậy, bước tới cạnh anh, mắt dán vào màn hình. Không phải ánh mắt của một người đang sợ. Ánh mắt của một giám định viên.
+Cô đã đứng dậy, bước tới cạnh anh, mắt dán vào màn hình. Ánh mắt của một giám định viên đang làm việc.
 
 "Nhìn bóng của người phụ nữ," cô nói. "Đèn đường chiếu từ bên trái. Bóng của người đàn ông đổ sang phải, đúng. Bóng của cô ấy cũng đổ sang phải, nhưng góc lệch đi chừng mười độ, như được chiếu từ một nguồn sáng khác. Và nhìn mép tóc." Cô chỉ vào màn hình. "Mỗi lần cô ấy quay đầu, viền tóc nhòe ra một khung hình, rồi mới nét lại. Đó là dấu hiệu của mô hình tạo ảnh ghép mặt. Họ lấy ảnh tôi từ đâu đó, ghép lên một người diễn, rồi dựng lại cả cảnh."
 
@@ -96,9 +92,7 @@ Trên tivi, nữ phát thanh viên tiếp tục. "...cảnh sát kêu gọi ngư
 
 Elias tắt tivi.
 
-Anh đứng đó, nhìn màn hình đen, nhìn hình phản chiếu mờ mờ của chính mình trên lớp kính. Một tên điên bắt cóc phụ nữ. Một kẻ đốt nhà. Đó là người mà cả thành phố đang tìm.
-
-Và đó là người họ sẽ thấy khi nhìn anh.
+Anh đứng đó, nhìn màn hình đen, nhìn hình phản chiếu mờ mờ của chính mình trên lớp kính. Một tên điên bắt cóc phụ nữ. Một kẻ đốt nhà. Đó là người mà cả thành phố đang tìm. Và đó là người họ sẽ thấy khi nhìn anh.
 
 "Họ không cần bắt được anh," Lena nói khẽ. "Họ chỉ cần không ai tin anh."
 
@@ -106,15 +100,13 @@ Và đó là người họ sẽ thấy khi nhìn anh.
 
 Viper đến lúc sáu giờ bốn mươi.
 
-Họ nghe thấy nó trước khi thấy. Một tiếng còi xe. Không phải tiếng còi bình thường. Một giai điệu. Bảy nốt nhạc lanh lảnh, vui vẻ, quen tai một cách kỳ lạ, vang vọng khắp con phố còn đang ngái ngủ.
+Họ nghe thấy nó trước khi thấy. Một tiếng còi xe. Một giai điệu hẳn hoi. Bảy nốt nhạc lanh lảnh, vui vẻ, quen tai một cách kỳ lạ, vang vọng khắp con phố còn đang ngái ngủ.
 
 Lena nhìn Elias. Elias nhìn Lena.
 
 Một chiếc xe tải nhỏ màu vàng chanh rẽ vào lề đường trước tiệm giặt, phanh lại với một tiếng rít. Hông xe sơn hình một con quạ đen đội mũ rộng vành, tay cầm một chiếc bánh taco khổng lồ. Bên trên là dòng chữ đỏ uốn lượn: *QUẠ TACO — NGON TỚI MỨC BẠN SẼ KÊU QUẠC QUẠC!* Trên nóc xe, một tấm biển hình chiếc bánh taco bằng nhựa phát sáng, xoay chầm chậm.
 
-Cửa xe bật mở. Một người đàn ông to lớn bước xuống: cao gần hai mét, vai rộng, bụng hơi xệ, râu quai nón rậm, một vết sẹo ngang lông mày trái. Ông ta mặc áo thun đen in chữ *BỐ GIỎI NHẤT THẾ GIỚI*, đội ngược một chiếc mũ lưỡi trai, và cầm trong tay hai cốc cà phê giấy.
-
-Ông ta đẩy cửa tiệm giặt, nhìn quanh, thấy họ.
+Cửa xe bật mở. Một người đàn ông to lớn bước xuống: cao gần hai mét, vai rộng, bụng hơi xệ, râu quai nón rậm, một vết sẹo ngang lông mày trái. Ông ta mặc áo thun đen in chữ *BỐ GIỎI NHẤT THẾ GIỚI*, đội ngược một chiếc mũ lưỡi trai, và cầm trong tay hai cốc cà phê giấy. Ông ta đẩy cửa tiệm giặt, nhìn quanh, thấy họ.
 
 "Vane," Viper nói.
 
@@ -152,18 +144,14 @@ Không ai đuổi theo họ. Không có chiếc sedan đen nào trong gương ch
 
 Viper bật radio. Một bài nhạc đồng quê cũ. Ông ta hát theo, sai lời, giọng khàn khàn, và gõ ngón tay lên vô lăng sai nhịp.
 
-Elias nhìn ra ngoài cửa sổ. Rồi anh quay lại nhìn Lena.
+Elias nhìn ra ngoài cửa sổ. Anh quay lại nhìn Lena.
 
 Cô đang ngồi bó gối trên tấm chăn kỳ lân, chiếc vali dã chiến kẹp bên hông, một bên má quệt vết tro mà cô quên chưa lau. Cô đang nhìn Viper qua ô cửa nhỏ. Và môi cô hơi cong lên.
 
-Viper hát lạc giọng ở nốt cao. Một cái nồi treo trên giá rơi xuống sàn đánh *keng*.
+Viper hát lạc giọng ở nốt cao. Một cái nồi treo trên giá rơi xuống sàn đánh *keng*. Elias bật cười.
 
-Elias bật cười.
+Anh không quyết định cười. Nó tự bật ra, từ một nơi nào đó trong lồng ngực mà anh không biết là có. Tiếng cười ngắn, khàn, vụng về, như một cái máy đã lâu không chạy. Nhưng nó là thật. Lena quay sang nhìn anh.
 
-Anh không quyết định cười. Nó tự bật ra, từ một nơi nào đó trong lồng ngực mà anh không biết là có. Tiếng cười ngắn, khàn, vụng về, như một cái máy đã lâu không chạy. Nhưng nó là thật.
-
-Lena quay sang nhìn anh.
-
-Lần đầu tiên kể từ khi anh bước vào phòng 4B, ướt sũng, gọi cô bằng một cái tên lạ, cô nhìn anh mà không đề phòng. Chỉ một giây thôi. Rồi cô quay đi, kéo tấm chăn kỳ lân lên tận vai.
+Lần đầu tiên kể từ khi anh bước vào phòng 4B, ướt sũng, gọi cô bằng một cái tên lạ, cô nhìn anh mà không đề phòng. Chỉ một giây thôi. Cô quay đi, kéo tấm chăn kỳ lân lên tận vai.
 
 Nhưng Elias đã thấy.

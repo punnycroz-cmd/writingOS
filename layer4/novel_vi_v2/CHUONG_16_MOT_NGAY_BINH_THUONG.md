@@ -20,25 +20,17 @@ Lena đã chỉ ra rằng cô là bác sĩ. Lin đã chỉ ra rằng Viper cũng
 
 "Ổng mở tiệm bánh với vợ trước khi chị ấy mất. Bánh sừng bò của ổng ngon lắm." Lin nhún vai. "Giờ thì ổng làm taco. Cuộc đời mà."
 
-Lena không biết vợ Viper đã mất. Cô nghĩ về căn nhà xanh lơ, chiếc xích đu bằng lốp xe, những chậu dã quỳ héo một nửa ngoài hiên. Một người đàn ông to lớn chăm một nửa số hoa được, nửa còn lại thì không.
-
-Cô đứng dậy, phủi bụi ảo khỏi quần.
+Lena không biết vợ Viper đã mất. Cô nghĩ về căn nhà xanh lơ, chiếc xích đu bằng lốp xe, những chậu dã quỳ héo một nửa ngoài hiên. Một người đàn ông to lớn chăm một nửa số hoa được, nửa còn lại thì không. Cô đứng dậy, phủi bụi ảo khỏi quần.
 
 "Lần nữa," cô nói.
 
 ---
 
-Lần thứ mười hai, cô chết sau một phút bốn mươi giây.
-
-Lần thứ mười ba, cô chết sau hai phút mười giây, và hạ được một mục tiêu trước khi chết.
-
-Lần thứ mười bốn, cô ngừng chạy.
+Lần thứ mười hai, cô chết sau một phút bốn mươi giây. Lần thứ mười ba, cô chết sau hai phút mười giây, và hạ được một mục tiêu trước khi chết. Lần thứ mười bốn, cô ngừng chạy.
 
 Cô đứng sau một chồng thùng gỗ, nhìn quanh nhà kho, và lần đầu tiên làm cái việc cô làm suốt năm năm trong phòng khám: quan sát. Các mục tiêu không di chuyển ngẫu nhiên. Có một nhịp. Con robot ở cột thứ hai luôn đổi hướng sau bốn giây. Con ở gác lửng đứng im khi con dưới đất đi ngang. Chúng được lập trình như mọi thứ được lập trình. Và mọi thứ được lập trình đều có một chỗ trễ.
 
-Cô đợi. Đếm. Bắn.
-
-Lần thứ mười bốn, cô sống sót.
+Cô đợi. Đếm. Bắn. Lần thứ mười bốn, cô sống sót.
 
 Lin đứng ở ô cửa nhà kho, miệng há hốc. Bọt thổi ra ba bong bóng liền.
 
@@ -70,9 +62,7 @@ Rosie có quyền quản trị phụ từ lâu. Cô bé đã dành cả buổi s
 
 Echo của Rosie là một con kỳ lân bé xíu màu tím, tên là Kẹo, chỉ cao tới đầu gối. Nó chạy vòng quanh chân mọi người, móng nện lóc cóc trên sàn ván, thỉnh thoảng hắt hơi ra kim tuyến. Brisket, con bulldog của Viper, đuổi theo nó với vẻ mặt mệt mỏi của một người giữ trẻ được trả lương thấp.
 
-Elias đứng ở rìa boong, tựa lưng vào lan can. Lena thấy anh đứng ở đó suốt nửa tiếng đầu. Anh không tránh mọi người, nhưng cũng không lại gần. Đúng như Viper đã kể: *như con chó hoang được nhặt về, cứ đứng ở góc phòng, nhìn.*
-
-Rồi Rosie kéo tay anh.
+Elias đứng ở rìa boong, tựa lưng vào lan can. Lena thấy anh đứng ở đó suốt nửa tiếng đầu. Anh không tránh mọi người, nhưng cũng không lại gần. Đúng như Viper đã kể: *như con chó hoang được nhặt về, cứ đứng ở góc phòng, nhìn.* Rồi Rosie kéo tay anh.
 
 "Chú Vane. Chú phải chơi trò này."
 
@@ -92,7 +82,7 @@ Elias thổi. Ngọn nến chao mạnh hơn, kêu *bloop bloop*, rồi cháy l�
 
 "Cô Lena," Rosie giục.
 
-Lena cúi xuống. Cô thấy Elias đang nhìn cô, ở rất gần, qua đầu Rosie. Ánh nến hắt lên mặt anh. Anh đang cười. Không phải tiếng cười vụng về trên xe taco. Một nụ cười nhỏ, thật, ở khóe mắt nhiều hơn ở khóe miệng.
+Lena cúi xuống. Cô thấy Elias đang nhìn cô, ở rất gần, qua đầu Rosie. Ánh nến hắt lên mặt anh. Anh đang cười. Khác với tiếng cười vụng về trên xe taco, lần này là một nụ cười nhỏ, thật, ở khóe mắt nhiều hơn ở khóe miệng.
 
 Cô thổi. Ngọn nến tắt. Những con khủng long bóng bay đồng loạt nổ tung thành kim tuyến. Kẹo hắt hơi. Brisket sủa. Lin hét. Viper bật nhạc, một bài hát sinh nhật phiên bản đồng quê do chính ông ta thu âm, lạc tông toàn tập.
 
@@ -142,7 +132,7 @@ Cô nhìn anh. "Anh vừa bảo anh không biết nấu ăn."
 
 "Tôi không biết. Nhưng tôi biết đọc nhãn hộp." Anh cầm lon cà chua rỗng lên, chỉ vào bảng thành phần. "Đường, tám gram trên một trăm gram. Hãng trong sách chỉ có ba."
 
-Lena giật lon cà chua khỏi tay anh, đọc nhãn. Rồi cô nếm sốt. Rồi cô rắc thêm muối, không nhìn anh.
+Lena giật lon cà chua khỏi tay anh, đọc nhãn. Rồi cô nếm sốt. Cô rắc thêm muối, không nhìn anh.
 
 "Đừng nói gì cả," cô bảo.
 
@@ -160,9 +150,7 @@ Anh không trả lời. Nhưng khóe miệng anh không giữ được nữa.
 
 "Hai người cãi nhau như vợ chồng già," Lin tuyên bố.
 
-Lena đánh rơi cái muôi.
-
-Elias quay phắt sang thái nốt chỗ hành đã thái xong từ mười phút trước.
+Lena đánh rơi cái muôi. Elias quay phắt sang thái nốt chỗ hành đã thái xong từ mười phút trước.
 
 "Sốt sắp khét kìa," Lin nói, rồi chuồn mất trước khi ai kịp ném gì vào cô.
 
@@ -182,15 +170,11 @@ Lena không nói gì. Ngón tay cô tự tìm tới chiếc nhẫn, chạm vào 
 
 "Tôi chỉ muốn cô biết," Viper nói, đứng dậy, phủi quần. "Ba năm nay nó chưa từng nhìn ai như vậy. Nên nếu cô định làm gì nó, thì làm nhẹ tay thôi."
 
-Ông ta đi vào nhà. Cánh cửa lưới đóng lại sau lưng với một tiếng *cạch*.
-
-Lena ngồi một mình trên hiên, cầm chai bia đã ấm.
+Ông ta đi vào nhà. Cánh cửa lưới đóng lại sau lưng với một tiếng *cạch*. Lena ngồi một mình trên hiên, cầm chai bia đã ấm.
 
 Chiếc điện thoại Lin đưa cho cô sáng nay, một cái máy rẻ tiền mua trả trước, chỉ cài đúng một ứng dụng hình con quạ, rung lên trong túi áo.
 
-Cô rút nó ra. Chỉ có Lin, Kev, Viper và Elias biết số này.
-
-Tin nhắn không đến từ ai trong số họ.
+Cô rút nó ra. Chỉ có Lin, Kev, Viper và Elias biết số này. Tin nhắn không đến từ ai trong số họ.
 
 Không có tên người gửi. Chỉ có một biểu tượng: một mặt trăng khuyết màu đen trên nền tím.
 

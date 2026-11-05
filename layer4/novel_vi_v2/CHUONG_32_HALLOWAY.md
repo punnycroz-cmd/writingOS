@@ -24,17 +24,13 @@ Những tên lính áo đen đang tràn vào sân từ lỗ hổng mà Viper đ�
 
 "Thấy rồi. Không bắn được. Có khiên."
 
-Tháp pháo đã nạp đầy. Những đầu nòng đỏ rực, chĩa xuống. Không phải vào Elias. Vào Lin, đang quỳ ngay dưới chân cổng, quay lưng lại.
-
-Elias nhảy lên.
+Tháp pháo đã nạp đầy. Những đầu nòng đỏ rực, chĩa xuống. Chúng nhắm vào Lin, đang quỳ ngay dưới chân cổng, quay lưng lại. Elias nhảy lên.
 
 Anh không biết mình có thể nhảy cao như vậy. Bộ giáp Vanguard cho phép nhảy cao gấp ba người thường, nhưng tháp pháo ở độ cao gấp năm. Anh dùng một thanh kiếm cắm vào mặt cổng làm điểm tựa, đạp lên nó, nhảy tiếp. Thanh kiếm thứ hai, anh vung lên khi vừa tới ngang tầm tháp pháo.
 
 Lưỡi kiếm năng lượng chém vào lớp khiên. Tóe lửa. Không xuyên qua.
 
-Nhưng nó làm tháp pháo giật lên. Ba luồng sáng đỏ phụt ra, lệch khỏi Lin hai mét, đâm xuống sân đá, khoét ba cái hố đen sì.
-
-Elias rơi xuống, lăn một vòng, bật dậy.
+Nhưng nó làm tháp pháo giật lên. Ba luồng sáng đỏ phụt ra, lệch khỏi Lin hai mét, đâm xuống sân đá, khoét ba cái hố đen sì. Elias rơi xuống, lăn một vòng, bật dậy.
 
 "Sáu mươi giây," Lin nói. Cô không quay lại. Tay cô vẫn đang chạy trên mặt tinh thể.
 
@@ -78,9 +74,7 @@ Elias nhìn tháp pháo. Nó không chĩa vào Lin nữa. Nó chĩa vào anh.
 
 Cánh cổng mở ra.
 
-Không có tiếng động nào. Mặt cửa lục giác chỉ đơn giản là tan biến, như hơi nước trên kính, để lộ một khoảng tối phía sau. Lin ngã chúi về phía trước vì không còn gì để tựa vào.
-
-Và cùng lúc đó, tháp pháo bắn.
+Không có tiếng động nào. Mặt cửa lục giác chỉ đơn giản là tan biến, như hơi nước trên kính, để lộ một khoảng tối phía sau. Lin ngã chúi về phía trước vì không còn gì để tựa vào. Và cùng lúc đó, tháp pháo bắn.
 
 Kev đã ở trước mặt Elias. Anh ta không nhảy, không lao. Anh ta chỉ bước một bước sang ngang, gọn gàng, như một người lính đã tập động tác đó hàng nghìn lần trong một cái hộp ánh sáng. Ba luồng sáng đỏ đập vào người anh ta.
 
@@ -98,13 +92,13 @@ Elias đứng sững.
 
 Một luồng sáng đỏ khác đâm vào lưng cô.
 
-Không phải từ tháp pháo. Từ phía bên trong cánh cổng. Từ khoảng tối.
+Nó đến từ phía bên trong cánh cổng. Từ khoảng tối.
 
 Lin không hét. Cô chỉ nhìn xuống ngực mình, nơi một lỗ thủng màu đỏ đang lan rộng, với một vẻ mặt ngạc nhiên như một đứa trẻ vừa làm rơi cây kem.
 
 "Ồ," cô nói. Rồi nhìn lên Elias. "Anh Eli. Cửa mở rồi đấy."
 
-Rồi cô cũng tan biến.
+Cô cũng tan biến.
 
 > `[CIPHER_LIN: NGẮT KẾT NỐI CƯỠNG CHẾ]`
 
@@ -112,19 +106,13 @@ Rồi cô cũng tan biến.
 
 Elias đứng một mình ở ngưỡng cửa.
 
-Sau lưng anh, những tên lính áo đen đã ngừng tấn công. Chúng đứng yên thành một vòng cung, súng hạ xuống. Những con thú đen vẫn đứng yên. Tháp pháo trên đỉnh cổng đã tắt.
-
-Phía trước anh, khoảng tối bên trong pháo đài có ánh sáng.
-
-Anh bước vào.
+Sau lưng anh, những tên lính áo đen đã ngừng tấn công. Chúng đứng yên thành một vòng cung, súng hạ xuống. Những con thú đen vẫn đứng yên. Tháp pháo trên đỉnh cổng đã tắt. Phía trước anh, khoảng tối bên trong pháo đài có ánh sáng. Anh bước vào.
 
 Đó là một căn phòng lục giác, rộng, trần cao tới mức không thấy đỉnh. Sàn bằng kính đen, và dưới lớp kính có ánh sáng chảy qua như những dòng sông. Hàng triệu dòng. Mỗi dòng là một sợi tơ mảnh màu bạc, chạy từ mọi hướng, hội tụ về giữa phòng.
 
 Ở giữa phòng, lơ lửng ngang tầm mắt, là một quả cầu bằng thủy tinh. To cỡ một quả bóng đá. Bên trong nó có thứ gì đó chuyển động, như khói, như những dòng chữ viết bằng ánh sáng.
 
-Kho lưu trữ. Mnemosyne. Hai mươi năm.
-
-Và đứng cạnh quả cầu, một tay đặt nhẹ lên bề mặt của nó như đặt lên đầu một con thú cưng, là Iris Halloway.
+Kho lưu trữ. Mnemosyne. Hai mươi năm. Và đứng cạnh quả cầu, một tay đặt nhẹ lên bề mặt của nó như đặt lên đầu một con thú cưng, là Iris Halloway.
 
 Bà ta trông giống hệt ngoài đời. Áo khoác len xanh navy may đo. Tóc bạc chải ngược. Ghim cài áo hình xoắn kép. Bà ta không mặc giáp, không cầm vũ khí. Ở Layer 3, nơi người ta có thể là bất cứ thứ gì, bà ta chọn là chính mình.
 
@@ -150,17 +138,13 @@ Halloway không lùi lại. Bà ta mỉm cười.
 
 "Vì tôi không cần ngăn cậu," Halloway nói. "Tôi cần cậu tới đây."
 
-Bà ta đưa tay kia lên. Không làm gì cả. Chỉ đưa tay lên, như một nhạc trưởng.
+Bà ta đưa tay kia lên. Không làm gì cả. Chỉ đưa tay lên, như một nhạc trưởng. Và Elias cảm thấy nó.
 
-Và Elias cảm thấy nó.
-
-Ở góc trong đầu anh, nơi sợi dây cao su nối anh với Lena đã căng suốt từ nãy, có một bàn tay khác vừa nắm lấy nó. Không phải tay anh. Không phải tay cô. Một bàn tay lạnh, khô, chắc chắn.
-
-Và nó bắt đầu kéo.
+Ở góc trong đầu anh, nơi sợi dây cao su nối anh với Lena đã căng suốt từ nãy, có một bàn tay khác vừa nắm lấy nó. Một bàn tay lạnh, khô, chắc chắn, của một người thứ ba. Và nó bắt đầu kéo.
 
 "Ta không cần cậu thắng," Halloway nói. Giọng bà ta vẫn êm ái, nhưng đã đổi xưng hô, như thể vai trò của mỗi người cuối cùng đã rõ. "Ta cần cô ấy kết nối với cậu. Hai mươi năm ta cố đưa cậu vào Layer 4 một mình. Mỗi lần cậu đều vỡ. Vì một cái cửa không thể đứng vững khi chỉ có một bản lề." Bà ta mỉm cười. "Bây giờ thì có hai."
 
-Sợi dây trong đầu anh căng ra. Và ở đầu bên kia, anh cảm thấy cô. Không phải cảm giác ấm áp của người ngồi ở phòng bên nữa. Một cảm giác hoảng hốt. Như người đang bị kéo xuống nước.
+Sợi dây trong đầu anh căng ra. Và ở đầu bên kia, anh cảm thấy cô. Hơi ấm của người ngồi ở phòng bên đã biến thành một cảm giác hoảng hốt. Như người đang bị kéo xuống nước.
 
 *Lena.*
 
@@ -178,9 +162,7 @@ Anh nhìn quả cầu thủy tinh. Nhìn những con thú đen. Nhìn bàn tay H
 
 Bộ não anh làm cái việc nó vẫn làm. Đếm. Tính. Đo.
 
-Sợi dây nối anh với Lena đi qua anh. Halloway đang dùng nó để kéo cả hai vào Layer 4. Nếu anh tự mở Layer 4, ở phía của mình, trước khi bà ta kéo xong, thì lực đẩy từ phía anh sẽ…
-
-Sẽ đứt sợi dây.
+Sợi dây nối anh với Lena đi qua anh. Halloway đang dùng nó để kéo cả hai vào Layer 4. Nếu anh tự mở Layer 4, ở phía của mình, trước khi bà ta kéo xong, thì lực đẩy từ phía anh sẽ… Sẽ đứt sợi dây.
 
 Sẽ đẩy Lena ra ngoài. Về lại phòng điều khiển, về lại thế giới thật, về lại cơ thể cô.
 
@@ -200,6 +182,6 @@ Anh nhắm mắt lại. Anh tìm tới sợi dây trong đầu, tìm tới đầ
 
 *Tớ ở đây.*
 
-Rồi anh quay mặt về phía cánh cửa mà anh đã thấy một lần, ở phía sau một bức tường nứt trong căn phòng hình cầu, cánh cửa có thứ ánh sáng không có tên ở phía sau.
+Anh quay mặt về phía cánh cửa mà anh đã thấy một lần, ở phía sau một bức tường nứt trong căn phòng hình cầu, cánh cửa có thứ ánh sáng không có tên ở phía sau.
 
 Và anh mở nó ra.

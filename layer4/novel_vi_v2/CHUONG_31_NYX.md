@@ -14,7 +14,7 @@ Trên màn hình, ba đường sóng còn lại vẫn màu cam. Kev, ổn địn
 
 Đường sóng của Elias đang dâng lên. Không nhiều. Một chút. Như mực nước triều bắt đầu lên, từng chút một, không dừng lại. Và đường sóng mờ hơn của cô, chạy song song với nó, cũng đang dâng lên theo.
 
-Ở góc nào đó trong đầu cô, sợi dây cao su căng lên. Cô cảm thấy anh đang đau. Không phải đau thân thể. Một thứ gì đó giống như một tiếng kêu bị nén lại.
+Ở góc nào đó trong đầu cô, sợi dây cao su căng lên. Cô cảm thấy anh đang đau. Cái đau ấy giống như một tiếng kêu bị nén lại.
 
 *Viper,* cô nghĩ. *Anh ấy vừa thấy Viper ngã.*
 
@@ -24,15 +24,11 @@ Mỏ hàn đã cắt được nửa vòng quanh tay nắm cửa.
 
 Cánh cửa bật vào trong lúc mười giờ lẻ bảy phút.
 
-Bốn tên lính. Mũ chống đạn đen, kính nhìn đêm nhô ra như mắt côn trùng, súng tiểu liên ngắn có ống giảm thanh. Chúng tràn vào theo đội hình, hai trước hai sau, đèn pin gắn trên nòng súng quét khắp phòng.
-
-Lena nổ súng từ sau bàn điều khiển.
+Bốn tên lính. Mũ chống đạn đen, kính nhìn đêm nhô ra như mắt côn trùng, súng tiểu liên ngắn có ống giảm thanh. Chúng tràn vào theo đội hình, hai trước hai sau, đèn pin gắn trên nòng súng quét khắp phòng. Lena nổ súng từ sau bàn điều khiển.
 
 Viên đạn điện bay đi với một tiếng *phụt* nhỏ. Nó trúng giữa ngực tên đi đầu, và Lena thấy những tia lửa xanh nhỏ chạy dọc người hắn, từ ngực xuống chân, như những con rắn ánh sáng. Hắn ngã xuống như một cái cây bị chặt, cứng đờ, súng văng khỏi tay.
 
-Cô bắn tên thứ hai. Trượt. Viên đạn găm vào khung cửa thép, tóe lửa.
-
-Ba tên còn lại nổ súng.
+Cô bắn tên thứ hai. Trượt. Viên đạn găm vào khung cửa thép, tóe lửa. Ba tên còn lại nổ súng.
 
 Âm thanh không to như cô tưởng. Những tiếng *phụt phụt phụt* trầm, như ai đó đang đập một tấm thảm. Nhưng cái bàn gỗ trước mặt cô vỡ ra từng mảng, những mảnh gỗ vụn bay vào mặt cô. Màn hình phụ ở góc bàn nổ tung. Một viên đạn sượt qua tai cô, gần tới mức cô nghe tiếng gió của nó.
 
@@ -42,11 +38,9 @@ Cô cúi rạp xuống sau bàn điều khiển chính. Cái bàn kim loại. N�
 
 *Nguyên vẹn.* Cô hiểu chính xác từ đó có nghĩa là gì. Họ cần não cô. Không cần phần còn lại.
 
-Bên ngoài khối bê tông, có một âm thanh mới. Không phải tiếng xe. Không phải tiếng súng. Một tiếng vo ve điện tử, trầm, nặng, nhiều tầng chồng lên nhau, lớn dần.
+Bên ngoài khối bê tông, có một âm thanh mới. Một tiếng vo ve điện tử, trầm, nặng, nhiều tầng chồng lên nhau, lớn dần.
 
-Qua cánh cửa thép đã bị cắt, Lena thấy chúng. Ba chiếc drone. To như những chiếc xe hơi nhỏ, đen bóng, bốn cánh quạt mỗi chiếc, lơ lửng ngay trước cửa khối bê tông, ở độ cao ngang đầu người. Dưới bụng mỗi chiếc là một ụ súng nhiều nòng, đang xoay chầm chậm.
-
-Ba ụ súng ấy đang chĩa thẳng vào phòng điều khiển.
+Qua cánh cửa thép đã bị cắt, Lena thấy chúng. Ba chiếc drone. To như những chiếc xe hơi nhỏ, đen bóng, bốn cánh quạt mỗi chiếc, lơ lửng ngay trước cửa khối bê tông, ở độ cao ngang đầu người. Dưới bụng mỗi chiếc là một ụ súng nhiều nòng, đang xoay chầm chậm. Ba ụ súng ấy đang chĩa thẳng vào phòng điều khiển.
 
 Vào bàn điều khiển. Vào cô. Vào bốn chiếc ghế xếp phía sau cô.
 
@@ -62,21 +56,15 @@ Cô đặt khẩu súng xuống sàn.
 
 Màn hình chính của bàn điều khiển chuyển sang màu đen.
 
-Không phải tắt. Đen. Một màu đen sâu, không phải màu của màn hình chết. Và ở giữa màn hình đen ấy, một hình ảnh hiện lên. Một mặt trăng khuyết, màu đen trên nền tím.
-
-Bên dưới, một dòng chữ trắng:
+Một màu đen sâu, khác hẳn màu của màn hình chết. Và ở giữa màn hình đen ấy, một hình ảnh hiện lên. Một mặt trăng khuyết, màu đen trên nền tím. Bên dưới, một dòng chữ trắng:
 
 > `Cần một tay không, Bác sĩ?`
 
 Lena nhìn chằm chằm vào màn hình.
 
-Bên ngoài cửa, tiếng vo ve của ba chiếc drone đột ngột thay đổi. Cao hơn. Rồi trầm xuống. Như một bản nhạc vừa chuyển giọng.
+Bên ngoài cửa, tiếng vo ve của ba chiếc drone đột ngột thay đổi. Cao hơn. Rồi trầm xuống. Như một bản nhạc vừa chuyển giọng. Ba đốm sáng đỏ dưới bụng ba chiếc drone chuyển sang màu xanh lam.
 
-Ba đốm sáng đỏ dưới bụng ba chiếc drone chuyển sang màu xanh lam.
-
-Rồi, với một sự đồng bộ hoàn hảo như được biên đạo, cả ba chiếc xoay một trăm tám mươi độ giữa không trung. Những ụ súng nhiều nòng quay ra ngoài. Về phía bốn chiếc xe tải đen đỗ thành hình bán nguyệt trên bãi đất.
-
-Và chúng bắn.
+Rồi, với một sự đồng bộ hoàn hảo như được biên đạo, cả ba chiếc xoay một trăm tám mươi độ giữa không trung. Những ụ súng nhiều nòng quay ra ngoài. Về phía bốn chiếc xe tải đen đỗ thành hình bán nguyệt trên bãi đất. Và chúng bắn.
 
 Lena không thấy được nhiều. Chỉ qua khe cửa: những tia sáng, những tiếng nổ dồn dập, đèn pha của một chiếc xe tải vỡ tung, rồi chiếc thứ hai. Những tiếng hét. Một quả cầu lửa màu cam bùng lên, chiếu sáng cả mũi đất, khi bình nhiên liệu của một chiếc xe bị bắn thủng.
 
@@ -84,13 +72,7 @@ Ba tên lính trong phòng quay phắt lại. Một tên gào vào bộ đàm.
 
 "Chỉ huy! Drone! Drone đang—"
 
-Hắn không nói hết câu. Kính nhìn đêm trên mặt nạ của hắn tóe ra một chùm tia lửa trắng, nhỏ, như pháo hoa que. Hắn kêu lên, giật mặt nạ ra, ném xuống sàn. Kính của tên thứ hai cũng nổ. Rồi tên thứ ba.
-
-Ba tên lính đứng giữa phòng điều khiển, mù trong bóng tối, mặt nạ dưới chân.
-
-Một tên giơ súng lên, chĩa về phía bàn điều khiển, bóp cò.
-
-Không có gì xảy ra.
+Hắn không nói hết câu. Kính nhìn đêm trên mặt nạ của hắn tóe ra một chùm tia lửa trắng, nhỏ, như pháo hoa que. Hắn kêu lên, giật mặt nạ ra, ném xuống sàn. Kính của tên thứ hai cũng nổ. Rồi tên thứ ba. Ba tên lính đứng giữa phòng điều khiển, mù trong bóng tối, mặt nạ dưới chân. Một tên giơ súng lên, chĩa về phía bàn điều khiển, bóp cò. Không có gì xảy ra.
 
 Hắn bóp lần nữa. Nhìn khẩu súng. Trên thân súng, một đèn LED nhỏ đang nhấp nháy màu đỏ.
 
@@ -98,9 +80,7 @@ Hắn bóp lần nữa. Nhìn khẩu súng. Trên thân súng, một đèn LED n
 
 "Súng thông minh," giọng trên loa máy tính nói. Không phải giọng tổng hợp. Một giọng phụ nữ thật, khàn khàn, kiểu khàn của người hút thuốc nhiều năm, có chút âm miền Tây. "Liên kết với Echo trên mũ của các anh để nhận diện chủ. Halloway thích mọi thứ đều nói chuyện với nhau. Tôi cũng thích. Nhất là khi chúng nói chuyện với tôi."
 
-Ba tên lính nhìn nhau trong bóng tối. Rồi một tên quay người chạy. Hai tên kia chạy theo. Tiếng ủng của chúng nện trên sỏi bên ngoài, xa dần, lẫn vào tiếng xe tải đang cháy và tiếng những người khác đang la hét.
-
-Tên lính bị bắn điện vẫn nằm cứng đờ trên sàn, mắt mở trừng trừng nhìn trần nhà.
+Ba tên lính nhìn nhau trong bóng tối. Rồi một tên quay người chạy. Hai tên kia chạy theo. Tiếng ủng của chúng nện trên sỏi bên ngoài, xa dần, lẫn vào tiếng xe tải đang cháy và tiếng những người khác đang la hét. Tên lính bị bắn điện vẫn nằm cứng đờ trên sàn, mắt mở trừng trừng nhìn trần nhà.
 
 Lena đứng dậy từ sau bàn điều khiển. Chân cô run. Cô vịn vào mép bàn.
 
@@ -132,13 +112,9 @@ Lena biết trước khi Nyx nói ra cái tên.
 
 ---
 
-Có tiếng động ở cửa.
+Có tiếng động ở cửa. Lena chộp lấy khẩu súng điện dưới sàn, giơ lên.
 
-Lena chộp lấy khẩu súng điện dưới sàn, giơ lên.
-
-Một người đàn ông đứng ở ngưỡng cửa thép đã bị cắt. Không mặc đồ lính. Áo khoác dạ xám, tóc hoa râm, bọng mắt nặng. Hai tay giơ lên ngang vai, lòng bàn tay mở.
-
-Bác sĩ Bradley.
+Một người đàn ông đứng ở ngưỡng cửa thép đã bị cắt. Không mặc đồ lính. Áo khoác dạ xám, tóc hoa râm, bọng mắt nặng. Hai tay giơ lên ngang vai, lòng bàn tay mở. Bác sĩ Bradley.
 
 "Đừng bắn," ông ta nói. Giọng ông ta mệt. Không sợ, chỉ mệt. "Tôi không có vũ khí."
 
@@ -158,11 +134,11 @@ Lena nghe câu đó và nghĩ tới mẹ mình, ngồi ở mép giường, áo b
 
 "Bà ấy sẽ không dừng lại," Bradley nói. "Bà ấy không tin ai khác làm việc này. Chưa bao giờ. Bà ấy sẽ tự mình kéo cậu ấy vào Layer 4. Và qua sợi cáp này…" Ông ta nhìn sợi cáp đỏ nối từ đầu Elias tới bàn điều khiển. Sợi cáp mỏ neo. "…bà ấy sẽ kéo cả cô."
 
-Ông ta hạ tay xuống, chậm rãi, để cô thấy rằng ông ta không định làm gì. Rồi ông ta ngồi xuống, ngay tại ngưỡng cửa, lưng tựa vào khung thép, như một người đã đi bộ rất lâu và không thể đi thêm được nữa.
+Ông ta hạ tay xuống, chậm rãi, để cô thấy rằng ông ta không định làm gì. Ông ta ngồi xuống, ngay tại ngưỡng cửa, lưng tựa vào khung thép, như một người đã đi bộ rất lâu và không thể đi thêm được nữa.
 
 "Tôi sẽ ngồi đây," ông ta nói. "Cho tới khi FBI tới. Tôi sẽ nói với họ mọi thứ."
 
-Lena nhìn ông ta thêm một giây. Rồi cô quay lưng lại với ông ta. Cô không còn thời gian cho ông ta nữa.
+Lena nhìn ông ta thêm một giây. Cô quay lưng lại với ông ta. Cô không còn thời gian cho ông ta nữa.
 
 Trên màn hình, đường sóng của Elias đã chạm tới vạch đỏ trên cùng. Và đường sóng mờ hơn của chính cô, chạy song song, đang bị kéo lên theo.
 
@@ -170,7 +146,7 @@ Trên màn hình, đường sóng của Elias đã chạm tới vạch đỏ tr�
 
 "Mười hai phút."
 
-Lena nhìn đồng hồ trên tường. Rồi nhìn những con số trên màn hình.
+Lena nhìn đồng hồ trên tường. Nhìn những con số trên màn hình.
 
 "Anh ấy không còn mười hai phút," cô nói.
 

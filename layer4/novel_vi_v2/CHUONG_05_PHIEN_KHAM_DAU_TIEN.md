@@ -2,9 +2,7 @@
 
 Cô không nên làm việc này.
 
-Lena biết điều đó trong lúc cô khóa trái cửa phòng chờ, trong lúc cô bật máy sưởi để người đàn ông ướt sũng kia ngừng run, trong lúc cô lấy một chiếc khăn bông từ tủ đưa cho anh mà không nói gì. Một người lạ, không hẹn trước, bước vào lúc trời tối và gọi cô bằng một cái tên không phải của cô. Mọi quy tắc nghề nghiệp, mọi bản năng sinh tồn bình thường đều bảo cô gọi bảo vệ tòa nhà.
-
-Nhưng cái tên của anh đang nằm trong két sắt của cô, trong nét chữ của Corwin.
+Lena biết điều đó trong lúc cô khóa trái cửa phòng chờ, trong lúc cô bật máy sưởi để người đàn ông ướt sũng kia ngừng run, trong lúc cô lấy một chiếc khăn bông từ tủ đưa cho anh mà không nói gì. Một người lạ, không hẹn trước, bước vào lúc trời tối và gọi cô bằng một cái tên không phải của cô. Mọi quy tắc nghề nghiệp, mọi bản năng sinh tồn bình thường đều bảo cô gọi bảo vệ tòa nhà. Nhưng cái tên của anh đang nằm trong két sắt của cô, trong nét chữ của Corwin.
 
 "Anh biết Corwin Daly không?" cô hỏi.
 
@@ -44,9 +42,7 @@ Cô nhìn xuống anh. Ở khoảng cách này, cô thấy được những đ�
 
 "Tôi chỉ làm việc với sự thật," cô nói. "Đó là thứ duy nhất tôi biết làm."
 
-Cô đặt vòng cảm biến titan lên đầu anh, vặn núm cho tới khi sáu đầu dò tách một tiếng nhỏ và bám chặt vào xương. Cô bảo anh nhắm mắt, hít vào bốn nhịp, giữ hai nhịp, thở ra sáu nhịp. Anh làm theo, và nhịp thở của anh chậm dần, đều dần.
-
-Cô ra bàn điều khiển, kích hoạt chuỗi quét.
+Cô đặt vòng cảm biến titan lên đầu anh, vặn núm cho tới khi sáu đầu dò tách một tiếng nhỏ và bám chặt vào xương. Cô bảo anh nhắm mắt, hít vào bốn nhịp, giữ hai nhịp, thở ra sáu nhịp. Anh làm theo, và nhịp thở của anh chậm dần, đều dần. Cô ra bàn điều khiển, kích hoạt chuỗi quét.
 
 > `[KẾT NỐI: ỔN ĐỊNH]`
 > `[LAYER 2 — CHẾ ĐỘ THĂM DÒ THỤ ĐỘNG]`
@@ -69,19 +65,11 @@ Cô quẹt tay qua bàn điều khiển.
 
 Phía trên bàn, máy chiếu ba chiều kêu vo vo, rồi một khối cầu ánh sáng xanh lam to cỡ một quả bóng chuyền nở ra giữa không trung. Ban đầu chỉ có nhiễu: những hạt trắng li ti xoáy như tuyết trong quả cầu thủy tinh. Rồi chúng bắt đầu kết lại.
 
-Một con đường dưới mưa. Một tòa nhà sáu tầng. Một căn phòng trống. Những ký ức gần, của mấy ngày vừa qua, rõ nét và phẳng.
+Một con đường dưới mưa. Một tòa nhà sáu tầng. Một căn phòng trống. Những ký ức gần, của mấy ngày vừa qua, rõ nét và phẳng. Cô tinh chỉnh bộ lọc, đẩy sâu hơn. Hình ảnh nhòe đi, rồi đổi màu.
 
-Cô tinh chỉnh bộ lọc, đẩy sâu hơn.
+Một căn bếp. Nắng sớm hắt qua ô cửa sổ có rèm vải kẻ caro xanh. Trên bệ cửa sổ có một chậu húng quế đã héo một nửa. Một người phụ nữ đứng quay lưng lại, tóc đen búi lỏng, mặc một chiếc áo len xám rộng thùng thình. Cô ấy quay lại, cầm một cốc cà phê, và cười với người đang nhìn. Lena thôi thở.
 
-Hình ảnh nhòe đi, rồi đổi màu.
-
-Một căn bếp. Nắng sớm hắt qua ô cửa sổ có rèm vải kẻ caro xanh. Trên bệ cửa sổ có một chậu húng quế đã héo một nửa. Một người phụ nữ đứng quay lưng lại, tóc đen búi lỏng, mặc một chiếc áo len xám rộng thùng thình. Cô ấy quay lại, cầm một cốc cà phê, và cười với người đang nhìn.
-
-Lena thôi thở.
-
-Đó là căn bếp của cô. Căn hộ của cô và Corwin trên đường Mercer. Đó là chậu húng quế cô luôn quên tưới. Đó là chiếc áo len của Corwin mà cô hay mặc vào những sáng Chủ nhật.
-
-Và người phụ nữ đó là cô.
+Đó là căn bếp của cô. Căn hộ của cô và Corwin trên đường Mercer. Đó là chậu húng quế cô luôn quên tưới. Đó là chiếc áo len của Corwin mà cô hay mặc vào những sáng Chủ nhật. Và người phụ nữ đó là cô.
 
 Nhưng không phải cô qua gương. Cô qua mắt của một người khác. Một người đang đứng ở cửa bếp, cao hơn cô một cái đầu, nhìn cô với một sự dịu dàng mà cô chưa bao giờ thấy được từ bên trong.
 
@@ -93,23 +81,11 @@ Nhưng không phải cô qua gương. Cô qua mắt của một người khác. 
 
 Cô không biết làm sao ký ức của Corwin lại nằm trong đầu người đàn ông này. Cô không biết điều đó có nghĩa là gì: Corwin đã gặp anh? Corwin đã... Cô không cho phép mình nghĩ tiếp.
 
-Hình ảnh trôi đi. Cô không giữ lại được. Bộ giải mã tự động đẩy sâu hơn, theo dải tín hiệu Layer 4 mờ mờ kia, xuống những tầng mà máy của cô chưa bao giờ chạm tới.
+Hình ảnh trôi đi. Cô không giữ lại được. Bộ giải mã tự động đẩy sâu hơn, theo dải tín hiệu Layer 4 mờ mờ kia, xuống những tầng mà máy của cô chưa bao giờ chạm tới. Một hành lang trắng.
 
-Một hành lang trắng.
+Hai cánh cửa sát nhau. Đèn huỳnh quang. Mùi thuốc tẩy và bắp cải luộc. Và rồi bộ giải mã âm thanh bắt được một tần số. Một giai điệu.
 
-Hai cánh cửa sát nhau. Đèn huỳnh quang. Mùi thuốc tẩy và bắp cải luộc.
-
-Và rồi bộ giải mã âm thanh bắt được một tần số.
-
-Không phải lời nói. Một giai điệu.
-
-Giọng một người phụ nữ, trầm, hơi khàn, hát rất khẽ sau một cánh cửa. Một bài hát ru ở cung thứ, chậm, buồn, lên xuống theo nhịp ba như sóng vỗ. Lời hát bằng một thứ tiếng cô không biết, có lẽ là tiếng Tây Ban Nha cổ.
-
-Lena không biết bài hát này.
-
-Cô chắc chắn mình chưa từng nghe nó.
-
-Vậy mà nước mắt đã chảy xuống mặt cô trước khi cô kịp nhận ra mình đang khóc.
+Giọng một người phụ nữ, trầm, hơi khàn, hát rất khẽ sau một cánh cửa. Một bài hát ru ở cung thứ, chậm, buồn, lên xuống theo nhịp ba như sóng vỗ. Lời hát bằng một thứ tiếng cô không biết, có lẽ là tiếng Tây Ban Nha cổ. Lena không biết bài hát này. Cô chắc chắn mình chưa từng nghe nó. Vậy mà nước mắt đã chảy xuống mặt cô trước khi cô kịp nhận ra mình đang khóc.
 
 Cô đưa tay lên má, nhìn những ngón tay ướt như nhìn tay một người khác. Cổ họng cô nghẹn lại. Có thứ gì đó trong ngực cô đang vỡ ra, chầm chậm, như lớp băng mỏng trên mặt hồ đầu xuân, và cô không biết bên dưới lớp băng ấy là gì.
 
@@ -125,9 +101,7 @@ Trên ghế, Elias đã bắt đầu thở gấp. Ngón tay anh siết lấy th�
 
 Rồi bài hát vỡ tan.
 
-Khối cầu ánh sáng chuyển sang màu cam, rồi đỏ. Những hình ảnh xô vào nhau, nhanh tới mức cô chỉ chụp được từng mảnh. Khói. Một hành lang bê tông có đèn báo động xoay tròn. Một cánh cửa thép dày. Tiếng còi rú. Một người phụ nữ với vết bỏng chạy dọc cánh tay trái, mặt lấm lem tro, đang mở một tấm lưới thông gió. Lửa liếm lên trần nhà phía sau bà.
-
-Và một cô bé.
+Khối cầu ánh sáng chuyển sang màu cam, rồi đỏ. Những hình ảnh xô vào nhau, nhanh tới mức cô chỉ chụp được từng mảnh. Khói. Một hành lang bê tông có đèn báo động xoay tròn. Một cánh cửa thép dày. Tiếng còi rú. Một người phụ nữ với vết bỏng chạy dọc cánh tay trái, mặt lấm lem tro, đang mở một tấm lưới thông gió. Lửa liếm lên trần nhà phía sau bà. Và một cô bé.
 
 Chín tuổi. Tóc đen cắt ngắn, lởm chởm. Mắt đen. Đang bò vào miệng ống thông gió, rồi quay ngược lại, nắm chặt lấy cổ tay ai đó, một cổ tay gầy của một cậu bé, và hét lên. Lần này bộ giải mã bắt được tiếng, méo mó, rè rè, nhưng rõ:
 
@@ -137,9 +111,7 @@ Chín tuổi. Tóc đen cắt ngắn, lởm chởm. Mắt đen. Đang bò vào m
 
 Một tia lửa xanh bắn ra từ vòng cảm biến. Bảng điều khiển rú lên một hồi còi cảnh báo. Khối cầu ba chiều co rút lại, rồi nổ thành một đám bụi điểm ảnh đỏ, tan vào không khí.
 
-Elias bật dậy khỏi lưng ghế, miệng há ra nhưng không phát ra tiếng nào. Mắt anh mở trừng trừng.
-
-Máu chảy ra từ lỗ mũi trái của anh, một dòng đỏ sẫm, đặc, chảy qua môi trên, nhỏ xuống cổ áo.
+Elias bật dậy khỏi lưng ghế, miệng há ra nhưng không phát ra tiếng nào. Mắt anh mở trừng trừng. Máu chảy ra từ lỗ mũi trái của anh, một dòng đỏ sẫm, đặc, chảy qua môi trên, nhỏ xuống cổ áo.
 
 Lena lao tới. Cô gỡ vòng cảm biến khỏi đầu anh, ấn ngón tay vào động mạch cổ, đếm. Một trăm bốn mươi. Cô chộp lấy một nắm gạc, ấn vào cánh mũi anh, đẩy đầu anh cúi về phía trước.
 
@@ -149,9 +121,7 @@ Anh nhìn cô. Đôi mắt xám ấy đầy hoảng loạn, như mắt một ng�
 
 "Cô bé đó," anh nói qua lớp gạc, giọng khàn đặc. "Cô bé đó là người tôi nhớ. Đó là Maren."
 
-Lena không trả lời. Cô giữ chặt miếng gạc, đếm nhịp tim anh chậm dần, một trăm hai mươi, một trăm mười, chín mươi tám. Tay cô vững. Tay cô luôn vững khi có việc để làm. Nhưng mắt cô thì không rời khỏi màn hình.
-
-Bộ giải mã đã sập, nhưng khung hình cuối cùng vẫn còn đóng băng trên màn hình phụ, nhòe và rè nhưng đủ rõ.
+Lena không trả lời. Cô giữ chặt miếng gạc, đếm nhịp tim anh chậm dần, một trăm hai mươi, một trăm mười, chín mươi tám. Tay cô vững. Tay cô luôn vững khi có việc để làm. Nhưng mắt cô thì không rời khỏi màn hình. Bộ giải mã đã sập, nhưng khung hình cuối cùng vẫn còn đóng băng trên màn hình phụ, nhòe và rè nhưng đủ rõ.
 
 Khuôn mặt cô bé. Miệng mở ra trong tiếng hét. Mắt nhìn thẳng ra ngoài khung hình.
 

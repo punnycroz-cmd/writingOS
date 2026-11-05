@@ -4,9 +4,7 @@ Bờ biển Maine vào đầu tháng Mười có một thứ ánh sáng mà Lena
 
 Họ tới nơi lúc chín giờ sáng ngày mùng hai, sau ba ngày nghỉ ở một khu cắm trại vắng khách gần Portland. Ba ngày đó là ý của Kev: *Tín hiệu đã tắt, nhưng họ vẫn biết lần cuối nó phát ra ở đâu. Cho họ ba ngày để đoán sai hướng.* Ba ngày Elias ngủ gần như liên tục, mười bốn, mười sáu tiếng một lần, như thể cơ thể anh đang đòi lại hai mươi năm thiếu ngủ. Ba ngày Lena đo mạch cho anh bốn tiếng một lần, ghi vào một cuốn sổ bìa đỏ mua ở trạm xăng, và không nói với ai rằng cô cũng không ngủ được.
 
-Con đường dẫn ra mũi đất là đường đất, hẹp, hai bên là những bụi việt quất dại đã chuyển sang màu đỏ thẫm. Chiếc xe taco nhảy chồm chồm. Chiếc bán tải xám của Kev đi sau, bám sát.
-
-Rồi đường mở ra, và họ thấy nó.
+Con đường dẫn ra mũi đất là đường đất, hẹp, hai bên là những bụi việt quất dại đã chuyển sang màu đỏ thẫm. Chiếc xe taco nhảy chồm chồm. Chiếc bán tải xám của Kev đi sau, bám sát. Rồi đường mở ra, và họ thấy nó.
 
 Ngọn hải đăng không cao lắm. Hai mươi lăm mét, có lẽ vậy, xây bằng đá granite xám đã ngả màu rêu ở chân, sơn trắng ở phần trên nhưng lớp sơn đã bong thành từng mảng như vảy cá. Đứng cạnh nó, thấp và chắc, là một khối nhà bê tông hình hộp không cửa sổ, kiểu kiến trúc mà người ta chỉ xây khi lo sợ một cuộc chiến tranh. Trên nóc khối bê tông có một chiếc đĩa ăng-ten to, rỉ sét, chĩa ra biển.
 
@@ -28,15 +26,9 @@ Kev nhìn cô. "Mã số?"
 
 Cô thử ngày sinh của Corwin. Sai. Ngày sinh của cô. Sai. Ngày họ đính hôn. Sai.
 
-Cô đứng nhìn ổ khóa, ngón tay đặt trên những vòng số. Gió biển thổi qua, lạnh, mang theo mùi rong biển và muối.
+Cô đứng nhìn ổ khóa, ngón tay đặt trên những vòng số. Gió biển thổi qua, lạnh, mang theo mùi rong biển và muối. Rồi cô xoay: *2-2-0-4.* Ổ khóa bật ra.
 
-Rồi cô xoay: *2-2-0-4.*
-
-Ổ khóa bật ra.
-
-Hai mươi hai tháng Tư. Ngày sinh của Maren Solis, trong hồ sơ Prometheus. Không phải ngày sinh trên giấy tờ của Lena Hale, ngày mà bà Margaret đã tự chọn khi làm giấy tờ cho cô năm 2004.
-
-Lena đứng sững, ổ khóa trong tay.
+Hai mươi hai tháng Tư. Ngày sinh của Maren Solis, trong hồ sơ Prometheus. Không phải ngày sinh trên giấy tờ của Lena Hale, ngày mà bà Margaret đã tự chọn khi làm giấy tờ cho cô năm 2004. Lena đứng sững, ổ khóa trong tay.
 
 "Anh ấy biết," cô nói. "Anh ấy biết ngày sinh thật của tôi."
 
@@ -50,9 +42,7 @@ Không ai trả lời.
 
 Bên trong khối bê tông lạnh và khô, có mùi dầu máy, bụi, và một mùi gì đó rất nhẹ mà Lena nhận ra ngay lập tức với một cú thắt ở dạ dày: nước hoa cạo râu hiệu Old Spice, loại Corwin vẫn dùng từ năm mười tám tuổi vì bố anh ta dùng.
 
-Đó là một căn phòng điều khiển cũ. Những bảng điều khiển kim loại xám xếp dọc tường, đầy công tắc và đồng hồ đo đã chết từ lâu. Một chiếc bàn gỗ ở giữa phòng. Một cái ghế xoay. Một chiếc giường xếp trong góc, chăn gấp lại. Một bếp ga du lịch. Mấy hộp đậu đóng hộp rỗng, xếp gọn trong một túi rác.
-
-Ở góc phòng có một cầu thang sắt xoắn ốc dẫn xuống tầng hầm, và một cánh cửa dẫn sang chân ngọn hải đăng.
+Đó là một căn phòng điều khiển cũ. Những bảng điều khiển kim loại xám xếp dọc tường, đầy công tắc và đồng hồ đo đã chết từ lâu. Một chiếc bàn gỗ ở giữa phòng. Một cái ghế xoay. Một chiếc giường xếp trong góc, chăn gấp lại. Một bếp ga du lịch. Mấy hộp đậu đóng hộp rỗng, xếp gọn trong một túi rác. Ở góc phòng có một cầu thang sắt xoắn ốc dẫn xuống tầng hầm, và một cánh cửa dẫn sang chân ngọn hải đăng.
 
 Linh đã chạy tới chỗ những bảng điều khiển. "Cái này còn chạy," cô nói, vuốt tay lên một tủ máy chủ cũ có đèn xanh nhấp nháy yếu ớt. "Có ai đó đã đấu lại nguồn. Cáp quang dưới sàn, đi xuống hầm, ra biển." Cô quay lại, mắt sáng lên. "Anh Kev, đường cáp này nối thẳng vào mạng của Halloway. Đây là cổng sau."
 
@@ -64,11 +54,9 @@ Viper đã đi thẳng tới bếp ga, nhấc nó lên, lắc thử. "Còn ga," 
 
 Lena đứng giữa phòng, nhìn chiếc giường xếp trong góc.
 
-Cô bước tới. Chăn được gấp theo kiểu của Corwin, không vuông vức như kiểu quân đội, mà cuộn tròn lại từ một đầu, như một cái bánh cuộn. Anh vẫn gấp chăn ở nhà như vậy. Cô đã cằn nhằn anh về điều đó suốt bốn năm.
+Cô bước tới. Chăn được gấp theo kiểu của Corwin, không vuông vức như kiểu quân đội, mà cuộn tròn lại từ một đầu, như một cái bánh cuộn. Anh vẫn gấp chăn ở nhà như vậy. Cô đã cằn nhằn anh về điều đó suốt bốn năm. Trên gối có một cuốn sổ.
 
-Trên gối có một cuốn sổ.
-
-Không phải cuốn sổ bìa da cô đã đọc hàng chục lần. Một cuốn sổ khác, nhỏ hơn, bìa vải màu xanh rêu, loại sổ mà bác Thomas hay dùng. Gáy sổ đã sờn.
+Một cuốn sổ khác hẳn cuốn bìa da cô đã đọc hàng chục lần, nhỏ hơn, bìa vải màu xanh rêu, loại sổ mà bác Thomas hay dùng. Gáy sổ đã sờn.
 
 Cô cầm nó lên.
 
@@ -82,9 +70,7 @@ Phần lớn cuốn sổ là ghi chép kỹ thuật. Corwin không phải ngư�
 
 *Nếu vào được nút chuyển tiếp từ đây → vào được cả hai nhánh.*
 
-Lena lật trang. Những sơ đồ vẽ tay. Những dãy số. Một tấm bản đồ biển xé từ một cuốn sách hướng dẫn câu cá, có một vòng tròn bút đỏ ở một chỗ cách bờ chừng tám mươi hải lý, chỗ chỉ có màu xanh đậm của biển sâu. Bên cạnh vòng tròn, anh viết: *Ở đây. Phải ở đây.*
-
-Rồi những trang cuối.
+Lena lật trang. Những sơ đồ vẽ tay. Những dãy số. Một tấm bản đồ biển xé từ một cuốn sách hướng dẫn câu cá, có một vòng tròn bút đỏ ở một chỗ cách bờ chừng tám mươi hải lý, chỗ chỉ có màu xanh đậm của biển sâu. Bên cạnh vòng tròn, anh viết: *Ở đây. Phải ở đây.* Rồi những trang cuối.
 
 Chữ viết thay đổi. Không còn cẩn thận nữa. Nghiêng hơn, nhanh hơn, giống chữ của anh trong cuốn sổ bìa da.
 
@@ -140,9 +126,7 @@ Giờ cô ngồi đây với cuốn sổ của Corwin trên đùi, và cô hiể
 
 Và cô cũng đã giấu. Ba ngày, một tin nhắn lúc hai giờ sáng.
 
-Cô bật cười. Một tiếng ngắn, khô, nghe như tiếng ho.
-
-Mọi người quay lại nhìn cô.
+Cô bật cười. Một tiếng ngắn, khô, nghe như tiếng ho. Mọi người quay lại nhìn cô.
 
 "Chị?" Linh hỏi.
 
@@ -160,7 +144,7 @@ Elias, ở cửa ra vào, đứng tựa vào khung cửa, nắng biển trắng 
 
 "Thì dữ liệu trước. Người sau."
 
-Kev nhìn cô một lúc. Rồi anh ta gật đầu, quay lại với tủ máy chủ.
+Kev nhìn cô một lúc. Anh ta gật đầu, quay lại với tủ máy chủ.
 
 Lena đặt cuốn sổ xuống bàn gỗ, cạnh chiếc laptop của Linh. Cô đi tới cửa, chỗ Elias đang đứng. Anh lùi sang một bên để cô đi qua. Cô không đi qua. Cô dừng lại ngay trước mặt anh.
 
@@ -180,8 +164,6 @@ Cô biết anh nói thật. Đó là điều tệ nhất.
 
 "Ra ngoài với tớ một lát," cô nói. "Tớ cần không khí."
 
-Họ đi ra ngoài, ra mép đá nơi những con sóng xám vỗ lên chân ngọn hải đăng. Họ đứng cạnh nhau, không nói gì, nhìn ra biển. Ở đâu đó ngoài kia, tám mươi hải lý về phía đông, dưới lớp sương mù mà họ không nhìn thấy được từ đây, có một người đàn ông đang nằm trong một cái kén trắng.
-
-Cô cầm chiếc nhẫn trên dây chuyền, xoay nó giữa hai ngón tay.
+Họ đi ra ngoài, ra mép đá nơi những con sóng xám vỗ lên chân ngọn hải đăng. Họ đứng cạnh nhau, không nói gì, nhìn ra biển. Ở đâu đó ngoài kia, tám mươi hải lý về phía đông, dưới lớp sương mù mà họ không nhìn thấy được từ đây, có một người đàn ông đang nằm trong một cái kén trắng. Cô cầm chiếc nhẫn trên dây chuyền, xoay nó giữa hai ngón tay.
 
 Anh không nhìn chiếc nhẫn. Anh nhìn biển.

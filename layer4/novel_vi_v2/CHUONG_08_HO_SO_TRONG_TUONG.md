@@ -12,9 +12,7 @@ Cô chưa kể với anh về bà Margaret. Anh biết có chuyện gì đó, v�
 
 "Ba mươi năm," Elias nói. "Khi mọi thứ vỡ ra, có những thứ bám vào tôi. Ký ức của Corwin. Có thể cả những thứ khác."
 
-Thanh tiến trình chạy tới chín mươi phần trăm. Chín mươi tư. Chín mươi chín.
-
-Rồi màn hình chuyển sang màu xám, và một tài liệu mở ra.
+Thanh tiến trình chạy tới chín mươi phần trăm. Chín mươi tư. Chín mươi chín. Rồi màn hình chuyển sang màu xám, và một tài liệu mở ra.
 
 > `[LƯU TRỮ GỐC — VIỆN NHẬN THỨC SINH HỌC PROMETHEUS]`
 > `[PHÂN LOẠI: CẤP 0]`
@@ -36,9 +34,7 @@ cách ly lúc 02:40, mở cửa phòng giữ của cặp đối tượng trọng
 nhằm hủy toàn bộ dữ liệu chương trình.
 
 Lửa lan nhanh hơn dự kiến của đối tượng Solis. Hành lang phía tây
-sập lúc 03:10.
-
-THƯƠNG VONG:
+sập lúc 03:10. THƯƠNG VONG:
 - Elena Solis: Tử vong (hành lang phía tây).
 
 TÌNH TRẠNG ĐỐI TƯỢNG:
@@ -64,9 +60,7 @@ CHỈ THỊ:
 
 Phê duyệt: I. Halloway, Giám đốc Chương trình
 ==================================================================
-```
-
-Không ai nói gì.
+``` Không ai nói gì.
 
 Elias đọc lại dòng ấy. *Từ chối rời vị trí cho tới khi bị khống chế.* Anh không nhớ đêm đó. Nhưng tay trái anh, buông bên người, bỗng nhói lên ở cổ tay, đúng chỗ có một vết sẹo bỏng mờ mà anh đã thấy sáng nay khi rửa mặt và không hiểu từ đâu ra.
 
@@ -107,9 +101,7 @@ Elias đọc dòng thứ hai của phương án. Rồi đọc lại.
 
 *Mục đích: mặc cảm mãn tính.*
 
-Anh không nhớ cuốn nhật ký được viết ra như thế nào. Anh không nhớ những đêm không ngủ. Nhưng anh đã đọc nó, từng dòng, chiều hôm trước, trong căn hộ trống: *Rèm cửa bắt lửa. Mình đứng trong góc không dám kêu. Bà ấy chạy vào. Bà ấy không chạy ra.* Anh đã đọc *trẻ mồ côi nào gây ra cái chết của người nuôi mình cũng mang nó suốt đời*. Anh đã đọc *nếu ai đó lấy được thứ này ra khỏi đầu mình, mình sẽ đưa họ bất cứ thứ gì.*
-
-Hai mươi năm, người viết cuốn nhật ký đó đã tự trừng phạt mình vì một ngọn nến chưa từng tồn tại.
+Anh không nhớ cuốn nhật ký được viết ra như thế nào. Anh không nhớ những đêm không ngủ. Nhưng anh đã đọc nó, từng dòng, chiều hôm trước, trong căn hộ trống: *Rèm cửa bắt lửa. Mình đứng trong góc không dám kêu. Bà ấy chạy vào. Bà ấy không chạy ra.* Anh đã đọc *trẻ mồ côi nào gây ra cái chết của người nuôi mình cũng mang nó suốt đời*. Anh đã đọc *nếu ai đó lấy được thứ này ra khỏi đầu mình, mình sẽ đưa họ bất cứ thứ gì.* Hai mươi năm, người viết cuốn nhật ký đó đã tự trừng phạt mình vì một ngọn nến chưa từng tồn tại.
 
 Và chính cảm giác tội lỗi ấy đã dắt anh, ngoan ngoãn, tới tận chiếc ghế trong phòng thí nghiệm. Họ không cần ép anh. Họ chỉ cần đợi.
 
@@ -117,17 +109,13 @@ Anh lùi lại một bước. Lưng chạm vào giá sách. Vài cuốn sách r�
 
 "Không có ngọn nến nào cả," anh nói. Giọng anh nghe như của người khác. "Không có nhà Ashford nào cả. Không có ai chết vì tôi cả."
 
-Anh muốn cảm thấy nhẹ nhõm. Anh đợi nó đến. Thay vào đó là một thứ khác, lạnh và trống rỗng: mình đã bị lấy mất hai mươi năm để thương tiếc một người không có thật, trong khi người phụ nữ thật đã chết để cứu mình thì mình không hề nhớ tới.
-
-Anh quay sang Lena, định nói gì đó.
+Anh muốn cảm thấy nhẹ nhõm. Anh đợi nó đến. Thay vào đó là một thứ khác, lạnh và trống rỗng: mình đã bị lấy mất hai mươi năm để thương tiếc một người không có thật, trong khi người phụ nữ thật đã chết để cứu mình thì mình không hề nhớ tới. Anh quay sang Lena, định nói gì đó.
 
 Cô không nhìn anh. Cô đang nhìn màn hình.
 
 Cô đã cuộn xuống tận cuối tài liệu thứ nhất, tới phần phụ lục. Một bảng thông tin đối tượng. Hai cột. Mỗi cột có một tấm ảnh chụp chính diện, kiểu ảnh hồ sơ, phông trắng.
 
-Cột bên trái: một cậu bé bảy tuổi, tóc đen dựng ngược, mắt xám, gầy tới mức hai gò má hõm vào. Bên dưới ghi: *Đối tượng Zero. Vane, Elias. Chỉ số dẻo thần kinh: 99.8.*
-
-Cột bên phải: một cô bé chín tuổi, tóc đen cắt ngắn lởm chởm, mắt đen, nhìn thẳng vào ống kính mà không cười.
+Cột bên trái: một cậu bé bảy tuổi, tóc đen dựng ngược, mắt xám, gầy tới mức hai gò má hõm vào. Bên dưới ghi: *Đối tượng Zero. Vane, Elias. Chỉ số dẻo thần kinh: 99.8.* Cột bên phải: một cô bé chín tuổi, tóc đen cắt ngắn lởm chởm, mắt đen, nhìn thẳng vào ống kính mà không cười.
 
 > *Đối tượng Một. Solis, Maren.*
 > *Sinh: 22/04/1995.*
@@ -136,9 +124,7 @@ Cột bên phải: một cô bé chín tuổi, tóc đen cắt ngắn lởm ch�
 > *Chỉ số dẻo thần kinh: 99.6.*
 > *Ghi chú: Đưa vào chương trình theo thỏa thuận với Trưởng nhóm Solis (xem phụ lục C). Đồng bộ hai chiều với Zero từ tháng 3/2003.*
 
-Elias nhìn tấm ảnh. Đó là cô bé. Cô bé trong đầu anh. Cô bé hét lên *đừng quên tớ*.
-
-Rồi anh nhìn sang người phụ nữ đang ngồi trước màn hình.
+Elias nhìn tấm ảnh. Đó là cô bé. Cô bé trong đầu anh. Cô bé hét lên *đừng quên tớ*. Rồi anh nhìn sang người phụ nữ đang ngồi trước màn hình.
 
 Lena ngồi rất thẳng. Hai tay đặt trên bàn phím, bất động. Mặt cô trắng bệch dưới ánh sáng màn hình, và môi cô mấp máy, không ra tiếng, như đang đọc đi đọc lại một dòng chữ để chắc chắn mình không đọc sai.
 
@@ -166,13 +152,7 @@ Cô không nói hết câu. Cô không cần nói.
 
 *Để cứu cả hai chúng ta.*
 
-Elias mở miệng. Anh không biết mình định nói gì. *Tôi xin lỗi.* *Tôi nhớ ra cô rồi.* *Tôi không nhớ gì cả nhưng tôi biết cô.* Không câu nào đúng.
-
-Anh chưa kịp nói gì thì đèn trong phòng tắt phụt.
-
-Một giây im lặng, tối đen, chỉ còn màn hình phát sáng.
-
-Rồi còi báo cháy của tòa nhà rú lên.
+Elias mở miệng. Anh không biết mình định nói gì. *Tôi xin lỗi.* *Tôi nhớ ra cô rồi.* *Tôi không nhớ gì cả nhưng tôi biết cô.* Không câu nào đúng. Anh chưa kịp nói gì thì đèn trong phòng tắt phụt. Một giây im lặng, tối đen, chỉ còn màn hình phát sáng. Rồi còi báo cháy của tòa nhà rú lên.
 
 Âm thanh xé toạc căn phòng tiêu âm, chói tai, dồn dập. Những đèn khẩn cấp màu đỏ gắn trên trần bắt đầu xoay, quét những vệt sáng đỏ qua tường, qua sàn, qua gương mặt trắng bệch của Lena.
 
