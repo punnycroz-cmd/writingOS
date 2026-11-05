@@ -42,57 +42,27 @@ He reached into the middle of the blaze. He couldn't hold on to the kitchen, or 
 
 ---
 
-The first thing to come back was the noise, a hum as thin as a wire that ran the length of the ceiling and threaded all the way down into the roots of his teeth. He lay there listening to it for a long time before he understood it was a sound, and longer still before he understood it was a fluorescent light. *Sixty hertz.* The thought arrived as neatly as a reading on a meter, and he had no idea how he knew it.
-
-Apart from that number, he knew nothing at all.
-
-He didn't know where he was, or what day it was, or what year. He didn't know how old he was, what he did for a living, whom he had loved or hated, or what he was supposed to have eaten for breakfast. Every time he reached for one of those things, his hand met a smooth, cold blankness, like a sheet of glass laid over the mouth of a pit whose bottom he couldn't see.
+The first thing to come back was the hum of a fluorescent light, thin as a wire, running the length of the ceiling and threading down into the roots of his teeth. *Sixty hertz.* The thought arrived as neatly as a reading on a meter. Apart from that number he knew nothing: not where he was, not how old he was, not whom he had ever loved. Every time he reached for any of it, his hand met a sheet of cold, smooth glass laid over the mouth of a pit with no bottom.
 
 And yet one thing had stayed.
 
 *Maren.*
 
-Five letters, with no voice attached and no smell, lying quietly in the middle of his chest. It was heavy and solid, like a pebble in a child's fist, the kind of thing a child refuses to let go of no matter how the grown-ups coax.
-
-With the name came two faces: a nine-year-old girl screaming through smoke, and a woman holding a coffee mug by a window. The kitchen had burned. The thirty years had burned. But those two faces were still here. He didn't know who they were, but every part of him insisted that they were the same person, and that her name was Maren.
+Five letters lying quietly in the middle of his chest, heavy and solid as a pebble in a child's fist, the kind of thing a child refuses to let go of no matter how the grown-ups coax. The kitchen had burned, the thirty years had burned, but the name was still here, along with two faces that every part of him insisted belonged to the same person.
 
 "Heart rate's up to one-twenty," a woman's voice said somewhere to his left. "He's coming out of Delta. Dr. Bradley? He's waking up."
 
-He opened his eyes and the light slapped him across the face. Tears ran on reflex, down his temples and into his ears. The ceiling was white, perforated acoustic tiles laid in a perfect grid, and directly above him a crack spread like a spiderweb from the corner of an air vent.
+He opened his eyes, and the light slapped him across the face. Directly above him, a crack spread like a spiderweb from the corner of an air vent. He started counting the branches, one main line, three on the left, five on the right, and with every branch he counted, the pit behind his eyes drew back a little further, as if he had done this many times before, somewhere he could no longer remember.
 
-He looked at the crack and started counting the branches. One main line. Three smaller ones on the left. Five on the right. Strangely, with every branch he counted, the pit behind his eyes drew back a little further. He had the feeling he had done this many times before, in some place he could no longer remember.
+A nurse in clear safety glasses, amber numbers scrolling across the lenses, leaned over him and shone a penlight into his eyes. "Can you hear me? Do you remember your name?"
 
-A face pushed into his field of vision: a nurse in clear safety glasses, lines of amber numbers scrolling across the lenses. She shone a penlight into his left eye, then his right.
+He let a line down into the dark, and something caught on the end of it, weightless and stiff as a plastic card.
 
-"Can you hear me? How many fingers am I holding up?"
+"Elias," he said, his voice like sandpaper on wood. "Elias Vane."
 
-"Two." His voice came out like sandpaper on wood, his throat raw in the particular way of someone who has just had a breathing tube pulled out.
+"Good. I'm Nurse Vance. You're at Halloway Medical Center. Do you remember why you're here?"
 
-"Good. Do you know where you are?"
-
-"No."
-
-"Halloway Medical Center, Neurotrauma Unit. I'm Nurse Vance. Do you remember your name?"
-
-He shut his eyes and let a line down into the dark, and something caught on the end of it, weightless and stiff as a plastic card.
-
-"Elias," he said. "Elias Vane."
-
-"Date of birth?"
-
-The white wall again. "I don't know."
-
-"What year is it?"
-
-"I don't know."
-
-"Do you remember why you're here?"
-
-The question touched something in his head, and that something burst open.
-
-He saw the yellow kitchen again, from high above this time, tiny, as if he were looking down a well, and he was falling toward it through layer after layer of light, each layer a stretch of a life. Five years old, standing in the rain outside a wooden house. Fourteen, sitting on the steps of a train station. Twenty, thirty, forty. Faces flashed by too fast to hold, names people called him and none of them his, and at the bottom of everything, still, fire.
-
-Thirty years. He had lived thirty whole years in there, and then watched them shatter like a window.
+The question touched something in his head, and that something burst open. The yellow kitchen again, tiny now, as if seen from the top of a well, and he was falling toward it through layer after layer of light, five years old, fourteen, twenty, forty, faces calling him by names that were never his, and at the bottom of everything, still, fire.
 
 His back arched off the mattress. The heart monitor by the bed started beeping in a frantic run, and Nurse Vance flinched back half a step.
 

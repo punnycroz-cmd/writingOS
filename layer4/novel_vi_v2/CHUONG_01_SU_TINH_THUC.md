@@ -42,57 +42,27 @@ Anh với tay vào giữa đám cháy. Căn bếp thì anh không giữ được
 
 ---
 
-Thứ đầu tiên quay trở lại là tiếng ồn, một tiếng vo ve mảnh như sợi chỉ chạy dọc trần nhà rồi luồn xuống tận chân răng. Anh nằm nghe nó rất lâu mới hiểu ra đó là âm thanh, và phải lâu hơn nữa mới nhận ra đó là tiếng đèn huỳnh quang. Sáu mươi hertz, ý nghĩ ấy hiện lên gọn gàng như một con số đọc trên đồng hồ đo, và anh không hiểu tại sao mình lại biết điều đó.
-
-Ngoài con số ấy ra thì anh chẳng biết gì cả.
-
-Anh không biết mình đang ở đâu, hôm nay là ngày nào, năm nào. Anh không biết mình bao nhiêu tuổi, làm nghề gì, đã từng thương ai hay ghét ai, sáng nay lẽ ra phải ăn gì. Mỗi lần anh với tay về phía những điều ấy, bàn tay lại chạm vào một khoảng trống trơn nhẵn và lạnh, giống như mặt kính đậy trên miệng một cái hố sâu mà anh không nhìn thấy đáy.
+Thứ đầu tiên quay trở lại là tiếng vo ve của đèn huỳnh quang, mảnh như sợi chỉ chạy dọc trần nhà rồi luồn xuống tận chân răng. *Sáu mươi hertz*, ý nghĩ ấy hiện lên gọn gàng như một con số đọc trên đồng hồ đo. Ngoài con số ấy ra thì anh chẳng biết gì cả, không biết mình đang ở đâu, bao nhiêu tuổi, đã từng thương ai. Mỗi lần anh với tay về phía những điều ấy, bàn tay lại chạm vào một mặt kính trơn và lạnh đậy trên miệng một cái hố không thấy đáy.
 
 Vậy mà vẫn có một thứ còn ở lại.
 
 *Maren.*
 
-Năm chữ cái, không kèm theo giọng nói hay mùi hương nào cả, cứ nằm yên giữa lồng ngực anh, nặng và chắc như viên sỏi trong lòng bàn tay một đứa trẻ, thứ mà đứa trẻ nhất định không chịu buông ra dù người lớn có dỗ dành thế nào.
-
-Đi cùng với cái tên là hai khuôn mặt: cô bé chín tuổi đang hét giữa làn khói, và người phụ nữ cầm cốc cà phê bên ô cửa sổ. Căn bếp đã cháy mất, ba mươi năm cũng đã cháy mất, vậy mà hai khuôn mặt ấy vẫn còn đây. Anh không biết họ là ai, nhưng toàn thân anh cứ khăng khăng rằng đó là cùng một người, và người đó tên là Maren.
+Năm chữ cái nằm yên giữa lồng ngực anh, nặng và chắc như viên sỏi trong lòng bàn tay một đứa trẻ, thứ mà đứa trẻ nhất định không chịu buông ra dù người lớn có dỗ dành thế nào. Căn bếp đã cháy, ba mươi năm đã cháy, nhưng cái tên ấy thì còn, cùng với hai khuôn mặt mà toàn thân anh cứ khăng khăng là của cùng một người.
 
 "Nhịp tim lên một trăm hai," một giọng phụ nữ cất lên đâu đó bên trái. "Sóng não đang ra khỏi Delta. Bác sĩ Bradley ơi, cậu ta đang tỉnh."
 
-Anh mở mắt, và ánh sáng tát thẳng vào mặt anh. Nước mắt trào ra theo phản xạ, chảy xuống thái dương rồi lọt vào tai. Trần nhà trắng toát, những tấm tiêu âm đục lỗ xếp thành lưới đều tăm tắp, và ngay trên đầu anh có một vết nứt hình mạng nhện bò ra từ góc khung thông gió.
+Anh mở mắt, và ánh sáng tát thẳng vào mặt anh. Trên trần, ngay góc khung thông gió, có một vết nứt hình mạng nhện. Anh bắt đầu đếm nhánh, một nhánh chính, ba nhánh trái, năm nhánh phải, và cứ đếm thêm một nhánh thì cái hố sau mắt lại lùi xa thêm một chút, như thể anh đã làm việc này nhiều lần lắm rồi, ở một nơi nào đó anh không còn nhớ.
 
-Anh nhìn vết nứt ấy rồi bắt đầu đếm nhánh, một nhánh chính, ba nhánh phụ bên trái, năm nhánh bên phải. Lạ thay, cứ mỗi lần đếm thêm một nhánh thì cái hố sau mắt lại lùi ra xa thêm một chút. Anh có cảm giác mình đã từng làm việc này rất nhiều lần trước đây, ở một nơi nào đó mà anh không còn nhớ nổi.
+Một nữ y tá đeo kính bảo hộ có những dòng số màu hổ phách chạy trên mặt kính cúi xuống, rọi đèn pin vào mắt anh. "Anh nghe tôi nói không? Anh nhớ tên mình chứ?"
 
-Một khuôn mặt chen vào tầm nhìn: một nữ y tá đeo kính bảo hộ trong suốt, mặt kính chạy những dòng số màu hổ phách. Cô rọi đèn pin vào mắt trái anh rồi chuyển sang mắt phải.
+Anh thả một sợi dây xuống bóng tối, và có một thứ gì đó mắc vào đầu dây, nhẹ tênh, cứng như một tấm thẻ nhựa.
 
-"Anh nghe tôi nói không? Tôi đang giơ mấy ngón tay đây?"
+"Elias," anh nói, giọng khàn như giấy nhám cọ lên gỗ. "Elias Vane."
 
-"Hai." Giọng anh khàn như giấy nhám cọ lên gỗ, cổ họng rát buốt theo kiểu của người vừa bị rút ống thở ra.
+"Tốt lắm. Tôi là y tá Vance, đây là Trung tâm Y tế Halloway. Anh có nhớ vì sao mình vào đây không?"
 
-"Tốt lắm. Anh có biết mình đang ở đâu không?"
-
-"Không."
-
-"Trung tâm Y tế Halloway, khoa Chấn thương Thần kinh. Tôi là y tá Vance. Anh nhớ tên mình chứ?"
-
-Anh nhắm mắt lại, thả một sợi dây xuống bóng tối, và có một thứ gì đó mắc vào đầu dây, nhẹ tênh, cứng như một tấm thẻ nhựa.
-
-"Elias," anh nói. "Elias Vane."
-
-"Ngày sinh của anh?"
-
-Lại là bức tường trắng. "Tôi không biết."
-
-"Năm nay là năm nào?"
-
-"Không biết."
-
-"Anh có nhớ vì sao mình vào đây không?"
-
-Câu hỏi ấy chạm vào một chỗ nào đó trong đầu anh, và chỗ đó vỡ tung.
-
-Anh lại thấy căn bếp vàng, lần này từ trên cao, bé xíu, như nhìn xuống đáy một cái giếng, và anh đang rơi về phía nó qua từng tầng ánh sáng, mỗi tầng là một quãng đời. Năm tuổi, đứng dưới mưa trước một ngôi nhà gỗ. Mười bốn tuổi, ngồi trên bậc thềm một nhà ga. Hai mươi, ba mươi, bốn mươi. Những gương mặt lướt qua nhanh tới mức không giữ lại kịp, những cái tên người ta gọi anh mà chẳng cái nào là tên anh, và dưới đáy tất cả vẫn là lửa.
-
-Ba mươi năm. Anh đã sống trọn ba mươi năm trong đó, để rồi chứng kiến tất cả vỡ ra như một tấm kính.
+Câu hỏi ấy chạm vào một chỗ nào đó trong đầu anh, và chỗ đó vỡ tung. Căn bếp vàng lại hiện ra, lần này bé xíu như nhìn xuống đáy giếng, và anh rơi về phía nó qua từng tầng ánh sáng, năm tuổi, mười bốn, hai mươi, bốn mươi, những gương mặt gọi anh bằng những cái tên chẳng cái nào là của anh, và dưới đáy tất cả vẫn là lửa.
 
 Lưng anh cong bật lên khỏi đệm, máy đo tim bên giường kêu bíp bíp dồn dập, y tá Vance giật mình lùi lại nửa bước.
 
