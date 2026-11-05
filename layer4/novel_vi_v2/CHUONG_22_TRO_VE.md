@@ -1,151 +1,143 @@
 # CHƯƠNG 22: TRỞ VỀ
 
-Từ Bayside tới thị trấn ven sông nơi Viper trốn mất ba tiếng mười phút. Kev lái hết hai tiếng bốn mươi.
+Từ Bayside tới cái thị trấn ven sông nơi Viper đang trốn mất ba tiếng mười phút, nhưng Kev chỉ lái hết hai tiếng bốn mươi.
 
-Lena không nhớ gì về quãng đường đó. Cô nhớ cái túi bánh chuối của bà Ruth rơi xuống sàn xe và cô không nhặt lên. Cô nhớ Linh ngồi ghế sau, nói chuyện điện thoại liên tục với Viper, giọng cô gái bình tĩnh tới kỳ lạ, như một nhân viên tổng đài cấp cứu: *Anh kiểm tra mạch cổ đi. Hai ngón tay, chỗ dưới quai hàm. Đếm mười lăm giây rồi nhân bốn.* Cô nhớ Kev vượt một chiếc xe tải trên đường hai làn ở khúc cua, và không ai trong xe nói gì.
-
-Cô nhớ mình đã nghĩ, rất rõ ràng, rất lạnh: *Nếu anh ta chết, câu cuối cùng mình nói với anh ta là "thôi nói câu đó đi".*
+Lena chẳng nhớ gì về chặng đường ấy. Cô nhớ cái túi bánh chuối của bà Ruth rơi xuống sàn xe mà cô không nhặt lên. Cô nhớ Linh ngồi ghế sau nói chuyện điện thoại với Viper liên tục, giọng cô gái bình tĩnh tới lạ lùng, như một nhân viên tổng đài cấp cứu: *Anh bắt mạch cổ đi, hai ngón tay, chỗ dưới quai hàm ấy, đếm mười lăm giây rồi nhân bốn.* Cô nhớ Kev vượt một chiếc xe tải ngay khúc cua trên con đường hai làn, mà trong xe chẳng ai nói câu nào. Cô nhớ mình đã nghĩ, rất rõ ràng và rất lạnh lẽo: *nếu anh ấy chết thì câu cuối cùng mình nói với anh ấy là "anh thôi nói câu đó đi".*
 
 ---
 
-Nhà kho tối và lạnh. Mái tôn thủng lỗ chỗ, những cột sáng chiều đã chuyển sang màu cam đỏ. Chiếc xe taco đỗ ở góc, cửa sau mở toang.
+Nhà kho tối và lạnh, mái tôn thủng lỗ chỗ, những cột nắng chiều đã ngả sang màu đỏ cam. Chiếc xe taco đỗ ở góc, cửa sau mở toang.
 
-Viper ngồi bệt dưới sàn bê tông, lưng tựa vào bánh xe, Elias nằm gối đầu lên đùi ông ta. Viper đang giữ một nắm khăn giấy đẫm máu áp lên mặt Elias, bàn tay to run bần bật. Ông ta ngẩng lên khi nghe tiếng cửa, và Lena thấy mắt ông ta đỏ và ướt.
+Viper ngồi bệt dưới sàn bê tông, lưng tựa vào bánh xe, Elias nằm gối đầu lên đùi ông ta. Viper đang cầm một nắm khăn giấy đẫm máu ấn lên mặt Elias, bàn tay to bè run lẩy bẩy. Nghe tiếng cửa, ông ta ngẩng lên, và Lena thấy mắt ông ta đỏ và ướt.
 
-"Tao đã tiêm hai ống," Viper nói. "Tao không biết ống nào là ống nào. Tao tiêm cả hai."
+"Tao tiêm hai ống rồi," Viper nói. "Tao không biết ống nào là ống nào, nên tao tiêm cả hai."
 
 Lena quỳ xuống.
 
-Cô không nhìn mặt Elias trước. Cô nhìn những thứ cô được dạy để nhìn. Đồng tử: không đều, bên trái giãn to hơn bên phải. Mạch cổ: nhanh, yếu, một trăm bốn mươi hai. Hơi thở: nông, có những khoảng ngừng dài bất thường. Da: lạnh ở tay chân, nóng hầm hập ở hai thái dương. Máu: chảy từ cả hai lỗ mũi và, đúng như Viper nói, từ khóe mắt trái, một vệt mảnh như nét bút chì.
+Cô không nhìn mặt Elias trước. Cô nhìn những thứ mà người ta đã dạy cô phải nhìn. Đồng tử không đều, bên trái giãn to hơn bên phải. Mạch cổ nhanh và yếu, một trăm bốn mươi hai. Thở nông, có những quãng ngừng dài bất thường. Da lạnh ngắt ở tay chân, hai bên thái dương thì nóng hầm hập. Máu chảy ra từ cả hai lỗ mũi, và đúng như Viper nói, từ cả khóe mắt trái, một vệt mảnh như nét bút chì.
 
-Đây là những dấu hiệu cô đã đọc trong tài liệu. Mỗi dấu hiệu là một con số, một ngưỡng, một kết luận. Cô ghép chúng lại trong đầu, nhanh và tự động như cách cô ghép những đỉnh sóng trên biểu đồ. Kết luận không tốt.
+Mỗi dấu hiệu là một con số, một ngưỡng, một kết luận mà cô đã đọc trong tài liệu. Cô ghép chúng lại trong đầu, nhanh và tự động như cách cô ghép những đỉnh sóng trên biểu đồ, và kết luận chẳng tốt đẹp gì.
 
-"Anh ấy đang ở đâu đó giữa Layer 2 và Layer 4," cô nói. Giọng cô đều. "Không lên được, không xuống hẳn được. Não anh ấy đang tự đốt mình để giữ một cánh cửa không mở ra."
+"Anh ấy đang mắc kẹt ở đâu đó giữa Layer 2 với Layer 4," cô nói, giọng đều đều. "Không lên được, mà cũng chưa chìm hẳn xuống. Não anh ấy đang tự đốt chính nó để giữ cho một cánh cửa không bị mở ra."
 
 "Cô kéo nó lên được không?" Viper hỏi.
 
-"Không từ bên ngoài." Cô quay lại. "Kev. Bộ kết nối kép trong xe. Cái anh dựng cho ca tái điều kiện hóa. Mang vào đây."
+"Từ bên ngoài thì không." Cô quay lại. "Kev, cái bộ kết nối kép trong xe ấy, cái anh lắp cho ca tái điều kiện hóa. Mang vào đây."
 
 Kev đã đi trước khi cô nói hết câu.
 
-"Kết nối kép là gì?" Viper hỏi.
+"Kết nối kép là cái gì?" Viper hỏi.
 
-"Tôi sẽ vào trong với anh ấy." Lena mở vali, lấy ra hai vòng cảm biến, kiểm tra pin. "Não chúng tôi từng được nối với nhau khi còn nhỏ. Kev nghĩ là chúng vẫn nhớ cách nối. Tôi sẽ tìm anh ấy ở dưới đó và kéo anh ấy lên."
+"Tôi sẽ vào trong đó cùng anh ấy." Lena mở vali, lấy ra hai vòng cảm biến, kiểm tra pin. "Hồi nhỏ não bọn tôi từng được nối với nhau. Kev nghĩ là chúng vẫn còn nhớ cách nối. Tôi sẽ xuống dưới đó tìm anh ấy, rồi kéo anh ấy lên."
 
 "Có nguy hiểm không?"
 
-Cô không trả lời. Linh, đang đứng sau lưng Viper với hai tay ôm chặt khuỷu tay mình, nhìn cô và hiểu sự im lặng ấy nghĩa là gì.
+Cô không trả lời. Linh đứng sau lưng Viper, hai tay ôm chặt lấy khuỷu tay mình, nhìn cô, và hiểu sự im lặng ấy nghĩa là gì.
 
-"Chị ơi," Linh nói.
+"Chị ơi," Linh gọi.
 
-"Nếu nhịp tim tôi lên trên một trăm năm mươi," Lena nói, đặt vòng cảm biến lên đầu Elias, rồi lên đầu mình, "thì rút phích của tôi trước. Không phải của anh ấy. Của tôi. Hiểu chưa?"
+"Nhịp tim chị mà lên trên một trăm năm mươi," Lena vừa nói vừa đặt vòng cảm biến lên đầu Elias, rồi lên đầu mình, "thì rút phích của chị ra trước. Không phải của anh ấy, mà là của chị. Hiểu chưa?"
 
 "Không," Linh nói.
 
 "Linh."
 
-"Em hiểu. Nhưng em không đồng ý." Cô gái quỳ xuống cạnh Viper, nắm lấy một bàn tay lạnh ngắt của Elias. "Em sẽ không rút của ai hết. Hai người phải tự lên."
+"Em hiểu. Nhưng em không đồng ý." Cô gái quỳ xuống cạnh Viper, nắm lấy một bàn tay lạnh ngắt của Elias. "Em không rút phích của ai hết. Hai người phải tự trèo lên."
 
-Kev quay lại với một hộp kim loại cỡ hộp giày, hai sợi cáp quang chạy ra từ hai đầu. Anh ta quỳ xuống, cắm từng đầu vào vòng cảm biến của mỗi người, gõ vài lệnh lên chiếc laptop đặt trên nắp hộp.
+Kev quay lại với một cái hộp kim loại cỡ hộp giày, hai sợi cáp quang chạy ra từ hai đầu. Anh quỳ xuống, cắm từng đầu cáp vào vòng cảm biến của mỗi người, gõ vài lệnh lên chiếc laptop đặt trên nắp hộp.
 
-"Đồng bộ Theta đang tìm," anh ta nói. "Ba mươi phần trăm. Năm mươi. Lena, tim cô đang đập quá nhanh. Thở chậm lại."
+"Đang dò đồng bộ Theta," anh nói. "Ba mươi phần trăm. Năm mươi. Lena, tim cô đập nhanh quá. Thở chậm lại đi."
 
-Cô thở chậm lại. Bốn nhịp vào, hai nhịp giữ, sáu nhịp ra. Cô đã dạy người khác làm như vậy hàng nghìn lần.
+Cô thở chậm lại, bốn nhịp vào, giữ hai nhịp, sáu nhịp ra, cái cách mà cô đã dạy cho cả nghìn người khác.
 
-Cô cúi xuống, áp trán mình vào trán Elias. Vòng titan chạm vào vòng titan, kêu tách khẽ.
+Cô cúi xuống áp trán mình vào trán Elias, vòng titan chạm vào vòng titan kêu tách một tiếng khẽ.
 
-"Đồ ngốc," cô nói, rất nhỏ, chỉ đủ cho anh nghe nếu anh còn nghe được. "Danh sách ghi rõ là đừng làm một mình."
+"Đồ ngốc," cô nói, rất nhỏ, chỉ đủ cho anh nghe nếu anh còn nghe được. "Danh sách ghi rõ ràng là đừng có làm một mình cơ mà."
 
 "Tám mươi phần trăm," Kev nói. "Chín mươi. Khóa."
 
 ---
 
-Cô rơi.
+Cô rơi xuống.
 
-Không giống những lần lặn trước. Không có mặt nước ấm, không có những con cá ký ức. Cô rơi thẳng qua một thứ gì đó đặc và nóng, như rơi qua lớp nhựa đường mùa hè, và đáp xuống một sàn nhà cong.
+Lần này khác hẳn những lần lặn trước, không có mặt nước ấm, không có những con cá ký ức. Cô rơi thẳng qua một thứ gì đó đặc quánh và nóng như rơi qua lớp nhựa đường giữa mùa hè, rồi đáp xuống một mặt sàn cong.
 
-Căn phòng hình cầu. Tối. Ở giữa là một thứ gì đó đang cháy âm ỉ. Elias quỳ ở đó, hai tay vẫn ôm lấy nó.
+Một căn phòng hình cầu, tối om, chính giữa có một thứ gì đó đang cháy âm ỉ.
 
-Nó từng là một khối sáng cỡ nắm tay, cô đoán được từ những gì còn lại. Bây giờ nó là một mớ chỉ cháy dở, đỏ rực ở những chỗ đứt, vẫn còn đập, nhưng đập sai nhịp: lúc nhanh, lúc chậm, lúc ngừng hẳn rồi giật lên. Mỗi lần nó giật, một làn sóng đỏ phụt ra, đập vào thành phòng.
+Elias quỳ ở đó, hai tay vẫn đang ôm lấy nó. Nhìn những gì còn sót lại, cô đoán nó từng là một khối sáng cỡ nắm tay. Giờ nó là một mớ chỉ cháy dở, đỏ rực ở những chỗ bị đứt, vẫn còn đập, nhưng đập sai nhịp, lúc nhanh lúc chậm, lúc ngừng hẳn rồi lại giật nảy lên. Mỗi lần nó giật, một làn sóng đỏ lại phụt ra, đập vào thành phòng.
 
-Thành phòng đã nứt. Một vết nứt dài, từ sàn lên tận đỉnh vòm, rộng cỡ một bàn tay. Qua vết nứt là một thứ ánh sáng mà Lena không có từ ngữ nào để tả. Nó gần với một cảm giác hơn là một màu: cảm giác về quá nhiều, như đứng trước một cánh cửa mở ra một căn phòng chứa mọi tiếng nói của mọi người đã từng sống.
+Thành phòng đã nứt toác, một vết nứt dài từ sàn lên tới tận đỉnh vòm, rộng cỡ một bàn tay. Qua vết nứt là một thứ ánh sáng mà Lena không tìm được từ nào để tả. Nó gần với một cảm giác hơn là một màu sắc: cảm giác về quá nhiều thứ, như đứng trước một cánh cửa mở ra một căn phòng chứa mọi tiếng nói của mọi con người đã từng sống trên đời.
 
-Nó đang kéo. Cô cảm thấy nó, ngay cả từ chỗ cô đứng. Một lực hút nhẹ nhàng, êm ái, gần như dễ chịu.
+Nó đang kéo, cô cảm thấy được cả từ chỗ mình đứng, một lực hút nhẹ nhàng, êm ái, gần như là dễ chịu.
 
-Elias không quay lại. Hai tay anh bị đốt đen tới khuỷu.
+Elias không quay lại. Hai tay anh đã bị đốt đen tới tận khuỷu.
 
 "Eli."
 
-Anh giật mình. Anh quay đầu, rất chậm, như một người già. Mặt anh ở đây trẻ hơn, gầy hơn, giống cậu bé trong ảnh hồ sơ hơn là người đàn ông hai mươi bảy tuổi.
+Anh giật mình, quay đầu lại, chậm chạp như một ông già. Ở đây trông anh trẻ hơn, gầy hơn, giống cậu bé trong ảnh hồ sơ hơn là người đàn ông hai mươi bảy tuổi.
 
 "Cô không nên ở đây," anh nói.
 
-"Anh không nên ở đây."
+"Anh mới là người không nên ở đây."
 
-"Tôi gần được rồi. Nó gần im rồi." Anh nhìn xuống mớ chỉ cháy trong tay. "Chỉ cần thêm một chút."
+"Tôi sắp làm được rồi. Nó sắp im rồi." Anh nhìn xuống mớ chỉ cháy trong tay. "Chỉ cần thêm một chút nữa thôi."
 
-"Anh đang giết nó bằng cách giết mình." Cô bước tới. Mỗi bước gần vết nứt hơn, lực hút mạnh hơn. "Anh không cần phá nó. Kev viết sai rồi. Không phải phá. Phải dạy lại."
+"Anh đang giết nó bằng cách giết chính mình đấy." Cô bước tới, mỗi bước lại gần vết nứt hơn, lực hút lại mạnh hơn. "Anh không cần phá nó đâu. Kev viết sai rồi. Không phải phá, mà phải dạy lại."
 
-"Dạy lại bằng gì?"
+"Dạy lại bằng cái gì?"
 
-Cô quỳ xuống trước mặt anh, ở phía bên kia khối sáng. Đặt hai tay mình lên tay anh. Tay anh nóng như lò. Cô không rụt lại.
+Cô quỳ xuống trước mặt anh, ở phía bên kia khối sáng, đặt hai bàn tay mình lên tay anh. Tay anh nóng như lò lửa, nhưng cô không rụt lại.
 
-"Bằng thứ nó đã biết trước khi họ dạy nó," cô nói.
+"Bằng cái thứ mà nó đã biết từ trước khi họ dạy nó," cô nói.
 
-Cô bắt đầu gõ lên chính khối sáng ấy, bằng đầu ngón tay, nhẹ, đều.
+Rồi cô bắt đầu gõ lên chính khối sáng ấy, bằng đầu ngón tay, nhẹ nhàng và đều đặn. Ba nhanh, hai chậm.
 
-*Ba nhanh. Hai chậm.*
+Khối sáng giật lên, Elias rít lên vì đau. Ba nhanh, hai chậm.
 
-Khối sáng giật lên. Elias rít lên vì đau.
-
-*Ba nhanh. Hai chậm.*
-
-"Cô làm gì—"
+"Cô làm gì thế—"
 
 "Gõ đi."
 
-Anh nhìn cô. Rồi anh hiểu. Những ngón tay cháy đen của anh, đặt bên cạnh những ngón tay của cô, bắt đầu gõ theo.
+Anh nhìn cô, rồi anh hiểu ra. Những ngón tay cháy đen của anh, đặt bên cạnh những ngón tay của cô, bắt đầu gõ theo. Ba nhanh, hai chậm. Ba nhanh, hai chậm.
 
-*Ba nhanh. Hai chậm. Ba nhanh. Hai chậm.*
+Khối sáng thôi giật. Nó đứng im trong một khoảnh khắc như một con thú vừa nghe thấy tiếng gọi lạ. Rồi những sợi chỉ còn lại bắt đầu đập theo, theo nhịp của họ, chẳng còn dính gì tới cái nhịp bốn mươi phút của Halloway nữa. Nhịp của hai bàn tay bé xíu trên một bức tường, đêm nào cũng thế, trong một tòa nhà không có lịch.
 
-Khối sáng ngừng giật. Nó đứng yên một khoảnh khắc, như một con thú nghe thấy tiếng gọi lạ. Rồi những sợi chỉ còn lại bắt đầu đập theo. Nhịp của họ, chẳng dính gì tới cái nhịp bốn mươi phút của Halloway. Nhịp của hai bàn tay nhỏ trên một bức tường, mỗi đêm, trong một tòa nhà không có lịch.
+Làn sóng đỏ phát ra lần cuối cùng, yếu ớt, chạm vào thành phòng rồi không xuyên qua được nữa, tan ra như hơi thở trên mặt kính lạnh.
 
-Làn sóng đỏ phát ra lần cuối, yếu ớt, chạm vào thành phòng, và không xuyên qua được nữa. Nó tan ra như hơi thở trên kính lạnh.
+Khối sáng đổi màu, không còn đỏ nữa mà là một màu xanh lam nhạt và ấm, giống ánh sáng của cây đèn ngủ hình mặt trăng của Rosie.
 
-Khối sáng chuyển sang màu khác. Không đỏ. Một màu xanh lam nhạt, ấm, như ánh đèn ngủ hình mặt trăng của Rosie.
+Từ tít ngoài kia, giọng Kev vọng xuống, méo mó và nhỏ xíu: "...tín hiệu... mất rồi... không còn mã định danh nữa... Lena ơi, nó tắt rồi..."
 
-Ở xa, ngoài kia, giọng Kev vọng xuống, méo và nhỏ: "…tín hiệu… mất… không còn mã định danh… Lena, nó tắt rồi…"
-
-Elias nhìn khối sáng xanh trong tay họ. Rồi nhìn cô.
+Elias nhìn khối sáng xanh trong tay hai người, rồi nhìn cô.
 
 "Nó tắt rồi," anh nói.
 
-"Nó không tắt," Lena nói. "Nó vẫn đang nói. Chỉ là không nói với họ nữa."
+"Nó có tắt đâu," Lena nói. "Nó vẫn đang nói đấy chứ. Chỉ là không nói với họ nữa thôi."
 
 ---
 
-Vết nứt trên thành phòng vẫn còn đó.
+Vết nứt trên thành phòng thì vẫn còn đó.
 
-Họ đứng dậy cùng lúc, vẫn nắm tay nhau, vì cả hai đều không chắc nếu buông ra thì chuyện gì sẽ xảy ra. Lực hút từ phía bên kia đã yếu đi, nhưng không mất.
+Họ cùng đứng dậy, vẫn nắm tay nhau, vì cả hai đều không chắc nếu buông ra thì chuyện gì sẽ xảy ra. Lực hút từ phía bên kia đã yếu đi, nhưng vẫn chưa mất hẳn.
 
-"Mình phải lên," cô nói.
+"Mình phải lên thôi," cô nói.
 
 "Ừ."
 
-Họ quay lưng lại với vết nứt. Và ánh sáng bên kia vết nứt thay đổi.
+Họ quay lưng lại với vết nứt. Và thứ ánh sáng bên kia vết nứt thay đổi.
 
-Lena cảm thấy nó trước khi thấy. Một mùi. Khói. Khói thật, khói của nhựa cháy và giấy cháy và một thứ gì đó ngọt ngọt mà cô biết, không hiểu vì sao, là mùi chất xúc tác gây cháy. Một tiếng còi, rất xa, rú lên rồi tắt, rú lên rồi tắt. Tay Elias trong tay cô siết lại.
+Lena cảm nhận được nó trước khi nhìn thấy, bằng mũi. Mùi khói, khói thật, khói của nhựa cháy, giấy cháy, và một thứ gì đó ngòn ngọt mà cô biết, chẳng hiểu sao lại biết, là mùi chất xúc tác gây cháy. Rồi một tiếng còi, rất xa, rú lên rồi tắt, rú lên rồi tắt.
 
-"Cô có ngửi thấy không?" anh hỏi.
+Tay Elias trong tay cô siết lại. "Cô có ngửi thấy không?"
 
 "Có."
 
-Cô không quay lại. Cô biết nếu quay lại, cô sẽ thấy. Hai mươi năm cô không biết đêm đó tồn tại, và mười ngày qua cô đã tránh nó, trong mọi lần lặn, như người ta tránh nhìn vào một vết thương chưa băng.
+Cô không quay lại. Cô biết nếu mình quay lại thì mình sẽ thấy. Suốt hai mươi năm cô không hề biết đêm ấy tồn tại, và mười ngày qua, trong mọi lần lặn, cô đã né tránh nó như người ta né nhìn một vết thương chưa băng.
 
-Nhưng Elias đã quay lại. Cô thấy vì tay anh kéo cô xoay theo.
+Nhưng Elias đã quay lại, cô biết vì tay anh kéo cô xoay theo.
 
-Qua vết nứt, ánh sáng không còn là thứ ánh sáng không có tên nữa. Nó là màu cam. Màu của lửa phản chiếu trên tường bê tông. Một hành lang. Đèn báo động đỏ xoay tròn. Một cánh cửa thép. Và hai đứa trẻ mặc đồ cotton trắng, một đứa in số không, một đứa in số một, đang chạy, tay nắm tay, về phía một tấm lưới thông gió đã được ai đó tháo ra.
+Qua vết nứt, ánh sáng không còn là thứ ánh sáng không tên nữa. Nó là màu cam của lửa hắt lên những bức tường bê tông. Một hành lang, đèn báo động đỏ xoay tròn, một cánh cửa thép, và hai đứa trẻ mặc đồ cotton trắng, một đứa in số không, một đứa in số một, đang chạy, tay nắm tay, về phía một tấm lưới thông gió đã có người tháo sẵn.
 
-Ký ức của anh. Ký ức của cô. Lần đầu tiên, không phải hai nửa. Một.
+Ký ức của anh, ký ức của cô. Lần đầu tiên, nó không còn là hai nửa nữa, mà là một.
 
-Họ không chọn bước vào. Nó kéo cả hai vào cùng lúc.
+Họ không chọn bước vào. Nó kéo cả hai người vào cùng một lúc.

@@ -1,42 +1,40 @@
 # CHƯƠNG 19: RỜI ĐI
 
-Viper không hoảng. Elias để ý điều đó trước tiên.
+Viper không hề hoảng, đó là điều đầu tiên Elias để ý thấy.
 
-Ông ta đặt cái giẻ xuống bàn, gấp đôi lại như mọi lần. Ông ta quỳ xuống trước Rosie, cầm lấy cái lọ có con bọ hung, xem xét nó với vẻ nghiêm túc.
+Ông ta đặt cái giẻ xuống bàn, gấp đôi lại như mọi khi, rồi quỳ xuống trước mặt Rosie, cầm lấy cái lọ có con bọ hung xem xét rất nghiêm túc.
 
-"Gus đẹp đấy," ông ta nói. "Con mang Gus sang nhà bà nội được không? Bà nội chưa thấy Gus bao giờ."
+"Con Gus đẹp đấy," ông ta nói. "Con mang Gus sang khoe bà nội được không? Bà nội chưa thấy Gus bao giờ."
 
-Rosie nheo mắt. "Bố đang đuổi con đi."
+Rosie nheo mắt lại. "Bố đang đuổi con đi."
 
 "Bố đang nhờ con giúp. Bà nội đang làm bánh flan, cần người nếm thử."
 
-"Bố nói dối. Bà nội làm bánh flan hôm thứ Bảy."
+"Bố nói dối. Bà nội làm bánh flan hôm thứ Bảy cơ."
 
-Viper im lặng một giây. Rồi ông ta đặt hai bàn tay to lên vai con gái.
+Viper im lặng một giây, rồi đặt hai bàn tay to bè lên vai con gái.
 
-"Rosie," ông ta nói, giọng khác hẳn. "Bố cần con sang nhà bà nội. Ngay bây giờ. Đi bằng cửa sau, qua hàng rào chỗ có lỗ hổng. Bảo bà nội gọi cho chú Diego, bảo là 'chuyến đi câu cá'. Bà sẽ hiểu."
+"Rosie," ông ta nói, giọng khác hẳn. "Bố cần con sang nhà bà nội ngay bây giờ. Đi lối cửa sau, chui qua cái lỗ ở hàng rào ấy. Bảo bà nội gọi cho chú Diego, nói là 'chuyến đi câu cá'. Bà sẽ hiểu."
 
-Rosie nhìn bố. Môi cô bé run lên một chút. Rồi cô bé gật đầu, ôm chặt cái lọ vào ngực, quay người chạy ra cửa sau. Đôi ủng vàng nện lạch bạch trên bậc thềm gỗ, xa dần.
+Rosie nhìn bố, môi run run một chút. Rồi cô bé gật đầu, ôm chặt cái lọ vào ngực, quay người chạy ra cửa sau, đôi ủng vàng nện lạch bạch trên bậc thềm gỗ, xa dần.
 
-Viper đứng dậy. Ông ta nhìn theo con gái cho tới khi cô bé chui qua lỗ hổng hàng rào. Rồi ông ta quay lại.
+Viper đứng dậy, nhìn theo con gái cho tới khi cô bé chui lọt qua lỗ hàng rào, rồi mới quay lại.
 
-"Chú Diego là em trai vợ tôi," ông ta nói với cả phòng. "Làm lính cứu hỏa ở Vermont. Có một căn nhà gỗ trên núi, không có sóng điện thoại. Chúng tôi đã dặn nhau từ lâu rồi, phòng khi có chuyện." Ông ta cười, không vui. "Phòng khi tôi bị nợ nần hay gì đó. Không nghĩ là chuyện này."
+"Diego là em trai vợ tôi," ông ta nói với cả phòng. "Làm lính cứu hỏa bên Vermont, có một căn nhà gỗ trên núi, chẳng có sóng điện thoại. Hai nhà dặn nhau từ lâu rồi, phòng khi có chuyện." Ông ta cười, chẳng vui vẻ gì. "Cứ tưởng là phòng khi tôi vỡ nợ hay gì đó. Ai ngờ lại là chuyện này."
 
 ---
 
-Họ có mười hai phút để thu dọn. Kev bấm giờ.
+Họ có mười hai phút để thu dọn, Kev bấm giờ.
 
-Lena nhét thuốc và thiết bị vào vali. Lin rút ổ cứng khỏi ba chiếc máy trong phòng làm việc, quấn dây cáp quanh cánh tay như quấn len. Kev xóa sạch mạng nội bộ, chạy một lệnh ghi đè lên router của Viper ba lần liền. Viper đổ đầy bình xăng phụ cho chiếc xe taco từ thùng dự trữ trong nhà kho, rồi chất lên xe hai thùng nước, một túi bánh mì, và cả nồi ớt hầm còn một nửa.
+Lena nhét thuốc men và thiết bị vào vali. Lin rút ổ cứng khỏi ba cái máy trong phòng làm việc, quấn dây cáp quanh cánh tay như quấn len. Kev xóa sạch mạng nội bộ, chạy lệnh ghi đè lên router của Viper ba lần liền. Viper đổ đầy bình xăng phụ cho chiếc xe taco từ cái thùng dự trữ trong nhà kho, rồi chất lên xe hai thùng nước, một túi bánh mì, và cả nồi ớt hầm còn một nửa.
 
-"Anh mang nồi ớt theo thật à?" Lin hỏi.
+"Anh mang cả nồi ớt theo thật à?" Lin hỏi.
 
-"Nó mới hầm hôm qua," Viper nói, như thể điều đó giải thích được mọi thứ.
+"Nó mới hầm hôm qua mà," Viper nói, như thể thế là đủ giải thích mọi chuyện.
 
-Elias đứng giữa phòng khách, không biết làm gì.
+Elias đứng giữa phòng khách mà không biết phải làm gì. Anh chẳng có gì để thu dọn cả, một cái áo khoác, một cái điện thoại đã tháo SIM, cuốn sổ của Corwin mà tuần trước Lena đưa cho anh giữ. Anh đứng đó nhìn mọi người chạy qua chạy lại, và nghĩ: họ đang phải chạy vì mình.
 
-Anh không có gì để thu dọn. Một chiếc áo khoác. Một chiếc điện thoại đã tháo SIM. Cuốn sổ của Corwin, mà Lena đã đưa cho anh giữ từ tuần trước. Anh đứng đó và nhìn mọi người chạy qua chạy lại, và nghĩ: *Họ đang chạy vì mình.*
-
-Bên ngoài, ba chấm đen vẫn bay vòng vòng trên đầu phố. Thấp hơn lúc nãy.
+Bên ngoài, ba chấm đen vẫn bay vòng vòng trên đầu phố, thấp hơn lúc nãy.
 
 "Elias." Lena đứng ở chân cầu thang, chiếc vali đeo trên vai. "Anh có sao không?"
 
@@ -46,81 +44,77 @@ Bên ngoài, ba chấm đen vẫn bay vòng vòng trên đầu phố. Thấp hơ
 
 "Tôi biết."
 
-Cô nhìn anh thêm một giây, như định hỏi gì đó. Rồi Kev gọi to từ phòng làm việc: "Bảy phút!" Và cô quay đi.
+Cô nhìn anh thêm một giây như định hỏi gì đó, nhưng Kev đã gọi to từ phòng làm việc, "Còn bảy phút!", và cô quay đi.
 
 ---
 
-Họ ra khỏi Ashgrove bằng con đường đất phía sau rừng, đường mà chỉ thợ săn và những đứa trẻ trốn học mới biết. Viper lái. Chiếc xe taco nhảy chồm chồm trên ổ gà, giá treo nồi niêu kêu leng keng như chuông nhà thờ. Tấm biển hình chiếc bánh taco trên nóc xe đã được tháo ra, nằm dưới sàn xe giữa đống thùng hành tây, vẫn còn cắm điện và vẫn còn xoay chầm chậm vì không ai nhớ rút dây. Kev ngồi ở ghế phụ, laptop mở trên đùi, mắt dán vào một bản đồ.
+Họ rời khỏi Ashgrove bằng con đường đất phía sau rừng, con đường mà chỉ dân đi săn với mấy đứa trẻ trốn học mới biết. Viper cầm lái, chiếc xe taco nhảy chồm chồm trên ổ gà, mấy cái nồi treo trên giá kêu leng keng như chuông nhà thờ. Tấm biển hình bánh taco trên nóc đã được tháo xuống, nằm dưới sàn xe giữa đống thùng hành tây, vẫn còn cắm điện và vẫn xoay chầm chậm vì chẳng ai nhớ rút dây.
 
-"Ba chiếc drone vẫn ở trên thị trấn," anh nói. "Không đi theo chúng ta. Chưa."
+Kev ngồi ghế phụ, laptop mở trên đùi, mắt dán vào bản đồ. "Ba cái drone vẫn ở trên thị trấn, chưa đi theo chúng ta."
 
 "Chưa?" Viper hỏi.
 
 Kev không trả lời.
 
-Ở thùng xe phía sau, Lin ngồi trên một thùng hành tây, ôm một cái túi đựng ổ cứng như ôm một con mèo. Lena ngồi trên sàn, lưng tựa vào tủ lạnh, chiếc vali kẹp giữa hai đầu gối. Elias ngồi đối diện cô, chỗ anh đã ngồi hai tuần trước, khi chiếc xe này đón họ ở tiệm giặt. Chỗ đó có vẻ là chỗ của anh.
+Ở thùng xe phía sau, Lin ngồi trên một thùng hành tây, ôm cái túi đựng ổ cứng như ôm một con mèo. Lena ngồi dưới sàn, lưng tựa vào tủ lạnh, chiếc vali kẹp giữa hai đầu gối. Elias ngồi đối diện cô, đúng chỗ anh đã ngồi hai tuần trước, cái hôm chiếc xe này đón họ ở tiệm giặt. Hình như chỗ đó đã thành chỗ của anh rồi.
 
-Chiếc xe rẽ từ đường đất ra một con đường nhựa hẹp chạy giữa hai hàng thông. Mặt đường ướt. Trời bắt đầu mưa lắc rắc.
+Xe rẽ từ đường đất ra một con đường nhựa hẹp chạy giữa hai hàng thông. Mặt đường ướt, trời bắt đầu lất phất mưa.
 
-"Chúng ta đi đâu?" Lin hỏi.
+"Mình đi đâu đây?" Lin hỏi.
 
-"Tôi đang nghĩ," Kev nói.
+"Tôi đang nghĩ," Kev đáp.
 
-"Anh nghĩ nhanh lên đi, vì bố của Rosie đang lái mà không biết đi đâu."
+"Anh nghĩ nhanh lên giùm, bố của Rosie đang lái mà chẳng biết đi đâu kìa."
 
-"Tao biết đi đâu," Viper nói. "Đi thẳng."
+"Tao biết đi đâu chứ," Viper nói. "Đi thẳng."
 
 "Đi thẳng tới đâu?"
 
-"Tới khi Kev nghĩ xong."
+"Tới lúc nào Kev nghĩ xong thì thôi."
 
-Lin bật cười, một tiếng cười căng thẳng. Lena cũng cười, khẽ. Elias không cười. Anh đang nhìn đồng hồ trên điện thoại.
+Lin bật cười, một tiếng cười căng như dây đàn, Lena cũng khẽ cười theo. Elias thì không. Anh đang nhìn đồng hồ trên điện thoại.
 
-Bốn giờ năm mươi. Lần phát tín hiệu cuối cùng là lúc ba giờ năm mươi mốt. Bốn mươi phút một lần. Lần tiếp theo là lúc bốn giờ ba mươi mốt. Đã qua rồi. Lần tiếp theo nữa là năm giờ mười một. Hai mươi mốt phút nữa.
+Bốn giờ năm mươi. Lần phát tín hiệu gần nhất là ba giờ năm mươi mốt, cứ bốn mươi phút một lần, vậy là bốn giờ ba mươi mốt đã phát rồi, lần kế tiếp là năm giờ mười một, còn hai mươi mốt phút nữa. Hai mươi mốt phút thì họ chạy được tới đâu cơ chứ? Chạy tới đâu thì tới năm giờ mười một não anh vẫn phát ra một nhịp, và ba chấm đen trên trời sẽ biết chính xác cái xe taco vàng chanh này đang ở chỗ nào. Rồi năm giờ năm mươi mốt, rồi sáu giờ ba mươi mốt, cứ thế mãi.
 
-Họ có thể chạy tới đâu trong hai mươi mốt phút? Tới bất cứ đâu, thì tới năm giờ mười một não anh lại phát ra một nhịp, và ba chấm đen trên trời sẽ biết chính xác chiếc xe taco màu vàng chanh này đang ở đâu. Năm giờ năm mươi mốt. Sáu giờ ba mươi mốt. Mãi mãi.
+Anh nhìn Lena. Cô đang tựa đầu vào tủ lạnh, mắt nhắm, ngón tay gõ lên nắp vali, ba nhanh, hai chậm.
 
-Anh nhìn Lena. Cô đang dựa đầu vào tủ lạnh, mắt nhắm lại, ngón tay gõ lên nắp vali. Ba nhanh, hai chậm.
-
-Tối nay, anh đã tự hứa. Tối nay anh sẽ nói.
-
-Bây giờ thì không còn tối nay nào nữa.
+Tối nay, anh đã tự hứa thế. Tối nay anh sẽ nói. Giờ thì chẳng còn tối nay nào nữa.
 
 ---
 
-Kev là người lên tiếng trước. Anh ta không quay lại, chỉ nói qua ô cửa thông giữa buồng lái và thùng xe, giọng đều đều như đọc thời tiết.
+Người lên tiếng trước lại là Kev. Anh không quay đầu lại, chỉ nói vọng qua ô cửa thông giữa buồng lái và thùng xe, giọng đều đều như đọc bản tin thời tiết.
 
-"Elias. Tới giờ rồi."
+"Elias. Tới lúc rồi đấy."
 
-Lena mở mắt.
+Lena mở mắt ra.
 
-Elias nhìn ô cửa nhỏ. Anh thấy nửa khuôn mặt Kev, kính gọng đen, nhìn thẳng về phía trước qua kính chắn gió.
+Elias nhìn lên ô cửa nhỏ, thấy nửa khuôn mặt Kev với cặp kính gọng đen đang nhìn thẳng về phía trước qua kính chắn gió.
 
-"Kev," anh nói.
+"Kev," anh gọi.
 
-"Cậu có hai mươi phút. Tôi để cậu nói trước. Nếu cậu không nói thì tôi nói."
+"Cậu có hai mươi phút. Tôi để cậu nói trước. Cậu không nói thì tôi nói."
 
-"Nói gì?" Lin hỏi. Cô nhìn Kev, rồi nhìn Elias. "Nói gì cơ?"
+"Nói gì?" Lin hỏi, nhìn Kev rồi nhìn Elias. "Nói cái gì cơ?"
 
-Viper không nói gì. Hai tay ông ta trên vô lăng siết lại.
+Viper không nói gì, nhưng hai tay ông ta siết chặt vô lăng.
 
-Lena đã ngồi thẳng dậy. Cô nhìn Elias, và anh thấy trong mắt cô cái nhìn mà cô dùng với những bản quét não. Cái nhìn đi tìm độ trễ, chỗ lệch.
+Lena đã ngồi thẳng dậy. Cô nhìn Elias, và anh nhận ra trong mắt cô là cái nhìn mà cô vẫn dùng để xem những bản quét não, cái nhìn đi tìm chỗ trễ, chỗ lệch.
 
-"Elias?" cô nói.
+"Elias?" cô gọi.
 
-Anh mở miệng. Anh đã tập câu này mười ngày. Anh đã tập nó dưới vòi sen, trên mái nhà, trong lúc thái hành, trong lúc rửa bát. Anh đã có những câu mở đầu, những câu giải thích, những câu xin lỗi. Chúng biến mất hết.
+Anh mở miệng. Anh đã tập câu này suốt mười ngày, dưới vòi sen, trên mái nhà, trong lúc thái hành, trong lúc rửa bát. Anh đã có sẵn những câu mở đầu, những câu giải thích, những câu xin lỗi. Giờ thì chúng biến đâu mất cả.
 
-"Họ không cần bám đuôi chúng ta," anh nói. "Họ chưa bao giờ cần. Bệnh án ghi là *dữ liệu thần kinh truyền trực tiếp*. Tôi tưởng đó là dữ liệu từ máy móc ở bệnh viện." Anh dừng lại. "Không phải. Là từ não tôi. Nó tự phát tín hiệu. Bốn mươi phút một lần. Kev bắt được nó mười ngày trước."
+"Họ chẳng cần bám đuôi chúng ta," anh nói. "Chưa bao giờ cần. Bệnh án ghi là *dữ liệu thần kinh truyền trực tiếp*, tôi cứ tưởng đó là dữ liệu từ máy móc ở bệnh viện. Hóa ra là từ não tôi. Nó tự phát tín hiệu, bốn mươi phút một lần. Kev bắt được nó từ mười ngày trước rồi."
 
-Chiếc xe chạy qua một ổ gà. Những cái nồi kêu leng keng.
+Xe sụp qua một ổ gà, mấy cái nồi kêu leng keng.
 
 "Mười ngày," Lena nói.
 
-"Đó là cách họ tìm ra văn phòng của cô. Không phải chiếc sedan đen. Không phải ai báo tin. Là tôi. Là cách họ biết nhà Viper. Là lý do có drone ở trên đầu nhà Rosie." Anh nói nhanh dần, những từ đổ ra như nước tràn qua đập. "Kev bảo tôi nói với cô ngay. Tôi bảo đợi. Tôi bảo đợi khi nào có cách che nó đi. Tôi bảo sau. Rồi lại sau."
+"Họ tìm ra văn phòng của cô là nhờ thế. Không phải nhờ chiếc sedan đen, cũng chẳng phải có ai báo tin, mà là nhờ tôi. Họ biết nhà Viper cũng là nhờ thế. Drone bay trên đầu nhà Rosie cũng là vì thế." Anh nói nhanh dần, những lời cứ tuôn ra như nước tràn qua đập. "Kev bảo tôi phải nói với cô ngay. Tôi bảo đợi đã, đợi tới khi nào có cách che nó đi. Tôi bảo để sau. Rồi lại để sau nữa."
 
 Không ai nói gì.
 
-Lin nhìn Kev. "Anh biết. Mười ngày."
+Lin quay sang nhìn Kev. "Anh biết. Mười ngày rồi."
 
 "Tôi biết," Kev nói.
 
@@ -128,82 +122,78 @@ Lin nhìn Kev. "Anh biết. Mười ngày."
 
 "Cậu ấy xin tôi đừng nói."
 
-Lin quay đi, nhìn ra ô cửa sau, nơi những hàng thông đang lùi lại trong màn mưa. Cô ôm cái túi ổ cứng chặt hơn. Môi cô mím lại thành một đường.
+Lin quay đi, nhìn ra ô cửa sau, nơi những hàng thông đang lùi dần trong màn mưa. Cô ôm cái túi ổ cứng chặt hơn, môi mím lại thành một đường thẳng.
 
-Lena không nói gì cả. Cô ngồi đó, nhìn anh, và gương mặt cô không biểu lộ gì. Không giận. Không buồn. Hoàn toàn trống trơn. Đó là thứ đáng sợ nhất anh từng thấy trên mặt cô.
+Lena thì không nói gì cả. Cô cứ ngồi đó nhìn anh, và trên gương mặt cô không có biểu cảm gì, không giận, không buồn, trống trơn hoàn toàn. Đó là thứ đáng sợ nhất mà anh từng thấy trên mặt cô.
 
-"Tín hiệu tiếp theo là lúc nào?" cô hỏi. Giọng cô phẳng lì.
+"Tín hiệu tiếp theo là lúc mấy giờ?" cô hỏi, giọng phẳng lặng.
 
-"Năm giờ mười một," Kev nói.
+"Năm giờ mười một," Kev đáp.
 
-Cô nhìn đồng hồ trên cổ tay. Năm giờ hai phút.
+Cô nhìn đồng hồ trên cổ tay, năm giờ hai phút. "Chín phút. Không đủ để làm gì cả." Cô quay về phía ô cửa buồng lái. "Anh Marcus cứ đi tiếp đi, đừng dừng lại. Kev, tới đâu thì cứ bốn mươi phút chúng ta lại phải chạy khỏi chỗ đó. Có cách nào để họ không bám theo được không?"
 
-"Chín phút," cô nói. "Không đủ thời gian để làm gì cả." Cô quay sang ô cửa buồng lái. "Anh Marcus, đi tiếp. Đừng dừng lại. Kev, dù chúng ta tới đâu thì mỗi bốn mươi phút ta đều phải chạy khỏi nơi đó. Có cách nào để họ không bám được không?"
+"Di chuyển liên tục, đổi xe, tách nhóm." Kev ngừng một chút. "Tách nhóm là tốt nhất. Một xe có Elias đi một hướng, một xe không có thì đi hướng khác."
 
-"Di chuyển liên tục. Đổi xe. Tách nhóm." Kev ngừng lại. "Tách nhóm là tốt nhất. Một xe có Elias, đi một hướng. Một xe không có, đi hướng khác."
+"Thế thì tách."
 
-"Vậy thì tách."
+Cô nói câu đó mà không nhìn Elias. Rồi cô kéo chiếc vali lên đùi, mở ra, bắt đầu kiểm tra từng ống thuốc một, cẩn thận và chậm rãi, như thể lúc này trên đời chẳng còn việc gì quan trọng hơn thế.
 
-Cô nói câu đó mà không nhìn Elias. Cô kéo chiếc vali lên đùi, mở ra, bắt đầu kiểm tra các ống thuốc một cách cẩn thận, chậm rãi, từng ống một, như thể ở thời điểm này không có việc gì quan trọng hơn thế.
-
-Elias nhìn tay cô. Ngón tay cô không gõ nữa.
+Elias nhìn tay cô. Những ngón tay ấy không còn gõ nữa.
 
 ---
 
 Năm giờ mười một, Kev nhìn màn hình và nói: "Có rồi."
 
-Không ai hỏi gì. Không cần.
+Không ai hỏi gì, cũng chẳng cần hỏi.
 
-Năm giờ hai mươi tư, chiếc xe taco dừng lại ở bãi đỗ một trạm xăng bỏ hoang bên đường quốc lộ. Một chiếc bán tải màu xám đã đậu sẵn ở đó, chính chiếc xe Kev và Lin lái tới Ashgrove mười ngày trước. Kev đã nhờ một người quen mang nó ra đây từ trưa. Anh ta lúc nào cũng có kế hoạch dự phòng. Elias tự hỏi Kev đã chuẩn bị chuyện này từ bao giờ. Có lẽ từ ngày thứ nhất. Họ đứng dưới mái che cây xăng gỉ sét, mưa nhỏ giọt từ mép mái xuống.
+Năm giờ hai mươi tư, chiếc xe taco dừng lại ở bãi đỗ của một trạm xăng bỏ hoang bên quốc lộ. Đã có sẵn một chiếc bán tải màu xám đỗ ở đó, chính là cái xe Kev và Lin lái tới Ashgrove mười ngày trước. Kev đã nhờ một người quen mang nó ra đây từ trưa. Anh ta lúc nào cũng có sẵn kế hoạch dự phòng. Elias tự hỏi không biết Kev đã chuẩn bị cho chuyện này từ bao giờ, có khi là từ ngày đầu tiên.
+
+Họ đứng dưới mái che cây xăng gỉ sét, nước mưa nhỏ giọt từ mép mái xuống.
 
 "Lin đi với tôi," Kev nói. "Lena đi với—"
 
 "Tôi đi với Linh," Lena nói.
 
-Kev nhìn cô. Rồi nhìn Elias. Rồi gật đầu.
+Kev nhìn cô, rồi nhìn Elias, rồi gật đầu.
 
-"Viper đi với Elias," Kev nói. "Hai người đi về phía nam. Tôi gửi tọa độ cho mỗi chặng. Mỗi bốn mươi phút đổi chỗ. Tôi sẽ tìm cách che tín hiệu."
+"Viper đi với Elias," Kev nói. "Hai người đi về phía nam, mỗi chặng tôi sẽ gửi tọa độ, cứ bốn mươi phút đổi chỗ một lần. Tôi sẽ tìm cách che tín hiệu."
 
 "Bằng cách nào?" Viper hỏi.
 
-Kev không trả lời ngay. Anh ta nhìn Lena.
+Kev chưa trả lời ngay, anh nhìn sang Lena. "Cách duy nhất tôi biết là cần một người hiểu não cậu ấy."
 
-"Cách duy nhất tôi biết cần người hiểu não cậu ấy," anh ta nói.
+Lena đang đeo vali lên vai, tay cô khựng lại trên quai đeo một chút, rồi kéo nó lên, chỉnh lại cho vừa.
 
-Lena đang đeo vali lên vai. Tay cô khựng lại trên quai đeo. Cô kéo nó lên, chỉnh lại cho vừa.
+"Gửi hồ sơ kỹ thuật cho tôi," cô nói. "Tôi sẽ đọc."
 
-"Gửi tôi hồ sơ kỹ thuật," cô nói. "Tôi sẽ đọc."
+Chỉ nói đúng thế thôi, rồi cô đi về phía chiếc bán tải xám, mở cửa sau, ngồi vào, đóng cửa lại.
 
-Đó là tất cả những gì cô nói. Cô đi về phía chiếc bán tải xám, mở cửa sau, ngồi vào, đóng cửa lại.
+Lin đi theo sau. Tới cửa xe, cô gái dừng lại, quay lại nhìn Elias, mắt đỏ hoe.
 
-Lin đi theo sau. Ở cửa xe, cô gái dừng lại, quay lại nhìn Elias. Mắt cô đỏ.
-
-"Anh là đồ ngốc," Lin nói. Giọng cô run. "Anh biết không? Ba năm nay em luôn nghĩ anh không nói gì vì anh là bot. Hóa ra anh không nói gì vì anh ngốc."
+"Anh là đồ ngốc," Lin nói, giọng run run. "Anh biết không? Ba năm nay em cứ tưởng anh không nói gì là vì anh là bot. Hóa ra anh không nói gì là vì anh ngốc."
 
 "Lin—"
 
-"Lần sau thì nói. Được chưa? Nói với em. Em không giận vì anh bị theo dõi. Em giận vì anh không nói." Cô quệt mũi vào tay áo. "Đồ ngốc."
+"Lần sau thì nói, nghe chưa? Nói với em. Em có giận chuyện anh bị theo dõi đâu, em giận vì anh không nói ấy." Cô quệt mũi vào tay áo. "Đồ ngốc."
 
-Cô trèo lên xe, đóng sầm cửa.
+Cô trèo lên xe, đóng sầm cửa lại.
 
-Kev đi tới cửa ghế lái. Trước khi vào xe, anh ta quay lại, nhìn Elias qua màn mưa.
+Kev đi tới cửa ghế lái. Trước khi chui vào xe, anh quay lại nhìn Elias qua màn mưa.
 
-"Cô ấy sẽ đọc hồ sơ," Kev nói. "Cô ấy là người như vậy."
+"Cô ấy sẽ đọc hồ sơ," Kev nói. "Cô ấy là người như thế."
 
 "Tôi biết."
 
-"Còn chuyện khác thì không biết." Kev chui vào xe.
+"Còn chuyện khác thì tôi không biết." Kev chui vào xe.
 
-Chiếc bán tải xám nổ máy, lùi lại, rẽ ra quốc lộ, đi về phía bắc. Elias nhìn theo nó cho tới khi đèn hậu mất hút sau một khúc quanh.
+Chiếc bán tải xám nổ máy, lùi lại, rẽ ra quốc lộ đi về phía bắc. Elias nhìn theo nó cho tới khi đèn hậu khuất sau một khúc quanh.
 
-Viper đứng cạnh anh, hai tay đút túi áo khoác. Ông ta không nói gì một lúc lâu.
+Viper đứng cạnh anh, hai tay đút túi áo khoác, im lặng một hồi lâu.
 
-"Mày biết không," Viper nói cuối cùng, "vợ tao từng bảo tao là cái tội lớn nhất của đàn ông không phải là nói dối. Mà là im lặng rồi tự coi đó là không nói dối."
+"Mày biết không," cuối cùng Viper nói, "vợ tao từng bảo tội lớn nhất của đàn ông không phải là nói dối, mà là im lặng rồi tự coi như thế là mình không nói dối."
 
-Elias không trả lời.
+Elias không đáp.
 
-"Lên xe đi," Viper nói. "Còn ba mươi hai phút trước lần phát tiếp theo của cái đầu mày. Tao không muốn bị bắn chết ở cái trạm xăng xấu xí này."
+"Lên xe đi," Viper nói. "Còn ba mươi hai phút nữa là cái đầu mày lại phát. Tao không muốn bị bắn chết ở cái trạm xăng xấu xí này đâu."
 
-Họ lên xe. Chiếc xe taco nổ máy, kêu lục cục, rẽ ra quốc lộ, đi về phía nam.
-
-Trên sàn thùng xe, tấm biển hình chiếc bánh taco vẫn còn cắm điện, vẫn xoay chầm chậm, hắt thứ ánh sáng vàng chanh lên đống thùng hành tây. Trên đó còn lại chỗ Lena đã ngồi, một vết lõm nhỏ trên tấm chăn kỳ lân.
+Họ lên xe. Chiếc xe taco nổ máy, kêu lục cục, rẽ ra quốc lộ đi về phía nam. Dưới sàn thùng xe, tấm biển hình bánh taco vẫn còn cắm điện, vẫn xoay chầm chậm, hắt thứ ánh sáng vàng chanh lên đống thùng hành tây, lên cái chỗ Lena vừa ngồi lúc nãy, nơi tấm chăn kỳ lân còn lõm xuống một vết nhỏ.
