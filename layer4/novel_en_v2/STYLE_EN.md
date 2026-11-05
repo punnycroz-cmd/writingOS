@@ -61,4 +61,5 @@ This is the English edition of *Cái Tên Còn Sống Sót*, Book 1 (v2, 36 chap
 - System and screen text stays in monospace and ALL CAPS, as in the Vietnamese.
 
 ## Files
-`CH01_WAKING.md` … `CH36_EPILOGUE_TWO_NAMES.md`
+- This folder: `layer4/novel_en_v2/`, `CH01_WAKING.md` … `CH36_EPILOGUE_TWO_NAMES.md`.
+- `layer4/novel_en/` is the older 29-chapter English draft of the pre-V2 plot. It is kept for reference and is not edited.
