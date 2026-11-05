@@ -44,7 +44,11 @@ Anh không kể về chiếc sedan đen. Anh nói với mình rằng đó là v�
 
 Khi anh kể xong, Lena đứng dậy, đi vào phòng làm việc, rồi quay lại với một cuốn sổ bìa da.
 
-"Corwin đã điều tra Halloway Neuro-Systems hơn một năm," cô nói, mở cuốn sổ ra và đặt nó lên bàn trước mặt anh. "Anh ấy bắt đầu từ cái chết của bố anh ấy. Bác Thomas là cảnh sát. Ông chết năm 2012, xe lao xuống sông trên một con đường ông đi hàng nghìn lần. Hồ sơ ghi là tai nạn. Corwin không bao giờ tin."
+"Corwin đã điều tra Halloway Neuro-Systems hơn một năm," cô nói, mở cuốn sổ ra và đặt nó lên bàn trước mặt anh. "Anh ấy bắt đầu từ cái chết của bố anh ấy. Bác Thomas là cảnh sát. Ông chết năm 2012, xe lao xuống sông trên một con đường ông đi hàng nghìn lần. Hồ sơ ghi là lỗi của trợ lý lái tự động: chiếc Echo trong xe hiểu nhầm một biển báo. Hãng xe bồi thường, Halloway gửi lời chia buồn. Corwin không bao giờ tin."
+
+"Echo," Elias nhắc lại. "Cái hệ thống trong Somnia?"
+
+"Hồi đó nó mới chỉ là trợ lý trên điện thoại và xe hơi. Bây giờ nó ở khắp nơi." Cô lật một trang. "Corwin viết thế này: *Bố tắt Echo trên điện thoại từ năm 2011. Nhưng ông không tắt được cái trong xe.*"
 
 Elias lật từng trang. Nét chữ của Corwin to, thoáng, nghiêng hẳn sang trái. Những cái tên. Những con số. Rồi tên anh, gạch chân hai lần.
 

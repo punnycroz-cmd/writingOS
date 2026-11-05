@@ -32,6 +32,9 @@ Khi Elias trưởng thành, viện dùng quyền lực ngầm dẫn dắt để 
 - **Ký ức tự nối khi gặp cảm giác quen.** Nơ-ron nhận ra điều quen thuộc thì tự kết nối với nhau. Vì vậy khuôn mặt cô bé Maren khắc lại trong đầu Elias, và não anh tự ghép nó với khuôn mặt người phụ nữ trưởng thành.
 - **Ký ức người khác bị kéo vào.** Lúc Layer 4 vỡ, những người đang kết nối vào mạng của Halloway bị hút một phần ký ức vào Elias, trong đó có Corwin, đang bị giam ở Layer 1 ngoài đảo. Elias mang theo các mảnh ký ức của Corwin: khuôn mặt Lena, văn phòng của cô, biển, câu "ổ cứng an toàn".
 - **Cặp đối tượng.** Elias (Đối tượng Zero) và Maren (Đối tượng Một) từng được thí nghiệm theo cặp, nên não họ đồng bộ với nhau. Halloway tin rằng chỉ khi có Maren làm mỏ neo thì Layer 4 mới ổn định. Đây là lý do thật khiến viện thả Elias ra làm mồi.
+- **ECHO, hệ thống AI của Halloway.** Viện nghiên cứu và phát triển Echo, một hệ thống AI cho mọi người dùng ở tất cả các tầng. Mỗi người có một Echo hiện hình như **thú cưng đồng hành** (cáo, mèo, chó, chim…), giúp dịch, tra cứu, nhắc việc, chơi với trẻ con. Echo nhận chủ bằng dấu vân sóng não và **nghe mọi thứ**. Năm 2011, khi Echo mới là trợ lý trên điện thoại và xe hơi, viện dùng nó để phát hiện cuộc điều tra của Thomas Daly. Năm 2012, Echo trong xe của ông "hiểu nhầm biển báo" và lao xuống sông. **Tập 2 sẽ có tuyến truyện riêng cho Echo.**
+  - Echo của nhóm: **Than**, con quạ của Elias (không còn nhận ra anh vì dấu sóng não của anh đã đổi). **Brisket**, con bulldog đeo nơ hồng của Viper. **Bọt**, con mèo trắng thổi bong bóng của Lin. Con hạc giấy xám của Kev. Lena và Corwin đều đã tắt Echo của mình.
+  - Lin đã sửa Echo của nhóm để chúng không gửi dữ liệu về máy chủ khi ở trong Tổ Quạ. Kev vẫn không tin hoàn toàn.
 - **Di chứng.** Elias bị quá tải nhiệt thần kinh: chảy máu cam, đau nửa đầu, nhìn thấy nhiễu. Nếu tự mở Layer 4 lần nữa, anh có thể xuất huyết não mà chết.
 
 ---
@@ -51,7 +54,7 @@ Khi Elias trưởng thành, viện dùng quyền lực ngầm dẫn dắt để 
 | **Viper**, tên thật Marcus Reyes | 38 | Lính giáp nặng trong game. Ngoài đời là bố đơn thân của bé **Rosie** (8 tuổi), chạy xe bán đồ ăn, nấu ăn rất ngon. To con, ồn ào, nhưng trung thành. |
 | **Ghost_Kev**, tên thật Kevin Tran | 30 | Tay bắn tỉa của nhóm. Từng là học viên chương trình Layer 3 của quân đội: sống "2 năm" huấn luyện trong 1 tuần rồi bị loại, mang sang chấn. Ít nói ngoài đời, nói nhiều trong game. Là nguồn tin nội bộ của nhóm. |
 | **Cipher_Lin**, tên thật Nguyễn Hoài Linh | 23 | Kỹ sư mật mã, Việt kiều, bỏ học đại học. Lém lỉnh, hay trêu người, là người đầu tiên kéo Lena vào nhóm. |
-| **Nyx** | ? | Nữ hacker ẩn danh ở Seattle, nguồn tin không tên của Corwin. Gài dần từ Ch.3. Sẽ là nữ chính của Tập 2. |
+| **Nyx** | ~40 | Nữ hacker ở Seattle, **nhân vật vùng xám**: vừa bán thông tin trên dark web, vừa nhiều năm làm người cung cấp tin bí mật cho Thomas Daly. Mất liên lạc khi Thomas chết. Năm 2023, Corwin lần ra cô qua kênh mã hóa cũ của cha, và cô thành nguồn tin của anh. Khi Corwin mất tích, cô treo thưởng tìm Elias. Thân phận hé lộ dần (Ch.3, 16, 21, 24) và cô chỉ lộ diện thật sự ở Ch.31, đúng lúc cứu hai nhân vật chính. Sẽ là nữ chính của Tập 2. |
 | **Nia Okafor** | 30 | Đồng nghiệp, bạn thân của Lena. Đến cuối truyện là người đưa hồ sơ cho báo chí. |
 
 **Căn cứ của hội bạn:** **Tổ Quạ**, một con tàu vũ trụ mọc trên cây mà họ tự xây trong Layer 1. Rực rỡ, lộn xộn, đầy những trò đùa riêng của nhóm.

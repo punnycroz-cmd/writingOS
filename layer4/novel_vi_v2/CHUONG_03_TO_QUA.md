@@ -70,6 +70,20 @@ Elias có thể nói dối. Anh có thể giả vờ. Nhưng anh nhìn ba ngư�
 
 "Không," anh nói. "Tôi không nhớ."
 
+Có tiếng vỗ cánh trên đầu. Một con quạ nhỏ, lông đen ánh xanh, viền mắt phát sáng màu bạc mờ, sà xuống từ một cành cây và đậu lên lan can cạnh anh. Nó nghiêng đầu nhìn anh. Một bên mắt, rồi bên kia. Rồi nó kêu một tiếng ngắn, khàn, như một câu hỏi.
+
+Elias nhìn nó. Nó nhìn anh. Không có gì cả.
+
+Con quạ nhảy lùi lại một bước trên lan can. Nó kêu thêm một tiếng nữa, rồi vỗ cánh bay đi, lượn một vòng quanh thân tàu rồi mất hút sau tán lá.
+
+"Đó là Than," Lin nói khẽ. Giọng cô run run. "Echo của anh. Nó đậu trên vai anh suốt ba năm. Cả cái tên Tổ Quạ cũng là vì nó." Cô cắn môi. "Echo nhận chủ bằng dấu vân sóng não. Chắc... chắc dấu của anh thay đổi rồi."
+
+Elias nhìn về phía con quạ vừa bay đi. Anh không nhớ nó. Nhưng có thứ gì đó trong ngực anh đau nhói lên, như khi bước hụt một bậc thang trong bóng tối.
+
+Ở chân Viper, một con chó bulldog phát sáng màu cam, cổ đeo một chiếc nơ hồng giống hệt cái tạp dề, khịt mũi đánh hơi giày Elias, rồi ngồi phịch xuống, thè lưỡi. Ít nhất có một con không thấy anh xa lạ.
+
+"Brisket," Viper giới thiệu. "Đừng cho nó ăn gì. Nó không ăn được nhưng nó vẫn đòi."
+
 ---
 
 Họ ngồi quanh một cái bàn làm từ một tấm cánh tàu cũ, ở boong giữa, dưới một chùm đèn lồng giấy đung đưa. Viper mang ra một nồi gì đó bốc khói, thứ mà ông ta khăng khăng gọi là "ớt hầm Texas", và dù chẳng ai ăn được thật trong Layer 1, mùi của nó vẫn khiến bụng Elias réo lên.
@@ -117,6 +131,10 @@ Anh không nhớ họ. Nhưng có lẽ, anh nghĩ, anh có thể học lại.
 "Có một việc," anh nói khi nồi ớt đã nguội. "Tôi cần tìm một người."
 
 Anh kể cho họ về cái tên. Về hai khuôn mặt.
+
+"Khoan," Kev nói. Anh ta giơ tay lên. Trên vai anh ta đậu một con hạc giấy màu xám, Echo của Kev, nó gập đôi cánh lại và tắt hẳn đốm sáng ở mắt. "Bọt. Brisket. Chế độ ngủ." Con bulldog ngáp một cái rồi nằm bẹp xuống sàn. Một con mèo trắng muốt, nãy giờ nằm cuộn tròn trên đùi Lin và thổi ra những bong bóng xà phòng từ tai, cũng lim dim nhắm mắt.
+
+"Echo nghe mọi thứ," Kev nói với Elias, như giải thích. "Chúng giúp được rất nhiều việc. Dịch, tra cứu, nhắc lịch, chơi với Rosie. Nhưng chúng thuộc về Halloway. Lin đã sửa lại để chúng không gửi gì về máy chủ khi ở trong Tổ. Tôi vẫn không tin hoàn toàn." Anh ta nhún vai. "Thói quen."
 
 Lin đã mở ra một màn hình bán trong suốt lơ lửng giữa không trung trước khi anh nói xong. Ngón tay cô lướt nhanh tới mức thành vệt mờ.
 

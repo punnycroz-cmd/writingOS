@@ -130,7 +130,7 @@ Trung tâm Y tế Halloway là một mê cung trắng. Hành lang nào cũng gi�
 
 Đó là phần đáng sợ nhất.
 
-Anh đi theo những biển chỉ dẫn màu xanh ghi *Lối ra*. Ở một khúc rẽ có một vách kính lớn nhìn xuống sảnh chính. Trên bức tường đối diện treo một màn hình khổng lồ chạy quảng cáo: một gia đình ba người ngồi trong một khu vườn tràn ánh nắng, đứa con gái nhỏ đang vẽ một con cá voi bay lơ lửng giữa trời, và con cá voi thật sự bơi ra khỏi tờ giấy. Dòng chữ hiện lên: *SOMNIA — Thế giới bạn mơ, mỗi ngày. Một sản phẩm của Halloway Neuro-Systems.*
+Anh đi theo những biển chỉ dẫn màu xanh ghi *Lối ra*. Ở một khúc rẽ có một vách kính lớn nhìn xuống sảnh chính. Trên bức tường đối diện treo một màn hình khổng lồ chạy quảng cáo: một gia đình ba người ngồi trong một khu vườn tràn ánh nắng, đứa con gái nhỏ đang vẽ một con cá voi bay lơ lửng giữa trời, và con cá voi thật sự bơi ra khỏi tờ giấy. Bên cạnh cô bé, một chú cáo nhỏ phát sáng màu xanh nhạt ngồi chồm hỗm, nghiêng đầu nhìn con cá voi, rồi quay ra nhìn thẳng vào người xem và vẫy đuôi. Dòng chữ hiện lên: *SOMNIA — Thế giới bạn mơ, mỗi ngày. Cùng ECHO, người bạn đồng hành hiểu bạn nhất. Một sản phẩm của Halloway Neuro-Systems.*
 
 Elias dừng lại nhìn. Anh không nhớ Somnia là gì, nhưng tay anh tự động co lại như đang cầm một tay cầm điều khiển. Có thứ gì đó trong cơ bắp còn nhớ.
 

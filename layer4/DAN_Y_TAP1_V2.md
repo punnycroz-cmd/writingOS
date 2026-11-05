@@ -1,7 +1,7 @@
 # DÀN Ý CHI TIẾT TẬP 1 (V2) — *CÁI TÊN CÒN SỐNG SÓT*
 
 > Theo `CANON_V2_CAI_TEN_CON_SONG_SOT.md`. 36 chương, khoảng 90–100 nghìn từ, mỗi chương 2.500–3.000 từ.
-> ⚙️ là chỗ có thể cài yếu tố AI (chưa chốt). POV là nhân vật kể chính của chương.
+> ⚙️ là chỗ gắn hệ thống AI **Echo** (thú cưng AI đồng hành của mọi người dùng, do Halloway phát triển). Nyx là người cung cấp tin cũ của Thomas Daly. POV là nhân vật kể chính của chương.
 
 | Hồi | Chương | Thời gian | Tông |
 |---|---|---|---|
@@ -186,6 +186,8 @@
 ### Ch.21 — Hai con đường · POV xen kẽ · 25–28/9
 - **Lena:** cùng Lin đến thăm Ruth Daly, mẹ Corwin. Từ những ghi chép cuối cùng của Thomas, cô biết cái chết của ông không phải tai nạn. Cô cũng biết Corwin không hề biết thân phận thật của cô.
 - **Elias:** Kev tìm ra cách che tín hiệu bằng một ca lặn Layer 2 đầy rủi ro. Elias quyết định tự làm một mình, và gục ngã.
+
+- 🆕 Bà Ruth kể về "người bạn trên mạng" của Thomas, một người chỉ ký bằng chữ **N**, người đã nhiều lần giúp ông phá án. Ruth cũng cho Lena xem báo cáo về chiếc Echo trong xe đã lái ông xuống sông.
 
 **Kết:** Viper gọi cho Lena: *"Cậu ấy đang chết."*
 
