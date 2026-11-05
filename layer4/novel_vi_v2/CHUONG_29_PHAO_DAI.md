@@ -22,7 +22,7 @@ Viper nhìn ổ bánh mì, cắn một miếng, nhai, và mặt ông ta giãn ra
 
 Elias đi đầu. Nhân vật Layer 3 của anh khác với nhân vật ở Tổ Quạ, đó là bộ giáp anh đã mặc ở Vanguard suốt ba năm, nhẹ, màu xám mờ, những đường dẫn năng lượng xanh lam chạy dọc các khớp, hai thanh kiếm xung lực đeo chéo sau lưng. Cái cơ thể này còn nhớ mọi thứ, kể cả những thứ anh đã quên.
 
-Và ở một góc nào đó trong đầu, anh cảm thấy cô. Không phải giọng nói, không phải hình ảnh, mà là một thứ giống như hơi ấm của một người đang ngồi ở phòng bên cạnh. Khi anh bước nhanh hơn, hơi ấm ấy căng ra như sợi dây chun, khi anh dừng lại thì nó dịu xuống. Thỉnh thoảng lại có những nhịp nhỏ chạy qua nó, lúc nhanh và gắt khi cô căng thẳng, lúc chậm và đều khi cô thở theo kiểu bốn-hai-sáu.
+Và ở một góc nào đó trong đầu, anh cảm thấy cô. Chẳng có giọng nói hay hình ảnh gì, chỉ có một thứ giống như hơi ấm của một người đang ngồi ở phòng bên cạnh. Khi anh bước nhanh hơn, hơi ấm ấy căng ra như sợi dây chun, khi anh dừng lại thì nó dịu xuống. Thỉnh thoảng lại có những nhịp nhỏ chạy qua nó, lúc nhanh và gắt khi cô căng thẳng, lúc chậm và đều khi cô thở theo kiểu bốn-hai-sáu.
 
 Tới giờ thứ tám, nó giật mạnh một cái, như có ai vừa xô cô. Elias khựng lại.
 
@@ -38,7 +38,7 @@ Kev nhìn anh nhưng không hỏi gì thêm, cũng chẳng cần hỏi. Ngoài k
 
 Tới giờ thứ mười một thì sợi cáp kết thúc. Đường hầm ánh sáng mở ra như một con mắt, và họ bước ra ngoài, đứng trên một bậc thềm đá đen bóng như gương.
 
-Pháo đài Mnemosyne nằm giữa một thành phố chết. Đó là ấn tượng đầu tiên của Elias. Không phải chết theo kiểu đổ nát hoang tàn, mà chết theo kiểu chưa từng có sự sống bao giờ. Những tòa nhà kính đen cao vút, vuông vức, giống hệt nhau, xếp thành những dãy thẳng tắp tới tận chân trời, không cửa sổ, không cửa ra vào. Những con đường giữa chúng rộng thênh thang và trống trơn, lát cùng một thứ đá đen bóng như dưới chân họ. Bầu trời đỏ sẫm, không mặt trời, không mây, chỉ có những dòng ký tự thập lục phân màu đỏ tươi rơi xuống chầm chậm như tuyết.
+Pháo đài Mnemosyne nằm giữa một thành phố chết. Đó là ấn tượng đầu tiên của Elias. Nó chẳng đổ nát hay hoang tàn gì, nó chết theo kiểu một nơi chưa từng có ai sống bao giờ. Những tòa nhà kính đen cao vút, vuông vức, giống hệt nhau, xếp thành những dãy thẳng tắp tới tận chân trời, không cửa sổ, không cửa ra vào. Những con đường giữa chúng rộng thênh thang và trống trơn, lát cùng một thứ đá đen bóng như dưới chân họ. Bầu trời đỏ sẫm, không mặt trời, không mây, chỉ có những dòng ký tự thập lục phân màu đỏ tươi rơi xuống chầm chậm như tuyết.
 
 Ở chính giữa, cách đó chừng hai cây số, là pháo đài: một khối lục giác khổng lồ màu đen, cao gấp mười những tòa nhà xung quanh, bao quanh bởi ba vòng tường, vòng sau cao hơn vòng trước. Trên đỉnh mỗi bức tường, những tháp canh đứng cách đều nhau như răng lược, tháp nào cũng có một đốm sáng đỏ quét qua quét lại.
 

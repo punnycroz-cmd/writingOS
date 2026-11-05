@@ -26,9 +26,9 @@ Viper đứng dậy, nhìn theo con gái cho tới khi cô bé chui lọt qua l�
 
 Họ có mười hai phút để thu dọn, Kev bấm giờ.
 
-Lena nhét thuốc men và thiết bị vào vali. Lin rút ổ cứng khỏi ba cái máy trong phòng làm việc, quấn dây cáp quanh cánh tay như quấn len. Kev xóa sạch mạng nội bộ, chạy lệnh ghi đè lên router của Viper ba lần liền. Viper đổ đầy bình xăng phụ cho chiếc xe taco từ cái thùng dự trữ trong nhà kho, rồi chất lên xe hai thùng nước, một túi bánh mì, và cả nồi ớt hầm còn một nửa.
+Lena nhét thuốc men và thiết bị vào vali. Linh rút ổ cứng khỏi ba cái máy trong phòng làm việc, quấn dây cáp quanh cánh tay như quấn len. Kev xóa sạch mạng nội bộ, chạy lệnh ghi đè lên router của Viper ba lần liền. Viper đổ đầy bình xăng phụ cho chiếc xe taco từ cái thùng dự trữ trong nhà kho, rồi chất lên xe hai thùng nước, một túi bánh mì, và cả nồi ớt hầm còn một nửa.
 
-"Anh mang cả nồi ớt theo thật à?" Lin hỏi.
+"Anh mang cả nồi ớt theo thật à?" Linh hỏi.
 
 "Nó mới hầm hôm qua mà," Viper nói, như thể thế là đủ giải thích mọi chuyện.
 
@@ -56,11 +56,11 @@ Kev ngồi ghế phụ, laptop mở trên đùi, mắt dán vào bản đồ. "B
 
 Kev không trả lời.
 
-Ở thùng xe phía sau, Lin ngồi trên một thùng hành tây, ôm cái túi đựng ổ cứng như ôm một con mèo. Lena ngồi dưới sàn, lưng tựa vào tủ lạnh, chiếc vali kẹp giữa hai đầu gối. Elias ngồi đối diện cô, đúng chỗ anh đã ngồi hai tuần trước, cái hôm chiếc xe này đón họ ở tiệm giặt. Hình như chỗ đó đã thành chỗ của anh rồi.
+Ở thùng xe phía sau, Linh ngồi trên một thùng hành tây, ôm cái túi đựng ổ cứng như ôm một con mèo. Lena ngồi dưới sàn, lưng tựa vào tủ lạnh, chiếc vali kẹp giữa hai đầu gối. Elias ngồi đối diện cô, đúng chỗ anh đã ngồi hai tuần trước, cái hôm chiếc xe này đón họ ở tiệm giặt. Hình như chỗ đó đã thành chỗ của anh rồi.
 
 Xe rẽ từ đường đất ra một con đường nhựa hẹp chạy giữa hai hàng thông. Mặt đường ướt, trời bắt đầu lất phất mưa.
 
-"Mình đi đâu đây?" Lin hỏi.
+"Mình đi đâu đây?" Linh hỏi.
 
 "Tôi đang nghĩ," Kev đáp.
 
@@ -72,7 +72,7 @@ Xe rẽ từ đường đất ra một con đường nhựa hẹp chạy giữa 
 
 "Tới lúc nào Kev nghĩ xong thì thôi."
 
-Lin bật cười, một tiếng cười căng như dây đàn, Lena cũng khẽ cười theo. Elias thì không. Anh đang nhìn đồng hồ trên điện thoại.
+Linh bật cười, một tiếng cười căng như dây đàn, Lena cũng khẽ cười theo. Elias thì không. Anh đang nhìn đồng hồ trên điện thoại.
 
 Bốn giờ năm mươi. Lần phát tín hiệu gần nhất là ba giờ năm mươi mốt, cứ bốn mươi phút một lần, vậy là bốn giờ ba mươi mốt đã phát rồi, lần kế tiếp là năm giờ mười một, còn hai mươi mốt phút nữa. Hai mươi mốt phút thì họ chạy được tới đâu cơ chứ? Chạy tới đâu thì tới năm giờ mười một não anh vẫn phát ra một nhịp, và ba chấm đen trên trời sẽ biết chính xác cái xe taco vàng chanh này đang ở chỗ nào. Rồi năm giờ năm mươi mốt, rồi sáu giờ ba mươi mốt, cứ thế mãi.
 
@@ -94,7 +94,7 @@ Elias nhìn lên ô cửa nhỏ, thấy nửa khuôn mặt Kev với cặp kính
 
 "Cậu có hai mươi phút. Tôi để cậu nói trước. Cậu không nói thì tôi nói."
 
-"Nói gì?" Lin hỏi, nhìn Kev rồi nhìn Elias. "Nói cái gì cơ?"
+"Nói gì?" Linh hỏi, nhìn Kev rồi nhìn Elias. "Nói cái gì cơ?"
 
 Viper không nói gì, nhưng hai tay ông ta siết chặt vô lăng.
 
@@ -114,7 +114,7 @@ Xe sụp qua một ổ gà, mấy cái nồi kêu leng keng.
 
 Không ai nói gì.
 
-Lin quay sang nhìn Kev. "Anh biết. Mười ngày rồi."
+Linh quay sang nhìn Kev. "Anh biết. Mười ngày rồi."
 
 "Tôi biết," Kev nói.
 
@@ -122,7 +122,7 @@ Lin quay sang nhìn Kev. "Anh biết. Mười ngày rồi."
 
 "Cậu ấy xin tôi đừng nói."
 
-Lin quay đi, nhìn ra ô cửa sau, nơi những hàng thông đang lùi dần trong màn mưa. Cô ôm cái túi ổ cứng chặt hơn, môi mím lại thành một đường thẳng.
+Linh quay đi, nhìn ra ô cửa sau, nơi những hàng thông đang lùi dần trong màn mưa. Cô ôm cái túi ổ cứng chặt hơn, môi mím lại thành một đường thẳng.
 
 Lena thì không nói gì cả. Cô cứ ngồi đó nhìn anh, và trên gương mặt cô không có biểu cảm gì, không giận, không buồn, trống trơn hoàn toàn. Đó là thứ đáng sợ nhất mà anh từng thấy trên mặt cô.
 
@@ -146,7 +146,7 @@ Năm giờ mười một, Kev nhìn màn hình và nói: "Có rồi."
 
 Không ai hỏi gì, cũng chẳng cần hỏi.
 
-Năm giờ hai mươi tư, chiếc xe taco dừng lại ở bãi đỗ của một trạm xăng bỏ hoang bên quốc lộ. Đã có sẵn một chiếc bán tải màu xám đỗ ở đó, chính là cái xe Kev và Lin lái tới Ashgrove mười ngày trước. Kev đã nhờ một người quen mang nó ra đây từ trưa. Anh ta lúc nào cũng có sẵn kế hoạch dự phòng. Elias tự hỏi không biết Kev đã chuẩn bị cho chuyện này từ bao giờ, có khi là từ ngày đầu tiên.
+Năm giờ hai mươi tư, chiếc xe taco dừng lại ở bãi đỗ của một trạm xăng bỏ hoang bên quốc lộ. Đã có sẵn một chiếc bán tải màu xám đỗ ở đó, chính là cái xe Kev và Linh lái tới Ashgrove mười ngày trước. Kev đã nhờ một người quen mang nó ra đây từ trưa. Anh ta lúc nào cũng có sẵn kế hoạch dự phòng. Elias tự hỏi không biết Kev đã chuẩn bị cho chuyện này từ bao giờ, có khi là từ ngày đầu tiên.
 
 Họ đứng dưới mái che cây xăng gỉ sét, nước mưa nhỏ giọt từ mép mái xuống.
 
@@ -168,9 +168,9 @@ Lena đang đeo vali lên vai, tay cô khựng lại trên quai đeo một chút
 
 Chỉ nói đúng thế thôi, rồi cô đi về phía chiếc bán tải xám, mở cửa sau, ngồi vào, đóng cửa lại.
 
-Lin đi theo sau. Tới cửa xe, cô gái dừng lại, quay lại nhìn Elias, mắt đỏ hoe.
+Linh đi theo sau. Tới cửa xe, cô gái dừng lại, quay lại nhìn Elias, mắt đỏ hoe.
 
-"Anh là đồ ngốc," Lin nói, giọng run run. "Anh biết không? Ba năm nay em cứ tưởng anh không nói gì là vì anh là bot. Hóa ra anh không nói gì là vì anh ngốc."
+"Anh là đồ ngốc," Linh nói, giọng run run. "Anh biết không? Ba năm nay em cứ tưởng anh không nói gì là vì anh là bot. Hóa ra anh không nói gì là vì anh ngốc."
 
 "Lin—"
 

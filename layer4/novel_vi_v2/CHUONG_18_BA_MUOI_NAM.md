@@ -30,7 +30,7 @@ Kế hoạch chiều hôm ấy là của Elias, và Lena đã phản đối nó 
 
 Mười ngày qua họ đã lặn bảy lần, bốn lần vào ký ức của anh, ba lần vào ký ức của cô, mỗi lần được một mảnh. Căn phòng số không và mấy chuỗi gõ dài mà họ vẫn chưa giải mã được. Bà Elena dạy Maren đếm bằng tiếng Tây Ban Nha. Một kỹ thuật viên tên Bradley, trẻ hơn bây giờ hai mươi tuổi, lén dúi cho Elias một viên kẹo bạc hà khi không ai nhìn thấy. Họ biết thêm nhiều chuyện về tuổi thơ của mình, nhưng chẳng biết thêm gì về máy chủ của Halloway, về Trạm Đảo, hay về những gì Corwin đã thấy trước khi mất tích.
 
-Nếu những thứ ấy có ở đâu thì chỉ có thể là ở trong ba mươi năm kia, ba mươi năm vỡ vụn mà anh đã sống trong mười một ngày hôn mê, nơi ký ức của anh và ký ức của những người lạ trộn lẫn vào nhau như sơn đổ chung một xô. Lena gọi nó là "vùng nhiễu", Kev gọi nó là "bãi rác", Lin gọi nó là "cái máy xay sinh tố", và Viper đã cấm cô gọi thế trước mặt Rosie.
+Nếu những thứ ấy có ở đâu thì chỉ có thể là ở trong ba mươi năm kia, ba mươi năm vỡ vụn mà anh đã sống trong mười một ngày hôn mê, nơi ký ức của anh và ký ức của những người lạ trộn lẫn vào nhau như sơn đổ chung một xô. Lena gọi nó là "vùng nhiễu", Kev gọi nó là "bãi rác", Linh gọi nó là "cái máy xay sinh tố", và Viper đã cấm cô gọi thế trước mặt Rosie.
 
 "Mười phút," cuối cùng Lena nói. "Quá mười phút một giây là tôi giật dây ngay, mặc kệ anh đang ở giữa cái gì."
 
@@ -118,13 +118,13 @@ Anh đâu định nói như thế. Anh định nói từ từ, cẩn thận, l�
 
 "Corwin," anh nói qua lớp gạc. "Ngày thứ một trăm chín mươi hai. Trong một cái kén, có ống thở, có người đang ghi chép. Anh ấy đang nghĩ về cô." Anh ho, nuốt xuống vị tanh của sắt. "Tới ngày hai mươi mốt tháng Tám, anh ấy vẫn còn sống."
 
-Lena không nhúc nhích. Sau lưng cô, Viper đặt cái muôi đang cầm xuống bàn, rất khẽ, như sợ làm vỡ nó. Lin đứng bật dậy khỏi bậc cầu thang. Kev vẫn đứng yên ở cửa, nhưng chiếc điện thoại trong tay anh đã rơi xuống thảm.
+Lena không nhúc nhích. Sau lưng cô, Viper đặt cái muôi đang cầm xuống bàn, rất khẽ, như sợ làm vỡ nó. Linh đứng bật dậy khỏi bậc cầu thang. Kev vẫn đứng yên ở cửa, nhưng chiếc điện thoại trong tay anh đã rơi xuống thảm.
 
 "Một trăm chín mươi hai ngày," Lena nói, giọng đều tới mức kỳ lạ, giọng của một giám định viên. "Tính từ ngày chín tháng Hai thì là... ngày mười chín tháng Tám. Hai ngày trước khi anh vào Layer 4."
 
 Cô tính nhẩm còn nhanh hơn cả anh.
 
-"Biết đâu anh ấy vẫn..." Lin mở lời rồi im bặt.
+"Biết đâu anh ấy vẫn..." Linh mở lời rồi im bặt.
 
 Lena đứng dậy, cầm miếng gạc đẫm máu trên tay, nhìn nó như không biết nó là cái gì, rồi đặt nó xuống bàn nước. Cô đi ra cửa sổ, kéo rèm sang một bên, đứng nhìn ra sân, nơi con diều của Rosie vẫn mắc trên cành sồi từ hôm sinh nhật.
 
@@ -138,7 +138,7 @@ Viper là người phá vỡ sự im lặng, bằng cách ngồi phịch xuống
 
 Lena quay lại.
 
-"Gì cơ?" Lin hỏi.
+"Gì cơ?" Linh hỏi.
 
 "Tao nói là mình đi đón nó về." Viper khoanh tay. "Bọn mình có con hacker giỏi nhất bờ Đông, một thằng lính bắn tỉa không bao giờ ngủ, một bà bác sĩ mổ xẻ não người, một thằng điên từng vào Layer 4 rồi bò ra được, với một cái xe taco. Bọn kia thì có mỗi cái kén. Tao thấy cửa thắng của mình cũng không tệ lắm đâu."
 
@@ -146,7 +146,7 @@ Lena quay lại.
 
 "Ừ. Mà tuần trước con gái tôi hỏi tôi là sao cô bác sĩ cá cứ hay nhìn biển trên tivi thế. Tôi chẳng biết trả lời nó sao." Viper nhún vai. "Giờ thì biết rồi."
 
-Lin bước xuống nốt hai bậc thang. "Em đi."
+Linh bước xuống nốt hai bậc thang. "Em đi."
 
 "Linh—"
 

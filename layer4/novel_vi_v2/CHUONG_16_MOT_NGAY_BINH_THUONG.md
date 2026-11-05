@@ -1,6 +1,6 @@
 # CHƯƠNG 16: MỘT NGÀY BÌNH THƯỜNG
 
-"Chị chết rồi," Lin nói.
+"Chị chết rồi," Linh nói.
 
 "Chị biết."
 
@@ -8,17 +8,17 @@
 
 "Chị biết mà, Linh."
 
-"Em nói để chị biết thôi." Lin ngồi xổm cạnh cái xác ảo của Lena, chống cằm, đuôi tóc đung đưa. Bọt ngồi trên vai cô, thổi ra một cái bong bóng to tướng như để chia buồn. "Thật ra lần này chị chết nhanh hơn lần trước bốn giây đấy, nên cũng coi như tiến bộ, theo một nghĩa nào đó."
+"Em nói để chị biết thôi." Linh ngồi xổm cạnh cái xác ảo của Lena, chống cằm, đuôi tóc đung đưa. Bọt ngồi trên vai cô, thổi ra một cái bong bóng to tướng như để chia buồn. "Thật ra lần này chị chết nhanh hơn lần trước bốn giây đấy, nên cũng coi như tiến bộ, theo một nghĩa nào đó."
 
 Lena nằm ngửa trên nền bê tông giả của một nhà kho bỏ hoang, nhìn lên trần nhà làm bằng những thanh dầm sắt rỉ, và tự hỏi sao mình lại gật đầu đồng ý vụ này.
 
-Đây là phòng tập Vanguard, một bản sao thu nhỏ của Layer 3 mà ai có tài khoản Somnia cũng vào được. Thời gian ở đây chỉ nhanh gấp năm lần chứ không phải một trăm, vì luật dân sự không cho phép hơn, mười phút ngoài đời bằng năm mươi phút trong này. Ăn trưa xong Lin đã lôi cô vào đây, lý do là: "Nếu chị định đi cùng tụi em tới cái chỗ nguy hiểm nào đó thì ít ra chị cũng phải biết cầm súng chứ."
+Đây là phòng tập Vanguard, một bản sao thu nhỏ của Layer 3 mà ai có tài khoản Somnia cũng vào được. Thời gian ở đây chỉ nhanh gấp năm lần chứ không phải một trăm, vì luật dân sự không cho phép hơn, mười phút ngoài đời bằng năm mươi phút trong này. Ăn trưa xong Linh đã lôi cô vào đây, lý do là: "Nếu chị định đi cùng tụi em tới cái chỗ nguy hiểm nào đó thì ít ra chị cũng phải biết cầm súng chứ."
 
-Lena đã chỉ ra rằng cô là bác sĩ. Lin chỉ ra rằng Viper cũng từng là thợ làm bánh đấy thôi.
+Lena đã chỉ ra rằng cô là bác sĩ. Linh chỉ ra rằng Viper cũng từng là thợ làm bánh đấy thôi.
 
 "Viper từng làm bánh à?"
 
-"Ổng mở tiệm bánh với vợ, hồi chị ấy còn sống. Bánh sừng bò của ổng ngon lắm." Lin nhún vai. "Giờ thì ổng bán taco. Đời mà chị."
+"Ổng mở tiệm bánh với vợ, hồi chị ấy còn sống. Bánh sừng bò của ổng ngon lắm." Linh nhún vai. "Giờ thì ổng bán taco. Đời mà chị."
 
 Lena không biết vợ Viper đã mất. Cô nghĩ tới ngôi nhà xanh lơ, chiếc xích đu bằng lốp xe, hàng chậu dã quỳ héo một nửa ngoài hiên. Một người đàn ông to lớn chỉ chăm được một nửa số hoa, nửa còn lại thì đành bỏ đó.
 
@@ -34,15 +34,15 @@ Cô chờ, đếm, rồi bắn.
 
 Lần thứ mười bốn, cô sống sót.
 
-Lin đứng ở cửa nhà kho, miệng há hốc, Bọt thổi ra liền ba cái bong bóng.
+Linh đứng ở cửa nhà kho, miệng há hốc, Bọt thổi ra liền ba cái bong bóng.
 
-"Chị vừa..." Lin bắt đầu.
+"Chị vừa..." Linh bắt đầu.
 
 "Độ trễ phản ứng," Lena nói. Cô vẫn đang thở dốc, tay vẫn cầm khẩu súng ảo, và cô thấy trong người dâng lên một thứ cảm giác mà lâu lắm rồi cô không có, một niềm vui ngớ ngẩn và trẻ con. "Từ lúc phát hiện ra mình tới lúc quay đầu lại, tụi nó trễ mất chừng ba trăm mili giây. Giống hệt cách chị phân biệt ký ức thật với ký ức cấy ấy, cứ nhìn vào chỗ trễ là ra."
 
-Lin nhìn cô thêm hai giây nữa, rồi hét toáng lên, chạy tới nhảy phốc lên lưng Lena như một con khỉ.
+Linh nhìn cô thêm hai giây nữa, rồi hét toáng lên, chạy tới nhảy phốc lên lưng Lena như một con khỉ.
 
-"ANH VIPER!" Lin gào vào kênh liên lạc. "ANH VIPER ƠI, BÁC SĨ CÁ VỪA SOLO NGUYÊN CẢ PHÒNG TẬP!"
+"ANH VIPER!" Linh gào vào kênh liên lạc. "ANH VIPER ƠI, BÁC SĨ CÁ VỪA SOLO NGUYÊN CẢ PHÒNG TẬP!"
 
 Từ đâu đó vọng lại giọng Viper, nhỏ và rè, ông ta đang ở ngoài đời. "Cái gì? Tao đang thái hành!"
 
@@ -56,7 +56,7 @@ Từ đâu đó vọng lại giọng Viper, nhỏ và rè, ông ta đang ở ngo
 
 Ngày mười lăm tháng Chín là sinh nhật Rosie, cô bé tròn chín tuổi.
 
-Viper định tổ chức một bữa tiệc nhỏ ngoài sân với bánh kem và mấy đứa bạn cùng lớp, nhưng tình hình lúc này đâu có cho phép mời người lạ tới nhà. Thế là Lin nghĩ ra một cách khác: làm tiệc trong Tổ Quạ.
+Viper định tổ chức một bữa tiệc nhỏ ngoài sân với bánh kem và mấy đứa bạn cùng lớp, nhưng tình hình lúc này đâu có cho phép mời người lạ tới nhà. Thế là Linh nghĩ ra một cách khác: làm tiệc trong Tổ Quạ.
 
 Rosie có quyền quản trị phụ từ lâu rồi. Cô bé dành nguyên buổi sáng để trang trí lại boong tàu: ruy băng cầu vồng quấn quanh mọi lan can, bóng bay hình khủng long lơ lửng khắp nơi, và ở chính giữa là một cái bánh kem năm tầng cao hơn cả Viper, mỗi tầng một màu, trên cùng cắm một ngọn nến hình con cá vàng bơi nghiêng.
 
@@ -84,7 +84,7 @@ Rosie thổi, ngọn nến cá vàng chao đi, kêu *bloop* một tiếng rồi 
 
 Lena cúi xuống. Qua đầu Rosie, cô thấy Elias đang nhìn mình, ở rất gần. Ánh nến hắt lên mặt anh, và anh đang cười, khác hẳn tiếng cười vụng về trên xe taco hôm nào, lần này là một nụ cười nhỏ và thật, ở khóe mắt nhiều hơn ở khóe miệng.
 
-Cô thổi. Ngọn nến tắt, mấy con khủng long bóng bay đồng loạt nổ tung thành kim tuyến, Kẹo hắt hơi, Brisket sủa, Lin hét, Viper bật nhạc, một bài chúc mừng sinh nhật phiên bản nhạc đồng quê do chính ông ta tự thu, lạc tông từ đầu chí cuối.
+Cô thổi. Ngọn nến tắt, mấy con khủng long bóng bay đồng loạt nổ tung thành kim tuyến, Kẹo hắt hơi, Brisket sủa, Linh hét, Viper bật nhạc, một bài chúc mừng sinh nhật phiên bản nhạc đồng quê do chính ông ta tự thu, lạc tông từ đầu chí cuối.
 
 Rosie nhảy cẫng lên. "Ước đi! Mọi người ước đi!"
 
@@ -142,13 +142,13 @@ Lena giật cái lon khỏi tay anh, đọc nhãn, nếm thử sốt, rồi rắ
 
 Anh không đáp, nhưng khóe miệng anh thì không giữ nổi nữa.
 
-Ở cửa bếp, Lin đứng tựa khung cửa từ lúc nào, khoanh tay trước ngực, Bọt nằm vắt trên vai, cả người lẫn mèo cùng nhìn họ với vẻ mặt khoái chí vô cùng.
+Ở cửa bếp, Linh đứng tựa khung cửa từ lúc nào, khoanh tay trước ngực, Bọt nằm vắt trên vai, cả người lẫn mèo cùng nhìn họ với vẻ mặt khoái chí vô cùng.
 
-"Hai người cãi nhau y như vợ chồng già ấy," Lin tuyên bố.
+"Hai người cãi nhau y như vợ chồng già ấy," Linh tuyên bố.
 
 Lena đánh rơi cái muôi. Elias quay phắt đi thái nốt chỗ hành đã thái xong từ mười phút trước.
 
-"Sốt sắp khê rồi kìa," Lin nói, rồi chuồn mất trước khi có ai kịp ném cái gì vào mặt cô.
+"Sốt sắp khê rồi kìa," Linh nói, rồi chuồn mất trước khi có ai kịp ném cái gì vào mặt cô.
 
 ---
 
@@ -166,7 +166,7 @@ Lena không nói gì, ngón tay cô tự tìm tới chiếc nhẫn.
 
 Ông ta đi vào nhà, cánh cửa lưới đóng lại sau lưng đánh cạch một tiếng.
 
-Lena ngồi một mình ngoài hiên, tay cầm chai bia đã ấm. Chiếc điện thoại Lin đưa cho cô sáng nay, một cái máy trả trước rẻ tiền chỉ cài đúng ứng dụng hình con quạ, rung lên trong túi áo. Cô rút nó ra. Chỉ có Lin, Kev, Viper và Elias biết số này, nhưng tin nhắn không đến từ ai trong số họ. Không có tên người gửi, chỉ có một biểu tượng: mặt trăng khuyết màu đen trên nền tím.
+Lena ngồi một mình ngoài hiên, tay cầm chai bia đã ấm. Chiếc điện thoại Linh đưa cho cô sáng nay, một cái máy trả trước rẻ tiền chỉ cài đúng ứng dụng hình con quạ, rung lên trong túi áo. Cô rút nó ra. Chỉ có Linh, Kev, Viper và Elias biết số này, nhưng tin nhắn không đến từ ai trong số họ. Không có tên người gửi, chỉ có một biểu tượng: mặt trăng khuyết màu đen trên nền tím.
 
 > **[N]:** Tôi đã giúp Thomas Daly mười năm. Rồi giúp con trai ông ấy. Cả hai đều tin tôi. Cô cũng nên tin tôi.
 > **[N]:** Họ biết cô là ai rồi, Maren.

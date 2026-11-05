@@ -26,9 +26,9 @@ Kev không mở ngay. Anh cho nó chạy qua bốn chương trình quét trên m
 
 Kho lưu trữ của Thomas Daly là mười năm làm việc của một người cảnh sát không tin vào hồ sơ chính thức.
 
-Những bản sao báo cáo cứu hỏa năm 2004 trước khi bị niêm phong. Những tấm ảnh chụp lén hiện trường Prometheus từ con đường đất phía sau, chụp lúc năm giờ sáng ngày mười lăm tháng Mười, khói vẫn còn bốc lên nghi ngút. Những ghi chép phỏng vấn ba kỹ thuật viên cũ của viện, hai người trong số đó đã chết chưa đầy một năm sau. Một danh sách tên của các "đối tượng phụ" từ số hai tới số năm, ba đứa trẻ, đã được chuyển sang "Phân khu 9" từ tháng Tám năm 2004.
+Những bản sao báo cáo cứu hỏa năm 2004 trước khi bị niêm phong. Những tấm ảnh chụp lén hiện trường Prometheus từ con đường đất phía sau, chụp lúc năm giờ sáng ngày mười lăm tháng Mười, khói vẫn còn bốc lên nghi ngút. Những ghi chép phỏng vấn ba kỹ thuật viên cũ của viện, hai người trong số đó đã chết chưa đầy một năm sau. Một danh sách tên của các "đối tượng phụ" từ số hai tới số năm, bốn đứa trẻ, đã được chuyển sang "Phân khu 9" từ tháng Tám năm 2004.
 
-Kev đọc danh sách đó hai lần và nhớ kỹ ba cái tên. Anh không nói với ai về chúng, chưa phải bây giờ.
+Kev đọc danh sách đó hai lần và nhớ kỹ bốn cái tên. Anh không nói với ai về chúng, chưa phải bây giờ.
 
 Rồi anh tìm thấy thư mục cuối cùng, ngày tạo là mùng hai tháng Năm năm 2012, mười hai ngày trước khi Thomas mất.
 
@@ -46,7 +46,7 @@ Bên trong là những đoạn ghi âm. Thomas đã ghi âm lại chính chiếc
 
 Kev ngồi lặng trước màn hình. Cách đó ba mét, con hạc giấy xám của anh đang đậu trên nóc tủ máy chủ, cánh gập lại, mắt tắt, chế độ ngủ, anh để nó như thế từ ngày tới Ashgrove.
 
-Anh nhìn nó rất lâu, rồi đứng dậy, đi tới nhấc con hạc lên và tắt hẳn nó đi. Không phải để ngủ nữa, mà tắt hẳn. Anh rút luôn phần lõi kết nối ra khỏi khe cắm trên chiếc máy tính nhỏ của mình, thứ mà bảy năm nay anh chưa từng rút ra, kể từ khi rời khỏi chương trình.
+Anh nhìn nó rất lâu, rồi đứng dậy, đi tới nhấc con hạc lên và tắt nó đi, lần này là tắt hẳn. Anh rút luôn phần lõi kết nối ra khỏi khe cắm trên chiếc máy tính nhỏ của mình, thứ mà bảy năm nay anh chưa từng rút ra, kể từ khi rời khỏi chương trình.
 
 Con hạc giấy nằm im lìm trong tay anh, một mảnh giấy xám gấp khéo léo, nhẹ bẫng.
 

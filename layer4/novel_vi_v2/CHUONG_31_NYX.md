@@ -12,7 +12,7 @@ Cô đứng dậy quay về bàn điều khiển, cầm khẩu súng điện lê
 
 Trên màn hình, ba đường sóng còn lại vẫn màu cam. Kev ổn định, Linh nhanh, còn Elias thì... Đường sóng của Elias đang dâng lên, không nhiều, từng chút một, như nước triều bắt đầu lên, không chịu dừng lại. Và đường sóng mờ hơn của cô, chạy song song với nó, cũng đang dâng lên theo.
 
-Ở góc trong đầu cô, sợi dây chun căng ra. Cô cảm thấy anh đang đau. Cái đau ấy không phải đau thể xác, mà giống như một tiếng kêu bị nén lại.
+Ở góc trong đầu cô, sợi dây chun căng ra. Cô cảm thấy anh đang đau, một cái đau chẳng dính dáng gì tới da thịt, giống như một tiếng kêu bị nén lại.
 
 *Viper,* cô nghĩ. *Anh ấy vừa thấy Viper ngã xuống.*
 
@@ -36,7 +36,7 @@ Cô cúi rạp xuống sau bàn điều khiển chính, cái bàn bằng kim lo�
 
 *Nguyên vẹn.* Cô hiểu rất rõ chữ đó nghĩa là gì. Họ cần não cô, phần còn lại thì không.
 
-Bên ngoài khối bê tông có một âm thanh mới, không phải tiếng xe, không phải tiếng súng, mà là một tiếng vo ve điện tử, trầm và nặng, nhiều tầng chồng lên nhau, lớn dần.
+Bên ngoài khối bê tông vang lên một âm thanh mới, một tiếng vo ve điện tử, trầm và nặng, nhiều tầng chồng lên nhau, lớn dần.
 
 Qua cánh cửa thép bị cắt, Lena thấy chúng, ba chiếc drone to như những chiếc xe hơi nhỏ, đen bóng, mỗi chiếc bốn cánh quạt, lơ lửng ngay trước cửa khối bê tông ngang tầm đầu người. Dưới bụng mỗi chiếc là một ụ súng nhiều nòng đang xoay chầm chậm. Ba ụ súng ấy đang chĩa thẳng vào phòng điều khiển, vào bàn điều khiển, vào cô, vào bốn chiếc ghế xếp phía sau cô.
 
@@ -70,7 +70,7 @@ Một tên giơ súng lên chĩa về phía bàn điều khiển, bóp cò. Ch�
 
 > `[VŨ KHÍ BỊ KHÓA — LỖI XÁC THỰC ECHO]`
 
-"Súng thông minh đấy," giọng trên loa máy tính nói. Đó không phải giọng tổng hợp, mà là một giọng phụ nữ thật, khàn khàn, kiểu khàn của người hút thuốc lâu năm, hơi mang âm miền Tây. "Liên kết với Echo trên mũ các anh để nhận diện chủ. Halloway thích mọi thứ đều nói chuyện được với nhau. Tôi cũng thích thế. Nhất là khi chúng nói chuyện với tôi."
+"Súng thông minh đấy," giọng trên loa máy tính nói. Giọng một người phụ nữ thật, khàn khàn, kiểu khàn của người hút thuốc lâu năm, hơi mang âm miền Tây. "Liên kết với Echo trên mũ các anh để nhận diện chủ. Halloway thích mọi thứ đều nói chuyện được với nhau. Tôi cũng thích thế. Nhất là khi chúng nói chuyện với tôi."
 
 Ba tên lính nhìn nhau trong bóng tối, rồi một tên quay người bỏ chạy, hai tên kia chạy theo. Tiếng ủng của chúng nện trên sỏi bên ngoài, xa dần, lẫn vào tiếng xe tải đang cháy và tiếng những người khác đang la hét.
 

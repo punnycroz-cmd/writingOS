@@ -94,9 +94,11 @@ Khi Elias trưởng thành, viện dùng quyền lực ngầm dẫn dắt để 
 | 21/8/2024 | Elias vào Layer 4 và gặp sự cố. |
 | **1/9/2024** | Elias tỉnh dậy (Ch.1). |
 | **14/10/2024** | Ngày giỗ thứ 20 của Elena. Trận đánh cuối. |
-| 15/10/2024 | Halloway bị bắt. Elias hôn mê. Epilogue. |
+| 15/10/2024 | Halloway được tìm thấy bất tỉnh (23:31 đêm 14/10). Bộ Tư pháp đình chỉ Somnia 5.0 lúc 23:58. Elias hôn mê ở Maine Medical, Portland. |
+| 17/10/2024 | Maren ký giấy với tên **Maren Solis**, ô quan hệ ghi "Bạn từ hồi nhỏ". Ngón tay Elias gõ đáp. FBI báo Trạm Đảo nằm bên kia đường ranh giới Hague (vùng nước Canada), phải chờ hợp tác. |
+| **18/10/2024, 04:17** | Epilogue. Corwin tỉnh trong buồng Mark-IV số 02, khu C, Trạm Đảo. Nyx nhắn cho Maren. |
 
-**Địa điểm:** một thành phố ven biển phía Đông nước Mỹ; nhà của Viper ở một thị trấn công nghiệp; Hải đăng Point Lookout ở bờ biển Maine; Trạm Đảo Sinh Thái ngoài khơi vịnh Maine, quanh năm sương mù.
+**Địa điểm:** một thành phố ven biển phía Đông nước Mỹ; nhà của Viper ở một thị trấn công nghiệp; Hải đăng Point Lookout ở bờ biển Maine; Trạm Đảo Sinh Thái ngoài khơi vịnh Maine, quanh năm sương mù: một hòn đảo đá granite cách bờ 80 hải lý, đăng ký dưới tên một quỹ sinh thái ở Nova Scotia, phòng thí nghiệm nằm dưới lòng đá, có các buồng phục hồi Mark-IV.
 
 **Đơn vị đo:** dùng km, m, kg, °C.
 

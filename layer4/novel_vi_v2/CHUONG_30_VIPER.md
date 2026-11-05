@@ -30,7 +30,7 @@ Mười hai phút đầu tiên, mọi chuyện diễn ra đúng như thằng Van
 
 Ông bắn, ông hét, ông lại bắn.
 
-Có một lúc, giữa những tiếng nổ, ông nghĩ tới Rosie, không phải nghĩ trong lo lắng, mà là cái kiểu nghĩ của một người đang làm một chuyện gì đó ngớ ngẩn nhưng vui: *ước gì con bé được nhìn thấy bố nó lúc này.* Ông nghĩ chắc con bé sẽ thích lắm, sẽ vỗ tay, sẽ bảo bố là siêu anh hùng. Rồi ông lại nghĩ: không, chắc con bé sẽ bảo bố hét to quá, làm con đau tai.
+Có một lúc, giữa những tiếng nổ, ông nghĩ tới Rosie, chẳng lo lắng gì, chỉ là cái kiểu nghĩ của một người đang làm một chuyện ngớ ngẩn mà vui: *ước gì con bé được nhìn thấy bố nó lúc này.* Ông nghĩ chắc con bé sẽ thích lắm, sẽ vỗ tay, sẽ bảo bố là siêu anh hùng. Rồi ông lại nghĩ: không, chắc con bé sẽ bảo bố hét to quá, làm con đau tai.
 
 Ông bật cười giữa quảng trường, giữa làn đạn đỏ.
 
@@ -98,7 +98,7 @@ Vòng tường thứ hai, bắn, nứt, lao qua. Bốn tên. Ông bắn hai tên
 
 Vòng tường thứ ba, cao nhất, dày nhất. Ông bắn, tường nứt mà không vỡ. Ông bắn thêm phát nữa, cái lỗ chỉ đủ cho một con chó chui qua. Ông vứt khẩu súng xuống, lùi lại năm bước, rồi chạy, lao cả thân hình hai mét bọc giáp titan vào chỗ nứt ấy. Bức tường vỡ toang. Ông ngã nhào qua lỗ thủng, lăn một vòng trên sân đá đen, và khi ngẩng lên, ông thấy họ.
 
-Thằng Vane đứng giữa sân, hai thanh kiếm xanh lam đã tuốt ra, chắn trước con Lin. Con bé đứng sau lưng nó, nhỏ xíu, hai tay ôm khư khư cái máy giải mã hình viên kim cương vào ngực. Xung quanh họ là cả trăm con thú đen đứng im, mắt bạc mờ.
+Thằng Vane đứng giữa sân, hai thanh kiếm xanh lam đã tuốt ra, chắn trước con Linh. Con bé đứng sau lưng nó, nhỏ xíu, hai tay ôm khư khư cái máy giải mã hình viên kim cương vào ngực. Xung quanh họ là cả trăm con thú đen đứng im, mắt bạc mờ.
 
 Còn trên đỉnh cánh cổng, cái tháp pháo ba nòng đã đỏ rực lên, những vòng năng lượng ở đầu nòng xoay tròn mỗi lúc một nhanh.
 
@@ -130,7 +130,7 @@ Một khuôn mặt hiện ra phía trên ông, là thằng Vane, mặt trắng b
 
 "Đi đi đồ ngốc. Tao không ngã xuống để mày đứng đây mà nhìn đâu."
 
-Thêm một khuôn mặt nữa, là con Lin. Con bé đang khóc, nước mắt ảo chảy trên làn da ánh ngọc trai.
+Thêm một khuôn mặt nữa, là con Linh. Con bé đang khóc, nước mắt ảo chảy trên làn da ánh ngọc trai.
 
 "Anh Viper," con bé nói. "Anh Viper ơi, đừng mà."
 
@@ -148,7 +148,7 @@ Rồi bầu trời đỏ biến mất.
 
 Lena đang đứng sau bàn điều khiển, súng điện chĩa vào cánh cửa thép đang rung lên sau tiếng nổ thứ hai, thì chiếc ghế thứ ba bắt đầu rung theo.
 
-Cô quay lại. Viper đang co giật, không phải những cái giật nhẹ của người đang mơ, mà là toàn thân cong lên khỏi lưng ghế, hai tay co quắp, đầu ngửa ra sau, miệng há hốc. Trên màn hình, đường sóng màu cam của ông ta dựng đứng thành một đỉnh nhọn, rồi tụt thẳng xuống, rồi một dòng chữ đỏ nhấp nháy:
+Cô quay lại. Viper đang co giật. Toàn thân ông ta cong bật lên khỏi lưng ghế, hai tay co quắp, đầu ngửa ra sau, miệng há hốc. Trên màn hình, đường sóng màu cam của ông ta dựng đứng thành một đỉnh nhọn, rồi tụt thẳng xuống, rồi một dòng chữ đỏ nhấp nháy:
 
 > `[VIPER_99: NGẮT KẾT NỐI CƯỠNG CHẾ — PHÁT HIỆN SỐC PHẢN HỒI]`
 

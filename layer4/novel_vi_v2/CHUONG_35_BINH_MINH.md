@@ -1,140 +1,172 @@
 # CHƯƠNG 35: BÌNH MINH
 
-Sau này, khi người ta hỏi Maren về đêm đó, hỏi rất nhiều lần, trong phòng thẩm vấn của FBI, trong phòng khách của bà Ruth, trong những buổi điều trần mà cô phải làm chứng trước một ủy ban quốc hội, cô luôn nhớ những thứ không quan trọng.
+Sau này người ta hỏi Maren về đêm ấy rất nhiều lần, trong phòng làm việc của FBI, trong phòng khách nhà bà Ruth, trước một ủy ban quốc hội với cái micro cứ tụt xuống mãi, và lần nào cô cũng chỉ nhớ được những thứ chẳng quan trọng gì.
 
-Cô nhớ cánh quạt trực thăng thổi tung đám tro của chiếc xe tải cháy, tro bay lên như tuyết đen. Cô nhớ một nhân viên y tế của đội phản ứng nhanh, một người phụ nữ trẻ có tàn nhang và mái tóc đỏ buộc túm, đã quỳ xuống cạnh cô trên sàn bê tông và hỏi *cô có phải bác sĩ không*, và cô đã trả lời *có*, và người phụ nữ ấy đã đưa cho cô máy khử rung tim mà không hỏi thêm câu nào. Cô nhớ đôi găng tay cao su xanh lá của người phụ nữ ấy, dính máu của Elias. Cô nhớ tiếng máy khử rung kêu *bíp* trước mỗi lần phóng điện. Ba lần.
+Cô nhớ cánh quạt trực thăng thổi tung đám tro từ mấy chiếc xe tải cháy, tro bay lên đen kịt như tuyết rơi ngược. Cô nhớ một nhân viên y tế của đội phản ứng nhanh, một phụ nữ trẻ có tàn nhang, tóc đỏ buộc túm, quỳ xuống cạnh cô trên sàn bê tông và hỏi *cô có phải bác sĩ không*, cô đáp *phải*, thế là người phụ nữ ấy đưa luôn máy khử rung tim cho cô mà không hỏi thêm câu nào. Cô nhớ đôi găng cao su xanh lá của chị ta dính máu Elias. Cô nhớ cái máy kêu *bíp* một tiếng trước mỗi lần phóng điện. Ba lần.
 
-Cô nhớ mình đếm. Ba mươi lần ép ngực. Hai lần thổi. Ba mươi lần ép ngực. Cô nhớ cảm giác xương ức của anh dưới lòng bàn tay mình, cứng và mỏng hơn cô tưởng. Cô nhớ mình đã nghĩ, rất rõ ràng, giữa lần ép thứ mười bảy và mười tám: *mình chưa bao giờ làm việc này với người thật.* Năm năm làm giám định viên. Cô chỉ đọc biểu đồ.
+Cô nhớ mình đếm. Ba mươi lần ép ngực, hai lần thổi, rồi lại ba mươi lần ép ngực. Cô nhớ xương ức của anh dưới lòng bàn tay mình, cứng và mỏng hơn cô tưởng. Cô nhớ giữa lần ép thứ mười bảy và thứ mười tám, cô đã nghĩ rất rõ ràng: *đã lâu lắm rồi mình không làm việc này với một người thật.* Mấy năm nay cô chỉ đọc biểu đồ.
 
-Cô nhớ con quạ phát sáng trên vai anh. Nó không bay đi. Suốt ba lần sốc điện, nó vẫn đậu đó, hình chiếu ba chiều mờ mờ nhấp nháy mỗi khi dòng điện chạy qua người anh, nhưng không bay đi. Người phụ nữ tóc đỏ nhìn nó một lần, nhíu mày, rồi không nhìn nữa. Sau lần sốc thứ ba, đường thẳng trên màn hình nhảy lên.
+Cô nhớ con quạ phát sáng trên vai anh. Nó không bay đi. Suốt ba lần sốc điện nó vẫn đậu ở đó, cái hình chiếu mờ mờ chập chờn mỗi khi dòng điện chạy qua người anh, nhưng nó không bay đi. Chị y tá tóc đỏ nhìn nó một lần, nhíu mày, rồi thôi không nhìn nữa.
 
-Một nhịp. Rồi một nhịp nữa. Chậm. Rất chậm. Bốn mươi một nhịp một phút. Nhưng có.
+Sau lần sốc thứ ba, đường thẳng trên màn hình nhảy lên.
 
-Cô ngồi bệt xuống sàn bê tông. Cô nhớ mình đã ngồi đó, hai tay đặt trên đùi, găng tay dính máu, và không đứng dậy được. Người phụ nữ tóc đỏ đặt một bàn tay lên vai cô, rất nhẹ, rồi đi làm việc khác.
+Một nhịp, rồi thêm một nhịp nữa. Chậm, chậm lắm, bốn mươi mốt nhịp một phút. Nhưng có.
+
+Cô ngồi bệt xuống sàn. Cô nhớ mình cứ ngồi đó, hai tay đặt trên đùi, găng tay dính máu, mà không sao đứng dậy nổi. Chị y tá tóc đỏ đặt tay lên vai cô, nhẹ thôi, rồi quay đi làm việc khác.
 
 ---
 
-Kev và Linh tỉnh dậy trước khi trực thăng tới.
+Kev và Linh tỉnh lại trước khi trực thăng tới.
 
-Maren không biết lúc nào. Cô đang ép ngực cho Elias khi cô nghe tiếng ai đó ho sặc sụa ở chiếc ghế thứ hai. Linh ngồi dậy, giật vòng cảm biến ra khỏi đầu, nôn thẳng xuống sàn. Kev ở chiếc ghế đầu tiên đã đứng dậy, loạng choạng như người say, đi tới, quỳ xuống cạnh Linh, và giữ tóc cho cô.
+Maren không biết là lúc nào. Cô đang ép ngực cho Elias thì nghe thấy tiếng ai đó ho sặc sụa ở chiếc ghế thứ hai. Linh ngồi bật dậy, giật vòng cảm biến ra khỏi đầu, rồi nôn thẳng xuống sàn. Ở chiếc ghế đầu, Kev đã đứng lên, loạng choạng như người say, đi tới quỳ xuống cạnh Linh, và giữ tóc cho cô bé.
 
-Không ai nói gì. Linh nôn xong, quệt miệng vào tay áo, ngẩng lên, thấy Maren đang ép ngực cho Elias, và bật khóc.
+Không ai nói gì. Linh nôn xong, quệt miệng vào tay áo, ngẩng lên, nhìn thấy Maren đang ép ngực cho Elias, và òa khóc.
 
-Kev nhìn Maren qua căn phòng đầy khói. Anh ta không hỏi gì. Anh ta chỉ đứng dậy, đi tới bàn điều khiển, nhìn màn hình phát tán.
+Kev nhìn Maren qua căn phòng mù mịt khói. Anh không hỏi gì cả, chỉ đứng dậy, đi tới bàn điều khiển, nhìn màn hình phát tán.
 
 > `[TIẾN ĐỘ: 100%]`
-> `[ĐÃ NHẬN: 418/418 ĐỊA CHỈ]`
+> `[ĐÃ NHẬN: 419/419 ĐỊA CHỈ]`
 
-Anh ta đứng đó, đọc dòng chữ ấy, một tay vẫn cầm con hạc giấy cánh lệch mà Linh đã gấp cho anh, và vai anh ta run lên. Maren chưa bao giờ thấy Kev khóc. Cô không chắc là anh ta đang khóc. Cô không nhìn kỹ. Cô đang đếm.
-
----
-
-Bình minh lên lúc sáu giờ mười hai, ở bờ biển Maine, ngày mười lăm tháng Mười.
-
-Maren thấy nó qua ô cửa sổ tròn của chiếc trực thăng cấp cứu đang bay về Portland. Biển chuyển từ đen sang xám, rồi sang một màu bạc mỏng manh. Mặt trời nhô lên từ đường chân trời phía đông, đỏ, tròn, không chói, như một quả táo.
-
-Elias nằm trên cáng, ống thở trong cổ họng, mặt trắng như sáp. Cô ngồi cạnh, tay đặt trên cổ tay anh, đếm mạch. Bốn mươi tám. Năm mươi. Năm mươi hai.
-
-Con quạ đã biến mất khi họ khiêng anh lên trực thăng. Cô nghĩ có lẽ pin điện thoại hết. Có lẽ không phải.
-
-Ở phía đông, nơi mặt trời vừa lên, ở đâu đó dưới lớp sương mù trên mặt biển mà cô không nhìn thấy được, cách bờ tám mươi hải lý, có một hòn đảo.
-
-Cô không nhìn về phía đó. Cô nhìn anh.
+Anh đứng đó đọc dòng chữ ấy, tay vẫn nắm con hạc giấy cánh lệch Linh gấp cho anh tối hôm trước, và vai anh run lên. Maren chưa bao giờ thấy Kev khóc. Cô cũng không chắc là anh đang khóc, cô không nhìn kỹ. Cô còn đang bận đếm.
 
 ---
 
-Iris Halloway được tìm thấy lúc mười hai giờ bốn mươi sáng, nằm trên sàn văn phòng của bà ta trên tầng bốn mươi hai tòa tháp Halloway Neuro-Systems ở Manhattan, bất tỉnh, mạch yếu, đồng tử giãn không đều. Một nhân viên bảo vệ trực đêm đã gọi cấp cứu khi nghe tiếng ghế đổ.
+Iris Halloway được tìm thấy lúc mười một giờ ba mươi mốt phút đêm, nằm trên sàn văn phòng của bà ta ở tầng bốn mươi hai tòa tháp Halloway Neuro-Systems, bất tỉnh, mạch yếu, hai đồng tử giãn không đều. Một nhân viên bảo vệ trực đêm đi tuần ngang qua, nghe thấy tiếng ghế đổ thì gõ cửa, gõ mãi không ai trả lời, đành gọi cấp cứu.
 
-Ba mươi phút sau, khi bà ta được đưa lên xe cứu thương, những hồ sơ đầu tiên đã bắt đầu xuất hiện trên màn hình của các biên tập viên trực đêm ở Reuters và AP. Đến bảy giờ sáng, nó ở khắp nơi.
+Lúc bà ta được đưa lên xe cứu thương thì những tập hồ sơ đầu tiên đã hiện lên trên màn hình của các biên tập viên trực đêm ở Reuters và AP. Tới bảy giờ sáng thì chúng ở khắp mọi nơi.
 
-Báo cáo vụ cháy năm 2004. Bản ghi nhớ năm 2010 về việc cấy ký ức giả cho "Đối tượng Zero". Những đoạn ghi âm Thomas Daly làm trong phòng ngủ của mình năm 2012, phân tích dữ liệu Echo gửi về máy chủ riêng của Halloway. Nhật ký vận hành của chiếc Echo trong xe ông, mười một ngày sau đó, ghi rõ lệnh điều khiển được gửi từ xa ba giây trước khi chiếc xe lao khỏi cầu. Tài liệu kỹ thuật của Somnia 5.0. Sơ đồ cấu hình cặp.
+Báo cáo vụ cháy năm 2004. Bản ghi nhớ năm 2010 về việc cấy ký ức giả cho "Đối tượng Zero". Những đoạn ghi âm Thomas Daly làm trong phòng ngủ của mình năm 2012, cùng ghi chép viết tay phân tích những gói dữ liệu con Echo gửi về máy chủ riêng của Halloway. Nhật ký vận hành của con Echo trong xe ông mười hai ngày sau đó, ghi rõ một lệnh điều khiển gửi từ xa sáu giây trước khi chiếc xe lao xuống sông. Tài liệu kỹ thuật của Somnia 5.0. Sơ đồ cấu hình cặp đối tượng.
 
-Và một đoạn video. Ba phút. Camera an ninh của Prometheus, đêm mười bốn tháng Mười năm 2004, mà Thomas Daly đã giữ và Nyx đã giấu suốt hai mươi năm. Một hành lang đầy khói. Một cậu bé ngồi chặn một cái ống thông gió. Một người phụ nữ với cánh tay bỏng, đứng dang tay chắn giữa cậu bé và những ánh đèn pin.
+Còn có một đoạn video dài ba phút, Nyx tung nó lên lúc năm giờ sáng, kèm theo đúng một dòng chữ: *Tên bà ấy là Elena Solis.*
 
-Đoạn video không có âm thanh. Nhưng nếu nhìn kỹ, người ta thấy môi người phụ nữ đang mấp máy. Theo một nhịp. Như đang hát.
+Đó là hình ảnh từ camera an ninh của Prometheus đêm mười bốn tháng Mười năm 2004, thứ Thomas Daly đã giữ và Nyx đã cất kỹ suốt hai mươi năm. Một hành lang đầy khói, một cậu bé ngồi chặn một cái ống thông gió, và một người phụ nữ có cánh tay bị bỏng đứng quay lưng về phía cậu, dang hai tay ra chắn giữa cậu bé và những ánh đèn pin đang tới gần.
 
-Somnia 5.0 không được ra mắt lúc nửa đêm. Bộ Tư pháp đã gửi lệnh tạm đình chỉ khẩn cấp lúc mười một giờ năm mươi tám phút, hai phút trước giờ cập nhật tự động, sau khi Nyx đã gửi cho một người bạn cũ ở đó những trang đầu tiên của tài liệu kỹ thuật. Maren không biết chuyện đó cho tới ba ngày sau.
+Đoạn video không có tiếng. Nhưng ai nhìn kỹ sẽ thấy môi người phụ nữ mấp máy theo một nhịp đều đều, như đang hát.
 
-Sáu giờ sáng, Nia Okafor ngồi trước ống kính của một kênh truyền hình buổi sáng ở Boston, trong chiếc áo blazer màu vàng mù tạt quen thuộc, và nói, bình tĩnh, rõ ràng, rằng cô là đồng nghiệp tám năm của Tiến sĩ Lena Hale, rằng cô có trong tay bản sao toàn bộ dữ liệu từ phòng khám đã bị đốt, mà cô đã sao lưu lên một máy chủ riêng theo đúng quy trình hàng tuần mà Tiến sĩ Hale bắt cô làm và cô thì luôn lười làm nhưng tuần đó vì một lý do nào đó lại làm. Rằng đoạn video về vụ "bắt cóc" được phát trên truyền hình ba tuần trước là giả, và cô có thể chứng minh điều đó. Rằng cô muốn nói với bạn mình, nếu bạn mình đang xem, là tủ lạnh văn phòng cũ của họ vẫn còn một hộp phở mà cô đã để phần, và bây giờ chắc nó đã hỏng rồi.
-
-Maren không xem đoạn phỏng vấn đó. Cô đang ở trong phòng chờ của khoa hồi sức thần kinh, bệnh viện Maine Medical, Portland. Linh xem nó trên điện thoại, và cho cô nghe đoạn cuối, và Maren đã cười tới mức y tá phải ra nhắc.
+Somnia 5.0 không được ra mắt lúc nửa đêm. Mười một giờ năm mươi tám phút, hai phút trước giờ cập nhật tự động, Bộ Tư pháp đã gửi lệnh tạm đình chỉ khẩn cấp, sau khi Nyx chuyển cho một người quen cũ ở đó mấy chục trang đầu của tài liệu kỹ thuật. Ba ngày sau Maren mới biết chuyện này.
 
 ---
 
-Viper tỉnh dậy lúc chín giờ sáng ở phòng bên cạnh. Ông ta không nhớ gì sau khi bầu trời đỏ biến mất. Ông ta nhớ tên mình, tên con gái mình, và công thức ớt hầm. Bác sĩ bảo đó là dấu hiệu tốt.
+Bình minh lên lúc sáu giờ mười hai phút, ngày mười lăm tháng Mười.
 
-Rosie tới lúc hai giờ chiều, cùng chú Diego và bà Rosa, sau một chuyến xe sáu tiếng từ Vermont. Cô bé chạy dọc hành lang bệnh viện, ủng vàng nện lạch bạch trên sàn nhựa, và lao lên giường bố trước khi bất kỳ ai kịp cản. Viper ôm con gái, khóc và cười cùng lúc, ồn ào, kiểu của một người không biết cách làm việc gì một cách lặng lẽ.
+Maren ngắm nó qua ô cửa sổ cuối hành lang khoa hồi sức thần kinh, bệnh viện Maine Medical, Portland. Từ trên này nhìn xuống thấy được cả vịnh Casco, mặt nước đổi từ đen sang xám rồi sang một màu bạc mỏng tang, và mặt trời nhô lên từ phía đông, đỏ, tròn, không chói, như một quả táo.
+
+Con quạ đã biến mất lúc người ta khiêng anh lên trực thăng. Cô nghĩ có khi là điện thoại hết pin. Mà có khi cũng không phải.
+
+Ở đâu đó phía đông, dưới lớp sương mù trên mặt biển mà cô không nhìn thấy được, cách bờ tám mươi hải lý, có một hòn đảo.
+
+Cô nhìn về phía ấy một lúc lâu, rồi quay vào.
+
+---
+
+Sáu giờ rưỡi sáng, Nia Okafor xuất hiện trên một kênh truyền hình buổi sáng, mặc cái áo blazer màu vàng mù tạt mà Maren vẫn bảo trông như áo của người dẫn chương trình xổ số, và nói, bình tĩnh và rõ ràng, rằng cô là đồng nghiệp tám năm của Tiến sĩ Lena Hale. Rằng đoạn video "bắt cóc" phát trên truyền hình hồi đầu tháng Chín là đồ giả, và cô chứng minh được, bắt đầu từ cái bóng của người phụ nữ trong video đổ lệch đi mười độ. Rằng cô có trong tay bản sao toàn bộ dữ liệu của phòng khám trước khi nó bị đốt, vì cô đã sao lưu theo đúng cái quy trình hằng tuần mà Tiến sĩ Hale bắt cô làm, mà cô thì tuần nào cũng lười, chỉ riêng tuần ấy, chẳng hiểu vì sao, lại làm.
+
+Rồi cô nhìn thẳng vào ống kính và nói rằng nếu bạn cô đang xem, thì cô vẫn còn nợ bạn một bát phở ở cái quán phố Bốn, quán đó mở tới mười giờ, và lần này thì đừng có từ chối.
+
+Maren không xem đoạn ấy. Linh xem trên điện thoại rồi bật lại cho cô nghe đúng câu cuối, và Maren cười nhiều tới mức y tá phải ra nhắc.
+
+---
+
+Viper tỉnh lúc chín giờ sáng, ở phòng bên cạnh. Ông không nhớ gì sau lúc bầu trời đỏ biến mất. Ông chỉ nhớ tên mình, tên con gái, và công thức món ớt hầm. Bác sĩ bảo thế là dấu hiệu tốt.
+
+Rosie tới lúc hai giờ chiều cùng chú Diego và bà Rosa, sau sáu tiếng ngồi xe từ trên núi bên Vermont xuống. Cô bé chạy dọc hành lang bệnh viện, đôi ủng vàng nện lạch bạch trên sàn nhựa, và phóng lên giường bố trước khi ai kịp cản. Viper ôm chầm lấy con, vừa khóc vừa cười, ồn ào, cái kiểu của một người cả đời chưa làm được việc gì cho lặng lẽ.
 
 "Bố có thắng không?" Rosie hỏi, mặt vùi vào ngực bố.
 
-Viper nhìn qua đầu con gái, ra cửa, nơi Maren đang đứng.
+Viper ngẩng lên, nhìn qua mái đầu con gái ra phía cửa, nơi Maren và Linh đang đứng. Ông không nhớ. Maren thấy rõ điều đó trên mặt ông, cái vẻ của một người tỉnh dậy sau một trận đánh mà không biết mình đã ở bên nào.
 
-"Chú Vane nhờ cô nói là bố thắng," Maren nói.
+"Thắng chứ," Linh nói. Giọng cô bé vẫn còn khàn, nhưng chẳng run chút nào. "Chị ở đó mà, chị thấy hết. Bố em đứng một mình chặn cả một bức tường, cho tụi chị chạy qua." Cô bé hít mũi một cái. "Mà chính bố em dặn chị nói với em thế đấy."
 
-Viper nhìn cô rất lâu. Rồi ông ta gật đầu, và ôm Rosie chặt hơn.
-
----
-
-Kev và Linh ở lại bệnh viện, ngủ trên những chiếc ghế nhựa trong phòng chờ, thay phiên nhau đi mua cà phê. Họ không được phép vào phòng hồi sức. Họ ở lại. Đêm thứ hai, Maren thấy Linh ngủ gật trên vai Kev, và Kev đang ngồi im, nhìn thẳng về phía trước, một tay đặt trên đầu gối Linh như sợ cô gái trượt xuống. Con hạc giấy cánh lệch nằm trong túi áo ngực của anh ta, chỉ ló ra một cái đầu vẹo. Cô không nói gì với ai về chuyện đó.
-
-Bác sĩ Bradley đã ở lại hải đăng, ngồi ở ngưỡng cửa, cho tới khi FBI tới. Ông ta đã nói với họ mọi thứ. Bốn mươi tám tiếng sau, luật sư của ông ta liên lạc với Maren để hỏi liệu cô có sẵn lòng làm chứng rằng ông ta đã hợp tác. Cô nói có. Cô không chắc vì sao. Có lẽ vì một viên kẹo bạc hà.
+Viper nhìn con bé Linh, cái mũi đỏ ửng, đôi mắt còn sưng, cái cằm hếch lên như thách ai dám cãi. Rồi ông gật đầu, và ôm Rosie chặt hơn nữa.
 
 ---
 
-Ngày thứ ba, bác sĩ trưởng khoa hồi sức thần kinh gọi cô vào văn phòng.
+Kev và Linh ở lại bệnh viện, ngủ trên mấy chiếc ghế nhựa ngoài phòng chờ, thay phiên nhau xuống căng tin mua cà phê. Họ không được vào phòng hồi sức, nhưng họ vẫn ở lại. Đêm thứ hai, Maren thấy Linh ngủ gục trên vai Kev, còn Kev ngồi im phắc, mắt nhìn thẳng về phía trước, một tay đặt hờ lên đầu gối cô bé như sợ cô trượt xuống. Con hạc giấy cánh lệch nằm trong túi áo ngực của anh, chỉ ló ra cái đầu vẹo. Maren không kể với ai chuyện đó.
 
-Ông ta là một người đàn ông tốt bụng, mệt mỏi, khoảng sáu mươi tuổi, và ông ta nói với cô những điều mà cô đã biết. Tổn thương vi mạch lan rộng ở cả hai thùy thái dương. Phù não đang được kiểm soát nhưng chưa giảm. Bệnh nhân đang ở trạng thái hôn mê, điểm Glasgow là sáu. Không có tiền lệ nào cho tổn thương kiểu này, vì không có ai khác từng vào Layer 4 hai lần.
+Bà Ruth tới vào sáng ngày thứ hai, mang theo một phích súp gà, một túi quần áo sạch, và cái áo len xám của Maren mà cô đã bỏ quên ở Bayside. Bà ôm cô ở giữa hành lang, ôm lâu tới mức cặp kính bị lệch, và Maren nói vào vai bà rằng bác ơi, cháu nhớ ra rồi, cháu nhớ ra hết rồi.
 
-"Chúng tôi có thể duy trì sự sống," ông ta nói. "Nhưng tôi phải thành thật với cô, Tiến sĩ. Chúng tôi không biết cách sửa nó. Không ai biết."
+"Bác biết," bà Ruth nói. "Bác xem tivi rồi." Bà buông cô ra, sửa lại cặp kính, nhìn cô như nhìn một đứa con vừa đi xa về. "Ăn đi đã, Lena. Rồi muốn kể gì thì kể."
 
-Maren gật đầu.
+Maren để yên cái tên ấy. Cô nhận ra mình chẳng thấy phiền gì cả.
 
-Cô đã đọc cuốn sổ của Corwin hàng chục lần. Cô biết có một nơi ngoài khơi, tám mươi hải lý về phía đông, nơi người ta đã chế tạo ra một cỗ máy để sửa đúng loại tổn thương này. Cô biết có một cái kén trắng ở đó, và một người đàn ông đang nằm trong nó. Cô không nói điều đó với bác sĩ.
+Bác sĩ Bradley thì ở lại hải đăng, ngồi ở ngưỡng cửa cho tới khi FBI tới, và kể với họ tất cả. Bốn mươi tám tiếng sau, luật sư của ông ta gọi cho Maren, hỏi cô có sẵn lòng làm chứng rằng ông ta đã hợp tác hay không. Cô bảo có. Cô cũng không chắc vì sao. Có lẽ vì một viên kẹo bạc hà.
 
-"Tôi cần ký giấy đồng ý điều trị," cô nói. "Với tư cách người thân gần nhất. Anh ấy không có ai khác."
+---
 
-Bác sĩ đẩy một tập hồ sơ qua bàn. Một cây bút.
+Trong hai mươi ba terabyte đã phát tán đi, có một tập tài liệu mà Maren đọc đi đọc lại suốt ba đêm, ngồi trên ghế nhựa ngoài phòng chờ, cái máy tính bảng mượn của Kev đặt trên đùi.
 
-Maren cầm bút lên. Cô nhìn dòng trống ở cuối trang, nơi ghi *Họ tên người ký*.
+*Buồng phục hồi thần kinh Mark-IV. Dành cho đối tượng sau phơi nhiễm Layer 4. Vị trí lắp đặt: Trạm Đảo Sinh Thái.*
 
-Hai mươi năm nay, cô đã ký tên mình hàng nghìn lần. Trên báo cáo giám định, trên đơn thuê nhà, trên giấy đăng ký kết hôn mà cô và Corwin chưa kịp nộp. Lena Hale. Một chữ L nghiêng, một chữ H có nét gạch ngang dài. Cô đặt bút xuống giấy.
+Cô đọc mấy trang thông số tới mức thuộc lòng. Cô đọc cả những dòng ghi chú bên lề, những ca thử nghiệm đánh số, những biểu đồ hồi phục mà nếu là một năm trước, cô sẽ ngồi phân tích với Nia tới tận nửa đêm. Cô cũng đọc cái dòng nhỏ ở cuối trang mười bốn: *Khu C, buồng 02: đang sử dụng (từ 02/2024).*
+
+Tháng Hai năm 2024, cái tháng Corwin ra khơi.
+
+Sáng ngày thứ ba, cô kể với người đặc vụ FBI phụ trách vụ này về Trạm Đảo, về cuốn sổ ở hải đăng, về cái kén trắng. Đó là một người phụ nữ trung niên mệt mỏi tên Petrakis, ngồi nghe cô nói mà không ngắt lời lần nào, rồi lật sổ tay ra, gõ gõ đầu bút lên một trang.
+
+"Chúng tôi biết chỗ đó rồi," bà ấy nói. "Nó đăng ký dưới tên một quỹ nghiên cứu sinh thái ở Nova Scotia, nằm ngay bên kia đường ranh giới Hague, tức là vùng nước Canada. Chúng tôi đã gửi yêu cầu hợp tác sang bên đó." Bà ngừng một chút. "Mấy chuyện này thường mất vài tuần, Tiến sĩ ạ. Có khi lâu hơn."
+
+Maren cảm ơn bà ấy, rồi đi ra hành lang, đứng trước ô cửa sổ nhìn ra vịnh, đứng mãi cho tới khi nắng đã lên cao trên mặt nước.
+
+---
+
+Chiều hôm ấy, bác sĩ trưởng khoa hồi sức thần kinh gọi cô vào phòng.
+
+Ông là một người đàn ông tử tế, mệt mỏi, chừng sáu mươi tuổi, và ông nói với cô những điều cô đã biết cả rồi. Tổn thương vi mạch lan rộng ở cả hai thùy thái dương. Phù não đã kiểm soát được nhưng chưa giảm. Bệnh nhân hôn mê, thang Glasgow sáu điểm. Không có tiền lệ nào cho kiểu tổn thương này, bởi chưa có ai từng vào Layer 4 tới hai lần.
+
+"Chúng tôi duy trì sự sống được," ông nói. "Nhưng tôi phải nói thật với cô, Tiến sĩ, chúng tôi không biết cách chữa. Không ai biết cả."
+
+Maren gật đầu. Cô nghĩ tới trang mười bốn, tới cái tên một quỹ sinh thái ở Nova Scotia, tới cụm từ *vài tuần*. Cô không nói gì với ông về những chuyện ấy.
+
+"Anh ấy không có người thân," bác sĩ nói tiếp, đẩy một tờ giấy qua bàn. "Tòa sẽ chỉ định người giám hộ, nhưng việc đó mất thời gian. Trong lúc chờ, bệnh viện cần một người liên hệ khẩn cấp. Ai đó để chúng tôi gọi khi có chuyện."
+
+Đó là một tờ đơn bình thường, loại mà cô đã điền cả trăm lần cho người khác, có ô để ghi họ tên, có ô để ghi số điện thoại, có ô *Quan hệ với bệnh nhân*. Bác sĩ đưa cho cô một cây bút.
+
+Hai mươi năm nay cô đã ký tên mình cả nghìn lần, trên báo cáo giám định, trên hợp đồng thuê nhà, trên tấm thiệp chúc mừng sinh nhật bà Margaret năm nào cũng giống năm nào. Lena Hale, chữ L nghiêng, chữ H có nét gạch ngang thật dài. Tay cô đã quen tới mức chẳng cần nghĩ.
+
+Cô đặt bút xuống giấy, rồi dừng lại một nhịp.
 
 *Maren Solis.*
 
-Nét chữ hơi run ở chữ M. Không quen tay. Như chữ của một người tập viết tên mình lần đầu.
+Nét chữ hơi run ở chữ M, không quen tay, như chữ của một người lần đầu tập viết tên mình.
 
-Cô nhìn nó rất lâu. Rồi cô đẩy tập hồ sơ lại cho bác sĩ.
+Tới ô *Quan hệ với bệnh nhân*, cô lại dừng lâu hơn. Cô nghĩ tới những chữ người ta hay viết vào cái ô ấy, vợ, chồng, con, anh chị em, người yêu, và chẳng chữ nào đúng cả. Rồi cô viết:
+
+*Bạn từ hồi nhỏ.*
+
+Cô nhìn hai dòng chữ ấy thêm một lúc, rồi mới đẩy tờ giấy lại cho bác sĩ.
 
 ---
 
-Tối hôm đó, cô được phép vào phòng anh mười phút.
+Tối hôm đó cô được vào phòng anh mười phút.
 
-Phòng hồi sức tối, chỉ có ánh sáng xanh từ màn hình theo dõi và tiếng máy thở đều đều, vào, ra, vào, ra. Elias nằm trên giường, ống thở trong miệng, đầu quấn băng trắng, một chiếc vòng cảm biến bệnh viện bao quanh trán. Trông anh nhỏ hơn. Trông anh giống cậu bé trong ảnh hồ sơ. Maren kéo chiếc ghế lại sát giường, ngồi xuống.
+Phòng hồi sức tối om, chỉ có ánh xanh từ màn hình theo dõi và tiếng máy thở đều đều, vào, ra, vào, ra. Elias nằm trên giường, ống thở trong miệng, đầu quấn băng trắng, quanh trán là một chiếc vòng cảm biến của bệnh viện. Trông anh nhỏ đi. Trông anh giống cậu bé trong ảnh hồ sơ. Maren kéo chiếc ghế lại sát giường rồi ngồi xuống.
 
-Cô không nói gì. Cô đã nói chuyện với Corwin suốt tám tháng, những đêm không ngủ được, nói vào bóng tối như thể anh có thể nghe thấy. Cô biết việc đó không giúp được gì. Cô biết nó chỉ dành cho người nói, không phải người nghe.
+Cô không nói gì. Tám tháng qua cô đã nói chuyện với Corwin suốt những đêm không ngủ được, nói vào bóng tối như thể anh nghe thấy được, và cô biết việc ấy chẳng giúp được gì. Nó chỉ dành cho người nói, chứ không dành cho người nghe.
 
-Cô đặt tay lên tay anh. Bàn tay anh lạnh. Hai vết khâu cô khâu trong tiệm giặt tự động đã lành thành hai vết sẹo mảnh. Cô gõ lên mu bàn tay anh.
+Cô đặt tay lên tay anh. Bàn tay anh lạnh, hai mũi khâu cô khâu dưới ánh đèn tiệm giặt hôm nào giờ đã lành thành hai vết sẹo mảnh. Cô gõ lên mu bàn tay anh.
 
 *Ba nhanh. Hai chậm.*
 
 *Tớ ở đây.*
 
-Máy thở. Vào. Ra. Vào. Ra. Không có gì.
+Máy thở vẫn vào, ra, vào, ra. Không có gì cả.
 
-Cô gõ lại. *Ba nhanh. Hai chậm.* Không có gì.
+Cô gõ thêm lần nữa. Ba nhanh, hai chậm. Vẫn không có gì.
 
-Cô không gõ lần thứ ba. Cô chỉ ngồi đó, tay đặt trên tay anh, nhìn đường sóng xanh trên màn hình chạy đều đều, những đỉnh nhỏ, những khoảng lặng.
+Cô không gõ lần thứ ba. Cô chỉ ngồi đó, tay đặt trên tay anh, nhìn đường sóng xanh chạy đều đều trên màn hình, những đỉnh nhỏ, những khoảng lặng.
 
 Năm phút. Bảy phút.
 
-Y tá gõ nhẹ lên cửa kính. Hết giờ.
+Y tá gõ khẽ lên cửa kính. Hết giờ rồi.
 
-Maren đứng dậy. Cô rút tay ra. Và ngón trỏ của anh cử động.
+Maren đứng dậy, rút tay ra. Và ngón trỏ của anh cử động.
 
-Không nhiều. Một chút. Cái kiểu giật nhẹ của một ngón tay trong lúc ngủ. Một lần. Một lần nữa, nhanh hơn. Một lần nữa. Rồi dừng. Hai lần, chậm. Maren đứng sững bên giường, tay vẫn lơ lửng giữa không trung, nhìn ngón tay anh.
+Không nhiều, chỉ một chút, cái kiểu giật nhẹ của ngón tay người đang ngủ. Một lần. Thêm một lần nữa, nhanh. Rồi lần nữa. Ngừng. Rồi hai lần, chậm.
 
-Màn hình theo dõi không ghi nhận gì bất thường. Y tá ngoài cửa không thấy gì. Có lẽ đó chỉ là phản xạ. Có lẽ đó chỉ là một cơn co cơ ngẫu nhiên, thứ mà cô đã thấy hàng trăm lần trên biểu đồ của những bệnh nhân hôn mê và đã ghi vào báo cáo là *không có ý nghĩa lâm sàng*.
+Maren đứng sững bên giường, tay vẫn lơ lửng giữa không trung, nhìn ngón tay anh.
 
-Cô là giám định viên. Cô biết sự khác biệt giữa ký ức và lời khai. Cô biết người ta có thể chân thành tin vào một điều không có thật.
+Màn hình theo dõi không ghi nhận gì bất thường. Cô y tá ngoài cửa cũng chẳng thấy gì. Có thể đó chỉ là phản xạ. Có thể đó chỉ là một cơn co cơ ngẫu nhiên, thứ cô đã thấy cả trăm lần trên biểu đồ của những bệnh nhân hôn mê và đã ghi vào báo cáo là *không có ý nghĩa lâm sàng*.
 
-Cô cúi xuống, đặt tay mình lại lên tay anh, và giữ nguyên ở đó cho tới khi y tá phải vào tận nơi kéo cô ra.
+Cô là giám định viên. Cô biết sự khác nhau giữa ký ức và lời khai. Cô biết người ta có thể thành thật tin vào một điều không hề có thật.
+
+Cô cúi xuống, đặt tay mình trở lại lên tay anh, và cứ để yên như thế cho tới khi cô y tá phải vào tận nơi kéo cô ra.

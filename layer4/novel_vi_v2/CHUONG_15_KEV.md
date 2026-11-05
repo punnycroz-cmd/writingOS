@@ -6,7 +6,7 @@ Bác sĩ ở bệnh viện cựu chiến binh gọi đó là rối loạn nhịp
 
 Ba giờ sáng, phòng làm việc của Viper nồng mùi bụi điện tử và mùi cà phê pha từ tối hôm trước. Kev ngồi trước dàn ba màn hình, co chân lên ghế, một gói khoai tây chiên vị phô mai mở dở bên cạnh bàn phím. Anh không định mang nó theo đâu, nó cứ tự nằm sẵn trong túi xách lúc anh rời nhà thôi.
 
-Con hạc giấy xám đậu trên đỉnh màn hình giữa, cánh gập lại, mắt tắt. Từ hôm tới Ashgrove anh đã để nó ở chế độ ngủ, Echo của Viper và Lin cũng vậy. Hai năm trước Lin đã sửa phần lõi của chúng để chúng không gửi gì về máy chủ khi ở trong Tổ Quạ, và trong những người Kev quen thì Lin là người giỏi nhất về khoản đó. Nhưng Kev từng làm việc trong một tòa nhà nơi người ta dùng Echo để theo dõi chính lính của mình. Anh không tin là chúng ngủ thật, anh chỉ tin là chúng đang bị cấm nói thôi.
+Con hạc giấy xám đậu trên đỉnh màn hình giữa, cánh gập lại, mắt tắt. Từ hôm tới Ashgrove anh đã để nó ở chế độ ngủ, Echo của Viper và Linh cũng vậy. Hai năm trước Linh đã sửa phần lõi của chúng để chúng không gửi gì về máy chủ khi ở trong Tổ Quạ, và trong những người Kev quen thì Linh là người giỏi nhất về khoản đó. Nhưng Kev từng làm việc trong một tòa nhà nơi người ta dùng Echo để theo dõi chính lính của mình. Anh không tin là chúng ngủ thật, anh chỉ tin là chúng đang bị cấm nói thôi.
 
 Màn hình bên trái mở hồ sơ giải Vanguard ba năm gần đây, màn hình giữa là bản hợp đồng của Elias chụp lại từng trang, màn hình bên phải chạy một chương trình Kev tự viết, quét toàn bộ lưu lượng mạng quanh ngôi nhà này suốt bốn mươi tám tiếng qua để tìm xem có thứ gì không thuộc về nơi này.
 
@@ -36,7 +36,7 @@ Chẳng có người đàn ông áo khoác dạ nào, cũng chẳng có lon nư�
 
 Thay vào đó là những chuyện vặt vãnh, mỗi chuyện đứng riêng ra thì chẳng có gì đáng nói.
 
-Tháng Ba năm 2022, Echo của Elias, con quạ tên Than, bắt đầu gợi ý cho anh xem một loạt video về liệu pháp tái cấu trúc ký ức. Kev tìm thấy dấu vết của chuyện đó trong nhật ký trò chuyện, chỗ Elias càu nhàu với Lin rằng "con quạ cứ bật mấy cái video bác sĩ".
+Tháng Ba năm 2022, Echo của Elias, con quạ tên Than, bắt đầu gợi ý cho anh xem một loạt video về liệu pháp tái cấu trúc ký ức. Kev tìm thấy dấu vết của chuyện đó trong nhật ký trò chuyện, chỗ Elias càu nhàu với Linh rằng "con quạ cứ bật mấy cái video bác sĩ".
 
 Tháng Chín năm 2022, Elias đổi bác sĩ tâm lý. Bác sĩ mới tên là Pruitt, nằm trong mạng lưới phòng khám liên kết của Halloway, do Echo "đề xuất dựa trên thói quen ngủ của bạn".
 

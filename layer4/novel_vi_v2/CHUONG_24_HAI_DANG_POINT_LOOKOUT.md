@@ -60,7 +60,7 @@ Lena đứng giữa phòng nhìn chiếc giường xếp trong góc.
 
 Cô bước tới. Cái chăn được gấp theo kiểu của Corwin, không vuông vức như trong quân đội, mà cuộn tròn từ một đầu như cái bánh cuộn. Ở nhà anh cũng gấp chăn đúng kiểu ấy, và suốt bốn năm trời cô đã càm ràm anh về chuyện đó.
 
-Trên gối có một cuốn sổ. Không phải cuốn sổ bìa da mà cô đã đọc hàng chục lần, mà là một cuốn khác nhỏ hơn, bìa vải màu xanh rêu, loại sổ mà bác Thomas hay dùng, gáy sổ đã sờn cả.
+Trên gối có một cuốn sổ nhỏ bìa vải màu xanh rêu, loại sổ mà bác Thomas hay dùng, gáy đã sờn cả. Cô chưa từng thấy nó bao giờ.
 
 Cô cầm nó lên.
 

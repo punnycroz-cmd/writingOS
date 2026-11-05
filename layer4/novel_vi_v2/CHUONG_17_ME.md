@@ -134,7 +134,7 @@ Cô bé co rúm người lại. Người của viện, mặc đồ đen, có sú
 
 Ánh đèn dừng lại trên mặt cô bé.
 
-"Chúa ơi," một giọng đàn ông thốt lên. Không phải giọng của người trong viện, mà là một giọng khàn khàn, hơi mang âm miền Nam, và đầy hoảng hốt. "Chúa ơi, một đứa bé."
+"Chúa ơi," một giọng đàn ông thốt lên. Đó là một giọng lạ, chẳng giống giọng người nào trong viện, khàn khàn, hơi mang âm miền Nam, và đầy hoảng hốt. "Chúa ơi, một đứa bé."
 
 Một người đàn ông trượt xuống bờ lạch, chẳng chút đắn đo, lội xuống nước tới thắt lưng. Ông mặc áo mưa vàng của cảnh sát, cái loại có sọc phản quang ở tay. Ông gỡ từng ngón tay cô bé ra khỏi rễ cây, nhẹ nhàng, từng ngón một, như gỡ một sợi dây bị rối. Rồi ông bế cô bé lên, ôm chặt vào ngực, cởi áo mưa ra quấn quanh người cô bé, dù trời vẫn đang mưa và lớp áo bên dưới của ông đã ướt sũng.
 
@@ -172,9 +172,9 @@ Cô định nói gì đó về chuyện phải tuân thủ quy trình, nhưng kh
 
 Cô ngồi dậy, tháo vòng cảm biến ra. Tóc cô dính bết vào trán vì mồ hôi, người cô lạnh toát, đúng cái lạnh của nước lạch tháng Mười, dù phòng khách ấm áp và bên ngoài trời đang nắng.
 
-Viper đứng ở cửa bếp, Lin ngồi trên bậc cầu thang ôm gối, Kev đứng sau lưng Lin, tay cầm điện thoại mà chưa bấm số.
+Viper đứng ở cửa bếp, Linh ngồi trên bậc cầu thang ôm gối, Kev đứng sau lưng Linh, tay cầm điện thoại mà chưa bấm số.
 
-"Chị thấy gì ạ?" Lin hỏi, rồi vội lấy tay che miệng. "Em xin lỗi, câu cấm."
+"Chị thấy gì ạ?" Linh hỏi, rồi vội lấy tay che miệng. "Em xin lỗi, câu cấm."
 
 Lena nhìn những ngón tay mình. Chẳng có cái móng nào bị gãy cả.
 

@@ -120,21 +120,21 @@ Nó lộn xộn, nó vô lý. Thân tàu thép rỉ sét vắt ngang ba cành c�
 
 Lena không biết nên cười hay nên khóc, thế là cô làm cả hai một chút.
 
-Lin, giờ đã là cô gái da ánh ngọc trai tai nhọn, nắm tay cô kéo đi. "Để em dẫn chị đi tham quan."
+Linh, giờ đã là cô gái da ánh ngọc trai tai nhọn, nắm tay cô kéo đi. "Để em dẫn chị đi tham quan."
 
-Họ đi khắp Tổ Quạ, Lin chỉ cho cô từng thứ một, miệng nói không ngừng. Bọt, con mèo Echo trắng muốt của Lin, chạy lon ton theo sau, cứ mỗi lần Lin cười là nó lại thổi ra một chuỗi bong bóng. Brisket thì nằm chắn ngang cửa bếp, còn con hạc giấy của Kev thì đậu im lìm trên mũi tàu như một người lính gác.
+Họ đi khắp Tổ Quạ, Linh chỉ cho cô từng thứ một, miệng nói không ngừng. Bọt, con mèo Echo trắng muốt của Linh, chạy lon ton theo sau, cứ mỗi lần Linh cười là nó lại thổi ra một chuỗi bong bóng. Brisket thì nằm chắn ngang cửa bếp, còn con hạc giấy của Kev thì đậu im lìm trên mũi tàu như một người lính gác.
 
-"Echo của chị đâu?" Lin hỏi.
+"Echo của chị đâu?" Linh hỏi.
 
 "Chị tắt nó từ năm năm trước rồi," Lena nói. "Nghề của chị là kiểm tra xem ký ức có bị can thiệp không. Chị không thể làm việc đó khi có một thứ do Halloway viết ra ngồi trên vai, nghe hết mọi điều chị nói." Cô ngừng lại. "Corwin cũng tắt cái của anh ấy. Anh ấy bảo đó là điều duy nhất anh ấy học được từ bố mình: đừng bao giờ để máy móc biết mình đang nghĩ gì."
 
-Lin nhìn chị, rồi gật đầu, nghiêm túc khác thường. "Anh Kev cũng nói y hệt."
+Linh nhìn chị, rồi gật đầu, nghiêm túc khác thường. "Anh Kev cũng nói y hệt."
 
-Đây là phòng chỉ huy, nơi cả đội bàn chiến thuật trước mỗi trận đấu, có một cái bàn tròn làm từ bánh lái tàu, trên trần treo một bản đồ sao mà Kev đã tự tay vẽ từng ngôi sao một, theo đúng bầu trời đêm sinh nhật mẹ anh. Đây là nhà bếp của Viper, nơi chẳng ai ăn được gì thật mà ông ta vẫn cứ nấu, vì *mùi mới là thứ quan trọng nhất*. Còn đây là phòng của Lin, chất đầy những cái máy kỳ quặc chẳng để làm gì ngoài việc phát ra những tiếng kêu vui tai và thả bong bóng xà phòng.
+Đây là phòng chỉ huy, nơi cả đội bàn chiến thuật trước mỗi trận đấu, có một cái bàn tròn làm từ bánh lái tàu, trên trần treo một bản đồ sao mà Kev đã tự tay vẽ từng ngôi sao một, theo đúng bầu trời đêm sinh nhật mẹ anh. Đây là nhà bếp của Viper, nơi chẳng ai ăn được gì thật mà ông ta vẫn cứ nấu, vì *mùi mới là thứ quan trọng nhất*. Còn đây là phòng của Linh, chất đầy những cái máy kỳ quặc chẳng để làm gì ngoài việc phát ra những tiếng kêu vui tai và thả bong bóng xà phòng.
 
 "Em làm mấy cái này để làm gì thế?" Lena hỏi, nhìn một cái máy hình con mèo đang thổi bong bóng từ tai ra.
 
-"Chẳng để làm gì cả." Lin nhún vai. "Ở ngoài kia, cái gì em làm cũng phải có lý do. Thi cho đậu, kiếm việc làm, trả tiền nhà, gửi tiền về cho bố mẹ ở Sài Gòn. Vào đây em mới được làm mấy thứ vô dụng. Hay là hay ở chỗ đó."
+"Chẳng để làm gì cả." Linh nhún vai. "Ở ngoài kia, cái gì em làm cũng phải có lý do. Thi cho đậu, kiếm việc làm, trả tiền nhà, gửi tiền về cho bố mẹ ở Sài Gòn. Vào đây em mới được làm mấy thứ vô dụng. Hay là hay ở chỗ đó."
 
 Lena nhìn cái máy mèo. Một bong bóng lớn bay lên, lấp lánh, rồi vỡ ra thành những ngôi sao bé xíu.
 
@@ -164,7 +164,7 @@ Elias, nãy giờ vẫn im lặng, gật đầu. "Tôi làm."
 
 Kev ghi gì đó lên sơ đồ. "Bắt đầu từ ngày mai. Hết giờ rồi, mọi người thoát ra đi."
 
-Mọi người lần lượt đứng dậy. Lin kéo Viper đi trước, hai người cãi nhau gì đó về công thức làm bỏng ngô. Kev biến mất trong một làn khói xám.
+Mọi người lần lượt đứng dậy. Linh kéo Viper đi trước, hai người cãi nhau gì đó về công thức làm bỏng ngô. Kev biến mất trong một làn khói xám.
 
 Lena nán lại thêm một chút, cô muốn ngắm Tổ Quạ thêm một lần trước khi đi. Cô đi dọc hành lang trong thân tàu, qua những cánh cửa có tên viết bằng phấn: *Viper — CẤM VÀO KHI ĐANG NẤU*, *Lin — NGUY HIỂM — BONG BÓNG*, còn cửa phòng Kev thì không có chữ nào, chỉ dán một con hạc giấy.
 
@@ -174,7 +174,7 @@ Cánh cửa cuối cùng không ghi tên, khép hờ. Lena đẩy cửa bước 
 
 Lena đứng sững ở ngưỡng cửa, tim đập thình thịch.
 
-"Ổng vẽ suốt đấy," giọng Lin vang lên sau lưng cô, rất khẽ. Cô gái đã quay lại từ lúc nào không biết. "Cứ mỗi lần thua trận, mỗi lần không ngủ được là ổng vào đây vẽ, ba năm rồi. Tụi em hỏi ổng vẽ cái gì, ổng bảo không biết, tay ổng tự vẽ."
+"Ổng vẽ suốt đấy," giọng Linh vang lên sau lưng cô, rất khẽ. Cô gái đã quay lại từ lúc nào không biết. "Cứ mỗi lần thua trận, mỗi lần không ngủ được là ổng vào đây vẽ, ba năm rồi. Tụi em hỏi ổng vẽ cái gì, ổng bảo không biết, tay ổng tự vẽ."
 
 Lena bước vào phòng, đặt tay lên tường, lên một hình vẽ cánh cửa số *1* mà nét than đã nhòe đi vì bị vẽ đè quá nhiều lần.
 

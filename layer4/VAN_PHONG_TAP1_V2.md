@@ -23,6 +23,7 @@
   - Elias và Maren xưng "tôi" với nhau cho tới Ch.23. Sau đó, lúc riêng tư, họ xưng "tớ/cậu".
   - Viper xưng "tao/mày" với Elias.
   - Lin gọi Elias là "ổng" hoặc "anh Eli".
+- **Tên Lin/Linh:** trước Ch.12, lời kể gọi cô là "Lin" (tên trong game, Elias chỉ biết thế). Từ Ch.12, sau khi chương của chính cô mở ra bằng tên thật Nguyễn Hoài Linh, lời kể luôn gọi là "Linh". Trong lời thoại, Elias, Kev, Viper vẫn gọi "Lin"; Lena/Maren gọi "Linh". Biển tên, giấy nhắn do người khác viết giữ nguyên "Lin".
 - **Đơn vị:** km, m, kg, °C.
 
 ## 3. Tật lặp đã thấy trong bản nháp (để tránh lặp lại máy móc)
