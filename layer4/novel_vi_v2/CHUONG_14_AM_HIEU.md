@@ -2,182 +2,160 @@
 
 Lena không ngủ được.
 
-Cô nằm trên chiếc giường đơn trong phòng khách, nhìn lên trần nhà, nơi cây đèn ngủ hình mặt trăng của Rosie hắt lên một quầng sáng tròn màu kem. Đồng hồ trên tủ đầu giường chỉ mười hai giờ bốn mươi. Cô đã nằm thế này hai tiếng.
+Cô nằm trên chiếc giường đơn trong phòng khách, nhìn lên trần nhà nơi cây đèn ngủ hình mặt trăng của Rosie hắt lên một quầng sáng tròn màu kem. Đồng hồ trên tủ đầu giường chỉ mười hai giờ bốn mươi, cô đã nằm như thế hai tiếng rồi.
 
-Ngón tay cô gõ lên mép chăn. Ba nhanh, hai chậm. Cô dừng lại. Năm giây sau, chúng lại gõ.
+Ngón tay cô gõ lên mép chăn, ba nhanh, hai chậm. Cô bắt nó dừng lại, được năm giây thì nó lại gõ.
 
-Hai mươi năm nay cô vẫn làm vậy. Trong những cuộc họp căng thẳng. Trong phòng xử án lúc đợi luật sư hỏi. Trong những đêm Corwin đi công tác xa và căn hộ trở nên quá im lặng. Cô chưa bao giờ hỏi vì sao. Một thói quen thì cần gì lý do.
+Hai mươi năm nay cô vẫn làm vậy, trong những cuộc họp căng thẳng, trong phòng xử án lúc chờ luật sư hỏi, trong những đêm Corwin đi công tác xa và căn hộ trở nên im ắng quá. Cô chưa bao giờ tự hỏi vì sao, một thói quen thì cần gì lý do.
 
-Giờ cô biết lý do. Và cô ước gì mình không biết.
+Giờ thì cô biết lý do rồi, và cô không biết phải làm gì với nó. Một mảnh ký ức được trả lại mà chẳng kèm theo hướng dẫn sử dụng nào, chẳng biết nó vừa với chỗ nào trong cuộc đời cô.
 
-Không, không phải vậy. Cô không ước như vậy. Cô chỉ không biết phải làm gì với nó. Một mẩu ký ức trả về không kèm theo hướng dẫn sử dụng. Không biết nó vừa với chỗ nào trong cuộc đời cô. Cô nhắm mắt.
-
-Và lần này, khi bóng tối sau mí mắt đặc lại, có thứ gì đó trồi lên.
+Cô nhắm mắt lại. Và lần này, khi bóng tối sau mí mắt đặc dần, có một thứ trồi lên.
 
 ---
 
-Một căn phòng trắng. Một chiếc giường sắt. Một cái bàn gắn vào tường. Một hộp bút sáp màu.
+Một căn phòng trắng, một chiếc giường sắt, một cái bàn gắn vào tường, một hộp bút sáp màu.
 
-Cô bé ngồi xếp bằng trên giường, một tờ giấy đặt trên đùi, đang vẽ. Một con cá voi. Màu xanh. Cô bé vẽ con cá voi đang bay giữa những đám mây, vì ở đây không có biển.
+Cô bé ngồi xếp bằng trên giường, tờ giấy đặt trên đùi, đang vẽ một con cá voi màu xanh bay giữa những đám mây, vì ở đây chẳng có biển.
 
-Bên kia tường có tiếng động. Tiếng cửa mở, tiếng chân, tiếng cửa đóng, tiếng khóa xoay. Cậu bé đã về.
+Bên kia tường có tiếng động, tiếng cửa mở, tiếng chân, tiếng cửa đóng, tiếng khóa xoay. Cậu ấy về rồi.
 
-Cô bé đặt bút sáp xuống. Lắng nghe. Không có tiếng gì cả. Cậu bé luôn im lặng khi mới về. Cô bé biết vì sao. Sau những buổi "kiểm tra" ở tầng dưới, đầu óc người ta trở nên trống rỗng, như một căn nhà vừa bị dọn sạch đồ. Phải mất một lúc mới biết mình đang ở đâu.
+Cô bé đặt bút sáp xuống lắng nghe. Không có tiếng gì cả, lúc mới về cậu ấy lúc nào cũng im lặng. Cô bé biết vì sao: sau những buổi "kiểm tra" ở tầng dưới, đầu óc người ta trống rỗng như một căn nhà vừa bị dọn sạch đồ đạc, phải mất một lúc mới biết mình đang ở đâu.
 
-Cô bé bò tới bức tường, áp lòng bàn tay lên đó. Và gõ.
+Cô bé bò tới bức tường, áp lòng bàn tay lên rồi gõ, ba nhanh, hai chậm.
 
-Ba nhanh. Hai chậm.
+Chính cô bé là người nghĩ ra nhịp gõ này. Cô bé nhớ rõ cái ngày ấy, lâu lắm rồi, có lẽ cả năm trời, trong cái thế giới không có lịch này. Cậu ấy mới được chuyển sang phòng bên cạnh, và đêm đầu tiên cậu ấy khóc, rất khẽ, cố nén để không ai nghe thấy. Nhưng tường mỏng lắm, cô bé nghe thấy hết.
 
-Cô bé đã nghĩ ra nhịp này. Cô bé nhớ rõ ngày đó, cách đây lâu lắm rồi, có lẽ một năm, trong cái thế giới không có lịch này. Cậu bé mới được chuyển tới phòng bên cạnh. Đêm đầu tiên cậu khóc, rất khẽ, cố nén để không ai nghe thấy. Nhưng tường mỏng. Cô bé nghe thấy.
+Cô bé đã gõ lên tường, chẳng có nghĩa gì cả, chỉ để cậu ấy biết là có người ở bên kia. Cậu ấy nín khóc. Đêm hôm sau cô bé lại gõ, đêm hôm sau nữa thì cậu ấy gõ lại. Và dần dần, nhịp gõ ấy trở thành một câu nói: *tớ ở đây*.
 
-Cô bé đã gõ lên tường, không có nghĩa gì cả, chỉ để cậu biết có người ở bên kia. Cậu ngừng khóc. Đêm sau cô bé lại gõ. Đêm sau nữa cậu gõ lại. Và dần dần, nhịp gõ ấy trở thành một từ.
+Bên kia tường, sau một khoảng lặng dài, có tiếng đáp lại, yếu ớt, chậm hơn mọi khi, nhưng đúng nhịp. Cô bé thở phào. Lần nào cô bé cũng nín thở cho tới khi nghe được tiếng gõ ấy.
 
-*Tớ ở đây.*
-
-Bên kia tường, sau một khoảng im lặng dài, có tiếng đáp lại. Yếu, chậm hơn bình thường, nhưng đúng nhịp.
-
-Cô bé thở ra. Cô bé luôn nín thở cho tới khi nghe thấy tiếng gõ ấy.
-
-Rồi cánh cửa phòng cô bé mở ra. Một người phụ nữ bước vào, áo blouse trắng, tóc đen búi gọn, đôi mắt mệt mỏi nhưng dịu dàng. Bà quỳ xuống bên giường. Cô bé nhào vào lòng bà.
+Rồi cửa phòng cô bé mở ra, một người phụ nữ bước vào, áo blouse trắng, tóc đen búi gọn, đôi mắt mệt mỏi nhưng dịu dàng. Bà quỳ xuống bên giường, cô bé nhào vào lòng bà.
 
 *Mẹ.*
 
-Không, không phải mẹ. Ở đây cô bé không được gọi là mẹ. Ở đây phải gọi là *Tiến sĩ Solis*. Có camera. Có người nghe. Nhưng khi chỉ có hai người, khi đèn đã tắt, bà luôn ghé sát tai cô bé và thì thầm: *Con của mẹ.*
+Ở đây cô bé không được gọi là mẹ, ở đây phải gọi là *Tiến sĩ Solis*, vì có camera, có người nghe. Nhưng những lúc chỉ có hai mẹ con, khi đèn đã tắt, mẹ luôn ghé sát tai cô bé thì thầm: *Con gái của mẹ.*
 
-"Hôm nay cậu ấy thế nào ạ?" cô bé hỏi, mặt vùi vào áo blouse của mẹ. "Số Không ấy."
+"Hôm nay cậu ấy thế nào hả mẹ?" cô bé hỏi, mặt vùi vào áo blouse của mẹ. "Số Không ấy."
 
-Người phụ nữ im lặng một lúc. "Cậu ấy mệt. Nhưng không sao."
+Người phụ nữ im lặng một lúc. "Cậu ấy mệt, nhưng không sao đâu."
 
-"Họ lại làm cậu ấy đau à?"
+"Họ lại làm cậu ấy đau ạ?"
 
-"Không đau. Chỉ mệt thôi." Bà vuốt tóc cô bé. "Sao con cứ gọi cậu ấy là Số Không? Cậu ấy có tên mà."
+"Không đau, chỉ mệt thôi." Bà vuốt tóc con. "Sao con cứ gọi cậu ấy là Số Không thế? Cậu ấy có tên mà."
 
-"Con biết. Con thấy trên tấm bảng kẹp hồ sơ của bác Bradley. Vane, Elias." Cô bé ngẩng lên. "Nhưng tên đó dài quá. Với lại không ai gọi cậu ấy bằng tên cả. Ai cũng gọi là Zero."
+"Con biết. Con thấy trên tấm bảng kẹp hồ sơ của chú Bradley, Vane, Elias. Nhưng tên đó dài quá. Với lại có ai gọi cậu ấy bằng tên đâu, ai cũng gọi là Zero hết."
 
-"Thế con muốn gọi là gì?"
+"Thế con muốn gọi cậu ấy là gì?"
 
-Cô bé nghĩ. Rồi cô bé quay lại, áp miệng vào bức tường, và nói to, đủ để bên kia nghe thấy:
+Cô bé nghĩ một lúc, rồi quay lại áp miệng vào tường, nói thật to cho bên kia nghe thấy:
 
 "Eli! Từ giờ tên cậu là Eli! Nghe chưa?"
 
-Một khoảng im lặng. Rồi từ bên kia, rất khẽ, qua lớp gạch:
+Một khoảng lặng, rồi từ bên kia, rất khẽ, qua lớp gạch:
 
 "...Eli."
 
-Như thể cậu bé đang thử nếm cái tên. Như thể cậu chưa bao giờ được ai đặt tên cho mình.
+Như thể cậu ấy đang nếm thử cái tên, như thể chưa từng có ai đặt tên cho cậu ấy bao giờ.
 
-Người phụ nữ cười. Lần đầu tiên trong ký ức này, bà cười, và tiếng cười ấy làm khuôn mặt mệt mỏi của bà sáng lên.
-
----
-
-Lena mở mắt ra trong bóng tối.
-
-Mặt cô ướt. Cô không biết mình đã khóc từ lúc nào. Ngực cô đau, một cơn đau âm ỉ, sâu, như vết bầm dưới xương sườn.
-
-*Mẹ.*
-
-Cô có một người mẹ. Người mẹ ấy có khuôn mặt, có giọng nói, có tiếng cười. Người mẹ ấy gọi cô là *con của mẹ* trong bóng tối, khi không có ai nghe. Hai mươi năm nay cô không biết điều đó.
-
-Cô ngồi dậy. Không thể nằm thêm được nữa.
+Người phụ nữ bật cười. Lần đầu tiên trong ký ức này bà cười, và tiếng cười ấy làm khuôn mặt mệt mỏi của bà sáng bừng lên.
 
 ---
 
-Mái nhà Viper bằng phẳng ở phía sau, chỗ nhà bếp được xây thêm vào. Có một cái thang sắt dựng sát tường. Lena trèo lên, khoác chiếc áo len của bà Rosa cho mượn. Elias đã ở đó.
+Lena mở mắt ra trong bóng tối, mặt ướt đẫm. Cô không biết mình đã khóc từ lúc nào. Ngực cô đau, một cơn đau âm ỉ, sâu, như vết bầm dưới xương sườn.
 
-Anh ngồi ở mép mái, hai chân buông thõng, lưng hơi khom, nhìn lên bầu trời. Ashgrove không có nhiều đèn. Sao rất nhiều.
+Cô có mẹ. Người mẹ ấy có khuôn mặt, có giọng nói, có tiếng cười. Người mẹ ấy gọi cô là *con gái của mẹ* trong bóng tối, lúc không có ai nghe. Vậy mà suốt hai mươi năm cô không hề biết.
 
-Anh quay lại khi nghe tiếng chân cô trên thang. Anh không ngạc nhiên. Như thể anh đã đợi.
+Cô ngồi dậy, không thể nằm thêm được nữa.
+
+---
+
+Mái nhà Viper bằng phẳng ở phía sau, chỗ gian bếp được xây cơi nới thêm, có một cái thang sắt dựng sát tường. Lena trèo lên, khoác chiếc áo len bà Rosa cho mượn.
+
+Elias đã ở đó từ trước. Anh ngồi ở mép mái, hai chân buông thõng, lưng hơi khom, ngước nhìn trời. Ashgrove chẳng có mấy ánh đèn nên sao nhiều vô kể.
+
+Anh quay lại khi nghe tiếng chân cô trên thang, không có vẻ gì ngạc nhiên, như thể anh đã chờ cô.
 
 "Không ngủ được à?" anh hỏi.
 
-"Anh cũng vậy."
+"Anh cũng thế mà."
 
-Cô ngồi xuống cạnh anh, cách một khoảng. Không xa như cái bàn ở phòng chờ. Không gần như lúc anh khoác áo cho cô dưới gầm cầu. Một khoảng vừa đủ.
+Cô ngồi xuống cạnh anh, cách một khoảng, không xa như cái bàn ở phòng chờ, cũng không gần như lúc anh khoác áo cho cô dưới gầm cầu, một khoảng vừa đủ.
 
-Họ ngồi im lặng một lúc. Gió đêm thổi qua tán sồi, xào xạc. Ở đâu đó trong rừng, một con cú kêu.
+Hai người ngồi im lặng một lúc. Gió đêm lùa qua tán sồi xào xạc, đâu đó trong rừng có tiếng cú kêu.
 
-"Tôi nhớ ra một thứ," Lena nói.
+"Tôi nhớ ra một chuyện," Lena nói.
 
-Anh quay sang nhìn cô.
+Anh quay sang nhìn cô, và cô kể cho anh nghe hết: căn phòng trắng, con cá voi bay, nhịp gõ, người phụ nữ mặc áo blouse, câu *con gái của mẹ*, cái tên dài quá. Cô kể nhanh, như sợ nếu dừng lại thì nó sẽ tan biến mất.
 
-Cô kể cho anh nghe. Căn phòng trắng. Con cá voi bay. Nhịp gõ. Người phụ nữ áo blouse. *Con của mẹ.* Cái tên dài quá. Cô kể nhanh, như sợ nếu dừng lại thì nó sẽ tan mất. Khi cô kể tới đoạn *Eli*, anh nhắm mắt lại.
+Khi cô kể tới đoạn *Eli*, anh nhắm mắt lại.
 
-"Tôi nghe thấy tên đó," anh nói. "Ở bệnh viện. Khi vừa tỉnh dậy. Trong ba mươi năm vỡ vụn đó có ai đó gọi tôi bằng một cái tên không phải tên tôi. Tôi tưởng đó là một trong những ký ức lạ." Anh mở mắt. "Là cô."
+"Tôi đã nghe cái tên ấy," anh nói. "Ở bệnh viện, lúc mới tỉnh dậy. Trong ba mươi năm vỡ vụn ấy có ai đó gọi tôi bằng một cái tên không phải tên tôi. Tôi cứ tưởng đó là một trong mấy ký ức lạ." Anh mở mắt ra. "Hóa ra là cô."
 
-Lena gật đầu. Cô không tin được giọng mình lúc này.
+Lena gật đầu, cô không tin nổi giọng mình lúc này.
 
 "Đến lượt tôi," anh nói.
 
-Anh kể cho cô nghe những gì anh thấy trong lần lặn chiều nay. Hành lang, góc nhìn thấp của đứa trẻ, chiếc thẻ đeo cổ đung đưa. Căn phòng với chiếc giường sắt. Đứa trẻ ngồi dưới chân tường. Bài hát ru vọng qua.
+Anh kể cho cô nghe những gì anh thấy trong lần lặn chiều nay: hành lang, tầm mắt thấp của đứa trẻ, tấm thẻ đeo cổ đung đưa, căn phòng có chiếc giường sắt, đứa trẻ ngồi dưới chân tường, bài hát ru vọng qua.
 
-"Cậu bé không sợ," anh nói. "Đó là điều kỳ lạ nhất. Tôi tưởng mình sẽ cảm thấy sợ. Nhưng không. Cậu bé chỉ mệt. Và chờ. Chờ nghe tiếng gõ từ bên kia tường." Anh dừng lại. "Đó là thứ duy nhất cậu bé chờ đợi trong cả ngày."
+"Thằng bé không sợ," anh nói. "Đó là điều lạ nhất. Tôi cứ tưởng mình sẽ thấy sợ, nhưng không. Thằng bé chỉ mệt, và chờ. Chờ nghe tiếng gõ từ bên kia tường." Anh dừng lại. "Đó là thứ duy nhất nó mong chờ trong cả một ngày."
 
-"Tôi cũng vậy," Lena nói. "Trong ký ức của tôi, tôi nín thở cho tới khi nghe thấy tiếng gõ đáp lại."
+"Tôi cũng vậy," Lena nói. "Trong ký ức của tôi, tôi cứ nín thở cho tới khi nghe thấy tiếng gõ đáp lại."
 
-Họ nhìn nhau.
+Hai người nhìn nhau, và lúc ấy cô hiểu ra. Mỗi người chỉ giữ được một nửa. Anh nhớ hành lang, căn phòng số không, cái cảm giác chờ đợi. Cô nhớ căn phòng số một, khuôn mặt của mẹ, cái tên được đặt ra. Nửa của mỗi người đứng một mình thì chẳng có nghĩa gì, ghép lại với nhau mới thành một câu chuyện.
 
-Đó là lúc cô hiểu ra. Mỗi người chỉ giữ một nửa. Anh nhớ hành lang, căn phòng số không, cảm giác chờ đợi. Cô nhớ căn phòng số một, khuôn mặt của mẹ, cái tên được đặt ra. Một nửa của mỗi người không có nghĩa gì nếu đứng một mình. Ghép lại thì mới thành một câu chuyện.
+"Như hai nửa của một tấm ảnh bị xé đôi," cô nói.
 
-"Như hai mảnh của một tấm ảnh bị xé đôi," cô nói.
+"Hay là hai bên của một bức tường."
 
-"Hoặc hai bên của một bức tường."
+Lena bật cười khẽ, rồi im lặng. Tay cô tự tìm tới sợi dây chuyền dưới cổ áo, chạm vào chiếc nhẫn bạc. Elias thấy cử chỉ ấy, nhưng anh không nói gì.
 
-Lena bật cười, khẽ. Cô im lặng. Tay cô tự tìm tới sợi dây chuyền dưới cổ áo, chạm vào chiếc nhẫn bạc.
-
-Elias thấy cử chỉ đó. Anh không nói gì.
-
-"Corwin," cô nói sau một lúc. "Anh ấy hay hỏi tôi về nhịp gõ này. Anh ấy bảo nghe như mã Morse. Anh ấy còn tra thử. Ba chấm hai gạch là số ba. Anh ấy bảo có lẽ hồi nhỏ tôi thích số ba." Cô mỉm cười, nhỏ và buồn. "Anh ấy luôn tìm cách giải thích mọi thứ. Đó là bản chất của anh ấy. Một nhà báo. Anh ấy không chịu nổi khi có thứ gì đó không có câu trả lời."
+"Corwin hay hỏi tôi về nhịp gõ này lắm," sau một lúc cô nói. "Anh ấy bảo nghe như mã Morse, còn tra thử nữa cơ, ba chấm hai gạch là số ba. Anh ấy bảo chắc hồi nhỏ tôi thích số ba." Cô mỉm cười, một nụ cười nhỏ và buồn. "Cái gì anh ấy cũng phải tìm cách giải thích cho bằng được, bản chất của một nhà báo mà. Anh ấy không chịu nổi khi có chuyện gì đó không có lời giải."
 
 "Anh ấy là người thế nào?"
 
-Cô nghĩ một lúc. "Ồn ào," cô nói. "Anh ấy hay hát trong lúc nấu ăn. Hát dở tệ. Anh ấy đọc báo vào bữa sáng và cãi nhau với tờ báo như thể nó nghe được. Anh ấy không bao giờ biết mình để chìa khóa ở đâu." Cô ngừng lại. "Chúng tôi biết nhau từ nhỏ. Bà Margaret là bạn thân của nhà Daly, nên tôi lớn lên ở hai nhà. Anh ấy là thằng bé hàng xóm hay trêu tôi vì tôi không nói chuyện với ai. Rồi một ngày, chúng tôi hai mươi lăm tuổi, anh ấy mời tôi đi ăn tối, và tôi nhận ra anh ấy đã không trêu tôi từ nhiều năm rồi."
+Cô nghĩ một lúc. "Ồn ào lắm. Nấu ăn thì hát, hát dở tệ. Sáng nào cũng đọc báo rồi cãi nhau với tờ báo như thể nó nghe được ấy. Chẳng bao giờ nhớ mình để chìa khóa ở đâu." Cô ngừng lại. "Bọn tôi biết nhau từ bé. Bà Margaret là bạn thân của nhà Daly, nên tôi lớn lên ở cả hai nhà. Anh ấy là thằng nhóc hàng xóm hay trêu tôi vì tôi chẳng chịu nói chuyện với ai. Rồi một hôm, năm hai mươi lăm tuổi, anh ấy mời tôi đi ăn tối, và tôi mới nhận ra là đã từ lâu lắm rồi anh ấy không còn trêu tôi nữa."
 
-"Anh ấy biết về... chuyện này không? Về Prometheus. Về cô."
+"Anh ấy có biết chuyện này không? Chuyện Prometheus, chuyện về cô ấy?"
 
-"Không." Lena lắc đầu. "Tôi chắc chắn là không. Anh ấy điều tra Halloway vì cái chết của bố anh ấy, không phải vì tôi. Nếu anh ấy biết..." Cô dừng lại. Cô không biết nếu anh biết thì sẽ thế nào. "Bác Thomas đã giữ bí mật với cả con trai mình."
+"Không." Lena lắc đầu. "Tôi chắc chắn là không. Anh ấy điều tra Halloway vì cái chết của bố mình, chứ đâu phải vì tôi. Nếu anh ấy mà biết..." Cô bỏ lửng, cô không biết nếu anh biết thì mọi chuyện sẽ ra sao. "Bác Thomas giữ bí mật với cả con trai mình."
 
-Elias im lặng một lúc. "Anh ấy đã tìm thấy tôi," anh nói. "Trong cuốn sổ. Đối tượng Zero. Anh ấy không biết tôi là ai với cô. Nhưng anh ấy đã tìm thấy tôi trước."
+Elias im lặng một lúc. "Vậy mà anh ấy vẫn tìm ra tôi," anh nói. "Trong cuốn sổ, Đối tượng Zero. Anh ấy không biết tôi là gì của cô, nhưng anh ấy tìm ra tôi trước cả."
 
-"Và anh lại tìm thấy tôi qua ký ức của anh ấy," Lena nói. "Khuôn mặt tôi trong căn bếp. Đó là thứ dẫn anh tới văn phòng tôi."
+"Còn anh thì lại tìm ra tôi qua ký ức của anh ấy," Lena nói. "Khuôn mặt tôi trong căn bếp, chính nó đã dẫn anh tới văn phòng tôi."
 
-Họ cùng im lặng, nghĩ về điều đó. Một vòng tròn kỳ lạ. Ba người, bị nối với nhau bằng những sợi chỉ mà không ai nhìn thấy cho tới bây giờ.
+Cả hai cùng lặng đi nghĩ về điều đó, một vòng tròn kỳ lạ: ba con người bị buộc vào nhau bằng những sợi chỉ mà mãi tới giờ mới có người nhìn thấy.
 
 "Tôi xin lỗi," Elias nói.
 
-"Vì cái gì?"
+"Xin lỗi vì cái gì?"
 
-"Vì đã kéo cô vào chuyện này. Nếu tôi không đến, cô vẫn còn văn phòng. Vẫn còn cuộc sống của mình."
+"Vì đã kéo cô vào chuyện này. Nếu tôi không đến, cô vẫn còn văn phòng, vẫn còn cuộc sống của cô."
 
-"Cuộc sống của một người không biết mình là ai," Lena nói. Cô nhìn lên bầu trời. "Tôi đã dành năm năm nói với mọi người rằng ký ức là lời khai, không phải sự thật. Rằng người ta có thể chân thành tin vào một điều sai. Tôi chưa bao giờ nghĩ người đó là tôi."
+"Cuộc sống của một người không biết mình là ai ấy hả," Lena nói, ngước nhìn trời. "Năm năm nay tôi cứ đi nói với mọi người rằng ký ức chỉ là lời khai chứ không phải sự thật, rằng người ta hoàn toàn có thể thật lòng tin vào một điều sai. Tôi chưa bao giờ nghĩ người đó lại là chính mình."
 
-Gió thổi qua. Chiếc xích đu bằng lốp xe dưới sân đung đưa, kẽo kẹt.
+Gió thổi qua, chiếc xích đu bằng lốp xe dưới sân đung đưa kẽo kẹt.
 
-"Tôi giận," cô nói. "Không phải giận anh. Giận bác Thomas, giận bà Margaret. Hai mươi năm họ để tôi sống trong một câu chuyện bịa. Và tôi cũng biết họ làm vậy để bảo vệ tôi. Tôi biết nếu họ nói thật, có lẽ tôi đã không sống tới bây giờ. Biết vậy mà tôi vẫn giận. Có buồn cười không?"
+"Tôi giận lắm," cô nói. "Không phải giận anh. Tôi giận bác Thomas, giận bà Margaret. Hai mươi năm trời họ để tôi sống trong một câu chuyện bịa. Mà tôi cũng biết họ làm thế là để bảo vệ tôi, biết rằng nếu họ nói thật thì có khi tôi đã chẳng sống được tới bây giờ. Biết thế mà tôi vẫn giận. Buồn cười không?"
 
-"Không," Elias nói. "Tôi cũng giận. Cái nhật ký đó. Hai mươi năm tôi tự trách mình vì một ngọn nến không có thật. Và giờ biết đó là giả, tôi không cảm thấy nhẹ nhõm như tưởng. Tôi chỉ cảm thấy... bị lấy mất. Như có người lấy mất hai mươi năm đau buồn của tôi, mà đó là thứ duy nhất tôi có."
+"Không buồn cười đâu," Elias nói. "Tôi cũng giận. Cái cuốn nhật ký ấy, hai mươi năm tôi tự trách mình vì một ngọn nến chẳng có thật. Giờ biết nó là giả rồi mà tôi chẳng thấy nhẹ nhõm như mình tưởng. Tôi chỉ thấy như bị lấy mất. Như có người lấy mất hai mươi năm đau khổ của tôi, mà đó lại là thứ duy nhất tôi có."
 
-Lena quay sang nhìn anh. Ánh sao rất mờ, chỉ đủ để thấy đường nét gương mặt anh, gò má gầy, đôi mắt nhìn lên trời.
+Lena quay sang nhìn anh. Ánh sao rất mờ, chỉ đủ để cô thấy đường nét gương mặt anh, gò má gầy gò, đôi mắt đang ngước nhìn trời. Anh nói đúng y cái cảm giác của cô, và đó là lần đầu tiên trong đời cô gặp một người hiểu chính xác cô đang cảm thấy gì mà chẳng cần cô phải giải thích.
 
-Cô hiểu chính xác anh đang nói gì. Đó là lần đầu tiên trong đời cô gặp một người hiểu chính xác cảm giác của cô mà không cần cô giải thích.
+Ngón tay cô gõ lên mái nhà, ba nhanh, hai chậm. Lần này cô biết mình đang gõ. Một giây sau, ngón tay anh gõ lại bên cạnh tay cô.
 
-Ngón tay cô gõ lên mái nhà. Ba nhanh, hai chậm. Lần này cô biết mình đang gõ.
+Họ không nhìn nhau, họ chỉ ngồi đó ngắm sao.
 
-Một giây sau, ngón tay anh gõ lại, bên cạnh tay cô. Ba nhanh, hai chậm.
+"Lạnh rồi," một lúc lâu sau Lena nói. "Mai còn phải lặn tiếp. Anh đi ngủ đi."
 
-Họ không nhìn nhau. Họ chỉ ngồi đó, nhìn sao.
+"Cô cũng thế."
 
-"Lạnh rồi," Lena nói sau một lúc. "Mai còn lặn tiếp. Anh nên ngủ đi."
+Cô đứng dậy, phủi áo, bước về phía cái thang. Tới mép mái, cô dừng lại, quay đầu.
 
-"Cô cũng vậy."
+"Ngủ ngon nhé, Eli."
 
-Cô đứng dậy, phủi áo, bước về phía cái thang. Ở mép mái, cô dừng lại, quay đầu.
+Cái tên rơi ra khỏi miệng cô trước khi cô kịp nghĩ. Cô đứng sững lại, anh cũng vậy, quay đầu nhìn cô, mắt mở to trong bóng tối. Không ai nói gì, con cú trong rừng lại kêu lên hai tiếng.
 
-"Ngủ ngon, Eli."
+Lena quay người, trèo xuống thang thật nhanh, không ngoái lại.
 
-Cái tên rơi ra khỏi miệng cô trước khi cô kịp nghĩ.
-
-Cô đứng sững. Anh cũng vậy, quay lại nhìn cô, đôi mắt mở to trong bóng tối.
-
-Không ai nói gì. Gió thổi qua. Con cú trong rừng lại kêu, một lần, hai lần. Lena quay người, trèo xuống thang thật nhanh, và không ngoảnh lại.
-
-Trên mái nhà, Elias ngồi một mình rất lâu, nhìn bàn tay mình, nơi những ngón tay vẫn còn đặt ở tư thế vừa gõ.
+Trên mái nhà, Elias ngồi một mình rất lâu, nhìn xuống bàn tay mình, những ngón tay vẫn còn để nguyên ở tư thế vừa gõ.
