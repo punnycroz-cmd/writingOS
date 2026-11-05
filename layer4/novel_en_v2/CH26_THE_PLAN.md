@@ -105,7 +105,7 @@ Lena read the line, and Kev saw her hand tighten on the edge of the table.
 
 The plan was drawn on the back of an old nautical chart that Viper turned over. Kev drew it in ballpoint: straight lines, arrows, timestamps crammed into the margins.
 
-Mnemosyne, the real server, wasn't at Halloway headquarters on Fifth Avenue. It was inside a Layer 3 fortress, a simulated space running on military hardware somewhere on the mainland. The cable branch running from the seabed relay node to the mainland was one of only three ways in.
+Mnemosyne, the real server, was nowhere near Halloway headquarters on Fifth Avenue. It lived inside a Layer 3 fortress, a simulated space running on military hardware somewhere on the mainland. The cable branch running from the seabed relay node to the mainland was one of only three ways in.
 
 "The night of the fourteenth, 11:45," Kev said. "Fifteen minutes before Somnia 5.0 auto-updates for three hundred million people. Their system will be putting everything into the launch. Their defenses will be at their thinnest."
 

@@ -136,7 +136,7 @@ She didn't turn around. She knew that if she turned around, she would see it. Fo
 
 But Elias had turned. She knew because his hand pulled her around with him.
 
-Through the crack, the light wasn't nameless anymore. It was the orange of fire thrown against concrete walls. A corridor, red alarm lights spinning, a steel door, and two children in white cotton clothes, one printed with a zero and one with a one, running hand in hand toward a vent grate someone had already taken off.
+Through the crack, the nameless light had turned the orange of fire thrown against concrete walls. A corridor, red alarm lights spinning, a steel door, and two children in white cotton clothes, one printed with a zero and one with a one, running hand in hand toward a vent grate someone had already taken off.
 
 His memory. Her memory. For the first time, not two halves anymore. One.
 

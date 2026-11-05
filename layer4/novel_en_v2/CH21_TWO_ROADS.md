@@ -220,7 +220,7 @@ The world began to darken from the edges in, like an eye closing.
 
 He heard Viper dialing, the phone ringing once, twice.
 
-"Lena." Viper's voice wasn't deep anymore. It was thin and high, like someone else's. "Lena, I'm sorry. I tried. He did it himself. He went down on his own. I can't pull him up—"
+"Lena." All the depth had gone out of Viper's voice. It came out thin and high, like someone else's. "Lena, I'm sorry. I tried. He did it himself. He went down on his own. I can't pull him up—"
 
 A pause. Her voice on the other end, tiny. He couldn't make out a word.
 

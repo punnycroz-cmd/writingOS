@@ -90,7 +90,7 @@ Lena stood up from behind the console. Her legs were shaking so badly she had to
 
 "Don't thank me yet." Nyx's voice changed, losing some of its dryness. "Look at Vane's waveform, Doc."
 
-Lena turned to the screen. Elias's orange waveform wasn't rising slowly anymore. It was climbing, the peaks shooting up sharp as saw teeth, and along the edge of the screen a number was turning red:
+Lena turned to the screen. Elias's orange waveform had stopped rising slowly. It was climbing now, the peaks shooting up sharp as saw teeth, and along the edge of the screen a number was turning red:
 
 > `[INTRACRANIAL PRESSURE: 38 mmHg — OVER THRESHOLD]`
 

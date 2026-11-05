@@ -112,7 +112,7 @@ Viper nodded. "You were the best I ever saw in Vanguard. Read a map like a book.
 
 "Mice don't eat cheese puffs."
 
-Lin burst out laughing, a clear, sudden peal, and Elias realized he was laughing too. The joke wasn't that funny. It was just that something warm was rising in his chest, something he didn't have a name for. These three bickered like siblings, and they had kept a seat at this table empty for him for eleven days.
+Lin burst out laughing, a clear, sudden peal, and Elias realized he was laughing too. The joke wasn't even that funny. Something warm was rising in his chest, something he didn't have a name for. These three bickered like siblings, and they had kept a seat at this table empty for him for eleven days.
 
 He didn't remember them, but he thought maybe he could learn them again.
 

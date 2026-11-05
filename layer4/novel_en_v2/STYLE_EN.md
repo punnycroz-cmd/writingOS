@@ -30,7 +30,7 @@ This is the English edition of *Cái Tên Còn Sống Sót*, Book 1 (v2, 36 chap
 - **Vietnamese pronoun shift (tôi → tớ/cậu at Ch.23).** English cannot mark this with pronouns. Mark it instead through register:
   - Before Ch.23, Lena and Elias are careful with each other and use full names and professional distance.
   - From Ch.23, in private they talk like two kids through a wall: plain, teasing, no titles.
-  - Lena says "Eli" only at breaking points: a slip at the end of Ch.14, and once inside the dive in Ch.22. The full, deliberate use is the shout in Ch.33.
+  - Lena says "Eli" sparingly: a slip at the end of Ch.14, inside the dive in Ch.22, quietly before the battle in Ch.28. The full, deliberate use is the shout across the threshold in Ch.33.
 
 ## Glossary
 | Vietnamese | English |

@@ -186,7 +186,7 @@ They ate chili sitting cross-legged on the concrete floor, with plastic spoons a
 
 Lena sat next to Elias, not close, not far. Now and then, when she reached for bread, their shoulders touched.
 
-She hadn't said she forgave him, and he hadn't apologized again. They both knew it wasn't finished. But it had moved somewhere else. It wasn't between the two of them anymore. It was between the two of them and everything that had been done to them.
+She hadn't said she forgave him, and he hadn't apologized again. They both knew it wasn't finished. But it had moved somewhere else, out from between the two of them, into the space between the two of them and everything that had been done to them.
 
 Lena's phone buzzed on the concrete floor. She looked at the screen and saw the black crescent moon on purple.
 

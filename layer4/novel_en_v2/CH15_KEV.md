@@ -24,7 +24,7 @@ When he woke up, his mother was standing by the bed crying, because he hadn't re
 
 After that he was cut from the program. The paperwork said "failed to meet psychological stability index." He didn't argue. Maybe they were right.
 
-Vanguard wasn't a league. It was a net. The military sponsored the league, companies like Halloway provided the platform, and every season a few dozen of the best players got "invited to a meeting." Kev knew because he had been one of them. Five years later he recognized the man in the wool overcoat in a photo from a defense conference, standing right next to a general.
+Vanguard was a net dressed up as a league. The military sponsored the league, companies like Halloway provided the platform, and every season a few dozen of the best players got "invited to a meeting." Kev knew because he had been one of them. Five years later he recognized the man in the wool overcoat in a photo from a defense conference, standing right next to a general.
 
 So when Elias told them about the contract under his bed, Kev didn't ask *why did Elias agree*. He asked *who got to Elias first*.
 
@@ -70,7 +70,7 @@ In the study, where Elias was asleep on the cot, the signal jumped the moment Ke
 
 Elias was lying on his side facing the wall, one arm hanging off the edge of the cot, asleep like the dead, the sleep of someone completely spent.
 
-Kev stood in the doorway with the laptop, looking at the red dot on the screen. It wasn't in a corner, or at an outlet, or in the computer rig. It was right in the middle of the bed.
+Kev stood in the doorway with the laptop, looking at the red dot on the screen. The dot sat right in the middle of the bed, nowhere near a corner or an outlet or the computer rig.
 
 He took two more steps. The dot darkened. He lowered the laptop to the level of Elias's head. It darkened further.
 

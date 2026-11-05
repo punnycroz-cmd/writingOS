@@ -48,7 +48,7 @@ The noise zone had no bottom.
 
 Elias had been through Layer 2 seven times, so he knew the feeling of sinking into warm water, of seeing the glowing fish of recent memories. This time he let himself sink past them, past the empty dark, past even the white hallway with its two doors, and kept on going down.
 
-Down there the water wasn't water anymore. It was thick, gluey, crowded with things drifting in it: a red bicycle with a basket on the front; a wedding in a church he didn't know, where the bride was crying because her shoes were too tight; an old dog lying dead under a kitchen table; a man in an accounting office at ten at night staring out the window and thinking about running away; a little girl on a school stage who had forgotten the words to her song; a pool table; a hospital; a beach somewhere so hot it burned.
+Down there the water had gone thick and gluey, crowded with things drifting in it: a red bicycle with a basket on the front; a wedding in a church he didn't know, where the bride was crying because her shoes were too tight; an old dog lying dead under a kitchen table; a man in an accounting office at ten at night staring out the window and thinking about running away; a little girl on a school stage who had forgotten the words to her song; a pool table; a hospital; a beach somewhere so hot it burned.
 
 Every memory that slid past left a taste on his tongue, salty, sweet, bitter, metallic. He didn't hold on to any of them, because none of them were his. They belonged to people who had been logged into Halloway's network on August twenty-first at two in the afternoon, when his brain blew apart in Layer 4 and sucked in everything around it like a black hole.
 

@@ -150,4 +150,4 @@ Lena sat like a statue, her hand still lying on the arm of the chair where Marga
 
 *Maren.*
 
-The name wasn't a stranger anymore. It was knocking on a door somewhere very deep inside her, three quick, two slow, and she didn't know whether to open it or lock it tight.
+The name had stopped being a stranger. It was knocking on a door somewhere very deep inside her, three quick, two slow, and she didn't know whether to open it or lock it tight.

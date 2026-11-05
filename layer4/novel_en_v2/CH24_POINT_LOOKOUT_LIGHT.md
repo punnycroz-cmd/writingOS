@@ -1,6 +1,6 @@
 # CHAPTER 24: POINT LOOKOUT LIGHT
 
-The Maine coast in early October had a kind of light Lena had never seen anywhere else. It wasn't gold like autumn sunlight in the city. It was white and thin, like light through tracing paper, and it made everything look farther away than it was.
+The Maine coast in early October had a kind of light Lena had never seen anywhere else. Where autumn sun in the city came in gold, this was white and thin, like light through tracing paper, and it made everything look farther away than it was.
 
 They arrived at nine in the morning on the second, after three days at an empty campground near Portland. The three days were Kev's idea: *The signal's off, but they still know where it last pinged from. Let them spend three days guessing the wrong direction.* For those three days Elias slept almost without stopping, fourteen, sixteen hours at a stretch, as if his body were collecting twenty years of missed sleep. And for those three days Lena took his pulse every four hours and wrote it down in a red notebook she'd bought at a gas station, and told no one that she couldn't sleep either.
 
@@ -76,7 +76,7 @@ Most of the notebook was technical notes. Corwin had never been good at technica
 
 Lena turned the page. Hand-drawn diagrams, strings of numbers, a nautical chart torn out of a fishing guide with a red circle drawn around a spot about eighty nautical miles offshore, where there was nothing but the dark blue of deep water. Beside the circle he had written: *Here. It has to be here.*
 
-Then came the last pages, and the handwriting changed completely. It wasn't careful anymore. It slanted harder, ran faster, like his writing in the leather notebook.
+Then came the last pages, and the handwriting changed completely. The care had gone out of it. It slanted harder, ran faster, like his writing in the leather notebook.
 
 *Feb 6. Read the Zero–One pair file again tonight, tenth time. Can't sleep.*
 

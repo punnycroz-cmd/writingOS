@@ -138,7 +138,7 @@ They sat in silence for a while. Outside, the red light of the buoy kept blinkin
 
 Then Lena began to sing.
 
-Very softly. Her voice wasn't low and rough like her mother's. It was higher, thinner, a little shaky on the low notes. On the third line she got the words wrong, stopped, and started the line over.
+Very softly. Her voice was higher and thinner than her mother's low, rough one, and a little shaky on the low notes. On the third line she got the words wrong, stopped, and started the line over.
 
 *Nana, niña, nana. La nieve cae en el tejado...*
 
