@@ -30,7 +30,7 @@ This is the English edition of *Cái Tên Còn Sống Sót*, Book 1 (v2, 36 chap
 - **Vietnamese pronoun shift (tôi → tớ/cậu at Ch.23).** English cannot mark this with pronouns. Mark it instead through register:
   - Before Ch.23, Lena and Elias are careful with each other and use full names and professional distance.
   - From Ch.23, in private they talk like two kids through a wall: plain, teasing, no titles.
-  - Save "Eli" from Maren's mouth for Ch.33.
+  - Lena says "Eli" once by accident at the end of Ch.14 and catches herself. The deliberate use is Ch.33.
 
 ## Glossary
 | Vietnamese | English |
